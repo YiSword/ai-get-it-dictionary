@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "Gradient Descent",
+  "norm_term": "gradient_descent",
+  "lang": "en",
+  "aliases": ["梯度下降", "梯度下降法", "GD"],
+  "entity_type": "concept",
+  "category": "训练方法",
+  "difficulty": "入门",
+  "explanations": {
+    "plain": "梯度下降是一种让模型“越学越准”的常用方法。它会根据当前错误的方向，逐步调整参数，让损失变小。可以把它理解成在山坡上一步步往最低点走，直到走不动为止。"
+  },
+  "scenario_tags": ["训练", "优化", "入门"],
+  "sources": [
+    {
+      "title": "Gradient descent — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gradient_descent",
+      "type": "doc"
+    }
+  ],
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-16T00:00:00.000Z",
+  "updated_at": "2026-03-16T00:00:00.000Z"
+}
