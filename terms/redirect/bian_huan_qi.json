@@ -1,0 +1,16 @@
+{
+  "entry_kind": "redirect",
+  "term": "变换器",
+  "norm_term": "bian_huan_qi",
+  "lang": "zh",
+  "aliases": ["Transformer", "Transformer模型"],
+  "redirect_to": "transformer",
+  "entity_type": "concept",
+  "category": "模型架构",
+  "difficulty": "中级",
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-16T00:00:00.000Z",
+  "updated_at": "2026-03-16T00:00:00.000Z"
+}
