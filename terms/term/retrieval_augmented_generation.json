@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "Retrieval-Augmented Generation (RAG)",
+  "norm_term": "retrieval_augmented_generation",
+  "lang": "en",
+  "aliases": ["RAG", "检索增强生成", "检索增强问答"],
+  "entity_type": "concept",
+  "category": "数据工程",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "RAG 是一种让大模型“先查资料再回答”的方法。它会先从你的知识库或文档里检索相关内容，再把这些内容提供给模型生成答案。这样能减少胡编乱造，并让回答更贴近你的私有资料。"
+  },
+  "scenario_tags": ["检索", "问答", "知识库"],
+  "sources": [
+    {
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al., 2020)",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "type": "paper"
+    }
+  ],
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-16T00:00:00.000Z",
+  "updated_at": "2026-03-16T00:00:00.000Z"
+}
