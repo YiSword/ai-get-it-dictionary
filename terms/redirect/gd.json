@@ -1,0 +1,16 @@
+{
+  "entry_kind": "redirect",
+  "term": "GD",
+  "norm_term": "gd",
+  "lang": "en",
+  "aliases": ["梯度下降", "Gradient Descent"],
+  "redirect_to": "gradient_descent",
+  "entity_type": "concept",
+  "category": "训练方法",
+  "difficulty": "入门",
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-16T00:00:00.000Z",
+  "updated_at": "2026-03-16T00:00:00.000Z"
+}
