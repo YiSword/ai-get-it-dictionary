@@ -2,9 +2,9 @@
 
 感谢你愿意为 **AI Get It / AI秒懂** 的开源 AI 术语词库贡献内容！
 
-本仓库维护的是「开源词库数据层」：术语基础信息 + 通俗解释（plain）+ 场景标签 + 来源 + 重定向（redirect）。
+本仓库维护的是「开源词库数据层」：术语名称 + 解释（explanations）+ 场景标签 + 来源 + 重定向（redirect）。
 
-> 提示：比喻解释（metaphor）与示例解释（example）属于产品内增值内容，不在本仓库维护。
+> 提示：term 需要维护三段 explanations（plain/metaphor/example）。
 
 ---
 
@@ -188,8 +188,8 @@ Q1：我想新增一个缩写词条（如 GAN），是放在 aliases 还是 redi
 Q2：sources 找不到“官方”来源怎么办？
 - 仍需提供至少 1 条可访问来源；若权威性不足，可先提交 `review_status=seed`，后续再补强。
 
-Q3：plain 里能不能出现很多术语？
-- 尽量避免。plain 的目标是“让小白读懂”，不要用新术语解释新术语。
+Q3：explanations 里能不能出现很多术语？
+- 尽量避免。plain 的目标是“让小白读懂”，不要用术语解释新术语。
 
 ---
 再次感谢你的贡献！
