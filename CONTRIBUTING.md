@@ -58,7 +58,7 @@
 - `term` / `norm_term` / `lang`
 - `aliases`: 0~5 个；无则 `[]`
 - `entity_type` / `category` / `difficulty`
-- `explanations.plain`
+- `explanations`
 - `scenario_tags`: 2~5 个短词
 - `sources`: 至少 1 条，且 URL 可访问
 - `review_status` / `content_source`
@@ -66,7 +66,7 @@
 
 ### 3.2 explanations.plain（通俗解释）写作要求（硬性）
 
-为了保证用户体验一致，`explanations.plain` 必须满足：
+为了保证用户体验一致，`explanations` 必须满足：
 
 - 2~4 句
 - 60~160 字（中文）
