@@ -1,0 +1,16 @@
+{
+  "entry_kind": "redirect",
+  "term": "DPO",
+  "norm_term": "dpo",
+  "lang": "en",
+  "aliases": [],
+  "redirect_to": "direct_preference_optimization",
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "高级",
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-19T10:31:57Z",
+  "updated_at": "2026-03-19T10:31:57Z"
+}

@@ -1,19 +1,21 @@
 {
   "entry_kind": "term",
-  "term": "Low-Rank Adaptation (LoRA)",
+  "term": "Low-Rank Adaptation",
   "norm_term": "low_rank_adaptation",
   "lang": "en",
-  "aliases": ["LoRA", "低秩适配", "参数高效微调"],
+  "aliases": ["LoRA", "低秩适配", "LoRA微调"],
   "entity_type": "concept",
   "category": "训练方法",
-  "difficulty": "高级",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "LoRA 是一种让大模型微调更省钱省显存的技巧。它不直接改动全部参数，而是在关键位置加一小组可训练的“增量参数”，用更少的训练量达到类似效果。你可以把它理解成只改装一小块零件，就让整台机器适应新任务。"
+    "plain": "Low-Rank Adaptation 是一种让大模型低成本微调的方法。它不直接改完整套原始参数，而是额外训练一小组体量更小的参数来表达新能力。这样更省显存和训练成本，也方便在同一个基础模型上切换不同任务版本。",
+    "metaphor": "它好比不给整栋楼重建结构，只在关键接口加几个可拆卸模块，就能让房子适应新的用途。",
+    "example": "比如你想把通用文生图模型改成某种固定画风，只训练 Low-Rank Adaptation 模块就能完成，因为任务差异被压缩进了少量新增参数里。"
   },
-  "scenario_tags": ["微调", "训练", "部署"],
+  "scenario_tags": ["微调", "大模型", "显存优化", "个性化"],
   "sources": [
     {
-      "title": "LoRA: Low-Rank Adaptation of Large Language Models (Hu et al., 2021)",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models - arXiv",
       "url": "https://arxiv.org/abs/2106.09685",
       "type": "paper"
     }
@@ -21,6 +23,6 @@
   "review_status": "seed",
   "content_source": "ai_generated",
   "hit_count": 0,
-  "created_at": "2026-03-16T00:00:00.000Z",
-  "updated_at": "2026-03-16T00:00:00.000Z"
+  "created_at": "2026-03-18T12:55:23.269Z",
+  "updated_at": "2026-03-19T09:01:00.000Z"
 }

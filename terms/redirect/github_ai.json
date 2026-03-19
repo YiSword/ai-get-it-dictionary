@@ -1,0 +1,16 @@
+{
+  "entry_kind": "redirect",
+  "term": "GitHub AI 助手",
+  "norm_term": "github_ai",
+  "lang": "zh",
+  "aliases": [],
+  "redirect_to": "github_copilot",
+  "entity_type": "product",
+  "category": "产品概念",
+  "difficulty": "入门",
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-19T10:31:57Z",
+  "updated_at": "2026-03-19T10:31:57Z"
+}

@@ -1,0 +1,32 @@
+{
+  "entry_kind": "term",
+  "term": "Hallucination Regression",
+  "norm_term": "hallucination_regression",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "安全与对齐",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Hallucination Regression 主要和 AI 的风险、边界或治理有关，帮助人们理解模型为什么会出错、失控，或带来不符合预期的结果。它不仅是技术问题，也关系到产品设计和使用习惯。对初学者来说，理解这类概念能减少对 AI 的误判。",
+    "metaphor": "它像给 AI 系统装上护栏和告警规则，帮助人们更早发现风险，而不是等出事后再补救。",
+    "example": "比如团队在上线 AI 功能前评估误答、泄露或越权风险时，就需要理解 Hallucination Regression，因为它会直接影响系统是否可靠可控。"
+  },
+  "scenario_tags": [
+    "安全",
+    "风险",
+    "治理"
+  ],
+  "sources": [
+    {
+      "title": "Hallucination Regression - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hallucination_Regression",
+      "type": "glossary"
+    }
+  ],
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-19T10:20:59Z",
+  "updated_at": "2026-03-19T10:20:59Z"
+}

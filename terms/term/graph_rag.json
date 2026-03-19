@@ -1,0 +1,32 @@
+{
+  "entry_kind": "term",
+  "term": "Graph RAG",
+  "norm_term": "graph_rag",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "数据工程",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Graph RAG 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
+    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
+    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Graph RAG，因为它和系统效果、结构设计或用户体验有直接关系。"
+  },
+  "scenario_tags": [
+    "检索",
+    "知识库",
+    "数据处理"
+  ],
+  "sources": [
+    {
+      "title": "Graph RAG - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Graph_RAG",
+      "type": "glossary"
+    }
+  ],
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-19T10:20:59Z",
+  "updated_at": "2026-03-19T10:20:59Z"
+}

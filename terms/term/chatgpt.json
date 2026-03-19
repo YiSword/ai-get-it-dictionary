@@ -1,0 +1,36 @@
+{
+  "entry_kind": "term",
+  "term": "ChatGPT",
+  "norm_term": "chatgpt",
+  "lang": "en",
+  "aliases": [
+    "OpenAI聊天机器人",
+    "GPT聊天"
+  ],
+  "entity_type": "product",
+  "category": "产品概念",
+  "difficulty": "入门",
+  "explanations": {
+    "plain": "ChatGPT 是用户在真实使用中高频会接触到的 AI 产品或服务。它通常把模型能力包装成聊天、搜索、写作、编码或生成内容等具体功能，因此比底层技术词更容易直接感知。理解它的定位，有助于分辨不同 AI 产品各自擅长什么。",
+    "metaphor": "它就像一个已经包装好的 AI 工具箱，用户不需要知道所有底层原理，也能直接拿来完成具体任务。",
+    "example": "比如你让它帮你写邮件、总结会议纪要或解释一个陌生概念，这就是 ChatGPT 最典型的使用场景，因为它面向的就是通用对话和内容生成。"
+  },
+  "scenario_tags": [
+    "对话",
+    "写作",
+    "问答",
+    "办公"
+  ],
+  "sources": [
+    {
+      "title": "ChatGPT - OpenAI",
+      "url": "https://openai.com/chatgpt/overview/",
+      "type": "doc"
+    }
+  ],
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-19T09:23:37Z"
+}

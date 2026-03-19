@@ -1,0 +1,32 @@
+{
+  "entry_kind": "term",
+  "term": "Prompt Template",
+  "norm_term": "prompt_template",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "提示工程",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Prompt Template 是和 AI 交流时常见的一类方法或输入形式，用来更明确地表达任务、限制和输出要求。它会直接影响模型回答的方向、质量和稳定性。对初学者来说，理解它的作用，往往比研究模型参数更能立刻提升使用效果。",
+    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
+    "example": "比如你希望 AI 按固定格式输出结果，或针对某个场景调整语气和步骤时，就会用到 Prompt Template，因为这类任务高度依赖输入表达方式。"
+  },
+  "scenario_tags": [
+    "提问",
+    "写作",
+    "指令"
+  ],
+  "sources": [
+    {
+      "title": "Prompt Template - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Prompt_Template",
+      "type": "glossary"
+    }
+  ],
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-19T10:01:26Z",
+  "updated_at": "2026-03-19T10:01:26Z"
+}

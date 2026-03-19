@@ -1,0 +1,28 @@
+{
+  "entry_kind": "term",
+  "term": "OpenClaw",
+  "norm_term": "openclaw",
+  "lang": "en",
+  "aliases": ["openclaw", "openclaw agent framework"],
+  "entity_type": "tool",
+  "category": "产品概念",
+  "difficulty": "入门",
+  "explanations": {
+    "plain": "OpenClaw 是一个把多种 AI agent、消息通道、自动化能力和设备连接整合在一起的开源框架。它让用户可以通过统一入口管理 session、skills、cron 和 nodes 等能力。对自托管用户来说，它更像一个可扩展的个人 agent 运行层。",
+    "metaphor": "它像一个总控台，把聊天、自动化、设备连接和 agent workflow 接到同一块控制面板上。",
+    "example": "比如你想让 agent 在聊天里接任务、定时提醒、调用本地工具并连接手机节点，OpenClaw 适合这个场景，因为它把这些能力放进同一套运行时里。"
+  },
+  "scenario_tags": ["agent框架", "自动化", "自托管", "多通道"],
+  "sources": [
+    {
+      "title": "openclaw/openclaw - GitHub",
+      "url": "https://github.com/openclaw/openclaw",
+      "type": "github"
+    }
+  ],
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-18T12:55:23.269Z",
+  "updated_at": "2026-03-19T09:01:00.000Z"
+}

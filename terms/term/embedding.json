@@ -1,0 +1,28 @@
+{
+  "entry_kind": "term",
+  "term": "Embedding",
+  "norm_term": "embedding",
+  "lang": "en",
+  "aliases": ["向量表示", "嵌入向量", "Embedding向量"],
+  "entity_type": "concept",
+  "category": "数据工程",
+  "difficulty": "入门",
+  "explanations": {
+    "plain": "Embedding 是把文字、图片或其他对象转换成数字向量的方法。转换后，语义接近的内容在向量空间里通常也更接近，因此更方便做相似度计算。它常用于向量搜索、推荐系统和 RAG 检索。",
+    "metaphor": "它就像给每段内容分配一个地图坐标，意思接近的东西会落在彼此更近的位置。",
+    "example": "比如你在知识库里搜退款规则，系统会先把问题和文档转成 Embedding 再比较距离，因为这样能找到用词不同但意思相近的内容。"
+  },
+  "scenario_tags": ["向量搜索", "检索", "推荐", "语义匹配"],
+  "sources": [
+    {
+      "title": "Embeddings - OpenAI Platform Docs",
+      "url": "https://platform.openai.com/docs/guides/embeddings",
+      "type": "doc"
+    }
+  ],
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-18T12:55:23.269Z",
+  "updated_at": "2026-03-19T09:01:00.000Z"
+}

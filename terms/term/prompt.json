@@ -1,0 +1,28 @@
+{
+  "entry_kind": "term",
+  "term": "Prompt",
+  "norm_term": "prompt",
+  "lang": "en",
+  "aliases": ["提示词", "提问词", "提示语"],
+  "entity_type": "concept",
+  "category": "提示工程",
+  "difficulty": "入门",
+  "explanations": {
+    "plain": "Prompt 是你给 AI 的输入内容，包括问题、指令、背景和要求。AI 的回答质量，往往和 prompt 写得是否清楚直接相关。很多人觉得 AI 不好用，问题不一定在模型本身，而是输入不够具体。",
+    "metaphor": "它像你给助手下任务时说的话，说得越清楚，对方越容易按你的意思把事做对。",
+    "example": "比如你只说帮我写一下，AI 很可能答得很泛；但如果你说帮我写一段发给客户的通知，语气正式，100字内，结果通常会明显更好。"
+  },
+  "scenario_tags": ["提问", "写作", "指令", "交互"],
+  "sources": [
+    {
+      "title": "Best practices for prompt engineering with the OpenAI API",
+      "url": "https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api",
+      "type": "doc"
+    }
+  ],
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-19T08:50:00.000Z",
+  "updated_at": "2026-03-19T08:50:00.000Z"
+}

@@ -1,0 +1,28 @@
+{
+  "entry_kind": "term",
+  "term": "Context Window",
+  "norm_term": "context_window",
+  "lang": "en",
+  "aliases": ["上下文窗口", "上下文长度", "context length"],
+  "entity_type": "concept",
+  "category": "产品概念",
+  "difficulty": "入门",
+  "explanations": {
+    "plain": "Context Window 指模型一次能同时看到和记住的内容范围，通常按 token 数量衡量。它越大，模型越能处理长文档、长对话和复杂任务。若超出这个范围，前面的内容可能被截断、遗忘，或导致回答质量下降。",
+    "metaphor": "它就像一张工作台，台面越大，能同时摊开的资料越多；台面太小，就只能先把一部分材料挪走。",
+    "example": "比如你把十几页会议纪要发给 AI 分析，如果模型上下文窗口太小，它可能只能看到后半段内容，导致总结不完整。"
+  },
+  "scenario_tags": ["长文本", "对话", "文档分析", "模型限制"],
+  "sources": [
+    {
+      "title": "What is the context window? - Anthropic Support",
+      "url": "https://support.anthropic.com/en/articles/7996856-what-is-the-context-window",
+      "type": "doc"
+    }
+  ],
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-19T08:50:00.000Z",
+  "updated_at": "2026-03-19T08:50:00.000Z"
+}

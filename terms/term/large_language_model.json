@@ -1,0 +1,28 @@
+{
+  "entry_kind": "term",
+  "term": "Large Language Model",
+  "norm_term": "large_language_model",
+  "lang": "en",
+  "aliases": ["LLM", "大语言模型", "大型语言模型"],
+  "entity_type": "concept",
+  "category": "产品概念",
+  "difficulty": "入门",
+  "explanations": {
+    "plain": "Large Language Model 是一种通过大量文本训练出来的 AI 语言模型，擅长理解和生成自然语言。你平时用到的聊天机器人、写作助手、总结工具，很多底层都属于这一类。它不是在真正思考，而是在根据上下文预测更合理的下一段内容。",
+    "metaphor": "它就像一个读过海量资料的文字助手，能快速接话、改写和总结，但不等于真的懂世界上的每件事。",
+    "example": "比如你让 AI 帮你写邮件、改文案或解释概念时，背后通常就是 Large Language Model 在工作，因为这类任务本质上都和语言理解与生成有关。"
+  },
+  "scenario_tags": ["对话", "写作", "摘要", "问答"],
+  "sources": [
+    {
+      "title": "Large language model - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Large_language_model",
+      "type": "glossary"
+    }
+  ],
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-19T08:50:00.000Z",
+  "updated_at": "2026-03-19T08:50:00.000Z"
+}

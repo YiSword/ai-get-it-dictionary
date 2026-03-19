@@ -1,0 +1,16 @@
+{
+  "entry_kind": "redirect",
+  "term": "MoE",
+  "norm_term": "moe",
+  "lang": "en",
+  "aliases": [],
+  "redirect_to": "mixture_of_experts",
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-19T10:31:57Z",
+  "updated_at": "2026-03-19T10:31:57Z"
+}

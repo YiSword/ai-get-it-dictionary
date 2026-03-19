@@ -3,24 +3,26 @@
   "term": "Transformer",
   "norm_term": "transformer",
   "lang": "en",
-  "aliases": ["变换器", "Transformer架构", "自注意力网络"],
+  "aliases": ["Transformer架构", "变换器", "自注意力架构"],
   "entity_type": "concept",
   "category": "模型架构",
-  "difficulty": "中级",
+  "difficulty": "入门",
   "explanations": {
-    "plain": "Transformer 是一种常用的神经网络架构，擅长处理文本等序列信息。它用“注意力”机制决定哪些信息更重要，从而更好地理解上下文。很多聊天机器人和翻译系统的核心能力都建立在它之上。"
+    "plain": "Transformer 是现代大多数 AI 文本模型常用的基础架构，擅长同时处理整段内容中不同词之间的关系。它不像早期方法那样必须一个词一个词顺着看，因此更容易理解上下文。很多今天常见的聊天 AI，底层都建立在这套结构上。",
+    "metaphor": "它好比一个能同时听完整场讨论的人，不只盯着前一句话，而是能把整段内容连起来理解。",
+    "example": "比如聊天机器人在总结长文章时，需要同时参考前后多段信息，这正是 Transformer 发挥作用的地方，因为它擅长处理远距离上下文关系。"
   },
-  "scenario_tags": ["对话", "摘要", "翻译"],
+  "scenario_tags": ["对话", "摘要", "翻译", "文本生成"],
   "sources": [
     {
-      "title": "Attention Is All You Need (Vaswani et al., 2017)",
-      "url": "https://arxiv.org/abs/1706.03762",
-      "type": "paper"
+      "title": "Transformer (deep learning architecture) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)",
+      "type": "glossary"
     }
   ],
   "review_status": "seed",
   "content_source": "ai_generated",
   "hit_count": 0,
-  "created_at": "2026-03-16T00:00:00.000Z",
-  "updated_at": "2026-03-16T00:00:00.000Z"
+  "created_at": "2026-03-19T08:50:00.000Z",
+  "updated_at": "2026-03-19T08:50:00.000Z"
 }

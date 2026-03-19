@@ -1,0 +1,32 @@
+{
+  "entry_kind": "term",
+  "term": "Decision Transformer",
+  "norm_term": "decision_transformer",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "模型架构",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Decision Transformer 是 AI 模型体系中的重要结构或模型类型，决定了模型如何理解输入、组织信息和生成结果。虽然普通用户不会直接训练它，但很多今天常见的 AI 能力都建立在这类结构之上。理解它能帮助你建立更完整的 AI 基础认知。",
+    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
+    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Decision Transformer，因为它和系统效果、结构设计或用户体验有直接关系。"
+  },
+  "scenario_tags": [
+    "AI基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [
+    {
+      "title": "Decision Transformer - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Decision_Transformer",
+      "type": "glossary"
+    }
+  ],
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-19T10:02:59Z",
+  "updated_at": "2026-03-19T10:02:59Z"
+}

@@ -1,0 +1,28 @@
+{
+  "entry_kind": "term",
+  "term": "Model Context Protocol",
+  "norm_term": "model_context_protocol",
+  "lang": "en",
+  "aliases": ["MCP", "模型上下文协议"],
+  "entity_type": "concept",
+  "category": "产品概念",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Model Context Protocol 是一种让 AI 模型更标准化地连接外部工具、数据源和服务的协议。它的目标是减少不同模型和工具之间的对接成本，让同一种能力可以被多个客户端复用。对初学者来说，可以把它理解为 AI 工具连接器的通用接口规范。",
+    "metaphor": "它就像不同电器都能接入同一种插座标准，让工具和模型更容易互相配合。",
+    "example": "比如一个 AI 助手要同时访问本地文件、数据库和网页工具时，使用 Model Context Protocol 可以减少每接一种工具都单独做一套对接的麻烦。"
+  },
+  "scenario_tags": ["工具连接", "协议", "Agent", "自动化"],
+  "sources": [
+    {
+      "title": "Model Context Protocol - Official Docs",
+      "url": "https://modelcontextprotocol.io/introduction",
+      "type": "doc"
+    }
+  ],
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-19T08:50:00.000Z",
+  "updated_at": "2026-03-19T09:01:00.000Z"
+}

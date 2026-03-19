@@ -3,24 +3,26 @@
   "term": "Gradient Descent",
   "norm_term": "gradient_descent",
   "lang": "en",
-  "aliases": ["梯度下降", "梯度下降法", "GD"],
+  "aliases": ["梯度下降", "梯度下降法"],
   "entity_type": "concept",
   "category": "训练方法",
   "difficulty": "入门",
   "explanations": {
-    "plain": "梯度下降是一种让模型“越学越准”的常用方法。它会根据当前错误的方向，逐步调整参数，让损失变小。可以把它理解成在山坡上一步步往最低点走，直到走不动为止。"
+    "plain": "Gradient Descent 是训练模型时最常见的参数优化方法，会根据当前误差的变化方向逐步调整参数，让损失一点点变小。它原理不复杂，但几乎所有现代深度学习训练过程都离不开它或它的变体。",
+    "metaphor": "它像在大雾里下山，每走一步都先找更陡的下坡方向，慢慢靠近谷底。",
+    "example": "比如训练一个图片分类模型时，系统会反复比较预测和真实标签的误差，再用 Gradient Descent 更新参数，因为目标是让整体错误率持续下降。"
   },
-  "scenario_tags": ["训练", "优化", "入门"],
+  "scenario_tags": ["模型训练", "优化", "损失函数", "深度学习"],
   "sources": [
     {
-      "title": "Gradient descent — Wikipedia",
+      "title": "Gradient descent - Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Gradient_descent",
-      "type": "doc"
+      "type": "glossary"
     }
   ],
   "review_status": "seed",
   "content_source": "ai_generated",
   "hit_count": 0,
-  "created_at": "2026-03-16T00:00:00.000Z",
-  "updated_at": "2026-03-16T00:00:00.000Z"
+  "created_at": "2026-03-18T12:55:23.269Z",
+  "updated_at": "2026-03-19T09:01:00.000Z"
 }

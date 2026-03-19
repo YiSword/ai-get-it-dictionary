@@ -1,0 +1,16 @@
+{
+  "entry_kind": "redirect",
+  "term": "SD",
+  "norm_term": "sd",
+  "lang": "en",
+  "aliases": [],
+  "redirect_to": "stable_diffusion",
+  "entity_type": "model",
+  "category": "模型架构",
+  "difficulty": "中级",
+  "review_status": "seed",
+  "content_source": "ai_generated",
+  "hit_count": 0,
+  "created_at": "2026-03-19T10:31:57Z",
+  "updated_at": "2026-03-19T10:31:57Z"
+}
