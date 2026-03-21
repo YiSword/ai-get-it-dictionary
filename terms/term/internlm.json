@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "InternLM",
+  "term": "internlm",
   "norm_term": "internlm",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "InternLM 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 InternLM，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "InternLM 是由上海人工智能实验室主导研发的开源大语言模型系列，涵盖多个参数规模（如 InternLM-7B、InternLM-20B），支持中英双语，具备较强的对话理解、代码生成和逻辑推理能力。它面向开发者和研究者免费开放，提供完整训练代码、数据集和部署工具链。普通用户需要知道它，是因为它代表了中国在大模型自主可控方向的重要进展，也为个人开发者提供了可本地部署、可深度定制的高性能替代方案，无需依赖境外闭源模型。",
+    "metaphor": "就像一个开源的中文母语‘AI学徒’，既虚心学习海量知识，又乐于向所有人公开自己的学习笔记和手艺流程。",
+    "example": "一名高校研究生使用 InternLM-7B 在本地服务器上微调模型，使其能准确解析本校历年《高等数学》期末试题并生成分步解题思路，全程无需联网或调用商业API。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "InternLM - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/InternLM",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:37:27Z"
 }

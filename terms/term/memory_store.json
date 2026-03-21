@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Memory Store",
+  "term": "memory_store",
   "norm_term": "memory_store",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Memory Store 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Memory Store，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "memory_store 是一种将数据临时保存在应用程序内存（RAM）中的存储机制，常用于缓存频繁访问但无需持久化的信息，如用户会话、临时计算结果或配置片段。它读写极快，但进程重启或系统断电后数据即丢失。普通用户虽不直接操作它，但其存在直接影响网页响应速度、登录状态保持和应用流畅度——例如你刷新页面后仍保持登录，背后可能就依赖 memory_store 缓存了会话标识。",
+    "metaphor": "就像厨师把常用调料放在手边的料理台而不是收进橱柜：取用飞快，但收工清台时就全清空了。",
+    "example": "一个 Node.js Web 应用使用 Express-session 配合 memory_store 来暂存用户登录后的 session 数据，确保用户在几分钟内跳转页面时不需重复登录；但服务器重启后所有未持久化的 session 就会失效。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Memory Store - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Memory_Store",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:34:37Z"
 }

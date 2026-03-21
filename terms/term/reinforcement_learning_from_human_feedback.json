@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "reinforcement_learning_from_human_feedback",
+  "norm_term": "reinforcement_learning_from_human_feedback",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Reinforcement Learning from Human Feedback（RLHF）是一种让AI模型通过人类提供的偏好性反馈（例如对两个回答打分或选择更优的一个）来学习如何更好响应的训练方法。它不依赖预先标注的‘标准答案’，而是利用人类的价值判断来引导模型行为。普通用户需要了解它，因为当前许多对话式AI（如智能助手、聊天机器人）的温和性、诚实性和有用性，很大程度上正由RLHF塑造——这意味着我们的反馈（如点赞、点踩、修正回答）正在直接参与训练下一代AI。",
+    "metaphor": "就像教孩子礼貌不是靠背诵教科书，而是通过不断说‘这样说话更让人舒服’并奖励得体表达，逐步培养出符合社会期待的沟通习惯。",
+    "example": "ChatGPT在2022年后的版本中广泛使用RLHF：标注员对同一问题的多个回复按质量排序，这些偏好数据被用来训练奖励模型，再驱动强化学习优化语言生成策略。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T09:30:55Z"
+}

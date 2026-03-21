@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Conversion Rate Prediction",
+  "term": "conversion_rate_prediction",
   "norm_term": "conversion_rate_prediction",
   "lang": "en",
   "aliases": [],
-  "entity_type": "metric",
-  "category": "评测指标",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Conversion Rate Prediction 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Conversion Rate Prediction，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "conversion_rate_prediction（转化率预测）是指利用历史数据和机器学习模型，预估用户在特定场景下完成目标行为（如点击广告、下单购买、注册账号等）的概率。它广泛应用于电商、广告投放和产品运营中，帮助团队提前识别高潜力用户、优化营销预算分配，并提升整体业务效率。普通用户虽不直接建模，但会间接受益于更精准的推荐、更少的无效广告打扰，以及更贴合需求的商品展示。",
+    "metaphor": "就像天气预报预测明天下雨概率一样，转化率预测是给每个用户打一个‘下单可能性分数’，告诉你他有多大概率会在看到商品页后点击购买。",
+    "example": "某电商平台对浏览过某款手机但未下单的用户进行转化率预测，发现其中15%的用户有超过70%的购买概率，于是向他们定向推送限时优惠券，最终使这批用户的实际转化率提升至42%。"
   },
   "scenario_tags": [
-    "评测",
-    "基准",
-    "比较"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Conversion Rate Prediction - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Conversion_Rate_Prediction",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:58:10Z"
 }

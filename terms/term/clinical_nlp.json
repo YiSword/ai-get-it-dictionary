@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Clinical NLP",
+  "term": "clinical_nlp",
   "norm_term": "clinical_nlp",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Clinical NLP 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Clinical NLP，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "clinical_nlp（临床自然语言处理）是专门用于理解和分析医疗健康领域文本的人工智能技术，例如电子病历、医生笔记、检验报告和医学文献。它能从非结构化的临床文本中自动提取关键信息，如疾病诊断、用药记录、症状描述和时间关系。普通用户需要了解它，是因为它正悄然提升医疗服务的效率与准确性——比如帮助医生更快识别高风险患者、减少用药错误，或让患者在隐私合规前提下更便捷地获取个人健康摘要。",
+    "metaphor": "就像一位精通医学术语的速记翻译官，既能读懂医生潦草手写笔记里的关键线索，又能把杂乱无章的病历对话整理成清晰的健康时间线。",
+    "example": "某医院部署clinical_nlp系统后，自动从急诊科的自由文本分诊记录中识别出‘胸痛持续30分钟+出汗+心电图ST段抬高’，实时向心内科发出急性心梗预警，平均抢救响应时间缩短17分钟。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Clinical NLP - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Clinical_NLP",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:32:52Z"
 }

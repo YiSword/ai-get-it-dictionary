@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Entity Linking",
+  "term": "entity_linking",
   "norm_term": "entity_linking",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Entity Linking 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Entity Linking，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "实体链接（entity linking）是指将文本中提到的命名实体（如人名、地名、组织名等）自动关联到知识库中唯一标识的标准化条目上，例如把‘苹果’识别为公司‘Apple Inc.’而非水果。它解决了自然语言中一词多义和指代模糊的问题，是搜索引擎精准返回结果、智能助手准确理解用户意图、新闻分析系统自动构建事件图谱等应用背后的关键技术。普通用户虽不直接接触该过程，但其体验——比如搜索‘特斯拉’时优先显示车企而非物理单位——正依赖于实体链接的准确性。",
+    "metaphor": "就像给每个真实世界的人物或事物发一张独一无二的身份证，让计算机一眼认出‘华盛顿’指的是美国首都，而不是开国总统或州名。",
+    "example": "当用户在新闻App中点击‘乔布斯’时，系统通过实体链接将其指向维基百科中‘Steve Jobs’的权威词条，而非同名的其他人物或无关内容。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Entity Linking - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Entity_Linking",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:09:57Z"
 }

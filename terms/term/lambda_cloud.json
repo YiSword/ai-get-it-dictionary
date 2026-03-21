@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Lambda Cloud",
+  "term": "lambda_cloud",
   "norm_term": "lambda_cloud",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Lambda Cloud 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Lambda Cloud，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "lambda_cloud 是 Lambda Labs 提供的云端 GPU 计算服务平台，专为机器学习训练、推理和高性能计算任务设计。它允许用户按需租用配备高端 NVIDIA GPU（如 A100、H100）的虚拟机实例，无需自行购置和维护硬件。普通用户——尤其是研究人员、开发者和初创团队——需要了解它，因为它大幅降低了 AI 实验的硬件门槛，支持快速迭代模型，且按秒计费的模式比传统云厂商更灵活、更具性价比。",
+    "metaphor": "就像租用专业摄影棚里的顶级相机和灯光设备来拍短片，而不是花几十万元买一套只用几次的器材。",
+    "example": "一位独立开发者正在微调 Llama-3 的 7B 模型，他在 lambda_cloud 上启动一台搭载 4×A100 的实例，2 小时内完成训练后立即释放资源，仅支付约 8 美元。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Lambda Cloud - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Lambda_Cloud",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:59:03Z"
 }

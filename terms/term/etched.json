@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "etched",
+  "norm_term": "etched",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "etched 是动词 etch 的过去分词形式，本义指通过化学腐蚀、激光烧蚀或机械刻划等方式在材料表面留下永久性图案、文字或结构。在技术领域，它常用于描述微电子制造（如芯片光刻）、印刷电路板（PCB）加工、玻璃装饰或金属铭牌制作等过程。普通用户需要了解该术语，是因为它关联着日常设备的核心制造工艺——比如手机处理器的纳米级电路就是‘etched’出来的；理解这个词有助于识别产品工艺水准，或在选购定制化物品（如纪念版刻字钢笔、防伪标签）时准确表达需求。",
+    "metaphor": "就像用刻刀在木头上雕出花纹，etching 是在材料表面‘写入’不可轻易抹去的印记。",
+    "example": "半导体工厂使用氟化氢溶液对硅晶圆进行蚀刻，从而精确形成晶体管之间的绝缘沟道；博物馆展柜的防眩光玻璃也常经过酸蚀处理，使表面呈现细腻磨砂质感。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:28:09Z",
+  "updated_at": "2026-03-21T06:12:05Z"
+}

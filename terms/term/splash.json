@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "splash",
+  "norm_term": "splash",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "splash（启动画面）是指应用程序或操作系统在启动初期短暂显示的全屏图像或动画界面，通常包含品牌标识、版本信息或加载提示。它不提供交互功能，主要作用是提升视觉一致性、缓解用户等待焦虑，并为后台初始化争取时间。普通用户虽不直接操作它，但能通过其存在感知应用是否正常启动，或识别出非官方/篡改版本（如异常logo或延迟过长可能暗示性能问题或恶意软件）。",
+    "metaphor": "就像剧院开幕前缓缓升起的帷幕——它不讲故事，却宣告演出即将开始，并让观众安心落座。",
+    "example": "当你点击手机上的微信图标后，屏幕短暂显示带有白色羽毛和‘WeChat’字样的蓝色圆形动画，持续约1.5秒，随后才进入聊天列表——这就是微信的splash screen。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:49:53Z",
+  "updated_at": "2026-03-21T09:50:40Z"
+}

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Dynamic Analysis",
+  "term": "dynamic_analysis",
   "norm_term": "dynamic_analysis",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Dynamic Analysis 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Dynamic Analysis，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "dynamic_analysis（动态分析）是一种在程序实际运行时检查其行为的技术，通过监控内存使用、函数调用、网络请求、系统调用等实时活动来识别漏洞、恶意行为或性能问题。与静态分析不同，它不依赖源代码或二进制文件的表面结构，而是观察真实执行路径。普通用户虽不直接操作该技术，但其成果广泛影响日常安全——例如杀毒软件实时拦截勒索软件、浏览器阻止恶意脚本执行，都依赖动态分析能力，因此了解它有助于理解为何某些威胁只能在‘运行中’被发现。",
+    "metaphor": "就像医生用实时心电图和血压监测来诊断病人突发性心律失常，而不是仅靠看体检报告照片。",
+    "example": "安全研究人员将可疑下载的PDF文件放入沙箱环境运行，动态分析工具捕获到它悄悄启动cmd.exe并尝试连接C2服务器，从而确认其为恶意文档。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Dynamic Analysis - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dynamic_Analysis",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:57:44Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Meta AI",
+  "term": "meta_ai",
   "norm_term": "meta_ai",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Meta AI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Meta AI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "meta_ai 是 Meta 公司研发的一系列人工智能模型与技术体系的统称，涵盖大语言模型（如 Llama 系列）、多模态模型及面向社交平台（如 Facebook、Instagram、WhatsApp）的 AI 功能。它并非单一产品，而是支撑智能回复、内容生成、图像理解、隐私保护等体验的底层能力集合。普通用户需要了解它，因为其正悄然影响日常交互方式——比如收到更自然的自动回复、看到由 AI 生成的个性化推荐，或在上传照片时被自动打上语义标签，同时也要意识到数据使用与算法偏见等潜在影响。",
+    "metaphor": "就像厨房里看不见却决定每道菜风味的调味中枢，meta_ai 是 Meta 应用背后默默调配信息、语言和视觉体验的智能‘味觉系统’。",
+    "example": "当你在 WhatsApp 中输入‘祝生日快乐！’，meta_ai 可能实时建议更生动的表达或自动生成一张带动画效果的贺卡；在 Instagram 发布一张登山照时，它会自动识别场景、人物情绪并推荐相关话题标签。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Meta AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Meta_AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:36:01Z"
 }

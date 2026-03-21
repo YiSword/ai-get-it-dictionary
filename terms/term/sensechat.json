@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "SenseChat",
+  "term": "sensechat",
   "norm_term": "sensechat",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "SenseChat 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 SenseChat，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "SenseChat 是由 SenseTime（商汤科技）研发的超大规模中文语言模型，专注于理解与生成自然、连贯、富有逻辑的中文对话。它支持多轮交互、知识问答、内容创作、逻辑推理等能力，并针对中文语境、文化习惯和专业领域进行了深度优化。普通用户需要了解它，是因为它正逐步集成到智能办公、教育辅助、客户服务等日常工具中，影响着人们获取信息、解决问题和人机协作的方式。",
+    "metaphor": "就像一位精通中文、熟悉中国社会文化且记忆力超群的资深顾问，既能听懂你话里的潜台词，也能用你熟悉的表达方式给出靠谱建议。",
+    "example": "用户在商汤推出的AI办公助手App中输入‘帮我把这份会议纪要整理成三点核心结论，并用正式邮件语气写成一段话’，SenseChat即时理解意图并生成符合要求的文本。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "SenseChat - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/SenseChat",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:43:13Z"
 }

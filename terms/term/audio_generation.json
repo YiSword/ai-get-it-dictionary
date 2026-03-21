@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Audio Generation",
+  "term": "audio_generation",
   "norm_term": "audio_generation",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Audio Generation 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Audio Generation，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "audio_generation（音频生成）是指利用人工智能模型从文本、图像、代码或其他输入自动创建高质量语音、音乐或环境音效等音频内容的技术。它让普通用户无需专业录音设备或音频制作技能，就能快速生成播客旁白、有声书、个性化铃声甚至配乐。随着AI语音自然度和可控性的提升，这项技术正广泛应用于教育、内容创作、无障碍访问和娱乐领域，普通人可借此提升表达效率、降低创作门槛。",
+    "metaphor": "就像一位全能的‘声音厨师’，只需给你一份菜谱（如文字提示），它就能现场煎炒烹炸出风味各异的音频菜肴（语音、音乐、音效）。",
+    "example": "一位教师用音频生成工具，将课件文字一键转为带情感语调的多语种讲解音频，供学生课后反复收听；或用户输入‘轻松的咖啡馆背景音乐，带轻柔钢琴和雨声’，即时生成一段2分钟原创氛围音轨。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Audio Generation - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Audio_Generation",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:47:38Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "DreamBooth",
+  "term": "dreambooth",
   "norm_term": "dreambooth",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DreamBooth 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 DreamBooth，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Dreambooth 是一种用于微调文本到图像生成模型（如 Stable Diffusion）的技术，它允许用户仅用 3–5 张特定主体（如某只宠物、某个人或某个物品）的图片，就教会模型识别并精确复现该主体在不同场景、风格和姿态下的图像。普通用户需要了解它，是因为它大幅降低了定制化 AI 绘画的门槛——无需编程或大量数据，就能让 AI ‘记住’自己的专属形象或物品，并在提示词中自由调用，适用于个性化头像、电商产品图、艺术创作等实用场景。",
+    "metaphor": "就像给 AI 模型一本只有三页的‘私人相册’，它看完后就能认出这个人，并随时画出他穿宇航服站在巴黎铁塔前的样子。",
+    "example": "一位插画师用自己手绘的 4 张小猫水彩画微调 Stable Diffusion 模型，之后只需输入‘一只戴眼镜的橘猫在咖啡馆写代码’，AI 就能生成高度还原其画风与猫咪特征的图像。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "DreamBooth - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/DreamBooth",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:53:54Z"
 }

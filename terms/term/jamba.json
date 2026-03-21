@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Jamba",
+  "term": "jamba",
   "norm_term": "jamba",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Jamba 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Jamba，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Jamba 是由 AI21 Labs 开发的一款混合架构大语言模型，结合了 Transformer 的稠密层与 Mixture-of-Experts（MoE）稀疏激活机制，在保持高性能的同时显著降低推理成本。它支持长上下文（最长 256K tokens），并针对多步推理、代码生成和复杂指令遵循进行了优化。普通用户需要了解 Jamba，因为它代表了新一代高效、可扩展的 AI 模型方向——意味着未来应用可能更快速、更便宜、更少依赖顶级硬件，从而让智能助手、内容创作工具等更普惠、更实时。",
+    "metaphor": "就像一家智能快递分拣中心：大部分包裹（token）由少数高效专线（活跃专家）快速处理，而非让所有员工（全部参数）同时开工，既提速又省电。",
+    "example": "某开发者使用 Jamba 构建实时法律合同分析工具，输入长达 20 万字的跨国协议文本，模型在 3 秒内完成条款风险识别与跨条款逻辑一致性校验，且部署成本仅为同等性能稠密模型的 40%。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Jamba - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Jamba",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:44:21Z"
 }

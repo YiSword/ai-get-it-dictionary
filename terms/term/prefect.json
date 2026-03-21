@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "prefect",
+  "norm_term": "prefect",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Prefect 是一个开源的现代工作流编排和自动化框架，用于定义、调度、监控和重试数据管道与任务流。它帮助开发者将离散的数据处理步骤（如提取、转换、加载）组织成可复现、可观测、可扩展的工作流。普通用户——尤其是数据工程师、分析师和机器学习从业者——需要了解 Prefect，因为它降低了构建健壮自动化流程的门槛，避免手动脚本的脆弱性，并提供清晰的失败诊断、动态依赖管理与云原生部署能力。",
+    "metaphor": "Prefect 就像一位经验丰富的舞台导演：它不亲自表演，但精确安排每个演员（任务）何时上场、如何互动、出错时怎样重来，确保整场演出（数据流水线）流畅、可靠、可追溯。",
+    "example": "一家电商公司用 Prefect 每日凌晨自动执行数据流水线：先从数据库拉取昨日订单，再调用 Python 函数清洗并计算用户复购率，最后将结果写入 BI 工具；若某步失败（如网络超时），Prefect 自动重试三次并发送 Slack 告警。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:56:48Z",
+  "updated_at": "2026-03-21T09:14:50Z"
+}

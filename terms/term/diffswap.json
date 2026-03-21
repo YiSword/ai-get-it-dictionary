@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "diffswap",
+  "norm_term": "diffswap",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "diffswap 是一种在代码协作与版本控制中使用的优化技术，用于在应用补丁（patch）时智能识别并交换具有语义等价但结构不同的代码块，而非简单按行比对。它扩展了传统 diff 工具的能力，能理解变量重命名、表达式重排或等效重构，从而提高补丁应用成功率和可读性。普通用户（尤其是开发者、代码审查者或 CI/CD 流水线维护者）需要了解它，因为它直接影响代码合并的可靠性、冲突解决效率以及自动化工具（如 GitHub 的 patch 应用、Git 高级合并策略）的行为。",
+    "metaphor": "就像一位精通多种方言的翻译官，diffswap 不死记硬背字面文字，而是听懂说话人想表达的真正意思，再用对方习惯的方式准确转述。",
+    "example": "当开发者将 Python 函数中的 for 循环改写为列表推导式（语义不变但语法结构不同），diffswap 能识别二者等价，在自动应用 PR 补丁时成功合并，而传统 diff 可能误报为冲突。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:19:32Z",
+  "updated_at": "2026-03-21T05:40:28Z"
+}

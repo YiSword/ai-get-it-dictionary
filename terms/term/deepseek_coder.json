@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "deepseek_coder",
+  "norm_term": "deepseek_coder",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "DeepSeek-Coder 是由深度求索（DeepSeek）公司研发的开源代码大语言模型系列，专为程序理解、代码生成、补全、调试和解释等任务优化。它支持多种编程语言，在GitHub等平台上有广泛使用，普通开发者可免费下载、本地部署并用于提升编码效率、学习编程范式或辅助教学。了解它有助于程序员选择高效、可控且无需联网的AI编程工具，尤其在注重数据隐私或离线开发的场景中。",
+    "metaphor": "就像一位精通数十种编程语言、随时待命的资深结对程序员，既能在你敲下几行代码时精准预测下一句，也能帮你逐行解读晦涩的遗留代码。",
+    "example": "一名Python开发者在编写爬虫时遇到requests库的SSL证书错误，将报错信息和相关代码片段输入本地运行的DeepSeek-Coder-33B模型，模型立即定位问题根源并生成修复后的代码及简明解释。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:01:46Z",
+  "updated_at": "2026-03-21T05:29:12Z"
+}

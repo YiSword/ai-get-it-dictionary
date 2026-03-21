@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "CUDA",
+  "term": "cuda",
   "norm_term": "cuda",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CUDA 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 CUDA，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "CUDA（Compute Unified Device Architecture）是 NVIDIA 开发的并行计算平台和编程模型，允许开发者使用 C/C++、Python 等语言直接调用 GPU 的数千个核心执行大规模并行任务。它不是简单的图形加速技术，而是将 GPU 转变为通用高性能计算引擎。普通用户虽不直接编写 CUDA 代码，但其日常使用的 AI 应用（如照片增强、语音助手、游戏实时渲染）、科学计算软件乃至现代深度学习框架（如 PyTorch、TensorFlow）底层都高度依赖 CUDA 加速，因此了解它有助于理解为什么某些任务在配备 NVIDIA GPU 的设备上快得多。",
+    "metaphor": "CUDA 就像给 GPU 配备了一本详细的操作手册和一支训练有素的工人队伍，让原本只擅长画图的‘美术生’（GPU）也能高效完成海量数学题、数据筛选等通用计算工作。",
+    "example": "当使用 Stable Diffusion 生成一张 AI 图像时，其背后的神经网络推理过程由 CUDA 调度，在 NVIDIA 显卡上并行运行数万个计算线程，将原本需数分钟的运算压缩至几秒钟。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "CUDA - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/CUDA",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:07:32Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "acorns",
+  "norm_term": "acorns",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Acorns 是一款美国个人理财应用，主打自动化微投资功能：用户将日常消费金额四舍五入至整数，差额自动转入投资账户并购买ETF等低门槛基金。它不提供股票直接交易或复杂金融工具，而是面向理财新手，通过‘零钱投资’降低参与门槛、培养储蓄习惯。普通用户需要知道它，是因为它用极低的操作成本和认知负担，帮助人们在不改变消费习惯的前提下开始资产积累，尤其适合月光族或对投资有畏难情绪的初学者。",
+    "metaphor": "就像把每天掉在口袋里的硬币自动收集起来，悄悄换成金豆子存进小金库。",
+    "example": "当用户用Acorns绑定信用卡买一杯3.75美元的咖啡时，系统自动将0.25美元差额转入投资账户，并按预设策略买入指数型ETF。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:07:14Z",
+  "updated_at": "2026-03-21T03:17:03Z"
+}

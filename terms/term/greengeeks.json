@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "greengeeks",
+  "norm_term": "greengeeks",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "GreenGeeks 是一家以环保为核心理念的美国网络托管服务提供商，它通过向风能项目购买三倍于其服务器实际用电量的可再生能源证书（RECs）来实现碳中和运营。普通用户需要知道它，是因为选择 GreenGeeks 不仅获得网站托管、WordPress 支持、免费域名和SSL证书等常规服务，还能在不增加操作复杂度的前提下，让自己的网站运行间接支持清洁能源发展，契合日益增长的可持续数字实践需求。",
+    "metaphor": "就像你点一杯咖啡时，店家不仅用可再生材料做杯子，还额外种下三棵树来抵消整条街的碳排放——GreenGeeks 把‘绿色’做到远超基本要求。",
+    "example": "一位独立博主将个人博客迁至 GreenGeeks 托管，无需修改代码或学习新工具，即可在网站页脚显示‘Powered by 100% Renewable Energy’认证徽章，并获得每月碳减排量报告。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:45:55Z",
+  "updated_at": "2026-03-21T06:59:55Z"
+}

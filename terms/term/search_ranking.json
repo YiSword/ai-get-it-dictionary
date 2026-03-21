@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Search Ranking",
+  "term": "search_ranking",
   "norm_term": "search_ranking",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Search Ranking 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Search Ranking，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "search_ranking（搜索排序）是指搜索引擎或应用内部对查询结果按相关性、权威性、时效性等维度进行打分并排列先后顺序的过程。它决定了用户输入关键词后，哪条内容排在第一位、第二位……普通用户需要了解它，因为排名靠前的结果往往获得更多点击和信任，而排名本身并非完全客观，可能受算法偏好、商业推广或用户行为数据影响，理解这一点有助于更批判性地评估信息来源。",
+    "metaphor": "就像图书馆把最热门、最新、最受好评的书放在进门处的黄金展架上，而不是按书名字母顺序均匀排满整个书架。",
+    "example": "当你在电商App搜索‘无线耳机’，销量高、评价好、近期上新的商品会排在前三位，而同款但无销量的老库存商品可能沉到第5页以后——这就是search_ranking在实时起作用。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Search Ranking - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Search_Ranking",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:40:13Z"
 }

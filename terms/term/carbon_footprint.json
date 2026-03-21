@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Carbon Footprint",
+  "term": "carbon_footprint",
   "norm_term": "carbon_footprint",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Carbon Footprint 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Carbon Footprint，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "carbon_footprint（碳足迹）是指个人、组织、活动或产品在其生命周期中直接或间接产生的温室气体排放总量，通常以二氧化碳当量（CO₂e）表示。它涵盖了能源使用、交通、饮食、消费和废弃物处理等多个方面。普通用户需要了解这一概念，因为日常选择——如开车方式、用电习惯、食物类型——都会影响自身碳足迹，进而关联到气候变化的加剧程度；掌握它有助于识别减排机会，做出更可持续的生活决策。",
+    "metaphor": "就像你走路会留下一串脚印，每一次能源消耗和消费行为也会在大气中‘留下’看不见的二氧化碳痕迹，所有这些痕迹加起来，就是你的碳足迹。",
+    "example": "一位上班族选择骑自行车通勤而非开车，一年可减少约1吨二氧化碳排放，相当于将其个人年度碳足迹降低约10%。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Carbon Footprint - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Carbon_Footprint",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:19:49Z"
 }

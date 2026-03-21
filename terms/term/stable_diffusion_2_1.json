@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "stable_diffusion_2_1",
+  "norm_term": "stable_diffusion_2_1",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "stable_diffusion_2_1 是 Stable Diffusion 文本到图像生成模型的一个重要版本，发布于2022年12月，相较于初版（1.x）采用了更大的文本编码器（OpenCLIP ViT-H/14）、更高分辨率的训练（768×768），并移除了对NSFW内容的内置过滤机制，提升了艺术表现力和细节还原能力。普通用户需要了解它，是因为该版本在开源社区中被广泛用于本地部署、插件开发和定制化图像生成，且其权重文件仍被大量教程、UI工具（如AUTOMATIC1111 WebUI）默认支持或作为兼容基准。",
+    "metaphor": "就像一位升级了画笔、颜料和视力的眼科医生画家——Stable Diffusion 2.1 不仅看得更清（更高分辨率训练），还掌握了更丰富的色彩词汇（更强文本编码器），但不再主动帮你涂掉敏感内容（移除默认安全过滤）。",
+    "example": "一位独立插画师在本地运行 Stable Diffusion 2.1，用提示词 'cyberpunk cityscape at dusk, neon reflections on wet asphalt, cinematic lighting' 生成高清概念图，再导入 Photoshop 进行后期精修。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:33:23Z",
+  "updated_at": "2026-03-21T09:52:52Z"
+}

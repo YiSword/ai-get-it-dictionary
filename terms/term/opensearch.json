@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "opensearch",
+  "norm_term": "opensearch",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "OpenSearch 是一个开源的分布式搜索与分析引擎，最初由 Elasticsearch 分支演化而来，用于构建可扩展、高可用的搜索和日志分析系统。它支持全文检索、结构化查询、聚合分析和实时数据处理，广泛应用于网站搜索、应用内搜索、安全信息与事件管理（SIEM）及可观测性平台。普通用户可能不直接接触它，但其背后支撑着许多日常服务的搜索功能——比如电商商品查找、日志故障排查或监控告警系统，了解它有助于理解现代应用中‘快速精准获取信息’的技术基础。",
+    "metaphor": "就像图书馆的智能索引员，不仅能按书名快速找书，还能根据内容关键词、出版年份甚至读者评分组合筛选，并实时更新新上架的书籍。",
+    "example": "一家电商平台使用 OpenSearch 为其网站提供商品搜索功能，用户输入‘防水蓝牙耳机’时，系统在毫秒级内返回匹配结果，并按销量、评分和相关性动态排序。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:14:26Z",
+  "updated_at": "2026-03-21T09:00:47Z"
+}

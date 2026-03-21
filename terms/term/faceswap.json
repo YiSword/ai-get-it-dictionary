@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "faceswap",
+  "norm_term": "faceswap",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "faceswap 是一种数字图像处理技术，通过人工智能（尤其是深度学习模型）将一张图像或视频中某个人的脸部特征精准替换为另一个人的脸部特征，同时保持姿态、光照、表情和运动的一致性。它常用于娱乐、影视后期、虚拟偶像创作等领域，但也因可能被滥用于伪造视频（如虚假新闻、诈骗或诽谤）而引发严重的伦理与法律风险。普通用户需要了解 faceswap，不仅因为它在社交平台上的普及性（如滤镜应用），更因为识别和防范‘深度伪造’内容已成为数字素养的重要组成部分。",
+    "metaphor": "就像把两张照片剪下来，用高精度魔术贴把一张脸严丝合缝地贴到另一张身体上，连皱纹和光影都自动对齐，仿佛天生如此。",
+    "example": "一位短视频创作者使用 faceswap 工具，将自己的脸实时替换成卡通角色的脸，在直播中与粉丝互动；但该技术也曾被用于伪造政要发表不存在的讲话视频，误导公众舆论。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:18:43Z",
+  "updated_at": "2026-03-21T06:21:02Z"
+}

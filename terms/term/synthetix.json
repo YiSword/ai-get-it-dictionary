@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "synthetix",
+  "norm_term": "synthetix",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Synthetix 是一个基于以太坊的去中心化金融（DeFi）协议，允许用户发行和交易合成资产（synths），即锚定现实世界资产价格的代币，如黄金、美元、股票甚至加密货币。它不依赖传统托管方或中心化交易所，而是通过超额抵押 SNX 代币并利用链上预言机获取价格数据来实现价格跟踪。普通用户需要了解 Synthetix 因为它提供了无需开户、跨境、24/7 访问全球资产的投资方式，同时是 DeFi 生态中合成资产赛道的先驱和关键基础设施。",
+    "metaphor": "Synthetix 就像一家全自动的数字‘影子银行’——你不用真正持有黄金或特斯拉股票，却能实时获得它们涨跌带来的收益或风险，一切由代码和抵押品保障运行。",
+    "example": "一位澳大利亚用户用 SNX 代币超额抵押后，在 Synthetix 协议中铸造了 sUSD（合成美元）和 sAAPL（合成苹果公司股票），在苹果财报发布当日，sAAPL 价格随真实股价波动，其账户余额自动增减，全程无需美股账户或券商中介。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:30:29Z",
+  "updated_at": "2026-03-21T10:00:15Z"
+}

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "iexec",
+  "norm_term": "iexec",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "iExec 是一个基于区块链的去中心化云计算平台，允许用户出租闲置计算资源（如CPU、GPU）或购买分布式算力来运行计算密集型任务（如AI训练、渲染、基因分析）。它通过智能合约保障任务执行的可信性、数据隐私和资源结算的自动化。普通用户需要了解 iExec，因为它提供了一种更灵活、低成本且抗审查的替代方案，避开传统云服务商的锁定效应与中心化风险，尤其适合开发者、科研人员和中小团队。",
+    "metaphor": "就像把自家空闲的车库租给邻居临时存放物品，同时也能在需要时按小时租用整个社区的车库网络来搬运大型家具。",
+    "example": "一家初创AI公司使用 iExec 网络调用全球数千台闲置GPU，以加密方式完成敏感医疗影像的联邦学习模型训练，全程无需将原始数据离开本地设备。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:36:02Z",
+  "updated_at": "2026-03-21T07:23:58Z"
+}

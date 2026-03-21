@@ -1,35 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Vector Database",
+  "term": "vector_database",
   "norm_term": "vector_database",
   "lang": "en",
-  "aliases": [
-    "向量数据库",
-    "向量库"
-  ],
+  "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Vector Database 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Vector Database，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "向量数据库是一种专门用于高效存储、索引和检索高维向量数据的数据库系统。它将文本、图像、音频等非结构化数据通过AI模型转换为数学向量（即嵌入），再基于向量间的相似度（如余弦距离）快速查找最相关的结果。普通用户需要了解它，因为它是当前智能搜索、个性化推荐、AI聊天机器人等应用背后的关键基础设施——比如你问AI‘帮我找类似这张猫图的照片’，背后就是向量数据库在毫秒内比对成千上万张图的向量特征。",
+    "metaphor": "就像图书馆的‘语义分类卡’系统：不按书名字母排序，而是按每本书的核心思想在多维思想空间中的位置归类，让你能轻松找到‘讲得像《三体》一样硬核又带哲学味’的书。",
+    "example": "某电商App使用向量数据库，将用户浏览过的商品图片转为向量，实时推荐视觉风格高度相似但尚未上架的新款服饰；用户上传一张‘复古黄铜台灯’照片，0.3秒内返回10款语义与外观最匹配的商品。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Vector Database - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Vector_Database",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
-  "created_at": "2026-03-19T09:15:16Z",
-  "updated_at": "2026-03-19T09:15:16Z"
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T10:16:05Z"
 }

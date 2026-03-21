@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Cost Optimizer",
+  "term": "cost_optimizer",
   "norm_term": "cost_optimizer",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Cost Optimizer 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Cost Optimizer，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "cost_optimizer 是一种自动化工具或算法，用于在满足性能、可靠性等约束前提下，最小化云计算资源（如虚拟机、存储、网络）的使用成本。它通过分析工作负载特征、历史用量、定价模型（如预留实例、竞价实例）和调度策略，动态调整资源配置或部署方式。普通用户需要了解它，因为云服务按需付费的特性容易导致隐性浪费——未优化的架构可能使月账单翻倍，而启用 cost_optimizer 能在不牺牲业务稳定性的前提下显著降本。",
+    "metaphor": "就像一位精打细算又懂技术的管家，既清楚家里每盏灯的耗电规律，也熟悉电价峰谷时段，自动开关灯、切换节能模式，只为让电费单更薄。",
+    "example": "某电商公司在大促前，通过 cost_optimizer 将非核心日志分析任务从按小时计费的通用型云主机迁移至低价竞价实例，并自动设置失败重试与数据缓存，使该模块月度支出降低63%，且不影响监控告警时效性。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Cost Optimizer - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Cost_Optimizer",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:01:24Z"
 }

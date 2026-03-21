@@ -1,36 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Gemini",
+  "term": "gemini",
   "norm_term": "gemini",
   "lang": "en",
-  "aliases": [
-    "Bard",
-    "Google Gemini"
-  ],
-  "entity_type": "product",
-  "category": "产品概念",
-  "difficulty": "入门",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Gemini 是用户在真实使用中高频会接触到的 AI 产品或服务。它通常把模型能力包装成聊天、搜索、写作、编码或生成内容等具体功能，因此比底层技术词更容易直接感知。理解它的定位，有助于分辨不同 AI 产品各自擅长什么。",
-    "metaphor": "它就像一个已经包装好的 AI 工具箱，用户不需要知道所有底层原理，也能直接拿来完成具体任务。",
-    "example": "比如用户想直接完成写作、搜索、总结或生成内容任务时，往往会先接触 Gemini 这类产品，因为它把底层能力封装成了更容易上手的界面。"
+    "plain": "Gemini 是 Google 开发的一系列大型语言模型（LLM），具备多模态理解能力，能处理文本、图像、音频、视频和代码等多种输入形式。它分为 Ultra、Pro 和 Nano 三个版本，分别面向不同性能与部署需求。普通用户需要了解 Gemini，因为它已深度集成到 Google 搜索、Gmail、Docs、Android 系统等日常工具中，直接影响信息获取、内容创作和人机交互的效率与体验——例如用自然语言快速整理邮件、生成文档草稿或解析截图中的文字。",
+    "metaphor": "就像一位精通多种语言、能同时阅读图文、听懂语音、看懂视频，并随时为你写报告、做总结的全能智能助理。",
+    "example": "用户在手机上截取一张餐厅菜单图片，用 Gemini 功能一键识别菜名、翻译成英文，并生成‘推荐3道适合素食者的菜品’的简明建议。"
   },
   "scenario_tags": [
-    "对话",
-    "搜索",
-    "办公",
-    "多模态"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Gemini - Google",
-      "url": "https://gemini.google.com/",
-      "type": "doc"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T06:44:00Z"
 }

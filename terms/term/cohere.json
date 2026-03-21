@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Cohere",
+  "term": "cohere",
   "norm_term": "cohere",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Cohere 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Cohere，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Cohere 是一家专注于企业级大语言模型（LLM）研发的加拿大人工智能公司，提供可私有部署、高度可控的文本生成、语义搜索、问答和摘要等API服务。它强调模型在业务场景中的可靠性、可解释性与数据隐私保护，区别于面向消费者的通用大模型。普通用户可能不直接使用Cohere，但若所在企业采用其技术构建智能客服、内部知识库或自动化报告系统，其交互体验（如更准确的文档检索、更合规的AI回复）就直接受益于Cohere的能力。",
+    "metaphor": "就像一位精通行业术语、严格遵守保密协议且随时听从指令的企业专属顾问，而不是在广场上对所有人即兴演讲的通才演说家。",
+    "example": "某银行使用Cohere API搭建内部合规问答系统，员工上传监管文件后，可自然语言提问‘2023年反洗钱新规对跨境转账有何新要求？’，系统即时返回精准条款引用和摘要，且所有数据不出本地服务器。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Cohere - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Cohere",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:42:18Z"
 }

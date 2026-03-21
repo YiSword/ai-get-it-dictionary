@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "EasyEdit",
+  "term": "easyedit",
   "norm_term": "easyedit",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "EasyEdit 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 EasyEdit，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "easyedit 是一种轻量级、开箱即用的模型编辑技术，旨在让研究人员和开发者无需重新训练整个大语言模型，即可快速、局部地修正模型中的事实性错误或调整特定行为（如修改某个知识条目、删除偏见输出）。它通过在模型内部嵌入可学习的小型适配模块（如向量编辑器或参数微调层），实现对单个事实或规则的精准干预。普通用户需要了解它，是因为它降低了AI模型‘纠错’与‘个性化定制’的技术门槛，使非专家也能在不依赖算力密集型训练的前提下，安全、可控地改进模型表现。",
+    "metaphor": "就像给一本厚重的百科全书插入一张可擦写便签，而不是重印整本书。",
+    "example": "当大语言模型错误地声称‘巴黎是德国首都’时，研究者可用 easyedit 直接注入一条编辑指令：‘将‘巴黎’对应的国家从‘德国’更新为‘法国’’，数秒内完成修正，且不影响模型对其他地理知识的回答。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "EasyEdit - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/EasyEdit",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:59:25Z"
 }

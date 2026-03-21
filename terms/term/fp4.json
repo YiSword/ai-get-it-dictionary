@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "fp4",
+  "norm_term": "fp4",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "fp4（Floating Point 4-bit）是一种仅用4位二进制数表示浮点数的极低精度数值格式，用于深度学习模型的权重和激活值压缩。它通过极简的指数与尾数分配（如1位符号、2位指数、1位尾数）大幅减少显存占用和计算开销。普通用户需要知道它，是因为它正推动手机、笔记本等消费级设备实现实时大语言模型运行——比如在iPhone上本地运行聊天助手，无需联网或依赖云端算力。",
+    "metaphor": "就像把一本厚字典缩印成口袋卡片，牺牲部分查词精度，只为能随身携带并快速翻找关键词。",
+    "example": "Meta在Llama 3的移动端推理中采用fp4量化，使7B参数模型可在搭载A17 Pro芯片的iPhone 15 Pro上以每秒超20词的速度本地生成文本。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T17:11:05Z",
+  "updated_at": "2026-03-21T06:37:59Z"
+}

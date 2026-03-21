@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Adaptive Routing",
+  "term": "adaptive_routing",
   "norm_term": "adaptive_routing",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
   "category": "其他",
-  "difficulty": "高级",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Adaptive Routing 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Adaptive Routing，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "adaptive_routing 是一种网络路由技术，它能根据实时网络状况（如链路延迟、拥塞程度、故障状态等）动态调整数据包的传输路径，而非依赖预先设定的静态路由表。这种机制提升了网络的可靠性、效率和容错能力。普通用户虽不直接配置它，但其背后支撑着视频会议不卡顿、在线游戏低延迟、云服务高可用等体验——当某条网络路径突然拥堵或中断时，系统会自动切换到更优路径，用户几乎无感。",
+    "metaphor": "就像一位熟悉全城实时路况的出租车司机，不按固定路线行驶，而是在导航提示下随时选择最畅通的街道绕行。",
+    "example": "在大型云服务商的数据中心内部，当某台交换机因过热导致丢包率上升时，adaptive_routing 会立即把流量重新分配到其他低负载链路上，保障客户业务连续运行。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Adaptive Routing - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Adaptive_Routing",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T03:21:51Z"
 }

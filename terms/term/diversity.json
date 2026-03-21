@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Diversity",
+  "term": "diversity",
   "norm_term": "diversity",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Diversity 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Diversity，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Diversity（多样性）指系统、群体或数据集中存在多种不同特征、背景、观点或类型的程度。它不仅涵盖种族、性别、年龄等人口学维度，也包括思维模式、经验、技能和文化视角的差异。普通用户需要理解多样性，因为它直接影响团队协作质量、产品设计包容性、算法公平性以及社会决策的合理性；忽视多样性可能导致偏见加剧、创新受限或服务覆盖不全。",
+    "metaphor": "就像一盘五彩缤纷的沙拉，每种蔬菜颜色、口感和营养都不同，但组合在一起才更健康、更有滋味。",
+    "example": "一家科技公司招聘时主动吸引来自不同教育背景、国家和地区、残障状况的工程师，以确保其AI语音助手能准确识别多种口音和语速。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Diversity - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Diversity",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:44:52Z"
 }

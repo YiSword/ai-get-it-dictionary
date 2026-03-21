@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "LM Evaluation Harness",
+  "term": "lm_evaluation_harness",
   "norm_term": "lm_evaluation_harness",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LM Evaluation Harness 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 LM Evaluation Harness，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "lm_evaluation_harness 是一个开源的 Python 框架，用于标准化评估大语言模型（LLM）在各类自然语言任务上的性能，如问答、推理、常识判断等。它提供统一接口接入不同模型（如 Hugging Face 模型）和数十种公开基准数据集（如 MMLU、GSM8K、ARC），自动处理数据预处理、提示构造、指标计算与结果汇总。普通用户（尤其是研究人员和工程师）需要了解它，因为它是当前社区最广泛采用的公平、可复现模型评测工具，能避免自行实现评测逻辑带来的偏差或错误。",
+    "metaphor": "它就像语言模型的‘驾考系统’——统一出题、监考、打分，确保不同车型（模型）在相同路况（任务）下接受客观考核。",
+    "example": "研究者使用 lm_evaluation_harness 对比 LLaMA-3 和 Qwen2 在 MMLU 基准上的准确率，仅需几行代码即可完成全量测试并生成结构化报告。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "LM Evaluation Harness - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/LM_Evaluation_Harness",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:15:41Z"
 }

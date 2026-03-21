@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Latent Diffusion Model",
+  "term": "latent_diffusion_model",
   "norm_term": "latent_diffusion_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
-  "category": "模型架构",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Latent Diffusion Model 是 AI 模型体系中的重要结构或模型类型，决定了模型如何理解输入、组织信息和生成结果。虽然普通用户不会直接训练它，但很多今天常见的 AI 能力都建立在这类结构之上。理解它能帮助你建立更完整的 AI 基础认知。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Latent Diffusion Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "latent_diffusion_model（潜在扩散模型）是一种生成式人工智能模型，它先将图像压缩到低维潜在空间，再在该空间中执行高效的噪声添加与去噪过程，最终重建出高质量图像。相比直接在像素空间操作的扩散模型，它大幅降低计算开销，使消费级显卡也能运行文生图等任务。普通用户需要了解它，因为它是当前主流AI绘画工具（如Stable Diffusion）的核心技术，直接影响生成速度、画质和本地部署可行性。",
+    "metaphor": "就像建筑师先用简化的3D草图（潜在空间）反复修改设计，而不是每次都重绘整栋建筑的每一砖一瓦（像素空间），从而更快更省力地完成最终蓝图。",
+    "example": "当你在Stable Diffusion WebUI中输入‘赛博朋克城市夜景’并点击生成时，背后正是latent diffusion model在压缩后的潜在表示上迭代去噪，几秒内输出一张高清图像。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Latent Diffusion Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Latent_Diffusion_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:03:04Z"
 }

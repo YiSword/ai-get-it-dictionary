@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "LM Studio",
+  "term": "lm_studio",
   "norm_term": "lm_studio",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LM Studio 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 LM Studio，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "LM Studio 是一款免费、开源的桌面应用程序，允许用户在本地运行和交互大型语言模型（LLM），无需依赖云端服务或编程知识。它提供直观的图形界面，支持多种模型格式（如 GGUF），可直接加载、测试、微调和部署模型。普通用户需要知道它，是因为它让AI能力真正‘私有化’和‘离线可用’——保护数据隐私、避免网络延迟、节省API费用，并降低使用门槛，尤其适合开发者、研究人员和对数据敏感的个人用户。",
+    "metaphor": "LM Studio 就像一台专为大模型设计的‘智能收音机’：你只需插入喜欢的模型‘频道’（下载好的文件），就能立刻收听（运行）它，无需搭建发射塔（服务器）或申请广播许可（云账号）。",
+    "example": "一位法律从业者用 LM Studio 在笔记本电脑上本地加载一个经过法律文本微调的 Llama 3 模型，离线审阅合同草案并生成修改建议，全程数据不离开设备。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "LM Studio - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/LM_Studio",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:16:31Z"
 }

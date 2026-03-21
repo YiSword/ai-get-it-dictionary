@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Contrastive Loss",
+  "term": "contrastive_loss",
   "norm_term": "contrastive_loss",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Contrastive Loss 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Contrastive Loss，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "contrastive_loss 是一种用于度量学习的损失函数，旨在让同类样本在嵌入空间中彼此靠近，而不同类样本则尽可能远离。它通过成对样本（正样本对和负样本对）计算距离差异来优化模型，常用于人脸识别、图像检索、文本相似度匹配等任务。普通用户需要了解它，是因为它支撑着许多日常应用背后的‘精准识别’能力——比如手机相册自动归类相似人脸，或购物App根据一张图搜出同款商品。",
+    "metaphor": "就像一位细心的图书管理员，把同一作者的书紧紧排在一起，同时把风格迥异的书籍远远隔开，确保每本书的位置都能反映它真正的‘身份归属’。",
+    "example": "在训练人脸识别系统时，模型使用 contrastive_loss 处理成对的人脸图像：若两张图来自同一人（正样本对），损失会惩罚它们在特征空间中距离过远；若来自不同人（负样本对），则惩罚距离过近。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Contrastive Loss - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Contrastive_Loss",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:55:57Z"
 }

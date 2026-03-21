@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "glm_130b",
+  "norm_term": "glm_130b",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "GLM-130B 是由智谱AI研发的开源双语（中文/英文）大语言模型，参数量约1300亿，支持长文本理解与生成，在多项基准测试中表现接近当时主流闭源模型。普通用户需要知道它，是因为它是少数可本地部署、无需依赖国外云服务的高性能中文大模型之一，为开发者、研究者及注重数据隐私的用户提供了一个自主可控的AI工具选项。",
+    "metaphor": "就像一位精通中英双语、记忆力超群且乐于分享笔记的顶尖大学教授，不仅知识渊博，还主动公开自己的学习方法和讲义。",
+    "example": "一家国内金融机构在内网部署 GLM-130B，用于自动解析脱敏后的客户投诉工单并生成合规回复建议，全程数据不出本地服务器。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:52:56Z",
+  "updated_at": "2026-03-21T06:48:53Z"
+}

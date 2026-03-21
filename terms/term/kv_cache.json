@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "KV Cache",
+  "term": "kv_cache",
   "norm_term": "kv_cache",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "KV Cache 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 KV Cache，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "kv_cache（键值缓存）是大语言模型在自回归生成文本时，为避免重复计算而缓存已处理词元（token）对应的键（Key）和值（Value）向量的技术。它显著减少解码阶段的计算开销和延迟，使模型能高效生成长文本。普通用户虽不直接操作它，但其性能直接影响聊天响应速度、流式输出流畅度及设备端部署可行性——例如手机上运行的轻量模型能否实时打字回复，就高度依赖kv_cache的优化实现。",
+    "metaphor": "就像厨师在做一道长菜谱的料理时，把已切好、备好的食材分门别类放在专用托盘里，下一轮无需重新切配，直接取用即可。",
+    "example": "当使用Llama-3在本地运行对话应用时，用户每输入一个新词，模型仅需计算该词对应的Query，并与之前所有词元的缓存KV向量做注意力运算，而非重算整个历史序列。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "KV Cache - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/KV_Cache",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:57:46Z"
 }

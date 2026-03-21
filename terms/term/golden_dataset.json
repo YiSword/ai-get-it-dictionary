@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Golden Dataset",
+  "term": "golden_dataset",
   "norm_term": "golden_dataset",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Golden Dataset 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Golden Dataset，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "golden_dataset 是指经过严格验证、清洗、标注和版本控制的高质量基准数据集，通常作为模型训练、评估或系统比对的权威参考标准。它在机器学习、数据科学和AI研发中起‘事实来源’作用，确保不同团队或实验的结果可复现、可比较。普通用户（如算法工程师、数据产品经理）需要知道它，因为误用低质量或未校准的数据集会导致模型偏差、评测失真，甚至引发线上服务故障。",
+    "metaphor": "就像实验室里用于校准天平的标准砝码——它本身不参与日常称重，但所有测量结果都必须以它为基准来确认是否准确。",
+    "example": "某自动驾驶公司发布L3级感知模型时，将KITTI数据集经内部统一标注规范修订并冻结版本后命名为golden_dataset_v2.1，所有新模型的mAP指标均以此为准进行横向对比。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Golden Dataset - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Golden_Dataset",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:50:17Z"
 }

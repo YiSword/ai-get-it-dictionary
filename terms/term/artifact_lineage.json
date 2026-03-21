@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Artifact Lineage",
+  "term": "artifact_lineage",
   "norm_term": "artifact_lineage",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Artifact Lineage 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Artifact Lineage，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "artifact_lineage（制品血缘）是指在软件开发、数据工程或机器学习流水线中，追踪一个输出产物（如模型、数据表、API 文档等）从原始输入（如代码、原始数据、配置）到最终生成的完整依赖路径和演化历史。它记录了谁、何时、基于哪些上游组件（代码版本、数据集、参数）生成了该制品。普通用户需要了解它，以便快速定位问题根源（如模型效果下降）、满足合规审计要求、复现实验结果，或安全地回滚到可信版本。",
+    "metaphor": "就像食品包装上的‘原料溯源标签’——你能看到这包饼干用了哪片麦田的小麦、哪家工厂的黄油、哪天烘焙的，制品血缘就是数字制品的‘全链路出身证明’。",
+    "example": "在训练一个推荐模型时，artifact_lineage 记录该模型文件（model_v2.1.pkl）由 Git 提交 a3f8c1、特征表 fea_user_20240501、超参配置 hyper_tune_B.yaml 共同生成，并被部署到线上服务 Svc-Rec-v3。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Artifact Lineage - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Artifact_Lineage",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:42:46Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Langfuse",
+  "term": "langfuse",
   "norm_term": "langfuse",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Langfuse 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Langfuse，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Langfuse 是一个开源的可观测性平台，专为 LLM 应用（如聊天机器人、RAG 系统）设计，用于追踪、评估和监控提示（prompt）、模型调用、输出、延迟、token 使用及人工反馈等全链路数据。普通用户——尤其是开发者、产品经理或 AI 工程师——需要知道它，因为 LLM 行为难以调试，而 Langfuse 提供统一仪表盘和结构化日志，帮助快速定位性能瓶颈、提示失效或效果退化问题，避免‘黑盒式’开发。",
+    "metaphor": "就像给自动驾驶汽车装上行车记录仪+发动机诊断仪+乘客满意度问卷，Langfuse 同时记录 AI 做了什么、怎么做的、做得好不好。",
+    "example": "一家电商公司用 Langfuse 追踪其客服聊天机器人：当某条促销提示的回复准确率骤降时，团队通过回溯原始 prompt、模型输出和人工标注反馈，发现是新加入的语气词干扰了实体识别，从而快速修复。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Langfuse - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Langfuse",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:00:10Z"
 }

@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "BERT",
+  "term": "bert",
   "norm_term": "bert",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
-  "category": "模型架构",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "BERT 是 AI 模型体系中的重要结构或模型类型，决定了模型如何理解输入、组织信息和生成结果。虽然普通用户不会直接训练它，但很多今天常见的 AI 能力都建立在这类结构之上。理解它能帮助你建立更完整的 AI 基础认知。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 BERT，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "BERT（Bidirectional Encoder Representations from Transformers）是一种由Google提出的预训练语言模型，它能理解词语在上下文中的双向含义，显著提升了机器对自然语言的理解能力。普通用户需要知道它，是因为它已广泛应用于搜索引擎、智能客服、语音助手等日常工具中，直接影响信息检索的准确性和人机交互的自然程度。",
+    "metaphor": "就像一位精通多国语言且熟读整本百科全书的图书管理员，BERT不是孤立地查单词，而是通读整段文字后，再精准判断每个词在具体语境中的真实含义。",
+    "example": "当你在手机输入法中打‘苹果’，系统根据上下文（如‘吃一个__’或‘新款__发布会’）自动推荐‘苹果’指水果还是科技公司，背后就可能有BERT模型在做语义判别。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "BERT - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/BERT",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T04:04:24Z"
 }

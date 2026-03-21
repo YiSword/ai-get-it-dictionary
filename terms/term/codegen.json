@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "CodeGen",
+  "term": "codegen",
   "norm_term": "codegen",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CodeGen 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 CodeGen，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Codegen（代码生成）是指利用工具或程序自动创建源代码的过程，通常基于更高层的抽象（如配置文件、模型定义、API 描述或自然语言提示）生成重复性高、结构固定的代码。它能显著减少手动编写样板代码的时间，降低出错率，并提升开发一致性与迭代速度。普通用户（尤其是开发者）需要了解 codegen，因为它正深度融入现代开发流程——从前端框架的组件生成、后端 API 客户端自动生成，到 AI 辅助编程工具实时补全代码，理解其原理有助于更高效地选用、定制和调试开发工具。",
+    "metaphor": "就像建筑师提供房屋蓝图后，智能建造机器人自动砌墙、布线、安装门窗，而无需工人逐砖雕刻每根管线。",
+    "example": "使用 OpenAPI 规范定义 RESTful 接口后，通过 Swagger Codegen 工具一键生成 TypeScript 客户端 SDK，包含所有请求函数、类型定义和错误处理逻辑。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "CodeGen - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/CodeGen",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:37:02Z"
 }

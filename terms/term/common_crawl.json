@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Common Crawl",
+  "term": "common_crawl",
   "norm_term": "common_crawl",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Common Crawl 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Common Crawl，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Common Crawl 是一个非营利组织运营的公开网络爬虫项目，定期抓取并免费发布数十亿网页的原始 HTML、元数据和提取的文本。它为研究人员、开发者和教育工作者提供大规模、去标识化的互联网语料库，支撑自然语言处理、AI 模型训练、网络趋势分析等任务。普通用户无需直接使用它，但其数据间接惠及许多开源模型和工具——比如训练更公平、多样化的语言模型，或验证信息可信度，因此了解它有助于理解公共数据对技术普惠性的重要意义。",
+    "metaphor": "就像一座向所有人开放的数字图书馆，由志愿者自动整理全球网页的副本，并按年份上架，任何人都能免费借阅其中的书页。",
+    "example": "Hugging Face 的多个开源语言模型（如 BLOOM）曾使用 Common Crawl 数据集作为主要训练语料之一；研究人员也常从中抽取特定领域网页（如医疗博客）构建专业领域的细粒度语料库。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Common Crawl - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Common_Crawl",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:45:29Z"
 }

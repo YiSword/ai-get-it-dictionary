@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Small Language Model",
+  "term": "small_language_model",
   "norm_term": "small_language_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
-  "category": "模型架构",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Small Language Model 是 AI 模型体系中的重要结构或模型类型，决定了模型如何理解输入、组织信息和生成结果。虽然普通用户不会直接训练它，但很多今天常见的 AI 能力都建立在这类结构之上。理解它能帮助你建立更完整的 AI 基础认知。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Small Language Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Small language model（小型语言模型）是指参数量相对较少（通常在数千万到数十亿级别）、计算资源需求较低、可在普通设备上运行的AI语言模型。与动辄千亿参数的大型模型相比，它更轻量、响应更快、部署成本更低，适合嵌入手机、边缘设备或对隐私和实时性要求高的场景。普通用户需要了解它，因为越来越多的App、智能助手和本地化AI工具正采用这类模型，在不上传数据的前提下提供即时、安全的语言服务。",
+    "metaphor": "就像一台高效节能的家用轿车，虽不如重型卡车运载力强，却更省油、易操控、能轻松停进自家车库。",
+    "example": "某款笔记App内置的小型语言模型可在用户手机本地实时完成错别字纠正、简短摘要生成和待办事项提取，全程无需联网或上传文本。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Small Language Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Small_Language_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:46:30Z"
 }

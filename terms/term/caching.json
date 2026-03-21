@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Caching",
+  "term": "caching",
   "norm_term": "caching",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Caching 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Caching，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Caching（缓存）是指将频繁访问或计算代价高的数据临时存储在更快、更靠近请求方的位置，以便后续快速读取，避免重复获取或重新计算。它广泛存在于浏览器、手机应用、操作系统和网站后台中。普通用户需要了解缓存，因为它直接影响网页加载速度、App响应流畅度和离线可用性；同时，当遇到内容未更新或页面异常时，清除缓存往往是简单有效的解决方法。",
+    "metaphor": "就像把常用工具放在工作台抽屉里，而不是每次都要去地下室仓库取——缓存就是把‘高频用品’就近暂存，省去来回奔波的时间。",
+    "example": "当你第二次打开新闻App时，首页标题和图片几乎瞬间显示，这是因为上次浏览时这些内容已被缓存在手机本地；即使短暂断网，你仍能查看刚刷新过的文章列表。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Caching - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Caching",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:17:01Z"
 }

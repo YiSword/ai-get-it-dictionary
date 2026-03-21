@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Faithfulness",
+  "term": "faithfulness",
   "norm_term": "faithfulness",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Faithfulness 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Faithfulness，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Faithfulness（忠实性）在人工智能，尤其是大语言模型和可解释性研究中，指模型的解释或归因结果是否真实反映了模型实际决策所依赖的输入特征。它衡量的是‘解释’与‘模型内部行为’之间的一致程度——高忠实性意味着该解释若被移除或修改，模型输出会发生显著变化。普通用户需要关注它，因为低忠实性的解释可能看似合理却具有误导性，导致对模型错误信任、难以调试问题，甚至引发安全或公平性风险。",
+    "metaphor": "就像给一辆汽车写一份‘为什么突然刹车’的诊断报告，如果报告说是因为油门故障，但实际上刹车系统短路了，这份报告就是不忠实的。",
+    "example": "当一个医疗AI将肺炎诊断归因为X光片中的某个正常血管纹理，而遮盖该区域后模型仍准确诊断，说明该归因缺乏忠实性；研究者会因此质疑该解释的可靠性，并转向更忠实的归因方法如梯度加权类激活映射（Grad-CAM）。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Faithfulness - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Faithfulness",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:22:23Z"
 }

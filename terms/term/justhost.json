@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "justhost",
+  "norm_term": "justhost",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "JustHost 是一家提供共享主机、VPS、独立服务器和域名注册等基础网络托管服务的美国公司，主要面向中小型网站和个人开发者。它并非行业头部品牌（如 SiteGround 或 Bluehost），但以低价入门套餐和简化管理界面为卖点。普通用户需要知道它，是因为其服务直接影响网站能否被访问、加载速度是否流畅、以及是否具备基本安全防护（如免费SSL、自动备份）；选择不当可能导致网站宕机、数据丢失或遭受攻击。",
+    "metaphor": "JustHost 就像一家经济型公寓管理公司——不提供豪华装修或24小时管家，但能让你快速租到一间通水电、有门禁的基础房间来安放自己的小生意或个人作品。",
+    "example": "一位刚创建 WordPress 博客的自由插画师，用 JustHost 的 $2.99/月共享主机套餐上线作品集网站，并通过其一键安装功能在10分钟内部署好博客系统。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:53:19Z",
+  "updated_at": "2026-03-21T07:47:47Z"
+}

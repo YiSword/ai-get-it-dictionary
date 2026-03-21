@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "samourai_wallet",
+  "norm_term": "samourai_wallet",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Samourai Wallet 是一款专为比特币设计的开源移动钱包应用，主打隐私保护与高级安全功能，如CoinJoin混币（Whirlpool）、地址隔离（Stowaway）、交易图谱混淆（Ricochet）等。它仅支持安卓系统，不托管用户私钥，强调用户对资产的完全自主控制。普通用户需要了解它，是因为在日益注重链上隐私和抗审查的背景下，它提供了远超普通钱包的匿名性增强能力，尤其适合重视财务隐私、不愿暴露交易习惯或持有量的个体。",
+    "metaphor": "就像给你的比特币交易装上防追踪墨镜和多重假身份护照，既不让别人看清你是谁，也模糊你资金的来龙去脉。",
+    "example": "一位自由职业者用 Samourai Wallet 接收多笔比特币付款后，通过 Whirlpool 功能将资金混入其他用户的交易池，再分批转出，使链上分析公司无法将其收入与真实身份或支出模式关联。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:25:40Z",
+  "updated_at": "2026-03-21T09:37:30Z"
+}

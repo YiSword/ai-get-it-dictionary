@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "LibreChat",
+  "term": "librechat",
   "norm_term": "librechat",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LibreChat 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 LibreChat，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "LibreChat 是一个开源的、自托管的聊天界面，支持连接多种大语言模型（如 OpenAI、Anthropic、Ollama、本地 Llama 模型等），让用户能在统一界面上与不同 AI 模型交互。它不依赖厂商闭源服务，强调隐私控制与定制自由。普通用户需要知道它，是因为它提供了一种无需订阅商业平台、也能安全、灵活地使用 AI 助手的方式，尤其适合注重数据主权、希望离线运行或集成私有模型的个人和小团队。",
+    "metaphor": "LibreChat 就像一个可自定义的‘AI遥控器’——它本身不生产内容，但能无缝切换并操控多个不同的‘AI电视’（模型），且遥控器的电池（数据）只在你家（本地）充电。",
+    "example": "一位开发者在本地运行 Llama 3 模型，通过 LibreChat 的 Web 界面与其对话，同时还能切换到公司部署的 Claude API 进行对比测试，所有聊天记录均保留在自己的服务器上。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "LibreChat - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/LibreChat",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:08:06Z"
 }

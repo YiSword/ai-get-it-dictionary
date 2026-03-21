@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "BioBench",
+  "term": "biobench",
   "norm_term": "biobench",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "BioBench 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 BioBench，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Biobench 是一个面向生物医学人工智能领域的开源基准测试平台，用于系统性评估大语言模型、多模态模型等AI系统在基因组学、蛋白质结构预测、临床文本理解、药物发现等任务上的能力。它提供标准化的数据集、统一的评测协议和可复现的指标，帮助研究者客观比较不同模型的性能。普通用户（如生物信息初学者、临床科研人员或AI开发者）需要了解Biobench，因为它降低了专业领域AI能力评估的门槛，避免‘自说自话’式宣传，确保技术选型或成果验证建立在可信、可比的基础上。",
+    "metaphor": "就像汽车行业的Euro NCAP碰撞测试，Biobench 不制造模型，而是为生物医学AI模型提供一套权威、透明的‘安全与性能体检标准’。",
+    "example": "某团队开发了一个能解读病理报告的新模型，他们使用Biobench中的Clinical-Notes-Benchmark子集进行测试，并与GPT-4、BioMedLM等模型在实体识别、推理准确率等维度横向对比，最终在论文中呈现标准化得分。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "BioBench - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/BioBench",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:08:01Z"
 }

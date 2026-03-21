@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Accelerate",
+  "term": "accelerate",
   "norm_term": "accelerate",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Accelerate 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Accelerate，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "accelerate 是一个开源 Python 库，由 Hugging Face 开发，用于简化大型模型（如 Transformer）在多 GPU、TPU 或混合精度环境下的训练与推理。它通过自动处理设备分配、梯度累积、混合精度（AMP）、分布式数据并行等底层细节，让开发者无需修改核心训练逻辑即可高效利用硬件资源。普通用户（尤其是机器学习工程师和研究者）需要了解它，是因为它显著降低了分布式训练的门槛，避免手动编写复杂且易错的并行代码，从而加速实验迭代、节省调试时间，并提升资源利用率。",
+    "metaphor": "就像给一辆手动挡汽车加装智能自动变速箱和自适应巡航系统——你仍掌控驾驶逻辑（模型训练流程），但不再需要亲自踩离合、换挡或微调油门来应对不同路况（硬件差异和并行配置）。",
+    "example": "一位研究人员在单机双 GPU 上训练一个 7B 参数的 LLaMA 模型时，只需用 accelerate 的 launch 工具启动脚本，并在代码中加入几行 accelerator.prepare() 调用，即可自动启用混合精度和数据并行，无需重写 DDP 初始化或 scaler 管理逻辑。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Accelerate - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Accelerate",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T03:16:16Z"
 }

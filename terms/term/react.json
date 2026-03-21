@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "react",
+  "norm_term": "react",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "React 是一个由 Facebook 开发的开源 JavaScript 库，用于构建用户界面，尤其擅长创建动态、响应式的单页应用。它通过组件化方式将界面拆分为独立可复用的部分，并利用虚拟 DOM 高效更新页面内容。普通用户虽不直接编写代码，但日常使用的许多现代网页（如社交媒体动态流、实时聊天界面、数据仪表盘）都依赖 React 实现流畅交互和快速响应，因此了解其存在有助于理解为何某些网站加载快、操作顺、更新即时。",
+    "metaphor": "React 就像一套智能乐高积木系统：每块积木（组件）功能明确、可独立组装或替换，当某块积木变化时，系统只重新拼装它自己，而不是推倒整个模型重来。",
+    "example": "当你在电商网站搜索商品时，搜索框输入文字后，下方商品列表实时刷新而页面其他部分（如顶部导航、购物车图标）保持不动——这种局部更新体验正是 React 典型的应用场景。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:02:56Z",
+  "updated_at": "2026-03-21T09:28:33Z"
+}

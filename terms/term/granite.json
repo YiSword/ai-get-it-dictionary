@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Granite",
+  "term": "granite",
   "norm_term": "granite",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Granite 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Granite，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Granite 是 Adobe Experience Manager（AEM）中核心的内容存储与管理框架，基于 Apache Sling 和 Jackrabbit Oak 构建，负责处理内容节点、资源解析、事件监听和安全策略等底层功能。它不是面向终端用户的界面，而是支撑 AEM 网站和应用稳定运行的‘引擎层’。普通用户无需直接操作 Granite，但理解其存在有助于区分前端页面表现与后端内容治理逻辑，尤其在排查内容发布失败、权限异常或自定义组件不生效等问题时，开发或运维人员常需查阅 Granite 日志或配置。",
+    "metaphor": "Granite 就像一栋智能大楼的钢筋混凝土结构和水电管网系统——你看不见它，但它决定了楼层能否承重、灯光是否亮起、门禁是否响应。",
+    "example": "当 AEM 内容作者在页面编辑器中点击‘发布’却收到‘权限不足’提示时，问题往往源于 Granite 框架中配置的 ACL（访问控制列表）策略未正确授予该用户组对目标资源路径的操作权限。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Granite - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Granite",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:57:11Z"
 }

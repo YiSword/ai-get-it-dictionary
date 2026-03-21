@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "ESM",
+  "term": "esm",
   "norm_term": "esm",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ESM 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 ESM，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "ESM（ECMAScript Module）是 JavaScript 官方标准化的模块系统，用于在代码中声明性地导入和导出功能（如函数、类、变量）。它通过 import 和 export 语法实现静态依赖分析，支持树摇优化、循环依赖检测和顶层 await 等特性。普通用户（尤其是前端开发者）需要了解 ESM，因为现代框架（如 Vite、Next.js）、构建工具和浏览器原生都默认采用 ESM；错误使用 CommonJS 或混合模块格式会导致运行时错误或打包异常。",
+    "metaphor": "就像图书馆里每本书都清晰标注了‘作者’和‘参考文献’，ESM 让每个 JS 文件明确声明自己提供什么（export）和需要什么（import），无需猜测或手动拼接。",
+    "example": "在浏览器中直接通过 <script type='module'> 加载一个 ES 模块文件，例如 import { debounce } from './utils.js';，此时浏览器会自动解析依赖并按需获取脚本，无需构建步骤。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "ESM - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/ESM",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:11:49Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "o1_mini",
+  "norm_term": "o1_mini",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "o1_mini 是 OpenAI 推出的一款轻量级推理优化模型，专为在保持较高响应质量的同时降低计算开销和延迟而设计。它并非独立发布的大模型，而是 o1 系列（以链式推理、长思考过程为特点）的紧凑版本，适用于对成本敏感、需快速响应但又需一定逻辑深度的场景。普通用户需要知道它，是因为它可能正悄然支撑着你日常使用的智能助手、编程插件或教育工具——在不牺牲太多准确性的前提下，让 AI 更快、更省、更易集成。",
+    "metaphor": "就像一位经验丰富的律师，在正式出庭前先用简明提纲快速梳理案情要点，o1_mini 是 o1 的‘精要速记版’：舍去冗长推演细节，保留核心推理骨架。",
+    "example": "当你在代码编辑器中使用 AI 补全功能，输入注释‘生成一个安全的 JWT 验证函数’，o1_mini 可在 300 毫秒内输出兼顾正确性与常见漏洞防范的 Python 实现，而无需等待完整 o1 的数秒深度思考。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:24:00Z",
+  "updated_at": "2026-03-21T08:56:16Z"
+}

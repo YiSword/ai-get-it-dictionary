@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Data Parallelism",
+  "term": "data_parallelism",
   "norm_term": "data_parallelism",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Data Parallelism 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Data Parallelism，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Data parallelism 是一种分布式计算策略，指将大规模数据集切分成多个子集，同时在多个计算单元（如GPU或机器）上并行执行相同的模型或算法，最后聚合结果。它被广泛应用于深度学习训练中，能显著缩短模型训练时间。普通用户需要了解它，是因为许多AI应用（如语音识别、图像生成）背后都依赖这种技术来加速处理海量数据；理解它有助于评估模型训练效率、硬件需求及云服务成本。",
+    "metaphor": "就像一家出版社把一本大书拆成十章，分给十位编辑同时校对，最后再合并成完整定稿。",
+    "example": "在训练一个图像分类模型时，系统将10万张图片平均分配到4块GPU上，每块GPU独立计算梯度，再通过参数服务器同步更新共享的模型权重。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Data Parallelism - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Data_Parallelism",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:14:19Z"
 }

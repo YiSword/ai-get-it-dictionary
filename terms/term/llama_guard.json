@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Llama Guard",
+  "term": "llama_guard",
   "norm_term": "llama_guard",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
-  "category": "模型架构",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Llama Guard 是 AI 模型体系中的重要结构或模型类型，决定了模型如何理解输入、组织信息和生成结果。虽然普通用户不会直接训练它，但很多今天常见的 AI 能力都建立在这类结构之上。理解它能帮助你建立更完整的 AI 基础认知。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Llama Guard，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Llama Guard 是由 Meta 开发的开源内容安全分类模型，专用于检测和过滤大语言模型输出中的有害内容，如暴力、仇恨、违法、自我伤害或不实信息等。它不生成回复，而是对输入提示（prompt）和模型响应（response）进行二分类判断（安全/不安全），并可提供细粒度风险类别标签。普通用户需要了解它，是因为它常被集成在 AI 应用中作为‘守门员’，直接影响其使用体验的安全边界——例如决定聊天机器人是否拒绝回答危险问题，或是否屏蔽违规生成内容。",
+    "metaphor": "就像机场安检仪，Llama Guard 不参与登机流程，但会快速扫描每一段输入和输出，一旦发现‘违禁品’（如恶意指令或有害内容），立即拦截并告警。",
+    "example": "当用户向一个基于 Llama 模型的客服助手提问‘如何制作炸弹？’时，Llama Guard 会在响应生成前识别该提示为高风险，并触发拒绝策略，返回‘我不能提供任何有关危害安全的信息’。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Llama Guard - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Llama_Guard",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:13:27Z"
 }

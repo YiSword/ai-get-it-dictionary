@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Supervised Fine-Tuning",
+  "term": "supervised_fine_tuning",
   "norm_term": "supervised_fine_tuning",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "训练方法",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Supervised Fine-Tuning 是模型训练或适配过程中常见的方法，用来让模型学到新能力、降低成本，或提升效果。你不一定需要亲自训练模型，但理解它有助于看懂为什么同一个基础模型会出现很多不同版本。它通常和微调、优化或部署成本有关。",
-    "metaphor": "它类似给模型安排一种更高效的学习方式，让模型用更少成本学会或适应新的任务。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Supervised Fine-Tuning，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Supervised fine-tuning（监督微调）是指在预训练大模型的基础上，使用带有明确输入-输出标注的小规模高质量数据集，通过有监督学习方式进一步调整模型参数，使其在特定任务（如问答、摘要或分类）上表现更优。它不同于从零训练，成本低、见效快，且能显著提升模型在垂直场景中的准确性与可控性。普通用户需要了解这一概念，因为它解释了为何同一基础模型可在不同应用中表现出迥异能力——背后往往是针对性的监督微调在起作用。",
+    "metaphor": "就像一位通晓多国语言的翻译家，先通过海量文本自学了语言规律（预训练），再跟随专业导师用一本精准的双语对照词典和例句集进行专项练习（监督微调），从而胜任法律合同翻译这类高要求工作。",
+    "example": "一家医疗公司使用LLaMA作为基础模型，再用数千条医生标注的‘患者症状→诊断建议’配对数据对其进行监督微调，最终得到专用于临床辅助问诊的定制化模型。"
   },
   "scenario_tags": [
-    "训练",
-    "微调",
-    "模型优化"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Supervised Fine-Tuning - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Supervised_Fine-Tuning",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:58:34Z"
 }

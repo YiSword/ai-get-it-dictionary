@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "CBM",
+  "term": "cbm",
   "norm_term": "cbm",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CBM 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 CBM，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "CBM 是 'Condition-Based Maintenance'（基于状态的维护）的缩写，是一种通过实时监测设备运行参数（如振动、温度、噪声、电流等）来评估其健康状况，并在实际劣化发生前安排维修的策略。它区别于定期维护（不管设备好坏都按时间修）和事后维修（坏了才修），能显著减少非计划停机、延长设备寿命、降低运维成本。普通用户虽不直接操作，但在使用依赖关键设备的服务（如地铁准点运行、医院影像设备可用性、云服务稳定性）时，背后正是 CBM 在保障系统可靠性和响应效率。",
+    "metaphor": "就像给汽车装上智能仪表盘——不是等到发动机异响或亮红灯才去修，而是通过持续读取机油压力、水温、转速波动等数据，在异常苗头初现时就提醒保养。",
+    "example": "某风电场为每台风力发电机部署振动传感器与边缘分析模块，当轴承频谱中出现早期微弱的剥落特征频率时，系统自动触发检修工单，避免了因轴承突发失效导致的数天停机和高额更换成本。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "CBM - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/CBM",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:22:39Z"
 }

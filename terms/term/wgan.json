@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "wgan",
+  "norm_term": "wgan",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "WGAN（Wasserstein GAN）是一种改进的生成对抗网络，通过使用Wasserstein距离（又称推土机距离）替代传统GAN中的JS散度来衡量生成分布与真实分布之间的差异，从而缓解训练不稳定、模式崩溃等问题。它使模型更易收敛、梯度更平滑，生成结果质量更稳定。普通用户虽不直接操作算法，但若使用AI图像生成、数据增强或内容创作工具，背后很可能依赖WGAN类技术，理解其优势有助于判断生成结果的可靠性与技术先进性。",
+    "metaphor": "就像用精确的体重秤代替模糊的‘差不多’估重法来监督厨师做菜——WGAN不是粗略判断‘这道菜像不像原版’，而是量化‘每克食材偏差多少’，让学习过程更细致、更可控。",
+    "example": "在医学影像合成中，WGAN被用于生成高质量的罕见病CT切片，以扩充小样本训练集，提升疾病诊断模型的泛化能力，同时避免传统GAN生成伪影导致的误判风险。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:27:17Z",
+  "updated_at": "2026-03-21T10:25:14Z"
+}

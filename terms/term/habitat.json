@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Habitat",
+  "term": "habitat",
   "norm_term": "habitat",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Habitat 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Habitat，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "habitat（栖息地）指某种生物自然生活、觅食、繁殖和躲避天敌的特定环境区域，包括其所需的气候、土壤、水源、植被和其他生物等综合条件。它不仅是地理空间概念，更体现生物与环境之间长期适应形成的动态关系。普通用户需要了解这一术语，因为它关乎生物多样性保护、生态平衡认知以及人类活动（如城市扩张、农业开发）对自然系统的实际影响，帮助我们理解为何保护一片湿地或森林远不止是‘留几棵树’那么简单。",
+    "metaphor": "就像一个人离不开自己的家——有熟悉的房间布局、稳定的水电供应和邻里关系，每种生物也依赖其栖息地提供生存必需的‘基础设施’和‘社交网络’。",
+    "example": "长江江豚仅分布于长江中下游干流及部分通江湖泊，这些水域的水文特征、鱼类资源和低航运干扰水平共同构成其不可替代的栖息地；一旦围湖造田或密集采砂破坏该环境，种群便面临灭绝风险。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Habitat - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Habitat",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:05:13Z"
 }

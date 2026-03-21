@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Whisper",
+  "term": "whisper",
   "norm_term": "whisper",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Whisper 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Whisper，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Whisper 是由 OpenAI 开发的开源语音识别（ASR）模型，能将不同语言的语音高精度地转录为文字，并支持翻译、说话人分离和无标点文本自动加标点等功能。它对普通用户意义重大：无需专业设备或付费服务，就能用手机或电脑快速将会议录音、课堂讲解、采访素材等转化为可编辑、可搜索的文字，极大提升信息处理效率，尤其惠及听障人士、多语种学习者和内容创作者。",
+    "metaphor": "就像一位精通上百种语言、从不疲倦的速记专家，一边听你说话，一边实时写下准确文字，还能顺手把外语翻译成中文。",
+    "example": "用户用手机录下一段15分钟的英文播客，上传至本地运行的Whisper工具，30秒内即生成带时间戳的中文译文稿，可直接复制进笔记软件整理要点。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Whisper - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Whisper",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:25:44Z"
 }

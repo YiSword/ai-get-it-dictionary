@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Learning to Rank",
+  "term": "learning_to_rank",
   "norm_term": "learning_to_rank",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Learning to Rank 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Learning to Rank，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Learning to Rank（LTR）是一种机器学习方法，专门用于对一组候选项目（如搜索结果、推荐商品或新闻条目）按相关性或用户偏好自动排序。它不单独预测每个项目的绝对得分，而是建模项目之间的相对顺序关系，从而提升排序质量。普通用户需要知道它，因为它是搜索引擎、电商推荐、信息流排序等日常服务背后的核心技术——直接影响你看到的内容是否精准、有用和及时。",
+    "metaphor": "就像一位经验丰富的图书管理员，不是给每本书打一个孤立的评分，而是根据你的提问，快速比较几十本书的标题、摘要和借阅记录，把最可能满足你需求的几本放在最前面。",
+    "example": "当你在淘宝搜索‘无线降噪耳机’，系统会从数万款商品中选出数百个候选，利用LTR模型综合价格、销量、好评率、用户历史行为等数十个特征，动态生成最优排序，确保你最先看到的几款既符合需求又值得信赖。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Learning to Rank - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Learning_to_Rank",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:06:00Z"
 }

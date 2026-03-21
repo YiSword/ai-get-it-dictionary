@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Mistral AI",
+  "term": "mistral_ai",
   "norm_term": "mistral_ai",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Mistral AI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Mistral AI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Mistral AI 是一家法国人工智能公司，专注于研发开源、高性能的大语言模型（如 Mistral 7B、Mixtral 系列），其模型以轻量高效、支持长上下文和本地部署能力强著称。普通用户需要了解它，是因为它提供了可免费商用、无需依赖云服务的高质量AI工具，降低了开发者和中小企业接入先进AI技术的门槛，也推动了隐私敏感场景（如本地文档处理、离线助手）的AI应用落地。",
+    "metaphor": "就像一位精通多国语言、随身携带速记本的资深翻译官——不依赖网络信号，不上传你的对话，却能在笔记本上飞快写出精准、有逻辑的译文。",
+    "example": "一名律师在未联网的笔记本电脑上，用 Mistral 7B 模型快速摘要长达200页的合同草案，并高亮潜在法律风险条款，全程数据不出本地设备。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Mistral AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Mistral_AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:42:29Z"
 }

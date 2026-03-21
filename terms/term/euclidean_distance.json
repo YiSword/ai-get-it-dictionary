@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Euclidean Distance",
+  "term": "euclidean_distance",
   "norm_term": "euclidean_distance",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Euclidean Distance 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Euclidean Distance，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "欧几里得距离（euclidean_distance）是数学中衡量两点之间直线距离的标准方法，适用于二维、三维或更高维空间。它通过勾股定理的推广计算：对两个点各维度坐标差的平方和开平方根。普通用户需要了解它，因为它是地图导航、图像识别、推荐系统、运动追踪等日常技术背后的底层逻辑——比如手机地图估算你到餐厅的‘直线距离’，或人脸识别算法判断两张脸有多相似。",
+    "metaphor": "就像用一把无形的直尺，直接从你家阳台拉到邻居家窗户，不绕楼梯也不走街道，只量最短的空中连线。",
+    "example": "在天气App中，系统用欧几里得距离综合温度、湿度、气压三个维度的数值差异，找出与当前条件最相似的历史天气样本，从而提高预报准确性。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Euclidean Distance - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Euclidean_Distance",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:12:37Z"
 }

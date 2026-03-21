@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Greedy Policy",
+  "term": "greedy_policy",
   "norm_term": "greedy_policy",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Greedy Policy 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Greedy Policy，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "greedy_policy（贪心策略）是强化学习中一种简单而常用的决策规则：在每个状态下，智能体总是选择当前看起来能带来最高即时奖励的动作，而不考虑该动作对未来收益的长期影响。它不进行探索，也不建模未来状态，因此计算高效但可能陷入局部最优。普通用户需要了解它，是因为它是理解更复杂策略（如ε-greedy或基于价值函数的策略）的基础，也常见于推荐系统、游戏AI等实际应用中，帮助判断算法是否过于短视。",
+    "metaphor": "就像一个只看眼前一块最大蛋糕就立刻伸手去拿的人，完全不管拿完后会不会错过整块蛋糕店。",
+    "example": "在迷宫导航机器人中，greedy_policy会让它每步都朝离终点欧氏距离最近的方向移动，即使那条路通向死胡同。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Greedy Policy - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Greedy_Policy",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:59:26Z"
 }

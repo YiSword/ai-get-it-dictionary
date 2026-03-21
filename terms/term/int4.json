@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "INT4",
+  "term": "int4",
   "norm_term": "int4",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "INT4 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 INT4，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "int4 是一种整数数据类型，表示用 4 位二进制数存储的有符号整数，取值范围为 -8 到 7。它常用于对内存或带宽极度敏感的场景（如嵌入式系统、AI 模型量化、数据库压缩存储），以大幅减少数据体积和计算开销。普通用户虽不直接编写 int4 代码，但在使用轻量级 AI 应用、手机端大模型或高性能数据库时，其背后很可能依赖 int4 量化技术来实现更快响应与更低耗电。",
+    "metaphor": "就像把一本厚字典缩印成袖珍版——牺牲部分细节（精度），换来便携性（速度与空间）。",
+    "example": "在 Llama-3 的移动端部署中，权重被量化为 int4 格式，使模型体积缩小近 4 倍，从而能在 iPhone 上实时运行对话功能。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "INT4 - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/INT4",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:35:37Z"
 }

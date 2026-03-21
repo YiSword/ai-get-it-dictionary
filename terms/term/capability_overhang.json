@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Capability Overhang",
+  "term": "capability_overhang",
   "norm_term": "capability_overhang",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Capability Overhang 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Capability Overhang，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "capability_overhang 指系统或平台当前具备的技术能力（如算力、模型规模、多模态理解等）显著超出其当前实际应用场景或用户需求所要求的水平。这种‘能力冗余’并非缺陷，而是为未来功能扩展、新交互范式或未预见任务预留的弹性空间。普通用户需要了解它，是因为它预示着产品可能即将支持更自然的对话、实时跨模态操作或个性化深度推理——这些升级往往悄然发生，无需用户主动更新或学习新操作。",
+    "metaphor": "就像一辆汽车配备了可输出500马力的引擎，但日常通勤只需80马力；那多出的420马力不是浪费，而是为爬陡坡、拖挂或未来改装留出的余量。",
+    "example": "某智能助手已内置能实时翻译12种语言并同步生成手语动画的多模态模型，但当前界面仅提供文字翻译功能——这尚未启用的手语生成能力就是典型的 capability_overhang。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Capability Overhang - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Capability_Overhang",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:19:36Z"
 }

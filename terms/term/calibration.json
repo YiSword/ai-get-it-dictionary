@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Calibration",
+  "term": "calibration",
   "norm_term": "calibration",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
   "category": "其他",
-  "difficulty": "高级",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Calibration 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Calibration，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Calibration（校准）是指通过调整或验证测量设备、传感器或软件模型的输出，使其与已知标准或真实值保持一致的过程。它确保数据准确、可比且可靠。普通用户需要了解校准，因为日常设备如智能手表的心率监测、手机陀螺仪、家用电子秤甚至相机白平衡都依赖校准；若未定期校准，可能导致健康误判、导航偏差或照片偏色等实际问题。",
+    "metaphor": "就像给一把尺子重新刻上准确的刻度，或者给闹钟对照原子钟调准时间——校准是让工具‘学会正确说话’的过程。",
+    "example": "医生使用血压计前，会先用标准压力源进行校准，确保读数误差小于±2 mmHg；否则可能将正常血压误判为高血压，导致不必要的用药。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Calibration - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Calibration",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:17:32Z"
 }

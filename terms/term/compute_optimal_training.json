@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Compute-Optimal Training",
+  "term": "compute_optimal_training",
   "norm_term": "compute_optimal_training",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Compute-Optimal Training 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Compute-Optimal Training，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "compute_optimal_training 是指在模型训练过程中，通过系统性地调整计算资源配置（如批大小、学习率、精度、硬件并行策略等）与训练算法参数，以在给定硬件约束和时间预算下，最大化模型最终性能或最小化单位算力成本的训练策略。它不是单纯追求最快或最高精度，而是寻求性能、效率与资源消耗之间的最佳平衡点。普通用户需要了解它，因为盲目使用默认超参或全量资源可能导致训练耗时剧增、显存溢出、收敛变差，甚至浪费数万元算力预算。",
+    "metaphor": "就像一位经验丰富的厨师根据灶具火力、食材特性和用餐时限，动态调整火候、翻炒节奏和调味顺序，只为在最短时间内做出最入味的菜——而非一味猛火快炒或小火慢炖。",
+    "example": "在用8张A100训练一个10亿参数语言模型时，通过 compute_optimal_training 分析发现：将批大小从2048降至1024、启用混合精度与梯度检查点，并采用分层学习率衰减，可在相同训练步数下提升验证集准确率0.8%，同时缩短总耗时17%。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Compute-Optimal Training - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Compute-Optimal_Training",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:46:47Z"
 }

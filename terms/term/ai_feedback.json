@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "AI Feedback",
+  "term": "ai_feedback",
   "norm_term": "ai_feedback",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AI Feedback 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 AI Feedback，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "ai_feedback 是指用户对人工智能系统输出（如回答、建议、生成内容）所给出的评价、修正或偏好信号，用于帮助模型优化后续响应。它可能是显式的（如点赞/点踩按钮、评分、文本反馈），也可能是隐式的（如修改生成结果后重新提交、跳过某条推荐）。普通用户需要了解它，因为他们的反馈直接影响AI的学习方向和个性化效果——提供清晰、具体的反馈能让AI更快适应其需求，避免陷入错误模式或偏见循环。",
+    "metaphor": "就像教一个认真但经验不足的学徒：你指出哪里做得好、哪里需要调整，他才会越做越贴合你的期望。",
+    "example": "在写作辅助工具中，用户将AI生成的段落删掉半句并手动重写，系统自动记录该编辑行为作为强化学习信号，下次类似场景便更倾向生成简洁有力的句式。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "AI Feedback - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/AI_Feedback",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T03:26:41Z"
 }

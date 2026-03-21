@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Contrastive Search",
+  "term": "contrastive_search",
   "norm_term": "contrastive_search",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Contrastive Search 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Contrastive Search，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "contrastive_search 是一种用于大语言模型解码的文本生成策略，它在每一步不仅保留最可能的候选词（如传统 beam search），还显式保留若干语义差异较大的次优候选，通过对比其得分与相似度来抑制重复、提升多样性。相比 greedy 或 beam search，它能在保持连贯性的同时避免陈词滥调和自我重复，对需要创意表达、开放问答或长文本生成的普通用户尤为重要。",
+    "metaphor": "就像一位编辑在写稿时，不只挑选最顺口的一句话，还会刻意保留几句风格迥异的备选，再权衡‘是否太像前文’‘是否带来新信息’后才落笔。",
+    "example": "当用大模型生成产品广告文案时，contrastive_search 可避免反复使用‘卓越’‘领先’等高频词，转而交替输出‘匠心打磨’‘直击痛点’等语义互补的表达，使文案更鲜活有力。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Contrastive Search - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Contrastive_Search",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:56:13Z"
 }

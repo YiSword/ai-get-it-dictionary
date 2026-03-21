@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "chatglm3",
+  "norm_term": "chatglm3",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "ChatGLM3 是智谱AI推出的第三代开源大语言模型，具备更强的中文理解与生成能力、更长的上下文支持（最高128K）、原生支持工具调用和多轮对话优化。它免费开放权重，支持本地部署，适合开发者、研究者及对数据隐私敏感的个人用户。普通用户需要知道它，是因为它提供了一个高性能、可自主控制、无需依赖国外云服务的中文AI助手替代方案。",
+    "metaphor": "就像一位精通中文、随叫随到、还能自己查资料和操作手机App的私人助理，既不用联网上传隐私，也不用担心被平台限制。",
+    "example": "一位教师在离线环境下用ChatGLM3本地部署版，快速生成符合课标的小学数学应用题，并自动校验答案逻辑是否自洽。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:52:09Z",
+  "updated_at": "2026-03-21T04:26:44Z"
+}

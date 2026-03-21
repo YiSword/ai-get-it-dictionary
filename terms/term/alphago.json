@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "AlphaGo",
+  "term": "alphago",
   "norm_term": "alphago",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AlphaGo 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 AlphaGo，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "AlphaGo 是由 DeepMind 开发的首个在标准围棋规则下击败人类职业九段棋手的人工智能程序，它标志着人工智能在复杂策略游戏领域取得历史性突破。围棋因其超大的状态空间和依赖直觉的判断，曾长期被视为 AI 难以攻克的堡垒。AlphaGo 的成功不仅展示了深度学习与蒙特卡洛树搜索结合的强大能力，也推动了AI在医疗、材料科学等需复杂决策领域的实际应用。普通用户需要了解它，因为它象征着AI从‘执行指令’迈向‘理解与创造策略’的关键转折点。",
+    "metaphor": "就像一位从未参加过国际象棋比赛的自学成才少年，仅靠大量棋谱和自我对弈，突然击败了世界冠军，并重新定义了人们对象棋智慧的理解。",
+    "example": "2016年，AlphaGo 在首尔与韩国顶尖棋手李世石进行五番棋对决，以4:1获胜，其中第二局下出被职业棋手称为‘神之一手’（第37手）的创造性着法，震惊全球围棋界。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "AlphaGo - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/AlphaGo",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:33:50Z"
 }

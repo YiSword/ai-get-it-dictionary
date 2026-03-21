@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Fill-in-the-Middle",
+  "term": "fill_in_the_middle",
   "norm_term": "fill_in_the_middle",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Fill-in-the-Middle 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Fill-in-the-Middle，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "fill_in_the_middle（FIM）是一种代码或文本生成任务范式，模型被要求根据给定的开头和结尾，自动补全中间缺失的部分。与传统的从左到右续写不同，FIM 显式支持在已有代码片段的任意位置插入新逻辑，例如在函数定义内部添加条件分支，或在注释之间插入实现。普通用户需要了解它，因为现代编程助手（如 GitHub Copilot、CodeWhisperer）广泛采用 FIM 进行上下文感知的智能补全，直接影响编码效率和重构体验。",
+    "metaphor": "就像一位熟读整本菜谱的厨师，你只告诉他‘先切葱姜，最后淋热油’，他就能精准补出中间爆香、下料、翻炒的完整步骤。",
+    "example": "开发者在编辑 Python 函数时，在已有 def foo(): 和 return result 之间留空，IDE 触发 FIM 模式后，模型根据函数名和上下文自动生成参数校验与核心计算逻辑。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Fill-in-the-Middle - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Fill-in-the-Middle",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:28:22Z"
 }

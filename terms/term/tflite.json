@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "tflite",
+  "norm_term": "tflite",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "TFLite（TensorFlow Lite）是谷歌推出的轻量级机器学习框架，专为在移动设备、嵌入式系统和物联网设备等资源受限环境中运行AI模型而设计。它通过模型量化、算子融合和精简运行时等技术，大幅减小模型体积并提升推理速度。普通用户需要知道它，是因为许多日常应用——如手机相机的实时美颜、语音助手的离线唤醒、健康App中的步态分析——背后都依赖TFLite高效、低功耗地运行AI功能，无需联网或依赖云端计算。",
+    "metaphor": "TFLite就像一本为旅行者特制的袖珍词典：删去冗余释义、压缩纸张厚度、优化排版，只为在有限行李空间里快速查到最常用的词。",
+    "example": "安卓手机上的Google Lens使用TFLite在本地实时识别拍照中的植物、文字和地标，全程不上传图像，既快又保护隐私。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:48:49Z",
+  "updated_at": "2026-03-21T10:06:11Z"
+}

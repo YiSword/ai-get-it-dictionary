@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Information Extraction",
+  "term": "information_extraction",
   "norm_term": "information_extraction",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Information Extraction 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Information Extraction，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "信息抽取（Information Extraction，IE）是从非结构化或半结构化文本（如新闻、网页、邮件）中自动识别并提取特定类型结构化信息的技术，例如人名、地点、组织、时间、事件关系等。它让计算机能‘读懂’人类语言中的关键事实，并转化为数据库或知识图谱可处理的格式。普通用户虽不直接操作该技术，但依赖其支撑的智能助手、搜索引擎摘要、新闻聚合、简历筛选等应用，因此了解它有助于理解AI如何从海量文本中快速提炼价值。",
+    "metaphor": "就像一位速记高手，在嘈杂的会议录音中只抓取发言人的姓名、决定事项和截止时间，忽略所有无关的寒暄与重复。",
+    "example": "一家金融公司使用信息抽取系统从数千份财报新闻稿中实时提取公司名称、财报年份、净利润数值及高管变动信息，自动生成结构化数据库供分析师快速比对。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Information Extraction - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Information_Extraction",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:31:54Z"
 }

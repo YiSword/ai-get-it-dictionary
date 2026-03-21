@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "INT8",
+  "term": "int8",
   "norm_term": "int8",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "INT8 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 INT8，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "int8 是一种整数数据类型，表示用 8 位二进制数存储的有符号整数，取值范围为 -128 到 127。它比常见的 int32 或 int64 占用更少内存（仅 1 字节），在资源受限的场景（如嵌入式设备、移动应用或大模型推理）中能显著降低内存带宽和功耗。普通用户虽不直接编码使用，但在使用轻量级 AI 应用、智能摄像头、语音助手等依赖高效计算的工具时，背后常由 int8 运算加速，影响响应速度与电池续航。",
+    "metaphor": "就像用一张只印着 0–99 的简版温度计代替标准刻度尺——精度有限但轻便快捷，适合不需要毫米级读数、却要快速批量测温的场景。",
+    "example": "手机上的人脸识别功能常将原始图像像素从 float32 量化为 int8 进行神经网络推理，使识别速度提升 2–3 倍且功耗降低约 40%。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "INT8 - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/INT8",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:35:52Z"
 }

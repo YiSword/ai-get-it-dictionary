@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Sentiment Analysis",
+  "term": "sentiment_analysis",
   "norm_term": "sentiment_analysis",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Sentiment Analysis 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Sentiment Analysis，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "情感分析（sentiment_analysis）是一种自然语言处理技术，用于自动识别和分类文本中表达的情绪倾向，如正面、负面或中性。它广泛应用于社交媒体监控、产品评论分析和客户服务反馈处理等场景。普通用户需要了解它，因为日常接触的推荐系统、客服机器人甚至新闻推送背后，都可能依赖情感分析来判断用户态度或优化体验，从而影响信息获取的质量与个性化程度。",
+    "metaphor": "就像一位细心的图书管理员，快速翻阅成百上千条读者留言，不读全文，只凭语气词、形容词和上下文，就能准确标出‘喜欢’‘讨厌’或‘无所谓’。",
+    "example": "某手机品牌在微博发布新品后，用情感分析工具实时扫描数万条评论，发现大量用户提及‘电池发热’并伴随负面词汇，于是迅速调整公关回应并启动内部技术排查。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Sentiment Analysis - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Sentiment_Analysis",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:43:43Z"
 }

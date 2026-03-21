@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "kandinsky_2",
+  "norm_term": "kandinsky_2",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "kandinsky_2 是由俄罗斯人工智能公司Sber AI于2022年发布的开源文本到图像生成模型，是Kandinsky系列的第二代，基于扩散模型架构，支持多语言提示理解（尤其优化俄语和英语），并在图像质量、构图一致性和文本-图像对齐方面显著优于初代。普通用户需要了解它，是因为它代表了非西方主导的AI图像生成技术路径，提供免费、可本地运行的替代方案，且在处理复杂描述和文化语境相关提示时表现独特。",
+    "metaphor": "就像一位精通双语的画家，既听懂你的俄语诗意描述，也理解英语技术指令，还能把抽象概念精准画成画面。",
+    "example": "一位设计师用俄语输入‘在圣彼得堡冬宫广场上空悬浮的透明玻璃钢琴，黄昏光线折射出彩虹’，kandinsky_2 生成了构图严谨、光影自然的高质量图像。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:45:15Z",
+  "updated_at": "2026-03-21T07:48:59Z"
+}

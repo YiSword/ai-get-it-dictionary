@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "muse",
+  "norm_term": "muse",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Muse 是一个开源的脑机接口（BCI）硬件平台，由 InteraXon 公司开发，外形类似轻便头带，内置多个干电极，可检测大脑产生的微弱电信号（如α、β波），并通过蓝牙将数据实时传输至计算机或移动设备。它使非专业用户也能以较低门槛接触和实验基础的脑电图（EEG）应用，例如专注力监测、简单意念控制或冥想反馈。普通用户需要了解 Muse，是因为它将原本属于神经科学实验室的技术转化为可消费级的工具，推动了人机交互、心理健康自我管理及教育领域的实践普及。",
+    "metaphor": "就像一副能听见你大脑‘背景音乐’的智能耳机，它不播放声音，而是倾听并翻译你思绪起伏时的电活动节律。",
+    "example": "用户佩戴 Muse 头带进行 5 分钟呼吸冥想练习，配套 App 实时显示专注度与放松度曲线，并在走神时通过轻微音频提示引导回归当下。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:44:36Z",
+  "updated_at": "2026-03-21T08:51:48Z"
+}

@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Vision Language Model",
+  "term": "vision_language_model",
   "norm_term": "vision_language_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
-  "category": "模型架构",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Vision Language Model 是 AI 模型体系中的重要结构或模型类型，决定了模型如何理解输入、组织信息和生成结果。虽然普通用户不会直接训练它，但很多今天常见的 AI 能力都建立在这类结构之上。理解它能帮助你建立更完整的 AI 基础认知。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Vision Language Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Vision-language model（VLM）是一种能同时理解图像和文本的人工智能模型，它通过联合学习视觉与语言的语义关联，实现跨模态推理。例如，它不仅能识别照片中的物体，还能用自然语言描述场景、回答关于图像的问题，或根据文字生成匹配的图片。普通用户需要了解它，因为这类模型正快速融入日常工具——如手机相册的智能搜索、社交平台的无障碍图像描述、教育App中的图文互动答疑等，直接影响信息获取方式和人机交互体验。",
+    "metaphor": "就像一位精通双语且擅长看图说话的资深编辑，既能读懂文字稿，又能准确解读配图，并在两者之间自由切换、相互印证。",
+    "example": "当你在购物App中上传一张鞋子的照片并输入‘找同款但颜色更深的’，VLM会理解图像细节与文字意图，精准检索出符合要求的商品。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Vision Language Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Vision_Language_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
-  "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T10:19:02Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "IFEval",
+  "term": "ifeval",
   "norm_term": "ifeval",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "IFEval 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 IFEval，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "ifeval 是 AsciiDoc 文档处理系统中的一种条件指令，用于在文档编译时根据指定的布尔表达式是否为真来决定是否包含某段内容。它不同于静态的 ifdef 或 ifndef，支持更灵活的逻辑判断（如比较版本号、字符串匹配、环境变量值等）。普通用户需要知道它，是因为在编写跨平台、多版本或可配置的技术文档（如软件手册、API 文档）时，能用它自动筛选适配不同目标读者或构建环境的内容，避免手动维护多个文档分支，提升准确性和维护效率。",
+    "metaphor": "就像一本智能食谱，会根据你冰箱里是否有牛奶、烤箱是否预热成功，实时决定是否显示‘加入牛奶’步骤或跳过‘预热’提醒。",
+    "example": "在构建企业版和社区版共用的用户指南时，用 ifeval::[{build-profile} == 'enterprise'] 包裹高级功能说明，确保仅当构建参数为 'enterprise' 时才生成对应章节。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "IFEval - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/IFEval",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:24:14Z"
 }

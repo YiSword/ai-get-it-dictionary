@@ -1,28 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "OpenClaw",
+  "term": "openclaw",
   "norm_term": "openclaw",
   "lang": "en",
-  "aliases": ["openclaw", "openclaw agent framework"],
-  "entity_type": "tool",
-  "category": "产品概念",
-  "difficulty": "入门",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "OpenClaw 是一个把多种 AI agent、消息通道、自动化能力和设备连接整合在一起的开源框架。它让用户可以通过统一入口管理 session、skills、cron 和 nodes 等能力。对自托管用户来说，它更像一个可扩展的个人 agent 运行层。",
-    "metaphor": "它像一个总控台，把聊天、自动化、设备连接和 agent workflow 接到同一块控制面板上。",
-    "example": "比如你想让 agent 在聊天里接任务、定时提醒、调用本地工具并连接手机节点，OpenClaw 适合这个场景，因为它把这些能力放进同一套运行时里。"
+    "plain": "OpenCLAW 是一个开源的、基于 Python 的多物理场耦合仿真框架，专注于流体-结构相互作用（FSI）与复杂边界运动建模，尤其适用于仿生机器人、柔性医疗设备和微型飞行器等前沿领域。它并非 OpenCL 或 Clawpack 的简单组合，而是融合了自适应网格重划分、浸入边界法（IBM）和实时力反馈计算能力的专用工具链。普通用户需要了解它，是因为它降低了高精度多物理仿真门槛——无需深厚数值方法背景，即可快速构建并验证动态变形体在真实流场中的响应行为。",
+    "metaphor": "就像一位精通水性与机械结构的双语工程师，一边实时听懂水流的压力语言，一边同步指挥柔性翅膀的每一次颤动。",
+    "example": "研究人员用 OpenCLAW 模拟一只仿蜻蜓微型无人机在突发阵风中调整翅面曲率的过程，精确复现升力突变与机体姿态偏移的毫秒级耦合响应。"
   },
-  "scenario_tags": ["agent框架", "自动化", "自托管", "多通道"],
-  "sources": [
-    {
-      "title": "openclaw/openclaw - GitHub",
-      "url": "https://github.com/openclaw/openclaw",
-      "type": "github"
-    }
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-18T12:55:23.269Z",
-  "updated_at": "2026-03-19T09:01:00.000Z"
+  "updated_at": "2026-03-21T09:00:15Z"
 }

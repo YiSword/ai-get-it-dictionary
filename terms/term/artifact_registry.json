@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Artifact Registry",
+  "term": "artifact_registry",
   "norm_term": "artifact_registry",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Artifact Registry 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Artifact Registry，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "artifact_registry 是一种用于存储、管理和分发软件构建产物（如容器镜像、Java JAR 包、npm 包、Python wheel 等）的托管服务或系统。它为开发团队提供版本控制、访问权限管理、元数据标记和安全扫描等能力，确保构建产物可追溯、可复现且可安全部署。普通用户（尤其是开发者、运维和 DevOps 工程师）需要了解它，因为它是现代持续集成/持续交付（CI/CD）流程中连接构建与部署的关键枢纽，直接影响软件交付的可靠性、合规性和效率。",
+    "metaphor": "就像图书馆的图书编目系统——它不生产书，但为每本出版物分配唯一编号、记录作者与版本、控制借阅权限，并确保读者总能拿到准确、未被篡改的那本。",
+    "example": "在 Google Cloud 中，开发者将 Docker 构建好的微服务镜像推送到 Artifact Registry，CI 流水线随后从该仓库拉取指定版本镜像并部署到 Kubernetes 集群，全程自动验证签名与漏洞扫描结果。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Artifact Registry - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Artifact_Registry",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:43:02Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Runway",
+  "term": "runway",
   "norm_term": "runway",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Runway 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Runway，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Runway 是人工智能领域中一个开源机器学习平台，专注于简化模型训练、部署和协作流程。它提供直观的图形界面和命令行工具，支持从数据准备、实验跟踪到模型推理的全周期管理。普通用户（尤其是非资深工程师或数据科学家）需要了解 Runway，因为它降低了 AI 应用门槛——无需编写大量代码即可加载预训练模型、微调参数或构建定制化 AI 工具，广泛用于创意设计、内容生成和快速原型开发。",
+    "metaphor": "Runway 就像摄影棚里的智能灯光控制台：你不必懂电路原理，只需调节旋钮和滑块，就能实时预览不同光照效果并保存最佳方案。",
+    "example": "一位设计师使用 Runway 加载 Stable Diffusion 模型，上传手绘草图，通过简单拖拽调整风格参数，几秒内生成多版高清海报初稿，全程无需写 Python 或配置 GPU 环境。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Runway - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Runway",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:35:58Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "MiniGPT-4",
+  "term": "minigpt_4",
   "norm_term": "minigpt_4",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MiniGPT-4 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 MiniGPT-4，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "MiniGPT-4 是一个轻量级的多模态大模型，基于视觉编码器（如ViT）和冻结的LLM（如Vicuna）构建，通过可训练的投影层连接，能理解图像并生成自然语言描述。它在保持较强图文理解能力的同时大幅降低计算资源需求，适合在消费级GPU上部署。普通用户需要了解它，是因为它代表了AI从‘只能看图说话’走向‘轻量、可落地’的关键一步——让图像问答、无障碍辅助、教育工具等应用不再依赖云端或昂贵硬件。",
+    "metaphor": "就像一位精通摄影与文学的速记记者：不用翻阅整部百科全书，只凭一张照片和几秒思考，就能写出准确生动的现场报道。",
+    "example": "视障用户用手机拍摄菜单，MiniGPT-4本地运行后实时语音描述菜品名称、价格及含坚果提示；教师上传手写数学题照片，模型即时解析步骤并生成讲解文本。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "MiniGPT-4 - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/MiniGPT-4",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:40:25Z"
 }

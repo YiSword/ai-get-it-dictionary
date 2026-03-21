@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "early_exiting",
+  "norm_term": "early_exiting",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "early_exiting 是一种模型推理优化技术，指在深度神经网络（尤其是多层或级联结构）中，允许样本在中间某一层就提前输出预测结果，而无需经过全部计算层。它通过引入轻量级分类头或置信度判断机制，对简单样本快速终止计算，从而降低延迟和能耗。普通用户需要了解它，因为这项技术正被广泛用于手机端AI、实时语音识别和边缘设备中——它能让App响应更快、更省电，而不明显牺牲准确率。",
+    "metaphor": "就像医院分诊台：轻症患者在初筛后直接拿药离开，不必排队等待全套检查。",
+    "example": "在智能手机的实时翻译App中，一个明确的短句（如‘Hello’）可能在Transformer模型的第3层就被高置信度分类为英语，随即退出，跳过剩余11层计算，将响应时间从200ms缩短至60ms。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:40:56Z",
+  "updated_at": "2026-03-21T05:59:10Z"
+}

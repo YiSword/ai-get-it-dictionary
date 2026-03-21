@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Alibaba Cloud Model Studio",
+  "term": "alibaba_cloud_model_studio",
   "norm_term": "alibaba_cloud_model_studio",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Alibaba Cloud Model Studio 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Alibaba Cloud Model Studio，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Alibaba Cloud Model Studio 是阿里云提供的面向机器学习和大模型开发的一站式平台，集成了数据处理、模型训练、评估、部署与管理功能。它降低了AI开发门槛，使数据科学家、算法工程师甚至具备基础编程能力的业务人员都能高效构建和迭代AI模型。普通用户需要了解它，是因为在数字化转型中，快速验证AI创意、复用预训练模型或定制行业模型已成为提升业务效率的关键能力，而无需从零搭建复杂基础设施。",
+    "metaphor": "就像一个智能厨房——它已备好食材（数据）、厨具（算法框架）、食谱（预置模型）和试吃台（在线推理），你只需专注‘烹饪’（建模）和‘调味’（调参），不必自己盖房子、拉水电。",
+    "example": "某电商公司运营人员使用 Model Studio 导入历史促销订单数据，通过拖拽组件完成特征工程，调用平台内置的推荐算法模板训练个性化商品推荐模型，并一键部署为API供App实时调用。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Alibaba Cloud Model Studio - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Alibaba_Cloud_Model_Studio",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T03:30:56Z"
 }

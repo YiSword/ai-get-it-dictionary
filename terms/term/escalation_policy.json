@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Escalation Policy",
+  "term": "escalation_policy",
   "norm_term": "escalation_policy",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Escalation Policy 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Escalation Policy，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "escalation_policy（升级策略）是一种预先定义的规则集，用于在事件（如系统故障、告警未响应）未被及时处理时，自动将责任逐级转移给更高权限或更可用的人员或团队。它确保关键问题不会因第一响应者离线、忽略或无法解决而被搁置，是运维、SRE 和IT服务管理中保障响应可靠性的核心机制。普通用户（尤其是技术团队成员）需要理解它，因为它是故障响应流程的‘安全网’，直接影响系统稳定性与用户体验。",
+    "metaphor": "就像医院的急诊分诊制度：轻症先由护士处理，若病情恶化或无人响应，会自动转给主治医生，再不行则升级至值班主任。",
+    "example": "当监控系统检测到数据库主节点宕机，3分钟内未被值班工程师确认，升级策略会自动将告警发送给二线DBA；若5分钟后仍未响应，则通知CTO并触发电话呼叫。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Escalation Policy - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Escalation_Policy",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:11:34Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "C4AI",
+  "term": "c4ai",
   "norm_term": "c4ai",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "C4AI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 C4AI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "C4AI（Climate Change AI）是一个全球性非营利倡议，致力于推动人工智能技术在应对气候变化问题上的负责任应用。它连接研究人员、工程师、政策制定者和领域专家，通过开源工具、数据集、教育材料和协作项目，加速气候建模、可再生能源优化、碳追踪、农业适应性分析等关键方向的进展。普通用户需要了解C4AI，因为它代表了一种将前沿技术切实用于解决人类共同生存危机的努力——这意味着你使用的天气预测App、家庭光伏调度系统，甚至城市交通减排方案，背后都可能受益于该社区推动的技术成果。",
+    "metaphor": "C4AI就像一群跨学科的‘气候工程师’组成的开源维修站，不造新车，但为所有想修复地球引擎的人免费提供图纸、扳手和协同工作台。",
+    "example": "一家巴西农业合作社利用C4AI社区发布的开源卫星图像分析模型，实时监测土壤湿度与作物胁迫状况，将灌溉用水量降低了22%，同时保持收成稳定。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "C4AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/C4AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:16:46Z"
 }

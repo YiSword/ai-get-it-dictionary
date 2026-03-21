@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "AlpacaEval",
+  "term": "alpacaeval",
   "norm_term": "alpacaeval",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AlpacaEval 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 AlpacaEval，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "AlpacaEval 是一个开源的自动化评估框架，用于快速、低成本地比较不同大语言模型（LLM）在开放式生成任务（如问答、推理、创意写作）中的相对质量。它不依赖人工标注，而是通过轻量级的评判模型（如 GPT-4 或本地小模型）对模型输出进行成对胜率判断，从而排序模型性能。普通用户需要了解它，是因为它降低了模型评测门槛——无需昂贵人工评估或复杂指标，就能直观判断哪个模型更‘好用’，尤其适合开发者、研究人员快速迭代和选型。",
+    "metaphor": "就像让一群经验丰富的餐厅食客两两盲品两道菜后投票选出更好吃的一道，AlpacaEval 不靠打分细则，而靠简洁的‘谁更胜一筹’判断来排名模型。",
+    "example": "一位开发者想从 Llama-3-8B 和 Phi-3-mini 中选择更适合客服场景的模型，便用 AlpacaEval 在自定义的100条用户咨询上运行，5分钟内得到胜率：Llama-3-8B 以58%胜率略优，于是决定以此为基础微调。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "AlpacaEval - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/AlpacaEval",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:32:49Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Comet",
+  "term": "comet",
   "norm_term": "comet",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Comet 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Comet，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Comet 是一种早期的 Web 实时通信技术，用于在不刷新页面的前提下，让服务器主动向浏览器推送数据。它通过长连接（如长轮询、流式响应）模拟服务器‘主动喊话’的效果，解决了传统 HTTP 请求必须由客户端发起的限制。普通用户虽不直接接触该术语，但其支撑了早期网页版聊天工具、股票行情更新、实时新闻推送等功能——理解 Comet 有助于明白‘看似实时’的网页背后曾依赖巧妙的‘伪装’技巧，也为理解现代 WebSocket 等更高效方案提供历史背景。",
+    "metaphor": "就像顾客在餐馆点完菜后不离开座位，而是持续举手等待服务员主动上菜，而不是每过几秒就起身问一次‘好了吗？’。",
+    "example": "2000 年代末的 Gmail 网页版使用 Comet 技术实现邮件到达的即时提示：浏览器保持一个隐藏的 HTTP 连接，服务器一旦有新邮件就立即写入该连接，前端随即更新收件箱状态。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Comet - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Comet",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:44:27Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "AI Search",
+  "term": "ai_search",
   "norm_term": "ai_search",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AI Search 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 AI Search，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "AI Search（人工智能搜索）是一种利用自然语言处理、语义理解、向量检索和大模型技术实现的智能信息检索方式，它不再依赖关键词匹配，而是理解用户查询的真实意图、上下文和隐含需求。相比传统搜索引擎，AI Search 能回答复杂问题、总结长文档、跨源整合信息，并支持多轮对话式交互。普通用户需要了解它，因为日常使用的搜索引擎、办公软件、知识库甚至电商App正快速集成此类能力，掌握其逻辑有助于更高效获取精准答案，避免被表面结果误导。",
+    "metaphor": "就像一位熟悉你工作习惯和知识背景的资深助理，不仅能听懂你模糊的提问，还能主动追问、调取相关资料、归纳要点，而不是机械地翻找字面匹配的文件。",
+    "example": "在企业内部知识库中输入‘上季度华东区客户投诉增长的原因和对应改进措施’，AI Search 自动分析客服记录、销售数据和会议纪要，生成带依据引用的结构化报告，而非仅返回一堆含‘投诉’或‘华东’的文档链接。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "AI Search - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/AI_Search",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T03:28:38Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "flux_1",
+  "norm_term": "flux_1",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "flux_1 是 Flux AI 公司推出的一系列开源文本到图像生成模型，基于扩散架构（diffusion model），支持高分辨率、风格可控的图像合成。它在开源社区中广受关注，因其无需商业授权即可用于个人创作、设计原型或教育演示，且兼容常见工具链（如 ComfyUI、AUTOMATIC1111）。普通用户需要了解 flux_1，是因为它提供了媲美闭源模型（如 DALL·E 或 MidJourney）的生成质量，同时具备本地运行、数据隐私保护和高度自定义的能力。",
+    "metaphor": "就像一位精通多种画风的数字画家，你只需用自然语言描述画面，它便能在几秒内为你手绘出符合要求的高清草图或成品图。",
+    "example": "一位独立插画师使用 flux_1 在本地电脑上批量生成奇幻角色线稿初稿，再导入 Photoshop 进行手工精修，全程不上传敏感创意到云端。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:35:07Z",
+  "updated_at": "2026-03-21T06:35:12Z"
+}

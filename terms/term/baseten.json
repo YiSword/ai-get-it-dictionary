@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Baseten",
+  "term": "baseten",
   "norm_term": "baseten",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Baseten 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Baseten，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "baseten 是一家专注于简化机器学习模型部署与服务的美国初创公司，提供平台让开发者能快速将训练好的AI模型（如大语言模型、图像生成模型）转化为可扩展、低延迟的API服务。它抽象了基础设施管理、自动扩缩容、监控和版本控制等复杂环节，使数据科学家和工程师无需深入运维细节即可上线模型。普通用户（尤其是技术决策者、AI应用开发者）需要了解 baseten，因为它显著降低了将AI能力集成到产品中的门槛和时间成本，避免重复造轮子，同时保障生产环境的可靠性与合规性。",
+    "metaphor": "就像为AI模型提供了一站式‘快递+仓储+客服’服务：你只需交货（上传模型），它负责打包、发货（API）、扩容应对爆单（自动伸缩）和售后追踪（日志与监控）。",
+    "example": "一家创业公司用 Hugging Face 训练好一个文本分类模型后，通过 baseten 平台几行命令将其部署为 HTTPS API，5分钟内即可供其客服App实时调用，无需配置服务器或编写Flask服务代码。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Baseten - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Baseten",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:56:42Z"
 }

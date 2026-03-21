@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "on_device_inference",
+  "norm_term": "on_device_inference",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "on_device_inference 是指将训练好的人工智能模型直接部署在终端设备（如智能手机、智能音箱或车载系统）上，由设备本地的处理器（如CPU、GPU或NPU）完成推理计算，无需将数据上传至云端。这种方式能保障用户隐私、降低网络延迟、提升响应实时性，并在无网络环境下仍可运行。普通用户需要知道它，因为这直接影响到语音助手是否即时响应、照片滤镜是否秒级生效、以及健康监测数据是否真正留在自己手机里而不被上传。",
+    "metaphor": "就像厨师把做好的菜谱和食材都带进你家厨房现场烹饪，而不是把你的点单发到远郊中央厨房再等外卖送回来。",
+    "example": "苹果iPhone上的Face ID通过设备端运行的轻量化神经网络实时分析前置摄像头画面，完成人脸验证——所有图像处理都在手机内部完成，原始图像从未离开设备。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:24:04Z",
+  "updated_at": "2026-03-21T08:57:48Z"
+}

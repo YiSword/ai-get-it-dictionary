@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Evaluation Harness",
+  "term": "evaluation_harness",
   "norm_term": "evaluation_harness",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Evaluation Harness 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Evaluation Harness，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "evaluation_harness 是一个标准化的软件框架，用于统一加载、运行和评估大语言模型在多个基准任务（如问答、推理、代码生成）上的性能。它封装了数据预处理、提示工程、指标计算和结果汇总等环节，使研究者能公平、可复现地比较不同模型的能力。普通用户需要了解它，因为它是当前AI社区衡量模型真实能力的‘通用标尺’——避免被单一测试或营销话术误导，从而更理性地选择或评估模型。",
+    "metaphor": "就像汽车行业的统一碰撞测试（如Euro NCAP），evaluation_harness 不关心车型外观或宣传口号，只用一套严格、透明的流程检验核心安全性能。",
+    "example": "Hugging Face 的 Open LLM Leaderboard 就基于 lm-evaluation-harness 框架，自动对上百个开源语言模型在 MMLU、TruthfulQA、HumanEval 等10+基准上运行评测并排名。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Evaluation Harness - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Evaluation_Harness",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:14:32Z"
 }

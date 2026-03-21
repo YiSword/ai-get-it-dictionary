@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Fallback Model",
+  "term": "fallback_model",
   "norm_term": "fallback_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Fallback Model 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Fallback Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "fallback_model（回退模型）是指当主用AI模型不可用、响应超时、输出质量不达标或触发安全限制时，系统自动切换使用的备用模型。它保障服务连续性与基础可用性，避免用户请求失败或长时间等待。普通用户虽不直接配置它，但能感知其价值——比如在主模型过载时仍能获得合理回复，而非看到‘服务暂时不可用’的提示。",
+    "metaphor": "就像电梯主缆绳断裂时自动启用的备用钢索，fallback_model 不常启动，却在关键时刻兜住体验，确保不坠落。",
+    "example": "某客服聊天界面中，当主力大模型因高并发延迟超过3秒未响应时，系统立即调用轻量级fallback_model生成简洁、准确的标准化应答，如‘请稍等，我们正在为您查询订单状态。’"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Fallback Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Fallback_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:22:55Z"
 }

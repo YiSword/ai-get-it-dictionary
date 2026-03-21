@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Large Action Model",
+  "term": "large_action_model",
   "norm_term": "large_action_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Large Action Model 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Large Action Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Large Action Model（大型动作模型）是一种专为理解并生成具体操作序列而设计的AI模型，它不仅能理解用户意图，还能直接调用工具、点击按钮、填写表单或执行多步软件操作。与传统语言模型侧重文本生成不同，LAM将自然语言指令映射为可执行的动作链，常用于自动化办公、智能助手和RPA场景。普通用户需要了解它，是因为它正推动AI从‘能说会道’走向‘能做会干’，让AI真正成为可信赖的数字同事，而非仅限于回答问题。",
+    "metaphor": "就像一位精通所有办公软件的资深行政助理，你只需口头交代任务，TA就能自动打开Excel、筛选数据、生成图表并邮件发送给主管。",
+    "example": "用户对手机助手说‘把上周五会议的录音转成文字，提取待办事项，加到我的Notion待办清单里’，LAM自动调用语音识别API、文本解析模型和Notion API完成全流程操作。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Large Action Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Large_Action_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:01:15Z"
 }

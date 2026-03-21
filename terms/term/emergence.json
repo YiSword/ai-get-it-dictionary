@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Emergence",
+  "term": "emergence",
   "norm_term": "emergence",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Emergence 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Emergence，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Emergence（涌现）是指复杂系统中，大量简单个体遵循局部规则相互作用后，自发产生出无法从个体行为直接预测的整体性模式、结构或功能的现象。它不是由中央指令或顶层设计产生的，而是自下而上‘浮现’出来的高级特性。普通用户需要理解它，因为它是解释蚁群智慧、互联网信息传播、股市波动、甚至意识起源等看似混乱却隐含秩序现象的关键概念，有助于避免用线性因果思维误判复杂现实。",
+    "metaphor": "就像单个水分子没有‘湿’的属性，但无数水分子聚集后，‘湿’这一特性自然浮现出来。",
+    "example": "鸟群在没有领头鸟指挥的情况下，仅凭邻近几只鸟的位置和速度调整自身飞行方向，却能形成高度协调、避障灵敏的整体队形——这种集体智能就是典型的涌现现象。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Emergence - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Emergence",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:06:25Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "memory",
+  "norm_term": "memory",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Memory（内存）是计算机中用于临时存储正在运行的程序和当前处理的数据的硬件部件，它读写速度快但断电后数据会丢失。普通用户需要了解内存，因为它直接影响电脑是否卡顿、能同时开多少网页或软件、以及能否流畅运行大型应用（如视频编辑或游戏）。内存不足时，系统会频繁使用硬盘模拟内存，导致明显变慢。",
+    "metaphor": "内存就像办公桌上摊开的工作区：桌面越大（内存越大），你就能同时摆放更多文件和工具并快速切换；而抽屉（硬盘）虽能存大量资料，但每次取放都得起身翻找，慢得多。",
+    "example": "当你用Photoshop打开一张100MB的RAW照片并叠加多个图层时，这些图像数据必须全部载入内存才能实时编辑；若内存只有8GB，系统可能因空间不足而延迟响应甚至崩溃。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T08:32:50Z"
+}

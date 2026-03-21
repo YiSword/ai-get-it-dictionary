@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Feature Attribution",
+  "term": "feature_attribution",
   "norm_term": "feature_attribution",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Feature Attribution 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Feature Attribution，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "feature_attribution（特征归因）是指在机器学习模型（尤其是黑盒模型）做出预测时，量化每个输入特征对最终输出贡献程度的技术。它帮助解释‘为什么模型会这样判断’，例如在信贷审批中识别是收入、负债率还是历史逾期记录主导了拒贷决定。普通用户需要了解它，因为这关系到算法决策的透明度、公平性与可信度——当AI影响贷款、医疗或招聘等关键人生选择时，人们有权知道依据何在，而非被动接受一个无法质疑的结果。",
+    "metaphor": "就像一道菜的口味评分背后附带的‘风味雷达图’，标明盐、糖、酸、辣各自贡献了多少，feature_attribution 是给AI预测结果画出的一张‘决策成分图’。",
+    "example": "某医院使用深度学习模型预测患者术后感染风险，feature_attribution 显示白细胞计数和手术时长的归因分值最高，提示医生应优先关注这两项指标以降低风险。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Feature Attribution - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Feature_Attribution",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:24:33Z"
 }

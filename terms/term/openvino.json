@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "openvino",
+  "norm_term": "openvino",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "OpenVINO（Open Visual Inference and Neural Network Optimization）是英特尔推出的开源工具套件，用于加速深度学习模型在边缘设备（如CPU、GPU、VPU）上的推理性能。它支持模型优化（如量化、剪枝）、跨硬件部署和统一API调用，使开发者无需重写代码即可在不同英特尔芯片上高效运行AI应用。普通用户虽不直接使用，但其背后支撑着许多实时AI功能——如笔记本电脑的智能背景虚化、工业相机的缺陷检测、车载系统的行人识别等，直接影响AI应用的响应速度、功耗与本地化能力。",
+    "metaphor": "OpenVINO就像一位精通多地方言的AI翻译官兼提速教练：它把通用AI模型‘翻译’成特定硬件能高效执行的指令，并全程优化执行节奏，让AI在各种设备上既听得懂又跑得快。",
+    "example": "一家安防公司使用OpenVINO将训练好的YOLOv5目标检测模型部署到搭载Intel Movidius VPU的嵌入式摄像头中，实现低功耗、无网络依赖的实时人脸识别，延迟低于80毫秒。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:48:22Z",
+  "updated_at": "2026-03-21T09:01:20Z"
+}

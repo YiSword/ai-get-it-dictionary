@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Batch Embedding",
+  "term": "batch_embedding",
   "norm_term": "batch_embedding",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Batch Embedding 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Batch Embedding，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "batch_embedding 是指一次性将多个文本（如句子、短语或文档）输入模型，由模型并行生成对应的向量表示（即嵌入向量）的过程。它区别于逐个处理的单样本嵌入，能显著提升计算效率，尤其在处理大规模数据时减少 GPU/CPU 等待时间、提高吞吐量。普通用户（如开发者、数据分析师）需要了解它，因为选择是否启用 batch embedding 直接影响模型服务的响应速度、资源消耗和部署成本。",
+    "metaphor": "就像邮局不挨家挨户送信，而是把一叠信件装进一个邮袋统一派送——batch_embedding 是把多段文字‘打包’交给模型，一次算出所有结果，而不是每句话都单独跑一趟。",
+    "example": "在构建搜索系统时，后台需为10万篇新闻标题实时生成向量以支持语义检索，使用 batch_embedding（如每次处理512个标题）可将处理时间从数小时缩短至几分钟。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Batch Embedding - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Batch_Embedding",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:57:14Z"
 }

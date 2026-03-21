@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Dense Model",
+  "term": "dense_model",
   "norm_term": "dense_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Dense Model 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Dense Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "dense_model 指的是参数全部以稠密（即非零、全连接）方式组织的机器学习模型，典型如传统全连接神经网络。其每一层的每个神经元都与前一层所有神经元相连，导致参数量大、计算开销高，但表达能力强。普通用户需要了解它，是因为它代表了AI模型设计的基本范式之一，影响模型性能、部署成本和硬件需求——例如手机端运行dense_model可能发热严重或响应迟缓，而理解这一点有助于合理选择应用或识别技术宣传中的隐含限制。",
+    "metaphor": "就像一张密不透风的渔网，每个结点都用绳子连向所有上游结点，捕捞能力很强，但编织和拖拽起来格外费力。",
+    "example": "早期图像分类模型AlexNet的最后几层全连接层就是典型的dense_model结构；如今在边缘设备上部署时，工程师常将其替换为稀疏或轻量化模型以降低功耗。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Dense Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dense_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:31:07Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "MEMIT",
+  "term": "memit",
   "norm_term": "memit",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MEMIT 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 MEMIT，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Memit（Memory Editing via Intrinsic Tuning）是一种前沿的大型语言模型编辑技术，旨在对已训练好的模型进行局部、精准的记忆修改，而不需重新训练或访问原始训练数据。它通过优化少量可学习参数（如特定层的适配器或关键token的嵌入偏置），定向修正模型中关于某个人物、事件或事实的错误陈述。普通用户需要了解memit，因为它代表了AI可信度治理的重要进展——未来用户可能有权要求模型‘忘记’过时信息或纠正公开误传，而非被动接受黑箱输出。",
+    "metaphor": "就像给一本已装订好的百科全书插入可擦写便签页，只修改某一页的特定条目，而不重印整本书。",
+    "example": "当某位公众人物的职务发生变更后，使用memit可仅更新模型中关于其职位的单一记忆片段，使后续问答自动返回最新信息，而无需微调整个模型或暴露敏感训练数据。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "MEMIT - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/MEMIT",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:32:16Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "synthesys",
+  "norm_term": "synthesys",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Synthesys（注意正确拼写应为 'synthesis'，'synthesys' 是常见拼写错误）指将多个元素、信息或过程整合成一个统一、连贯整体的过程。它广泛存在于科学、工程、音乐、语言学和人工智能等领域，例如将语音片段合成自然语音，或将多种数据源融合生成新见解。普通用户需要了解它，因为日常接触的语音助手、AI生成内容、电子音乐、甚至药物研发背后都依赖合成技术——理解这一概念有助于更理性地评估技术能力与局限。",
+    "metaphor": "就像一位大厨将不同食材、香料和火候精准搭配，最终烹制出一道风味统一的新菜肴，synthesis 是把分散的‘原料’转化为有机整体的艺术与科学。",
+    "example": "当你用手机语音助手发出指令，它背后通过语音合成（TTS）技术将文本实时转换为接近真人语调的语音，这正是 synthesis 在人机交互中的典型应用。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:59:06Z",
+  "updated_at": "2026-03-21T09:59:42Z"
+}

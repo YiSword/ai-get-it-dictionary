@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Benchmark Suite",
+  "term": "benchmark_suite",
   "norm_term": "benchmark_suite",
   "lang": "en",
   "aliases": [],
-  "entity_type": "metric",
-  "category": "评测指标",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Benchmark Suite 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Benchmark Suite，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "benchmark_suite 是一组标准化的测试程序或工作负载，用于系统性地评估计算机硬件、软件或系统的性能表现。它通常涵盖多个维度（如计算速度、内存带宽、I/O吞吐、能效等），并提供可重复、可比较的量化结果。普通用户需要了解它，是因为在选购电脑、评估升级效果、比较不同操作系统或云服务性能时，它能提供客观依据，避免被片面宣传误导。",
+    "metaphor": "就像汽车行业的综合测评实验室——不仅测百公里加速，还测油耗、刹车距离、静音性和操控稳定性，用一套统一标准全面衡量一辆车的真实能力。",
+    "example": "开发者在为新发布的ARM服务器芯片做性能验证时，会运行SPEC CPU benchmark suite来对比其整数与浮点运算性能是否达到设计目标；IT采购人员则可能用Phoronix Test Suite评估两款Linux发行版在相同硬件上的图形渲染和启动速度差异。"
   },
   "scenario_tags": [
-    "评测",
-    "基准",
-    "比较"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Benchmark Suite - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Benchmark_Suite",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:02:45Z"
 }

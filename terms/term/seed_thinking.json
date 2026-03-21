@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Seed-Thinking",
+  "term": "seed_thinking",
   "norm_term": "seed_thinking",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Seed-Thinking 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Seed-Thinking，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "seed_thinking 是一种在人工智能生成过程中，通过固定随机种子（seed）来确保输出可复现的思维方式或实践方法。它强调对生成结果的可控性与可验证性——当输入、模型和 seed 都相同时，AI 每次都会产生完全相同的输出。普通用户需要了解它，是因为在调试提示词、对比模型行为、协作复现结果或进行内容审核时，缺乏 seed 控制会导致结果飘忽不定，难以归因和迭代。",
+    "metaphor": "就像用同一把刻刀、同一块木料、同一份图纸雕刻，seed_thinking 确保每次‘雕’出的细节分毫不差。",
+    "example": "一位设计师用文本生成图像工具反复优化海报文案配图，通过固定 seed 值，她能准确对比不同提示词微调带来的视觉变化，而不被随机性干扰。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Seed-Thinking - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Seed-Thinking",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:40:59Z"
 }

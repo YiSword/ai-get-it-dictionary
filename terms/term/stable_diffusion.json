@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Stable Diffusion",
+  "term": "stable_diffusion",
   "norm_term": "stable_diffusion",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
-  "category": "模型架构",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Stable Diffusion 是 AI 模型体系中的重要结构或模型类型，决定了模型如何理解输入、组织信息和生成结果。虽然普通用户不会直接训练它，但很多今天常见的 AI 能力都建立在这类结构之上。理解它能帮助你建立更完整的 AI 基础认知。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Stable Diffusion，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Stable Diffusion 是一种开源的文本到图像生成人工智能模型，它能根据用户输入的自然语言描述（如‘一只穿着宇航服的柴犬在火星上奔跑’）快速生成高质量、风格多样的图像。它运行效率高，可在消费级显卡上本地部署，不依赖云端服务，因此普通用户能免费、自主、隐私可控地创作图像，广泛应用于艺术设计、内容创作、教育演示等场景。",
+    "metaphor": "就像一位精通千万种画风的速写大师，你只需口头描述画面，他就能立刻在画布上挥毫呈现。",
+    "example": "一位独立插画师用 Stable Diffusion 快速生成多个角色草图方案，再基于满意的结果手工精绘；学生用它为历史课作业生成‘宋代汴京街市’的视觉参考图。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Stable Diffusion - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Stable_Diffusion",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T09:51:44Z"
 }

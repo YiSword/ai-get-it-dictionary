@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "huobi",
+  "norm_term": "huobi",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "火币（Huobi）是一家成立于2013年的全球知名加密货币交易平台，提供比特币、以太坊等数百种数字资产的交易、理财、衍生品及Web3服务。它曾是中国最早一批合规探索的交易所之一，后因监管政策调整将业务重心转向海外市场，并获得多个国家的金融牌照。普通用户需要了解火币，不仅因为它曾是行业标杆、影响市场流动性与价格发现，更因其安全机制、交易工具和合规动向对投资者的资金安全与操作策略具有实际参考价值。",
+    "metaphor": "火币就像一座跨境金融广场——既有本地商户（现货交易），也有国际期货大厅（衍生品）、金库托管（钱包服务）和外汇兑换窗口（法币通道），但每个入口都需持不同国家的通行证（合规牌照）。",
+    "example": "一位新加坡用户通过火币Global平台，用SGD购入BTC后参与其staking服务获取年化收益；同时利用平台提供的永续合约对冲持仓风险。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:17:05Z",
+  "updated_at": "2026-03-21T07:18:46Z"
+}

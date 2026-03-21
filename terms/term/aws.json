@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "aws",
+  "norm_term": "aws",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "AWS（Amazon Web Services）是亚马逊提供的全球领先云计算平台，提供计算、存储、数据库、人工智能等数百种云服务。它让个人开发者、初创公司和大型企业无需自建和维护物理服务器，就能按需使用弹性、可扩展的IT资源。普通用户需要了解AWS，因为它支撑着大量日常应用——从流媒体网站到手机银行App，再到智能音箱的语音识别功能；同时，掌握基础AWS知识有助于职业发展，尤其在开发、运维和数据分析等领域。",
+    "metaphor": "AWS就像一座巨型数字化城市，其中数据中心是发电厂和自来水厂，各类云服务是即插即用的公寓、仓库、交通系统和市政服务，用户按需租用，不用自己盖楼修路。",
+    "example": "一家电商公司在‘双十一’期间流量激增，通过AWS自动扩展（Auto Scaling）临时增加上百台虚拟服务器处理订单，活动结束后自动释放资源，避免了自购硬件的浪费和宕机风险。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:37:17Z",
+  "updated_at": "2026-03-21T03:52:50Z"
+}

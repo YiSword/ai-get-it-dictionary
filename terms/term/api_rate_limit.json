@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "api_rate_limit",
+  "norm_term": "api_rate_limit",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "api_rate_limit 是指 API 提供方对客户端在单位时间内可发起的请求数量所设置的上限，用于防止滥用、保障服务稳定性与公平性。普通用户需要了解它，因为当调用频率超过限制时，请求会被拒绝（通常返回 429 状态码），导致应用功能异常或数据获取失败，影响使用体验或自动化流程的可靠性。",
+    "metaphor": "就像高速公路的收费站每分钟只允许固定数量的车辆通过，超速排队的车会被暂时拦下，API 速率限制也是给请求流装上‘交通灯’，确保系统不被挤垮。",
+    "example": "某天气应用每分钟最多调用 60 次气象 API；若用户刷新过快或后台同步频繁，第 61 次请求将被拒绝并返回 'Too Many Requests' 错误。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:24:30Z",
+  "updated_at": "2026-03-21T03:39:19Z"
+}

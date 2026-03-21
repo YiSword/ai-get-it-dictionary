@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Enterprise Tier",
+  "term": "enterprise_tier",
   "norm_term": "enterprise_tier",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Enterprise Tier 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Enterprise Tier，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "enterprise_tier 指软件或云服务中面向大型组织的高级版本，通常包含增强的安全控制、高可用性架构、专属支持、合规认证（如 SOC2、GDPR）、API 管理和细粒度权限管理等功能。它区别于面向个人或中小企业的基础版或专业版，定价更高且常需定制化部署。普通用户虽不直接采购该层级，但若在企业环境中使用相关系统（如协作工具、CRM 或开发平台），其数据隐私、访问响应速度和功能权限往往直接受 enterprise_tier 所提供的底层能力影响。",
+    "metaphor": "就像一栋写字楼里的‘行政楼层’——不是所有员工都能进入，但它配备了独立电梯、24小时安保、专用会议室和高管助理，只为保障核心业务的稳定与安全。",
+    "example": "一家银行采用 Slack 的 enterprise_tier，启用 SSO 集成、消息保留策略强制归档、以及网络流量全程加密，以满足金融监管机构对通信审计和数据驻留的要求。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Enterprise Tier - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Enterprise_Tier",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:09:27Z"
 }

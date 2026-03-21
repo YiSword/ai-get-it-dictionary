@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Entity Extraction",
+  "term": "entity_extraction",
   "norm_term": "entity_extraction",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Entity Extraction 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Entity Extraction，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "实体抽取（entity_extraction）是指从非结构化文本中自动识别并提取出具有特定意义的现实对象，如人名、地名、组织机构、时间、日期、货币金额等。它是自然语言处理的基础任务之一，支撑着搜索优化、智能客服、知识图谱构建等应用。普通用户虽不直接操作该技术，但日常使用的搜索引擎结果精准性、新闻摘要的自动生成、甚至手机输入法的智能联想，背后都依赖高质量的实体抽取。",
+    "metaphor": "就像一位细心的图书管理员，快速扫过一页杂乱的手写笔记，用荧光笔标出所有‘人名’‘地点’和‘日期’，把散落的信息分门别类整理出来。",
+    "example": "当用户在新闻App中搜索‘苹果公司’时，系统通过实体抽取准确区分文本中的水果‘苹果’和科技公司‘苹果公司’，从而只返回与企业相关的报道，避免混淆农业或食品类内容。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Entity Extraction - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Entity_Extraction",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:09:42Z"
 }

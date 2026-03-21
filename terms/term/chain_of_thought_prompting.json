@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "chain_of_thought_prompting",
+  "norm_term": "chain_of_thought_prompting",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Chain-of-thought prompting 是一种让大语言模型在回答问题前，先逐步展示推理过程的技术。它通过引导模型‘说出思考步骤’（如分解问题、调用常识、检查逻辑），显著提升复杂推理任务的准确性。普通用户需要了解它，因为直接提问常导致模型跳步或编造答案；而显式要求‘一步步思考’，能让AI更可靠、可追溯，尤其在数学、逻辑、编程等需严谨性的场景中效果明显。",
+    "metaphor": "就像请一位老师解题时，不只要答案，还要求他边写边讲解每一步为什么这么做。",
+    "example": "用户输入：'小明有5个苹果，吃了2个，又买来3个，最后比最初多几个？' 使用 chain-of-thought prompting 可触发模型输出：'最初5个；吃掉2个剩3个；再买3个变成6个；6−5=1，所以多1个。'"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:02:16Z",
+  "updated_at": "2026-03-21T04:24:29Z"
+}

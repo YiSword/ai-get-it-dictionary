@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Critique Prompting",
+  "term": "critique_prompting",
   "norm_term": "critique_prompting",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "提示工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Critique Prompting 是和 AI 交流时常见的一类方法或输入形式，用来更明确地表达任务、限制和输出要求。它会直接影响模型回答的方向、质量和稳定性。对初学者来说，理解它的作用，往往比研究模型参数更能立刻提升使用效果。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你希望 AI 按固定格式输出结果，或针对某个场景调整语气和步骤时，就会用到 Critique Prompting，因为这类任务高度依赖输入表达方式。"
+    "plain": "critique_prompting 是一种提示工程策略，指先让大语言模型生成初步回答，再要求它以批判性视角自我审查该回答的逻辑漏洞、事实错误、表达不清或潜在偏见，并据此迭代优化。它不依赖人工反馈，而是通过结构化指令激发模型的元认知能力。普通用户需要了解它，因为能显著提升AI输出的准确性、可靠性和专业性，尤其在写作、编程、学术研究等对质量要求较高的场景中，避免轻信一次性生成结果。",
+    "metaphor": "就像一位作者先写完初稿，再戴上编辑眼镜逐段挑刺、删改润色，直到文稿经得起推敲。",
+    "example": "用户让模型撰写一段关于气候变化的科普文案，随后追加指令：‘请从科学准确性、受众理解难度和潜在误导风险三方面批判前文，并重写优化版本。’"
   },
   "scenario_tags": [
-    "提问",
-    "写作",
-    "指令"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Critique Prompting - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Critique_Prompting",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:05:08Z"
 }

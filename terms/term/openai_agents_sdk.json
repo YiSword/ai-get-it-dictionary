@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "OpenAI Agents SDK",
+  "term": "openai_agents_sdk",
   "norm_term": "openai_agents_sdk",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
-  "category": "产品概念",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "OpenAI Agents SDK 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 OpenAI Agents SDK，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "openai_agents_sdk 是 OpenAI 官方提供的软件开发工具包，用于构建、调试和部署基于其大模型（如 GPT-4）的自主智能体（agents）。它封装了任务规划、工具调用、记忆管理、多步推理等核心能力，简化了开发者创建能理解目标、调用 API、反思并迭代执行的复杂代理系统的流程。普通用户无需直接接触该 SDK，但若使用或定制基于 OpenAI 的自动化助手（如客服机器人、研究助理），其底层能力很可能由该 SDK 支撑，因此了解它有助于判断工具的能力边界与扩展潜力。",
+    "metaphor": "就像为建筑师提供预制好的智能施工模块（含自动绘图、材料调度和进度反馈系统），而不是从零搭建每根钢筋和电路。",
+    "example": "一家电商公司使用 openai_agents_sdk 构建客服代理，该代理能自主分析用户退货请求、查询订单状态、调用退款 API、生成解释话术，并在异常时转接人工——全程无需硬编码每个决策分支。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "OpenAI Agents SDK - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/OpenAI_Agents_SDK",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:58:57Z"
 }

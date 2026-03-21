@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Hybrid RAG",
+  "term": "hybrid_rag",
   "norm_term": "hybrid_rag",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Hybrid RAG 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Hybrid RAG，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Hybrid RAG（混合检索增强生成）是一种将稠密向量检索（如基于BERT的语义搜索）与稀疏检索（如BM25关键词匹配）相结合的RAG技术，再将两者结果融合后输入大语言模型生成答案。它比单一检索方式更鲁棒，能同时捕捉语义相似性和关键词精确性，提升回答的准确性与覆盖度。普通用户需要了解它，是因为越来越多的智能助手、企业知识库和AI客服正采用此类技术，直接影响其获取信息的质量和可靠性。",
+    "metaphor": "就像一位经验丰富的图书管理员，既快速翻阅目录（关键词检索），又根据书的内容摘要理解主题（语义检索），再综合两者找出最相关的几本书来为你解答问题。",
+    "example": "某金融公司内部知识库使用hybrid_rag响应员工提问：当查询‘2023年Q3跨境支付合规变更要点’时，系统既匹配‘Q3’‘合规’等关键词，又理解‘跨境支付’与‘外汇结算流程更新’的语义关联，最终整合文档片段生成精准摘要。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Hybrid RAG - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Hybrid_RAG",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T07:19:02Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "dpm_2m_sde",
+  "norm_term": "dpm_2m_sde",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "dpm_2m_sde 是一种用于扩散模型（diffusion models）的采样算法，全称是 DPM-Solver-2 Multi-step Stochastic Differential Equation solver。它通过结合二阶多步求解与随机微分方程（SDE）路径，在保证生成质量的同时显著加速图像或数据合成过程。普通用户需要了解它，是因为该算法直接影响AI绘图工具（如Stable Diffusion插件）的出图速度与稳定性——启用后可在更少迭代步数（如10–20步）内生成高保真结果，降低显存占用并提升交互体验。",
+    "metaphor": "就像一位经验丰富的厨师不用逐秒盯着烤箱，而是根据食材特性和预设曲线精准控制火候和时间，dpm_2m_sde 也不依赖冗长试错，而用数学预判最优降噪路径。",
+    "example": "在 Stable Diffusion WebUI 中启用 'DPM++ 2M SDE' 采样器后，用户输入提示词生成一张4K人像图，仅需15步迭代便达到原本需50步的Euler a才能实现的细节清晰度与色彩自然度。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:56:55Z",
+  "updated_at": "2026-03-21T05:50:43Z"
+}

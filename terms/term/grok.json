@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Grok",
+  "term": "grok",
   "norm_term": "grok",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Grok 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Grok，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Grok 是一种源自正则表达式的模式匹配技术，主要用于日志解析和结构化文本提取，尤其在 Logstash 等日志处理工具中广泛使用。它通过预定义的命名模式（如 %{IP:client}、%{TIMESTAMP_ISO8601:timestamp}）将非结构化日志行快速转换为带字段名的结构化数据。普通用户（尤其是运维、开发或安全人员）需要了解 grok，因为它能大幅降低日志分析门槛——无需手写复杂正则即可精准提取关键信息，从而加速故障排查、监控告警和合规审计。",
+    "metaphor": "Grok 就像一位精通多国语言的速记员，看到杂乱的手写会议记录（原始日志）， instantly 识别出人名、时间、地点并整齐誊抄到标准表格里。",
+    "example": "当 Nginx 访问日志出现 '192.168.1.5 - - [10/Jan/2024:08:30:22 +0000] \"GET /api/users HTTP/1.1\" 200 1243' 时，一条 grok 模式 '%{IP:client} - - \\[%{HTTPDATE:timestamp}\\] \"%{WORD:method} %{URIPATHPARAM:request} %{DATA:protocol}\" %{NUMBER:status} %{NUMBER:bytes}' 可立即提取出 client、timestamp、method 等结构化字段。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Grok - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Grok",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T07:00:28Z"
 }

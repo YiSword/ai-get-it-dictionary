@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Duet AI",
+  "term": "duet_ai",
   "norm_term": "duet_ai",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Duet AI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Duet AI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Duet AI 是谷歌推出的一款集成于 Workspace（如 Gmail、Docs、Sheets）中的智能协作助手，能实时理解上下文并协助撰写邮件、润色文档、生成表格公式或总结会议记录。它不是独立应用，而是嵌入在用户日常办公工具中的AI协作者。普通用户需要了解它，是因为它正悄然改变工作效率——无需切换平台、无需学习新界面，就能获得精准、安全（数据不出域）、符合工作语境的AI支持，尤其适合非技术背景但追求高效办公的人群。",
+    "metaphor": "就像一位熟悉你写作风格和团队习惯的资深同事，默默坐在你旁边，在你敲字时轻声建议更得体的措辞，或在你卡壳时立刻补上一段逻辑清晰的段落。",
+    "example": "当你在 Gmail 中草拟一封向客户解释延迟交付的邮件时，Duet AI 会基于你已输入的内容，自动生成三句既专业又带同理心的替代表述供你一键插入。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Duet AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Duet_AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:57:13Z"
 }

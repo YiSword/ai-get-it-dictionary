@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Activation Steering",
+  "term": "activation_steering",
   "norm_term": "activation_steering",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Activation Steering 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Activation Steering，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "activation_steering 是一种在大型语言模型推理过程中动态干预神经元激活值的技术，通过向特定层或特征通道注入可学习的偏置向量，有目的地引导模型输出朝向期望方向（如更诚实、更安全或更符合某类风格）。它不修改模型权重，而是在前向传播中实时调整内部表征，因此比微调更轻量、比提示工程更底层可控。普通用户需要了解它，是因为它正成为AI对齐与个性化控制的关键手段——例如让助手拒绝有害请求，或让创作模型稳定输出某种文风，且无需重新训练整个模型。",
+    "metaphor": "就像驾驶时轻轻拨动方向盘微调车头方向，而不是重新规划整条路线或更换汽车引擎。",
+    "example": "在客服对话系统中，部署 activation_steering 向模型中间层注入‘礼貌性’方向向量，使模型即使面对挑衅提问，也持续生成尊重、克制的回应。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Activation Steering - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Activation_Steering",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T03:19:28Z"
 }

@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Latency-Accuracy Tradeoff",
+  "term": "latency_accuracy_tradeoff",
   "norm_term": "latency_accuracy_tradeoff",
   "lang": "en",
   "aliases": [],
-  "entity_type": "metric",
-  "category": "评测指标",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Latency-Accuracy Tradeoff 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Latency-Accuracy Tradeoff，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "latency_accuracy_tradeoff（延迟与精度权衡）指在系统设计中，降低响应时间（延迟）往往以牺牲结果的精确性或完整性为代价，反之亦然。例如，实时推荐系统若要求毫秒级响应，可能只能基于简化模型或过期数据做预测，导致推荐不准；若追求高精度，则需更长计算时间或更多数据处理，增加延迟。普通用户需要了解这一概念，因为它是解释为何某些应用‘快但不准’（如语音助手误识指令）或‘准但慢’（如专业图像分析需等待数秒）的根本原因，有助于合理预期技术边界。",
+    "metaphor": "就像急诊医生在抢救时快速判断病情（低延迟）可能漏掉细微症状（低精度），而专科门诊花半小时问诊检查（高延迟）才能给出精准诊断（高精度）。",
+    "example": "自动驾驶系统中，紧急制动决策必须在100毫秒内完成，因此采用轻量级传感器融合模型，可能误判远处塑料袋为障碍物；若等待更长时间整合高精度激光雷达点云和多帧视频分析，则判断更准，但已错过最佳制动时机。"
   },
   "scenario_tags": [
-    "评测",
-    "基准",
-    "比较"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Latency-Accuracy Tradeoff - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Latency-Accuracy_Tradeoff",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:02:19Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Keyword Spotting",
+  "term": "keyword_spotting",
   "norm_term": "keyword_spotting",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Keyword Spotting 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Keyword Spotting，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Keyword spotting（关键词唤醒）是一种语音识别技术，用于实时检测音频流中特定预设词语（如‘小爱同学’‘Hey Siri’），而不需识别整句语义。它通常运行在低功耗设备端，响应快、隐私性强。普通用户需要了解它，因为这是智能音箱、手机语音助手等设备被‘唤醒’的底层机制——只有听到准确关键词，设备才开始录音并执行后续指令，这既保障了响应效率，也减少了无意监听带来的隐私顾虑。",
+    "metaphor": "就像门铃只在有人按响特定音调时才触发开门提示，而非持续监听门外所有声音。",
+    "example": "当你对智能音箱说‘天猫精灵’时，设备内部的关键词唤醒模块瞬间识别出该词，随即启动语音识别引擎处理后续指令；若你说‘今天天气怎么样’而未先唤醒，则设备完全不会响应。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Keyword Spotting - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Keyword_Spotting",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:50:16Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "activation_recomputation",
+  "norm_term": "activation_recomputation",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "activation_recomputation（激活值重计算）是一种用于降低深度神经网络训练内存占用的技术。在反向传播过程中，模型通常需要缓存前向传播时的中间激活值以计算梯度；而激活值重计算选择不存储这些值，而是在反向传播需要时重新执行对应前向计算。这对显存受限的场景（如大语言模型训练）至关重要，使用户能在有限硬件上训练更大模型，但会增加少量计算开销。",
+    "metaphor": "就像厨师不把每道菜的半成品放进冰箱保存，而是等需要摆盘时再快速重做那一步——省下大量冰箱空间，只多花一点现做的时间。",
+    "example": "在训练拥有70亿参数的LLaMA模型时，启用activation_recomputation可将GPU显存占用从48GB降至32GB，允许在单张A100上完成训练，尽管训练速度下降约15%。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:44:38Z",
+  "updated_at": "2026-03-21T03:18:56Z"
+}

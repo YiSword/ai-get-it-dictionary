@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Experiment Tracking",
+  "term": "experiment_tracking",
   "norm_term": "experiment_tracking",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Experiment Tracking 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Experiment Tracking，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "experiment_tracking（实验追踪）是指在机器学习或数据科学项目中，系统化地记录、存储和管理模型训练过程中的各项要素，包括代码版本、超参数、数据集、指标（如准确率、损失值）、硬件环境及输出结果等。它帮助团队复现结果、对比不同实验、快速定位问题，并支持协作与模型迭代。普通用户（尤其是开发者、研究人员）需要了解它，因为缺乏追踪会导致实验混乱、结果不可靠、协作困难，甚至阻碍模型上线。",
+    "metaphor": "就像实验室里的科研笔记本，每一页都详细记录每次实验的条件、步骤和结果，确保别人或未来的你能原样重做并验证结论。",
+    "example": "一个AI团队使用MLflow进行experiment_tracking，在训练10个不同超参组合的图像分类模型时，自动捕获每个实验的准确率、训练时间、GPU型号和代码提交哈希，从而一键筛选出最优配置。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Experiment Tracking - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Experiment_Tracking",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:19:00Z"
 }

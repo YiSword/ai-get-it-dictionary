@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "gpt_2",
+  "norm_term": "gpt_2",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "GPT-2 是由 OpenAI 在 2019 年发布的大型语言模型，具备根据输入文本自动生成连贯、上下文相关的后续内容的能力。它通过在海量网页文本上训练，学会了语法、事实和部分推理模式。普通用户需要了解它，因为它是现代 AI 写作、聊天机器人和内容辅助工具的重要技术基础之一，也引发了关于生成式 AI 的真实性、版权与滥用风险的广泛讨论。",
+    "metaphor": "就像一位熟读数千万本书的速记员，你给它开头一句话，它就能凭记忆和语感续写出风格一致、逻辑通顺的整段文字。",
+    "example": "记者可用 GPT-2 快速草拟新闻导语初稿；开发者将其集成到客服系统中，自动生成对常见问题的自然语言回复。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:19:52Z",
+  "updated_at": "2026-03-21T06:51:55Z"
+}

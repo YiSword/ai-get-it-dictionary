@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Weights & Biases",
+  "term": "weights_and_biases",
   "norm_term": "weights_and_biases",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "安全与对齐",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Weights & Biases 主要和 AI 的风险、边界或治理有关，帮助人们理解模型为什么会出错、失控，或带来不符合预期的结果。它不仅是技术问题，也关系到产品设计和使用习惯。对初学者来说，理解这类概念能减少对 AI 的误判。",
-    "metaphor": "它像给 AI 系统装上护栏和告警规则，帮助人们更早发现风险，而不是等出事后再补救。",
-    "example": "比如团队在上线 AI 功能前评估误答、泄露或越权风险时，就需要理解 Weights & Biases，因为它会直接影响系统是否可靠可控。"
+    "plain": "weights_and_biases（通常缩写为 W&B）是一个开源的机器学习实验跟踪与协作平台，用于记录、可视化、共享和调试模型训练过程中的超参数、指标、模型权重、数据集版本等信息。它帮助数据科学家和工程师系统化地管理实验，避免‘实验丢失’或‘结果不可复现’的问题。普通用户（尤其是参与AI开发的实践者）需要了解它，因为手动记录训练日志易出错、难比较，而W&B能自动捕获关键信号，显著提升研发效率与团队可复现性。",
+    "metaphor": "就像给每次机器学习实验配一个智能实验室笔记本，不仅自动记下温度、时间、原料用量（超参），还拍下反应过程（梯度变化）和最终产物照片（模型快照）。",
+    "example": "一位研究员在训练图像分类模型时，用W&B记录不同学习率和批量大小下的准确率曲线，并一键对比五组实验；训练结束后，她直接从W&B界面下载表现最优的模型权重文件用于部署。"
   },
   "scenario_tags": [
-    "安全",
-    "风险",
-    "治理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Weights & Biases - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Weights_%26_Biases",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:24:06Z"
 }

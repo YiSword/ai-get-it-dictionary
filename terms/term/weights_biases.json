@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "weights_biases",
+  "norm_term": "weights_biases",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "weights_biases 是机器学习模型（尤其是神经网络）中的两个核心可学习参数：weights（权重）决定输入特征对输出的影响强度，biases（偏置）提供基础调整值，使模型能拟合数据的非零起点。它们共同构成模型的记忆与判断能力，训练过程本质上就是不断优化这些数值以最小化预测误差。普通用户虽不直接操作它们，但理解其存在有助于明白AI并非‘黑箱魔法’，而是依赖大量数据驱动的数值调优，从而更理性地评估模型可靠性、偏差来源及局限性。",
+    "metaphor": "就像厨师调整一道菜的咸淡——weights 是每种调料（如盐、酱油）的用量比例，biases 则是起锅前额外加的一小撮盐，确保即使不放其他调料，菜品也有基本底味。",
+    "example": "在图像识别模型中，某个神经元的 weights 可能赋予‘边缘方向’特征高响应值，而其 bias 确保该神经元在无明显边缘时仍保持微弱激活，避免输出完全失活。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:54:00Z",
+  "updated_at": "2026-03-21T10:24:24Z"
+}

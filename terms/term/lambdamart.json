@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "LambdaMART",
+  "term": "lambdamart",
   "norm_term": "lambdamart",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LambdaMART 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 LambdaMART，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "LambdaMART 是一种用于排序学习（Learning to Rank）的梯度提升树算法，它将信息检索中的排序目标（如 NDCG、MAP）转化为可优化的近似梯度（即 'lambda'），再用梯度提升决策树（如 XGBoost 或 LightGBM）拟合这些梯度。它被广泛应用于搜索引擎、推荐系统等需要对候选项目（如网页、商品、新闻）按相关性排序的场景。普通用户虽不直接接触该算法，但其效果直接影响搜索结果是否精准、推荐内容是否贴切——例如在电商搜索‘无线耳机’时，能否把高性价比、高好评的产品排在前面，背后常有 LambdaMART 的支撑。",
+    "metaphor": "就像一位经验丰富的图书管理员，不是死记硬背每本书该放哪，而是根据每次读者反馈（‘这本太靠后了’‘那本不该排第一’）动态调整书架顺序，逐步学会如何让最相关的书总出现在最顺手的位置。",
+    "example": "微软 Bing 搜索引擎曾长期使用 LambdaMART 优化网页排序，通过分析用户点击行为和停留时长构造排序损失信号，显著提升搜索结果的相关性排序质量。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "LambdaMART - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/LambdaMART",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:59:35Z"
 }

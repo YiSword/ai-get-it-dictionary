@@ -1,28 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Gradient Descent",
+  "term": "gradient_descent",
   "norm_term": "gradient_descent",
   "lang": "en",
-  "aliases": ["梯度下降", "梯度下降法"],
+  "aliases": [],
   "entity_type": "concept",
-  "category": "训练方法",
-  "difficulty": "入门",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Gradient Descent 是训练模型时最常见的参数优化方法，会根据当前误差的变化方向逐步调整参数，让损失一点点变小。它原理不复杂，但几乎所有现代深度学习训练过程都离不开它或它的变体。",
-    "metaphor": "它像在大雾里下山，每走一步都先找更陡的下坡方向，慢慢靠近谷底。",
-    "example": "比如训练一个图片分类模型时，系统会反复比较预测和真实标签的误差，再用 Gradient Descent 更新参数，因为目标是让整体错误率持续下降。"
+    "plain": "梯度下降（gradient descent）是一种用于最小化函数的优化算法，广泛应用于机器学习和深度学习中训练模型。它通过反复计算损失函数相对于模型参数的梯度（即变化最快的方向），然后沿梯度反方向小步调整参数，逐步逼近使损失最小的最优解。普通用户无需手动实现它，但理解其基本思想有助于把握AI模型如何‘学习’——不是靠记忆答案，而是通过试错与微调不断改进预测能力。",
+    "metaphor": "就像蒙着眼睛站在山坡上，每次只迈出一小步朝脚下最陡的下坡方向走，直到抵达山谷最低点。",
+    "example": "训练一个房价预测模型时，梯度下降会反复调整房屋面积、房龄等特征对应的权重，使模型预测价格与真实价格之间的平均误差逐渐变小。"
   },
-  "scenario_tags": ["模型训练", "优化", "损失函数", "深度学习"],
-  "sources": [
-    {
-      "title": "Gradient descent - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Gradient_descent",
-      "type": "glossary"
-    }
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-18T12:55:23.269Z",
-  "updated_at": "2026-03-19T09:01:00.000Z"
+  "updated_at": "2026-03-21T06:56:21Z"
 }

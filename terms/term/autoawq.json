@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "AutoAWQ",
+  "term": "autoawq",
   "norm_term": "autoawq",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AutoAWQ 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 AutoAWQ，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "AutoAWQ 是一个开源的量化工具库，用于将大语言模型（如 LLaMA、Qwen 等）自动压缩为 AWQ（Activation-aware Weight Quantization）格式，通常将权重从 16 位浮点数（FP16）压缩至 4 位整数（INT4），同时保留较高精度。它通过分析激活值分布来智能选择量化参数，在显存占用和推理速度显著提升的前提下，最大限度减少性能损失。普通用户需要了解它，是因为它让在消费级显卡（如 RTX 4090）上本地高效运行 7B–70B 级大模型成为现实，降低了 AI 应用的硬件门槛。",
+    "metaphor": "就像给一本厚重的精装百科全书制作一份精准的缩略图索引——既大幅减小体积，又确保关键信息不被模糊或丢失。",
+    "example": "用户使用 AutoAWQ 将 Qwen2-7B 模型量化为 4-bit AWQ 格式后，在一台配备 24GB 显存的 RTX 4090 上以 35 tokens/秒的速度流畅运行本地聊天应用。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "AutoAWQ - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/AutoAWQ",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:49:08Z"
 }

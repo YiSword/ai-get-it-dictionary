@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "seq2seq",
+  "norm_term": "seq2seq",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "seq2seq（序列到序列）是一种深度学习模型架构，用于将一个输入序列（如一句话、一段音频或一串DNA碱基）映射为另一个输出序列（如翻译后的句子、语音识别文本或蛋白质结构预测）。它通常由编码器和解码器两部分组成：编码器将输入序列压缩为中间语义表示，解码器据此生成目标序列。普通用户需要了解它，因为它是机器翻译、智能客服、语音助手、自动摘要等日常AI功能背后的核心技术之一，直接影响交互的自然性与准确性。",
+    "metaphor": "就像一位精通双语的速记员：先快速听完一段话并提炼出核心意思（编码），再用另一种语言流畅地重新讲述出来（解码）。",
+    "example": "谷歌翻译在将英文句子 'How are you?' 实时转换为中文 '你好吗？' 时，底层就依赖seq2seq模型完成从源语言序列到目标语言序列的端到端映射。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:13:45Z",
+  "updated_at": "2026-03-21T09:43:59Z"
+}

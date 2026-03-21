@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Lottery Ticket Hypothesis",
+  "term": "lottery_ticket_hypothesis",
   "norm_term": "lottery_ticket_hypothesis",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Lottery Ticket Hypothesis 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Lottery Ticket Hypothesis，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "彩票假说（Lottery Ticket Hypothesis）指出，大型神经网络在随机初始化后，内部已存在一个稀疏的子网络（即‘中奖彩票’），该子网络若被单独训练并保留原始权重，就能以更少参数和更短时间达到与原网络相当的性能。这一发现挑战了‘越大越好’的直觉，揭示了模型压缩与高效训练的新路径。普通用户需要了解它，因为它关系到AI应用如何变得更轻量、更快、更节能——例如手机端AI助手或边缘设备上的实时推理正受益于此类优化思想。",
+    "metaphor": "就像一叠未经拆封的彩票中，早已混着几张注定中奖的票；神经网络也并非靠训练‘创造’能力，而是靠训练‘识别并激活’那些天生就具备潜力的子结构。",
+    "example": "研究人员在训练ResNet-50时，通过迭代剪枝和重初始化，找到仅占原模型10%参数的子网络，在相同训练轮次下准确率几乎不降；该子网络随后被部署在资源受限的无人机视觉系统中执行实时目标检测。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Lottery Ticket Hypothesis - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Lottery_Ticket_Hypothesis",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:20:56Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Collective Communication",
+  "term": "collective_communication",
   "norm_term": "collective_communication",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Collective Communication 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Collective Communication，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "collective_communication（集体通信）是并行计算中一组进程间协同执行的通信操作，如广播、规约、全归约、散射和聚集等。它区别于点对点通信，要求所有参与进程同步协作完成单一逻辑任务。普通用户需要了解它，因为它是高性能计算（HPC）、分布式训练（如大模型训练）和科学仿真等场景的底层通信基石——错误使用会导致严重性能瓶颈或死锁。",
+    "metaphor": "就像一支交响乐团，每个乐手（进程）不单独演奏，而是在指挥（同步屏障）下统一执行一个整体动作（如齐奏一个和弦），确保节奏与内容完全一致。",
+    "example": "在训练一个大型语言模型时，多个GPU使用all-reduce集体通信操作同步梯度：每个GPU计算本地梯度后，通过一次集体调用将所有梯度求平均并分发回每个GPU，从而保证参数更新一致。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Collective Communication - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Collective_Communication",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:43:51Z"
 }

@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Semantic Kernel",
+  "term": "semantic_kernel",
   "norm_term": "semantic_kernel",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
+  "entity_type": "concept",
   "category": "其他",
-  "difficulty": "高级",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Semantic Kernel 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Semantic Kernel，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Semantic Kernel 是微软开源的一个轻量级 SDK，用于将大语言模型（LLM）与传统代码逻辑、外部数据源和插件系统无缝集成。它提供标准化的接口来编排提示词、调用函数、管理内存和处理上下文，让开发者无需从零构建 LLM 应用基础设施。普通用户（尤其是软件工程师和AI应用构建者）需要了解它，因为它显著降低了构建可靠、可测试、可扩展的智能应用的门槛，避免重复造轮子，并支持在不同模型后端（如OpenAI、Azure AI、Ollama）间灵活切换。",
+    "metaphor": "Semantic Kernel 就像为大语言模型打造的‘智能插座’——它不发电（不训练模型），但让任何兼容的‘电器’（LLM、工具函数、数据库）都能安全、标准地接入并协同工作。",
+    "example": "一家客服团队用 Semantic Kernel 将 Azure OpenAI 服务与内部工单系统 API 集成，自动解析用户问题、检索知识库、调用创建工单的函数，并生成自然语言回复，整个流程通过声明式技能（Skill）配置，无需手动拼接 HTTP 请求或管理 token 上下文。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Semantic Kernel - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Semantic_Kernel",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:42:42Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "phenaki",
+  "norm_term": "phenaki",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Phenaki 是一种基于深度学习的视频生成模型，能够根据文本描述或少量图像直接生成连贯、时序一致的短视频。它采用潜在时空建模技术，在压缩的隐空间中高效建模长程时间依赖，支持从单句提示生成数秒至数十秒的高质量视频。普通用户需要了解 Phenaki，因为它代表了AIGC从静态图像向动态内容跃迁的关键进展——未来可能被集成进创意工具、教育平台或社交应用中，让非专业人士也能用自然语言‘导演’个性化短视频，降低视频创作门槛。",
+    "metaphor": "就像一位精通多种画风的速写画家，只听你口头描述一个场景，就能连续挥笔画出一段流畅的动作小动画。",
+    "example": "用户输入提示语‘一只橘猫在雨中跳过水坑，溅起晶莹水花’，Phenaki 在几秒内生成一段2秒、60帧、带物理合理运动与光影变化的短视频。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:09:54Z",
+  "updated_at": "2026-03-21T09:07:51Z"
+}

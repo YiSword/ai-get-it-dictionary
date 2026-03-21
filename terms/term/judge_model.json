@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Judge Model",
+  "term": "judge_model",
   "norm_term": "judge_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Judge Model 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Judge Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "judge_model 是指在人工智能系统中专门用于评估、打分或判断其他模型（如生成模型）输出质量的模型。它不负责生成内容，而是像‘裁判’一样对回答的准确性、相关性、安全性或逻辑性等维度进行量化评价。普通用户需要了解它，因为它的存在直接影响AI产品的可靠性——例如，当聊天机器人给出错误答案却未被拦截，往往是因为judge_model能力不足或未被启用。",
+    "metaphor": "就像作文考试中的阅卷老师，judge_model不写作文，但要快速判断每篇作文是否跑题、有无事实错误、语言是否通顺。",
+    "example": "在大模型对话系统中，当用户提问‘如何安全给婴儿喂药？’，judge_model会实时评估生成的回答是否包含未经验证的偏方、是否违背儿科医学指南，并据此决定是否屏蔽该回复或触发人工审核。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Judge Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Judge_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:46:59Z"
 }

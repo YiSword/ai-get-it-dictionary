@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "prefixlm",
+  "norm_term": "prefixlm",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "PrefixLM（Prefix Language Modeling）是一种语言模型训练范式，要求模型仅根据给定的前缀（prefix）文本预测后续内容，而不允许在生成时看到整个输入-输出对的完整结构。它区别于标准自回归语言模型（如GPT）的全序列建模，也不同于编码器-解码器架构（如T5）的双向编码。普通用户需要了解它，是因为许多现代AI助手、代码补全工具和对话系统底层采用此类机制，在保证响应实时性与上下文聚焦的同时，影响着生成结果的连贯性和可控性。",
+    "metaphor": "就像一位只读过对话前半句的速记员，必须严格依据已听到的部分即刻续写后半句，不能回头重读整段对话，也不能预知对方最终想表达什么。",
+    "example": "在IDE中使用AI自动补全代码时，模型将你已写的函数头和缩进后的空行作为prefix，然后生成符合语义的函数体——整个过程仅依赖该prefix，不访问其他无关代码片段。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:12:51Z",
+  "updated_at": "2026-03-21T09:15:23Z"
+}

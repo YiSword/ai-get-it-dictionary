@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "chameleon",
+  "norm_term": "chameleon",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Chameleon（变色龙）在技术领域常指一种能根据运行环境或配置动态改变自身行为、外观或接口的软件组件或系统。它不具固定形态，而是通过插件、主题引擎、条件渲染或策略模式等机制实现高度自适应性。普通用户需要了解它，是因为这类设计直接影响其使用体验——比如同一款应用在手机和桌面端呈现不同界面，或根据系统深色/浅色模式自动切换配色，背后往往就是 chameleon 机制在起作用。",
+    "metaphor": "就像一位精通多种方言和礼仪的外交官，面对不同国家的场合自动调整语言和举止，既保持身份一致，又完美融入当地环境。",
+    "example": "VS Code 编辑器通过主题扩展机制成为典型的 chameleon：用户切换 'Dark+' 或 'Solarized Light' 主题时，整个 UI 色彩、图标样式甚至字体粗细都实时适配，而核心编辑功能完全不变。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:38:08Z",
+  "updated_at": "2026-03-21T04:24:44Z"
+}

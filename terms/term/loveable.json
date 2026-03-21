@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Loveable",
+  "term": "loveable",
   "norm_term": "loveable",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Loveable 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Loveable，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Loveable（可被喜爱的）是一个产品设计与用户体验领域的核心术语，指产品或服务不仅功能可用、界面易用，更能激发用户的情感共鸣、信任与长期依恋。它强调超越‘可用性’（usable）和‘有用性’（useful），通过细腻的交互细节、真诚的文案、恰到好处的反馈、个性化关怀等，让用户产生‘这产品懂我’‘用起来很温暖’的感受。普通用户需要知道它，是因为在信息过载的时代，真正被喜爱的产品才能持续获得关注、留存与口碑推荐——它直接关系到你是否愿意每天主动打开、耐心等待更新，甚至为它辩护。",
+    "metaphor": "就像一位既靠谱又懂你的老朋友：办事利落不添乱，聊天时总记得你提过的小事，偶尔还给你一个小惊喜。",
+    "example": "当一款记账App在用户连续坚持记录7天后，悄悄弹出一句手绘风格的‘谢谢你照顾好自己的小日子 🌟’，并附上一张可收藏的成就卡片——这种不打扰却有温度的设计，正是loveable的体现。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Loveable - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Loveable",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:21:28Z"
 }

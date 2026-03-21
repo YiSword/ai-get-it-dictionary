@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Heuristic Search",
+  "term": "heuristic_search",
   "norm_term": "heuristic_search",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Heuristic Search 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Heuristic Search，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "启发式搜索（heuristic_search）是一种利用经验性规则或估算信息来指导搜索过程的算法策略，旨在更高效地找到问题的可行解（不一定是最优解）。它通过引入‘启发函数’对候选路径进行评分，优先探索更可能通向目标的方向。普通用户需要了解它，因为它是现代智能应用的核心机制之一——从地图导航中的最快路线推荐，到电商网站的商品排序、聊天机器人的意图识别，都依赖此类方法在海量选项中快速做出合理决策。",
+    "metaphor": "就像老猎人在密林中追踪猎物时，不盲目搜遍每寸土地，而是根据脚印深浅、折断枝条的新鲜程度等线索判断方向，从而大幅缩短追踪时间。",
+    "example": "Google Maps 在规划驾车路线时，并非穷举所有道路组合，而是使用启发式函数（如直线距离到目的地）动态评估各岔路的潜力，快速收敛到一条接近最优的实时路径。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Heuristic Search - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Heuristic_Search",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:09:21Z"
 }

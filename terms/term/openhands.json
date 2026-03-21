@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "OpenHands",
+  "term": "openhands",
   "norm_term": "openhands",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "OpenHands 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 OpenHands，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "OpenHands 是一个开源的自动化智能体（AI agent）框架，专为复杂、多步骤的软件工程任务设计，支持自主规划、工具调用、代码编辑与环境交互。它基于真实开发数据训练，能理解 GitHub 仓库结构、运行测试、提交 PR 等，无需人工逐行指令。普通用户（尤其是开发者、技术团队）需要了解它，因为它代表了从‘写提示词’到‘交付可执行工作流’的范式升级——让 AI 真正成为能独立完成端到端开发任务的协作者，而非仅回答问题的聊天助手。",
+    "metaphor": "就像一位刚入职的资深全栈工程师，自带开发环境、熟悉 Git 流程、能读文档查报错、自己建分支改代码并发起评审，你只需告诉ta目标，不用教每一步怎么敲命令。",
+    "example": "当用户在 GitHub 上提交 issue 描述‘修复登录页邮箱校验正则导致中文邮箱无法通过’时，OpenHands 可自动复现问题、定位 frontend/src/utils/validate.js 文件、修改正则表达式、运行本地测试、生成修复 commit 并推送 PR。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "OpenHands - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/OpenHands",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:00:32Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "CoreWeave",
+  "term": "coreweave",
   "norm_term": "coreweave",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CoreWeave 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 CoreWeave，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "CoreWeave 是一家专注于高性能云计算的美国公司，专为人工智能训练、推理、3D 渲染和科学计算等 GPU 密集型工作负载优化基础设施。它不提供通用云服务（如 AWS 或 Azure 那样的全栈产品），而是构建在 NVIDIA GPU（尤其是 H100、A100）之上的专用云平台，强调低延迟、高带宽互联和按需弹性扩展。普通用户——尤其是 AI 开发者、初创团队或需要快速迭代大模型的工程师——需要知道 CoreWeave，因为它能以更优性价比和更低调度延迟运行大型语言模型或视频生成任务，绕过传统云厂商的资源排队与抽象层开销。",
+    "metaphor": "CoreWeave 就像一家只接高级定制跑车订单的赛车工坊：不造家用车，也不卖保险，但当你需要把一辆千匹马力的电动超跑瞬间调校到赛道极限状态时，它是最快响应、最懂引擎细节的选择。",
+    "example": "一家 AI 初创公司正在微调一个 70B 参数的开源大语言模型，使用 CoreWeave 的裸金属 A100/H100 实例集群，在 4 小时内完成训练，而同等预算下在主流公有云上因 GPU 队列等待和网络瓶颈需耗时超过 18 小时。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "CoreWeave - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/CoreWeave",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:00:21Z"
 }

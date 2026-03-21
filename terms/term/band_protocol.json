@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "band_protocol",
+  "norm_term": "band_protocol",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "band_protocol 是一种去中心化数据预言机（oracle）网络的通信与共识协议，用于安全、可靠地将链下真实世界的数据（如价格、天气、体育比分）传输到区块链上。它通过多节点并行采集、加密签名和基于权益的验证机制，防止单点故障和数据操纵。普通用户需要了解它，因为它是 DeFi 应用（如借贷、衍生品）准确执行的关键基础设施——若预言机出错，可能导致资产被错误清算或合约失效。",
+    "metaphor": "就像一群互不信任但各自独立核对同一份报纸头条的记者，只有当多数人确认内容一致时，消息才被正式发布。",
+    "example": "在以太坊上的去中心化借贷平台中，band_protocol 实时聚合多个交易所的 BTC/USD 价格，经验证后喂给智能合约，确保用户抵押率计算准确，避免因单一交易所异常报价触发误清算。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:31:08Z",
+  "updated_at": "2026-03-21T03:55:53Z"
+}

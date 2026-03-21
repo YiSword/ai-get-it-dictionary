@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Graph RAG",
+  "term": "graph_rag",
   "norm_term": "graph_rag",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Graph RAG 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Graph RAG，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Graph RAG（图增强检索增强生成）是一种将知识图谱与RAG技术结合的AI方法，它不仅从文档中检索文本片段，还利用实体间的关系结构（如‘巴黎是法国首都’‘法国位于欧洲’）进行语义推理和上下文扩展。相比传统RAG仅依赖关键词匹配或向量相似度，Graph RAG能更准确理解复杂问题中的隐含逻辑关系，提升答案的准确性与可解释性。普通用户需要了解它，是因为它正被用于智能客服、专业咨询、教育问答等场景，直接影响AI回答是否靠谱、连贯、有依据。",
+    "metaphor": "就像一位熟悉城市街巷的老向导，不只按路名找地点，还会根据‘这条街通向广场，广场旁是博物馆’这样的关系网络为你规划最优路径。",
+    "example": "当用户提问‘哪些药物可能加重心力衰竭患者的水肿？’时，Graph RAG会从医学知识图谱中检索‘呋塞米→利尿剂→缓解水肿’和‘NSAIDs→抑制前列腺素→加重水肿’等关系链，而非仅匹配含‘水肿’的段落，从而给出机制明确、有依据的答案。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Graph RAG - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Graph_RAG",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:58:39Z"
 }

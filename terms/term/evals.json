@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Evals",
+  "term": "evals",
   "norm_term": "evals",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Evals 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Evals，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "evals 是指对人工智能系统（尤其是大语言模型）的性能、可靠性、安全性与对齐性进行系统化测试与评估的过程。它涵盖事实准确性、推理能力、偏见检测、对抗鲁棒性、指令遵循度等多维度指标。普通用户需要了解 evals，因为它决定了AI回答是否可信、公平和安全——比如在医疗建议、法律咨询或教育场景中，未经严格 evals 的模型可能给出危险或误导性输出。",
+    "metaphor": "就像新药上市前必须经过多期临床试验来验证疗效和副作用，evals 就是AI模型投入实际使用前的‘数字临床试验’。",
+    "example": "一家银行在部署客服聊天机器人前，用 evals 测试其对金融术语的理解准确率、对欺诈话术的识别能力，以及在不同用户性别/年龄设定下的响应公平性。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Evals - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Evals",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:14:01Z"
 }

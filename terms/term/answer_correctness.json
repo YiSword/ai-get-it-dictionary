@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Answer Correctness",
+  "term": "answer_correctness",
   "norm_term": "answer_correctness",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Answer Correctness 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Answer Correctness，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "answer_correctness 是指模型生成的回答在事实性、逻辑性和任务目标上的准确程度。它衡量答案是否真实可靠、是否贴合问题意图、是否存在幻觉或错误推理。普通用户需要关注这一指标，因为它直接影响信息可信度——例如在医疗咨询、学术研究或法律事务中，错误答案可能导致严重后果；理解该术语有助于用户评估AI输出质量，合理使用并保持审慎判断。",
+    "metaphor": "就像厨师做菜时既要食材新鲜（事实准确），又要火候恰当、调味适中（逻辑合理、切题），answer_correctness 就是这道菜整体是否真正‘好吃又安全’的综合评分。",
+    "example": "当用户提问‘爱因斯坦获得诺贝尔奖的年份和原因是什么？’，若模型回答‘1921年，因相对论获奖’，则 answer_correctness 较低——尽管年份正确，但获奖实际原因是光电效应定律，而非相对论。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Answer Correctness - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Answer_Correctness",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:36:46Z"
 }

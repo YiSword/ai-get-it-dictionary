@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "IBM watsonx",
+  "term": "ibm_watsonx",
   "norm_term": "ibm_watsonx",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "IBM watsonx 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 IBM watsonx，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "IBM watsonx 是 IBM 推出的面向企业级 AI 和数据科学工作流的统一平台，集成了生成式 AI 开发工具（watsonx.ai）、数据和 AI 治理能力（watsonx.data）以及可扩展的模型生命周期管理（watsonx.governance）。它支持客户在自有环境中微调、部署和监管开源及 IBM 自研模型（如 Granite 系列），同时确保数据隐私与合规。普通用户——尤其是企业数据科学家、AI 工程师和 IT 决策者——需要了解它，因为它代表了从实验性 AI 向可审计、可扩展、生产就绪型 AI 转型的关键基础设施。",
+    "metaphor": "就像一座智能工厂：watsonx 不仅提供精密机床（模型训练工具），还配备质检线（治理模块）和物流调度系统（数据引擎），让企业能安全、高效地批量制造并交付定制化 AI 产品。",
+    "example": "一家全球银行使用 watsonx.ai 微调 Granite 语言模型，结合内部信贷政策文档，构建合规审查助手；再通过 watsonx.governance 追踪该模型每次输出的依据与偏差，满足金融监管审计要求。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "IBM watsonx - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/IBM_watsonx",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:22:08Z"
 }

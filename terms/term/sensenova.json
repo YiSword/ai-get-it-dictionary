@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "SenseNova",
+  "term": "sensenova",
   "norm_term": "sensenova",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "SenseNova 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 SenseNova，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "SenseNova 是商汤科技推出的通用大模型系列，涵盖语言、视觉、多模态等能力，旨在为行业应用提供高性能、低门槛的AI基础模型支持。它不是面向终端用户直接使用的聊天工具，而是作为底层引擎嵌入到智慧城市、医疗影像分析、自动驾驶等专业系统中。普通用户虽不直接操作SenseNova，但其支撑的智能服务（如医院辅助诊断、交通实时调度）正悄然提升日常生活的效率与安全性，因此了解其存在有助于理解AI如何真实落地而非仅停留在概念层面。",
+    "metaphor": "就像城市地下纵横交错的光纤网络——你看不见它，但它承载着所有视频通话、在线挂号和导航服务的实时数据流转。",
+    "example": "某三甲医院部署的AI放射科助手，背后调用SenseNova视觉大模型快速识别CT影像中的早期肺结节，将医生初筛时间缩短40%。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "SenseNova - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/SenseNova",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:43:28Z"
 }

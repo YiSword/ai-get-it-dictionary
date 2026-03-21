@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Code Execution Accuracy",
+  "term": "code_execution_accuracy",
   "norm_term": "code_execution_accuracy",
   "lang": "en",
   "aliases": [],
-  "entity_type": "metric",
-  "category": "评测指标",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Code Execution Accuracy 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Code Execution Accuracy，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "code_execution_accuracy 是指模型生成的代码在实际运行中正确完成预期任务的比例，它不仅衡量语法是否合法，更关注逻辑是否正确、边界条件是否处理得当、输出是否符合需求。普通用户需要关注这一指标，因为高准确率意味着更少的手动调试、更低的部署风险，以及更可靠的自动化结果——尤其在使用AI辅助编程、生成脚本或集成到生产流程时，低执行准确率可能导致数据错误、系统故障甚至安全漏洞。",
+    "metaphor": "就像一位厨师照着菜谱做菜，code_execution_accuracy 不是看菜谱写得漂不漂亮，而是看他端上来的菜是否真能吃、味道对不对、有没有漏掉关键步骤。",
+    "example": "当用户让AI生成一个Python函数来安全解析CSV文件并过滤出年龄大于30的记录时，code_execution_accuracy 高意味着该函数能正确处理空字段、编码异常和类型转换，而不会在运行时抛出ValueError或返回错误结果。"
   },
   "scenario_tags": [
-    "评测",
-    "基准",
-    "比较"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Code Execution Accuracy - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Code_Execution_Accuracy",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:35:27Z"
 }

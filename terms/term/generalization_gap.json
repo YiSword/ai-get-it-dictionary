@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Generalization Gap",
+  "term": "generalization_gap",
   "norm_term": "generalization_gap",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Generalization Gap 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Generalization Gap，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "generalization_gap（泛化间隙）指机器学习模型在训练数据上的性能（如准确率）与在未见过的测试数据上的性能之间的差距。这个差距越小，说明模型越能从训练样本中提炼出普适规律，而非死记硬背；差距过大则意味着过拟合——模型在训练集上表现优异，却无法应对真实场景。普通用户需要了解它，因为它是判断AI产品是否可靠、能否稳定落地的关键指标：一个宣传‘99%准确率’但泛化间隙巨大的模型，可能在实际使用中频繁出错。",
+    "metaphor": "就像一个学生靠背题库考了满分，却在换题型的期末考试中不及格——训练成绩和真实能力之间的落差就是泛化间隙。",
+    "example": "某医疗AI系统在医院内部历史影像数据上诊断准确率达98%，但在跨地区、不同设备采集的新患者影像上准确率骤降至72%，这26个百分点的下降即为显著的泛化间隙。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Generalization Gap - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Generalization_Gap",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:45:09Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Data Anonymization",
+  "term": "data_anonymization",
   "norm_term": "data_anonymization",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Data Anonymization 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Data Anonymization，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "数据匿名化是指通过技术手段（如删除、泛化、扰动或替换）移除或隐藏个人身份信息，使数据无法关联到特定自然人，同时尽可能保留其统计或分析价值。普通用户需要了解它，因为这是保护隐私的关键防线——当APP、医院或银行处理你的姓名、身份证号、位置等敏感信息时，合规的匿名化能大幅降低数据泄露后被追溯和滥用的风险。",
+    "metaphor": "就像把一张清晰的人脸照片磨砂成模糊轮廓，既看不出是谁，又还能分辨出是‘成年人’还是‘戴眼镜的人’这类群体特征。",
+    "example": "某医院将患者电子病历中的姓名、身份证号、住址替换为随机ID，并将年龄从具体数值改为年龄段（如‘45–59岁’），再发布给科研机构用于疾病趋势分析。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Data Anonymization - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Data_Anonymization",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:11:15Z"
 }

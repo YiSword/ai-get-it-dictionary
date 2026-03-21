@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Web Search",
+  "term": "web_search",
   "norm_term": "web_search",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Web Search 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Web Search，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "web_search（网络搜索）是指用户通过搜索引擎（如Google、百度）输入关键词，从全球公开网页中快速查找相关信息的过程。它依赖爬虫抓取、索引构建和排序算法，将海量网页按相关性与权威性呈现为搜索结果。普通用户需要了解它，因为它是获取知识、解决问题、验证信息和参与数字社会最基础的入口；掌握基本搜索技巧（如使用引号、减号或site限定）能显著提升效率，避免被低质或误导性内容淹没。",
+    "metaphor": "就像在一座没有图书管理员、却有智能导航系统的巨型图书馆里，你只需说出想要的主题，系统便自动翻遍所有书架、筛选出最相关的几本书并按重要程度排好队。",
+    "example": "学生写论文时，在搜索引擎中输入 'carbon footprint of electric cars site:.edu'，即可精准定位美国高校发布的权威研究报告。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Web Search - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Web_Search",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:23:32Z"
 }

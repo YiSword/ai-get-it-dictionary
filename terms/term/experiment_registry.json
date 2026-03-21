@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Experiment Registry",
+  "term": "experiment_registry",
   "norm_term": "experiment_registry",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Experiment Registry 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Experiment Registry，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "experiment_registry 是一种用于系统化记录、追踪和管理机器学习或数据科学实验的元数据存储机制。它通常保存每次实验的配置参数、代码版本、数据集信息、超参数、指标结果及运行环境等关键信息。普通用户（如算法工程师或研究员）需要知道它，是因为在模型迭代过程中，手动记录实验易出错、难回溯，而 experiment_registry 能确保结果可复现、对比可量化、协作可追溯，大幅提升研发效率与可信度。",
+    "metaphor": "它就像实验室里的电子实验日志本，不仅记下每次实验做了什么、用了什么材料、得到什么结果，还能一键翻到任意一次实验的完整细节。",
+    "example": "某团队使用 MLflow 的 experiment registry 创建名为 'recommendation-v2' 的实验空间，每次训练推荐模型时自动记录 learning_rate、embedding_dim 和 AUC 分数，方便后续筛选最优配置并复现最佳模型。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Experiment Registry - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Experiment_Registry",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:18:43Z"
 }

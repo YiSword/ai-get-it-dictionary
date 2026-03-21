@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "autoregressive_model",
+  "norm_term": "autoregressive_model",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "autoregressive_model（自回归模型）是一类通过历史数据点预测下一个数据点的统计或机器学习模型，其核心假设是当前值仅依赖于它之前的若干个值（即‘自回归’）。这类模型广泛应用于时间序列预测（如股价、天气）、自然语言生成（如GPT系列）和语音合成等领域。普通用户需要了解它，因为许多日常接触的AI功能——比如手机输入法的下一句推荐、智能音箱的续写故事、甚至短视频平台的文案生成——背后都依赖自回归机制。",
+    "metaphor": "就像一位只靠听前面几句话就猜出下一句台词的即兴演员，自回归模型不看全局剧本，只根据刚刚说过的词或数字来决定接下来说什么。",
+    "example": "GPT-3在生成一段文字时，每次只预测一个词，并将该词加入上下文，再基于扩展后的上下文预测下一个词，整个过程严格遵循自回归方式。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T10:39:18Z",
+  "updated_at": "2026-03-21T03:52:01Z"
+}

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Cohen's Kappa",
+  "term": "cohen_s_kappa",
   "norm_term": "cohen_s_kappa",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Cohen's Kappa 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Cohen's Kappa，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Cohen's Kappa 是一种统计指标，用于衡量两个评判者（或同一评判者在不同时间）对同一组样本进行分类时的一致性程度，同时校正了纯随机猜测可能导致的偶然一致。它取值范围通常在 -1 到 1 之间：1 表示完全一致，0 表示一致性不优于随机预期，负值则表示一致程度比随机还差。普通用户——尤其是参与标注、医疗诊断、内容审核或教育评估的人——需要了解它，因为仅看表面‘同意率’会高估真实可靠性；Kappa 能揭示这种一致性是否真正有意义。",
+    "metaphor": "就像两位厨师独立品尝同一道菜并各自打分，Cohen's Kappa 不只数他们打了几个相同分数，而是追问：这些相同分数里，有多少是真懂口味，又有多少只是碰巧蒙对。",
+    "example": "在医学影像诊断中，两位放射科医生分别判断100张肺部CT是否显示结节，他们一致认为有结节的有65张、无结节的有25张，总一致率为90%；但Cohen's Kappa计算后仅为0.62，说明其中相当一部分一致源于疾病本身高发带来的随机重合，实际专业判断一致性中等。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Cohen's Kappa - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Cohen%27s_Kappa",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:42:03Z"
 }

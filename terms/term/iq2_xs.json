@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "iq2_xs",
+  "norm_term": "iq2_xs",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "iq2_xs 是一种量化格式，用于压缩大语言模型的权重参数，将浮点数（如 FP16）转换为平均仅约 2.1 位的整数表示，在极低比特下保持相对可用的推理质量。它专为边缘设备（如手机、笔记本）设计，能在内存和算力受限的环境中运行较小规模的模型。普通用户需要了解它，是因为选择支持 iq2_xs 的模型和推理工具（如 llama.cpp），可显著降低本地运行 AI 的硬件门槛，让旧款设备也能流畅体验聊天、摘要等基础功能。",
+    "metaphor": "就像把一本高清摄影集压缩成线描草图集——细节变少，但关键轮廓仍在，且能塞进更小的书包里随身携带。",
+    "example": "在一台仅有 4GB 内存的老旧 MacBook 上，用户通过 llama.cpp 加载一个 3B 参数模型的 iq2_xs 量化版本，成功运行本地中文对话助手，响应延迟低于 2 秒。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T17:19:26Z",
+  "updated_at": "2026-03-21T07:42:25Z"
+}

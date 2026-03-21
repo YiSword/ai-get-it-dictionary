@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "System Prompt",
+  "term": "system_prompt",
   "norm_term": "system_prompt",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "提示工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "System Prompt 是和 AI 交流时常见的一类方法或输入形式，用来更明确地表达任务、限制和输出要求。它会直接影响模型回答的方向、质量和稳定性。对初学者来说，理解它的作用，往往比研究模型参数更能立刻提升使用效果。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你希望 AI 按固定格式输出结果，或针对某个场景调整语气和步骤时，就会用到 System Prompt，因为这类任务高度依赖输入表达方式。"
+    "plain": "system_prompt 是大语言模型运行时接收的初始指令，用于设定模型的角色、行为规范、输出格式和知识边界。它由开发者或高级用户预先配置，不向普通用户直接展示，但深刻影响模型的回答风格与可靠性。普通用户需要了解它，因为当使用AI工具时，其表现差异（如是否严谨、是否拒绝不当请求）往往源于底层 system_prompt 的不同设计，理解这一点有助于更理性地评估AI输出，避免误信或滥用。",
+    "metaphor": "就像厨师上岗前收到的餐厅主厨手写的《今日厨房守则》——它不端上餐桌，却决定了每道菜的火候、摆盘和禁忌。",
+    "example": "某客服AI的 system_prompt 明确要求‘仅基于知识库作答，不确定时回答‘暂无相关信息’’，因此面对用户提问‘公司2025年财报何时发布？’，它不会猜测，而是严格按指令回应。"
   },
   "scenario_tags": [
-    "提问",
-    "写作",
-    "指令"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "System Prompt - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/System_Prompt",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
-  "created_at": "2026-03-19T09:15:16Z",
-  "updated_at": "2026-03-19T09:15:16Z"
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T10:00:32Z"
 }

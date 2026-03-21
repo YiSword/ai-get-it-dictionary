@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Grammar-Constrained Decoding",
+  "term": "grammar_constrained_decoding",
   "norm_term": "grammar_constrained_decoding",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Grammar-Constrained Decoding 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Grammar-Constrained Decoding，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "grammar_constrained_decoding（语法约束解码）是一种在大语言模型生成文本时，强制输出严格符合预定义语法规则（如JSON、SQL、编程语言或自定义BNF文法）的技术。它通过在解码过程中动态过滤非法token或调整概率分布，确保生成结果不仅语义合理，而且结构正确。普通用户需要了解它，因为当调用AI完成代码补全、API响应生成或配置文件编写等任务时，语法错误会导致系统崩溃或集成失败，而该技术能显著提升输出的可靠性与即用性。",
+    "metaphor": "就像给AI配了一位实时校对的语法教练，每写一个词都检查是否符合规则手册，绝不允许拼错单词或用错标点。",
+    "example": "当用户要求模型生成一个符合OpenAPI 3.0规范的JSON格式API描述时，语法约束解码可确保输出始终是合法JSON且字段结构完全合规，避免因缺失逗号或引号导致解析失败。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Grammar-Constrained Decoding - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Grammar-Constrained_Decoding",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:56:55Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Federated Learning",
+  "term": "federated_learning",
   "norm_term": "federated_learning",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Federated Learning 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Federated Learning，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "联邦学习是一种分布式机器学习技术，允许多个设备或机构在不共享原始数据的前提下协同训练一个共享的AI模型。各参与方仅交换加密的模型参数更新（如梯度），而非上传敏感数据本身。普通用户需要了解它，因为这项技术正在被用于保护手机输入法、健康App或银行服务中的隐私——你的打字习惯、心率数据或交易行为无需离开本地设备，就能帮助改进整体服务，同时降低数据泄露和滥用风险。",
+    "metaphor": "就像一群邻居各自在家研究同一道菜谱，只互相分享‘火候调了多少’‘盐加了几克’的经验总结，却从不把自家厨房里的食材、调料瓶甚至灶台照片拿给对方看。",
+    "example": "谷歌键盘Gboard使用联邦学习，在数亿部安卓手机上本地训练下一个词预测模型，仅上传匿名化、差分隐私保护的模型更新，从而提升输入体验而不收集用户的实际输入内容。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Federated Learning - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Federated_Learning",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:25:53Z"
 }

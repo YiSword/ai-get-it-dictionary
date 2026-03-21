@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Decoder-Only Transformer",
+  "term": "decoder_only_transformer",
   "norm_term": "decoder_only_transformer",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "模型架构",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Decoder-Only Transformer 是 AI 模型体系中的重要结构或模型类型，决定了模型如何理解输入、组织信息和生成结果。虽然普通用户不会直接训练它，但很多今天常见的 AI 能力都建立在这类结构之上。理解它能帮助你建立更完整的 AI 基础认知。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Decoder-Only Transformer，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "decoder_only_transformer 是一种仅包含解码器（decoder）模块的 Transformer 架构，不包含编码器（encoder），其核心特点是通过自回归方式逐词生成文本——即每次预测下一个词时，只依赖已生成的前序词。它构成了当前主流大语言模型（如 GPT 系列）的底层结构。普通用户需要了解它，是因为它直接决定了 AI 如何理解上下文、生成连贯回答，以及为何模型无法‘编辑’已有文本或并行输出完整响应——这些使用体验都源于该架构的单向注意力与因果掩码设计。",
+    "metaphor": "就像一位只向前看、不能回头修改手稿的即兴演说家，每说一个词都只记得自己刚刚说过的话，靠这种记忆一路推进整场演讲。",
+    "example": "当你在 ChatGPT 中输入‘请写一首关于春天的诗’，模型基于 decoder_only_transformer 架构，从空序列开始，逐字预测并生成‘春眠不觉晓……’，每个字的选择都严格依赖此前已生成的所有字符。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Decoder-Only Transformer - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Decoder-Only_Transformer",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:19:55Z"
 }

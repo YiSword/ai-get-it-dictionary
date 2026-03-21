@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Ads Ranking",
+  "term": "ads_ranking",
   "norm_term": "ads_ranking",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Ads Ranking 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Ads Ranking，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "ads_ranking（广告排序）是指搜索引擎或广告平台根据算法对候选广告进行打分和排序的过程，决定哪条广告在特定位置（如搜索结果页顶部）展示以及展示顺序。它综合考虑出价、广告质量、用户相关性、点击率预估等多种因素，而非仅由出价高低决定。普通用户需要了解它，因为这直接影响他们看到的广告内容是否相关、可信和有用——排序越靠前的广告未必最贵，但通常更匹配其当前意图和浏览上下文。",
+    "metaphor": "就像餐厅里顾客点菜时，服务员不会只按谁给小费多就先上谁的菜，而是综合考虑菜品准备时间、顾客饥饿程度、历史口味偏好和厨房出餐能力，动态决定上菜顺序。",
+    "example": "当用户搜索‘防水蓝牙耳机’时，平台对竞标该关键词的广告主（如Jabra、Anker、某电商店铺）实时计算ads_ranking得分，最终将相关性高、落地页体验好、历史点击率优的Anker广告排在首位，而非单纯出价最高的冷门品牌。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Ads Ranking - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Ads_Ranking",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T03:22:23Z"
 }

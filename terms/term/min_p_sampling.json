@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Min-p Sampling",
+  "term": "min_p_sampling",
   "norm_term": "min_p_sampling",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Min-p Sampling 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Min-p Sampling，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "min_p_sampling 是一种文本生成中的概率截断采样策略，它通过保留所有满足 p_i ≥ min_p × p_max 的词元（即其概率不低于最高概率词元的 min_p 倍）来限制候选集，从而在保持多样性的同时避免低质量、离谱的输出。与传统的 top-k 或 nucleus（top-p）采样不同，它基于相对概率比例动态调整候选范围，对长尾分布更鲁棒。普通用户需要了解它，因为该参数直接影响大模型回复的可靠性与创造性平衡——设置过小易产生胡言乱语，过大则可能抑制合理多样性。",
+    "metaphor": "就像乐队指挥只允许音量不低于首席小提琴手一半的乐手演奏，既不让最弱的杂音干扰整体，也不因过度筛选而失去和声层次。",
+    "example": "在用 LLaMA-3 生成技术文档时，将 min_p 设为 0.1 可排除那些概率仅为最优词元 1/10 以下的生僻术语，避免出现语法正确但领域错误的词汇，如将 'ReLU' 错生成为 'ReLX'。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Min-p Sampling - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Min-p_Sampling",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:41:32Z"
 }

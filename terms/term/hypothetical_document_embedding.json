@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "hypothetical_document_embedding",
+  "norm_term": "hypothetical_document_embedding",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "hypothetical_document_embedding 是一种用于检索增强生成（RAG）的技术，指模型在没有真实文档输入时，先根据用户查询生成一个‘假设性文档’的文本，再将该文本编码为向量（即嵌入），用以在向量数据库中检索最相关的真实文档。它解决了传统RAG中查询短、语义模糊导致检索不准的问题。普通用户需要了解它，是因为这项技术正默默提升AI回答的准确性与上下文相关性——比如你问‘如何缓解登山后的肌肉酸痛？’，系统会先构想一篇简短科普文，再用它去找最匹配的医学指南，而非直接拿原始问题去搜。",
+    "metaphor": "就像一位图书管理员先根据你的模糊口头描述（‘讲夏天海边和童年回忆的书’）快速手写一段内容简介，再拿着这段内容去书架上精准找书，而不是直接翻遍所有标题含‘夏天’的书。",
+    "example": "在医疗问答App中，用户输入‘吃阿司匹林后牙龈出血怎么办？’，系统生成假设文档：‘患者服用阿司匹林后出现牙龈出血，需评估抗凝风险、局部止血措施及是否暂停用药’，再将该文本嵌入检索临床指南库，返回权威处置建议。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:35:52Z",
+  "updated_at": "2026-03-21T07:20:39Z"
+}

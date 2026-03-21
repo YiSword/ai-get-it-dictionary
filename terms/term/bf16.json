@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "BF16",
+  "term": "bf16",
   "norm_term": "bf16",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "BF16 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 BF16，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "bf16（Brain Floating-Point 16）是一种16位浮点数格式，由Google为机器学习计算设计，保留与32位浮点（FP32）相同的指数位数（8位），但将尾数缩减至7位。这使其动态范围与FP32几乎一致，能避免训练中常见的梯度下溢或上溢问题，同时显著降低内存占用和带宽需求。普通用户虽不直接操作它，但在使用搭载TPU、新一代GPU（如NVIDIA H100/A100）的AI应用、大模型推理或本地运行LLM时，bf16常被默认启用以提升速度和稳定性，影响响应速度与设备发热表现。",
+    "metaphor": "就像用同一把尺子的刻度间距变宽了（精度略降），但保留了原来的测量范围（从蚂蚁到大象都能量），既省纸又不漏掉关键尺寸。",
+    "example": "在使用Hugging Face Transformers加载Llama-3进行本地推理时，设置torch_dtype='bfloat16'可让模型以bf16加载，在RTX 4090上将显存占用减少近一半，同时保持生成质量无明显下降。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "BF16 - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/BF16",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:05:26Z"
 }

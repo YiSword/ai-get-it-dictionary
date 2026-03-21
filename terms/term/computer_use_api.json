@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Computer Use API",
+  "term": "computer_use_api",
   "norm_term": "computer_use_api",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Computer Use API 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Computer Use API，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "computer_use_api 指计算机系统或软件通过预定义的接口（API，Application Programming Interface）调用其他程序、服务或硬件功能的行为。它让不同软件组件无需了解内部实现即可安全、标准化地交换数据或触发操作。普通用户虽不直接编写代码，但日常使用的应用——如微信登录第三方网站、手机天气App获取气象数据——背后都依赖此类API调用；理解它有助于识别功能依赖关系、评估隐私风险（如某App为何需要读取通讯录），并更理性地判断软件权限请求的合理性。",
+    "metaphor": "就像餐厅里顾客不进厨房，而是通过菜单点单、由服务员将需求传达给厨师，API就是那张菜单和传话的服务员。",
+    "example": "当你在电商App中点击‘用微信支付’，该App通过微信提供的支付API向微信客户端发起请求，微信弹出确认界面并完成扣款，整个过程双方无需共享源代码或底层逻辑。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Computer Use API - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Computer_Use_API",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T04:47:17Z"
 }

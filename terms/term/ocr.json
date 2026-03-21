@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "OCR",
+  "term": "ocr",
   "norm_term": "ocr",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "OCR 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 OCR，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "OCR（Optical Character Recognition，光学字符识别）是一种将图像中的文字自动转换为可编辑、可搜索的文本数据的技术。它能识别扫描件、照片或截图里的印刷体甚至手写体文字，并将其变成电脑能处理的字符串。普通用户需要了解OCR，因为它广泛应用于日常场景：比如用手机拍下菜单立刻翻译、把纸质合同转成Word文档编辑、或在PDF中直接复制粘贴文字，极大提升了信息获取和处理效率。",
+    "metaphor": "OCR就像一位精通多国文字的速记员，看到一张纸上的字，不用人工抄写，眨眼间就把它准确地打成电子文档。",
+    "example": "当你用手机扫描APP拍摄一张发票照片，OCR技术会自动识别出上面的金额、日期和商家名称，并填入报销系统中。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "OCR - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/OCR",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:56:46Z"
 }

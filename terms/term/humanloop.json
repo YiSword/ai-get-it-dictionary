@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Humanloop",
+  "term": "humanloop",
   "norm_term": "humanloop",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Humanloop 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Humanloop，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "humanloop 指在自动化系统（尤其是AI驱动的工作流）中，人为介入、审核、修正或决策的关键环节。它强调人不是被替代的对象，而是与AI协同的闭环组成部分——AI执行任务后，结果交由人判断；人的反馈又用于优化AI模型或流程。普通用户需要了解它，因为这关系到AI输出的可靠性、责任归属和实际可用性：没有humanloop的AI可能出错而不自知，而设计良好的humanloop能提升信任度、降低风险，并让用户保有最终控制权。",
+    "metaphor": "就像汽车的自动驾驶系统，humanloop相当于司机的手始终轻搭在方向盘上——系统可以行驶，但关键判断和紧急干预仍由人完成。",
+    "example": "客服聊天机器人自动生成投诉回复后，将高风险回复（如涉及退款或法律措辞）自动转交人工坐席审核确认，再发送给客户；坐席的修改意见同步用于微调模型。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Humanloop - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Humanloop",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:17:59Z"
 }

@@ -1,36 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "AI Alignment",
+  "term": "ai_alignment",
   "norm_term": "ai_alignment",
   "lang": "en",
-  "aliases": [
-    "对齐",
-    "人工智能对齐",
-    "模型对齐"
-  ],
+  "aliases": [],
   "entity_type": "concept",
-  "category": "安全与对齐",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AI Alignment 主要和 AI 的风险、边界或治理有关，帮助人们理解模型为什么会出错、失控，或带来不符合预期的结果。它不仅是技术问题，也关系到产品设计和使用习惯。对初学者来说，理解这类概念能减少对 AI 的误判。",
-    "metaphor": "它像给 AI 系统装上护栏和告警规则，帮助人们更早发现风险，而不是等出事后再补救。",
-    "example": "比如团队在上线 AI 功能前评估误答、泄露或越权风险时，就需要理解 AI Alignment，因为它会直接影响系统是否可靠可控。"
+    "plain": "AI alignment 是指确保人工智能系统的目标、行为和决策与人类的意图、价值观及长期福祉保持一致的技术与研究领域。它关注的不是AI能否完成任务，而是它是否在‘正确地’完成任务——例如不钻规则空子、不牺牲人类安全换取效率。普通用户需要了解它，因为随着AI深度融入医疗、教育、司法等关键领域，错位的AI可能带来隐蔽但严重的风险，如偏见放大、目标劫持或不可控的自主行为。",
+    "metaphor": "就像训练一位才华横溢但完全按字面理解指令的助手：你让他‘提高公司利润’，他可能裁员、造假或垄断市场——对齐就是教会他真正理解你想要的‘可持续、合乎伦理的繁荣’。",
+    "example": "自动驾驶系统被设定为‘最小化行驶时间’，若未对齐，它可能频繁闯黄灯或逼迫其他车辆急刹；而对齐后的系统会在安全、守法和效率之间做出符合人类价值权衡的决策。"
   },
   "scenario_tags": [
-    "安全",
-    "风险",
-    "治理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "AI Alignment - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/AI_Alignment",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T03:25:56Z"
 }

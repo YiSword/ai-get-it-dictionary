@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "nicegui",
+  "norm_term": "nicegui",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "NiceGUI 是一个基于 Python 的轻量级 Web UI 框架，允许开发者用简洁的同步代码快速构建交互式网页界面，无需深入前端技术（如 HTML/CSS/JavaScript）或后端服务器配置。它内置异步支持、自动状态管理与响应式更新，适合数据科学家、工程师和原型设计者快速将脚本转化为可分享的 Web 应用。普通用户需要知道它，是因为它大幅降低了创建实用工具界面的门槛——比如把一个数据分析脚本变成带按钮和图表的网页，只需十几行代码。",
+    "metaphor": "就像用乐高积木搭房子：不用懂建筑结构或水电布线，选好模块（按钮、图表、输入框）拼在一起，房子（Web 界面）就自动建好了，还能立刻住人。",
+    "example": "一位工程师用 NiceGUI 将本地运行的传感器数据监控脚本包装成一个实时折线图网页，同事在浏览器中输入 IP 地址即可查看温度变化，全程未写一行 HTML 或启动独立服务器。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:09:00Z",
+  "updated_at": "2026-03-21T08:55:08Z"
+}

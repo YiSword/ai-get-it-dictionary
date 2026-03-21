@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "starcoder2",
+  "norm_term": "starcoder2",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "StarCoder2 是由 BigCode 社区开发的开源大语言模型系列，专为代码生成、理解与补全任务优化，支持多种编程语言。它在代码相关基准测试中表现优异，且模型权重和训练数据完全开放，允许开发者自由下载、微调和部署。普通用户（尤其是程序员、学生或技术爱好者）需要了解它，因为它是可本地运行、隐私可控、无需依赖商业 API 的高质量编程助手，降低了使用 AI 编程工具的技术与成本门槛。",
+    "metaphor": "就像一位精通数十种编程语言、随时待命的开源结对程序员，不收薪水、不需联网、还能让你随时查看并修改它的‘思考笔记’。",
+    "example": "一名前端开发者在离线环境中用 StarCoder2 模型本地运行 VS Code 插件，实时获得 TypeScript 函数补全和错误修复建议，全程代码不离开公司内网。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:57:38Z",
+  "updated_at": "2026-03-21T09:54:14Z"
+}

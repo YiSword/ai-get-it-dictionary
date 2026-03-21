@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "orca_2",
+  "norm_term": "orca_2",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "orca_2 是由阿里云研发的第二代开源大语言模型，专注于代码理解与生成任务，在Python、JavaScript等主流编程语言上具备强推理和上下文建模能力。它并非通用对话模型，而是面向开发者设计的轻量级代码助手，支持本地部署与快速微调。普通用户（尤其是程序员、学生或低代码实践者）需要了解它，是因为它能在不依赖云端API、保护代码隐私的前提下，提供实时的代码补全、错误诊断和文档生成服务。",
+    "metaphor": "就像一位随身携带的资深结对编程伙伴，无需联网、不偷看你的项目，却能立刻读懂你刚写的三行函数并给出优化建议。",
+    "example": "一名前端开发者在离线环境下调试一个React组件时，用orca_2分析报错堆栈并自动生成修复后的useEffect逻辑，全程未上传任何代码到服务器。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:51:05Z",
+  "updated_at": "2026-03-21T09:03:11Z"
+}

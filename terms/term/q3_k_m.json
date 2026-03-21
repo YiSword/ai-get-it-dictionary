@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "q3_k_m",
+  "norm_term": "q3_k_m",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "q3_k_m 是一种量化模型权重的格式，属于 GGUF 文件规范中定义的 3-bit 量化方案，其中 'k' 表示分组（block）量化策略，'m' 代表使用了更精细的缩放因子（如每组独立的 min/max 或 scale/offset），以在极低比特下尽量保留模型精度。普通用户需要了解它，是因为在本地运行大语言模型（如 Llama 系列）时，选择 q3_k_m 可在显存/内存受限设备（如消费级笔记本）上实现可用的推理速度与质量平衡——比 q2_k 或 q3_k_s 更准，又比 q4_k_m 更省资源。",
+    "metaphor": "就像把一本厚字典压缩成袖珍版：不是简单删字，而是用一套精巧的缩写规则和上下文提示，让每个词仍能被准确还原，既大幅减重，又不严重丢义。",
+    "example": "用户在一台仅 8GB RAM 的 MacBook 上通过 llama.cpp 运行 Phi-3 模型时，选用 q3_k_m 量化版本，在保持基本对话连贯性的前提下，将模型体积从 2.1GB 压缩至约 1.2GB，并实现每秒 8–10 词的实时生成。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T17:24:58Z",
+  "updated_at": "2026-03-21T09:19:40Z"
+}

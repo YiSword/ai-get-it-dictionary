@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "trulens",
+  "norm_term": "trulens",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "TruLens 是一个开源的 Python 库，用于评估和可解释性分析大语言模型（LLM）应用的性能与行为。它帮助开发者量化提示质量、响应相关性、事实准确性、有害性等关键指标，并通过可视化仪表板追踪模型输出在不同维度上的表现。普通用户（尤其是构建 LLM 应用的工程师和产品经理）需要知道它，因为仅靠人工抽查无法可靠判断 AI 输出是否可信、安全或符合业务目标，而 TruLens 提供了可复现、可量化的评估框架。",
+    "metaphor": "就像汽车的仪表盘不仅显示速度，还实时监控油耗、胎压和发动机温度，TruLens 是 LLM 应用的‘健康仪表盘’，把抽象的 AI 行为转化为可读、可测的具体指标。",
+    "example": "一家客服团队用 LLM 自动生成客户问题回复，通过 TruLens 集成其系统后，自动计算每条回复的‘事实一致性得分’和‘礼貌性得分’，并标记出低于阈值的响应供人工复核。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:59:46Z",
+  "updated_at": "2026-03-21T10:11:45Z"
+}

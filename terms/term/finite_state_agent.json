@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Finite-State Agent",
+  "term": "finite_state_agent",
   "norm_term": "finite_state_agent",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "产品概念",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Finite-State Agent 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Finite-State Agent，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "finite_state_agent 是一种基于有限状态机（FSM）原理构建的智能体，其行为由一组预定义的状态、状态间的转移规则以及在每个状态下可执行的动作共同决定。它不依赖复杂的学习或推理过程，而是通过明确的状态切换逻辑响应环境输入。普通用户需要了解它，是因为这类代理常见于交互式系统（如客服机器人、游戏NPC、设备控制界面），理解其‘状态驱动’特性有助于预判其行为边界——例如为何它有时看似‘卡住’或无法处理未预期输入。",
+    "metaphor": "就像一台老式自动售货机：只有‘待机’‘选品中’‘投币不足’‘出货成功’等几个固定状态，每次按键或投币只触发特定状态跳转，绝不会突然开始讲笑话或推荐商品。",
+    "example": "智能微波炉的烹饪助手就是一个 finite_state_agent：它在‘待机’‘设置时间’‘加热中’‘暂停’‘完成报警’等状态间切换，用户按下‘开始’仅在‘设置时间’状态下生效，其他状态下该按键被忽略。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Finite-State Agent - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Finite-State_Agent",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:30:35Z"
 }

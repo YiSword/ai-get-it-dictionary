@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Recommendation System",
+  "term": "recommendation_system",
   "norm_term": "recommendation_system",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Recommendation System 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Recommendation System，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "推荐系统是一种利用用户行为、偏好和物品特征等数据，自动为用户筛选并推送可能感兴趣内容的智能技术。它广泛应用于电商、视频平台、新闻App等场景，帮助用户在信息过载时代快速发现符合口味的商品、影片或文章。普通用户需要了解它，是因为它深刻影响日常决策——从购物选择到时间分配，甚至塑造认知边界；同时理解其运作逻辑，有助于更理性地看待个性化推送，避免陷入‘信息茧房’。",
+    "metaphor": "就像一位熟悉你口味、记得你上次点了什么、还悄悄观察你朋友爱吃什么的贴心餐厅服务员，主动为你端上最可能合意的新菜。",
+    "example": "当你在淘宝浏览了几款蓝牙耳机后，首页‘猜你喜欢’栏立刻出现相似型号及搭配耳塞的推荐；或Netflix根据你观看《黑镜》的记录，向你推荐风格相近的《西部世界》。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Recommendation System - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Recommendation_System",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:30:04Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "q2_k",
+  "norm_term": "q2_k",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "q2_k 是一种量化格式，用于压缩大语言模型的权重参数，表示每个权重用 2 位（bit）整数存储，并采用分组量化（k-means 风格聚类）策略，在每组内共享缩放因子和偏移量。它在极低比特下兼顾了精度与推理效率，适合在内存或算力受限的设备（如手机、嵌入式终端）上运行轻量级模型。普通用户需要知道它，是因为选择支持 q2_k 的模型版本，可能意味着更小的下载体积、更低的耗电和更快的响应速度，但需权衡生成质量略有下降。",
+    "metaphor": "就像把一本高清画册压缩成简笔画集：每页只保留最关键的轮廓和色调提示，牺牲部分细节，却大幅节省纸张和翻阅时间。",
+    "example": "某款手机端AI写作App在安装包中内置一个 1.5B 参数的LLM，使用 q2_k 量化后模型体积从 3.2GB 缩至 0.6GB，可在 4GB 内存的老款安卓机上流畅运行文本补全功能。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T17:21:41Z",
+  "updated_at": "2026-03-21T09:18:51Z"
+}

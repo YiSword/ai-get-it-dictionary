@@ -1,36 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Perplexity",
+  "term": "perplexity",
   "norm_term": "perplexity",
   "lang": "en",
-  "aliases": [
-    "Perplexity AI",
-    "Perplexity Pro"
-  ],
-  "entity_type": "product",
-  "category": "产品概念",
-  "difficulty": "入门",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Perplexity 是用户在真实使用中高频会接触到的 AI 产品或服务。它通常把模型能力包装成聊天、搜索、写作、编码或生成内容等具体功能，因此比底层技术词更容易直接感知。理解它的定位，有助于分辨不同 AI 产品各自擅长什么。",
-    "metaphor": "它就像一个已经包装好的 AI 工具箱，用户不需要知道所有底层原理，也能直接拿来完成具体任务。",
-    "example": "比如用户想直接完成写作、搜索、总结或生成内容任务时，往往会先接触 Perplexity 这类产品，因为它把底层能力封装成了更容易上手的界面。"
+    "plain": "Perplexity（困惑度）是衡量语言模型预测能力的核心指标，数值越低表示模型对文本的不确定性越小、预测越准确。它本质上是对模型分配给真实词序列的概率分布的指数级倒数，反映模型‘有多惊讶’于实际出现的文本。普通用户需要了解它，因为它是评估AI写作、翻译或对话系统是否靠谱的关键数字——困惑度高意味着模型常胡言乱语，低则说明其输出更连贯、符合语言习惯。",
+    "metaphor": "就像一位厨师被要求凭直觉猜出一盘菜的下一道工序：困惑度越低，说明他越熟悉菜系逻辑，几乎每次都能猜中；困惑度高，则像新手频繁猜错，手足无措。",
+    "example": "在训练一个中文新闻摘要模型时，研究者发现验证集困惑度从45降到28，表明模型对真实新闻语句的预测准确性显著提升，生成的摘要也更通顺、少有语法错误。"
   },
   "scenario_tags": [
-    "搜索",
-    "问答",
-    "研究",
-    "资料整理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Perplexity",
-      "url": "https://www.perplexity.ai/",
-      "type": "doc"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T09:06:44Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "AndroidWorld",
+  "term": "androidworld",
   "norm_term": "androidworld",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AndroidWorld 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 AndroidWorld，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "AndroidWorld 是一个非官方的中文 Android 技术社区与资讯平台，主要面向开发者和高级用户，提供 ROM 刷机教程、内核编译指南、系统深度定制技巧及小众安卓设备支持信息。它并非 Google 或任何厂商的官方渠道，而是由爱好者自发维护的技术聚集地。普通用户需要知道它，是因为当官方系统更新停滞、设备被厂商放弃支持，或用户追求更高自由度（如去谷歌框架、提升隐私控制、延长旧机寿命）时，AndroidWorld 这类社区常是获取可靠第三方固件和实操方案的关键入口。",
+    "metaphor": "它就像安卓世界的‘老匠人作坊’——没有品牌旗舰店的光鲜，却藏着修复古董手机、改装旧车引擎般的硬核手艺和手把手教学。",
+    "example": "一位使用 2015 年款 Nexus 6 的用户，在官方早已停止 Android 8 更新后，通过 AndroidWorld 找到适配的 LineageOS 18.1 定制 ROM，并按其图文教程成功刷入 Android 11 系统，重获安全更新与流畅体验。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "AndroidWorld - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/AndroidWorld",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:35:45Z"
 }

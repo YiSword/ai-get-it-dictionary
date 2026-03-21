@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "Backpropagation",
+  "norm_term": "backpropagation",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Backpropagation（反向传播）是训练神经网络的核心算法，通过计算预测结果与真实值之间的误差，并将误差从输出层反向传播回输入层，从而调整网络参数。它是深度学习能够'学习'的数学基础。理解反向传播有助于明白 AI 是如何从错误中改进的。",
+    "metaphor": "就像学生做题后对照答案，从错误处倒推找出理解偏差，反向传播让神经网络知道哪些连接需要调整。",
+    "example": "训练图像分类器时，当模型把猫错认成狗，反向传播会计算误差并调整网络权重，下次更可能正确识别。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-21T11:59:20Z",
+  "updated_at": "2026-03-21T11:59:20Z"
+}

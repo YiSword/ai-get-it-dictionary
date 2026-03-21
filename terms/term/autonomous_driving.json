@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Autonomous Driving",
+  "term": "autonomous_driving",
   "norm_term": "autonomous_driving",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Autonomous Driving 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Autonomous Driving，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "autonomous_driving（自动驾驶）是指车辆在无需人类持续操控的情况下，通过传感器、人工智能算法和控制系统自主完成感知、决策与执行全过程的技术。它按国际标准分为L0–L5六个等级，从辅助驾驶到完全无人驾驶。普通用户需要了解它，因为这项技术正逐步改变出行安全、交通效率和城市规划，也关系到个人购车选择、保险责任界定及道路法规适应。",
+    "metaphor": "就像一位经验丰富的老司机坐在驾驶座上，但全程不碰方向盘、不踩油门或刹车，只靠眼睛（传感器）、大脑（AI）和手脚（执行系统）独立完成所有驾驶动作。",
+    "example": "一辆配备L4级自动驾驶系统的无人出租车，在深圳特定城区内自动接单、规划路线、避让行人、等红灯并平稳停靠，全程无需安全员干预。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Autonomous Driving - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Autonomous_Driving",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:51:21Z"
 }

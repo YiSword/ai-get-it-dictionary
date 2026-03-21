@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Concept Activation Vector",
+  "term": "concept_activation_vector",
   "norm_term": "concept_activation_vector",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Concept Activation Vector 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Concept Activation Vector，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "concept_activation_vector（概念激活向量）是可解释人工智能中的一种技术性表示，用于量化神经网络在处理某个输入时对特定人类可理解概念（如‘条纹’、‘毛发’或‘微笑’）的响应强度。它通常通过分析中间层神经元对一组标注了该概念的样本的平均激活模式而得到。普通用户需要了解它，因为它让黑箱模型的决策过程变得部分透明——例如，当AI将一张图片识别为‘斑马’，我们能知道这一判断在多大程度上依赖于‘条纹’这一视觉概念，从而评估模型是否真正理解了语义，而非依赖数据偏差。",
+    "metaphor": "就像给医生提供一份大脑fMRI扫描图，标出‘看到人脸时哪些脑区最活跃’，概念激活向量揭示了AI‘思考’某个概念时，其内部哪些神经元组合被最强烈地唤醒。",
+    "example": "在医疗影像诊断模型中，研究者提取‘肿瘤边缘不规则’这一概念的激活向量，随后用它来检验模型是否确实依据该病理特征做出恶性判断，而非偶然关联背景噪声。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Concept Activation Vector - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Concept_Activation_Vector",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:47:31Z"
 }

@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Human Preference Optimization",
+  "term": "human_preference_optimization",
   "norm_term": "human_preference_optimization",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
   "category": "其他",
-  "difficulty": "高级",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Human Preference Optimization 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Human Preference Optimization，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Human preference optimization（HPO）是一种让AI模型学习并遵循人类主观偏好的技术，通常通过收集人类对不同输出的比较、打分或排序数据，再用这些反馈来微调模型。它不依赖于预设的硬性规则或自动评估指标，而是聚焦于‘人觉得好才是真的好’。普通用户需要了解它，因为这是当前大模型更懂你、更贴合你口味（比如写作风格、幽默感、信息详略程度）的关键机制，直接影响你与AI交互的真实体验和信任感。",
+    "metaphor": "就像一位厨师反复根据食客的口味反馈调整调味，而不是只按菜谱标准做菜。",
+    "example": "在聊天机器人中，当用户多次点击‘这个回答更 helpful’，系统会记录这些偏好信号，并用于优化后续回答的生成策略。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Human Preference Optimization - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Human_Preference_Optimization",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:18:15Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "moneystrands",
+  "norm_term": "moneystrands",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "moneystrands 是一个非标准但日益被金融科技领域使用的复合术语，指个人或家庭财务中相互关联、动态流动的多个资金来源与用途路径，如工资入账、房租支出、投资回款、信贷还款等。它强调资金并非孤立存在，而是以‘ strands’（纤丝/脉络）形式交织成网，受时间、优先级、规则（如自动扣款）和外部事件（如失业、加息）影响。普通用户需要理解 moneystrands，才能识别隐性财务压力点、避免现金流断裂，并做出更精准的预算、债务重组或应急规划。",
+    "metaphor": "就像人体内的血管网络——每条血管输送不同功能的血液（氧气、养分、激素），moneystrands 是资金在生活系统中承担不同使命的‘财务血管’，一处堵塞或变窄，可能引发远端功能紊乱。",
+    "example": "一位自由职业者同时有平台稿费入账（每周不固定）、房贷自动扣款（每月5日）、孩子兴趣班预缴（季度初）、以及信用卡循环利息（每日计息），这些构成其核心 moneystrands；当某月稿费延迟到账，系统性地触发后续几条 strand 的违约风险，而非仅影响当月余额。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:06:44Z",
+  "updated_at": "2026-03-21T08:48:13Z"
+}

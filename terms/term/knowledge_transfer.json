@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Knowledge Transfer",
+  "term": "knowledge_transfer",
   "norm_term": "knowledge_transfer",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Knowledge Transfer 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Knowledge Transfer，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Knowledge transfer 是指将知识、技能、经验或专有信息从一个个体、团队、组织或系统，有意识地传递给另一个接收方的过程。它不仅包括显性知识（如文档、流程、代码），也涵盖隐性知识（如直觉判断、问题解决技巧、行业洞察）。普通用户需要了解这一概念，因为无论是在职场中接手新项目、团队协作中避免重复踩坑，还是在教育、开源社区或跨代际交流中提升效率与传承质量，有效的知识转移都直接影响工作成效、创新速度和组织韧性。",
+    "metaphor": "就像一位老厨师手把手教徒弟熬制一锅高汤——不仅给出配方（显性知识），更演示火候变化时的听声辨气、尝味调衡（隐性知识）。",
+    "example": "一家科技公司资深架构师离职前，通过结对编程、录制决策复盘视频、编写‘为什么这样设计’的注释文档，系统性地将其微服务治理经验传递给接任工程师。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Knowledge Transfer - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Knowledge_Transfer",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:54:41Z"
 }

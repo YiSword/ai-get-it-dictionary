@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "dolly",
+  "norm_term": "dolly",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "dolly 是影视拍摄中的一种机械装置，通常由带轮子的平台和可调节支架组成，用于承载摄像机并实现平稳、可控的水平移动。它能让镜头在保持高度和角度不变的前提下，缓慢推进、拉远或横移，从而增强画面叙事感与沉浸感。普通用户需要了解 dolly，不仅因为它是专业影像语言的基础元素之一，也因为在短视频创作、Vlog 拍摄甚至手机稳定器 App 的‘模拟推轨’功能中，其原理正被广泛简化应用。",
+    "metaphor": "就像超市里推着购物车沿直线匀速前进时，你的眼睛始终平视货架——dolly 让摄像机成为那个稳稳滑行的‘眼睛’。",
+    "example": "导演想表现主角孤独走向远方的心理变化，便将摄像机固定在 dolly 车上，缓慢向后滑行，使人物在画面中逐渐变小而环境延展，强化疏离感。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:48:07Z",
+  "updated_at": "2026-03-21T05:46:47Z"
+}

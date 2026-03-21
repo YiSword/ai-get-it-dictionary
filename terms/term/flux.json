@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "flux",
+  "norm_term": "flux",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Flux 是一种用于构建用户界面的架构模式，核心思想是单向数据流：用户操作触发 Action，Action 被 Dispatcher 分发给 Store，Store 更新状态并通知 View 重新渲染。它并非框架而是设计范式，常与 React 配合使用。普通用户无需直接编写 Flux 代码，但理解它有助于明白现代 Web 应用为何响应迅速、状态可预测——比如表单提交后界面不混乱、多人协作编辑时数据不冲突，背后正是这类清晰的数据流向在保障稳定性。",
+    "metaphor": "就像餐厅里顾客点菜（Action）、服务员统一收单并分发给后厨（Dispatcher）、每道菜由专属厨师负责准备且不互相干扰（Store），最后出餐（View 更新）只取决于当前菜单状态，不会因谁先喊一声就乱序上菜。",
+    "example": "在一个实时协作待办清单应用中，当用户 A 勾选某项任务，Action 发出后，Store 更新该项的完成状态并广播变更，所有已连接的用户界面随即同步刷新，且不会误删或重复添加其他人的条目。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:34:50Z",
+  "updated_at": "2026-03-21T06:34:57Z"
+}

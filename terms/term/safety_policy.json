@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Safety Policy",
+  "term": "safety_policy",
   "norm_term": "safety_policy",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "安全与对齐",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Safety Policy 主要和 AI 的风险、边界或治理有关，帮助人们理解模型为什么会出错、失控，或带来不符合预期的结果。它不仅是技术问题，也关系到产品设计和使用习惯。对初学者来说，理解这类概念能减少对 AI 的误判。",
-    "metaphor": "它像给 AI 系统装上护栏和告警规则，帮助人们更早发现风险，而不是等出事后再补救。",
-    "example": "比如团队在上线 AI 功能前评估误答、泄露或越权风险时，就需要理解 Safety Policy，因为它会直接影响系统是否可靠可控。"
+    "plain": "safety_policy（安全策略）是一组明确规定的规则、限制和行为准则，用于指导系统（如AI模型、自动驾驶软件或工业控制系统）在运行中如何识别、规避或响应潜在风险，确保其输出或行动不危害人类、环境或社会。普通用户需要了解它，因为这直接关系到他们使用技术时的隐私保护、内容可信度、人身安全以及是否被算法误伤——例如避免接收有害建议、虚假信息或被不当监控。",
+    "metaphor": "就像汽车的ABS防抱死系统，它不是阻止你踩刹车，而是在紧急制动时自动调节制动力，防止失控打滑。",
+    "example": "当用户向AI助手询问‘如何制作危险物品’时，安全策略会触发内容过滤机制，拒绝回答并提示该请求违反安全准则。"
   },
   "scenario_tags": [
-    "安全",
-    "风险",
-    "治理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Safety Policy - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Safety_Policy",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:36:13Z"
 }

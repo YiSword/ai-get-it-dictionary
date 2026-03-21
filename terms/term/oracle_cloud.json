@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "oracle_cloud",
+  "norm_term": "oracle_cloud",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Oracle Cloud 是甲骨文公司提供的企业级云计算服务平台，提供计算、存储、数据库、人工智能、应用开发和安全等全套云服务。它面向中大型企业及需要高可靠性、强数据一致性和合规保障的行业（如金融、医疗、政府），支持公有云、私有云和混合云部署。普通用户需要了解它，是因为其深度集成的数据库技术（如Oracle Autonomous Database）和对传统企业应用（如E-Business Suite、PeopleSoft）的原生支持，使其在关键业务上具备独特优势，影响企业IT选型与职业技术栈选择。",
+    "metaphor": "就像一家拥有百年精密机床制造经验的工业巨头，不仅自建智能工厂（云基础设施），还为航空发动机、核电系统等高可靠场景定制专用数控系统（数据库与中间件），而非通用家电级解决方案。",
+    "example": "某全球银行将核心账务系统迁移至Oracle Cloud，利用其自治数据库自动调优与实时加密能力，在满足GDPR和SOX审计要求的同时，将月结时间从8小时缩短至47分钟。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:39:32Z",
+  "updated_at": "2026-03-21T09:01:52Z"
+}

@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Character.AI",
+  "term": "character_ai",
   "norm_term": "character_ai",
   "lang": "en",
   "aliases": [],
-  "entity_type": "product",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Character.AI 是用户在真实使用中高频会接触到的 AI 产品或服务。它通常把模型能力包装成聊天、搜索、写作、编码或生成内容等具体功能，因此比底层技术词更容易直接感知。理解它的定位，有助于分辨不同 AI 产品各自擅长什么。",
-    "metaphor": "它就像一个已经包装好的 AI 工具箱，用户不需要知道所有底层原理，也能直接拿来完成具体任务。",
-    "example": "比如用户想直接完成写作、搜索、总结或生成内容任务时，往往会先接触 Character.AI 这类产品，因为它把底层能力封装成了更容易上手的界面。"
+    "plain": "character_ai 是指利用人工智能技术构建的、具有特定人格设定（如姓名、外貌、性格、背景故事）的交互式虚拟角色。它能理解自然语言输入，并以符合其人设的方式实时生成回应，常用于聊天、叙事互动或情感陪伴等场景。普通用户需要了解它，是因为这类工具正快速融入社交娱乐、教育辅助甚至心理健康支持领域，但同时也涉及隐私泄露、内容安全与情感依赖等现实风险，理性认知有助于安全、有边界地使用。",
+    "metaphor": "就像一位随时待命、永不疲倦的即兴剧场演员，你给出情境，它立刻代入角色，用专属语气和逻辑与你对话。",
+    "example": "用户在 Character.AI 平台上选择一个设定为‘科幻小说作家’的虚拟角色，向其提问‘如何构思时间旅行故事的伦理冲突？’，该角色会以作家身份结合真实写作经验与虚构人设，给出兼具专业性和个性化的建议。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Character.AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Character.AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T04:24:58Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "MLIR",
+  "term": "mlir",
   "norm_term": "mlir",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MLIR 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 MLIR，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "MLIR（Multi-Level Intermediate Representation）是一种可扩展的编译器基础设施，用于构建和优化不同领域专用语言（DSL）与硬件后端之间的编译流程。它不像传统编译器那样只有一套固定中间表示（如LLVM IR），而是支持多层级、可定制的中间表示，允许开发者在同一框架内表达从高级算法到低级硬件指令的语义。普通用户无需直接编写MLIR，但它的存在显著提升了AI模型部署、领域专用加速器编程等场景的效率与兼容性——例如你用TensorFlow或PyTorch训练的模型能更快、更可靠地运行在不同芯片上，背后往往依赖MLIR驱动的优化流水线。",
+    "metaphor": "MLIR就像一座模块化、多层互通的立交桥系统，让来自不同城市（高级语言）、开不同车型（张量计算、循环嵌套、硬件指令）的车辆，都能在统一规则下高效换道、分流、提速，最终抵达各自的目的地（目标硬件）。",
+    "example": "Google的TensorFlow Lite使用MLIR将Python中定义的机器学习模型转换为可在手机端ARM CPU或NPU上高效执行的轻量级二进制代码，并在过程中自动融合算子、量化权重、适配内存布局。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "MLIR - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/MLIR",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:44:28Z"
 }

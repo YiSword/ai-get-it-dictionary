@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Latent Space",
+  "term": "latent_space",
   "norm_term": "latent_space",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Latent Space 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Latent Space，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "latent_space（潜在空间）是机器学习中表示数据内在结构的低维数学空间，它不直接对应原始输入（如像素或文字），而是由模型自动学习到的、能概括数据关键特征的抽象坐标系。例如，一张人脸图像在潜在空间中可能被编码为一个几十维的向量，其中每个维度隐含地代表‘微笑程度’‘年龄感’或‘光照方向’等语义属性。普通用户需要了解它，因为它是AI生成内容（如图像、音乐）的‘创意控制台’——调整潜在空间中的点，就能系统性地改变生成结果，而无需手动编辑每个像素或音符。",
+    "metaphor": "就像一本小说的‘主题地图’：字句是表面细节，而潜在空间是隐藏在背后、用几个核心维度（如‘希望vs绝望’‘亲密vs疏离’）标定所有段落情感位置的抽象坐标系。",
+    "example": "在Stable Diffusion中，用户输入提示词后，模型先将其映射到潜在空间中的一个点；通过插值两个提示对应的潜在点，就能生成两幅图之间平滑过渡的中间图像。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Latent Space - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Latent_Space",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:03:23Z"
 }

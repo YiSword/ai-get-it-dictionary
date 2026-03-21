@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Veo",
+  "term": "veo",
   "norm_term": "veo",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Veo 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Veo，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "VEO（Video Encoder Optimizer）是苹果公司在其M系列和A系列芯片中集成的专用硬件模块，用于高效执行视频编码任务（如H.264、HEVC、AV1）。它独立于CPU和GPU运行，大幅降低功耗与发热，同时提升编码速度和能效。普通用户需要了解VEO，因为它直接影响日常体验——比如FaceTime高清通话更流畅、iMovie导出视频更快、iPhone录制4K视频时续航更久，且不依赖软件更新或用户操作，属于‘隐形但关键’的底层性能保障。",
+    "metaphor": "VEO就像一位精通速记的专职文书，专门负责把现场讲话（原始视频帧）快速、准确、省力地整理成标准文档（压缩视频流），而无需占用主会议室（CPU/GPU）的资源。",
+    "example": "当你在iPhone上用ProRes格式录制一段10分钟的4K视频时，VEO实时处理编码任务，使设备保持低温并延长录制时间；若关闭VEO，同等操作将导致明显发热、降频甚至中断录制。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Veo - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Veo",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:16:35Z"
 }

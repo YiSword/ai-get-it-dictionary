@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Inflection AI",
+  "term": "inflection_ai",
   "norm_term": "inflection_ai",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Inflection AI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Inflection AI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "inflection_ai 是一家专注于开发具有情感智能和自然对话能力的AI模型的公司，其核心产品Pi助手强调共情、主动倾听与温和引导，而非单纯信息检索或任务执行。它代表了AI从‘工具型’向‘关系型’演进的新方向——用户不再只追求答案的准确性，更在意交互过程中的被理解感与心理安全感。普通用户需要了解它，是因为它提示我们：未来日常使用的AI可能更像一位有温度的伙伴，而非冷冰冰的搜索引擎。",
+    "metaphor": "就像一位训练有素的咖啡馆常驻倾听者——不急于给建议，先确认你的情绪，适时点头，再轻声问‘接下来想聊点什么？’",
+    "example": "一位刚经历工作挫折的用户对Pi说‘今天好累’，Pi不会立刻列出减压方法，而是回应‘听起来你撑得很辛苦，愿意多说说发生了什么吗？’并根据语气调整后续节奏。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Inflection AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Inflection_AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:31:22Z"
 }

@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Action Model",
+  "term": "action_model",
   "norm_term": "action_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Action Model 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Action Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "action_model 是指在人工智能系统（尤其是强化学习、机器人控制或智能体决策框架）中，用于描述‘执行某个动作后环境将如何变化’的数学或计算模型。它编码了动作与状态转移之间的因果关系，例如‘向前移动一步’会导致位置坐标增加。普通用户需要了解它，因为它是智能体做出可靠、可预测决策的基础——没有准确的动作模型，AI可能频繁失误，比如自动驾驶误判刹车距离或机器人撞上障碍物。",
+    "metaphor": "就像一位老司机脑中自带的‘车辆动力学手册’：他知道踩多深油门、打多少方向，车大概会怎么走，而不需要每次都靠试错。",
+    "example": "在仓储物流机器人路径规划中，action_model 明确建模了‘向左转30度并前进0.5米’这一动作对机器人位姿（x, y, θ）的精确影响，使系统能提前验证路径是否可行，避免因轮子打滑或惯性导致的定位偏差。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Action Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Action_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T03:17:51Z"
 }

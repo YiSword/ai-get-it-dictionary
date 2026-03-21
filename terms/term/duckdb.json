@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "duckdb",
+  "norm_term": "duckdb",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "DuckDB 是一个嵌入式、列式存储的开源SQL数据库，专为分析型查询（OLAP）优化，无需独立服务器进程，可直接以内存库形式集成到Python、R等应用中。它执行速度快、资源占用低，特别适合处理GB级本地数据集的即席分析。普通用户需要知道它，是因为它让数据分析变得像读取CSV一样简单，却比Pandas更高效、比传统数据库更轻量，是数据科学家和分析师本地快速探索数据的利器。",
+    "metaphor": "DuckDB 就像一个随身携带的高性能计算器，不需要插电开机，打开就能对整本账簿做实时汇总和筛选。",
+    "example": "一位数据分析师用Python加载一个10GB的销售CSV文件，仅用几行SQL语句在DuckDB中完成按地区、月份聚合销售额并计算同比增长率，整个过程耗时不到3秒，且不依赖任何数据库服务。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:09:58Z",
+  "updated_at": "2026-03-21T05:56:56Z"
+}

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Enterprise Search",
+  "term": "enterprise_search",
   "norm_term": "enterprise_search",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Enterprise Search 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Enterprise Search，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Enterprise search 是一种专为企业内部信息环境设计的搜索技术，它能跨多个系统（如邮件、文档库、CRM、数据库、协作平台等）统一检索结构化与非结构化数据，并通过权限控制、语义理解、结果排序和去重等能力，返回精准、安全、上下文相关的答案。普通用户需要知道它，是因为日常工作中常需在分散的系统中查找资料，而传统搜索工具（如文件浏览器或通用搜索引擎）无法穿透权限壁垒或理解业务语义，导致效率低下、信息遗漏甚至误用敏感内容。",
+    "metaphor": "就像一位熟悉公司所有档案室、保险柜和员工分工的资深图书管理员，不仅能快速找到散落在各处的文件，还能只把符合你身份和需求的那几页递给你。",
+    "example": "某跨国银行的合规专员在调查一笔可疑交易时，通过 enterprise search 一键检索客户尽调报告、邮件往来、交易日志和监管政策文档，系统自动过滤掉无权访问的境外分支数据，并将相关条款与历史案例高亮关联呈现。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Enterprise Search - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Enterprise_Search",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:09:12Z"
 }

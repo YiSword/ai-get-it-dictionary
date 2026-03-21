@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "LoRA for Diffusion",
+  "term": "lora_for_diffusion",
   "norm_term": "lora_for_diffusion",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
-  "category": "训练方法",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LoRA for Diffusion 是模型训练或适配过程中常见的方法，用来让模型学到新能力、降低成本，或提升效果。你不一定需要亲自训练模型，但理解它有助于看懂为什么同一个基础模型会出现很多不同版本。它通常和微调、优化或部署成本有关。",
-    "metaphor": "它类似给模型安排一种更高效的学习方式，让模型用更少成本学会或适应新的任务。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 LoRA for Diffusion，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "LoRA for Diffusion 是一种轻量级模型微调技术，专为扩散模型（如 Stable Diffusion）设计。它通过在原始模型的注意力层或变换层中插入低秩矩阵来实现参数高效训练，仅更新少量新增参数（通常<1%），大幅降低显存与计算需求。普通用户需要了解它，因为这意味着无需高端硬件即可个性化定制AI绘画风格——比如快速训练专属画风、角色或特效，且模型体积小、易分享、可叠加，极大降低了创作门槛和部署成本。",
+    "metaphor": "就像给一本厚重的百科全书加了一本薄薄的‘速查便签册’，不改动原书内容，却能快速引导它按你的偏好回答问题。",
+    "example": "一位插画师用仅4GB显存的笔记本电脑，基于Stable Diffusion XL训练出仅15MB大小的LoRA模型，专门生成其标志性的水彩质感人物肖像，并可一键注入到不同基础模型中使用。"
   },
   "scenario_tags": [
-    "训练",
-    "微调",
-    "模型优化"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "LoRA for Diffusion - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/LoRA_for_Diffusion",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:19:50Z"
 }

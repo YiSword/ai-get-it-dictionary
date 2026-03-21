@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "DST",
+  "term": "dst",
   "norm_term": "dst",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DST 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 DST，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "dst 是 'Daylight Saving Time'（夏令时）的缩写，指在夏季将时钟拨快一小时以更充分利用日光、节约能源的时间制度。全球许多国家和地区（如美国、欧盟大部分国家）每年定期启动和结束 dst。普通用户需要知道它，因为 dst 切换会导致手机、电脑等设备自动调整时间，可能影响会议安排、航班时刻、跨时区协作或定时任务执行，若设备未正确同步或手动设置错误，易引发时间混淆甚至误事。",
+    "metaphor": "就像给家里的闹钟每年两次‘手动拧紧发条’——春天提前一小时唤醒世界，秋天再松回原位，让白天的光被我们多用一小时。",
+    "example": "2023年11月5日凌晨2点，美国东部时间从EDT（夏令时）切换回EST（标准时间），时钟向后拨一小时至1点，导致当日凌晨1:30发生的事件在系统日志中可能重复出现一次。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "DST - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/DST",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:56:25Z"
 }

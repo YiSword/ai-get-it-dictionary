@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "LiDAR Perception",
+  "term": "lidar_perception",
   "norm_term": "lidar_perception",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LiDAR Perception 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 LiDAR Perception，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "lidar_perception 是指利用激光雷达（LiDAR）传感器采集的三维点云数据，通过算法识别、分类和定位周围环境中的物体（如车辆、行人、交通标志等）的过程。它是自动驾驶、机器人导航和高精地图构建的核心能力之一。普通用户需要了解它，因为这项技术直接关系到智能汽车能否安全识别障碍物、避免碰撞，也影响着未来城市交通的可靠性与智能化水平。",
+    "metaphor": "就像给机器装上了一副能‘看见’深度和轮廓的夜视3D眼镜，不依赖光线，却能精确感知每一寸空间的形状和距离。",
+    "example": "一辆自动驾驶出租车在夜间雨天行驶时，依靠 lidar_perception 实时检测前方突然闯入的自行车，并准确判断其位置、速度与运动方向，从而及时减速避让。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "LiDAR Perception - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/LiDAR_Perception",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:08:20Z"
 }

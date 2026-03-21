@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "On-Device Model",
+  "term": "on_device_model",
   "norm_term": "on_device_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "On-Device Model 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 On-Device Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "on_device_model 指直接在用户本地设备（如手机、平板或笔记本电脑）上运行的人工智能模型，无需将数据上传至云端服务器。它保障了隐私安全、降低网络依赖、提升响应速度，并支持离线使用。普通用户需要了解这一概念，因为它关系到个人数据是否被上传、应用是否能在无网时工作，以及语音助手、照片识别等功能的实时性和私密性。",
+    "metaphor": "就像把一位私人医生请进你家书房坐诊，所有问诊和诊断都在你家里完成，不必去远在千里之外的医院上传病历。",
+    "example": "iPhone 的Face ID人脸识别功能就依赖于on_device_model——面部数据全程在设备芯片中处理，从不离开手机，确保生物信息不被泄露。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "On-Device Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/On-Device_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:58:02Z"
 }

@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Closed Weight Model",
+  "term": "closed_weight_model",
   "norm_term": "closed_weight_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Closed Weight Model 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Closed Weight Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "closed_weight_model 指模型权重（即训练后得到的参数）不向公众公开、不可下载或商用的机器学习模型。这类模型通常由公司或机构私有持有，仅通过API或受限界面提供服务。普通用户需要知道它，是因为它直接影响使用自由度：你无法本地运行、修改、审计或离线使用该模型，且可能面临调用限制、费用变动或服务终止风险。",
+    "metaphor": "就像租用一台高级咖啡机——你能按下按钮喝到现磨咖啡，但无法打开机器查看内部结构、更换零件，也不能把它搬回家自己改装。",
+    "example": "ChatGPT 的某些版本（如 GPT-4 Turbo）即为 closed_weight_model：用户只能通过 OpenAI 官方接口或网页交互，无法获取其权重文件在本地部署或二次训练。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Closed Weight Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Closed_Weight_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:33:42Z"
 }

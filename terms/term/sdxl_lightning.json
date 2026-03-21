@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "sdxl_lightning",
+  "norm_term": "sdxl_lightning",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "SDXL Lightning 是一种专为加速推理而优化的 Stable Diffusion XL（SDXL）轻量级变体，通过大幅减少模型层数、参数量和采样步数（如仅需1–4步），在保持较高图像质量的同时实现秒级生成。它并非简单压缩，而是采用知识蒸馏与结构重设计技术，在消费级GPU（如RTX 3090/4090）上也能流畅运行。普通用户需要了解它，是因为它显著降低了AI绘图的硬件门槛和等待成本，让实时创意迭代、原型草图或批量内容生成变得切实可行。",
+    "metaphor": "就像把一本厚重的百科全书浓缩成一张高清速查卡片——信息核心仍在，但翻阅速度从几分钟缩短到一眨眼。",
+    "example": "一位独立游戏开发者用 SDXL Lightning 在本地笔记本电脑上，3秒内批量生成20个风格统一的角色草图，用于快速筛选美术方向。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:34:13Z",
+  "updated_at": "2026-03-21T09:39:09Z"
+}

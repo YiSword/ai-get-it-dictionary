@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Behavior Cloning",
+  "term": "behavior_cloning",
   "norm_term": "behavior_cloning",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Behavior Cloning 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Behavior Cloning，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "行为克隆（Behavior Cloning）是一种监督学习方法，用于让机器学习模型通过模仿人类专家的示范行为来学会执行任务。它将大量‘状态-动作’对（如自动驾驶中摄像头图像与对应方向盘转角）作为训练数据，训练模型预测给定状态下的最优动作。普通用户需要了解它，因为这是当前许多智能系统（如辅助驾驶、机器人操作）背后的核心技术之一，其性能高度依赖示范质量，且存在‘分布偏移’风险——模型可能在未见过的情境中犯错。",
+    "metaphor": "就像新手司机通过反复观看并模仿老司机的每一个转向、刹车和变道动作来学开车，而不是靠阅读交通规则手册自学。",
+    "example": "在自动驾驶领域，工程师收集资深司机在各种道路条件下（雨天、夜间、拥堵）的驾驶视频和对应操控数据，用这些数据训练神经网络，使其能在相似场景中自主控制车辆。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Behavior Cloning - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Behavior_Cloning",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:01:13Z"
 }

@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Memory-Augmented Agent",
+  "term": "memory_augmented_agent",
   "norm_term": "memory_augmented_agent",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "产品概念",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Memory-Augmented Agent 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Memory-Augmented Agent，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "memory_augmented_agent（记忆增强型智能体）是一种具备外部记忆存储与检索能力的AI代理，它不仅能处理当前输入，还能主动读取、写入和关联长期记忆（如向量数据库或知识图谱），从而支持更连贯、上下文敏感和持续演化的决策。普通用户需要了解它，因为这类智能体正逐渐成为个人助理、客服系统和教育工具的核心——它们能记住你的偏好、过往对话和习惯，提供真正个性化的服务，而非每次对话都‘从零开始’。",
+    "metaphor": "就像一位随身携带可随时翻阅的活页笔记本的资深顾问，每次见面都能迅速回顾你们之前的讨论、你的喜好和未完成的事项，而不是靠临时回忆或反复询问。",
+    "example": "一个健康助手型记忆增强智能体，在你连续两周记录睡眠数据后，能主动提醒：‘你上周三熬夜后第二天心率变异性下降12%，建议今晚提前30分钟入睡’——这依赖于它对历史数据的结构化存储与跨时间点的模式检索。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Memory-Augmented Agent - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Memory-Augmented_Agent",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:33:10Z"
 }

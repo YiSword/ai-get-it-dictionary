@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Activation Patching",
+  "term": "activation_patching",
   "norm_term": "activation_patching",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Activation Patching 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Activation Patching，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "activation_patching 是一种在神经网络分析中用于因果归因的技术，通过在前向传播过程中临时替换某一层或某个神经元的激活值（例如用来自其他样本或干预后的值），观察模型输出的变化，从而推断该激活对最终决策的因果贡献。它不依赖梯度或权重，而是直接操纵中间表征，因此能更精准地定位‘为什么模型做出某个判断’。普通用户（尤其是AI开发者、安全研究员或可解释性工程师）需要了解它，因为它被广泛用于调试幻觉、识别偏见源、验证概念瓶颈，或构建可信AI系统。",
+    "metaphor": "就像外科医生在手术中暂时夹住某根血管观察病人反应，以确定该血管是否关键；activation_patching 通过‘夹住’（替换）某个神经激活来检验它对模型行为的实际影响。",
+    "example": "在语言模型生成种族偏见回答时，研究者用 activation_patching 替换某层中与‘职业’相关的神经元激活为中性样本的对应激活，发现输出偏见显著减弱，从而定位到该层该神经元是偏见传播的关键节点。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Activation Patching - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Activation_Patching",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T03:18:40Z"
 }

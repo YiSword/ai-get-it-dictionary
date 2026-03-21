@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "dpm_2m_sde_karras",
+  "norm_term": "dpm_2m_sde_karras",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "dpm_2m_sde_karras 是一种用于扩散模型（如Stable Diffusion）的采样算法，全称基于Karras噪声调度的二阶随机微分方程求解器（DPM-Solver-2M），专为加速图像生成同时保持高质量而设计。它通过自适应步长与更优的噪声调度，在较少迭代步数（如10–20步）下即可生成细节丰富、结构稳定的图像。普通用户需要了解它，是因为在文生图工具中选择该采样器可显著缩短等待时间，且相比传统方法（如Euler a）更少出现模糊、伪影或构图崩坏问题。",
+    "metaphor": "就像一位经验丰富的书法家用两笔精准勾勒出飞白与筋骨，而非反复涂改数十次来逼近理想字形。",
+    "example": "当在ComfyUI中将采样器设为 dpm_2m_sde_karras 并指定15步生成一幅写实人像时，模型能在3秒内输出清晰五官与自然光影，而同等条件下使用DDIM可能需30步且边缘略显生硬。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:58:41Z",
+  "updated_at": "2026-03-21T05:51:00Z"
+}

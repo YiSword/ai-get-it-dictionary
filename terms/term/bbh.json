@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "BBH",
+  "term": "bbh",
   "norm_term": "bbh",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "BBH 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 BBH，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "BBH（Big-Bench Hard）是一个用于评估大语言模型高级推理能力的基准测试套件，由Google等机构提出，聚焦于那些人类容易解答但当前模型普遍表现较差的复杂任务。它包含23个经过人工筛选、需多步推理或领域知识的任务，如逻辑谜题、数学证明和符号操作等。普通用户需要了解BBH，因为它揭示了AI在‘真正理解’而非简单模式匹配上的真实局限，有助于理性判断模型能力边界，避免对AI产生不切实际的依赖或误解。",
+    "metaphor": "BBH就像一场专为天才高中生设计的奥赛加试——题目不靠刷题量取胜，而考验直觉、拆解与跨概念联想的能力。",
+    "example": "研究人员用BBH测试某新发布的开源大模型，在‘时间推理’任务中发现其准确率仅38%，远低于人类专家的92%，从而定位出该模型在事件时序建模上的根本缺陷。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "BBH - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/BBH",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:59:06Z"
 }

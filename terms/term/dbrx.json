@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "DBRX",
+  "term": "dbrx",
   "norm_term": "dbrx",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DBRX 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 DBRX，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "DBRX 是由 Databricks 开发的开源混合专家（MoE）架构大语言模型，具备高推理效率与强多任务能力。它采用动态稀疏激活机制，在每次推理中仅调用部分专家子网络，从而在保持高性能的同时降低计算开销。普通用户需要了解 DBRX，因为它代表了当前开源大模型在性价比、可部署性和实际应用落地（如企业私有化部署、低成本API服务）方面的重要突破，直接影响开发者选择模型时的性能、成本与维护复杂度权衡。",
+    "metaphor": "就像一家智能餐厅，顾客点单时只唤醒对应菜系的厨师（如川菜组或甜点组），而非让所有厨师同时开工，既保证出菜质量，又节省人力和厨房能耗。",
+    "example": "一家金融科技公司使用 DBRX 在自有服务器上部署合规问答系统，处理客户关于投资条款的实时咨询，相比同等性能的稠密模型，其GPU显存占用减少约40%，推理延迟稳定低于800ms。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "DBRX - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/DBRX",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:16:47Z"
 }

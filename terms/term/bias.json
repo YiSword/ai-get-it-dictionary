@@ -1,36 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Bias",
+  "term": "bias",
   "norm_term": "bias",
   "lang": "en",
-  "aliases": [
-    "偏见",
-    "模型偏差",
-    "算法偏见"
-  ],
+  "aliases": [],
   "entity_type": "concept",
-  "category": "安全与对齐",
-  "difficulty": "入门",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Bias 主要和 AI 的风险、边界或治理有关，帮助人们理解模型为什么会出错、失控，或带来不符合预期的结果。它不仅是技术问题，也关系到产品设计和使用习惯。对初学者来说，理解这类概念能减少对 AI 的误判。",
-    "metaphor": "它像给 AI 系统装上护栏和告警规则，帮助人们更早发现风险，而不是等出事后再补救。",
-    "example": "比如团队在上线 AI 功能前评估误答、泄露或越权风险时，就需要理解 Bias，因为它会直接影响系统是否可靠可控。"
+    "plain": "Bias（偏差）在机器学习和统计学中指模型预测系统性偏离真实值的倾向，通常源于训练数据不具代表性、算法设计缺陷或特征选择不当。它导致模型在整体上持续高估或低估结果，而非随机误差。普通用户需要了解bias，因为带有显著bias的AI系统可能在招聘、信贷或医疗等关键场景中产生不公平甚至有害的决策，影响实际生活权益。",
+    "metaphor": "就像一把刻度永远偏左的体重秤，每次称重都稳定少报2公斤——不是偶然出错，而是内在构造导致的系统性偏差。",
+    "example": "某银行贷款审批模型使用历史数据训练，而历史数据中女性申请人获批率显著偏低；模型因此习得‘女性更可能违约’的错误关联，对合格女性申请人系统性拒贷。"
   },
   "scenario_tags": [
-    "安全",
-    "风险",
-    "治理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Bias - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Bias",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T04:05:41Z"
 }

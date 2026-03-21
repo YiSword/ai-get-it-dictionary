@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "MedQA",
+  "term": "medqa",
   "norm_term": "medqa",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MedQA 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 MedQA，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "MedQA 是一个面向医学领域的专业问答数据集，主要用于评估和训练人工智能模型在医学知识理解、推理与回答能力方面的表现。它涵盖美国医师执照考试（USMLE）等真实医学考试题目，包含多选题及标准答案。普通用户（尤其是医学生、备考医生或医疗AI使用者）需要了解 MedQA，因为它代表了当前医学AI系统能力的权威评测基准，直接影响临床辅助工具的可靠性与可信度。",
+    "metaphor": "MedQA 就像医学AI的‘高考模拟卷’——不是用来教知识的，而是专门用来检验AI是否真正理解并能正确运用医学知识。",
+    "example": "研究人员用 MedQA 测试新开发的医学大模型，发现其在心血管疾病相关题目上准确率仅62%，从而针对性地加强该领域的训练数据。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "MedQA - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/MedQA",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:30:33Z"
 }

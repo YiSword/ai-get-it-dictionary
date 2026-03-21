@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Lakera",
+  "term": "lakera",
   "norm_term": "lakera",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Lakera 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Lakera，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Lakera 是一家专注于大语言模型（LLM）安全的公司，提供检测和防护AI系统中提示注入、数据泄露、越狱攻击等风险的工具平台。它帮助开发者和企业在部署生成式AI应用时识别潜在漏洞，防止恶意输入导致模型输出有害、偏见或机密信息。普通用户需要知道 Lakera，是因为其技术间接保障了他们日常使用的AI聊天助手、智能客服或内容生成工具的安全性与可靠性——若缺乏此类防护，AI可能被操控而给出错误建议、泄露隐私甚至传播虚假信息。",
+    "metaphor": "Lakera 就像AI模型的‘防伪验钞机’和‘数字门禁系统’，在用户输入和模型输出之间实时扫描可疑指令或敏感内容，阻止坏人用伪装成正常请求的‘假币’骗过AI。",
+    "example": "某银行在客服聊天机器人中集成 Lakera Guard，成功拦截了一次攻击者通过精心构造的提示注入语句试图绕过风控规则、诱导AI泄露账户验证逻辑的尝试。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Lakera - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Lakera",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:58:49Z"
 }

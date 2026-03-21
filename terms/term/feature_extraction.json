@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Feature Extraction",
+  "term": "feature_extraction",
   "norm_term": "feature_extraction",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Feature Extraction 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Feature Extraction，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "feature_extraction（特征提取）是指从原始数据（如图像、音频、文本）中自动识别并筛选出对任务有用的关键信息或模式的过程。例如，从一张猫的图片中提取毛色、耳朵形状、眼睛位置等可量化的属性，而非直接处理全部像素。普通用户需要了解它，因为这是现代智能应用（如人脸识别、语音助手、推荐系统）背后的核心步骤——它决定了AI能否准确理解输入内容，也影响着结果的可靠性与效率。",
+    "metaphor": "就像厨师从一堆杂乱食材中挑出核心香料和主料来调制酱汁，特征提取是从海量原始数据中‘挑出关键味道’供模型‘品尝’。",
+    "example": "在手机相册中搜索‘海滩’照片时，系统会提取每张图的蓝色占比、波浪纹理、水平线位置等视觉特征，再比对匹配，而非逐像素查找‘海滩’二字。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Feature Extraction - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Feature_Extraction",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:24:48Z"
 }

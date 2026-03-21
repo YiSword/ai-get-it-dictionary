@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "LTR",
+  "term": "ltr",
   "norm_term": "ltr",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LTR 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 LTR，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "LTR 是 'Left-to-Right' 的缩写，指文本从左向右书写的排版方向。它是中文、英文、法文等大多数语言的默认阅读和显示顺序。普通用户需要了解 LTR，因为当网页、应用程序或文档中混入阿拉伯语（RTL）、希伯来语等从右向左书写的语言时，若 LTR 设置不当，会导致文字错位、标点混乱、界面元素颠倒等问题，影响可读性与操作体验。",
+    "metaphor": "就像开车时遵守靠右行驶的交通规则一样，LTR 是数字世界里文字‘行驶方向’的基本规则，确保所有字符按预期顺序排队前进。",
+    "example": "在编写 HTML 页面时，开发者通过设置属性 lang='en' 或 dir='ltr' 明确声明内容为左到右排列，使浏览器正确渲染英文段落和嵌套的数字、标点及链接。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "LTR - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/LTR",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:22:49Z"
 }

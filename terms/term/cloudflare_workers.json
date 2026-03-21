@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "cloudflare_workers",
+  "norm_term": "cloudflare_workers",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Cloudflare Workers 是一种无服务器（serverless）计算平台，允许开发者在 Cloudflare 全球边缘网络的数百个数据中心中直接运行 JavaScript、TypeScript 或 WebAssembly 代码，无需管理服务器。它让网站或应用能在用户请求到达源站前，在离用户最近的边缘节点上执行逻辑——如重写请求、验证身份、缓存策略调整或 A/B 测试。普通用户虽不直接操作，但会因此获得更快加载速度、更强隐私保护（如敏感逻辑不暴露源站）和更可靠的服务（源站宕机时仍可响应）。",
+    "metaphor": "就像在机场安检口提前完成登机牌核验和行李初筛，而不是把所有旅客都送到登机口再排队检查。",
+    "example": "一个博客网站用 Cloudflare Worker 在边缘动态插入个性化推荐广告，同时过滤恶意爬虫请求，全程不经过主服务器，既提速又减负。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:18:17Z",
+  "updated_at": "2026-03-21T04:33:57Z"
+}

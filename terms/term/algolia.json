@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "algolia",
+  "norm_term": "algolia",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Algolia 是一家提供云端搜索即服务（Search-as-a-Service）的公司，其核心产品是高性能、低延迟的托管搜索 API，专为网站和应用内实时搜索优化。它不依赖传统数据库全文检索，而是通过预建索引、语义理解、拼写容错和个性化排序等技术，实现毫秒级响应。普通用户虽不直接接触后台，但会在电商、文档平台或开发者工具中频繁体验到它带来的流畅搜索体验——比如输入几个字母就精准推荐商品或文档，这背后往往就是 Algolia 在驱动。",
+    "metaphor": "就像图书馆里一位熟记所有书籍位置、能听懂你模糊描述甚至口误、并立刻递上最相关三本书的超级馆员。",
+    "example": "Docsearch 项目为数以千计的技术文档网站（如 React、TypeScript 官网）提供免费 Algolia 搜索，用户在页面顶部输入 'useState'，不到 100 毫秒就能获得带上下文高亮的精准结果。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:15:02Z",
+  "updated_at": "2026-03-21T03:30:25Z"
+}

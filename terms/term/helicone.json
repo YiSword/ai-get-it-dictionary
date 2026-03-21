@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Helicone",
+  "term": "helicone",
   "norm_term": "helicone",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Helicone 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Helicone，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Helicone 是一个开源的可观测性与代理层工具，专为 LLM（大语言模型）应用设计，用于记录、监控、分析和优化 API 调用（如 OpenAI、Anthropic 等）。它像一个智能‘中间件’，自动捕获请求/响应、延迟、成本、token 使用量及用户反馈等关键指标。普通开发者或产品团队需要了解它，因为 LLM 应用调试难、计费不透明、性能瓶颈隐蔽——Helicone 提供实时洞察和结构化日志，帮助快速定位问题、控制成本并迭代提示词与模型策略。",
+    "metaphor": "Helicone 就像给你的 LLM 应用装上行车记录仪和仪表盘：既完整记录每一次‘对话旅程’，又实时显示油耗（token）、车速（延迟）和路线偏差（错误率）。",
+    "example": "一家客服聊天机器人团队将 Helicone 部署在前端与 OpenAI API 之间，借此发现某类用户查询平均耗时突增 300ms，进一步分析发现是特定提示词触发了冗长的系统回复，随后优化 prompt 并节省了 22% 的 token 成本。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Helicone - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Helicone",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:07:44Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Baidu Wenxin",
+  "term": "baidu_wenxin",
   "norm_term": "baidu_wenxin",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Baidu Wenxin 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Baidu Wenxin，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "baidu_wenxin 是百度公司研发的一系列大语言模型（如文心一言），具备文本生成、逻辑推理、多轮对话等能力，广泛应用于搜索增强、智能客服、内容创作等场景。普通用户需要了解它，是因为其已深度集成在百度App、文心一言App及众多合作产品中，直接影响日常获取信息、写作辅助和人机交互的体验与质量。",
+    "metaphor": "它就像一位熟读亿万本书、随时待命的全能助理，既能帮你写邮件、改文案，也能解释复杂概念或陪练外语。",
+    "example": "当用户在百度App中输入‘帮我写一封辞职信，语气礼貌简洁’，背后调用的正是文心大模型实时生成定制化文本。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Baidu Wenxin - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Baidu_Wenxin",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T03:54:46Z"
 }

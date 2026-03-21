@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Click-Through Rate",
+  "term": "click_through_rate",
   "norm_term": "click_through_rate",
   "lang": "en",
   "aliases": [],
-  "entity_type": "metric",
-  "category": "评测指标",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Click-Through Rate 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Click-Through Rate，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "点击率（Click-Through Rate，CTR）是指在数字广告或内容推广中，点击某条链接或广告的用户数占看到该内容的总用户数的百分比，计算公式为：点击次数 ÷ 展示次数 × 100%。它直观反映内容吸引力和用户兴趣匹配度。普通用户无需直接计算CTR，但了解它有助于理解为何自己会反复看到某些广告——高CTR的内容更易被平台优先推荐，从而影响信息获取的广度与偏差。",
+    "metaphor": "就像书店橱窗里一本封面亮眼的书，路过100人中有20人停下翻看，它的‘橱窗翻阅率’就是20%；CTR正是数字世界中衡量‘第一眼吸引力’的指标。",
+    "example": "某电商平台在搜索结果页展示一款蓝牙耳机的广告，当日曝光10,000次，用户点击了320次，则其CTR为3.2%，运营团队据此判断该广告文案和图片效果良好，决定扩大投放范围。"
   },
   "scenario_tags": [
-    "评测",
-    "基准",
-    "比较"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Click-Through Rate - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Click-Through_Rate",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:32:23Z"
 }

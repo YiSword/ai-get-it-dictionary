@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Transcription Agent",
+  "term": "transcription_agent",
   "norm_term": "transcription_agent",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "产品概念",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Transcription Agent 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Transcription Agent，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "transcription_agent 是一种专门执行语音到文本转换任务的智能软件代理，它能实时或批量地将音频（如会议录音、采访、语音消息）自动转写为准确、结构化的文字。它通常集成语音识别（ASR）、标点恢复、说话人分离和上下文纠错等能力。普通用户需要了解它，是因为它能显著节省手动记录时间、提升信息可检索性，并支持无障碍访问（如为听障人士提供字幕），在远程办公、教育笔记、内容创作等场景中日益成为基础生产力工具。",
+    "metaphor": "就像一位速记专家，一边听你讲话，一边飞快而准确地把每一句话敲进文档，还能自动分清谁说了什么、加上标点和段落。",
+    "example": "在一场线上产品评审会议中，transcription_agent 实时将多位参会者的发言转写成带时间戳和说话人标签的文字纪要，并自动生成关键结论摘要。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Transcription Agent - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Transcription_Agent",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:09:58Z"
 }

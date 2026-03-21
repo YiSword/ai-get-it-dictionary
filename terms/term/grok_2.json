@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Grok-2",
+  "term": "grok_2",
   "norm_term": "grok_2",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Grok-2 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Grok-2，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "grok_2 是 Apache Logstash 中用于结构化解析非结构化日志文本的内置模式别名，专为匹配常见日志格式（如 Apache、Nginx 访问日志）而预定义。它封装了多个嵌套正则表达式字段（如 clientip、request、status、bytes），使用户无需手动编写复杂正则即可提取关键日志字段。普通用户需要知道它，是因为在运维监控、安全审计或日志分析场景中，快速将原始日志转化为可搜索、可聚合的结构化数据，直接决定了故障排查效率和数据分析质量。",
+    "metaphor": "就像给一叠杂乱手写的收据配上标准打印模板——grok_2 自动识别每行日志中的‘买家’‘商品’‘金额’位置，并填入对应字段。",
+    "example": "当 Nginx 日志行 '192.168.1.10 - - [10/Jan/2024:08:30:12 +0000] \"GET /api/users HTTP/1.1\" 200 1423' 经 grok_2 解析后，自动提取出 clientip: '192.168.1.10'、request: 'GET /api/users HTTP/1.1'、status: '200'、bytes: '1423' 等字段。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Grok-2 - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Grok-2",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:01:10Z"
 }

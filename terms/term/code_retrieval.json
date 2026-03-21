@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Code Retrieval",
+  "term": "code_retrieval",
   "norm_term": "code_retrieval",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Code Retrieval 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Code Retrieval，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "code_retrieval（代码检索）是指在大规模代码库或代码语料中，根据自然语言查询（如‘如何用Python读取JSON文件’）快速定位相关代码片段的技术。它融合了程序语言理解与信息检索，常用于开发者工具、IDE插件和AI编程助手。普通用户——尤其是程序员——需要了解它，因为它能显著提升编码效率，减少重复造轮子、查文档和调试时间，是现代软件开发中‘搜索即编程’工作流的核心能力。",
+    "metaphor": "就像在图书馆里，你不用知道书的编号或分类，只需告诉管理员‘我想找一本教做番茄炒蛋的川菜书’，他就能精准递给你最匹配的那本。",
+    "example": "一名前端工程师在VS Code中输入自然语言查询‘React中防止按钮重复点击’，代码检索系统立即从GitHub开源项目中返回带防抖逻辑的Button组件实现片段，并附带调用示例。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Code Retrieval - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Code_Retrieval",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:39:36Z"
 }

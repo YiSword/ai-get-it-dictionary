@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Data Curation",
+  "term": "data_curation",
   "norm_term": "data_curation",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Data Curation 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Data Curation，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Data curation 是指对数据进行系统性筛选、组织、标注、验证、归档和维护的过程，确保其质量、可信度、可发现性和长期可用性。它贯穿数据生命周期，涉及清洗错误、补充元数据、统一格式、保障合规性等操作。普通用户需要了解这一概念，因为日常接触的搜索结果、推荐内容、AI生成答案乃至医疗诊断辅助工具，都高度依赖经过专业整理的高质量数据；若缺乏有效治理，数据噪声、偏差或过时信息可能直接误导决策。",
+    "metaphor": "就像图书馆员不仅收集书籍，还要分类编目、修复破损、剔除盗版、更新索引，并确保读者能准确找到所需内容，数据策展人对数据做同样的‘知识管家’工作。",
+    "example": "某医院将分散在各科室的患者影像与病历数据进行标准化脱敏、打上临床标签、关联检查时间线，并存入符合HIPAA规范的长期存储库，供科研团队安全调用——这整个过程就是典型的数据策展。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Data Curation - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Data_Curation",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:12:07Z"
 }

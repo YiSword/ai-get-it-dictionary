@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "GAIA",
+  "term": "gaia",
   "norm_term": "gaia",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GAIA 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 GAIA，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Gaia 是欧洲空间局（ESA）主导的天体测量卫星任务，旨在以前所未有的精度绘制银河系中约20亿颗恒星的位置、距离、运动、亮度和颜色等参数。它通过持续扫描天空，构建迄今最精确、最庞大的三维银河系动态地图。普通用户需要了解 Gaia，不仅因为它推动了人类对宇宙结构、恒星演化和暗物质分布的认知，还因为其公开数据已广泛应用于天文教育、公民科学项目、手机星图App的底层星表更新，甚至影响GPS时间校准等基础技术背后的参考框架。",
+    "metaphor": "Gaia 就像一位不知疲倦的银河系人口普查员兼导航测绘师，一边为每一颗亮星精准登记‘身份证’（坐标、速度、年龄），一边实时更新整个星系的‘动态交通地图’。",
+    "example": "天文学家利用 Gaia 数据发现了一条由数百颗恒星组成的古老潮汐尾迹，从而确认了银河系曾吞噬一个名为‘盖亚-恩克拉多斯’的矮星系；智能手机星图App（如Stellarium Mobile）也依赖 Gaia 的恒星位置数据，确保用户仰望夜空时屏幕上显示的星星与真实天象严丝合缝。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "GAIA - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/GAIA",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:41:38Z"
 }

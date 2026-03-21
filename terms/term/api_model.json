@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "API Model",
+  "term": "api_model",
   "norm_term": "api_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "API Model 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 API Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "api_model 是指在软件开发中，用于描述 API（应用程序编程接口）结构、行为和交互规则的数据模型。它通常定义请求参数、响应格式、状态码、认证方式等关键要素，是前后端协作或系统集成的重要契约。普通用户虽不直接编写它，但其设计质量直接影响 App 功能是否稳定、数据是否准确、第三方服务能否顺畅接入——例如天气 App 能否实时显示温度，就依赖背后 api_model 是否清晰定义了温度字段与单位。",
+    "metaphor": "就像餐厅的菜单，api_model 规定了顾客（调用方）能点什么菜（接口）、每道菜包含哪些配料（参数）、上菜时用什么容器呈现（响应结构）。",
+    "example": "某电商网站的 '获取商品详情' 接口，其 api_model 明确声明：GET /products/{id} 返回 JSON，包含 id、name、price（数字类型）、stock（整数）等字段，并要求携带 JWT token 认证。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "API Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/API_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:39:04Z"
 }

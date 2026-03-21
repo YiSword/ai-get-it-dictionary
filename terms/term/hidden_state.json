@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Hidden State",
+  "term": "hidden_state",
   "norm_term": "hidden_state",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Hidden State 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Hidden State，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "hidden_state 是深度学习模型（尤其是循环神经网络 RNN、LSTM、GRU 或 Transformer 解码器）在处理序列数据时，内部保存的、随时间步动态更新的向量表示。它编码了模型对当前输入及之前所有输入的记忆与理解，是模型‘思考状态’的数学体现。普通用户无需手动操作它，但理解 hidden_state 有助于明白为何大语言模型能连贯对话、为何长文本可能遗忘开头，以及调试模型时为何需关注状态初始化或截断问题。",
+    "metaphor": "就像一位速记员边听会议边在笔记本上持续更新一页‘当前要点摘要’，hidden_state 就是这页不断被擦写和重写的摘要页。",
+    "example": "在使用 LSTM 进行中文文本生成时，每输入一个字，模型都会更新其 hidden_state；当生成到第 100 个字时，该 hidden_state 已隐式融合了前 99 个字的语义与句法约束，直接影响下一个字的选择。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Hidden State - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Hidden_State",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:10:29Z"
 }

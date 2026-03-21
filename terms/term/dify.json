@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Dify",
+  "term": "dify",
   "norm_term": "dify",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Dify 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Dify，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Dify 是一个开源的低代码平台，用于快速构建和部署自定义 AI 应用（如聊天机器人、智能客服、文档分析工具等），无需从零编写模型训练代码。它将大语言模型能力、提示词工程、RAG（检索增强生成）、工作流编排等功能封装成可视化界面，让产品经理、业务人员甚至开发者都能高效落地 AI 功能。普通用户需要了解 Dify，是因为它降低了 AI 应用开发门槛，使非算法专家也能基于自身业务数据快速创建实用、可控、可迭代的智能助手。",
+    "metaphor": "Dify 就像 AI 应用的‘乐高工厂’——你不用造塑料颗粒（训练模型），也不用设计每块积木（写底层代码），只需挑选、拼接和调试现成的智能模块，就能搭建出专属的 AI 工具。",
+    "example": "一家电商公司用 Dify 接入自有商品数据库和客服对话记录，5 分钟内配置出能准确回答退货政策、推荐相似商品的客服机器人，并实时更新知识库而无需工程师介入。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Dify - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dify",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:41:34Z"
 }

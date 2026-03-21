@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "cloudways",
+  "norm_term": "cloudways",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Cloudways 是一个托管云服务器平台，它不直接拥有硬件，而是整合了 AWS、Google Cloud、DigitalOcean 等主流云基础设施，并在其上提供简化的控制面板、一键应用部署（如 WordPress、Magento）、自动备份、安全加固和性能优化工具。普通用户需要知道它，是因为它降低了使用专业云服务器的技术门槛——无需掌握 Linux 命令行或服务器运维知识，就能获得比共享主机更稳定、可扩展性更强、且比裸云服务器更省心的网站或应用托管体验。",
+    "metaphor": "Cloudways 就像一位精通多品牌汽车的资深司机兼维修顾问：你不用自己买发动机、组装底盘或考驾照，只需告诉它要去哪儿，它就帮你选好车、调好性能、全程护航并随时检修。",
+    "example": "一家小型电商公司想快速上线基于 Magento 的独立站，又没有专职运维人员；他们通过 Cloudways 在 DigitalOcean 上一键部署预配置环境，30 分钟内完成 SSL 安装、缓存优化和每日自动备份，后续仅通过图形化界面即可管理服务器和应用。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:48:22Z",
+  "updated_at": "2026-03-21T04:34:27Z"
+}

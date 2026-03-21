@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "GPT4All",
+  "term": "gpt4all",
   "norm_term": "gpt4all",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GPT4All 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 GPT4All，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "GPT4All 是一个开源、本地运行的大语言模型生态系统，允许用户在个人电脑（甚至低配设备）上免费下载并运行类ChatGPT的AI助手，无需联网或依赖云服务。它强调隐私保护、离线可用和硬件兼容性，支持Windows、macOS和Linux。普通用户需要知道它，是因为它提供了一种安全、自主、零订阅费的方式体验AI对话与内容生成，尤其适合关注数据隐私、网络受限或希望完全掌控AI使用环境的人。",
+    "metaphor": "就像在自家厨房里装了一台不插电也能工作的智能料理机——所有食材（输入）和烹饪过程（推理）都在你眼皮底下完成，不用把菜谱发给餐厅后台处理。",
+    "example": "一位教师在没有稳定网络的乡村学校，用GPT4All在旧笔记本电脑上本地运行模型，实时为学生生成数学练习题和批改反馈，全程不上传任何学生数据。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "GPT4All - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/GPT4All",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:52:59Z"
 }

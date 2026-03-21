@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Memory Compression",
+  "term": "memory_compression",
   "norm_term": "memory_compression",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Memory Compression 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Memory Compression，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "memory_compression（内存压缩）是一种操作系统技术，通过实时压缩运行中进程的闲置内存页，减少对物理内存的占用，从而在不触发低效交换（swap）的前提下提升多任务性能。普通用户需要了解它，因为这项技术能显著改善设备在内存紧张时的响应速度和流畅度——例如在同时打开数十个浏览器标签、运行多个应用时避免卡顿或崩溃，且无需用户手动干预。",
+    "metaphor": "就像把一堆蓬松的羽绒服真空压缩进小袋子，既节省行李箱空间，又随时能快速取出穿用。",
+    "example": "macOS 的 Compressed Memory 和 Linux 的 zram 都在后台自动启用 memory_compression；当 MacBook 同时运行 Xcode、Chrome 和 Slack 且内存接近满载时，系统会将部分不活跃的 Chrome 标签页内存页压缩存储，释放出可用内存供 Xcode 编译使用。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Memory Compression - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Memory_Compression",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:33:44Z"
 }

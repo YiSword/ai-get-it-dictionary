@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Gradio",
+  "term": "gradio",
   "norm_term": "gradio",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Gradio 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Gradio，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Gradio 是一个开源 Python 库，用于快速为机器学习模型或任意 Python 函数创建直观、交互式的网页界面。它无需前端开发知识，只需几行代码就能生成带输入组件（如文本框、滑块、图像上传）和输出展示区的 Web UI。普通用户需要知道它，是因为它大幅降低了 AI 模型的使用门槛——即使不会写 HTML 或部署服务器，也能一键分享可运行的演示，让非技术人员（如产品经理、设计师、老师）直接体验、测试甚至反馈模型效果。",
+    "metaphor": "Gradio 就像给你的 Python 函数装上了一个即插即用的遥控器和显示屏：你不用造电视，只接上电源（几行代码），就能立刻用按钮和屏幕和函数对话。",
+    "example": "一位研究人员训练了一个中文情感分析模型，用 Gradio 写了 5 行代码，就生成了一个网页——访客输入一句话（如‘今天天气真好’），页面实时返回‘正面’及置信度，无需安装任何软件或配置环境。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Gradio - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Gradio",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T06:56:40Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "show_1",
+  "norm_term": "show_1",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "show_1 是一种常见的编程或脚本中用于控制显示逻辑的标识符，通常表示‘显示第一项’或‘启用第一种显示模式’。它可能作为布尔标志、枚举值或配置键出现，用于触发界面元素、数据项或功能模块的初始呈现。普通用户虽不直接操作该术语，但在使用软件时，其背后的行为（如首次启动时显示引导页、默认展开第一个选项卡）往往由 show_1 类机制驱动；理解其存在有助于识别界面响应逻辑，提升对产品交互设计的感知力。",
+    "metaphor": "就像餐厅菜单上‘今日推荐’被默认高亮摆放——show_1 就是系统自动为你翻开并展示的第一页内容。",
+    "example": "在某款笔记应用中，新建笔记本后，编辑器自动聚焦并展开第一个空白笔记卡片，这一行为由内部 flag show_1 = true 触发。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:09:42Z",
+  "updated_at": "2026-03-21T09:44:52Z"
+}

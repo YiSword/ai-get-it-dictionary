@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Memory Bandwidth",
+  "term": "memory_bandwidth",
   "norm_term": "memory_bandwidth",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Memory Bandwidth 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Memory Bandwidth，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "memory_bandwidth（内存带宽）是指内存子系统在单位时间内能够传输的数据量，通常以GB/s为单位。它取决于内存频率、总线位宽和通道数等因素，直接影响CPU与内存之间数据交换的速率。普通用户需要关注它，因为过低的内存带宽会成为系统瓶颈——即使CPU性能强劲、显卡高端，运行大型游戏、视频剪辑或AI应用时仍可能出现卡顿、加载缓慢或帧率不稳，尤其在多任务并行或处理高分辨率素材时更为明显。",
+    "metaphor": "就像高速公路的车道数和车速共同决定了每小时能通过多少辆车，内存带宽决定了CPU每秒能从内存‘取’或‘存’多少数据。",
+    "example": "一台配备双通道DDR5-6000内存的笔记本，其理论内存带宽约为96 GB/s；若升级为四通道配置，带宽可翻倍，显著加速Photoshop批量处理4K图层或Stable Diffusion本地生成图像的过程。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Memory Bandwidth - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Memory_Bandwidth",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:33:28Z"
 }

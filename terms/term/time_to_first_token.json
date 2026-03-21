@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Time to First Token",
+  "term": "time_to_first_token",
   "norm_term": "time_to_first_token",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "推理与部署",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Time to First Token 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Time to First Token，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "time_to_first_token（TTFT）是指从用户提交请求（如输入一段提示词）到大语言模型生成并返回第一个输出token（通常是一个字、词或子词单元）所耗费的时间。它直接反映模型响应的初始延迟，是衡量交互实时性的关键指标。普通用户需要关注它，因为TTFT过长会导致明显的‘卡顿感’，影响聊天、编程辅助或实时翻译等场景的流畅体验，尤其在低延迟需求高的应用中比总生成时间更敏感。",
+    "metaphor": "就像点完外卖后等待第一份小菜被端上桌的时间——它不决定整顿饭多久吃完，却决定了你是否立刻感受到服务已开始。",
+    "example": "在使用AI代码补全工具时，若TTFT为800毫秒，用户敲完'fetchUser('后需等待近1秒才看到第一个建议字符，会显著打断编码节奏。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Time to First Token - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Time_to_First_Token",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:07:16Z"
 }

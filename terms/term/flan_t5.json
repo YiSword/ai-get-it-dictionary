@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "FLAN-T5",
+  "term": "flan_t5",
   "norm_term": "flan_t5",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "FLAN-T5 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 FLAN-T5，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "FLAN-T5 是谷歌推出的一种经过指令微调（instruction-tuned）的 T5 系列语言模型，专为理解并执行自然语言指令而优化。它在大量任务上展现出强大的零样本和小样本泛化能力，比如问答、摘要、翻译和逻辑推理。普通用户需要知道它，是因为这类模型正驱动着许多智能助手、文档处理工具和自动化写作服务——无需训练或编程，仅用日常语言下达指令，就能获得高质量响应。",
+    "metaphor": "就像一位精通多国语言、熟悉各类公文格式且刚完成高强度岗前培训的万能行政助理，你只需用自然话说出需求，它就能准确理解意图并交付规范结果。",
+    "example": "用户向集成 FLAN-T5 的笔记应用输入指令：‘把这段会议记录缩写成三点核心结论，每点不超过15字’，模型立即生成简洁、准确的要点摘要。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "FLAN-T5 - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/FLAN-T5",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:32:28Z"
 }

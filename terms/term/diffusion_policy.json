@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Diffusion Policy",
+  "term": "diffusion_policy",
   "norm_term": "diffusion_policy",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
-  "category": "模型架构",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Diffusion Policy 是 AI 模型体系中的重要结构或模型类型，决定了模型如何理解输入、组织信息和生成结果。虽然普通用户不会直接训练它，但很多今天常见的 AI 能力都建立在这类结构之上。理解它能帮助你建立更完整的 AI 基础认知。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Diffusion Policy，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "diffusion_policy 是一种基于扩散模型（diffusion model）的机器人决策方法，它将动作生成建模为从随机噪声逐步去噪、还原出合理动作序列的过程。与传统强化学习或行为克隆不同，它能直接从高维观测（如图像、点云）中生成多样化、物理可行且鲁棒的动作分布，尤其适合复杂、不确定的真实环境操作任务。普通用户无需理解其数学细节，但应知道它代表了当前具身智能在模仿学习和泛化能力上的重要突破——意味着机器人更可能‘看一眼就会做’，而非依赖大量试错或人工编程。",
+    "metaphor": "就像一位厨师看着别人做菜的视频，不是死记每一步，而是通过反复回放、模糊再聚焦关键动作细节，最终自然地复现出整套流畅操作。",
+    "example": "在家庭服务机器人场景中，diffusion_policy 可根据单张厨房台面的RGB-D图像，生成打开抽屉、抓取药瓶并平稳递出的一系列关节力矩指令，即使抽屉把手位置或药瓶朝向此前未在训练数据中出现过。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Diffusion Policy - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Diffusion_Policy",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:41:17Z"
 }

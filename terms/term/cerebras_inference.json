@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Cerebras Inference",
+  "term": "cerebras_inference",
   "norm_term": "cerebras_inference",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "推理与部署",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Cerebras Inference 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Cerebras Inference，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "cerebras_inference 是指在 Cerebras 系统（基于其专用 Wafer-Scale Engine 芯片的 AI 加速平台）上执行模型推理的过程。它利用 Cerebras 独特的超大规模单芯片架构，实现低延迟、高吞吐的生成式 AI 或传统模型的实时预测。普通用户需要了解它，是因为当企业或研究机构部署大语言模型（如 Llama、Mixtral）时，采用 Cerebras 推理可显著降低响应延迟和硬件运维复杂度，尤其适用于对实时性与扩展性要求严苛的生产环境。",
+    "metaphor": "就像为超级计算机量身定制的高速公路——没有红绿灯和匝道瓶颈，AI 模型的计算指令可以全速直达目的地。",
+    "example": "一家金融公司使用 cerebras_inference 在毫秒级内完成千兆参数风控模型的实时交易欺诈检测，无需拆分模型或跨多卡调度。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Cerebras Inference - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Cerebras_Inference",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:23:26Z"
 }

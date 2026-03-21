@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Emotion Recognition",
+  "term": "emotion_recognition",
   "norm_term": "emotion_recognition",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Emotion Recognition 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Emotion Recognition，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "emotion_recognition（情感识别）是指通过分析人脸表情、语音语调、生理信号（如心率、皮肤电反应）或文本内容等多模态数据，自动判断人当前情绪状态（如高兴、愤怒、悲伤、惊讶）的技术。它广泛应用于智能客服、心理健康辅助、人机交互优化和教育反馈等领域。普通用户需要了解它，因为这项技术正悄然影响日常体验——比如视频会议软件自动调整发言提示、车载系统在驾驶员焦虑时发出提醒，甚至社交媒体可能根据你发帖的语气调整推荐内容，理解其原理有助于更理性地看待隐私边界与技术干预。",
+    "metaphor": "就像一位经验丰富的咖啡师能从顾客的微表情、语速和点单语气中判断对方是疲惫、兴奋还是烦躁，情感识别是AI在数字世界里训练出的‘情绪读心术’。",
+    "example": "某在线心理咨询平台使用语音情感识别技术，在用户倾诉时实时分析语调起伏与停顿模式，辅助咨询师快速捕捉潜在的抑郁倾向信号。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Emotion Recognition - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Emotion_Recognition",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:06:40Z"
 }

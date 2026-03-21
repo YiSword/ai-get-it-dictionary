@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Lion Optimizer",
+  "term": "lion_optimizer",
   "norm_term": "lion_optimizer",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Lion Optimizer 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Lion Optimizer，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "lion_optimizer 是一个虚构或未被广泛认可的机器学习优化算法名称，目前在主流深度学习框架（如 PyTorch、TensorFlow）及权威文献中并无此标准术语。它可能源于误传、命名混淆（如与 Lion、LION 或其他缩写相似的优化器混淆），或是个别研究项目/代码库中的自定义实现。普通用户需警惕此类非标准名称，避免在生产环境中误用未经验证的优化器，影响模型训练稳定性与可复现性。",
+    "metaphor": "就像把‘独角兽加速器’当作真实汽车配件来更换引擎——听起来很酷，但现实中并不存在，强行使用可能导致系统故障。",
+    "example": "某开发者在 GitHub 上看到名为 lion_optimizer 的第三方包，未经核实便用于医疗影像分割模型训练，结果因梯度更新逻辑异常导致收敛失败，最终发现该包实为实验性玩具实现，无理论保障。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Lion Optimizer - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Lion_Optimizer",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:10:45Z"
 }

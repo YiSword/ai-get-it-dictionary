@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Arize",
+  "term": "arize",
   "norm_term": "arize",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Arize 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Arize，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Arize 是一家专注于机器学习可观测性（ML Observability）的科技公司，提供平台工具帮助数据科学家和工程师监控、调试和改进生产环境中的AI模型。它能检测模型性能下降、数据漂移、特征异常和预测偏差等问题。普通用户（尤其是AI从业者）需要了解Arize，因为随着模型在金融、医疗、推荐等关键场景中广泛应用，仅靠准确率等静态指标已无法保障其持续可靠运行；Arize填补了从模型上线到长期运维之间的关键监控空白。",
+    "metaphor": "就像汽车的仪表盘不仅显示时速，还实时监测发动机温度、胎压和故障灯，Arize 就是 AI 模型的‘智能仪表盘’，让开发者一眼看清模型在真实世界中是否健康运行。",
+    "example": "某电商公司上线了一个商品推荐模型后，发现点击率两周内持续下滑；通过 Arize，团队快速定位到新接入的用户地理位置特征发生严重分布偏移，并识别出部分城市数据缺失导致预测偏差，从而及时回滚数据管道并重新校准模型。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Arize - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Arize",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:41:55Z"
 }

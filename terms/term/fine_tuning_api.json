@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Fine-Tuning API",
+  "term": "fine_tuning_api",
   "norm_term": "fine_tuning_api",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
-  "category": "训练方法",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Fine-Tuning API 是模型训练或适配过程中常见的方法，用来让模型学到新能力、降低成本，或提升效果。你不一定需要亲自训练模型，但理解它有助于看懂为什么同一个基础模型会出现很多不同版本。它通常和微调、优化或部署成本有关。",
-    "metaphor": "它类似给模型安排一种更高效的学习方式，让模型用更少成本学会或适应新的任务。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Fine-Tuning API，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "fine_tuning_api 是一种允许开发者使用自有数据对预训练大语言模型进行定制化微调的编程接口。它不从头训练模型，而是在已有能力基础上，通过少量标注数据调整模型行为，使其更适配特定任务（如客服问答、行业术语理解）。普通用户无需了解底层模型结构，但需知道它能低成本、快速地让通用AI变成专属AI，显著提升实际业务中的准确率和专业性。",
+    "metaphor": "就像给一位通晓多国语言的翻译家提供几本你的行业手册和常用对话记录，让他迅速掌握你的说话风格和专业术语，而不必重读所有语言学教材。",
+    "example": "一家医疗科技公司用 fine_tuning_api 将开源大模型在数千份脱敏医患对话上微调，使其能准确理解‘心悸’‘ST段抬高’等术语，并生成符合临床规范的初步分诊建议。"
   },
   "scenario_tags": [
-    "训练",
-    "微调",
-    "模型优化"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Fine-Tuning API - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Fine-Tuning_API",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T06:30:00Z"
 }

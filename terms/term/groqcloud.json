@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "GroqCloud",
+  "term": "groqcloud",
   "norm_term": "groqcloud",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GroqCloud 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 GroqCloud，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "GroqCloud 是 Groq 公司提供的基于其自研 LPU（Language Processing Unit）芯片的云端 AI 推理服务平台，允许开发者和企业通过 API 快速调用超低延迟、高吞吐的大语言模型（如 Llama、Mixtral 等）。它不提供模型训练能力，专注极速推理——部分请求响应可低至毫秒级。普通用户需要知道它，是因为它代表了一种新型 AI 基础设施：不依赖 GPU，而是用专用硬件实现更高效、更可预测的实时 AI 服务，影响应用响应速度、成本结构和部署选择。",
+    "metaphor": "就像高铁专为高速通勤修建的轨道系统，GroqCloud 不是通用公路（如 AWS 或 Azure），而是为大模型‘推理’这一特定任务量身定制的超高速专线。",
+    "example": "一家实时客服公司接入 GroqCloud，将用户提问直接发送至其托管的 Llama-3-70B 模型，端到端响应稳定在 120 毫秒内，远快于同等规模 GPU 实例的平均 800 毫秒延迟。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "GroqCloud - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/GroqCloud",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:02:13Z"
 }

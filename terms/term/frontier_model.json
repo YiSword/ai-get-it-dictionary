@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Frontier Model",
+  "term": "frontier_model",
   "norm_term": "frontier_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Frontier Model 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Frontier Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "frontier_model 指当前人工智能领域中能力最强、最前沿的大型语言模型，通常由顶尖研究机构或科技公司发布，具备卓越的推理、多模态理解、长上下文处理等能力，但往往尚未完全开放或稳定商用。普通用户需要了解它，是因为它代表了AI能力的最新边界，影响着未来应用的形态（如智能助手、编程辅助、内容创作），也提示用户需关注其潜在风险（如幻觉、偏见、算力门槛）。",
+    "metaphor": "就像航空领域的‘X系列试验机’——不是为日常飞行设计，而是用来突破速度、高度与控制极限的尖端原型。",
+    "example": "Google DeepMind 发布的 Gemini Ultra 或 OpenAI 的 GPT-4 Turbo 就属于 frontier_model，研究人员用它在复杂科学推理任务中探索AI的极限能力，而非直接部署为客服聊天机器人。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Frontier Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Frontier_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:39:54Z"
 }

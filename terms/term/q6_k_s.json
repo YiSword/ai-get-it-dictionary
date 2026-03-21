@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "q6_k_s",
+  "norm_term": "q6_k_s",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "q6_k_s 是一种量化格式，用于压缩大语言模型的权重参数，表示每权重使用约6位（bit）精度、采用分组量化（k-means风格聚类）和对称量化策略。它在模型推理速度、显存占用与精度损失之间取得较好平衡，常见于llama.cpp等CPU/GPU轻量推理框架中。普通用户若想在消费级硬件（如笔记本或旧显卡）上本地运行大模型，了解该术语有助于选择合适模型文件，避免因量化过重导致回答失真，或过轻导致内存不足。",
+    "metaphor": "就像把一本高清摄影集压缩成精心调色的64色画册——既大幅缩小体积，又保留关键视觉特征，不至于变成模糊简笔画。",
+    "example": "当你在MacBook上用llama.cpp运行Phi-3模型时，下载的phi-3-mini.Q6_K_S.gguf文件即采用此格式，可在8GB内存下流畅生成文本，而同等大小的Q8_0版本则可能触发内存交换导致卡顿。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T17:27:33Z",
+  "updated_at": "2026-03-21T09:23:44Z"
+}

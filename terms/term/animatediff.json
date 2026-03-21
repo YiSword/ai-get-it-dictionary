@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "animatediff",
+  "norm_term": "animatediff",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Animatediff 是一种基于扩散模型（diffusion model）的开源技术框架，用于将静态图像或文本提示生成连贯、高质量的短视频。它通过微调 Stable Diffusion 的时序模块（如 Motion Module），使模型理解帧间运动规律，从而在不需完整视频训练数据的情况下合成多帧动画。普通用户需要了解它，因为它是当前门槛较低、社区支持活跃的AI视频生成工具之一，让设计师、内容创作者甚至初学者能快速制作短视频素材，无需专业视频软件或大量算力。",
+    "metaphor": "就像给一位擅长画单幅插画的画家配上一本动态草图本，Animatediff 让静态画面自动‘活’起来，逐帧推演动作与过渡。",
+    "example": "一位独立游戏开发者用 Animatediff 将角色立绘一键生成行走、跳跃等循环动画片段，直接导入Unity引擎使用。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:04:29Z",
+  "updated_at": "2026-03-21T03:36:01Z"
+}

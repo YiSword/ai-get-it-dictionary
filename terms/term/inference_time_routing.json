@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Inference-Time Routing",
+  "term": "inference_time_routing",
   "norm_term": "inference_time_routing",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "推理与部署",
-  "difficulty": "高级",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Inference-Time Routing 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Inference-Time Routing，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "inference_time_routing 是指在模型执行推理（即实际处理输入数据）的时刻，动态决定请求应由哪个子模型、专家或计算路径来处理的技术。它常见于混合专家（MoE）架构或分布式推理系统中，不同于训练时或部署前的静态配置，该机制能根据输入内容特征实时选择最合适的组件，从而兼顾效率与精度。普通用户需要了解它，因为这直接影响AI服务的响应速度、成本和质量——例如同一聊天应用对简单问候和复杂编程问题可能调用不同能力的模型分支。",
+    "metaphor": "就像机场的智能登机口：旅客（输入请求）到达后，系统实时扫描其航班号和证件信息，再动态分配到最匹配的值机柜台或安检通道，而非固定排队。",
+    "example": "在支持多语言的实时翻译API中，inference_time_routing会依据用户输入文本的语言特征和长度，即时选择轻量级模型处理短句英语，或触发高精度多语种专家模型处理长段德文法律文本。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Inference-Time Routing - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Inference-Time_Routing",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:30:31Z"
 }

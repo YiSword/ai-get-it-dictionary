@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Zero-Shot Prompting",
+  "term": "zero_shot_prompting",
   "norm_term": "zero_shot_prompting",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "提示工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Zero-Shot Prompting 是和 AI 交流时常见的一类方法或输入形式，用来更明确地表达任务、限制和输出要求。它会直接影响模型回答的方向、质量和稳定性。对初学者来说，理解它的作用，往往比研究模型参数更能立刻提升使用效果。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你希望 AI 按固定格式输出结果，或针对某个场景调整语气和步骤时，就会用到 Zero-Shot Prompting，因为这类任务高度依赖输入表达方式。"
+    "plain": "zero_shot_prompting（零样本提示）是指在不提供任何示例或示范的情况下，直接向大语言模型提出任务指令，让模型仅凭自身预训练知识完成推理或生成。它依赖模型对任务意图的理解能力，而非模仿给定样例。普通用户需要了解它，因为这是最简洁、最常用的与AI交互方式——比如在聊天框里直接说‘把这段话翻译成法语’，无需先给翻译范例，就能快速获得结果。",
+    "metaphor": "就像你第一次去咖啡馆点单，只说‘我要一杯不加糖的冰美式’，服务员没看过你的历史订单，却能准确制作——靠的是对通用规则和语言指令的常识性理解。",
+    "example": "用户向模型输入：‘判断以下句子的情感倾向：今天阳光真好，心情很愉快。’ 模型未被提供任何标注样本，直接输出‘正面’。"
   },
   "scenario_tags": [
-    "提问",
-    "写作",
-    "指令"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Zero-Shot Prompting - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Zero-Shot_Prompting",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:32:51Z"
 }

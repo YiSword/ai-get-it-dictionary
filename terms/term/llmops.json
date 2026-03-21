@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "LLMOps",
+  "term": "llmops",
   "norm_term": "llmops",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LLMOps 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 LLMOps，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "LLMOps（Large Language Model Operations）是指围绕大语言模型的开发、部署、监控、迭代和治理的一整套工程实践与工具体系。它融合了MLOps理念，但更聚焦于LLM特有的挑战，如提示工程管理、RAG流水线维护、幻觉检测、模型版本与数据漂移跟踪等。普通用户虽不直接操作LLMOps系统，但其背后直接影响AI应用的稳定性、响应质量、安全性与更新速度——例如你使用的智能客服是否突然答非所问，或新知识为何迟迟无法生效，都与LLMOps水平密切相关。",
+    "metaphor": "LLMOps就像大型餐厅的后厨运营系统：不仅负责主厨（模型）的日常备餐（推理），还要管理食材采购（数据更新）、菜谱迭代（提示调优）、顾客投诉实时反馈（监控幻觉）、以及卫生与合规检查（安全与合规治理）。",
+    "example": "一家银行使用LLMOps平台持续监控其客服大模型在千万次对话中的回答准确率与敏感词触发率，当检测到某类理财问题回复合规性下降时，自动触发RAG知识库刷新与A/B测试验证，2小时内完成热更新并恢复服务。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "LLMOps - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/LLMOps",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:15:23Z"
 }

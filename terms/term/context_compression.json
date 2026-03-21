@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Context Compression",
+  "term": "context_compression",
   "norm_term": "context_compression",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Context Compression 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Context Compression，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "context_compression 是指在大语言模型推理过程中，通过算法（如注意力掩码优化、关键token选择或向量量化）有选择地缩减输入上下文的长度，同时尽可能保留对当前任务最关键的信息。它不是简单截断，而是智能‘提纯’上下文，以降低计算开销、加快响应速度并缓解长文本导致的注意力稀释问题。普通用户需要了解它，因为这直接影响聊天机器人能否稳定处理长对话、文档摘要或代码补全等复杂任务，且关系到响应质量与延迟之间的实际权衡。",
+    "metaphor": "就像一位经验丰富的编辑为一篇万字长稿制作精准的会议纪要——删去寒暄与重复，只留下决策要点和行动项，让读者30秒内掌握核心。",
+    "example": "当用户上传一份50页的技术白皮书并提问‘第三章提出的架构缺陷有哪些？’时，context_compression模块会自动识别并保留第三章及相关引用段落，将原始12万token压缩至约4000token再送入模型，显著提升响应效率而不丢失关键依据。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Context Compression - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Context_Compression",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:51:21Z"
 }

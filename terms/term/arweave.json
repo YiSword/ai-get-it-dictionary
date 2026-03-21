@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "arweave",
+  "norm_term": "arweave",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Arweave 是一个去中心化的永久数据存储网络，旨在实现‘一次写入、永久保存’。它通过独特的区块编织（Blockweave）结构和访问证明（Proof of Access）共识机制，激励矿工长期保存数据，而非仅短期验证交易。普通用户需要了解它，是因为它为网页、学术论文、开源代码、NFT元数据等关键数字资产提供了抗审查、抗丢失的持久化存储方案，避免了传统云服务中链接失效、平台关停或数据被删的风险。",
+    "metaphor": "就像把一本重要书籍刻在永不风化的石碑上，并分发给全球成千上万座图书馆共同保管，任何一座图书馆消失都不会导致内容丢失。",
+    "example": "开发者将去中心化社交应用（如Permaweb网站）的全部前端代码和数据上传至Arweave，用户此后可通过永久链接（如https://arweave.net/abc123）终身访问，无需依赖特定公司服务器。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:34:42Z",
+  "updated_at": "2026-03-21T03:43:51Z"
+}

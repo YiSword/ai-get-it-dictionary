@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Latency",
+  "term": "latency",
   "norm_term": "latency",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Latency 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Latency，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Latency（延迟）是指数据从发送端发出到接收端收到所经历的时间间隔，通常以毫秒（ms）为单位。它反映了系统响应的快慢，直接影响网页加载、视频通话流畅度、在线游戏反应速度等体验。普通用户虽不直接操作延迟参数，但高延迟会导致卡顿、语音不同步、操作滞后等问题，因此理解延迟有助于排查网络故障、选择合适的服务（如低延迟的游戏服务器或视频会议工具），并合理评估设备或网络性能。",
+    "metaphor": "就像你向山谷对面喊话，从你开口到听见回声之间的时间差——这个‘等待回应’的空档就是延迟。",
+    "example": "在玩实时对战游戏时，如果网络延迟高达200ms，你按下跳跃键后角色可能半秒后才起跳，导致被对手轻易击败。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Latency - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Latency",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:02:01Z"
 }

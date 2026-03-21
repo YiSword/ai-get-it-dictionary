@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "zero_shot_learning",
+  "norm_term": "zero_shot_learning",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Zero-shot learning（零样本学习）是一种机器学习方法，允许模型识别或分类训练时从未见过的类别，仅依靠类别语义描述（如文本标签或属性）而非该类别的任何实际样本。它解决了传统监督学习依赖大量标注数据的瓶颈，尤其在新类别快速涌现、标注成本高昂或数据稀缺的场景（如医疗影像诊断、罕见物种识别）中极具价值。普通用户需要了解它，因为这代表AI正从‘死记硬背’走向‘举一反三’的理解能力，影响未来智能助手、搜索工具和内容推荐的泛化水平。",
+    "metaphor": "就像一个只学过‘哺乳动物’和‘鸟类’特征的孩子，第一次看到‘鸭嘴兽’的照片，仅凭‘产卵、有毛、哺乳’的文字描述就能正确归类，而无需事先看过任何鸭嘴兽图片。",
+    "example": "图像分类系统在未见过‘雪豹’训练样本的情况下，通过输入‘雪豹：大型猫科动物、灰白色带黑斑、栖息于高山岩区’的文本描述，成功将一张真实雪豹照片识别为该类别。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T10:32:36Z"
+}

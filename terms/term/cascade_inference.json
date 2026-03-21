@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "cascade_inference",
+  "norm_term": "cascade_inference",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "cascade_inference（级联推理）是一种将复杂推理任务拆解为多个有序子任务，前一阶段的输出作为后一阶段输入的推理架构模式。它常见于多模态AI系统或长流程决策场景，例如先识别图像中的物体，再基于识别结果判断场景安全性，最后生成应对建议。普通用户需要了解它，因为这类设计直接影响AI响应的准确性、延迟和可解释性——错误在前序环节累积可能导致最终结论严重偏离，且用户难以定位问题源头。",
+    "metaphor": "就像工厂流水线：上一道工序完成零件组装后，才交给下一道工序进行质检，质检结果又决定是否进入包装环节，每个环节都依赖前一个环节的可靠输出。",
+    "example": "在智能医疗辅助系统中，cascade_inference首先从CT影像中分割出肺部病灶区域，再将分割结果送入分类模型判断良恶性，最后结合临床指标生成诊疗建议——任一环节出错都会影响最终决策可靠性。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:41:11Z",
+  "updated_at": "2026-03-21T04:20:20Z"
+}

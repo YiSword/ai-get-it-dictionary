@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "gpt_4_turbo",
+  "norm_term": "gpt_4_turbo",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "GPT-4 Turbo 是 OpenAI 推出的升级版大型语言模型，相比初版 GPT-4，它具备更长的上下文窗口（最高128K tokens）、更快的响应速度、更低的调用成本，并支持更新的知识截止时间（2023年）。普通用户需要了解它，是因为它直接影响日常使用体验——比如在聊天、写作、编程辅助或文档分析中更准确、更连贯、更能处理大篇幅输入，且在免费或付费服务（如ChatGPT Plus）中正逐步成为默认主力模型。",
+    "metaphor": "就像把一辆高性能轿车升级为同款但油电混动、导航系统更新到最新地图、后备箱扩容一倍的版本——性能更强、反应更灵、装得更多，还更省资源。",
+    "example": "用户上传一份长达80页的技术白皮书PDF并提问：‘请对比其中提到的三种加密协议在延迟和抗量子性上的优劣’，GPT-4 Turbo 能基于完整文本上下文给出结构化分析，而旧模型可能因上下文截断而遗漏关键章节。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:22:52Z",
+  "updated_at": "2026-03-21T06:53:49Z"
+}

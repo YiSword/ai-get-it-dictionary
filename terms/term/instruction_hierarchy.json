@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Instruction Hierarchy",
+  "term": "instruction_hierarchy",
   "norm_term": "instruction_hierarchy",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Instruction Hierarchy 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Instruction Hierarchy，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "instruction_hierarchy 指的是在人工智能或程序系统中，指令按抽象层级和控制粒度形成的结构化组织方式：高层指令定义目标与意图（如‘生成一份季度销售总结’），中层指令分解为步骤（如‘提取数据、计算增长率、生成图表’），底层指令则对应具体操作（如‘调用SQL查询表sales_2024_q2’）。普通用户需要理解它，才能更精准地表达需求、诊断模型响应偏差，并在提示工程中合理分层设计提示词，避免指令冲突或遗漏关键约束。",
+    "metaphor": "就像建筑项目中，业主的需求（盖一栋环保办公楼）→ 建筑师的蓝图（分结构、机电、节能模块）→ 工匠的具体动作（拧紧M12螺栓、铺设3cm厚保温层）。",
+    "example": "在使用AI编程助手时，用户先发出高层指令‘为电商后台添加用户行为分析看板’，再补充中层约束‘需集成埋点日志，支持近7天滚动统计’，最后在调试阶段追加底层指令‘将uv_pv_ratio字段的计算逻辑改为去重后UV除以总PV’。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Instruction Hierarchy - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Instruction_Hierarchy",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:34:27Z"
 }

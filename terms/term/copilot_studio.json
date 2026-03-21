@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Copilot Studio",
+  "term": "copilot_studio",
   "norm_term": "copilot_studio",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Copilot Studio 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Copilot Studio，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Copilot Studio 是微软推出的低代码 AI 应用构建平台，允许用户通过自然语言描述、可视化界面和少量配置，快速创建、定制和部署基于大模型的智能助手（如聊天机器人、工作流自动化代理等）。它深度集成 Microsoft Graph、Power Platform 和 Azure AI 服务，支持连接企业数据源并添加业务逻辑。普通用户需要了解它，是因为无需编程背景即可将专业知识转化为可落地的 AI 助手，提升日常办公、客户服务或内部支持的效率与智能化水平。",
+    "metaphor": "就像一位精通多种工具的资深助理，你只需用日常语言告诉它‘我要帮客户查订单状态并自动发邮件’，它就能自己选对系统、写逻辑、连接口，把想法变成可用的智能服务。",
+    "example": "一家零售企业的客服主管在 Copilot Studio 中用几句话描述‘当客户询问退货进度时，自动从 Dynamics 365 调取订单信息并生成中文回复’，15 分钟内就上线了一个无需开发介入的专属退货查询机器人。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Copilot Studio - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Copilot_Studio",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T04:59:17Z"
 }

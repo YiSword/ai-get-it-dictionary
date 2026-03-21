@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "DPM-Solver",
+  "term": "dpm_solver",
   "norm_term": "dpm_solver",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DPM-Solver 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 DPM-Solver，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "DPM-Solver（Diffusion Probabilistic Model Solver）是一类高效求解扩散模型微分方程的数值算法，专为加速生成式AI中的图像、音频等样本合成而设计。相比传统需要数百步采样的方法（如DDPM），它仅用10–20步就能达到高质量输出，显著降低计算开销和响应延迟。普通用户虽不直接调用该算法，但其背后支撑着许多实时AI绘图工具的快速出图能力，直接影响使用体验的流畅性与实用性。",
+    "metaphor": "就像用精准的导航算法替代逐条街摸索找路，DPM-Solver不是一步步试错还原图像，而是沿着最优数学路径直抵清晰结果。",
+    "example": "当你在Stable Diffusion WebUI中启用'DPM++ 2M Karras'采样器生成一张高清插画时，模型正是调用DPM-Solver系列算法，在20步内完成从纯噪声到细节丰富的图像重建。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "DPM-Solver - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/DPM-Solver",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:53:04Z"
 }

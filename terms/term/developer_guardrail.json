@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Developer Guardrail",
+  "term": "developer_guardrail",
   "norm_term": "developer_guardrail",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Developer Guardrail 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Developer Guardrail，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "developer_guardrail 是指在软件开发过程中，由平台、框架或组织设定的一系列自动化约束与引导机制（如代码检查规则、API 使用限制、模板化配置、权限控制等），旨在防止开发者无意中引入安全漏洞、性能问题或架构不一致。它不是强制禁止，而是通过即时反馈、默认推荐和低侵入式拦截，帮助开发者‘自然地做正确的事’。普通用户（尤其是参与协作开发的工程师）需要了解它，因为它直接影响编码效率、系统稳定性及团队协作成本。",
+    "metaphor": "就像高速公路两侧的防撞护栏：不阻止你变道或加速，但会在车辆偏离车道时轻柔回正或发出警示，避免严重事故。",
+    "example": "在使用某云服务SDK时，若开发者尝试用明文传递密钥，guardrail 会立即在IDE中报错并建议改用密钥管理服务（KMS）的引用方式；部署阶段若资源配置超出预设安全基线，CI流水线会自动阻断发布。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Developer Guardrail - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Developer_Guardrail",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T05:32:10Z"
 }

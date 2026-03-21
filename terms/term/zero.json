@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "zero",
+  "norm_term": "zero",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "zero 是编程和计算机科学中最基础的数值常量，表示数量为无或空的状态。它不仅是算术运算的起点（如加法单位元），还在内存管理、数组索引、布尔逻辑（如 false 的常见映射）和条件判断中扮演关键角色。普通用户需要理解 zero，因为它直接影响软件行为——例如，零除错误会导致程序崩溃，零长度字符串可能被误判为无效输入，而文件大小为零往往意味着下载失败或数据丢失。",
+    "metaphor": "就像一盏灯的‘关闭’状态：不是不存在，而是处于最基础、最安静的默认位置，一切操作都从这里开始或以此为参照。",
+    "example": "在 Python 中，列表索引从 zero 开始，因此 list[0] 访问的是第一个元素；若误用 list[-1] 期望获取首个元素却忽略负索引含义，就可能因混淆 zero 基础索引而出错。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:43:48Z",
+  "updated_at": "2026-03-21T10:32:01Z"
+}

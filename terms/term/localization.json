@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Localization",
+  "term": "localization",
   "norm_term": "localization",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Localization 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Localization，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Localization（本地化）是指将软件、网站或内容适配到特定地区或语言用户的过程，不仅翻译文字，还包括调整日期格式、货币符号、数字写法、颜色偏好、文化禁忌等。普通用户需要了解它，因为本地化直接影响使用体验——比如看到熟悉的节日图标、用本地习惯的地址填写方式，或避免因文化误读产生的尴尬。它让技术产品真正‘懂你’，而不仅是‘说你的语言’。",
+    "metaphor": "就像把一本英文小说改编成中文电影：不仅要配音（翻译），还要换演员、改场景、调整笑点和礼仪细节，让它在本地观众心中自然可信。",
+    "example": "苹果公司将iOS系统推向日本市场时，不仅将界面译为日语，还加入了符合日本习惯的输入法、支持年号显示（如‘令和5年’）、默认启用地震预警服务，并将‘分享’按钮图标替换为更符合当地社交习惯的设计。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Localization - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Localization",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:17:08Z"
 }

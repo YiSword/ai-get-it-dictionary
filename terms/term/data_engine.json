@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Data Engine",
+  "term": "data_engine",
   "norm_term": "data_engine",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Data Engine 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Data Engine，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "data_engine 是一种软件系统或平台，负责高效地摄取、处理、存储、查询和分发数据，通常集成批处理、流处理、元数据管理、数据质量监控等功能。它不是单一工具，而是数据基础设施的核心调度与执行中枢，支撑数据分析、AI训练、实时报表等上层应用。普通用户（尤其是数据工程师、分析师和业务决策者）需要了解它，因为其性能、可靠性和易用性直接决定了数据能否及时、准确、安全地转化为业务价值，避免出现‘数据在库里沉睡’或‘分析结果总滞后三天’等问题。",
+    "metaphor": "就像城市中的智能交通指挥中心：它不生产车辆（数据），但统一调度信号灯（计算资源）、规划公交线路（ETL流程）、实时响应拥堵（流式事件），确保人和货（信息与洞察）高效抵达目的地。",
+    "example": "某电商平台使用 data_engine 实时接入用户点击流、订单和库存数据，自动清洗异常值、关联用户画像，并在秒级内更新推荐模型的特征库，使首页商品推荐始终反映最新行为趋势。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Data Engine - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Data_Engine",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:12:38Z"
 }

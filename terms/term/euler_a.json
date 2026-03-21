@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "euler_a",
+  "norm_term": "euler_a",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "euler_a 通常指欧拉角（Euler angles）中的绕 X 轴旋转的角度（即 roll 或 alpha），用于描述三维空间中刚体的姿态。它与 euler_b（pitch/beta）、euler_c（yaw/gamma）共同构成一组三自由度旋转参数，在机器人、无人机、计算机图形学和姿态传感器（如IMU）中被广泛使用。普通用户虽不直接操作该参数，但在使用AR应用、飞行控制器或3D建模软件时，其底层姿态解算和动画控制往往依赖于 euler_a 的准确表达与转换。",
+    "metaphor": "就像转动方向盘时汽车前轮绕自身轴倾斜的角度——它不改变车头朝向，但决定了车身是否向左或向右‘歪’。",
+    "example": "在无人机遥控APP的姿态显示界面中，euler_a 数值为 -15° 表示机身正向右倾斜15度；飞控系统据此实时调整电机转速以恢复水平。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:52:12Z",
+  "updated_at": "2026-03-21T06:13:09Z"
+}

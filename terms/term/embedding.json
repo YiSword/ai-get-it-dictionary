@@ -1,28 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Embedding",
+  "term": "embedding",
   "norm_term": "embedding",
   "lang": "en",
-  "aliases": ["向量表示", "嵌入向量", "Embedding向量"],
+  "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
-  "difficulty": "入门",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Embedding 是把文字、图片或其他对象转换成数字向量的方法。转换后，语义接近的内容在向量空间里通常也更接近，因此更方便做相似度计算。它常用于向量搜索、推荐系统和 RAG 检索。",
-    "metaphor": "它就像给每段内容分配一个地图坐标，意思接近的东西会落在彼此更近的位置。",
-    "example": "比如你在知识库里搜退款规则，系统会先把问题和文档转成 Embedding 再比较距离，因为这样能找到用词不同但意思相近的内容。"
+    "plain": "Embedding 是一种将文本、图像或音频等非数值数据转换为固定长度实数向量的技术，使计算机能通过数学运算理解语义相似性。例如，语义相近的词（如“猫”和“狗”）在向量空间中距离较近。普通用户需要了解它，因为它是现代AI应用（如智能搜索、推荐系统、聊天机器人）背后的核心机制——决定了AI能否真正‘读懂’你的意图，而不仅是匹配关键词。",
+    "metaphor": "就像给每个词或概念在多维地图上分配一个精确的经纬度，让意思相近的事物自然聚拢在地图上的相邻位置。",
+    "example": "当你在音乐App中点击‘喜欢’一首爵士乐，系统用embedding将这首歌映射到向量空间，并快速找到风格相似的其他曲目进行推荐。"
   },
-  "scenario_tags": ["向量搜索", "检索", "推荐", "语义匹配"],
-  "sources": [
-    {
-      "title": "Embeddings - OpenAI Platform Docs",
-      "url": "https://platform.openai.com/docs/guides/embeddings",
-      "type": "doc"
-    }
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
-  "created_at": "2026-03-18T12:55:23.269Z",
-  "updated_at": "2026-03-19T09:01:00.000Z"
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T06:04:56Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "bitstamp",
+  "norm_term": "bitstamp",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Bitstamp 是一家成立于2011年的欧洲加密货币交易所，总部位于卢森堡，是全球最早运营且受监管的比特币交易平台之一。它支持比特币、以太坊等主流数字资产的买卖，并提供法币出入金通道（如欧元、美元）。普通用户需要了解 Bitstamp，因为它以合规性高、安全性强和交易界面简洁著称，适合初学者和注重资金安全的投资者；同时其历史久、信誉好，在行业动荡期常被视为相对稳健的选择。",
+    "metaphor": "Bitstamp 就像一家老牌银行旗下的贵金属交易所——既接受现金兑换黄金，又提供透明报价和严格安保，让人放心把数字资产当‘新黄金’来交易。",
+    "example": "一位德国用户想用欧元购买比特币，通过 Bitstamp 官网完成KYC认证后，直接从本地银行转账入金，再以实时汇率下单买入BTC，并将币提至个人硬件钱包保管。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:16:37Z",
+  "updated_at": "2026-03-21T04:09:19Z"
+}

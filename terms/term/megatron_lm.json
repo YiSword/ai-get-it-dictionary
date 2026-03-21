@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Megatron-LM",
+  "term": "megatron_lm",
   "norm_term": "megatron_lm",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Megatron-LM 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Megatron-LM，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Megatron-LM 是由 NVIDIA 开发的开源大型语言模型训练框架，专注于高效、可扩展地在多 GPU 和多节点集群上训练超大规模 Transformer 模型。它通过张量并行、流水线并行和数据并行的混合策略，显著降低内存占用并提升训练吞吐量。普通用户（尤其是 AI 研究者、工程师或希望复现或微调百亿级以上模型的开发者）需要了解它，因为它是当前工业界训练如 LLaMA、GPT 类模型的关键基础设施之一，直接影响模型能否在有限硬件资源下成功训练。",
+    "metaphor": "就像一支分工精密的建筑团队——有人专攻承重结构（张量并行），有人负责楼层衔接（流水线并行），有人统一调度材料（数据并行）——Megatron-LM 让成百上千个 GPU 协同建造一座语言模型‘摩天大楼’。",
+    "example": "NVIDIA 使用 Megatron-LM 在 1024 个 A100 GPU 上仅用 34 天就完成了 5300 亿参数的 MT-NLG 模型训练；研究人员也常基于它对 LLaMA-2 进行千卡级指令微调。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Megatron-LM - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Megatron-LM",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:31:22Z"
 }

@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Notebook Agent",
+  "term": "notebook_agent",
   "norm_term": "notebook_agent",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "产品概念",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Notebook Agent 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Notebook Agent，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "notebook_agent 是一种嵌入在交互式编程环境（如 Jupyter 或 VS Code Notebook）中的智能代理，它能理解用户自然语言指令，自动分析代码单元、执行调试、生成或修改代码、解释结果，并在上下文感知下提供迭代式协助。普通用户需要了解它，是因为它降低了数据分析、机器学习原型开发和教学实验的技术门槛——无需反复查阅文档或手动调试，即可通过对话驱动完成复杂任务。",
+    "metaphor": "就像一位坐在你旁边的资深数据科学家助手，一边看着你写的每一段代码，一边实时听你说话、提问、纠正错误，并主动补全后续步骤。",
+    "example": "用户在 Jupyter Notebook 中输入‘用柱状图展示各城市销售额，并标出平均值线’，notebook_agent 自动解析数据结构、生成绘图代码、插入统计计算，并在执行失败时定位缺失列名并建议修复。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Notebook Agent - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Notebook_Agent",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:55:24Z"
 }

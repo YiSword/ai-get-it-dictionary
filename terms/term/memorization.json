@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Memorization",
+  "term": "memorization",
   "norm_term": "memorization",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Memorization 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Memorization，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Memorization（记忆化）是一种优化技术，指程序将已计算过的函数结果缓存起来，当遇到相同输入时直接返回缓存值，避免重复计算。它常用于递归算法（如斐波那契数列）中，能将指数级时间复杂度显著降低为线性。普通用户虽不直接编写此类代码，但依赖它的应用（如快速响应的搜索引擎、实时推荐系统）直接影响使用体验——理解该概念有助于识别‘为什么有些操作第一次慢、之后变快’这一常见现象。",
+    "metaphor": "就像图书馆员把常被借阅的书放在前台小桌上，而不是每次都去库房翻找；下次有人要同一本书，立刻就能递出。",
+    "example": "在计算第50个斐波那契数时，未经记忆化的递归会重复计算大量子问题（如fib(3)被调用上万次），而启用记忆化后，每个子问题仅计算一次并存入字典，总计算量骤降至约50次。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Memorization - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Memorization",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:32:33Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Few-Shot Learning",
+  "term": "few_shot_learning",
   "norm_term": "few_shot_learning",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Few-Shot Learning 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Few-Shot Learning，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Few-shot learning 是一种机器学习方法，旨在让模型仅用极少的标注样本（如每类1–5个例子）就能快速学会识别新类别。它解决了传统深度学习依赖海量标注数据的瓶颈，特别适用于医疗、工业检测等难以获取大量标注数据的领域。普通用户需要了解它，因为这项技术正推动AI在小众需求、个性化服务和边缘设备上的落地，让智能系统更灵活、更贴近真实生活场景。",
+    "metaphor": "就像一个经验丰富的厨师尝过一道菜后，只看一眼新菜的三五种食材就能推断出做法，few-shot learning 让AI也能‘举一反三’，从极少数例子中抓住本质规律。",
+    "example": "某医院放射科用few-shot learning训练AI模型，仅提供3张罕见肺部病变CT图像，模型便能准确识别同类型新病例，无需数万张标注图即可投入辅助诊断。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Few-Shot Learning - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Few-Shot_Learning",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
-  "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T06:26:40Z"
 }

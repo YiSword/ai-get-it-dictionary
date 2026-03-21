@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "HotpotQA",
+  "term": "hotpotqa",
   "norm_term": "hotpotqa",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "HotpotQA 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 HotpotQA，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "HotpotQA 是一个面向多跳推理的开放域问答数据集，要求模型通过整合多个文档中的信息来回答复杂问题，而非仅依赖单个句子或段落。它强调事实验证、中间推理步骤和答案支持证据的识别。普通用户需要了解它，是因为它代表了当前AI问答系统从‘查答案’向‘做推理’演进的关键挑战——真实世界的问题往往没有现成答案，需串联碎片信息才能得出结论。",
+    "metaphor": "就像侦探破案时不能只听一个证人的证词，而要交叉比对多个线索、时间线和物证，才能还原真相。",
+    "example": "当被问到‘《百年孤独》作者创办的报纸位于哪个国家？’时，模型需先识别作者是加西亚·马尔克斯，再查找他参与创办的报纸名称（如《旁观者报》），最后确认该报在哥伦比亚发行——三步缺一不可。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "HotpotQA - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/HotpotQA",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:14:33Z"
 }

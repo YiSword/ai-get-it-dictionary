@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Botpress",
+  "term": "botpress",
   "norm_term": "botpress",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Botpress 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Botpress，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Botpress 是一个开源的、基于 Node.js 的对话机器人开发平台，允许开发者构建、部署和管理智能聊天机器人。它提供可视化流程编辑器、内置 NLU（自然语言理解）引擎、多通道集成（如 Slack、WhatsApp、Web Widget）以及可扩展的模块系统。普通用户——尤其是业务人员、产品经理或非技术运营者——需要了解 Botpress，因为它降低了定制化客服机器人或内部自动化助手的门槛，无需从零编写代码即可快速搭建符合实际业务逻辑的对话系统，并能自主迭代优化。",
+    "metaphor": "Botpress 就像乐高机器人套装：你不需要懂电机原理或编程，只需选择预装的‘对话积木’（如问候、FAQ、表单收集），按业务流程拼接起来，就能组装出一个能听会说、自动响应的专属助手。",
+    "example": "一家电商公司使用 Botpress 在官网嵌入客服机器人，自动处理退货政策咨询、订单状态查询和物流跟踪；当用户提问‘我的订单还没发货’时，机器人调用后台 API 实时获取订单数据并返回准确信息，无需人工介入。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Botpress - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Botpress",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:13:42Z"
 }

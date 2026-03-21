@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Actor-Critic",
+  "term": "actor_critic",
   "norm_term": "actor_critic",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Actor-Critic 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Actor-Critic，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "actor_critic 是一种强化学习中的混合策略架构，同时包含两个协同工作的神经网络：'actor' 负责决定采取什么动作（策略函数），'critic' 负责评估该动作的好坏（值函数）。它结合了策略梯度方法的灵活性和值函数方法的稳定性，能更高效地训练智能体。普通用户无需深入数学细节，但了解它有助于理解AI如何在复杂环境中边试错边优化决策——比如自动驾驶或游戏AI背后的‘思考机制’。",
+    "metaphor": "就像一位运动员（actor）在场上实时做动作，旁边有一位经验丰富的教练（critic）即时点评‘这步好，下步风险高’，两者配合让训练既果断又理性。",
+    "example": "在机器人控制任务中，actor_critic 被用于训练四足机器人在不平坦地形上自主行走：actor 输出关节扭矩指令，critic 根据当前姿态和前进速度反馈动作价值，从而联合优化运动策略与稳定性评估。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Actor-Critic - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Actor-Critic",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T03:20:15Z"
 }

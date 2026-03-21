@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Aporia",
+  "term": "aporia",
   "norm_term": "aporia",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Aporia 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Aporia，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Aporia（阿波里亚）是古希腊哲学中的一个关键概念，指一种深刻的、无法轻易消解的疑难或悖论状态——当看似合理的前提推导出相互矛盾的结论，或当所有可能的解答都同样站不住脚时，人便陷入aporia。它不是知识的终点，而是哲学探究的起点：苏格拉底常用提问将对话者引向aporia，以暴露其未经省察的信念，从而开启真正的思考。普通用户需要了解它，因为日常中我们常把‘想不通’当作失败，而aporia提醒我们，有意识地停留于困惑，恰是突破认知惯性、走向深度理解的必要门槛。",
+    "metaphor": "就像登山者抵达一处三岔路口，每条路标都指向山顶，但地图显示它们彼此矛盾——此时停下脚步、重新校准罗盘，比盲目选一条路更接近真正的登顶。",
+    "example": "当一位学生坚信‘公平即人人相同对待’，却同时认同‘对残障者应提供额外支持’，教师通过追问揭示其中隐含的价值张力，使其陷入aporia；这一困惑促使学生重新思考‘公平’的本质，而非停留在口号式理解。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Aporia - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Aporia",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:39:39Z"
 }

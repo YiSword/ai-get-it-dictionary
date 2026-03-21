@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Hyperband",
+  "term": "hyperband",
   "norm_term": "hyperband",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Hyperband 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Hyperband，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Hyperband 是一种用于自动化超参数优化的高效算法，特别适用于训练成本高昂的机器学习模型（如深度神经网络）。它通过多轮‘淘汰制’策略，在有限预算下动态分配资源给不同超参数配置：先快速评估大量候选配置，再逐步保留表现较好者并增加训练时长。相比网格搜索或随机搜索，Hyperband 能以更少的总计算开销找到更优超参数，因此普通用户——尤其是缺乏调参经验或计算资源有限的开发者——需要了解它，以便更快、更省地提升模型性能。",
+    "metaphor": "就像一场层层晋级的才艺比赛：初赛让所有选手表演30秒，淘汰一半；复赛让晋级者表演1分钟，再淘汰一半；决赛让最后几人完整演出5分钟，最终选出最佳表现者。",
+    "example": "在训练一个图像分类CNN模型时，工程师用Hyperband自动搜索学习率、批量大小和Dropout率，仅用相当于20次完整训练的算力，就在1小时内找到了比手动调参高2.3%准确率的配置。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Hyperband - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Hyperband",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:19:35Z"
 }

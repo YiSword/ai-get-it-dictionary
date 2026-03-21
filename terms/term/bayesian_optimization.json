@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Bayesian Optimization",
+  "term": "bayesian_optimization",
   "norm_term": "bayesian_optimization",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
   "category": "其他",
-  "difficulty": "高级",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Bayesian Optimization 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Bayesian Optimization，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "贝叶斯优化（Bayesian Optimization）是一种用于高效寻找黑箱函数全局最优解的序贯实验设计方法，特别适用于目标函数计算代价高昂、不可导或缺乏解析表达式的情形。它通过构建概率代理模型（如高斯过程）来近似目标函数，并利用采集函数（如期望改进EI）智能决定下一个评估点，从而在最少试验次数下逼近最优解。普通用户需要了解它，是因为它被广泛应用于超参数调优、材料设计、自动机器学习等现实场景中，在资源受限时显著提升优化效率。",
+    "metaphor": "就像一位经验丰富的品酒师，每次尝一小口新酒后更新自己对整片葡萄园风味分布的认知，再有策略地选择下一处最值得探索的地块采样。",
+    "example": "在训练深度神经网络时，用贝叶斯优化自动搜索学习率、批量大小和正则化系数的最佳组合，仅需几十次训练即可找到比网格搜索更优的超参数配置。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Bayesian Optimization - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Bayesian_Optimization",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:58:49Z"
 }

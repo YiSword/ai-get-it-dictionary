@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "GRU",
+  "term": "gru",
   "norm_term": "gru",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GRU 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 GRU，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "GRU（Gated Recurrent Unit）是一种用于处理序列数据的循环神经网络（RNN）变体，通过引入更新门和重置门来缓解传统RNN的梯度消失问题，从而更有效地捕捉长距离依赖关系。它比LSTM结构更简洁、参数更少，训练速度更快，在自然语言处理、语音识别和时间序列预测等任务中被广泛应用。普通用户虽不直接编写GRU，但使用智能输入法、语音助手或个性化推荐服务时，其背后很可能依赖GRU等模型实现对上下文的理解与响应。",
+    "metaphor": "GRU就像一位善于抓重点的会议记录员：它不会逐字记下所有发言，而是根据当前话题（重置门）决定是否忽略旧信息，再按重要性（更新门）决定保留多少历史内容和加入多少新内容。",
+    "example": "在手机输入法中，当你连续输入‘今天天气真’时，GRU模型会结合前面的词语序列，动态预测下一个最可能的词是‘好’或‘热’，而非孤立地只看最后一个字。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "GRU - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/GRU",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:03:34Z"
 }

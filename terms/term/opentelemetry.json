@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "OpenTelemetry",
+  "term": "opentelemetry",
   "norm_term": "opentelemetry",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "OpenTelemetry 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 OpenTelemetry，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "OpenTelemetry 是一个开源观测框架，用于统一收集、处理和导出应用程序的遥测数据（如追踪、指标和日志）。它不绑定特定后端，可将数据发送至 Prometheus、Jaeger、Datadog 等多种可观测平台。普通用户（尤其是开发者、SRE 和运维人员）需要了解它，因为现代云原生应用分布复杂，传统监控难以定位性能瓶颈或故障根因；OpenTelemetry 提供标准化、语言无关的接入方式，降低可观测性建设门槛，提升系统稳定性与排障效率。",
+    "metaphor": "就像给每辆快递车安装统一规格的GPS+油耗表+异常报警器，并把所有数据汇总到一个中央调度台，无论车辆品牌或路线如何，都能实时看清整体物流状态。",
+    "example": "一个微服务架构的电商应用使用 OpenTelemetry 自动注入 HTTP 请求追踪，当用户下单超时，工程师可通过关联的分布式追踪链路，快速定位是支付服务响应慢还是库存服务数据库查询阻塞。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "OpenTelemetry - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/OpenTelemetry",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:01:04Z"
 }

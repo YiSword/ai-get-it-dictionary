@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Feature Visualization",
+  "term": "feature_visualization",
   "norm_term": "feature_visualization",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Feature Visualization 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Feature Visualization，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "feature_visualization（特征可视化）是一种用于理解深度神经网络内部工作机制的技术，它通过优化输入图像，使特定神经元或神经元组的激活最大化，从而揭示该神经元所响应的视觉模式（如边缘、纹理、部件或高级语义概念）。普通用户需要了解它，是因为它将‘黑箱’模型的部分决策逻辑转化为可观察的图像，帮助判断模型是否学到了合理、鲁棒的特征，而非依赖数据偏差或伪相关，对模型可信度评估、调试和伦理审查具有实际意义。",
+    "metaphor": "就像用特制的荧光染料标记细胞中的某种蛋白质，让原本看不见的分子结构在显微镜下显现出来。",
+    "example": "研究人员对一个训练好的猫狗分类网络的某中间层神经元进行特征可视化，发现其最强烈响应的是‘尖耳朵+绒毛纹理’组合，说明该神经元可能在学习识别猫的关键局部特征。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Feature Visualization - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Feature_Visualization",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:25:37Z"
 }

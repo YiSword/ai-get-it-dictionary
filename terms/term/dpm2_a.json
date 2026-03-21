@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "dpm2_a",
+  "norm_term": "dpm2_a",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "dpm2_a 是一种扩散模型采样算法，全称是 'Denoising Probabilistic Model version 2 with ancestral sampling'。它通过在去噪过程中引入随机性（即每步采样都从预测的噪声分布中抽样），提升生成样本的多样性与细节表现力，但可能略微牺牲确定性。普通用户需要了解它，是因为它直接影响AI图像生成的质量、风格丰富度和生成速度——例如在Stable Diffusion等工具中选择该采样器，可能让画面更富有艺术张力或意外创意，但也需权衡输出稳定性。",
+    "metaphor": "就像一位画家在临摹时不是机械地描线，而是每笔都参考草稿后即兴微调，既保留整体结构，又注入不可复制的手感。",
+    "example": "在使用Automatic1111 WebUI生成奇幻风景图时，用户将采样方法设为 dpm2_a，配合15步采样，可得到纹理更细腻、云层与光影更具自然随机感的图像，相比确定性更强的dpm2效果更富表现力。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:54:39Z",
+  "updated_at": "2026-03-21T05:49:17Z"
+}

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Action",
+  "term": "action",
   "norm_term": "action",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Action 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Action，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Action（动作）是软件或系统中用户触发的、具有明确目的和可预期结果的最小交互单元，例如点击按钮、提交表单或拖拽文件。它代表用户意图的具象化表达，是人机交互的基本语义单位。普通用户需要理解 action，才能预判操作后果、避免误操作，并在界面提示不明确时做出合理判断；同时，掌握常见 action 的含义（如‘删除’不可逆、‘保存’需确认）有助于提升数字素养和使用效率。",
+    "metaphor": "就像按下一个物理开关——看似简单的一次按下，背后对应着电路接通、灯亮起这一整套确定的响应过程。",
+    "example": "在微信中长按一条消息后选择‘撤回’，这个‘撤回’就是一个 action，它立即触发系统删除该消息并通知对方，且无法恢复。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Action - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Action",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T03:17:18Z"
 }

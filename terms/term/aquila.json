@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Aquila",
+  "term": "aquila",
   "norm_term": "aquila",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Aquila 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Aquila，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Aquila 是 Meta（原 Facebook）于2023年发布的开源大语言模型系列，专为研究目的设计，支持多语言、长上下文（最高128K tokens）和高效推理。它并非面向普通用户的消费级产品，而是供学术界和开发者评估模型能力、进行微调或构建垂直应用的基准工具。普通用户虽不直接使用 Aquila，但了解它有助于识别当前开源AI生态中高质量中文友好模型的存在，避免盲目依赖闭源商业服务，并理解国产大模型技术演进的重要节点。",
+    "metaphor": "Aquila 就像一位精通多国语言、记性极好又乐于分享笔记的语言学教授，不图名利，只愿把方法论和手稿公开给其他研究者参考。",
+    "example": "某高校NLP实验室使用 Aquila-7B 模型，在医疗中文文本摘要任务上进行轻量微调，仅用4张A10显卡就实现了接近商用模型的准确率，且全部代码与权重均来自公开仓库。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Aquila - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Aquila",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:40:45Z"
 }

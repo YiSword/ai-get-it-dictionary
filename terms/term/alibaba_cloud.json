@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "alibaba_cloud",
+  "norm_term": "alibaba_cloud",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Alibaba Cloud（阿里云）是阿里巴巴集团旗下的云计算及人工智能科技公司，提供包括计算、存储、网络、安全、数据库、大数据、人工智能等在内的全栈云服务。它是中国最大的云服务商，也是全球知名的云平台之一。普通用户需要了解它，不仅因为许多国内常用App（如淘宝、高德地图、饿了么）依赖其基础设施运行，还因为个人开发者、中小企业可通过它低成本地部署网站、搭建应用或训练AI模型，无需自建服务器。",
+    "metaphor": "就像一座智能城市里的‘水电管网系统’——你不用知道水泵和变电站怎么工作，但打开水龙头或按下开关就能获得稳定供应，阿里云让数字服务的运行变得隐形而可靠。",
+    "example": "一家初创电商公司使用阿里云的ECS（弹性计算服务）快速部署线上商城，再通过其OSS（对象存储服务）存放商品图片，无需购买物理服务器，上线周期从数周缩短至一天。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:35:53Z",
+  "updated_at": "2026-03-21T03:30:41Z"
+}

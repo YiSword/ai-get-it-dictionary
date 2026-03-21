@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Agent2Agent",
+  "term": "agent2agent",
   "norm_term": "agent2agent",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "产品概念",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Agent2Agent 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Agent2Agent，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "agent2agent（A2A）指两个或多个AI智能体（agent）之间直接协作、通信与任务交接的技术模式，无需人类持续介入。它支撑复杂自动化流程，如一个客服agent识别用户意图后，自动将订单查询任务转给库存agent处理。普通用户需要了解它，是因为未来越来越多服务（如跨平台订票、智能办公助手联动）将依赖这种‘后台智能体协同’来实现更流畅、精准和实时的体验，而非仅依赖单个AI响应。",
+    "metaphor": "就像医院里不同专科医生通过标准化病历系统无缝交接病人——一位医生初诊后，直接把关键信息推送给放射科和药房的同事，全程患者无需重复描述病情。",
+    "example": "在智能电商系统中，推荐agent根据用户浏览行为生成个性化商品列表，随后自动将该列表与库存agent、物流agent协同验证实时库存与发货时效，并由支付agent完成结算，整个过程在秒级内闭环完成。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Agent2Agent - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Agent2Agent",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T03:24:04Z"
 }

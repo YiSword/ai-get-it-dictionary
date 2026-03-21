@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Beam Search",
+  "term": "beam_search",
   "norm_term": "beam_search",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Beam Search 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Beam Search，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "beam search 是一种在序列生成任务中常用的近似搜索算法，用于在解空间过大而无法穷举时，高效地找到较优的输出序列。它通过维护固定数量（beam width）的候选路径，在每一步只扩展最有希望的若干分支，从而平衡搜索质量与计算开销。普通用户虽不直接操作该算法，但在使用智能输入法、机器翻译、语音识别或AI写作工具时，其背后生成连贯、合理文本的过程往往依赖 beam search，理解它有助于认识AI输出为何有时‘合理但非唯一’。",
+    "metaphor": "就像登山者在浓雾中只能同时照亮并跟踪几条最有可能通向山顶的小径，而不是盲目探索所有岔路。",
+    "example": "当用英文句子 'How are you?' 翻译成中文时，beam search 可能并行评估‘你好吗？’‘你怎么样？’‘你过得如何？’等几个高分候选，最终选择最流畅自然的一个作为输出。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Beam Search - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Beam_Search",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:59:56Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Latent Steering",
+  "term": "latent_steering",
   "norm_term": "latent_steering",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Latent Steering 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Latent Steering，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "latent_steering 是指在生成式人工智能（尤其是扩散模型或大型语言模型）中，通过直接修改潜在空间（latent space）中的向量表示，来隐式引导模型输出内容方向的技术。它不依赖显式提示词调整，而是对中间表征进行数学干预（如添加偏移、插值或投影），从而控制风格、情感、姿态等抽象属性。普通用户需要了解它，因为这是高级图像/文本编辑背后的核心机制——例如一键切换照片氛围、保持人像结构的同时更换服装风格，其底层就依赖 latent_steering 实现精细、非破坏性的语义操控。",
+    "metaphor": "就像调音师不改变乐谱音符，而是微调乐器共鸣腔的物理参数来改变整首曲子的温暖感或明亮度。",
+    "example": "在 Stable Diffusion 中，用户使用 'Prompt-to-Prompt' 方法，通过对文本编码器输出的 latent 向量施加方向性扰动，使生成的同一张人脸图像自动从‘微笑’变为‘沉思’，而面部结构和光照完全保持一致。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Latent Steering - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Latent_Steering",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:03:39Z"
 }

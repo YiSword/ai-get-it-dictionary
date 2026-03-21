@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Imagen",
+  "term": "imagen",
   "norm_term": "imagen",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Imagen 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Imagen，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Imagen 是 Google 开发的一种文本到图像生成模型，它能根据自然语言描述（如‘一只戴着墨镜的柴犬在太空站里喝咖啡’）高质量地合成逼真、细节丰富的图像。它不依赖于图像-文本配对训练数据，而是通过大型语言模型理解提示词，并结合扩散模型生成图像。普通用户需要了解 Imagen，因为它代表了AI图像创作的前沿能力——强调语义准确性与美学质量，影响着设计、内容创作和人机交互方式；同时，其技术路径也揭示了AI生成内容在版权、真实性与可控性方面的关键挑战。",
+    "metaphor": "就像一位精通多国语言又拥有三十年画龄的天才插画师，你用日常话语描述想法，它立刻在画布上精准呈现你脑海中的画面，连光影质感和情绪氛围都分毫不差。",
+    "example": "一名营销人员输入提示词‘北欧风格客厅，浅橡木地板，灰白布艺沙发，窗外有雪松和微光，柔和晨光，摄影级写实’，Imagen 在几秒内生成可用于广告投放的高分辨率场景图。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Imagen - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Imagen",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T07:25:01Z"
 }

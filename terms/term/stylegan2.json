@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "stylegan2",
+  "norm_term": "stylegan2",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "StyleGAN2 是一种先进的生成对抗网络（GAN）架构，用于高质量、高分辨率的人脸及其他图像的合成与编辑。它由英伟达团队于2019年提出，改进了前代StyleGAN在图像伪影、训练稳定性及细节控制方面的缺陷。普通用户需要知道它，是因为它支撑着大量AI图像生成工具（如DeepAI、This Person Does Not Exist），影响着社交媒体内容真实性、数字身份安全以及创意设计的工作流。",
+    "metaphor": "就像一位精通光影、纹理和面部解剖的数字化妆师兼雕塑家，StyleGAN2 不是简单拼贴照片，而是从零‘生长’出逼真面孔，并能精细调节发丝走向、皮肤质感等微观特征。",
+    "example": "设计师使用StyleGAN2驱动的工具生成多样化虚拟模特图像，用于服装电商网站的商品预览，无需真人拍摄即可快速迭代不同肤色、年龄和风格的展示效果。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:19:58Z",
+  "updated_at": "2026-03-21T09:57:29Z"
+}

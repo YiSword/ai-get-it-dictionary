@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "CrewAI",
+  "term": "crewai",
   "norm_term": "crewai",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CrewAI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 CrewAI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "CrewAI 是一个开源的 Python 框架，用于构建由多个自主智能体（agents）协作完成复杂任务的系统。每个 agent 可以拥有角色、目标、工具和记忆，并能通过对话式协作规划、分解和执行任务。普通用户需要了解它，是因为它降低了构建多智能体工作流的门槛——无需从零设计通信协议或调度逻辑，就能快速搭建如自动市场调研、内容生成流水线或跨平台数据整合等实用AI应用。",
+    "metaphor": "就像一支分工明确的专业剧组：导演设定目标，编剧撰写脚本，演员执行表演，场务协调资源——CrewAI 让这些‘AI角色’自动沟通、分派任务并共同交付结果。",
+    "example": "一家电商公司用 CrewAI 创建三名 agent：市场研究员（爬取竞品价格）、文案专员（基于数据生成促销文案）、审核员（检查合规性与语气），三者协同在10分钟内完成一轮新品推广方案生成。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "CrewAI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/CrewAI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T05:04:38Z"
 }

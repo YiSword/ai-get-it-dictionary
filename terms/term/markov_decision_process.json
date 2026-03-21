@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Markov Decision Process",
+  "term": "markov_decision_process",
   "norm_term": "markov_decision_process",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Markov Decision Process 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Markov Decision Process，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "马尔可夫决策过程（Markov Decision Process, MDP）是一种用于建模序贯决策问题的数学框架，它描述了智能体在不确定环境中如何根据当前状态选择动作，以最大化长期累积奖励。MDP 的核心假设是‘马尔可夫性’——即未来状态只依赖于当前状态和动作，与历史无关。普通用户需要了解它，因为它是强化学习、自动驾驶、推荐系统、游戏AI等智能决策技术的理论基石，帮助我们理解机器如何在复杂、动态世界中权衡短期代价与长期收益。",
+    "metaphor": "就像一位老练的棋手，每步只看当前棋盘局势和对手可能的回应，不纠结于之前走了多少步，却能步步为营通向胜利。",
+    "example": "机器人在迷宫中导航时，将每个格子视为一个状态，上下左右移动为动作，撞墙受罚、到达出口得奖；MDP 帮助它计算出从任意起点出发的最优路径策略。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Markov Decision Process - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Markov_Decision_Process",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:26:44Z"
 }

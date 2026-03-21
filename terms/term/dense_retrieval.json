@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Dense Retrieval",
+  "term": "dense_retrieval",
   "norm_term": "dense_retrieval",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Dense Retrieval 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Dense Retrieval，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "dense_retrieval（稠密检索）是一种信息检索技术，它将查询和文档都映射到高维向量空间中，通过计算向量间的相似度（如余弦相似度）来找出最相关的文档。与传统基于关键词匹配的稀疏检索（如BM25）不同，它能理解语义，捕捉同义、 paraphrase 和隐含关联。普通用户需要了解它，因为这是当前搜索引擎、智能客服和推荐系统背后提升‘搜得准’‘答得对’能力的关键技术之一，直接影响日常获取信息的效率和质量。",
+    "metaphor": "就像用‘气味指纹’代替‘标签名称’来识别物品——即使两个东西名字不同，只要气味相似，系统就能把它们归为一类。",
+    "example": "当你在智能办公软件中输入‘怎么给客户发延期交付的邮件？’，稠密检索能匹配到内部知识库中标题为‘客户沟通模板’但正文含‘项目延期说明话术’的文档，而非仅依赖关键词‘延期’或‘邮件’。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Dense Retrieval - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dense_Retrieval",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:31:23Z"
 }

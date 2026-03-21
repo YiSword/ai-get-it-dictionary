@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "clip_interrogator",
+  "norm_term": "clip_interrogator",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "clip_interrogator 是一个开源工具，用于将输入的图像自动转换为描述性文本提示（prompt），它结合 CLIP 模型的多模态理解能力与大语言模型（如 BLIP 或 T5）的生成能力，对图像内容进行语义解析和自然语言重构。普通用户需要了解它，因为它是图像到文本生成的关键桥梁，广泛应用于 AI 绘画（如 Stable Diffusion）中——当用户有一张图但不知如何用文字精准描述时，clip_interrogator 能快速生成高质量提示词，显著降低创作门槛。",
+    "metaphor": "就像一位精通视觉与语言的双语策展人，看到一幅画后立刻用准确、丰富的词语向你口头描述它的风格、主体、氛围和细节。",
+    "example": "一位设计师上传一张手绘风格的赛博朋克城市夜景图，clip_interrogator 自动输出提示词：'cyberpunk cityscape at night, neon signs, rain-slicked streets, anime-inspired, detailed illustration, cinematic lighting, 8k'，可直接用于生成或重绘类似图像。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:28:51Z",
+  "updated_at": "2026-03-21T04:33:29Z"
+}

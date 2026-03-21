@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "kraken",
+  "norm_term": "kraken",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Kraken 是一个开源的分布式容器镜像仓库（registry）和分发系统，专为大规模、高并发场景设计，支持跨地域镜像同步、内容分发网络（CDN）集成与细粒度权限控制。它并非简单替代 Docker Hub，而是面向企业级云原生基础设施，解决镜像拉取慢、单点故障、带宽瓶颈等问题。普通用户（尤其是 DevOps 工程师、平台开发者）需要了解 Kraken，因为它直接影响应用部署速度、CI/CD 流水线稳定性以及多集群环境下的镜像一致性。",
+    "metaphor": "Kraken 就像一个智能快递物流网络——不只建一个仓库，而是在全国布设分拣中心、缓存站点和高速配送路线，让每个开发者的本地机器都能就近‘秒级取件’。",
+    "example": "某互联网公司在 50 个 Kubernetes 集群中部署微服务，使用 Kraken 替代传统 registry 后，镜像拉取平均耗时从 42 秒降至 1.8 秒，并在一次主 registry 故障期间仍保障了全部集群的滚动更新不受影响。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:16:06Z",
+  "updated_at": "2026-03-21T07:56:07Z"
+}

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Cerebras",
+  "term": "cerebras",
   "norm_term": "cerebras",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Cerebras 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Cerebras，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Cerebras 是一家美国人工智能硬件公司，以研发超大规模专用AI芯片（如Wafer Scale Engine，WSE）而闻名。其芯片将整个晶圆制成单颗处理器，拥有数万个核心和超大片上内存，专为加速大型AI模型训练而设计。普通用户需要了解它，是因为它代表了AI算力基础设施的一次范式突破——通过极致集成降低训练时间与能耗，间接推动更强大、更普及的AI应用（如医疗诊断模型、气候模拟）落地。",
+    "metaphor": "就像把整座图书馆的藏书直接印在一张纸上，而不是分装进成千上万本小册子，Cerebras芯片把传统分散在数百块GPU上的计算单元浓缩进一颗晶圆级芯片，让数据‘一步到位’，无需长途搬运。",
+    "example": "某生物医药公司使用Cerebras系统在不到24小时内完成一个含数十亿参数的蛋白质结构预测模型训练，而同等任务在传统GPU集群上需耗时两周。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Cerebras - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Cerebras",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:23:12Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Action Grounding",
+  "term": "action_grounding",
   "norm_term": "action_grounding",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Action Grounding 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Action Grounding，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "action_grounding 是指将抽象的指令或语言动作（如‘把杯子拿过来’）与真实物理环境中的具体对象、空间关系和可执行操作绑定的过程。它要求系统理解语义意图，并映射到传感器数据（如摄像头图像、机器人关节状态）和执行器动作（如机械臂移动路径）。普通用户需要了解它，因为这是智能助手、服务机器人或AR应用能否真正‘听懂并做到’的关键——若缺乏扎实的 action grounding，语音指令可能被正确识别却执行错误，导致交互失败或安全隐患。",
+    "metaphor": "就像给一位只懂中文菜谱的外国厨师配上厨房里的真实锅碗瓢盆、食材位置和火候刻度，让文字指令瞬间变成手上的动作。",
+    "example": "在家庭服务机器人中，当用户说‘请把茶几上的蓝色水杯递给坐在沙发左边的人’，系统需识别茶几、蓝色水杯、沙发、人的位置及左右朝向，并规划安全抓取与递送路径——这一整套感知-理解-执行的闭环就是 action grounding 的体现。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Action Grounding - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Action_Grounding",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T03:17:34Z"
 }

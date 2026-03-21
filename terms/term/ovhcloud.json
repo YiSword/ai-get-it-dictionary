@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "ovhcloud",
+  "norm_term": "ovhcloud",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "OVHcloud 是一家总部位于法国的全球性云计算服务提供商，提供从虚拟服务器、专用服务器、托管云到公有云（如 Public Cloud）、私有云（Hosted Private Cloud）及边缘计算等全栈基础设施服务。它以透明定价、欧洲数据主权合规（如GDPR就地处理）和自建数据中心网络著称。普通用户需要了解 OVHcloud，尤其当其业务对数据地理位置、成本控制或网络延迟敏感时——例如希望避免美国云厂商锁定、或需在欧洲境内部署合规应用的中小型企业与开发者。",
+    "metaphor": "OVHcloud 就像一家由自己建造并运营整条高速公路、服务区和物流中心的欧洲快递集团，既送包裹（托管服务），也出租货车和仓库（IaaS），还提供定制化物流方案（云平台），全程不依赖第三方路网。",
+    "example": "一家德国初创公司为满足GDPR要求，选择 OVHcloud 的 Frankfurt 区域部署其客户数据管理平台，利用其本地化数据中心、按小时计费的弹性云服务器和内置备份服务，快速上线且无需跨境数据传输审批。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:40:43Z",
+  "updated_at": "2026-03-21T09:03:42Z"
+}

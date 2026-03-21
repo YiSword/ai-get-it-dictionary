@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "pgvector 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 pgvector，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "pgvector 是一个用于 PostgreSQL 数据库的扩展，允许用户高效地存储和查询向量数据。普通用户需要知道它，因为它可以支持机器学习、相似性搜索等高级功能，提升数据处理效率。",
+    "metaphor": "pgvector 就像一个智能书架，能快速找到与你手中书籍内容相似的其他书籍。",
+    "example": "在推荐系统中，pgvector 可以用来存储用户兴趣的向量表示，并快速找到与之最相似的其他用户或物品。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "pgvector - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/pgvector",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-20T13:10:37Z"
 }

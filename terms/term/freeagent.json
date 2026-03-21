@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "freeagent",
+  "norm_term": "freeagent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "freeagent（自由职业者）指不隶属于任何固定雇主、以独立身份承接项目或服务并自主管理时间、定价与工作方式的专业人士。他们通常通过平台接单、直接获客或建立长期客户关系，收入按项目或时薪结算，需自行处理税务、社保与合同等事务。普通用户需要了解这一概念，因为越来越多的服务（如设计、编程、翻译、咨询）正由自由职业者提供，理解其运作模式有助于更高效地寻找合适人才、评估服务质量，或在职业转型时规划个人发展路径。",
+    "metaphor": "就像一位手艺精湛的独立修表匠，不挂靠钟表店，而是租用工作室、自购工具、直接接待顾客，每块表的修理方案和报价都由自己决定。",
+    "example": "一家初创公司为开发官网，通过Upwork平台雇佣一名自由职业前端工程师，按页面功能模块分阶段付费，无需为其缴纳社保或提供办公座位。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:58:25Z",
+  "updated_at": "2026-03-21T06:39:05Z"
+}

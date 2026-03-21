@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "gate_io",
+  "norm_term": "gate_io",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "gate_io 是一家总部位于瑞士的全球性加密货币交易平台，提供现货交易、合约交易、杠杆借贷、质押理财等多种数字资产服务。它支持数百种加密货币，以高流动性、低手续费和相对宽松的KYC政策著称。普通用户需要了解 gate_io，是因为它常被用作新兴代币早期上线的交易所之一，且在部分国家和地区具备较高的访问稳定性和本地化支持，但同时也需注意其监管状态不透明、中心化运营带来的资金托管风险。",
+    "metaphor": "gate_io 就像一座24小时开放、无需排队安检但安保细节不对外公示的国际金融集市——商品丰富、交易便捷，但顾客需自行判断摊主信誉与货品真伪。",
+    "example": "一位开发者在新公链项目上线前，将代币首发上架至 gate_io 的创新区（Startup），社区用户随即通过该平台参与首轮交易；另一名海外用户因所在国主流交易所受限，长期依赖 gate_io 进行比特币与稳定币的日常兑换。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:17:45Z",
+  "updated_at": "2026-03-21T06:42:33Z"
+}

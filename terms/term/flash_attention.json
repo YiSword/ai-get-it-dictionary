@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "flash_attention",
+  "norm_term": "flash_attention",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Flash Attention 是一种优化 Transformer 模型注意力计算的高效算法，通过融合注意力计算中的 softmax、缩放和矩阵乘法等操作，并利用 GPU 的高速缓存与内存带宽特性，显著减少显存占用和计算时间。相比标准注意力实现，它在长序列处理中可提速 2–3 倍、节省高达 50% 显存。普通用户（尤其是开发者、研究人员）需要了解它，因为它是当前大语言模型训练与推理加速的关键技术之一，直接影响模型能否在有限硬件上运行更长上下文或更大规模。",
+    "metaphor": "就像快递公司不逐个打包每件货再统一装车，而是边分拣、边装箱、边发车，Flash Attention 把原本分步执行的注意力运算‘流水线化’，避免中间结果反复搬运和存储。",
+    "example": "在部署 32K 上下文的 LLaMA-3 模型时，启用 Flash Attention 可将单次推理的显存峰值从 48GB 降至 26GB，并将生成速度提升约 2.4 倍。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:44:51Z",
+  "updated_at": "2026-03-21T06:32:46Z"
+}

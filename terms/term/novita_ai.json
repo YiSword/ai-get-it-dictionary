@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "novita_ai",
+  "norm_term": "novita_ai",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Novita AI 是一家专注于生成式人工智能图像创作的公司，其核心产品是提供高性能、低延迟的AI图像生成API与Web服务，支持文生图、图生图、局部重绘等主流功能。它以开源模型（如Stable Diffusion）为基础，通过自研优化实现快速出图和高并发处理能力。普通用户需要了解它，是因为它为开发者、设计师和内容创作者提供了稳定、可集成、按需付费的AI绘图基础设施，无需自建GPU集群即可获得专业级图像生成能力。",
+    "metaphor": "就像一家24小时营业的智能印刷工坊，你只需提交文字订单（提示词），它就能秒级交付高清定制插画，无需自己购置油墨、纸张或训练师傅。",
+    "example": "一位独立游戏开发者使用 Novita AI 的API，在Unity编辑器中输入'赛博朋克风格的猫形机器人，霓虹雨夜街道背景'，3秒内生成多张可用角色原画，直接导入项目资源库。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:23:58Z",
+  "updated_at": "2026-03-21T08:55:59Z"
+}

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Knowledge Worker Automation",
+  "term": "knowledge_worker_automation",
   "norm_term": "knowledge_worker_automation",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Knowledge Worker Automation 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Knowledge Worker Automation，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Knowledge worker automation 指利用软件工具（如AI助手、低代码平台、RPA、智能文档处理等）自动执行知识型工作者日常依赖认知能力完成的任务，例如撰写报告、分析数据、整理会议纪要、生成邮件或做初步研究。它不替代人的判断与创造力，而是减少重复性脑力劳动，提升思考质量和决策效率。普通用户需要了解它，因为越来越多办公场景正被这类自动化渗透——掌握其原理和边界，有助于更高效协作、避免被技术牵着走，并在职业发展中主动驾驭工具而非被工具取代。",
+    "metaphor": "就像一位经验丰富的研究助理，能快速整理文献、提炼要点、起草初稿，但最终是否采用、如何修改、往哪个方向深入，仍由你这位主研究员拍板决定。",
+    "example": "一位市场分析师用AI工具自动抓取竞品官网更新、汇总社交媒体舆情关键词、生成周度简报草稿，再花30分钟审阅修正并加入战略洞察，而非手动耗时4小时收集整理。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Knowledge Worker Automation - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Knowledge_Worker_Automation",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:54:58Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "spendee",
+  "norm_term": "spendee",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Spendee 是一款专注于个人财务管理的移动应用，帮助用户追踪日常收支、设置预算、分析消费习惯并生成可视化报告。它通过简洁的界面和自动化记账功能（如银行同步、分类标签、周期性账单识别）降低理财门槛。普通用户需要知道它，是因为现代生活中消费渠道碎片化、账单类型繁多，手动记账容易遗漏或放弃；而 Spendee 提供低认知负荷的工具，让非财务背景的人也能持续掌握资金流向，避免超支，逐步建立理性消费意识。",
+    "metaphor": "Spendee 就像你钱包的‘私人记账员+营养师’——不仅实时记录每一分钱的进出，还会告诉你哪些支出是‘高糖高脂’（非必要开销），哪些是‘优质蛋白’（投资型消费）。",
+    "example": "一位自由职业者用 Spendee 连接其 PayPal 和信用卡账户，自动导入交易，并为‘客户预付款’‘平台佣金’‘咖啡外卖’等设置自定义分类；月底App生成图表显示32%支出集中在餐饮外送，促使她调整每周外卖限额。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:04:08Z",
+  "updated_at": "2026-03-21T09:50:25Z"
+}

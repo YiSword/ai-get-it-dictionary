@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Audio Token",
+  "term": "audio_token",
   "norm_term": "audio_token",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "推理与部署",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Audio Token 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Audio Token，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "audio_token 是语音处理系统中将原始音频信号（如语音波形）分割并编码后的最小语义或声学单元，通常由神经网络生成，用于后续建模、生成或理解任务。它类似于文本中的词元（token），但面向声音——不是直接对应音素或单词，而是模型在训练中自学习到的离散化表示。普通用户无需手动操作 audio_token，但在使用语音合成（TTS）、语音识别（ASR）或语音克隆等AI功能时，其底层稳定性与质量直接受 audio_token 设计影响：例如 token 划分过粗会导致发音失真，过细则增加延迟和错误累积风险。",
+    "metaphor": "就像把一整段乐谱拆解成标准尺寸的乐高积木块，每块不直接对应某个音符，却能灵活拼出任意旋律。",
+    "example": "在Whisper语音识别模型中，输入的音频被编码为一系列 audio_token，再由解码器逐个映射为文字；若某段咳嗽声被错误地编码为一个有效 audio_token，就可能导致转录中意外插入‘啊’字。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Audio Token - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Audio_Token",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:48:15Z"
 }

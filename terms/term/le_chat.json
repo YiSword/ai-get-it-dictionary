@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Le Chat",
+  "term": "le_chat",
   "norm_term": "le_chat",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Le Chat 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Le Chat，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "le_chat 是法语中‘聊天’或‘对话’的阳性名词，字面意为‘那只猫’（le = 定冠词‘这/那’，chat = 猫），但在数字语境下常被程序员或法语区开发者用作幽默代称，指代轻量级聊天功能、原型聊天界面或测试用的‘占位猫’（如用猫图代替未加载头像）。普通用户无需掌握该词，但若在法语技术文档、开源项目注释或双语UI中见到，需注意它并非真指动物，而是带有调侃意味的占位符或功能简写。",
+    "metaphor": "就像办公室白板上随手画的一只猫头像，用来临时标记‘这里将来放用户头像’——le_chat 不是真的猫，而是技术团队心照不宣的‘聊天功能待办便签’。",
+    "example": "某法语版聊天App的开发日志写道：‘/api/messages 的 mock 响应暂用 le_chat 替代真实会话列表，待后端联调完成即替换。’"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Le Chat - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Le_Chat",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:06:17Z"
 }

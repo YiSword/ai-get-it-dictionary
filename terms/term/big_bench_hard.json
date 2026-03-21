@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "BIG-bench Hard",
+  "term": "big_bench_hard",
   "norm_term": "big_bench_hard",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "BIG-bench Hard 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 BIG-bench Hard，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "big_bench_hard（BBH）是一个专为评估大语言模型高级推理能力而设计的基准测试子集，从原始BIG-Bench中筛选出最难、最易出错的23个任务，涵盖逻辑推理、数学推导、符号操作、多步因果分析等。它被广泛用于衡量模型是否真正具备稳健的泛化与深层推理能力，而非依赖表面模式匹配。普通用户需要了解它，是因为它揭示了当前AI在‘看似聪明’表象下的真实短板——比如能写诗却解不开小学奥数题，这对判断模型是否可靠、能否用于教育或专业场景至关重要。",
+    "metaphor": "就像驾照考试中的‘夜间雨天高速变道+突发障碍物应对’环节，BBH不是考你能不能开直线，而是专门挑最考验真功夫的极端路况来检验AI的驾驶本能。",
+    "example": "研究人员用BBH评估某新发布的开源大模型时，发现其在‘逻辑谜题’和‘算法追踪’任务上准确率不足30%，远低于人类平均水平，从而明确指出该模型尚不适用于需要严谨推理的编程辅助或法律条款分析场景。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "BIG-bench Hard - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/BIG-bench_Hard",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:06:46Z"
 }

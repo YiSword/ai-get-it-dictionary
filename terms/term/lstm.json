@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "LSTM",
+  "term": "lstm",
   "norm_term": "lstm",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LSTM 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 LSTM，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "LSTM（长短期记忆网络）是一种特殊的循环神经网络（RNN），专门设计用来解决传统RNN在处理长序列时容易出现的梯度消失或爆炸问题，从而能有效学习和记住远距离的时间依赖关系。它通过引入门控机制（输入门、遗忘门、输出门）来选择性地保留、更新或丢弃信息。普通用户需要了解LSTM，是因为它支撑着许多日常技术——如手机语音识别、智能回复、实时翻译和股票趋势预测等——背后的关键能力：理解上下文和时间顺序。",
+    "metaphor": "LSTM就像一位经验丰富的图书管理员，能自主决定哪些新书要上架（输入门）、哪些旧书该下架淘汰（遗忘门）、以及当前该向读者推荐哪部分内容（输出门）。",
+    "example": "在手机输入法中，LSTM模型根据你之前连续输入的几个词（例如‘今天天气’），预测下一个最可能的词（如‘很好’或‘预报’），实现流畅的上下文感知联想。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "LSTM - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/LSTM",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:22:31Z"
 }

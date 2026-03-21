@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Idempotency",
+  "term": "idempotency",
   "norm_term": "idempotency",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Idempotency 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Idempotency，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Idempotency（幂等性）指一个操作无论执行一次还是重复执行多次，产生的结果都完全相同，且不会引发额外副作用。它在分布式系统、网络通信和API设计中至关重要——例如用户重复点击‘支付’按钮时，幂等机制能确保只扣款一次，避免重复交易。普通用户虽不直接接触该概念，但正因后端实现了幂等性，才得以享受稳定、可信的数字服务，如订单不重复提交、消息不重复处理。",
+    "metaphor": "就像按电梯关门键：按一次或连续按五次，门都只关一次，不会因为多按而把门关得更紧或关两次。",
+    "example": "银行转账API通过接收唯一请求ID来识别并忽略重复提交，即使网络超时导致客户端重发，账户也仅被扣款一次。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Idempotency - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Idempotency",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:22:54Z"
 }

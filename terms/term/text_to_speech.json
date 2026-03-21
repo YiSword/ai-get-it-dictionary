@@ -1,35 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Text-to-Speech",
+  "term": "text_to_speech",
   "norm_term": "text_to_speech",
   "lang": "en",
-  "aliases": [
-    "文字转语音",
-    "文本转语音"
-  ],
+  "aliases": [],
   "entity_type": "concept",
-  "category": "推理与部署",
-  "difficulty": "入门",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Text-to-Speech 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Text-to-Speech，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "text_to_speech（TTS）是一种将书面文字自动转换为自然语音的技术。它通过人工智能模型分析文本的语法、语义和上下文，生成接近真人发音的音频。普通用户需要了解它，因为它广泛应用于无障碍服务（如视障人士阅读网页）、智能助手（如手机语音播报）、有声书生成和语言学习工具中，让信息获取更便捷、更包容。",
+    "metaphor": "就像一位不知疲倦的朗读员，只需给你一段文字，就能立刻用清晰流畅的声音把它读出来。",
+    "example": "当你在导航App中输入目的地后，系统用TTS将‘前方300米右转’实时转为语音提示，引导你驾驶。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Text-to-Speech - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Text-to-Speech",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
-  "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T10:05:42Z"
 }

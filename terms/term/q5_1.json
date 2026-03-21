@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "q5_1",
+  "norm_term": "q5_1",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "q5_1 是一种量化格式，用于将浮点权重（如 LLM 模型中的参数）压缩为每权重 5 位整数加 1 位符号标志的低精度表示，兼顾模型精度与推理效率。它属于 GGUF 格式中常用的量化方案之一，常用于本地运行大语言模型（如 Llama 系列）时减少显存/内存占用并加速推理。普通用户需要了解它，是因为在下载和运行量化模型时，文件名中常见的 'q5_1' 直接反映了模型的精度-速度权衡：比 q4_k_m 更准、比 q6_k 更轻量，是桌面端平衡体验的主流选择。",
+    "metaphor": "就像把一本高清摄影集压缩成略带颗粒感但依然清晰可辨的胶片扫描版——牺牲一点细节，换来更快翻页和更小书架空间。",
+    "example": "当你在 Ollama 或 LM Studio 中下载 'llama3:8b-q5_1' 模型时，你实际获取的是一个经 q5_1 量化压缩的 80 亿参数模型，能在 8GB 显存的笔记本上流畅运行对话任务。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T17:16:36Z",
+  "updated_at": "2026-03-21T09:21:51Z"
+}

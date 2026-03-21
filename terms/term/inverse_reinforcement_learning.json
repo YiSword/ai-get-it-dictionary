@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Inverse Reinforcement Learning",
+  "term": "inverse_reinforcement_learning",
   "norm_term": "inverse_reinforcement_learning",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Inverse Reinforcement Learning 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Inverse Reinforcement Learning，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "逆强化学习（Inverse Reinforcement Learning, IRL）是一种机器学习方法，旨在从专家的示范行为中反推出其背后隐含的奖励函数，而不是像传统强化学习那样预先给定奖励信号。它解决了‘如何让AI理解人类真正想要什么’这一关键问题——因为人类往往难以精确描述目标，却能自然地演示正确行为。普通用户需要了解它，是因为它正被用于使自动驾驶、服务机器人等系统更安全、更符合人类价值观，避免因错误设定奖励而导致危险或违背意图的行为。",
+    "metaphor": "就像通过观察一位米其林厨师反复制作某道菜的过程，推断出他最看重的是鲜味、火候还是食材本味，而不是直接问他‘你的菜谱打分标准是什么’。",
+    "example": "在自动驾驶中，IRL 可以通过分析人类司机在复杂路口的转向、刹车和变道决策，自动学习‘安全优先、礼让行人、平稳驾驶’等隐性驾驶准则，而非依赖工程师手工编写每条规则。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Inverse Reinforcement Learning - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Inverse_Reinforcement_Learning",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:38:40Z"
 }

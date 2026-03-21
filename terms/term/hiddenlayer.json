@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "HiddenLayer",
+  "term": "hiddenlayer",
   "norm_term": "hiddenlayer",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "HiddenLayer 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 HiddenLayer，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "hidden layer（隐藏层）是人工神经网络中位于输入层和输出层之间的中间计算层，不直接与外部数据交互，但负责提取和转换输入数据的抽象特征。它通过权重、偏置和非线性激活函数对信息进行逐层加工，使模型能学习复杂模式（如图像中的边缘、纹理，或文本中的语义关系）。普通用户需要了解它，因为隐藏层的数量和结构直接影响AI模型的能力与局限——例如，过少可能导致识别不准，过多可能造成‘黑箱’决策难以解释，这关系到我们对智能助手、推荐系统或医疗辅助工具的信任与使用方式。",
+    "metaphor": "就像厨师在做菜时不会把所有调料直接倒进客人碗里，而是先在后厨混合、熬煮、调味，隐藏层就是神经网络的‘后厨’，默默完成关键的信息加工。",
+    "example": "在手机人脸识别功能中，输入是摄像头捕获的原始像素图像，经过多个隐藏层逐步提取出眼睛间距、鼻梁轮廓、唇形等高阶特征，最终输出‘是否为本人’的判断。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "HiddenLayer - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/HiddenLayer",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:09:59Z"
 }

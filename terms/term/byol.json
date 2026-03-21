@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "BYOL",
+  "term": "byol",
   "norm_term": "byol",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "BYOL 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 BYOL，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "BYOL（Bootstrap Your Own Latent）是一种自监督学习算法，用于在没有人工标注数据的情况下训练深度神经网络的视觉表征。它通过让网络同时学习两个不同视角下同一图像的特征一致性，来构建鲁棒的特征提取器。普通用户需要了解BYOL，因为它正推动AI模型在医疗影像分析、工业质检等标注成本高昂或隐私敏感领域的落地，减少对大量人工标注的依赖，从而加速实用AI系统的开发与部署。",
+    "metaphor": "就像一个人闭着眼睛用双手反复触摸同一个物体的不同侧面，逐渐在脑中构建出它的完整形状——BYOL让AI通过‘自我对话’不断校准对图像本质的理解。",
+    "example": "一家医学影像公司使用BYOL预训练一个胸部X光片特征提取器，仅用未标注的10万张常规X光片，就在后续只需少量标注数据的情况下，准确识别出早期肺结节。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "BYOL - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/BYOL",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:16:00Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "IPO",
+  "term": "ipo",
   "norm_term": "ipo",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "IPO 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 IPO，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "IPO（Initial Public Offering，首次公开募股）是指一家私人公司第一次向公众发行股票，并在证券交易所上市交易的过程。它标志着公司从私有转向公众所有，需接受更严格的财务披露和监管要求。普通用户需要了解IPO，因为它不仅影响个人投资选择（如能否申购新股），还可能反映行业趋势或经济热度；同时，参与打新、持有上市后股票或关注相关公司产品服务的用户，都可能直接受到IPO带来的市场波动、估值变化及企业战略调整的影响。",
+    "metaphor": "IPO就像一家长期只接待熟客的精品餐厅，首次敞开大门接受所有路人进店消费并公开张贴每日账本和厨师简历。",
+    "example": "2021年滴滴出行在美国启动IPO，向全球投资者发售股票，成为当年备受关注的科技公司上市事件；普通投资者可通过券商账户参与其美股打新或上市后买卖其股票。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "IPO - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/IPO",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:40:27Z"
 }

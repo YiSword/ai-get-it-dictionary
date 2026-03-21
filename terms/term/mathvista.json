@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "MathVista",
+  "term": "mathvista",
   "norm_term": "mathvista",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MathVista 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 MathVista，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "MathVista 是一个面向数学视觉推理的多模态基准数据集，专门用于评估AI模型在理解数学图表、公式、几何图形及文字混合内容时的综合推理能力。它包含数千道真实教育场景中的题目，涵盖代数、几何、统计等类型，并要求模型结合图像与文本进行逻辑推导。普通用户（如教师、学生或教育科技开发者）需要了解它，因为它反映了当前AI处理教科书式数学问题的真实水平，有助于判断哪些工具能真正辅助学习或教学设计。",
+    "metaphor": "就像一场专为AI设置的‘数学中考’，试卷里既有文字题干，又有手绘函数图、几何示意图和表格，还要求写出解题步骤。",
+    "example": "一名教师用MathVista测试一款教育AI助手，发现它能正确解析一道含扇形统计图和百分比问题的初中数学题，并分步解释圆心角计算过程。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "MathVista - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/MathVista",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:28:01Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "rouge_score",
+  "norm_term": "rouge_score",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "ROUGE（Recall-Oriented Understudy for Gisting Evaluation）是一种用于自动评估文本摘要或生成式自然语言任务质量的指标套件，主要通过计算生成文本与参考文本之间n-gram、词序列和词对的重叠程度来衡量召回率。它不依赖人工评分，能快速批量评估模型输出的忠实度和信息覆盖度。普通用户（尤其是开发者、研究人员或内容平台运营者）需要了解ROUGE_score，因为它常被用来客观比较不同摘要模型或AI写作工具的效果，避免仅凭主观感受判断好坏。",
+    "metaphor": "就像用一把带刻度的‘信息筛子’去过滤学生写的读书报告，ROUGE_score不是看文笔多优美，而是数一数里面有多少关键知识点和老师提供的标准答案完全一致。",
+    "example": "当训练一个新闻摘要AI时，研究者会用ROUGE-L分数对比模型生成的摘要与人工撰写的黄金摘要，若ROUGE-L得分为0.65，说明两者最长公共子序列覆盖了约65%的关键信息片段。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:16:27Z",
+  "updated_at": "2026-03-21T09:35:08Z"
+}

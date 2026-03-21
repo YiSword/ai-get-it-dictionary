@@ -1,35 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Knowledge Base",
+  "term": "knowledge_base",
   "norm_term": "knowledge_base",
   "lang": "en",
-  "aliases": [
-    "知识库",
-    "企业知识库"
-  ],
+  "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
-  "difficulty": "入门",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Knowledge Base 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Knowledge Base，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "knowledge_base（知识库）是一个结构化存储和组织信息的系统，通常包含经过验证的事实、规则、常见问题解答、文档或领域专业知识。它被设计为可被人类或机器高效检索与利用，广泛应用于客服机器人、企业内部支持系统和AI助手等场景。普通用户需要了解它，是因为日常接触的智能客服、搜索建议甚至文档推荐背后往往依赖知识库提供准确、一致的答案，理解这一点有助于更有效地提问和判断信息可靠性。",
+    "metaphor": "就像图书馆的分类目录卡+精选参考书架的结合体——既知道去哪里找答案，又确保每本书的内容都经过审核、易于调用。",
+    "example": "某银行将账户类型说明、转账限额规则、反欺诈流程等政策整理成结构化知识库，供手机App内的AI客服实时查询，用户问‘跨境汇款要多久’时，系统能即时返回准确、合规的回答。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Knowledge Base - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Knowledge_Base",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:15:16Z",
-  "updated_at": "2026-03-19T09:15:16Z"
+  "updated_at": "2026-03-21T07:52:40Z"
 }

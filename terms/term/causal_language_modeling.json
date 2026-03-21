@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Causal Language Modeling",
+  "term": "causal_language_modeling",
   "norm_term": "causal_language_modeling",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
-  "category": "模型架构",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Causal Language Modeling 是 AI 模型体系中的重要结构或模型类型，决定了模型如何理解输入、组织信息和生成结果。虽然普通用户不会直接训练它，但很多今天常见的 AI 能力都建立在这类结构之上。理解它能帮助你建立更完整的 AI 基础认知。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Causal Language Modeling，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "因果语言建模（Causal Language Modeling）是一种训练语言模型的方法，要求模型在预测下一个词时只能依赖前面的词（即‘从左到右’的单向注意力），不能看到后续内容。这模拟了人类阅读或生成文本时的自然顺序，是GPT系列等自回归模型的核心机制。普通用户需要了解它，因为这解释了为什么这类AI能流畅续写文本，但也意味着它无法基于整句上下文做双向推理——比如无法像人类一样反复推敲前后逻辑。",
+    "metaphor": "就像一位只允许向前看的火车司机，只能根据已驶过的轨道决定下一节车厢该往哪拐，却看不见前方铁轨的全貌。",
+    "example": "当你在聊天界面输入‘今天天气真’，因果语言模型会基于这三个字依次预测‘好’‘晴’‘闷’等可能的下一个字，而不会利用尚未生成的后续词来反向调整预测。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Causal Language Modeling - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Causal_Language_Modeling",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:21:33Z"
 }

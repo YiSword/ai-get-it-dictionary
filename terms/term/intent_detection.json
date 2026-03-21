@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Intent Detection",
+  "term": "intent_detection",
   "norm_term": "intent_detection",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Intent Detection 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Intent Detection，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "intent_detection（意图识别）是指自然语言处理技术中，从用户输入的文本或语音中自动识别其真实目的或需求的过程。例如，当用户说‘帮我订明天下午三点的会议室’，系统需理解这不是在询问时间，而是发出一个预订请求。普通用户需要知道它，因为这是智能助手、客服机器人和语音助手能否准确响应的关键——识别错误意图会导致答非所问，降低使用体验和效率。",
+    "metaphor": "就像一位经验丰富的餐厅服务员，听到顾客说‘今天有点热’，立刻端来一杯冰水，而不是机械地回答‘是的，天气预报显示32度’。",
+    "example": "在智能音箱场景中，用户说‘播放周杰伦最火的歌’，意图识别模块需判断这是音乐播放请求而非信息查询，并触发播放动作而非朗读排行榜数据。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Intent Detection - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Intent_Detection",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T07:36:54Z"
 }

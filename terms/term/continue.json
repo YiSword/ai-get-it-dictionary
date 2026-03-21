@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Continue",
+  "term": "continue",
   "norm_term": "continue",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Continue 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Continue，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "continue 是编程中的一种控制流语句，用于跳过当前循环的剩余部分，直接进入下一次迭代。它不终止整个循环，而是提前结束本次循环体的执行，立即检查循环条件并继续运行。普通用户虽不直接写代码，但在理解自动化流程（如批量处理文件、游戏中的重复动作逻辑或智能设备的周期性响应）时，了解 continue 能帮助区分‘跳过某次操作’和‘彻底停止任务’的区别，避免对程序行为产生误解。",
+    "metaphor": "就像在阅读一本书时，遇到一页广告就直接翻到下一页正文，而不是合上书本停止阅读。",
+    "example": "在遍历用户列表发送通知时，若发现某用户已退订，用 continue 跳过该用户，继续为其余有效用户发送消息。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Continue - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Continue",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:54:42Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Credit Assignment",
+  "term": "credit_assignment",
   "norm_term": "credit_assignment",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Credit Assignment 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Credit Assignment，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "credit_assignment（信用分配）是强化学习中的核心问题，指在智能体完成一个长序列动作并获得最终奖励后，如何将该奖励合理地归因到此前每一步具体动作上的过程。它决定了哪些行为真正促成了成功（或失败），从而指导策略更新。普通用户需要了解它，因为它是AI自主学习、优化决策逻辑的基础机制——比如推荐系统如何判断是哪次点击导致了用户最终下单，或自动驾驶中哪次转向避免了事故。",
+    "metaphor": "就像导演回看一场电影成片后，要逐帧分析是哪句台词、哪个镜头、哪次剪辑真正打动了观众，才能改进下一部作品。",
+    "example": "在训练一个玩Atari游戏的AI时，它在第1000帧打出最后一击击败Boss并获得高分，信用分配算法会追溯计算前几秒内每一次按键对最终胜利的贡献度，而非简单地把全部功劳归给最后一击。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Credit Assignment - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Credit_Assignment",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:04:08Z"
 }

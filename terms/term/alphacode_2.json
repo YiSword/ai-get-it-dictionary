@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "alphacode_2",
+  "norm_term": "alphacode_2",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "alphacode_2 是微软研究院于2021年发布的开源代码生成模型，专为将自然语言描述精准转化为可执行代码而设计，支持Python、JavaScript等主流语言。它基于Transformer架构，经大量代码语料训练，在代码补全、函数生成和算法实现等任务中表现突出。普通用户（尤其是开发者、编程学习者或需快速原型开发的非专业程序员）需要了解它，因为它能显著提升编码效率、降低入门门槛，并辅助理解复杂逻辑的实现方式。",
+    "metaphor": "就像一位精通多门编程语言的资深结对程序员，你只需用日常语言描述需求，它便能即时写出结构清晰、符合惯例的代码草稿。",
+    "example": "一名数据分析师在Jupyter Notebook中输入自然语言指令‘读取CSV文件，删除缺失值，按销售额降序排列前10行’，alphacode_2 自动生成了完整的Pandas代码并正确执行。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:04:36Z",
+  "updated_at": "2026-03-21T03:33:20Z"
+}

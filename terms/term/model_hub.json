@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Model Hub",
+  "term": "model_hub",
   "norm_term": "model_hub",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Model Hub 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Model Hub，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "model_hub 是一个集中托管、分发和管理预训练机器学习模型的在线平台或服务，类似于软件开发中的包管理仓库（如 PyPI 或 npm）。它允许研究人员和开发者上传、发现、下载和复用各类模型（如图像分类、文本生成等），显著降低重复训练成本、提升开发效率。普通用户需要了解它，因为它是快速接入前沿 AI 能力的关键入口——无需从头训练模型，就能在自己的应用中集成高性能模型。",
+    "metaphor": "就像应用商店之于手机App，model_hub 是AI模型的‘应用商店’：用户无需自己编写代码开发功能，只需搜索、点击安装即可获得开箱即用的智能能力。",
+    "example": "一名前端开发者想为网站添加图片自动打标签功能，直接从 Hugging Face Model Hub 下载并加载一个现成的 ViT-ImageNet 模型，几行代码就完成了集成，无需训练数据或GPU资源。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Model Hub - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Model_Hub",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:46:49Z"
 }

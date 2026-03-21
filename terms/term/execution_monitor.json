@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Execution Monitor",
+  "term": "execution_monitor",
   "norm_term": "execution_monitor",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Execution Monitor 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Execution Monitor，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "execution_monitor 是一种运行时监控机制，用于实时跟踪程序或系统任务的执行状态、资源消耗、异常行为和完成进度。它通常嵌入在软件框架、自动化工具或运维平台中，帮助开发者和运维人员及时发现卡死、超时、内存泄漏或逻辑错误等问题。普通用户虽不直接操作它，但在使用依赖该机制的应用（如云服务、CI/CD流水线、智能设备固件更新）时，其稳定性、响应速度和故障恢复能力都直接受益于 execution_monitor 的存在。",
+    "metaphor": "就像汽车仪表盘上的转速表和故障灯，execution_monitor 不干预驾驶，但时刻显示引擎是否正常运转、有无异常征兆。",
+    "example": "在持续集成系统中，execution_monitor 会实时记录每个测试用例的执行耗时、返回码和日志输出；一旦某个测试超时或崩溃，立即中断流程并触发告警。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Execution Monitor - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Execution_Monitor",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:16:49Z"
 }

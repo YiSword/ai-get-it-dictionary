@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Document Retrieval",
+  "term": "document_retrieval",
   "norm_term": "document_retrieval",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Document Retrieval 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Document Retrieval，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "document_retrieval（文档检索）是指从大规模文档集合中快速、准确地找出与用户查询最相关的一组文档的技术。它广泛应用于搜索引擎、企业知识库、法律文书系统和学术数据库等场景。普通用户需要了解这一概念，是因为它直接影响搜索结果的质量——比如输入关键词后能否立刻看到真正有用的内容，而非海量无关信息；理解其原理有助于更有效地构造查询词，提升信息获取效率。",
+    "metaphor": "就像图书馆的智能索引员，你只说一句‘找讲量子计算的中文科普书’，他就能绕过上万册藏书，三秒内把最匹配的五本递到你手上。",
+    "example": "当你在公司内部Wiki中搜索‘2023年报销流程更新’，文档检索系统会自动过滤掉旧版本、无关政策或英文文档，精准返回最新修订的PDF指南和配套FAQ页面。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Document Retrieval - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Document_Retrieval",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T05:45:59Z"
 }

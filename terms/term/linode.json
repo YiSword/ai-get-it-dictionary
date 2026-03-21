@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "linode",
+  "norm_term": "linode",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Linode 是一家提供云基础设施服务的美国公司，主要面向开发者和中小型企业，提供按需付费的虚拟私有服务器（VPS）、对象存储、Kubernetes 集群、负载均衡等云计算产品。它以简洁的控制台、透明的定价、高性能的SSD存储和良好的开发者文档著称。普通用户需要了解 Linode，是因为它是一种比传统虚拟主机更灵活、比大型公有云（如 AWS）更易上手的入门级云平台，适合部署个人博客、小型网站、开发测试环境或学习 DevOps 实践。",
+    "metaphor": "Linode 就像一间配备齐全、随租随用的智能工作室——你无需购买整栋楼（物理服务器），也不用应付复杂物业规则（云厂商冗余服务），只需按小时租下带桌椅、电源和高速网络的独立工位，立刻开始创作。",
+    "example": "一位前端开发者使用 Linode 创建一台 Ubuntu VPS，安装 Nginx 和 Node.js，将自己开发的待办事项 Web 应用部署上线，并通过 Linode 的 DNS 管理功能绑定自定义域名 todo.example.com。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:39:57Z",
+  "updated_at": "2026-03-21T08:10:30Z"
+}

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Circuit Breaker",
+  "term": "circuit_breaker",
   "norm_term": "circuit_breaker",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Circuit Breaker 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Circuit Breaker，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "circuit_breaker（熔断器）是一种软件设计模式，用于防止系统在依赖服务持续失败时陷入雪崩式崩溃。它通过监控调用失败率，在异常达到阈值时自动‘熔断’——即暂时拒绝后续请求，避免无效重试和资源耗尽；经过一段冷却期后尝试半开状态，逐步恢复服务。普通用户虽不直接操作它，但它的存在显著提升了App、网站等在线服务的稳定性和响应速度，减少频繁报错或长时间卡顿。",
+    "metaphor": "就像家庭电路中的保险丝，当电流过载时自动切断电源，保护整个电路不被烧毁；熔断器在服务调用异常激增时‘跳闸’，给系统留出喘息和修复的时间。",
+    "example": "某电商App调用支付网关时因网络故障连续超时，熔断器在10秒内检测到失败率超80%，立即切换为熔断状态，后续支付请求快速返回友好提示而非等待超时；5分钟后进入半开状态，试探性放行少量请求验证支付服务是否恢复。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Circuit Breaker - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Circuit_Breaker",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:29:53Z"
 }

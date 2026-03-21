@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Autonomous Debugging",
+  "term": "autonomous_debugging",
   "norm_term": "autonomous_debugging",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Autonomous Debugging 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Autonomous Debugging，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "autonomous_debugging（自主调试）指软件系统在无需人工干预的情况下，自动检测、定位、诊断并修复运行时错误或性能异常的能力。它依赖于内置的可观测性机制（如日志、指标、追踪）、AI驱动的根因分析模型以及可编程的修复策略（如回滚、参数调优、服务重启）。普通用户需要了解这一概念，因为随着应用复杂度提升和云原生架构普及，传统手动调试耗时低效，而具备自主调试能力的系统能显著缩短故障恢复时间、提升服务稳定性，并降低对专业运维人员的即时依赖。",
+    "metaphor": "就像一辆智能汽车在行驶中自动识别轮胎漏气、计算最佳补救方案并启动应急充气系统，全程无需驾驶员下车检查或求助维修站。",
+    "example": "某电商微服务在大促期间突发订单超时，autonomous_debugging系统通过实时链路追踪识别出数据库连接池耗尽，随即动态扩容连接数并临时降级非核心日志写入，5秒内恢复正常响应。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Autonomous Debugging - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Autonomous_Debugging",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:50:50Z"
 }

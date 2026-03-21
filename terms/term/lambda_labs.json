@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "lambda_labs",
+  "norm_term": "lambda_labs",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Lambda Labs 是一家专注于人工智能基础设施的美国科技公司，主要提供高性能 GPU 云服务、AI 开发平台（如 Lambda Stack）和预配置的深度学习工作站。它面向研究人员、工程师和初创团队，帮助用户快速部署和训练大模型，而无需自建昂贵硬件。普通用户需要知道它，是因为在缺乏本地算力或预算有限时，Lambda Labs 提供了开箱即用、按需付费的 AI 实验环境，显著降低了 AI 开发门槛。",
+    "metaphor": "就像为厨师提供已备好灶具、刀具和顶级食材的共享中央厨房，Lambda Labs 不卖厨具，但让你随时租用整套专业烹饪环境来试做新菜谱。",
+    "example": "一位研究生想微调 Llama-3 模型但没有 A100 显卡，她注册 Lambda Cloud，5 分钟内启动一台搭载 8 张 A100 的实例，加载数据集并开始训练，按小时付费，无需运维。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:28:37Z",
+  "updated_at": "2026-03-21T07:59:19Z"
+}

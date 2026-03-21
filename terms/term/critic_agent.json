@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Critic Agent",
+  "term": "critic_agent",
   "norm_term": "critic_agent",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "产品概念",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Critic Agent 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Critic Agent，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "critic_agent（评审智能体）是一种专门负责评估、验证和反馈其他AI智能体（如生成式agent）输出质量的独立模块。它不生成新内容，而是基于预设标准（如事实准确性、逻辑一致性、安全性或风格合规性）对结果进行打分、修正建议或拒绝响应。普通用户需要了解它，因为它是保障AI输出可信、可靠和安全的关键防线——尤其在医疗咨询、法律建议或教育场景中，避免错误信息被直接采纳。",
+    "metaphor": "就像论文投稿后必须经过同行评审专家审阅才能发表，critic_agent就是AI工作流中的‘学术审稿人’，不执笔写作，但决定成果能否过关。",
+    "example": "在自动编写合同的AI系统中，critic_agent会检查生成条款是否违反现行法规、是否存在模糊表述或责任漏洞，并标出风险段落供人工复核或触发重写。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Critic Agent - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Critic_Agent",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:04:53Z"
 }

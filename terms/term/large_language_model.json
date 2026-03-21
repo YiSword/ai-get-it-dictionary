@@ -1,28 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Large Language Model",
+  "term": "large_language_model",
   "norm_term": "large_language_model",
   "lang": "en",
-  "aliases": ["LLM", "大语言模型", "大型语言模型"],
+  "aliases": [],
   "entity_type": "concept",
-  "category": "产品概念",
-  "difficulty": "入门",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Large Language Model 是一种通过大量文本训练出来的 AI 语言模型，擅长理解和生成自然语言。你平时用到的聊天机器人、写作助手、总结工具，很多底层都属于这一类。它不是在真正思考，而是在根据上下文预测更合理的下一段内容。",
-    "metaphor": "它就像一个读过海量资料的文字助手，能快速接话、改写和总结，但不等于真的懂世界上的每件事。",
-    "example": "比如你让 AI 帮你写邮件、改文案或解释概念时，背后通常就是 Large Language Model 在工作，因为这类任务本质上都和语言理解与生成有关。"
+    "plain": "大型语言模型（Large Language Model, LLM）是一种基于深度学习的AI系统，通过在海量文本数据上训练，学会理解、生成和推理人类语言。它能回答问题、写文章、翻译、编程等，是当前智能助手、聊天机器人和内容创作工具的核心技术。普通用户需要了解它，因为LLM正深度融入搜索引擎、办公软件、教育平台等日常工具中，理解其能力与局限（如可能编造信息、缺乏真实经验）有助于更安全、高效地使用AI服务。",
+    "metaphor": "就像一位读过整个图书馆书籍、但从未亲身生活过的超级速记员——知识渊博却无法替你感受风吹雨打。",
+    "example": "当你在手机备忘录中输入‘帮我写一封辞职信，语气礼貌简洁’，背后调用的LLM会即时生成符合要求的文本；又或程序员在VS Code中使用GitHub Copilot，由LLM实时建议代码补全。"
   },
-  "scenario_tags": ["对话", "写作", "摘要", "问答"],
-  "sources": [
-    {
-      "title": "Large language model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Large_language_model",
-      "type": "glossary"
-    }
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
-  "created_at": "2026-03-19T08:50:00.000Z",
-  "updated_at": "2026-03-19T08:50:00.000Z"
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T08:01:29Z"
 }

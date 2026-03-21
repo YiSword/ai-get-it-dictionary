@@ -1,36 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "GitHub Copilot",
+  "term": "github_copilot",
   "norm_term": "github_copilot",
   "lang": "en",
-  "aliases": [
-    "Copilot",
-    "GitHub AI助手"
-  ],
-  "entity_type": "product",
-  "category": "产品概念",
-  "difficulty": "入门",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "GitHub Copilot 是用户在真实使用中高频会接触到的 AI 产品或服务。它通常把模型能力包装成聊天、搜索、写作、编码或生成内容等具体功能，因此比底层技术词更容易直接感知。理解它的定位，有助于分辨不同 AI 产品各自擅长什么。",
-    "metaphor": "它就像一个已经包装好的 AI 工具箱，用户不需要知道所有底层原理，也能直接拿来完成具体任务。",
-    "example": "比如用户想直接完成写作、搜索、总结或生成内容任务时，往往会先接触 GitHub Copilot 这类产品，因为它把底层能力封装成了更容易上手的界面。"
+    "plain": "GitHub Copilot 是由 GitHub 与 OpenAI 合作开发的 AI 编程助手，它能根据开发者在代码编辑器（如 VS Code）中输入的注释、函数名或已有代码，实时建议整行或整段代码。它支持多种主流编程语言，通过理解上下文提供智能补全，显著提升编码效率、减少重复劳动，并帮助初学者学习最佳实践。普通用户（尤其是程序员、学生或技术爱好者）需要了解它，因为它正在重塑日常开发方式，类似 IDE 内置的‘结对编程伙伴’，既降低入门门槛，也推动专业开发者聚焦更高阶的设计与问题解决。",
+    "metaphor": "就像一位经验丰富的同事坐在你旁边，一边看你写需求文档，一边自然地帮你写出对应的代码。",
+    "example": "当你在 Python 文件中写下注释 '# 从 CSV 文件读取数据并返回前5行'，Copilot 会立即建议完整的 pandas 读取和切片代码：'import pandas as pd; df = pd.read_csv(\"data.csv\"); return df.head(5)'。"
   },
   "scenario_tags": [
-    "代码",
-    "编程",
-    "补全",
-    "开发"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "GitHub Copilot",
-      "url": "https://github.com/features/copilot",
-      "type": "doc"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T06:48:08Z"
 }

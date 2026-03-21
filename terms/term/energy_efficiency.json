@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Energy Efficiency",
+  "term": "energy_efficiency",
   "norm_term": "energy_efficiency",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Energy Efficiency 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Energy Efficiency，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "energy_efficiency（能效）是指设备、系统或过程在完成相同功能的前提下，消耗更少能量的能力。它通常以单位输出（如制冷量、照明亮度、计算性能）所对应的能量输入来衡量。对普通用户而言，了解能效有助于降低电费支出、延长设备寿命，并减少碳足迹——例如选购高能效标识的空调或冰箱，长期可节省数百元电费，同时支持环保目标。",
+    "metaphor": "就像一位熟练的骑手用同样的体力让自行车跑得更远，高能效设备用更少的电完成同样的工作。",
+    "example": "一台一级能效的LED灯泡在提供同等亮度时，耗电量仅为传统白炽灯的约20%，每年可节省约50度电。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Energy Efficiency - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Energy_Efficiency",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:08:24Z"
 }

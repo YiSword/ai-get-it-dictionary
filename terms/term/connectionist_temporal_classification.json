@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Connectionist Temporal Classification",
+  "term": "connectionist_temporal_classification",
   "norm_term": "connectionist_temporal_classification",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Connectionist Temporal Classification 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Connectionist Temporal Classification，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Connectionist Temporal Classification（CTC）是一种用于序列到序列建模的机器学习技术，特别适用于输入和输出长度不一致且无对齐标注的任务，比如语音识别或手写文字识别。它让神经网络直接从原始时序信号（如音频帧）预测字符序列，无需预先对齐每个音素或字符的时间位置。普通用户需要知道它，是因为它是支撑Siri、微信语音转文字等日常语音交互功能背后的关键技术之一——让设备能‘听懂’连续说话并准确转成文字。",
+    "metaphor": "就像一位速记员不需要知道每个字该写在稿纸的哪一格，却能根据讲话的节奏和语义，流畅地写下整句话。",
+    "example": "在语音助手将一段2秒的‘打开天气预报’语音流转换为对应文字时，CTC模型直接从数千个音频时间步中推断出5个汉字，而无需人工标注每个字出现的具体起止时刻。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Connectionist Temporal Classification - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Connectionist_Temporal_Classification",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:48:47Z"
 }

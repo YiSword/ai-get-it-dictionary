@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Capability Card",
+  "term": "capability_card",
   "norm_term": "capability_card",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Capability Card 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Capability Card，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "capability_card 是一种用于结构化描述系统、模型或智能体所具备功能的标准化信息单元，通常包含能力名称、输入输出规范、调用条件、限制说明及安全边界等字段。它不是代码本身，而是能力的‘说明书’和‘准入凭证’，帮助开发者、平台或用户快速理解某模块能做什么、不能做什么、如何安全使用。普通用户需要知道它，是因为在AI应用集成、插件选择或权限配置时，capability_card 提供了可读、可验证、可审计的功能承诺，避免误用或越权操作。",
+    "metaphor": "就像汽车的用户手册中一页‘功能速查卡’——清楚标明‘自动泊车’支持哪些场景、需满足什么条件（如车速<10km/h）、不适用于斜坡等限制。",
+    "example": "一个医疗问答AI在接入医院系统前，会提供一张capability_card，声明其仅能基于公开指南回答高血压用药问题，不支持诊断或处方生成，并要求输入必须脱敏处理。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Capability Card - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Capability_Card",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:19:02Z"
 }

@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Evaluator Model",
+  "term": "evaluator_model",
   "norm_term": "evaluator_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Evaluator Model 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Evaluator Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "evaluator_model 是指在人工智能系统中专门用于评估、打分或判断其他模型（如生成模型）输出质量的独立模型。它不负责生成内容，而是像一位专业评审员，依据准确性、连贯性、安全性等维度对回答进行量化评价。普通用户需要了解它，因为它的存在直接影响AI产品的可靠性——比如聊天机器人是否被严格把关、推荐结果是否经过可信度校验，进而关系到用户获取信息的准确性和使用体验的安全性。",
+    "metaphor": "就像餐厅里的神秘食客评审团，不参与做菜，但每道菜端上来都会打分、写评语，决定这道菜能否上正式菜单。",
+    "example": "在训练一个医疗问答AI时，evaluator_model会自动分析其对‘糖尿病症状’的回答是否符合临床指南、有无事实错误，并给出0–5分的质量评分，从而筛选出合格的响应进入上线流程。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Evaluator Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Evaluator_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:14:47Z"
 }

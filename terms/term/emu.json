@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "emu",
+  "norm_term": "emu",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Emu（仿真器）是一种软件，能在一种计算机系统（如现代PC）上模拟另一种硬件平台（如老式游戏机、嵌入式设备或不同架构的CPU）的行为，使原本为该平台编写的程序无需修改即可运行。普通用户需要了解emu，因为它让怀旧游戏、遗留软件或跨平台开发测试成为可能；但也需注意其法律边界——运行未获授权的商业软件镜像可能侵犯版权。",
+    "metaphor": "就像给一台现代钢琴装上虚拟琴键和音色引擎，让它能完美弹奏出上世纪古董管风琴的所有曲目和音效。",
+    "example": "用户在Windows电脑上用Dolphin Emu运行任天堂GameCube游戏《塞尔达传说：风之杖》，享受高清纹理补丁和更快的加载速度。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:38:20Z",
+  "updated_at": "2026-03-21T06:06:55Z"
+}

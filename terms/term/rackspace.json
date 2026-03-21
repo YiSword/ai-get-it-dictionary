@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "rackspace",
+  "norm_term": "rackspace",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Rackspace 是一家美国云服务与托管服务提供商，曾以‘托管云’（Managed Cloud）模式著称，即在提供基础设施（如服务器、存储、网络）的同时，由其工程师团队负责日常运维、安全加固、故障响应等专业技术支持。普通用户需要了解它，是因为它代表了一种介于完全自主管理的公有云（如AWS）和传统IDC托管之间的折中选择——既获得云的弹性，又无需自建运维能力，特别适合缺乏IT运维资源但对稳定性与响应速度有较高要求的中小企业。",
+    "metaphor": "就像租住一套精装修且配备24小时管家服务的智能公寓：你不用操心水电维修、安保升级或设备更新，所有技术琐事都由专业管家打理，你只需专注自己的生活或业务。",
+    "example": "一家快速扩张的电商初创公司选择 Rackspace 托管其 WordPress 网站和 MySQL 数据库，当遭遇突发流量高峰时，Rackspace 工程师主动优化缓存配置并横向扩展负载均衡，全程无需客户干预。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:49:39Z",
+  "updated_at": "2026-03-21T09:27:10Z"
+}

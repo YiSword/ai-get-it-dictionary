@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Activation Checkpointing",
+  "term": "activation_checkpointing",
   "norm_term": "activation_checkpointing",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Activation Checkpointing 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Activation Checkpointing，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "activation_checkpointing（激活检查点）是一种用于深度学习训练的内存优化技术，通过在前向传播中只保存部分中间激活值，而在反向传播需要时重新计算其余部分，显著降低GPU显存占用。它牺牲少量计算时间换取大幅内存节省，使用户能在有限硬件上训练更大模型或使用更大批量。普通用户（尤其是研究人员和工程师）需要了解它，因为它是应对显存不足、实现大模型微调或分布式训练的关键实用手段。",
+    "metaphor": "就像登山者只在关键营地留下少量补给，其余物资边走边重新准备，而不是全程背负所有装备。",
+    "example": "在使用PyTorch训练13B参数的LLaMA模型时，启用activation_checkpointing可将单卡显存占用从48GB降至22GB，从而在A100上完成全参数微调。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Activation Checkpointing - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Activation_Checkpointing",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T03:18:08Z"
 }

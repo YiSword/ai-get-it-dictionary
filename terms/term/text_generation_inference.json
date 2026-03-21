@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Text Generation Inference",
+  "term": "text_generation_inference",
   "norm_term": "text_generation_inference",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "推理与部署",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Text Generation Inference 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Text Generation Inference，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "text_generation_inference 是指将训练好的大语言模型部署到生产环境中，实时接收用户输入文本并高效生成响应的过程。它关注的是模型推理阶段的性能优化，包括低延迟、高吞吐、显存管理与批量处理等。普通用户虽不直接操作它，但其效果直接影响聊天机器人、代码补全、翻译工具等AI服务的响应速度、稳定性和可用性——比如你提问后是秒回还是卡顿数秒，背后就由 text_generation_inference 系统决定。",
+    "metaphor": "就像一家已研发好菜谱的餐厅，text_generation_inference 相当于后厨的标准化出餐流程：确保每份订单（用户请求）都能快速、一致、不翻车地端上桌。",
+    "example": "Hugging Face 的 TGI（Text Generation Inference）开源服务器被广泛用于部署 Llama-3 或 Mixtral 模型，让开发者能通过简单 API 调用，在几毫秒内获得高质量文本回复，支撑客服自动应答或实时写作辅助等场景。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Text Generation Inference - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Text_Generation_Inference",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:05:12Z"
 }

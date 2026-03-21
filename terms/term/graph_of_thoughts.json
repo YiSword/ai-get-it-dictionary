@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Graph of Thoughts",
+  "term": "graph_of_thoughts",
   "norm_term": "graph_of_thoughts",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Graph of Thoughts 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Graph of Thoughts，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Graph of Thoughts（思维图）是一种新型的推理架构，它将大语言模型的推理过程建模为节点（代表中间思考步骤或假设）和边（代表逻辑、因果或推导关系）构成的有向图，而非传统链式（Chain-of-Thought）的线性序列。它支持并行探索多个推理路径、回溯错误分支、动态剪枝与融合结论，从而提升复杂问题求解的鲁棒性与可解释性。普通用户需要了解它，是因为它正推动AI从‘给出答案’转向‘展示思考全过程’，使AI决策更透明、可信，也便于人类干预与校准。",
+    "metaphor": "就像一位侦探在白板上贴满线索卡片，并用彩色线条连接动机、证据和时间线，随时增删节点或重画关系，而不是只按固定顺序念出一份结案陈词。",
+    "example": "当诊断罕见医疗症状时，AI基于Graph of Thoughts同时展开‘感染性病因’‘自身免疫假说’‘遗传变异路径’三个子图，交叉验证实验室数据后抑制低置信度分支，最终融合剩余路径得出综合判断。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Graph of Thoughts - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Graph_of_Thoughts",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:58:23Z"
 }

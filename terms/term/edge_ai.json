@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Edge AI",
+  "term": "edge_ai",
   "norm_term": "edge_ai",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Edge AI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Edge AI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Edge AI 是指在靠近数据源头的设备（如智能手机、摄像头、传感器或工业控制器）上直接运行人工智能模型，而非将数据上传至云端处理。它能实现低延迟响应、节省带宽、增强隐私保护，并在无稳定网络时仍可工作。普通用户需要了解它，因为越来越多日常设备——如智能音箱实时语音识别、手机相册人脸自动分类、车载系统紧急刹车决策——都依赖 Edge AI 提供即时、安全、离线可用的智能体验。",
+    "metaphor": "就像一位随身携带专业知识的医生，不必每次问诊都回医院查资料，而是在患者床边立刻诊断并开药。",
+    "example": "工厂里的一台智能摄像头通过 Edge AI 实时分析传送带上的产品图像，在毫秒内识别出缺陷并触发停机，全程无需联网上传视频到服务器。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Edge AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Edge_AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T06:00:46Z"
 }

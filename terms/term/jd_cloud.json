@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "jd_cloud",
+  "norm_term": "jd_cloud",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "jd_cloud 是京东集团推出的云计算服务平台，提供计算、存储、网络、数据库、AI、大数据等全栈云服务，支撑企业数字化转型与业务上云。它与京东零售、物流、金融等核心业务深度协同，具备高稳定性、强安全合规性及本土化服务能力。普通用户需要了解它，不仅因为其支撑着京东APP、京东物流系统等日常高频服务的稳定运行，也因其正逐步向中小企业及开发者开放能力，影响电商、供应链、智能客服等实际应用场景。",
+    "metaphor": "就像京东自建的‘数字水电站’，既为自家商城和物流体系持续供电，也向外部企业输出稳定、可定制的‘云动力’。",
+    "example": "一家中小型家电制造商接入 jd_cloud 的供应链协同平台，实时对接京东仓配数据与销售预测模型，将库存周转周期缩短了30%。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:36:49Z",
+  "updated_at": "2026-03-21T07:45:10Z"
+}

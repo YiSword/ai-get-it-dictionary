@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Copilot Experience",
+  "term": "copilot_experience",
   "norm_term": "copilot_experience",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Copilot Experience 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Copilot Experience，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "copilot_experience 指用户在使用 AI 辅助编程工具（如 GitHub Copilot）时的整体交互感受，涵盖代码建议的准确性、响应速度、上下文理解能力、集成流畅度以及是否自然融入开发工作流。它不仅关乎技术功能，更涉及认知负荷、信任建立与生产力提升的实际效果。普通开发者需要关注这一体验，因为它直接影响编码效率、学习曲线、错误引入风险，以及长期使用中的心理舒适度和工具采纳意愿。",
+    "metaphor": "就像一位熟悉你写作风格和专业领域的资深编辑，始终坐在你旁边，不打断你思考，却总能在你停顿的瞬间递上恰到好处的下一句草稿。",
+    "example": "当开发者在 VS Code 中编写 Python 数据处理函数时，Copilot 根据前几行代码和变量名自动补全完整 Pandas 链式调用，并正确推断出需处理缺失值——这种无需频繁修正、上下文连贯的协助过程，就是典型的高质量 copilot_experience。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Copilot Experience - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Copilot_Experience",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:58:44Z"
 }

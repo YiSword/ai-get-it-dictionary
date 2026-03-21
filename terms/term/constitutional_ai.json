@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Constitutional AI",
+  "term": "constitutional_ai",
   "norm_term": "constitutional_ai",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Constitutional AI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Constitutional AI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Constitutional AI 是一种人工智能对齐方法，通过让模型在训练和推理过程中持续参照一套明确的、人类设定的原则（即‘宪法’）来约束其行为，例如拒绝有害、欺骗或不道德的回应。它不依赖大量人工标注的偏好数据，而是利用模型自我批评与修正的机制来内化价值观。普通用户需要了解它，因为它关系到AI是否真正尊重人类意图、保障安全与公平，而不仅是表面顺从——这直接影响日常交互中AI的可靠性与可信度。",
+    "metaphor": "就像一位法官在判案时始终对照宪法条文自我审查，而非仅听从上级指示或过往案例；Constitutional AI 也以预设原则为最高准则，实时反思并修正自己的输出。",
+    "example": "当用户要求生成伪造新闻时，Constitutional AI 会先引用‘不得制造虚假信息’的宪法条款进行自我质疑，再生成拒绝请求并解释原因的回应，而非直接执行或简单说‘我不能’。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Constitutional AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Constitutional_AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:49:46Z"
 }

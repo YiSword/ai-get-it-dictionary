@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "progressive_distillation",
+  "norm_term": "progressive_distillation",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "progressive_distillation（渐进式蒸馏）是一种模型压缩技术，通过多阶段、由粗到细的方式，将大型教师模型的知识逐步迁移给小型学生模型。与一次性蒸馏不同，它在每个阶段调整损失函数权重、数据增强策略或目标层匹配粒度，使学生模型能更稳定地吸收复杂知识。普通用户需要了解它，因为该技术正被广泛用于让大语言模型、图像生成模型等在手机、边缘设备上高效运行，直接影响日常使用的响应速度、耗电量和隐私本地化能力。",
+    "metaphor": "就像一位资深厨师先教学徒做整道菜的流程，再分步拆解火候、刀工、调味的细节，最后逐项考核精进，而非一上来就要求复刻米其林菜品。",
+    "example": "Google在部署Gemini Nano时，采用渐进式蒸馏：先用全量模型蒸馏出中等规模模型，再以此为教师进一步蒸馏出仅1.8B参数的终端侧版本，兼顾精度与实时语音处理能力。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:50:01Z",
+  "updated_at": "2026-03-21T09:16:41Z"
+}

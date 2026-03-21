@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Language Modeling",
+  "term": "language_modeling",
   "norm_term": "language_modeling",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
-  "category": "模型架构",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Language Modeling 是 AI 模型体系中的重要结构或模型类型，决定了模型如何理解输入、组织信息和生成结果。虽然普通用户不会直接训练它，但很多今天常见的 AI 能力都建立在这类结构之上。理解它能帮助你建立更完整的 AI 基础认知。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Language Modeling，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "语言建模（language modeling）是让计算机学会预测文本中下一个词或字符的概率分布的技术，核心目标是理解并生成符合人类语言习惯的序列。它支撑着智能输入法、语音识别、机器翻译和聊天机器人等日常应用。普通用户虽不直接接触其算法，但每次用手机输入时获得的流畅补全、语音转文字的准确率，甚至AI助手的回答质量，都高度依赖语言模型的能力。",
+    "metaphor": "就像一位熟读千万本书的图书管理员，能根据你刚说的前半句话，精准猜出你最可能想说的后半句。",
+    "example": "当你在微信中输入‘今天天气真’，输入法立刻推荐‘好’‘不错’‘适合散步’等候选词——这背后就是语言模型在实时计算不同续接词出现的可能性。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Language Modeling - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Language_Modeling",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:00:59Z"
 }

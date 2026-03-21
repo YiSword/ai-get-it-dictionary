@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "attgan",
+  "norm_term": "attgan",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "AttGAN（Attribute Generative Adversarial Network）是一种基于生成对抗网络（GAN）的图像编辑模型，专门用于在保持人物身份不变的前提下，有选择地修改人脸图像的特定属性（如戴眼镜、微笑、改变发色或性别等）。它通过引入属性分类器和重构损失，实现细粒度、可控制的属性编辑。普通用户需要了解它，是因为这类技术正广泛应用于美颜APP、虚拟试妆、隐私保护（如匿名化处理）和创意内容生成中，理解其能力与局限有助于理性看待AI修图结果，避免对‘真实感’图像产生误判。",
+    "metaphor": "就像一位精通化妆与造型的数字化妆师，能精准地只为你加一副眼镜或调整嘴角弧度，而不改变你的五官结构和整体面貌。",
+    "example": "用户上传一张素颜自拍照，使用AttGAN驱动的APP一键添加‘戴墨镜’和‘卷发’两个属性，输出图像中仅这两处发生变化，其余如脸型、肤色、背景均保持原样。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:22:52Z",
+  "updated_at": "2026-03-21T03:46:31Z"
+}

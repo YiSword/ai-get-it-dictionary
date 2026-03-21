@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Continual Pretraining Dataset",
+  "term": "continual_pretraining_dataset",
   "norm_term": "continual_pretraining_dataset",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "训练方法",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Continual Pretraining Dataset 是模型训练或适配过程中常见的方法，用来让模型学到新能力、降低成本，或提升效果。你不一定需要亲自训练模型，但理解它有助于看懂为什么同一个基础模型会出现很多不同版本。它通常和微调、优化或部署成本有关。",
-    "metaphor": "它类似给模型安排一种更高效的学习方式，让模型用更少成本学会或适应新的任务。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Continual Pretraining Dataset，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "continual_pretraining_dataset 是指在模型已完成初始大规模预训练后，用于开展持续预训练（continual pretraining）的专用数据集。它通常包含新领域、新时效或新风格的文本（如最新新闻、专业文献或特定行业语料），用于更新模型的知识和语言能力，而不从头训练。普通用户需要了解它，因为这类数据集的质量与覆盖范围直接影响模型能否跟上现实世界变化、避免知识过时，进而影响其在实际应用（如客服、医疗问答）中的准确性和可靠性。",
+    "metaphor": "就像给一位已毕业的医生定期提供最新医学期刊和临床案例来更新知识库，而不是让他重新读一遍医学院全部课程。",
+    "example": "某金融大模型在发布后，用2023–2024年全球上市公司财报、监管公告和财经新闻构成的 continual_pretraining_dataset 进行持续预训练，从而更准确理解新出现的金融术语和政策表述。"
   },
   "scenario_tags": [
-    "训练",
-    "微调",
-    "模型优化"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Continual Pretraining Dataset - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Continual_Pretraining_Dataset",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:54:28Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "watsonx",
+  "norm_term": "watsonx",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "watsonx 是 IBM 推出的企业级 AI 和数据平台，集成了基础模型训练与调优、生成式 AI 应用开发、以及可信数据治理能力。它不是单一工具，而是一套可部署在私有云或混合云环境中的模块化服务（如 watsonx.ai、watsonx.data、watsonx.governance），专为保障安全性、可解释性与合规性而设计。普通用户——尤其是企业技术决策者、数据科学家和AI应用开发者——需要了解它，因为它是IBM应对生成式AI落地挑战的核心方案：既支持定制化大模型，又避免将敏感数据暴露给公有云API。",
+    "metaphor": "就像一家拥有自主面粉厂、烘焙工坊和食品质检中心的高端面包连锁店——watsonx 不依赖外部供应商提供半成品，而是从原料（数据）、配方（模型）、到出品（AI应用）全程可控、可追溯、可审计。",
+    "example": "某全球银行使用 watsonx.ai 在本地数据中心微调一个金融领域专用语言模型，用于自动生成合规的信贷审批摘要；同时通过 watsonx.governance 实时监控该模型的输出偏差与数据血缘，满足GDPR和巴塞尔协议的审计要求。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:33:33Z",
+  "updated_at": "2026-03-21T10:22:23Z"
+}

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "FinQA",
+  "term": "finqa",
   "norm_term": "finqa",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "FinQA 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 FinQA，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "FinQA 是一个面向金融领域的问答数据集，专门用于训练和评估能理解金融文本、执行数值推理并回答复杂问题的AI模型。它包含从真实财报、新闻和公告中提取的问题-答案对，每个答案都需要结合表格与文本信息进行多步计算或逻辑推断。普通用户需要了解 FinQA，因为它代表了AI在处理专业金融信息（如读懂年报、比较公司盈利、计算增长率）时的关键能力边界，影响智能投顾、财报助手等实际工具的可靠性。",
+    "metaphor": "FinQA 就像一位既读得懂财务报表又会心算的资深会计助理，不仅能定位数据，还能把散落在文字和表格里的数字‘拼图’起来，算出你真正想知道的结果。",
+    "example": "当用户问‘该公司2022年净利润相比2021年增长了多少百分比？’时，FinQA 模型需从年报文本中识别年份，从附带表格中提取两年净利润数值，再执行除法与减法运算得出答案。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "FinQA - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/FinQA",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:30:51Z"
 }

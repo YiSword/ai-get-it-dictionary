@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "sambanova",
+  "norm_term": "sambanova",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "SambaNova 是一家美国人工智能基础设施公司，专注于设计高性能、可编程的AI芯片（如RDU，Reconfigurable Dataflow Unit）及配套软件栈，用于加速大模型训练与推理。它不同于传统GPU，采用数据流架构，能更高效处理超大规模参数模型和复杂AI工作负载。普通用户虽不直接接触其硬件，但未来使用的AI应用（如实时多模态翻译、个性化医疗分析）可能运行在其底层平台上，因此了解SambaNova有助于理解AI算力发展的新路径。",
+    "metaphor": "就像为AI建造了一条专用车道+智能交通指挥系统，而非依赖通用高速公路（GPU）上不断加塞的车辆。",
+    "example": "某国家级气象机构使用SambaNova系统，在数小时内完成原本需数天的高分辨率全球气候大模型仿真，从而显著提升极端天气预测时效性。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:27:15Z",
+  "updated_at": "2026-03-21T09:37:14Z"
+}

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "xlnet",
+  "norm_term": "xlnet",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "XLNet 是一种先进的预训练语言模型，由卡内基梅隆大学和谷歌于2019年提出，它结合了自回归建模与双向上下文感知的优势，通过排列语言建模（Permutation Language Modeling）克服了BERT等模型无法同时建模左右上下文的局限。它在多项自然语言理解任务（如问答、文本分类、命名实体识别）上曾刷新基准性能。普通用户无需直接使用它，但其技术已融入智能助手、搜索引擎、自动摘要等日常工具中，提升了AI对复杂语义和长距离依赖的理解能力。",
+    "metaphor": "就像一位既能按顺序阅读整本书、又能随时跳回前文或翻到后页交叉印证的博学编辑，XLNet 不拘泥于单向阅读习惯，而是灵活重组句子结构来全面理解每个词的含义。",
+    "example": "当用户在智能客服中输入‘我上周订的耳机还没发货，订单号是A78901’，XLNet驱动的系统能准确识别‘上周’与‘还没发货’的时间逻辑关系，并关联‘订单号’和‘耳机’的实体指代，从而精准触发物流查询流程。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:18:41Z",
+  "updated_at": "2026-03-21T10:29:36Z"
+}

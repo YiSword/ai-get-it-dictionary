@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Graph Neural Network",
+  "term": "graph_neural_network",
   "norm_term": "graph_neural_network",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Graph Neural Network 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Graph Neural Network，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "图神经网络（Graph Neural Network, GNN）是一种专门处理图结构数据的深度学习模型，能同时利用节点特征和节点之间的连接关系进行学习。与传统神经网络处理图像或文本等规则网格数据不同，GNN适用于社交网络、分子结构、知识图谱等天然呈网状关系的数据。普通用户需要了解它，因为GNN正驱动着推荐系统更懂你的兴趣、药物研发加速新药发现、甚至让地图导航更精准地理解道路拓扑。",
+    "metaphor": "就像一位熟悉邻里关系的社区老书记，GNN不仅认识每家每户（节点），还清楚谁常串门、谁是亲戚（边），从而更准确地判断某户人家可能需要什么帮助。",
+    "example": "在社交平台中，GNN通过分析用户的好友关系、互动历史和发帖内容，预测你可能想关注的新账号或感兴趣的话题。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Graph Neural Network - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Graph_Neural_Network",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:58:06Z"
 }

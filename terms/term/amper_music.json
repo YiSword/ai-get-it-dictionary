@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "amper_music",
+  "norm_term": "amper_music",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "amper_music 是一家人工智能音乐生成公司，提供基于文本提示（如'轻松的咖啡馆钢琴曲，带点爵士风味'）实时生成定制化版权安全背景音乐的服务。它面向内容创作者、视频编辑者、播客制作者等非专业音乐人，解决传统授权音乐库选择有限、定制成本高、版权风险大等问题。普通用户需要了解它，是因为在短视频、自媒体、课件制作等场景中，能快速获得合法、免版税、风格匹配的原创配乐，显著降低创作门槛与法律顾虑。",
+    "metaphor": "就像一位24小时待命的私人作曲家，你只需用日常语言描述心情和场景，他立刻为你写出独一无二的配乐。",
+    "example": "一位B站UP主在剪辑旅行Vlog时，输入提示'温暖、舒缓的尤克里里旋律，略带海浪环境音'，3秒内生成一段15秒无版权风险的专属配乐，直接拖入时间线使用。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:43:13Z",
+  "updated_at": "2026-03-21T03:35:28Z"
+}

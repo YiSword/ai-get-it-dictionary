@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "iq2_m",
+  "norm_term": "iq2_m",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "iq2_m 是一种量化格式，用于压缩大语言模型的权重，将原始浮点数（如 FP16）近似为仅需约 2.5 位平均存储空间的整数表示，兼顾精度与效率。它属于 llama.cpp 生态中 'IQ' 系列非对称量化方案，相比更粗糙的 iq2_xxs 或更重的 iq3_xxs，在极低比特下显著提升推理稳定性。普通用户需要了解它，是因为在老旧硬件（如 8GB 内存笔记本）或移动端运行本地大模型时，选择 iq2_m 可能在可接受质量下降前提下，让原本无法加载的模型成功运行。",
+    "metaphor": "就像把一本高清摄影集压缩成精心优化的线稿集——细节略有简化，但关键轮廓和结构依然清晰，大幅节省书架空间且仍能讲清故事。",
+    "example": "用户在一台只有 6GB RAM 的旧 MacBook 上，用 llama.cpp 加载 Phi-3-mini 模型时，选用 gguf 格式的 iq2_m 量化版本，成功实现本地对话，而 FP16 版本因内存不足直接崩溃。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T17:20:07Z",
+  "updated_at": "2026-03-21T07:41:50Z"
+}

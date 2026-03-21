@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "ideogram_1_0",
+  "norm_term": "ideogram_1_0",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "ideogram_1_0 是一个特定版本的 ideogram 模型，专为生成高质量、结构化图像而设计，尤其擅长将文字提示精准转化为包含清晰文本（如标语、标题或符号化文字）的视觉内容。它并非通用图像生成模型，而是聚焦于‘图文一体’的语义对齐——确保图像中嵌入的文字在字体、位置、语义和风格上均与用户意图一致。普通用户需要了解它，是因为当任务涉及海报设计、品牌标识草图、多语言排版预览等需文字与图像深度协同的场景时，选用 ideogram_1_0 可显著减少后期修图或文字重叠错误，提升创意落地效率。",
+    "metaphor": "就像一位精通双语的平面设计师，不仅能听懂你用中文说的‘把‘创新’二字写成发光的金属质感、居中置于蓝色渐变背景上’，还能立刻手绘出完全匹配的稿子，不靠后期贴字，一步到位。",
+    "example": "设计师输入提示‘minimalist logo: a mountain silhouette with the word ‘SUMMIT’ arched above it in clean sans-serif, monochrome’，ideogram_1_0 直接输出一张矢量感强、文字弧度与山形自然呼应、无需PS添加文字的完整图像。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:39:39Z",
+  "updated_at": "2026-03-21T07:23:27Z"
+}

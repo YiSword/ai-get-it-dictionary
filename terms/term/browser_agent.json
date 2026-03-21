@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Browser Agent",
+  "term": "browser_agent",
   "norm_term": "browser_agent",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "产品概念",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Browser Agent 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Browser Agent，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "browser_agent 是指嵌入在网页浏览器中、负责代表用户执行自动化任务或与网页交互的轻量级软件代理。它通常以浏览器扩展、脚本或前端 SDK 形式存在，能监听用户行为、收集上下文信息（如点击、表单填写、页面加载状态），并据此触发预设逻辑（如错误上报、性能监控、A/B测试分流）。普通用户虽不直接操作它，但其背后支撑着网站的流畅体验、实时客服弹窗、崩溃自动修复等功能，影响隐私控制、页面响应速度和个性化服务的可靠性。",
+    "metaphor": "就像你家里的智能门铃管家——它不替你开门，但会默默观察谁来了、何时按铃、是否停留过久，并在合适时机通知你或自动录像。",
+    "example": "当用户在电商网站反复点击‘加入购物车’却无反应时，browser_agent 可立即捕获该异常事件，上传堆栈信息，并自动向开发团队推送告警，同时向用户展示友好提示：‘我们正在优化，请稍后再试’。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Browser Agent - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Browser_Agent",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T04:14:45Z"
 }

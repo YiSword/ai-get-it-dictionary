@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "mlc_llm",
+  "norm_term": "mlc_llm",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "MLC-LLM（Machine Learning Compilation for Large Language Models）是一个开源项目，旨在让大语言模型（LLM）能在各类硬件（如手机、笔记本、边缘设备）上本地高效运行，无需依赖云端或专用AI加速器。它通过机器学习编译技术（如模型量化、算子融合、硬件适配优化）将LLM编译为轻量、高性能的可执行代码。普通用户需要了解它，因为它意味着隐私更可控、响应更即时、使用成本更低——比如在手机上离线运行ChatGPT级模型，不传数据、不耗流量、不依赖网络。",
+    "metaphor": "就像把一本厚重的英文百科全书翻译并精编成一本轻便、带索引、适配你手机屏幕的本地手册，无需联网查词典也能快速翻阅和理解。",
+    "example": "一位记者出差时，在未联网的iPad上用MLC-LLM运行4-bit量化版Llama-3，实时摘要采访录音并生成中文稿，全程数据不出设备。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:49:02Z",
+  "updated_at": "2026-03-21T08:43:54Z"
+}

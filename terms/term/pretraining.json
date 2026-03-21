@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Pretraining",
+  "term": "pretraining",
   "norm_term": "pretraining",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "训练方法",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Pretraining 是模型训练或适配过程中常见的方法，用来让模型学到新能力、降低成本，或提升效果。你不一定需要亲自训练模型，但理解它有助于看懂为什么同一个基础模型会出现很多不同版本。它通常和微调、优化或部署成本有关。",
-    "metaphor": "它类似给模型安排一种更高效的学习方式，让模型用更少成本学会或适应新的任务。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Pretraining，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Pretraining（预训练）是指在大规模通用数据上预先训练一个深度学习模型，使其掌握语言理解、图像识别等基础能力，再针对特定任务进行微调。它降低了AI应用门槛：开发者无需从零收集海量标注数据或算力，就能快速构建高性能定制模型。普通用户虽不直接参与预训练，但日常使用的智能助手、翻译工具、内容推荐等功能，都依赖于预训练模型提供的底层能力，因此理解该概念有助于理性认知AI的能力边界与局限。",
+    "metaphor": "就像医学院学生先花几年系统学习解剖学、生理学等基础知识，再进入医院实习专攻外科或儿科一样，预训练是让AI先广泛‘通读’海量文本或图像，打下通用认知底子。",
+    "example": "ChatGPT 的底层模型 GPT 系列首先在互联网文本上进行预训练，学会语法、事实和推理模式；之后才在对话数据上微调，从而具备聊天能力。"
   },
   "scenario_tags": [
-    "训练",
-    "微调",
-    "模型优化"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Pretraining - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Pretraining",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:15:38Z"
 }

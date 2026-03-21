@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "api3",
+  "norm_term": "api3",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "API3 是一个去中心化服务协议，旨在让区块链应用（dApps）安全、高效地接入真实世界数据（如价格、天气、航班信息），而无需依赖传统中心化的预言机。它通过第一方预言机（First-Party Oracles）模式，让数据提供者直接在链上发布经过加密签名的数据，从而消除中间环节和单点故障风险。普通用户需要了解 API3，是因为它关系到 DeFi、保险、游戏等 Web3 应用的数据可靠性与资金安全性——若底层数据被操纵或中断，可能导致用户资产意外清算或合约误执行。",
+    "metaphor": "就像一家餐厅不再雇用中间采购员，而是让农场主亲自把贴有防伪标签的新鲜蔬菜送到厨房，API3 让数据源头直接‘送货上门’，省去层层转手带来的信任成本和出错可能。",
+    "example": "一个基于以太坊的去中心化借贷平台使用 API3 提供的链上比特币/美元价格流，确保抵押率计算实时准确；数据由 Coinbase 直接签署并推送至链上，而非经由第三方聚合器中转。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:34:05Z",
+  "updated_at": "2026-03-21T03:38:33Z"
+}

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Linear Probe",
+  "term": "linear_probe",
   "norm_term": "linear_probe",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Linear Probe 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Linear Probe，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "linear_probe（线性探针）是一种评估预训练模型表征质量的简单方法：固定模型参数，仅在其最后一层或某中间层特征上训练一个线性分类器（如逻辑回归或线性SVM），不更新原始模型权重。它被广泛用于衡量模型是否学到了可迁移、结构化的语义特征。普通用户（尤其是研究者和工程师）需要了解它，因为它能快速判断预训练模型的有效性，避免昂贵的全模型微调，是模型诊断与比较的关键基准。",
+    "metaphor": "就像用一把未经打磨的万能钥匙去试开不同锁——不改变钥匙本身，只看它能否凭现有齿形直接打开门，从而判断钥匙的原始设计是否合理。",
+    "example": "在对比两个ViT变体时，研究者在ImageNet上对它们提取的[CLS] token特征分别训练线性分类器，发现A模型达到72%准确率而B仅65%，说明A学到了更优质的通用视觉表征。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Linear Probe - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Linear_Probe",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:09:57Z"
 }

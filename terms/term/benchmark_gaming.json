@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Benchmark Gaming",
+  "term": "benchmark_gaming",
   "norm_term": "benchmark_gaming",
   "lang": "en",
   "aliases": [],
-  "entity_type": "metric",
-  "category": "评测指标",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Benchmark Gaming 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Benchmark Gaming，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "benchmark_gaming 是指专门针对游戏场景设计的性能基准测试，用于量化显卡、CPU、内存和整机在运行主流游戏时的帧率、加载时间、稳定性等关键指标。它不同于通用计算基准（如Geekbench），更强调实时渲染、高吞吐图形负载和低延迟响应。普通用户需要了解它，因为能客观比较硬件升级效果、验证新购电脑是否满足心仪游戏的流畅运行需求，避免被营销参数误导。",
+    "metaphor": "就像汽车在真实高速路和山路组合路段上实测百公里加速与过弯稳定性，而非仅在车间里测发动机转速。",
+    "example": "一位玩家打算升级显卡，用3DMark Time Spy和Unigine Heaven分别跑分，并对比《赛博朋克2077》在1440p全高画质下的平均帧率与1%低帧率，以此判断RTX 4070能否稳定提供60FPS以上体验。"
   },
   "scenario_tags": [
-    "评测",
-    "基准",
-    "比较"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Benchmark Gaming - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Benchmark_Gaming",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:02:15Z"
 }

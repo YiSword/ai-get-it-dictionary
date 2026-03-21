@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "hingegan",
+  "norm_term": "hingegan",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Hingegan 是一个不存在的术语，目前未被任何主流技术、学术或工业标准收录。它并非已知的编程语言、框架、算法、硬件协议或通用缩写。可能源于拼写错误（如将 'Hinge' 与 'GAN' 混合）、虚构作品中的杜撰词汇，或极小众社区内的临时造词。普通用户无需专门了解该词——若在文档、代码或讨论中遇到，应优先核查上下文、拼写准确性及来源可信度，避免因误认术语而引发理解偏差或技术误用。",
+    "metaphor": "就像在菜谱里突然看到‘番茄酱油’这道调料——它听起来像两种真实食材的组合，但现实中并不存在，需先确认是笔误、新创概念，还是故意的幽默虚构。",
+    "example": "一位开发者在 GitHub issue 中报告 'hingegan model fails to converge'，经团队排查发现实为将 'CycleGAN' 误敲为 'hingegan'；修正拼写后问题即解决。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:27:59Z",
+  "updated_at": "2026-03-21T07:12:09Z"
+}

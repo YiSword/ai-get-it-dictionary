@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Krippendorff's Alpha",
+  "term": "krippendorff_s_alpha",
   "norm_term": "krippendorff_s_alpha",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Krippendorff's Alpha 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Krippendorff's Alpha，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Krippendorff's alpha 是一种用于衡量多个编码者（或观察者）对同一组数据进行分类、标注或评分时一致程度的统计指标。它能处理不同类型的变量（如名义、序数、区间、比率），并校正偶然一致性，比传统的Cohen's kappa更灵活、更稳健。普通用户——尤其是从事内容分析、社会科学调研、AI训练数据质检或用户体验研究的人——需要了解它，因为它能客观评估人工标注质量，直接影响模型训练效果或研究结论的可信度。",
+    "metaphor": "就像一群厨师 independently 尝同一道菜后，用不同标准（咸淡、火候、摆盘）打分，Krippendorff's alpha 不是简单看他们是否打了相同分数，而是判断这些评分在各自标准下是否呈现出真实、可信赖的一致模式。",
+    "example": "在构建新闻情感分析数据集时，5位标注员对1000篇报道分别标记‘正面/中性/负面’；研究者用Krippendorff's alpha计算得α = 0.82，表明标注间具有高度可靠的一致性，该数据集可放心用于训练情感识别模型。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Krippendorff's Alpha - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Krippendorff%27s_Alpha",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:56:23Z"
 }

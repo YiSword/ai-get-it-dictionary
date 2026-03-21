@@ -1,35 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Speech-to-Text",
+  "term": "speech_to_text",
   "norm_term": "speech_to_text",
   "lang": "en",
-  "aliases": [
-    "语音转文字",
-    "语音转写"
-  ],
+  "aliases": [],
   "entity_type": "concept",
-  "category": "推理与部署",
-  "difficulty": "入门",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Speech-to-Text 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Speech-to-Text，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "speech_to_text 是一种将人类语音实时或离线转换为可编辑文本的技术，依赖于语音识别算法和语言模型。它让设备能‘听懂’说话内容并生成对应文字。普通用户需要了解它，因为这项技术已深度融入日常：比如用语音发微信、会议中自动生成字幕、辅助听障人士获取信息，或提升办公效率——无需手动打字即可记录想法。",
+    "metaphor": "就像一位不知疲倦的速记员，一边听你讲话，一边飞快地把每个词敲进文档里。",
+    "example": "你在开车时对车载系统说‘给妈妈打电话’，系统先将语音转成文字‘给妈妈打电话’，再触发拨号指令。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Speech-to-Text - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Speech-to-Text",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T09:50:06Z"
 }

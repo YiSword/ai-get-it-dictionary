@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Cognition AI",
+  "term": "cognition_ai",
   "norm_term": "cognition_ai",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Cognition AI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Cognition AI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "cognition_ai 指具备类人认知能力的人工智能系统，能理解、推理、学习、记忆并适应复杂情境，而不仅执行预设规则或统计模式匹配。它融合自然语言理解、常识推理、多模态感知与元认知机制，目标是实现更自主、可解释、上下文敏感的智能行为。普通用户需要了解它，因为这类AI正逐步进入教育辅导、医疗问诊、创意协作等高信任度场景，其决策逻辑、局限性与伦理影响直接关系到个人隐私、判断依赖和数字权益。",
+    "metaphor": "就像一位经验丰富的专家医生——不仅能看化验单（数据），还能结合病史、环境因素和医学常识综合判断，并在不确定时主动提出疑问或建议进一步检查。",
+    "example": "某企业客服AI不再仅检索知识库回答问题，而是通过分析用户语气、历史交互和行业背景，推断其真实诉求（如表面问退货政策，实则因产品故障感到失望），并主动提供补偿方案与技术排查指引。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Cognition AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Cognition_AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:41:14Z"
 }

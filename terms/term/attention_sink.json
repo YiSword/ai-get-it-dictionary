@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Attention Sink",
+  "term": "attention_sink",
   "norm_term": "attention_sink",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Attention Sink 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Attention Sink，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "attention_sink 是一种在长上下文语言模型推理中使用的缓存优化技术，通过将早期、低信息量的 token（如开头的冗余描述或重复前缀）压缩为少量代表性向量并冻结其梯度更新，从而节省显存和计算开销。它不丢弃上下文，而是‘沉淀’不活跃注意力权重，使模型能更高效地处理超长文本。普通用户需要了解它，因为该技术直接影响大模型在文档摘要、法律分析或代码长链推理等实际任务中的响应速度、成本与可用长度。",
+    "metaphor": "就像图书馆把多年未借阅的旧书压缩成微缩胶片存档——既保留全部内容，又腾出大量书架空间供新书流通。",
+    "example": "当用户上传一份100页的技术白皮书让模型逐段总结时，attention_sink 会将前20页的标准引言和术语定义压缩为固定记忆槽，后续推理只动态更新最后30页的关键分析段落。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Attention Sink - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Attention_Sink",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:46:13Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Attribution Patch",
+  "term": "attribution_patch",
   "norm_term": "attribution_patch",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Attribution Patch 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Attribution Patch，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "attribution_patch 是机器学习，尤其是可解释人工智能（XAI）领域中的一个技术概念，指在输入数据（如图像或文本）上施加的微小、局部扰动区域，用于系统性地探测模型对特定位置特征的归因敏感性。它帮助研究人员定位模型决策所依赖的关键像素块或词元片段，从而验证模型是否基于合理语义特征而非虚假相关性做判断。普通用户需要了解它，是因为它支撑着AI系统的可信度评估——例如判断人脸识别是否真正关注人脸结构，而非背景水印等无关线索。",
+    "metaphor": "就像医生用局部麻醉后轻触皮肤来测试某块区域的神经敏感度，attribution_patch 是给AI‘蒙上一只眼’再观察它反应，从而定位它真正‘看’哪里。",
+    "example": "在医学影像诊断模型中，研究者将 attribution_patch 覆盖肺部CT图像中的一小片区域，发现模型预测‘肺炎’的概率骤降，由此确认该区域是模型判别关键；若覆盖无关的图像边框却导致预测变化，则提示模型存在数据泄漏风险。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Attribution Patch - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Attribution_Patch",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:47:04Z"
 }

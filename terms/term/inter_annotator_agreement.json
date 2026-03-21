@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Inter-Annotator Agreement",
+  "term": "inter_annotator_agreement",
   "norm_term": "inter_annotator_agreement",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Inter-Annotator Agreement 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Inter-Annotator Agreement，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "inter_annotator_agreement（标注者间一致性）是指多个人工标注者对同一组数据（如文本、图像或音频）进行标注时，彼此结果一致性的量化程度。它用于评估标注任务的可靠性与客观性，常见于自然语言处理、医学影像分析等依赖人工标注的AI训练场景。普通用户需要了解它，因为标注质量直接影响AI模型的公平性、准确性与可信度——若标注者意见分歧大，说明任务定义模糊或标准缺失，模型学到的可能是噪声而非真实规律。",
+    "metaphor": "就像多位医生独立阅片后对同一张X光片是否异常给出诊断，他们结论越接近，说明诊断标准越清晰、结果越可靠。",
+    "example": "在构建垃圾邮件识别数据集时，三位标注员分别判断100封邮件是否为垃圾邮件，研究者用Cohen's Kappa系数计算他们标注结果的一致性，若Kappa值仅为0.3，表明标注标准亟需统一和培训。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Inter-Annotator Agreement - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Inter-Annotator_Agreement",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:37:10Z"
 }

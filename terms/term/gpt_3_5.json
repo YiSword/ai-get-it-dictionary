@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "gpt_3_5",
+  "norm_term": "gpt_3_5",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "gpt_3_5 是 OpenAI 推出的一系列中等规模、高性价比的大型语言模型，全称通常指 GPT-3.5 Turbo，是 GPT-4 发布前的主力版本。它在理解与生成自然语言方面表现优异，响应快、成本低，被广泛集成于聊天应用、客服系统和编程辅助工具中。普通用户需要了解它，是因为日常使用的 ChatGPT 免费版、微软 Copilot（部分模式）及众多 AI 工具底层都依赖此模型——知道它的能力边界（如知识截止于2023年中、不支持多模态），有助于更理性地使用和判断结果可靠性。",
+    "metaphor": "就像一位博学但记性只到半年前的大学助教：反应敏捷、讲解清晰，却不会知道昨天发生的新闻或刚发布的手机型号。",
+    "example": "当你在 ChatGPT 免费版中询问‘如何用 Python 绘制折线图’，后台大概率调用的是 gpt_3_5 Turbo 模型来生成代码示例和分步说明。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:20:27Z",
+  "updated_at": "2026-03-21T06:52:28Z"
+}

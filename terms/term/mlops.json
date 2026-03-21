@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "MLOps",
+  "term": "mlops",
   "norm_term": "mlops",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MLOps 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 MLOps，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "MLOps（Machine Learning Operations）是一套将机器学习模型开发、部署、监控和迭代流程工程化的实践与工具集合，旨在提升模型从实验室到生产环境的可靠性、可重复性和协作效率。它融合了DevOps理念与数据科学工作流，涵盖数据版本控制、模型训练自动化、持续集成/持续部署（CI/CD）、性能监控与漂移检测等环节。普通用户虽不直接操作MLOps系统，但其背后支撑着推荐系统、智能客服、信贷风控等日常依赖AI服务的稳定性与公平性——若缺乏MLOps，这些服务可能频繁出错、响应迟缓或产生偏见结果。",
+    "metaphor": "MLOps就像汽车制造业中的总装流水线与质量监测体系：不仅把设计图纸（算法）变成可上路的车（模型），还持续检查引擎状态、轮胎磨损（模型性能衰减）并自动召回升级。",
+    "example": "某电商公司使用MLOps平台自动重训商品推荐模型——当用户行为数据每日更新后，系统触发数据验证、模型训练、A/B测试及灰度发布，一旦发现点击率下降超阈值，立即回滚至前一稳定版本。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "MLOps - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/MLOps",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:45:00Z"
 }

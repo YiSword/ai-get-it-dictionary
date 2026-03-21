@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "top_p_sampling",
+  "norm_term": "top_p_sampling",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "top_p_sampling（又称核采样）是一种语言模型生成文本时使用的概率采样策略：模型仅从累积概率和超过阈值p的最小词元子集中随机选择下一个词，而非考虑全部词汇表。它能有效平衡生成多样性与合理性——p值越小，输出越保守聚焦；p值越大，结果越开放但可能偏离主题。普通用户需要了解它，因为这是控制AI回答‘是否天马行空’或‘是否一本正经’的关键开关，直接影响回复的可靠性与创意性。",
+    "metaphor": "就像在图书馆里只从最相关的几排书架上选书，而不是翻遍整个馆藏。",
+    "example": "当用AI写科幻故事时，设top_p=0.9可让模型在合理设定内自由发挥；而生成医疗建议时设top_p=0.3则迫使它只选用高置信度的术语和表述。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T10:09:42Z"
+}

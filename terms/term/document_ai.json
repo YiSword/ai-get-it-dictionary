@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Document AI",
+  "term": "document_ai",
   "norm_term": "document_ai",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Document AI 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Document AI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Document AI 是一种利用人工智能技术（如计算机视觉、自然语言处理和机器学习）自动理解、提取和结构化非结构化文档内容的技术。它能识别发票、合同、身份证、表格等各类纸质或扫描件中的文字、布局、语义关系，并转化为可搜索、可分析的结构化数据。普通用户需要了解它，因为越来越多的日常服务（如银行开户、保险理赔、税务申报）正依赖 Document AI 快速准确地处理文档，大幅减少手动录入错误和等待时间。",
+    "metaphor": "Document AI 就像一位精通上百种文书格式、过目不忘且秒级解析的超级行政助理，不仅能看清字，还能读懂哪是金额、哪是日期、哪是签名。",
+    "example": "一家电商公司用 Document AI 自动识别供应商发来的 PDF 发票，提取发票号、总金额、税额和开票日期，直接同步至财务系统，无需人工逐张录入。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Document AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Document_AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T05:45:27Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "metaflow",
+  "norm_term": "metaflow",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Metaflow 是一个开源的 Python 框架，用于构建、运行和管理数据科学与机器学习工作流。它将代码、数据、依赖和计算环境封装成可复现、可追踪、可伸缩的流程，支持本地开发与云上（如 AWS）无缝部署。普通用户——尤其是数据科学家和工程师——需要了解它，因为它显著降低了从实验到生产部署的复杂度，避免了手动管理脚本、环境和调度的混乱，让注意力回归模型与业务逻辑本身。",
+    "metaphor": "就像为厨房里的烹饪流程设计了一套标准化食谱+智能厨具联动系统：每一步操作自动记录原料、火候和工具，还能一键复制到另一家米其林餐厅执行。",
+    "example": "一家电商公司用 Metaflow 编排每日用户行为分析流水线：从 S3 读取原始日志、用 PySpark 清洗、训练实时推荐模型、评估指标并自动部署新版本到线上服务。整个流程在 Git 中版本化，失败时可精确回滚到任意步骤。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:56:28Z",
+  "updated_at": "2026-03-21T08:36:35Z"
+}

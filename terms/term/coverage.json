@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Coverage",
+  "term": "coverage",
   "norm_term": "coverage",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Coverage 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Coverage，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Coverage 是软件测试中的核心指标，指测试用例执行时实际触及的代码比例（如行覆盖率、分支覆盖率等），用于量化测试的完整性与风险暴露程度。普通用户虽不直接写代码，但若使用依赖高覆盖率保障质量的App、金融系统或医疗设备软件，coverage 背后的测试充分性直接影响其功能可靠性、崩溃概率和安全漏洞风险——低 coverage 意味着大量代码未经验证，潜在缺陷更可能流入生产环境。",
+    "metaphor": "就像用探照灯扫过一间黑屋子：coverage 表示灯光实际照亮的地板面积占比，未被照到的角落可能藏着危险物品。",
+    "example": "某银行App升级后要求核心转账模块的单元测试覆盖率不低于90%，团队通过补充边界值和异常流程测试，将原72%的行覆盖率提升至93%，从而降低资金错误处理的风险。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Coverage - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Coverage",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:03:22Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "DSPy",
+  "term": "dspy",
   "norm_term": "dspy",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DSPy 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 DSPy，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "DSPy（Declarative Self-Improving Programs in Python）是一个用于构建和优化基于语言模型的程序的开源框架。它允许开发者以声明式方式定义任务目标（如‘从文本中提取法律条款并分类’），然后自动编译、优化提示词、选择模型调用策略，甚至迭代重写子模块。普通用户需要了解它，是因为它降低了AI应用开发门槛——无需手动调试提示词或反复试错，就能让LLM系统更可靠、可复现、可维护。",
+    "metaphor": "就像一位经验丰富的烹饪教练，你只需告诉DSPy‘我要做一道适合过敏人群的川味凉拌菜’，它会自动设计食谱、调整辣度配比、替换致敏食材，并反复试做优化，而不用你亲手调试每一步火候和调料。",
+    "example": "一家医疗初创公司用DSPy构建病历结构化系统：仅声明‘从自由文本病历中提取主诉、诊断、用药三类信息，确保诊断术语符合ICD-11标准’，DSPy便自动生成并优化多步推理链，在未人工编写任何提示词的情况下，将F1分数从0.68提升至0.89。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "DSPy - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/DSPy",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T05:56:07Z"
 }

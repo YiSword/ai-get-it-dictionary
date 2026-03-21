@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Benign Refusal",
+  "term": "benign_refusal",
   "norm_term": "benign_refusal",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Benign Refusal 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Benign Refusal，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "benign_refusal（善意拒绝）指AI系统在无法安全、准确或合乎伦理地响应用户请求时，主动选择不提供答案，而是以礼貌、透明且有建设性的方式说明原因并可能建议替代方案。它不是因技术故障而失败，而是经过审慎判断后的负责任行为。普通用户需要理解这一点，以免误将合理拒绝当作系统缺陷或故意搪塞，从而建立对AI边界与可信度的正确认知。",
+    "metaphor": "就像一位经验丰富的 pharmacist 拒绝向顾客出售过量止痛药，不是不愿帮忙，而是出于专业责任保护对方健康。",
+    "example": "当用户要求生成伪造身份证件的模板时，AI明确回应：‘我不能协助创建虚假身份信息，这违反法律和安全政策；但如果您需要了解如何合法申请身份证，我很乐意提供官方流程指引。’"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Benign Refusal - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Benign_Refusal",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:03:55Z"
 }

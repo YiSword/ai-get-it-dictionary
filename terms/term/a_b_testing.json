@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "A/B Testing",
+  "term": "a_b_testing",
   "norm_term": "a_b_testing",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "A/B Testing 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 A/B Testing，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "A/B测试是一种实验方法，通过将用户随机分为两组（A组和B组），分别展示不同版本的产品设计、文案或功能（如两个不同颜色的注册按钮），然后对比关键指标（如点击率、转化率）来判断哪个版本效果更好。它帮助产品团队基于真实用户行为做数据驱动的决策，而非主观猜测。普通用户虽不直接操作，但日常使用的App或网站的界面优化、推荐逻辑甚至广告呈现，往往都经过A/B测试——这意味着他们看到的内容更可能是经过验证、更符合需求的版本。",
+    "metaphor": "就像厨师同时推出两道略有不同的新菜谱给随机分组的食客试吃，并根据谁吃得更多、评价更高来决定最终上哪一道。",
+    "example": "某电商网站想提升购物车页面的下单率，于是对50%用户展示原版‘立即购买’按钮（A组），另50%用户展示新版‘限时下单，享免运费’按钮（B组），一周后发现B组转化率高12%，遂全量上线新版按钮。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "A/B Testing - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/A/B_Testing",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T03:15:58Z"
 }

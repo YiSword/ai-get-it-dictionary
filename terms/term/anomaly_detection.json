@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Anomaly Detection",
+  "term": "anomaly_detection",
   "norm_term": "anomaly_detection",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Anomaly Detection 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Anomaly Detection，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "异常检测（anomaly detection）是一种数据分析技术，用于识别数据中显著偏离正常模式的罕见事件或观测值。它广泛应用于金融风控、网络安全、工业设备监控和医疗诊断等领域，帮助及时发现欺诈交易、黑客入侵、机器故障或早期疾病迹象。普通用户虽不直接操作该技术，但其背后支撑着手机支付安全提醒、信用卡盗刷预警、智能手表心率异常提示等功能，是现代数字生活中隐形的‘守门人’。",
+    "metaphor": "就像一位经验丰富的图书管理员，在成千上万本整齐排列的书中，一眼就能发现那本封面朝下、位置歪斜的异样书籍。",
+    "example": "某银行实时分析客户刷卡行为，当系统检测到同一张卡在10分钟内于相距2000公里的两个城市连续消费时，立即触发异常警报并暂停交易。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Anomaly Detection - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Anomaly_Detection",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:36:30Z"
 }

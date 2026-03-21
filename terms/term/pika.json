@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Pika",
+  "term": "pika",
   "norm_term": "pika",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Pika 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Pika，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Pika 是一个开源的、轻量级的 Python 客户端库，用于与 RabbitMQ 消息代理进行交互。它实现了 AMQP 0.9.1 协议，支持连接管理、队列声明、消息发布与消费等核心功能。普通用户（尤其是 Python 开发者）需要了解 Pika，因为它是构建可靠异步通信、解耦微服务、实现任务队列（如邮件发送、图像处理）最常用且官方推荐的 Python 工具之一，相比其他库更稳定、文档完善、社区活跃。",
+    "metaphor": "Pika 就像一位精通多语种的信使，既懂 Python 的语言习惯，又熟练掌握 RabbitMQ 的‘邮局规则’，确保你的程序和消息队列之间准确、可靠地传递每一封信。",
+    "example": "一个电商网站使用 Pika 将用户下单事件发布到 RabbitMQ 的 order_queue 中，后台订单处理服务则通过 Pika 订阅该队列，异步完成库存扣减和通知发送，避免用户等待响应。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Pika - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Pika",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:09:12Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "distilled",
+  "norm_term": "distilled",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "distilled（蒸馏）在技术领域，尤其在机器学习中，指将大型、复杂模型（如大语言模型）的知识压缩并迁移至更小、更高效模型的过程。这个过程不是简单复制参数，而是让小模型通过模仿大模型的输出（如软标签或中间特征）来学习其行为模式。普通用户需要了解它，因为蒸馏技术使高性能AI能力得以在手机、嵌入式设备等资源受限环境中运行，直接影响日常使用的App响应速度、离线功能和电池续航。",
+    "metaphor": "就像一位资深厨师把毕生秘制酱料的精华浓缩成一小瓶调味膏，既保留风味核心，又便于家庭厨房快速使用。",
+    "example": "Google的DistilBERT就是通过知识蒸馏从原始BERT模型中提炼出参数量减少40%、推理速度快60%但精度损失极小的轻量版本，广泛用于手机端搜索和实时翻译应用。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T17:06:20Z",
+  "updated_at": "2026-03-21T05:43:48Z"
+}

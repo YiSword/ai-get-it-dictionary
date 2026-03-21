@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "euler",
+  "norm_term": "euler",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Euler（欧拉）通常指瑞士数学家莱昂哈德·欧拉，或以其命名的数学概念，如欧拉公式、欧拉角、欧拉路径等。在计算机图形学、机器人学和物理仿真中，'euler angles'（欧拉角）是最常用的三维旋转表示方法之一，用三个角度（如偏航、俯仰、滚转）描述物体朝向。普通用户虽不直接操作这些数值，但在使用3D建模软件、无人机遥控、VR设备或游戏引擎时，其底层姿态计算常依赖欧拉表示——理解它有助于排查旋转异常（如万向节死锁）或正确配置运动参数。",
+    "metaphor": "就像用方向盘转角、车头抬升角度和车身侧倾角度共同描述一辆越野车在复杂地形中的朝向，欧拉角用三个依次旋转的平面角度来‘分步’定义一个物体在空间中的最终方向。",
+    "example": "在Unity游戏引擎中，开发者通过Transform组件的eulerAngles属性读取或设置游戏对象的旋转；当无人机飞控系统将陀螺仪数据转换为机体姿态时，也常以ZYX顺序的欧拉角形式输出滚转、俯仰、偏航值供地面站显示。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:51:53Z",
+  "updated_at": "2026-03-21T06:12:53Z"
+}

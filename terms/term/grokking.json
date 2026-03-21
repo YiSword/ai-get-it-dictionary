@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Grokking",
+  "term": "grokking",
   "norm_term": "grokking",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Grokking 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Grokking，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Grokking 是指对某个概念、技术或系统达到深刻、直觉性理解的状态，超越表面记忆或机械应用，能灵活推演、类比和创造性地解决问题。它源自罗伯特·海因莱因小说《异乡异客》中的火星语动词 'grok'，意为‘彻底吸收并成为一体’。对普通用户（尤其是学习编程、数学或复杂工具者）而言，grokking 区分了‘会用’和‘真正懂’——只有 grokking 后，才能高效调试、迁移知识、应对未知变体，避免陷入反复查文档却无法举一反三的困境。",
+    "metaphor": "就像学会骑自行车后不再思考平衡与蹬踏，身体已本能掌握动力学；grokking 是知识内化为直觉，无需调用显式规则就能自然响应。",
+    "example": "一个程序员在反复调试神经网络梯度消失问题后，突然理解权重初始化、激活函数与链式求导的耦合机制，并能凭直觉判断新架构是否可能遭遇同类问题——这种顿悟式的深层把握就是 grokking。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Grokking - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Grokking",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:01:43Z"
 }

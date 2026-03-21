@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Deep Neural Network",
+  "term": "deep_neural_network",
   "norm_term": "deep_neural_network",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Deep Neural Network 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Deep Neural Network，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "深度神经网络（Deep Neural Network, DNN）是一种由多个隐藏层组成的机器学习模型，能自动从大量数据中逐层提取抽象特征，例如从像素中识别边缘、形状，最终判断图像内容。它支撑着现代人工智能的许多核心能力，如语音助手听懂指令、手机相册自动分类人物、推荐系统精准推送内容。普通用户无需理解其数学细节，但了解DNN有助于理性看待AI的能力边界——它依赖数据质量与规模，可能出错或产生偏见，而非真正‘理解’世界。",
+    "metaphor": "就像一位经验丰富的画家，先用粗线条勾勒轮廓，再层层叠加色彩与细节，最终完成一幅写实画作；DNN也通过多层‘思考’，从原始输入中逐步提炼出越来越复杂的模式。",
+    "example": "微信的‘拍一拍识物’功能使用深度神经网络实时分析手机摄像头捕捉的植物照片，数秒内识别出具体品种并返回养护信息。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Deep Neural Network - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Deep_Neural_Network",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:22:26Z"
 }

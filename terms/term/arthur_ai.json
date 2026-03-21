@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Arthur AI",
+  "term": "arthur_ai",
   "norm_term": "arthur_ai",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Arthur AI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Arthur AI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Arthur AI 是一家专注于AI模型可解释性、公平性与合规性的技术公司，提供平台帮助企业和监管机构理解、验证和监控AI系统的决策逻辑。它不直接面向终端用户发布消费级产品，而是服务于金融机构、医疗企业等高风险AI应用方，确保其AI系统符合法律要求（如欧盟AI法案、美国反歧视法）并降低部署风险。普通用户需要知道它，是因为它在幕后保障你使用的信贷审批、招聘筛选或保险定价等AI服务更公正、透明且可追责。",
+    "metaphor": "Arthur AI 就像AI系统的‘飞行数据记录仪’和‘独立审计师’的结合体——既实时记录模型如何做决定，又用专业标准检验这些决定是否合理合法。",
+    "example": "一家银行使用Arthur AI分析其贷款审批模型，发现模型隐式依赖邮政编码导致对低收入社区申请人产生系统性偏见，随后据此调整特征工程并重新训练模型以满足公平性监管要求。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Arthur AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Arthur_AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:42:30Z"
 }

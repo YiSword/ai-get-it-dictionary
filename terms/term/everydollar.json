@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "everydollar",
+  "norm_term": "everydollar",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "EveryDollar 是由个人理财专家戴夫·拉姆齐（Dave Ramsey）团队开发的一款预算管理应用程序，旨在帮助用户实践‘零基预算’理念——即每月每一分钱都有明确用途。它通过简化预算创建、支出追踪和目标设定流程，让普通用户能直观掌控收入与支出，避免透支和债务累积。对于希望摆脱月光、建立财务安全感或执行债务雪球计划的人来说，EveryDollar 提供了结构化且行为导向的工具支持，是拉姆齐理财体系落地的关键数字助手。",
+    "metaphor": "就像给家庭财务装上一个实时导航仪：不仅显示你从哪儿出发（收入）、要去哪儿（储蓄/还债目标），还不断提醒你是否偏离了规划路线（预算）。",
+    "example": "一位刚参加工作的年轻人用 EveryDollar 将每月5000元工资分配为：2000元房租、1200元生活费、800元应急储蓄、500元信用卡还款、500元娱乐，并在每次消费后手动记账，确保月底账户余额归零且无意外超支。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:03:31Z",
+  "updated_at": "2026-03-21T06:15:17Z"
+}

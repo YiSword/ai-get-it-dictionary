@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Stable Diffusion XL",
+  "term": "stable_diffusion_xl",
   "norm_term": "stable_diffusion_xl",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
-  "category": "模型架构",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Stable Diffusion XL 是 AI 模型体系中的重要结构或模型类型，决定了模型如何理解输入、组织信息和生成结果。虽然普通用户不会直接训练它，但很多今天常见的 AI 能力都建立在这类结构之上。理解它能帮助你建立更完整的 AI 基础认知。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Stable Diffusion XL，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Stable Diffusion XL（SDXL）是Stable Diffusion系列的最新主流版本，于2023年发布，具备更强的文本理解能力、更高分辨率图像生成质量（原生支持1024×1024）和更丰富的细节表现力。它采用双文本编码器结构（CLIP ViT-L/14 + OpenCLIP ViT-bigG/14），显著提升提示词准确性与语义对齐度。普通用户需要了解SDXL，因为它已成为当前开源文生图领域的事实标准，广泛用于AI绘画工具（如ComfyUI、Automatic1111 WebUI）、设计辅助和内容创作，直接影响生成效果的可控性与专业度。",
+    "metaphor": "就像从一台高清数码相机升级到专业全画幅微单——SDXL不仅像素更高，连对焦精度、色彩还原和弱光表现都全面跃升。",
+    "example": "一位平面设计师用SDXL输入提示词‘极简主义咖啡馆室内，自然光，浅橡木桌，陶瓷杯，柔焦摄影’，直接生成一张可商用级的1024×1024宣传图，无需后期修图即可交付客户。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Stable Diffusion XL - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Stable_Diffusion_XL",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:53:26Z"
 }

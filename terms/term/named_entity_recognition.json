@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Named Entity Recognition",
+  "term": "named_entity_recognition",
   "norm_term": "named_entity_recognition",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Named Entity Recognition 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Named Entity Recognition，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "命名实体识别（Named Entity Recognition，NER）是一种自然语言处理技术，用于自动从文本中识别并分类具有特定意义的专有名词，如人名、地名、组织机构名、日期、货币等。它像一位细心的文本标注员，能快速圈出‘谁’‘哪里’‘何时’‘什么组织’等关键信息。普通用户虽不直接操作NER，但日常使用的智能助手、新闻摘要、搜索引擎和多语言翻译等功能背后都依赖它——例如搜索‘苹果发布会’时，系统需区分‘苹果’是公司还是水果，才能返回准确结果。",
+    "metaphor": "就像给文章中的重要人物、地点和事件贴上彩色便签：红色代表人名，蓝色代表地名，绿色代表时间，让杂乱的文字瞬间变得结构清晰、重点分明。",
+    "example": "在医疗电子病历系统中，NER可自动识别并提取‘患者张伟，52岁，2023年10月15日就诊于北京协和医院，诊断为2型糖尿病’中的姓名、年龄、日期、医院名和疾病名，辅助医生快速结构化录入与分析。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Named Entity Recognition - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Named_Entity_Recognition",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:52:58Z"
 }

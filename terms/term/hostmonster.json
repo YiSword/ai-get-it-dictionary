@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "hostmonster",
+  "norm_term": "hostmonster",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "HostMonster 是一家曾在美国运营的网络托管服务提供商，主要提供共享主机、域名注册和网站构建工具等基础建站服务。它面向个人站长、小型企业和初学者，以低价入门套餐和易用的cPanel控制面板为卖点。普通用户需要知道它，是因为在2010年代初期，它是中文建站社区中常被推荐的海外主机之一，尤其适合搭建WordPress博客或简单企业官网；但需注意，HostMonster已于2019年正式停止运营，并入其母公司Endurance International Group旗下的Brinkster品牌，现有账户已迁移或终止，因此当前选择主机时不应再考虑该服务商。",
+    "metaphor": "HostMonster 就像一家曾经热闹的老式街角打印店——提供平价、一站式的小型文档印刷服务，但随着数码自助打印普及，它悄然关门歇业，招牌也被隔壁更大的连锁店收走了。",
+    "example": "2015年，一位自由译者用HostMonster的$3.95/月共享主机套餐，搭配免费安装的WordPress，快速上线了个人作品集网站；但到2020年续费时发现官网已跳转至Brinkster，原账户和服务均不可用。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:53:57Z",
+  "updated_at": "2026-03-21T07:14:18Z"
+}

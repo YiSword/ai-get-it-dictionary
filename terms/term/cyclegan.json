@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "CycleGAN",
+  "term": "cyclegan",
   "norm_term": "cyclegan",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CycleGAN 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 CycleGAN，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "CycleGAN 是一种无需成对数据训练的图像风格迁移深度学习模型，能在两个不同图像域（如马和斑马、照片和油画）之间实现双向自动转换。它通过引入循环一致性损失，确保转换后能近似还原原图，从而避免传统方法依赖精确配对样本的限制。普通用户需要了解它，因为它是手机修图App、AI绘画工具背后的关键技术之一，让普通人无需专业技能就能一键将自拍照转为梵高风格或把白天照片变成夜间效果。",
+    "metaphor": "就像一位从未学过双语但通过反复对照两本词典自学的翻译家，CycleGAN 不靠现成的‘中英对照句’，而是靠自己来回翻译再校验，最终学会两种语言间的自然映射。",
+    "example": "摄影师用 CycleGAN 将手机拍摄的普通街景照片自动转换为水墨画风格，用于个人艺术展；医学影像团队则用它将MRI扫描图转换为CT样式，辅助放射科医生跨模态比对诊断。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "CycleGAN - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/CycleGAN",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:08:47Z"
 }

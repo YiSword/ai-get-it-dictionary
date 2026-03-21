@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Heuristic Filter",
+  "term": "heuristic_filter",
   "norm_term": "heuristic_filter",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Heuristic Filter 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Heuristic Filter，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "heuristic_filter 是一种基于经验规则而非严格逻辑或完整数据的过滤机制，它通过快速判断、近似规则和常见模式来筛选信息，常用于垃圾邮件识别、内容审核或实时推荐系统中。普通用户需要了解它，是因为它直接影响所见内容的质量与安全性——例如可能误拦重要邮件，或漏放恶意链接，理解其‘不完美但高效’的特性有助于合理预期系统行为并及时反馈问题。",
+    "metaphor": "就像一位经验丰富的图书管理员，不逐字阅读每本书，而是根据封面、出版社和书名快速决定是否上架。",
+    "example": "Gmail 使用 heuristic_filter 判断一封邮件是否为垃圾邮件：若发件人域名新注册、正文中含多个感叹号且无收件人姓名，则自动归入推广或垃圾箱。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Heuristic Filter - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Heuristic_Filter",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:09:06Z"
 }

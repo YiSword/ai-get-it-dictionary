@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Poe",
+  "term": "poe",
   "norm_term": "poe",
   "lang": "en",
   "aliases": [],
-  "entity_type": "product",
-  "category": "产品概念",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Poe 是用户在真实使用中高频会接触到的 AI 产品或服务。它通常把模型能力包装成聊天、搜索、写作、编码或生成内容等具体功能，因此比底层技术词更容易直接感知。理解它的定位，有助于分辨不同 AI 产品各自擅长什么。",
-    "metaphor": "它就像一个已经包装好的 AI 工具箱，用户不需要知道所有底层原理，也能直接拿来完成具体任务。",
-    "example": "比如用户想直接完成写作、搜索、总结或生成内容任务时，往往会先接触 Poe 这类产品，因为它把底层能力封装成了更容易上手的界面。"
+    "plain": "PoE（Power over Ethernet，以太网供电）是一种通过标准以太网线缆（如Cat5e或更高）同时传输数据和直流电的技术。它让网络设备（如IP摄像头、无线接入点、VoIP电话）无需单独接电源适配器，仅靠一根网线即可工作。普通用户需要了解PoE，因为它简化了家庭或小型办公环境的设备部署——避免拉插线板、减少电源插座依赖、提升布线整洁度与安全性，尤其在难以就近取电的区域（如天花板、走廊墙壁）优势明显。",
+    "metaphor": "就像一条多功能充电数据线，既能给手机传文件，又能同时充电，PoE让网线‘一缆两用’，既通信息又送电力。",
+    "example": "在家庭安防场景中，用户将支持PoE的无线AP安装在客厅吊顶内，仅用一根网线连接至支持PoE的路由器，即可完成网络接入与供电，无需额外铺设电源线或使用插线板。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Poe - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Poe",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:13:13Z"
 }

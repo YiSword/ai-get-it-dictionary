@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Anyscale Endpoints",
+  "term": "anyscale_endpoints",
   "norm_term": "anyscale_endpoints",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Anyscale Endpoints 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Anyscale Endpoints，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Anyscale Endpoints 是 Anyscale 平台提供的托管式 API 接口，用于将基于 Ray 构建的模型服务（如 LLM、微服务或批处理作业）快速部署为可调用的 HTTP 服务。它屏蔽了底层基础设施管理（如扩缩容、负载均衡、认证），让开发者无需运维即可将本地开发的 Ray 应用暴露为生产级 REST API。普通用户需要了解它，是因为它显著降低了将 AI 模型或分布式计算逻辑集成到应用、前端或第三方系统中的门槛，尤其适合数据科学家和 ML 工程师在不依赖 DevOps 团队的情况下独立交付服务。",
+    "metaphor": "就像给你的 Ray 应用装上一个即插即用的智能插座——你只管把代码接上去，它自动供电、稳压、过载保护，并提供标准接口供其他设备使用。",
+    "example": "一位数据科学家用 Ray Tune 训练好一个推荐模型后，通过 anyscale_endpoints 将其一键发布为 HTTPS API；前端 App 即可直接发送 JSON 请求获取实时推荐结果，无需自行搭建服务器或配置 Kubernetes。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Anyscale Endpoints - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Anyscale_Endpoints",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:38:02Z"
 }

@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Hallucination Regression",
+  "term": "hallucination_regression",
   "norm_term": "hallucination_regression",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "安全与对齐",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Hallucination Regression 主要和 AI 的风险、边界或治理有关，帮助人们理解模型为什么会出错、失控，或带来不符合预期的结果。它不仅是技术问题，也关系到产品设计和使用习惯。对初学者来说，理解这类概念能减少对 AI 的误判。",
-    "metaphor": "它像给 AI 系统装上护栏和告警规则，帮助人们更早发现风险，而不是等出事后再补救。",
-    "example": "比如团队在上线 AI 功能前评估误答、泄露或越权风险时，就需要理解 Hallucination Regression，因为它会直接影响系统是否可靠可控。"
+    "plain": "hallucination_regression 是指在机器学习模型（尤其是大型语言模型）的迭代更新过程中，模型在新版本中对某些已知事实或先前正确回答的能力发生退化，反而开始生成看似合理但实际错误、虚构或无依据的内容——即‘幻觉’。这种现象不同于单纯的知识遗忘，而是模型在优化某方面性能（如流畅性或响应速度）时，意外削弱了其事实一致性与可靠性。普通用户需要了解它，因为升级后的AI助手可能突然给出自信却错误的答案，影响决策、学习或专业应用。",
+    "metaphor": "就像一位经验丰富的厨师在改良食谱时，为了提升口感反复调整香料，结果却意外掩盖了关键食材的本味，导致招牌菜失去了原有的真实风味。",
+    "example": "某款代码助手模型升级后，在回答Python标准库函数用法时，开始编造不存在的参数名和行为，而旧版本能准确引用官方文档；用户若未察觉此回归，可能将错误代码部署到生产环境。"
   },
   "scenario_tags": [
-    "安全",
-    "风险",
-    "治理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Hallucination Regression - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Hallucination_Regression",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:06:22Z"
 }

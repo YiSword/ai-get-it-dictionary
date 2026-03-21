@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Keras",
+  "term": "keras",
   "norm_term": "keras",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Keras 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Keras，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Keras 是一个开源的高级神经网络 API，用 Python 编写，能够运行在 TensorFlow、Theano 或 JAX 等后端之上。它以简洁、模块化和用户友好著称，让开发者能快速构建、训练和部署深度学习模型，无需深入底层计算细节。普通用户（如数据科学家、研究人员或初学者）需要了解 Keras，因为它大幅降低了深度学习的入门门槛，使原型设计、教学和中小型项目开发变得高效直观。",
+    "metaphor": "Keras 就像乐高积木的说明书和拼装工具包——它不制造塑料颗粒（不处理底层张量运算），但提供清晰接口和预组装模块，让你专注搭出想要的模型结构。",
+    "example": "一位气象研究员用 Keras 的 Sequential API，仅用十几行代码就搭建了一个卷积神经网络，用于从卫星云图中自动识别台风眼位置，并在三天内完成训练与验证。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Keras - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Keras",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:49:45Z"
 }

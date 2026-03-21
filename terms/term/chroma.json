@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Chroma",
+  "term": "chroma",
   "norm_term": "chroma",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Chroma 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Chroma，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Chroma 指色彩的纯度或饱和度，即颜色中所含灰度成分的多少——chroma 越高，颜色越鲜艳、越接近光谱色；越低则越灰暗、越接近中性灰。它不同于明度（亮度）和色相（颜色种类），是描述颜色‘鲜活程度’的关键维度。普通用户需要了解 chroma，因为它直接影响照片调色、UI 设计中的视觉吸引力、印刷品色彩准确性，以及在视频编辑或摄影中避免过饱和失真或画面乏力等问题。",
+    "metaphor": "就像一杯果汁，chroma 相当于其中纯果汁的浓度：加水越多（灰度越多），味道越淡、颜色越浅；原汁越浓（灰度越少），味道越烈、颜色越艳。",
+    "example": "在手机修图 App 中调整‘饱和度’滑块时，实际主要改变的就是图像中各像素的 chroma 值；专业设计师为品牌选择主色时，会严格控制 chroma 以确保 Logo 在不同材质上印刷后仍保持一致的鲜明感。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Chroma - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Chroma",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T04:28:33Z"
 }

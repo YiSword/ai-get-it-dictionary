@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Consensus Decoding",
+  "term": "consensus_decoding",
   "norm_term": "consensus_decoding",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Consensus Decoding 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Consensus Decoding，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "consensus_decoding 是一种大语言模型推理策略，指在生成文本时，让多个模型副本（或同一模型的多次采样）独立生成候选序列，再通过投票、序列匹配或得分聚合等方式选出最一致、最可靠的输出。它能显著降低幻觉、提升事实准确性和逻辑稳定性，尤其在需要高可信度回答的场景（如医疗建议、法律咨询或代码生成）中尤为重要。普通用户虽不直接操作该技术，但使用依赖它的AI产品时，会更少遇到错误信息或自相矛盾的回答。",
+    "metaphor": "就像一群专家各自独立审阅一份报告，最后只采纳他们普遍认同的结论，而非单个人的即兴判断。",
+    "example": "在医学问答系统中，模型对‘糖尿病患者能否食用蜂蜜’这一问题启动5次独立解码，4次一致输出‘需严格限制’并引用指南依据，系统便采纳该共识结果作为最终回答。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Consensus Decoding - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Consensus_Decoding",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:49:14Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "CTC",
+  "term": "ctc",
   "norm_term": "ctc",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CTC 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 CTC，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "CTC（Connectionist Temporal Classification）是一种用于序列建模的机器学习损失函数，专为输入与输出长度不一致且对齐未知的任务设计，如语音识别或手写文字识别。它允许模型直接从带噪、变长的输入（如音频帧）中学习生成正确标签序列（如文字），无需预先标注每一帧对应的字符。普通用户虽不直接接触CTC，但其支撑着日常使用的语音助手、实时字幕等应用的准确性与鲁棒性，是让AI‘听懂’模糊、连读、语速变化语音的关键技术之一。",
+    "metaphor": "就像一位速记员在听一场语速快慢不一、偶尔含糊的演讲时，不必逐字对应每句话的起止时间，却能准确整理出完整的发言稿。",
+    "example": "在语音输入法中，用户说‘今天天气真好’，CTC帮助模型将连续的声波帧序列映射为正确汉字序列，即使发音连读或停顿不规律，也能避免插入空格或重复字。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "CTC - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/CTC",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:07:03Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "codellama",
+  "norm_term": "codellama",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "CodeLlama 是由 Meta 开发的一系列开源大语言模型，专为代码理解与生成任务优化，支持多种编程语言，可在本地运行且免费商用。它基于 Llama 架构，但使用大量代码数据微调，具备补全、调试、解释和文档生成等能力。普通用户（如开发者、学生或技术爱好者）需要知道它，是因为它提供了一个无需依赖云端服务、隐私可控、可离线使用的智能编程助手，降低了获取高质量代码辅助的门槛。",
+    "metaphor": "就像一位随叫随到、精通多门编程语言的资深结对程序员，不收薪水、不休息，还能在你的笔记本电脑上安静工作。",
+    "example": "一名前端开发者用 CodeLlama 在 VS Code 中实时补全 React 组件代码，并通过自然语言注释‘添加表单验证逻辑’自动生成带 Yup 验证规则的 TypeScript 表单处理函数。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:57:51Z",
+  "updated_at": "2026-03-21T04:38:47Z"
+}

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Cross-Attention",
+  "term": "cross_attention",
   "norm_term": "cross_attention",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,20 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Cross-Attention 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Cross-Attention，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "cross_attention 是一种注意力机制，用于让一个序列（如文本）在处理过程中有选择地关注另一个不同序列（如图像或语音）的关键信息。它不同于自注意力（只关注自身序列内部关系），而是建立两个独立序列之间的动态关联。普通用户需要了解它，因为它是多模态AI（如看图说话、语音翻译、图文生成）的核心技术，直接影响模型能否准确理解并融合不同类型的信息。",
+    "metaphor": "就像一位双语同声传译员，一边听中文发言，一边实时扫描投影上的英文PPT，只聚焦于与当前讲话内容最相关的那几行文字来组织译文。",
+    "example": "在图像描述生成任务中，模型通过 cross_attention 让文本解码器在生成每个词时，动态聚焦于输入图片中对应的视觉区域（例如生成‘狗’时重点关注画面中的犬类物体）。",
+    "technical_note": "该机制通常由查询（Query）来自目标序列，键（Key）和值（Value）来自源序列，经缩放点积计算后加权聚合源信息。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Cross-Attention - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Cross-Attention",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:05:24Z"
 }

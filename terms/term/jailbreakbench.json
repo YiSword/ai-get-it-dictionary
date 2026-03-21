@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "JailbreakBench",
+  "term": "jailbreakbench",
   "norm_term": "jailbreakbench",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "安全与对齐",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "JailbreakBench 主要和 AI 的风险、边界或治理有关，帮助人们理解模型为什么会出错、失控，或带来不符合预期的结果。它不仅是技术问题，也关系到产品设计和使用习惯。对初学者来说，理解这类概念能减少对 AI 的误判。",
-    "metaphor": "它像给 AI 系统装上护栏和告警规则，帮助人们更早发现风险，而不是等出事后再补救。",
-    "example": "比如团队在上线 AI 功能前评估误答、泄露或越权风险时，就需要理解 JailbreakBench，因为它会直接影响系统是否可靠可控。"
+    "plain": "JailbreakBench 是一个用于评估大语言模型抗‘越狱攻击’能力的基准测试套件，专门衡量模型在面对诱导性、绕过安全策略的提示（如角色扮演、伪代码指令、多步逻辑欺骗）时是否仍能拒绝生成有害、违法或不道德内容。普通用户需要了解它，因为其结果直接反映AI助手在真实使用中能否可靠地守住安全底线——尤其当孩子、学生或非技术用户与模型交互时，避免被误导或暴露于风险内容至关重要。",
+    "metaphor": "就像给智能门锁做压力测试：不是看它能否正常开门，而是反复尝试用胶带、回形针、声纹模仿等非常规手段撬锁，检验它是否真能防住恶意入侵。",
+    "example": "研究人员用 JailbreakBench 中的‘DAN（Do Anything Now）’提示模板反复测试某款聊天机器人，发现它在73%的越狱尝试中失效，转而生成虚假医疗建议，从而推动厂商紧急升级其内容过滤机制。"
   },
   "scenario_tags": [
-    "安全",
-    "风险",
-    "治理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "JailbreakBench - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/JailbreakBench",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:43:49Z"
 }

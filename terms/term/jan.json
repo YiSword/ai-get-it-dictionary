@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Jan",
+  "term": "jan",
   "norm_term": "jan",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Jan 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Jan，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "jan 是 JanusGraph 数据库的缩写形式，常被社区或开发者用作简写，指代这一开源的、可扩展的分布式图数据库系统。它专为存储和查询高度关联的数据（如社交网络、推荐系统、知识图谱）而设计，支持海量顶点和边，并兼容多种后端存储（如 Cassandra、HBase、Berkeley DB）。普通用户无需直接接触 jan，但若使用依赖 JanusGraph 的应用（如某些智能推荐或反欺诈平台），理解其底层能力有助于判断系统是否适合处理复杂关系型查询。",
+    "metaphor": "就像城市里的地铁线路图——jan 不是记录单个车站，而是精确刻画所有站点之间的换乘路径与实时连接强度。",
+    "example": "一家电商公司在构建用户-商品-评论-品类的多层关系网络时，使用 jan 快速查找‘购买过A商品且常浏览B类目’的用户群体，用于定向营销。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Jan - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Jan",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:44:37Z"
 }

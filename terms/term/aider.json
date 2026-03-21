@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Aider",
+  "term": "aider",
   "norm_term": "aider",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Aider 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Aider，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "aider 是一个开源的命令行工具，专为程序员设计，能将自然语言指令（如‘修复这个函数的空指针异常’）直接转化为实际的代码修改，并在本地 Git 仓库中安全执行。它内置对 Git 的深度集成，自动创建提交、回滚错误更改，并支持多种大语言模型（如Claude、GPT）。普通用户——尤其是开发者——需要知道它，因为它大幅降低重复性编码与调试的认知负担，让专注力回归逻辑设计而非语法细节，同时避免手动改错引发的意外破坏。",
+    "metaphor": "就像一位熟悉你项目全貌的资深结对编程伙伴，不仅能听懂你的口语需求，还会边写代码边向你确认关键改动，并自动备份每一步。",
+    "example": "当你在终端运行 'aider' 后输入 '把 login.py 中的密码明文传输改为使用 HTTPS POST 并添加输入校验'，它会分析上下文、修改源码、更新测试，并生成带描述的 Git 提交。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Aider - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Aider",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:26:26Z"
 }

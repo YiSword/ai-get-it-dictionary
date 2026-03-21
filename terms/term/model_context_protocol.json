@@ -1,28 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Model Context Protocol",
+  "term": "model_context_protocol",
   "norm_term": "model_context_protocol",
   "lang": "en",
-  "aliases": ["MCP", "模型上下文协议"],
+  "aliases": [],
   "entity_type": "concept",
-  "category": "产品概念",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Model Context Protocol 是一种让 AI 模型更标准化地连接外部工具、数据源和服务的协议。它的目标是减少不同模型和工具之间的对接成本，让同一种能力可以被多个客户端复用。对初学者来说，可以把它理解为 AI 工具连接器的通用接口规范。",
-    "metaphor": "它就像不同电器都能接入同一种插座标准，让工具和模型更容易互相配合。",
-    "example": "比如一个 AI 助手要同时访问本地文件、数据库和网页工具时，使用 Model Context Protocol 可以减少每接一种工具都单独做一套对接的麻烦。"
+    "plain": "model_context_protocol（MCP）是一种开放标准协议，用于规范大语言模型（LLM）与其运行时环境（如编辑器、IDE、终端工具等）之间如何安全、结构化地交换上下文信息（如文件内容、剪贴板、终端输出、搜索结果等）。它让AI工具能以统一方式获取用户当前工作环境中的真实数据，而非依赖脆弱的提示词工程或私有API。普通用户需要了解它，因为它直接影响AI助手是否真正‘懂你正在做的事’——比如能否准确修改你刚打开的代码文件，或基于你浏览器中打开的文档生成摘要。",
+    "metaphor": "就像USB-C接口统一了手机、电脑和耳机之间的物理连接方式，MCP为AI与各种开发/办公工具之间定义了一套通用的‘数字插头’，让数据上下文可以即插即用、跨平台互通。",
+    "example": "当你在VS Code中选中一段Python代码并右键选择‘用AI重构’，MCP协议确保IDE将当前文件路径、选中文本、光标位置及项目配置等结构化上下文，可靠传递给本地运行的LLM服务，而非仅发送模糊的自然语言指令。"
   },
-  "scenario_tags": ["工具连接", "协议", "Agent", "自动化"],
-  "sources": [
-    {
-      "title": "Model Context Protocol - Official Docs",
-      "url": "https://modelcontextprotocol.io/introduction",
-      "type": "doc"
-    }
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
-  "created_at": "2026-03-19T08:50:00.000Z",
-  "updated_at": "2026-03-19T09:01:00.000Z"
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T08:46:16Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Grounded Generation",
+  "term": "grounded_generation",
   "norm_term": "grounded_generation",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Grounded Generation 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Grounded Generation，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "grounded_generation（基于依据的生成）是一种人工智能文本生成技术，要求模型在生成回答或内容时，必须明确引用、依赖并忠实于给定的可靠信息源（如文档片段、数据库、知识图谱或用户提供的上下文），而非仅凭内部参数记忆自由发挥。它强调事实一致性、可追溯性和可控性，能显著降低幻觉风险。普通用户需要了解这一概念，因为它直接关系到AI回答是否可信、可验证——尤其在医疗咨询、法律解读、教育辅导等高风险场景中，知道答案是否‘有据可查’比单纯追求流畅更重要。",
+    "metaphor": "就像记者写报道必须标注信源并核实引语，而不是靠想象编撰情节。",
+    "example": "当用户上传一份公司财报PDF并提问‘2023年净利润是多少？’，grounded_generation模型会精准定位原文中的数值和单位，原样提取并标注页码，而非凭训练数据中的模糊印象作答。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Grounded Generation - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Grounded_Generation",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T07:02:31Z"
 }

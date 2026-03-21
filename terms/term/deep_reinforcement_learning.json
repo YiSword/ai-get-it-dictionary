@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Deep Reinforcement Learning",
+  "term": "deep_reinforcement_learning",
   "norm_term": "deep_reinforcement_learning",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Deep Reinforcement Learning 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Deep Reinforcement Learning，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "深度强化学习（Deep Reinforcement Learning，DRL）是人工智能的一个分支，它将深度学习的感知能力（如从图像或传感器数据中自动提取特征）与强化学习的决策机制（通过试错、奖励反馈来优化长期行为策略）相结合。普通用户需要了解它，因为它是驱动自动驾驶汽车、智能游戏AI、推荐系统甚至机器人自主操作的核心技术之一，正悄然改变我们与数字世界互动的方式。",
+    "metaphor": "就像一个新手司机一边看实时路况画面（深度学习），一边根据教练的‘好/坏’即时反馈不断调整方向盘和油门（强化学习），最终在没有详细地图的情况下学会安全高效地开车。",
+    "example": "AlphaGo通过深度强化学习从零开始自学围棋，在数百万局自我对弈中优化策略，最终击败人类世界冠军；如今该技术也被用于优化数据中心冷却系统，动态调节风扇和空调以最小化能耗。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Deep Reinforcement Learning - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Deep_Reinforcement_Learning",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:23:17Z"
 }

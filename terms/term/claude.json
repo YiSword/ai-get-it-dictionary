@@ -1,35 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Claude",
+  "term": "claude",
   "norm_term": "claude",
   "lang": "en",
-  "aliases": [
-    "Anthropic Claude"
-  ],
-  "entity_type": "product",
-  "category": "产品概念",
-  "difficulty": "入门",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Claude 是用户在真实使用中高频会接触到的 AI 产品或服务。它通常把模型能力包装成聊天、搜索、写作、编码或生成内容等具体功能，因此比底层技术词更容易直接感知。理解它的定位，有助于分辨不同 AI 产品各自擅长什么。",
-    "metaphor": "它就像一个已经包装好的 AI 工具箱，用户不需要知道所有底层原理，也能直接拿来完成具体任务。",
-    "example": "比如用户想直接完成写作、搜索、总结或生成内容任务时，往往会先接触 Claude 这类产品，因为它把底层能力封装成了更容易上手的界面。"
+    "plain": "Claude 是由 Anthropic 公司研发的一系列大型语言模型，专注于安全性、可靠性和辅助人类决策。它能理解并生成自然语言，支持长文本处理、多轮对话和复杂推理任务。普通用户需要了解 Claude，因为它正被广泛集成到办公工具、教育平台和客服系统中，影响日常获取信息、写作辅助和问题解决的方式；同时，其强调‘宪法式AI’原则（如拒绝有害请求、保持诚实谦逊），有助于用户识别可信的AI交互边界。",
+    "metaphor": "Claude 就像一位受过严格伦理训练、耐心细致又擅长倾听的资深顾问——不抢话、不编造、会在不确定时坦诚说明，并始终以你的长期利益为优先。",
+    "example": "一位教师用 Claude 快速将冗长的教学大纲转化为分层次的学习目标与课堂活动建议，并要求它标注出所有引用的教育理论依据，确保内容可追溯且符合课程标准。"
   },
   "scenario_tags": [
-    "对话",
-    "写作",
-    "分析",
-    "办公"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Claude - Anthropic",
-      "url": "https://www.anthropic.com/claude",
-      "type": "doc"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T04:31:37Z"
 }

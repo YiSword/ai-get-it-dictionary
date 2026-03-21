@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "AgentBench",
+  "term": "agentbench",
   "norm_term": "agentbench",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "产品概念",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AgentBench 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 AgentBench，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "AgentBench 是一个开源的基准测试框架，专门用于评估多步推理、工具调用和自主决策能力的 AI 智能体（agent）。它不评测单次问答质量，而是考察智能体能否在复杂任务中规划步骤、调用外部工具（如计算器、搜索引擎、API）、处理错误并迭代改进。普通用户需要了解它，是因为随着AI从‘聊天机器人’转向‘自动执行任务的数字助手’，AgentBench 提供了衡量这类智能体是否真正可靠、鲁棒和实用的关键标尺。",
+    "metaphor": "就像驾照路考不仅考你能否点火起步，更考你能否在真实路况中看路标、避让行人、应对突发状况一样，AgentBench 是智能体的‘路考’——检验它在开放环境中独立完成任务的综合驾驶能力。",
+    "example": "研究人员用 AgentBench 测试一个旅行规划智能体：该智能体需根据用户预算和偏好，自主搜索航班、比价酒店、检查签证要求，并生成带时间线的行程表——整个过程需多次调用不同API并修正中间错误。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "AgentBench - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/AgentBench",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T03:24:21Z"
 }

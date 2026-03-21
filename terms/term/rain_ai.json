@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "rain_ai",
+  "norm_term": "rain_ai",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "rain_ai 是一个虚构或尚未广泛公认的AI术语，目前在主流技术文献、开源项目或商业产品中并无标准定义。它可能被用作某家初创公司、内部工具或概念性项目的代号，暗示其与天气数据处理、实时环境感知、或‘如雨般自然渗透式’的AI服务有关。普通用户无需特别关注该术语，除非在特定应用（如某款气象App或边缘AI设备）中明确遇到；此时了解它有助于识别功能边界与数据使用方式，避免对自动化决策产生误判。",
+    "metaphor": "就像厨房里那个总能预判你下一步要什么的智能调料架——不声不响、适时递上盐或胡椒，rain_ai 暗示一种低调但精准响应环境变化的AI存在方式。",
+    "example": "某城市防汛系统在暴雨预警时，自动调用rain_ai分析实时雷达图、下水道水位和社交媒体上报信息，动态优化排水泵站调度并推送个性化避险路线给周边居民。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:28:23Z",
+  "updated_at": "2026-03-21T09:27:59Z"
+}

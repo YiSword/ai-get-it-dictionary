@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Benchmark",
+  "term": "benchmark",
   "norm_term": "benchmark",
   "lang": "en",
   "aliases": [],
-  "entity_type": "metric",
-  "category": "评测指标",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Benchmark 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Benchmark，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Benchmark 是指通过标准化测试来衡量计算机硬件、软件或系统性能的过程与结果。它提供可量化的指标（如每秒处理请求数、渲染帧率、启动时间等），帮助用户客观比较不同产品或配置的优劣。普通用户需要了解 benchmark，因为它能避免被营销话术误导，辅助做出理性购买决策，比如选笔记本时参考真实游戏性能数据，而非仅看CPU型号或宣传语。",
+    "metaphor": "就像用同一套考卷测试不同学生的学习水平，benchmark 是用同一套任务测试不同设备或程序的实际能力。",
+    "example": "用户在选购新手机时，会查看 Geekbench 的 CPU 多核分数和 3DMark 的图形性能跑分，以此判断该机型在多任务处理和游戏场景下的实际表现是否满足需求。"
   },
   "scenario_tags": [
-    "评测",
-    "基准",
-    "比较"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Benchmark - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Benchmark",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:02:00Z"
 }

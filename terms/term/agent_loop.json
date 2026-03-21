@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Agent Loop",
+  "term": "agent_loop",
   "norm_term": "agent_loop",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "产品概念",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Agent Loop 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Agent Loop，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "agent_loop 是指智能体（agent）持续感知环境、做出决策并执行动作的闭环运行机制。它通常包含观察（observe）、思考（reason）、规划（plan）、行动（act）四个阶段，并不断循环，使 agent 能够在动态环境中自主适应和完成复杂任务。普通用户需要了解它，是因为越来越多的应用（如AI助手、自动化客服、智能机器人）依赖此类循环实现真正意义上的‘自主性’，而非简单响应指令。",
+    "metaphor": "就像一位经验丰富的司机开车：不断看后视镜和路况（观察），判断是否要变道或减速（思考），决定下一步操作（规划），然后转动方向盘或踩油门（行动），之后立刻重复这个过程。",
+    "example": "一个AI会议助理在视频会议中实时监听发言，识别出‘待办事项’后自动生成任务条目并同步到团队看板，随后继续监听新内容——整个过程由 agent_loop 驱动，无缝循环执行。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Agent Loop - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Agent_Loop",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T03:25:11Z"
 }

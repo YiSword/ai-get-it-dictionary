@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Workflow Automation",
+  "term": "workflow_automation",
   "norm_term": "workflow_automation",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Workflow Automation 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Workflow Automation，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "workflow_automation（工作流自动化）是指利用软件工具自动执行一系列重复性、规则明确的业务步骤，如数据录入、审批流转、邮件通知或系统同步等。它减少人工干预，提升效率、准确性和响应速度。普通用户需要了解它，因为无论是提交报销、处理客户咨询，还是管理个人任务，越来越多日常办公场景已嵌入自动化功能；掌握其基本逻辑有助于更高效地使用协作工具（如钉钉、飞书、Notion），甚至自主搭建简易自动化流程。",
+    "metaphor": "就像给办公室配了一位不知疲倦的数字助理，它记得每一步该做什么、何时做、发给谁，从不漏掉一个环节，也不需要你反复提醒。",
+    "example": "当销售团队在CRM中标记某客户为‘已签约’时，系统自动触发工作流：向财务部门发送开票通知、向实施团队分配项目任务、并向客户邮箱推送欢迎邮件和合同副本。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Workflow Automation - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Workflow_Automation",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:28:17Z"
 }

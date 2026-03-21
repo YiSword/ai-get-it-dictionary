@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Causal Inference",
+  "term": "causal_inference",
   "norm_term": "causal_inference",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "推理与部署",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Causal Inference 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Causal Inference，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "因果推断（causal_inference）是统计学和数据科学中用于识别和量化变量之间因果关系的方法，区别于仅描述相关性的统计分析。它回答的是‘如果我做某事，结果会怎样？’这类反事实问题，而非‘这两件事是否同时发生？’。普通用户需要了解它，因为日常决策——如评估药物效果、判断广告投入是否真带来销量增长，或理解教育政策对就业的影响——都依赖对因果关系的准确判断，而非被表面相关性误导。",
+    "metaphor": "就像医生不只观察发烧和咳嗽是否一起出现，而是通过对照实验确认‘退烧药是否真的降低了体温’，因果推断是在纷杂现象中找出真正起作用的‘扳机’。",
+    "example": "某电商平台随机向一半用户推送限时折扣券，另一半不推，随后比较两组后续30天的复购率差异，从而推断折扣券对用户忠诚度的真实因果效应。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Causal Inference - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Causal_Inference",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:21:19Z"
 }

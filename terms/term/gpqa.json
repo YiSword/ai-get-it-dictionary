@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "GPQA",
+  "term": "gpqa",
   "norm_term": "gpqa",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GPQA 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 GPQA，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "GPQA（General Physics Question Answering）是一个专为评估高级科学推理能力而设计的高难度基准测试数据集，聚焦于物理学、化学和生物学等领域的研究生-level多步推理问题。它以极低的通过率著称，常被用于检验大语言模型是否具备真正深入的专业知识理解与逻辑推演能力，而非依赖模式匹配或表面信息检索。普通用户需要了解它，是因为它代表了当前AI在专业领域‘懂’与‘装懂’之间的关键分水岭，有助于理性判断AI工具在科研、教育等严肃场景中的实际可信度。",
+    "metaphor": "就像用一道国际奥赛级别的物理题来面试一位声称精通力学的工程师——答不出不丢人，但答对了才真正证明他拆解过齿轮、算过惯性矩。",
+    "example": "研究人员用GPQA测试新发布的科学大模型，发现其在‘量子退相干对超导量子比特寿命的影响’这类需融合量子力学与材料物理的复合问题上正确率仅12%，远低于人类专家平均水平，从而确认该模型尚不具备可靠辅助前沿物理研究的能力。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "GPQA - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/GPQA",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:51:22Z"
 }

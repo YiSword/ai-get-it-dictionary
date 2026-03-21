@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Logit Lens",
+  "term": "logit_lens",
   "norm_term": "logit_lens",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Logit Lens 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Logit Lens，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Logit lens 是一种分析大语言模型内部表征的技术，通过直接读取模型最后一层 Transformer 块输出的 logits（未归一化的原始分数）并用线性分类器解码，来探测模型在不同训练阶段‘认为’输入属于哪个类别。它不依赖微调或梯度反传，而是像一把‘透明探针’，帮助研究者理解模型学到了什么语义结构、何时学会关键能力，以及内部表征如何随训练演化。普通用户无需操作它，但了解它有助于判断AI系统是否真正理解任务，而非仅拟合表面模式。",
+    "metaphor": "就像用放大镜直接观察显微镜载玻片上的细胞形态，而不等染色或培养结果——logit lens 跳过模型的最终决策包装，直视其最原始的‘想法草稿’。",
+    "example": "研究人员在训练一个数学推理模型时，用 logit lens 检测各训练步中模型对‘答案是否为质数’这一属性的 logits 分离程度，发现该能力在训练中期突然涌现，早于准确率显著提升。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Logit Lens - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Logit_Lens",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:17:39Z"
 }

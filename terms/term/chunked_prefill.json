@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Chunked Prefill",
+  "term": "chunked_prefill",
   "norm_term": "chunked_prefill",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Chunked Prefill 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Chunked Prefill，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "chunked_prefill 是大语言模型推理中的一种优化技术，指将长上下文输入（如超长提示词或文档）分块逐步送入模型进行预填充（prefill）计算，而非一次性加载全部内容。这能显著降低显存峰值、避免OOM错误，并提升长文本处理的吞吐效率。普通用户需要了解它，因为当使用支持该特性的模型服务（如vLLM、LightLLM）处理长文档问答、代码补全或法律合同分析时，开启chunked_prefill可让原本失败的请求成功执行，且响应更稳定。",
+    "metaphor": "就像把一本厚字典拆成几叠，图书馆管理员不是一次扛起整本上楼，而是分批搬运并逐叠登记索引，既不压垮楼梯，又快速建好完整检索目录。",
+    "example": "用户向本地部署的70B模型提交一篇128K tokens的医学论文摘要请求摘要，启用chunked_prefill后，系统自动将其切分为8个16K token的块依次执行prefill，最终完成生成；若禁用该功能，显存不足将直接导致请求崩溃。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Chunked Prefill - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Chunked_Prefill",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:28:49Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "MiniCPM-V",
+  "term": "minicpm_v",
   "norm_term": "minicpm_v",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MiniCPM-V 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 MiniCPM-V，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "minicpm_v 是一款轻量级多模态大模型，由面壁智能研发，专为移动端和边缘设备优化，支持图像理解与文本生成的联合推理。它在保持较高视觉语言理解能力的同时，显著压缩了参数量和计算开销，使手机、平板等资源受限设备也能实时运行图文问答、图像描述、视觉推理等任务。普通用户需要了解它，是因为它正推动AI从云端走向本地——意味着更隐私、更低延迟、无需联网的智能体验，比如拍照即时翻译菜单或识别药品说明书。",
+    "metaphor": "就像一台内置高性能相机和随身翻译官的袖珍笔记本，不用连WiFi、不上传照片，翻盖即用。",
+    "example": "用户用手机摄像头对准一道陌生菜式拍照，minicpm_v 在离线状态下立刻识别出‘麻婆豆腐’并解释其辣度、主要食材和素食替代方案。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "MiniCPM-V - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/MiniCPM-V",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:40:08Z"
 }

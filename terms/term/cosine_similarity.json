@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Cosine Similarity",
+  "term": "cosine_similarity",
   "norm_term": "cosine_similarity",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Cosine Similarity 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Cosine Similarity，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "余弦相似度（cosine_similarity）是一种衡量两个向量方向一致性的数学方法，取值范围在-1到1之间：1表示完全同向，0表示正交（无相关性），-1表示完全反向。它不关心向量的长度（即数值大小），只关注它们在多维空间中的夹角。普通用户需要了解它，因为它是推荐系统、搜索引擎、文本比对等日常应用背后的核心原理——比如为什么你搜‘苹果’，平台会同时推荐手机和水果相关内容，正是因为它把词语映射为向量并计算了方向上的接近程度。",
+    "metaphor": "就像两个人站在广场中央各自指向远方，余弦相似度不计较他们手臂伸得多长，只看两人手指所指的方向有多接近。",
+    "example": "在新闻聚合App中，系统将每篇文章转化为词向量，通过余弦相似度快速找出与用户刚读过的科技报道语义最接近的其他文章，从而实现个性化推荐。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Cosine Similarity - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Cosine_Similarity",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:01:07Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "neon",
+  "norm_term": "neon",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Neon 是 ARM 架构处理器中的一组高级 SIMD（单指令多数据）指令集扩展，用于加速多媒体、图像处理、机器学习推理等需要并行计算的密集型任务。它允许 CPU 同时对多个数据元素（如 8 个 16 位整数或 4 个 32 位浮点数）执行相同操作，显著提升效率。普通用户虽不直接编写 Neon 代码，但其手机拍照增强、视频实时滤镜、语音识别和游戏渲染等体验，往往依赖底层经 Neon 优化的软件库（如 TensorFlow Lite 或 OpenCV），因此它是现代移动设备流畅性能的关键隐形支撑。",
+    "metaphor": "就像一位熟练的厨师同时切八根胡萝卜而不是一根接一根，Neon 让处理器一次处理多个数据，而非逐个慢速操作。",
+    "example": "在智能手机拍摄夜景模式时，图像处理算法利用 Neon 指令并行计算数百个像素的亮度与噪点，将多帧合成一张清晰明亮的照片，整个过程在毫秒级完成。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:17:52Z",
+  "updated_at": "2026-03-21T08:53:13Z"
+}

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "dpm_2s_a",
+  "norm_term": "dpm_2s_a",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "dpm_2s_a 是一种用于扩散模型（diffusion model）的采样算法，全称是 DPM-Solver-2S-Ancestral。它属于二阶、单步（2-step）、带祖先采样的高效求解器，能在较少迭代步数（如10–20步）下生成高质量图像，兼顾速度与稳定性。普通用户需要了解它，是因为在Stable Diffusion等AI绘图工具中选择该采样器，可显著缩短生成时间而不明显牺牲画质，尤其适合实时交互或硬件资源有限的场景。",
+    "metaphor": "就像用一本精准的烹饪速查手册代替从头推演食谱——你不需要模拟每秒温度变化，也能快速做出一道好菜。",
+    "example": "在ComfyUI中将采样器设为 dpm_2s_a 并配置20步，可在3秒内从文本‘赛博朋克猫咖啡馆’生成一张细节丰富、风格稳定的4K图像。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:58:59Z",
+  "updated_at": "2026-03-21T05:51:16Z"
+}

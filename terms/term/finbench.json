@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "FinBench",
+  "term": "finbench",
   "norm_term": "finbench",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "FinBench 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 FinBench，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "FinBench 是一个面向金融领域人工智能模型的基准测试框架，用于系统性评估大语言模型在财报分析、风险识别、监管合规、投资建议等专业金融任务上的准确性、鲁棒性和可解释性。它不是通用性能评测，而是聚焦金融语境下的术语理解、数值推理、跨文档逻辑推断等高阶能力。普通用户（如金融从业者、合规人员或AI采购决策者）需要了解 FinBench，因为它能帮助判断某个金融AI工具是否真正具备落地应用所需的行业级专业能力，而非仅在通用对话中表现良好。",
+    "metaphor": "FinBench 就像金融AI的‘驾驶执照考试’——不考车速或外观，而是专门测试它能否读懂交规（监管文件）、计算油耗与里程（财务比率）、应对突发路况（市场异常事件）。",
+    "example": "某银行在部署智能投研助手前，用 FinBench 测试其对2023年A股上市公司年报中‘商誉减值’披露的识别准确率与归因合理性，结果发现模型在复杂附注交叉验证任务上错误率达42%，从而暂缓上线并启动针对性微调。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "FinBench - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/FinBench",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:29:11Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Arena-Hard",
+  "term": "arena_hard",
   "norm_term": "arena_hard",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Arena-Hard 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Arena-Hard，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "arena_hard 是一种内存分配策略，常见于高性能系统（如 Rust 的 alloc 库或某些游戏引擎）中，指在预分配的大块连续内存（即 'arena'）上进行快速、无回收的分配；'hard' 表示该 arena 生命周期严格绑定于显式作用域（如函数调用或对象生命周期），一旦退出即整体释放，不支持单个对象的独立析构或回收。普通用户需要了解它，是因为误用可能导致悬垂指针、内存泄漏或提前释放——尤其在需精细控制资源生命周期的系统编程或实时应用中。",
+    "metaphor": "就像租下一整层楼用于一场限时活动：所有房间（内存块）一次性划好，活动期间可随意开门入住（分配），但活动结束时整层楼立即清空，无法单独保留某个房间。",
+    "example": "在 Rust 中使用 bumpalo::Bump 创建 arena_hard：let bump = Bump::new(); let x = bump.alloc(42); 之后只要 bump 被 drop，x 所占内存连同整个 arena 一并释放，且 x 不能被 move 出该 arena 的作用域。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Arena-Hard - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Arena-Hard",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:41:17Z"
 }

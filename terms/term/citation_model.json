@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Citation Model",
+  "term": "citation_model",
   "norm_term": "citation_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Citation Model 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Citation Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "citation_model 是指大语言模型在生成回答时，主动标注信息来源（如网页、论文、数据库）并提供可追溯引用的能力。它不是简单罗列参考文献，而是将事实性陈述与原始出处动态关联，支持点击跳转或悬停查看依据。普通用户需要知道它，因为这直接影响答案的可信度、可验证性与学术/专业场景下的合规性——尤其在科研、新闻、医疗等容错率低的领域，能避免‘幻觉’误导，提升决策质量。",
+    "metaphor": "就像一本教科书每页脚注都精准指向原始实验报告或权威专著，而不是笼统写‘据研究表明’。",
+    "example": "当用户询问‘2023年全球锂离子电池回收率是多少？’，启用 citation_model 的模型会返回具体数值，并在该数字旁附上联合国环境署2024年《循环经济进展报告》第17页的超链接和引用标记。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Citation Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Citation_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:30:24Z"
 }

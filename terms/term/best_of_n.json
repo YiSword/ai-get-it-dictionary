@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Best-of-N",
+  "term": "best_of_n",
   "norm_term": "best_of_n",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Best-of-N 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Best-of-N，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "best_of_n 是一种生成式 AI 的采样策略，指模型并行生成 n 个候选输出（如文本、代码或图像描述），再从中自动选择得分最高（如概率最高、困惑度最低或人工评分最优）的一个作为最终结果。它不改变单次生成的随机性，而是通过‘多试几次再挑最好的’来提升输出质量与可靠性。普通用户需要了解它，因为许多 AI 工具（如编程助手、文案生成器）默认启用该机制，理解它有助于合理预期响应稳定性——例如，相同输入多次调用可能返回不同答案，而开启 best_of_n=3 通常比 n=1 更准确、更少出错。",
+    "metaphor": "就像厨师为一道菜准备三份不同火候的样品，最后只端出最完美的一盘给客人。",
+    "example": "在使用 LLM 自动生成产品广告语时，设置 best_of_n=5 会让模型一次性生成 5 条备选文案，再根据语言流畅性、关键词匹配度和情感强度综合打分，返回得分最高的那一条。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Best-of-N - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Best-of-N",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:04:55Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "InternVL",
+  "term": "internvl",
   "norm_term": "internvl",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "InternVL 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 InternVL，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "InternVL 是由上海人工智能实验室推出的开源多模态大模型系列，支持图像与文本的联合理解与生成。它在视觉编码器（如ViT）、语言模型（如Qwen或LLaMA变体）和高效跨模态对齐模块上进行了深度协同优化，具备强图文推理、细粒度描述、文档理解等能力。普通用户需要了解它，是因为它代表了国产高性能多模态AI的实用化进展——意味着未来更多中文友好、本地部署、轻量可控的AI应用（如智能办公助手、教育答疑、无障碍图像描述）可能基于此类模型构建。",
+    "metaphor": "就像一位精通双语且常年翻阅图册的资深编辑，InternVL 能同时读懂图片的‘画面语言’和文字的‘逻辑语言’，并自然地把两者编织成连贯表达。",
+    "example": "用户上传一张手写数学题照片，InternVL 不仅识别出公式和图形，还能用中文分步解析解题思路，并生成对应的LaTeX代码供进一步编辑。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "InternVL - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/InternVL",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:37:44Z"
 }

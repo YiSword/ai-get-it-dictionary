@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Flax",
+  "term": "flax",
   "norm_term": "flax",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Flax 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Flax，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Flax 是一个基于 JAX 构建的轻量级、函数式深度学习库，由 Google 开发，专注于高性能、可复现和模块化的神经网络建模。它不提供高层封装（如 Keras 的 fit() 方法），而是让用户显式控制前向传播、参数管理、梯度计算与优化流程，从而获得对模型训练全过程的精细控制。普通用户需要了解 Flax，尤其在追求极致训练效率、需自定义分布式训练逻辑、或希望深度理解 JAX 函数式范式（如 jit、vmap、pmap）如何落地于实际模型时——它是科研与前沿 AI 工程实践中日益重要的工具链一环。",
+    "metaphor": "Flax 就像为专业厨师定制的开放式厨房：没有预设菜单和自动炒菜机，但所有灶具（JAX 原语）、刀具（模块化层）和食谱规范（纯函数约束）都经过精密校准，让你能从切菜到火候全程掌控。",
+    "example": "研究人员使用 Flax 定义一个支持混合精度与设备并行的 Vision Transformer 模型，并通过手动编写 train_step 函数，结合 jax.jit 和 pmap 实现在 8 个 TPU 核心上同步训练，同时实时监控每层梯度分布。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Flax - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Flax",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:33:37Z"
 }

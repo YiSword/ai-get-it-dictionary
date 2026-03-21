@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Braintrust",
+  "term": "braintrust",
   "norm_term": "braintrust",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Braintrust 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Braintrust，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Braintrust 是一个去中心化的内容创作与知识共享平台，允许创作者直接向社区发行代币（$BRAIN），并将平台治理权和经济收益权交还给用户和贡献者。它不依赖传统广告或风险投资，而是通过代币激励高质量内容生产、审核与传播。普通用户需要了解它，因为它代表了一种新型互联网协作范式——用户不仅是消费者，更是所有者和决策者，能真正参与平台发展并从中获益，而非被算法和商业利益单向支配。",
+    "metaphor": "就像一家由全体居民共同拥有、投票决定规则并分享租金收入的社区图书馆，而不是由某家公司建造、运营并拿走全部收益的连锁书店。",
+    "example": "一位独立AI研究员在Braintrust上发布开源模型训练指南，获得社区打赏和$BRAIN代币奖励；随后她用这些代币投票支持平台新增代码审核工具的功能提案，并因持续贡献而获得平台收入分红。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Braintrust - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Braintrust",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:13:57Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Flash-Decoding",
+  "term": "flash_decoding",
   "norm_term": "flash_decoding",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Flash-Decoding 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Flash-Decoding，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "flash_decoding 是一种加速大语言模型推理的优化技术，通过高效管理显存中的键值（KV）缓存，减少重复计算和内存冗余，从而显著提升生成文本的速度与吞吐量。它特别适用于长上下文或高并发场景，能降低延迟、节省GPU显存。普通用户虽不直接操作该技术，但使用搭载该技术的AI应用（如实时对话、长文档总结）时，会直观感受到响应更快、更流畅，且服务更稳定、成本更低。",
+    "metaphor": "就像图书馆管理员为常借阅的书籍预先整理好索引并放在前台抽屉里，而不是每次都要去层层书架翻找，flash_decoding 让模型‘快速取用’已计算过的注意力信息，省去重复查找和加载的等待。",
+    "example": "当用户在AI助手里连续追问一段万字合同的多个细节时，flash_decoding 使模型无需反复重算前文的全部注意力状态，而是复用缓存的KV对，实现秒级响应。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Flash-Decoding - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Flash-Decoding",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:33:17Z"
 }

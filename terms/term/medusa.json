@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Medusa",
+  "term": "medusa",
   "norm_term": "medusa",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Medusa 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Medusa，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Medusa 是一个开源的分布式数据库系统，专为高可用、强一致性与水平扩展而设计，常用于需要跨地域部署且不容许数据丢失的关键业务场景。它基于 Apache Cassandra 的存储引擎，但通过引入 Raft 共识协议替代原有的 Gossip 和 hinted handoff 机制，显著提升了故障恢复的确定性与数据一致性保障。普通用户（尤其是开发者和运维人员）需要了解 Medusa，因为它直接影响系统在节点宕机、网络分区等异常下的行为表现，关系到数据安全与服务可靠性。",
+    "metaphor": "Medusa 就像一支训练有素的消防队：每个队员（节点）都清楚自己的职责，遇到火情（故障）时无需临时协商，而是按预设共识流程快速响应并协同灭火（恢复一致状态）。",
+    "example": "某全球电商公司在欧洲、北美和亚太三地部署订单服务，使用 Medusa 作为底层数据库；当亚太机房突发断网时，系统仍能自动在其余两地间维持强一致写入，并在网络恢复后无缝同步缺失数据，避免订单重复或丢失。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Medusa - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Medusa",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:30:51Z"
 }

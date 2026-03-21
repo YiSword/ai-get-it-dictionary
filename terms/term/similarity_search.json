@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Similarity Search",
+  "term": "similarity_search",
   "norm_term": "similarity_search",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Similarity Search 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Similarity Search，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "similarity_search（相似性搜索）是一种在大规模数据集中查找与给定查询内容语义上最相近的条目的技术，不依赖关键词匹配，而是基于向量表示计算语义距离。它广泛应用于推荐系统、图像检索、问答机器人和文档查找等场景。普通用户需要了解它，因为日常使用的搜索功能（如‘找类似这张图的商品’或‘帮我找和这篇笔记主题相近的文章’）背后往往就是相似性搜索在驱动，理解其原理有助于更有效地表达需求并评估结果的相关性。",
+    "metaphor": "就像在图书馆里，你拿一本喜欢的书，请图书管理员帮你找出‘读起来感觉最像’的其他几本——而不是只找标题含相同字眼的书。",
+    "example": "用户上传一张手绘草图，电商App通过相似性搜索返回风格、结构高度接近的真实商品图片；或研究人员输入一段论文摘要，系统从数万篇文献中召回语义最相关的三篇参考文献。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Similarity Search - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Similarity_Search",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:45:25Z"
 }

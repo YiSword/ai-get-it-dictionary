@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Chart Understanding",
+  "term": "chart_understanding",
   "norm_term": "chart_understanding",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Chart Understanding 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Chart Understanding，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "chart_understanding 是指人类或人工智能系统对图表（如柱状图、折线图、饼图等）中所呈现的数据、结构、关系及隐含信息进行准确识别、解析和推理的能力。它不仅涉及读取坐标轴、图例和数值，还包括理解趋势、异常点、比较关系和作者意图。普通用户需要掌握这一能力，才能在阅读新闻、分析工作报表、评估健康数据或参与公共讨论时，不被误导、不遗漏关键信息，做出理性判断。",
+    "metaphor": "就像读懂一张地图不仅要看图标和线条，还要理解方向、比例和地形起伏所暗示的通行难度一样，理解图表也需要穿透视觉符号，感知背后的数据逻辑与现实含义。",
+    "example": "一位家长查看学校发布的学生成绩分布直方图时，通过 chart_understanding 发现多数学生集中在低分段且存在明显双峰，进而质疑评分标准是否合理，而非仅记住‘平均分78分’这一数字。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Chart Understanding - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Chart_Understanding",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:25:45Z"
 }

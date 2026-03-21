@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Flamingo",
+  "term": "flamingo",
   "norm_term": "flamingo",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Flamingo 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Flamingo，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Flamingo 是一种多模态人工智能模型，由 Meta 开发，能够同时理解和生成文本与图像，特别擅长在少量标注数据（如几张图片加简短描述）下完成跨模态任务，例如图文检索、视觉问答和图像描述生成。普通用户需要了解它，是因为这类模型正逐步融入日常工具——比如智能相册自动打标签、社交平台实时翻译图片中的文字，或辅助视障人士理解网络图像内容，体现了AI从‘只懂文字’迈向‘看懂世界’的关键一步。",
+    "metaphor": "就像一位精通双语且自带速写本的导游，既听得懂你用语言提出的问题，又能立刻根据你随手画的草图给出准确解释。",
+    "example": "用户上传一张手绘风格的蛋糕草图并输入‘做这个蛋糕需要哪些材料？’，Flamingo 模型能识别草图结构与常见烘焙元素，结合文本理解，列出鸡蛋、面粉、奶油等具体原料清单。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Flamingo - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Flamingo",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:32:13Z"
 }

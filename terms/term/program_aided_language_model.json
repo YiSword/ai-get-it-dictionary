@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "program_aided_language_model",
+  "norm_term": "program_aided_language_model",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Program-aided language model（PAL）是一种将大型语言模型与可执行程序（如Python代码）协同工作的技术：模型不直接输出最终答案，而是生成结构化、可运行的代码来完成复杂推理或计算任务，再由解释器执行代码得出结果。它弥补了纯语言模型在精确数学运算、符号推理和确定性逻辑上的短板。普通用户需要了解它，因为这类模型正越来越多地用于需要高准确率的场景（如财务计算、科学问答、编程辅助），其‘生成代码+执行验证’的机制比单纯‘文字推理’更可靠、更可追溯。",
+    "metaphor": "就像一位擅长规划但手不太巧的建筑师，PAL 不自己砌砖，而是先画出精准施工图（代码），再交给专业工人（Python解释器）来建造。",
+    "example": "当用户提问‘2023年美国人口比2013年增长了多少百分比？’，PAL会生成一段调用权威数据API并计算增长率的Python脚本，而非凭记忆或模糊估算作答。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:05:12Z",
+  "updated_at": "2026-03-21T09:16:25Z"
+}

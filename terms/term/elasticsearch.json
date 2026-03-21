@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "elasticsearch",
+  "norm_term": "elasticsearch",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Elasticsearch 是一个开源的分布式搜索和分析引擎，专为快速、实时地存储、搜索和分析大量结构化或非结构化数据而设计。它基于 Apache Lucene 构建，支持全文检索、聚合分析、模糊匹配和复杂查询。普通用户需要了解它，是因为它支撑着许多日常应用背后的智能搜索功能——比如电商网站的商品筛选、日志监控系统的错误排查、新闻平台的关键词推荐等，其性能和灵活性直接影响用户体验与系统可观测性。",
+    "metaphor": "就像一位过目不忘、反应极快的图书管理员，不仅能瞬间从百万册书中找到含特定关键词的页面，还能按主题、年代、热度自动分类统计。",
+    "example": "运维团队将服务器日志接入 Elasticsearch，当发生故障时，可通过自然语言式查询（如‘error AND 404 AFTER today’）快速定位异常时段和模块。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:14:13Z",
+  "updated_at": "2026-03-21T06:02:21Z"
+}

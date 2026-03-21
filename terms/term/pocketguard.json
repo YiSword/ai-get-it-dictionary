@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "pocketguard",
+  "norm_term": "pocketguard",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "PocketGuard 是一种轻量级移动安全工具，通常以手机应用形式存在，用于实时监控和拦截恶意短信、骚扰电话、钓鱼链接及未经授权的后台权限调用。它不依赖云端大规模扫描，而是通过本地规则引擎和行为分析保护用户隐私与资金安全。普通用户需要了解它，因为日常扫码、点击短信链接或安装小众应用时，可能在无感知状态下泄露验证码、通讯录或被静默扣费，而 PocketGuard 能在风险发生的毫秒级内主动干预。",
+    "metaphor": "就像钱包夹层里内置的防盗报警贴片——平时不显眼，但一旦有人试图撬开你的支付页面或复制你的短信验证码，它立刻震动提醒并自动锁死关键操作。",
+    "example": "当用户收到一条伪装成银行通知的短信，内含短链，点击后会跳转至高仿登录页；PocketGuard 在浏览器启动瞬间识别该域名与证书异常，立即弹窗阻断并标记为‘高危仿冒’。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:03:55Z",
+  "updated_at": "2026-03-21T09:12:58Z"
+}

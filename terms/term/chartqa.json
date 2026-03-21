@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "ChartQA",
+  "term": "chartqa",
   "norm_term": "chartqa",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ChartQA 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 ChartQA，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "ChartQA 是一种专门用于回答图表相关问题的视觉语言理解技术，它能同时解析图表（如柱状图、折线图、饼图）中的视觉元素和文本信息，并结合自然语言提问给出准确答案。普通用户需要了解它，是因为在数据驱动的日常场景中——比如阅读财报、分析调研报告或处理工作仪表盘——它能快速将复杂图表转化为易懂的结论，降低数据解读门槛，避免因误读图表导致的决策偏差。",
+    "metaphor": "ChartQA 就像一位精通图形与文字的双语翻译官，一边看懂图表的‘图像语言’，一边听懂你的‘人话问题’，然后用清晰的句子告诉你图表真正想表达什么。",
+    "example": "当你上传一张显示2023年各季度销售额的折线图，并提问‘哪一季度增长最快？’，ChartQA 会自动识别坐标轴、数据点和趋势变化，回答‘第二季度环比增长42%，为全年最高’。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "ChartQA - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/ChartQA",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:25:29Z"
 }

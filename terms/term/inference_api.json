@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Inference API",
+  "term": "inference_api",
   "norm_term": "inference_api",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
-  "category": "推理与部署",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Inference API 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Inference API，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "inference_api 是一种提供模型推理服务的网络接口，允许用户通过 HTTP 请求将输入数据（如文本、图像）发送给已部署的机器学习模型，并实时获取预测结果（如分类标签、生成文本）。它屏蔽了模型加载、硬件适配、并发处理等底层复杂性，使开发者无需本地部署模型即可快速集成 AI 能力。普通用户（尤其是应用开发者）需要了解它，因为它是当前调用大语言模型、视觉模型等 AI 服务最常用、最轻量的方式，直接影响功能实现效率与系统可维护性。",
+    "metaphor": "就像去银行柜台办理业务——你不需要知道金库怎么建、钞票怎么清点，只要递上身份证和需求，柜员（inference_api）就为你完成验密、查账、放款等全部操作并返回结果。",
+    "example": "一个客服聊天机器人应用通过向 Hugging Face 的 inference_api 发送 POST 请求，传入用户提问 '我的订单还没发货怎么办？'，API 在服务器端调用微调过的文本分类模型，几秒内返回 JSON 响应：{'intent': 'shipping_inquiry', 'confidence': 0.96}。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Inference API - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Inference_API",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:28:46Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "q4_k_m",
+  "norm_term": "q4_k_m",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "q4_k_m 是一种量化模型权重的格式，常用于 LLaMA 等开源大语言模型的 GGUF 文件中，表示每个权重参数被压缩为 4 位整数（q4），并采用 K-quant 分组策略中的 'm' 变体（中等精度/平衡型）。它在精度和模型体积之间取得较好折衷：相比全精度（如 float16）可将模型体积减少约 75%，同时保持较高推理质量。普通用户需要了解它，是因为选择该格式直接影响本地运行模型所需的显存/内存、加载速度及回答质量——尤其在消费级硬件上部署时，它是兼顾可用性与效果的常用选项。",
+    "metaphor": "就像把一本高清摄影集压缩成精心优化的电子相册：牺牲少量细节，但保留关键特征，让整本图册能在手机里流畅翻阅。",
+    "example": "当你使用 llama.cpp 在一台 16GB 内存的笔记本电脑上运行 7B 参数的 LLaMA 模型时，选用 q4_k_m 格式的 GGUF 文件（约 3.8GB）即可顺利加载并响应，而若选更高精度的 q5_k_m 则可能内存不足或响应变慢。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T17:14:27Z",
+  "updated_at": "2026-03-21T09:21:03Z"
+}

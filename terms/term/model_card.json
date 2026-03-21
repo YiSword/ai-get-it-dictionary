@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Model Card",
+  "term": "model_card",
   "norm_term": "model_card",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Model Card 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Model Card，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Model card 是一种标准化文档，用于透明、全面地描述机器学习模型的关键信息，包括其用途、训练数据、性能指标、已知局限性、偏见分析和伦理考量等。它帮助普通用户（如开发者、政策制定者或终端使用者）理解模型能做什么、不能做什么、在哪些场景下可能出错或产生不公平结果，从而做出更审慎的部署和使用决策，避免盲目信任或误用技术。",
+    "metaphor": "就像食品包装上的营养成分表和过敏原提示，model card 为AI模型提供‘技术成分说明书’——告诉你它由什么‘原料’（数据）制成、有何‘功效’（能力）、存在哪些‘禁忌’（偏差或失效场景）。",
+    "example": "一家医院在采用皮肤癌检测AI模型前，查阅其model card，发现该模型在深色皮肤人群上的准确率显著偏低，于是决定暂缓临床部署，并优先资助针对性数据补充研究。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Model Card - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Model_Card",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:45:50Z"
 }

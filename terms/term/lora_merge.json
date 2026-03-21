@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "LoRA Merge",
+  "term": "lora_merge",
   "norm_term": "lora_merge",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "训练方法",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LoRA Merge 是模型训练或适配过程中常见的方法，用来让模型学到新能力、降低成本，或提升效果。你不一定需要亲自训练模型，但理解它有助于看懂为什么同一个基础模型会出现很多不同版本。它通常和微调、优化或部署成本有关。",
-    "metaphor": "它类似给模型安排一种更高效的学习方式，让模型用更少成本学会或适应新的任务。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 LoRA Merge，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "LoRA merge（LoRA合并）是指将低秩适应（LoRA）微调得到的增量权重，永久性地叠加并整合进原始大语言模型的主权重中，生成一个独立、无需额外LoRA加载逻辑的新模型文件。这一操作使模型脱离对LoRA运行时支持的依赖，便于部署、共享或在不兼容LoRA的推理框架中直接使用。普通用户需要了解它，因为它是从实验性微调走向实际落地的关键步骤——决定模型是否轻量可分发，还是必须捆绑额外组件运行。",
+    "metaphor": "就像给一本原版图书手写大量批注后，把所有批注内容工整誊抄到原文页边并装订成全新定稿，从此不再需要对照原书和笔记两份材料。",
+    "example": "开发者用LoRA微调Llama-3-8B模型适配客服对话风格，训练完成后执行lora_merge，得到一个体积略增但完全自包含的'客服版Llama-3-8B.bin'，可直接部署到仅支持标准GGUF格式的边缘设备上。"
   },
   "scenario_tags": [
-    "训练",
-    "微调",
-    "模型优化"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "LoRA Merge - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/LoRA_Merge",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:20:08Z"
 }

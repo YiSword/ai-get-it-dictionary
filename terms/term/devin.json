@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Devin",
+  "term": "devin",
   "norm_term": "devin",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Devin 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Devin，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Devin 是一款由 Cognition AI 开发的实验性人工智能软件工程师，它能自主理解编程任务、编写和调试代码、运行测试、部署应用，并与开发者协作。不同于传统代码补全工具（如 GitHub Copilot），Devin 可以端到端地执行复杂工程任务。普通用户需要了解它，是因为它预示着软件开发范式的转变——未来非技术用户可能通过自然语言描述需求，由 AI 自主实现功能，从而降低技术门槛、加速产品落地，但也引发对就业结构、代码安全与责任归属的新思考。",
+    "metaphor": "Devin 就像一位全天候在线、精通多门编程语言、自带测试实验室和部署工具箱的资深程序员助理，你只需告诉它‘我想做个能记账的网页’，它就会自己画图、写代码、找漏洞、上线运行。",
+    "example": "某初创团队用 Devin 在两小时内从零搭建并部署了一个支持用户注册、数据加密存储和实时余额查询的个人财务小工具，全程无需人工编写核心逻辑代码。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Devin - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Devin",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:32:28Z"
 }

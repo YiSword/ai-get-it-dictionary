@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "LangGraph",
+  "term": "langgraph",
   "norm_term": "langgraph",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LangGraph 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 LangGraph，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "LangGraph 是一个用于构建有状态、多步骤 AI 应用程序的开源 Python 框架，专为扩展 LangChain 生态而设计。它允许开发者将 LLM 调用、工具执行、条件分支和循环等操作组织成可复用、可中断、可恢复的图结构（如有向无环图或带循环的图）。普通用户需要了解它，是因为传统链式调用难以应对复杂交互场景（如客服对话需记忆上下文、反复追问、回溯决策），而 LangGraph 提供了清晰的状态管理与流程控制能力，让 AI 应用更健壮、可调试、可维护。",
+    "metaphor": "就像乐高工厂的装配流水线——每个工位（节点）执行特定任务，传送带（边）按规则传递半成品和指令，中央调度板（状态）实时记录当前进度与零件库存，支持暂停、返工或跳转。",
+    "example": "一个自动法律咨询代理使用 LangGraph 构建：先解析用户问题（节点1），判断是否需补充事实（条件节点），若需则发起追问（节点2），待用户回复后更新状态并进入法规检索（节点3），整个过程可中断保存、错误时回退到上一节点重试。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "LangGraph - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/LangGraph",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:00:29Z"
 }

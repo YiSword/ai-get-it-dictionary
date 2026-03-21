@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "AI Studio",
+  "term": "ai_studio",
   "norm_term": "ai_studio",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AI Studio 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 AI Studio，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "AI Studio 是指由云服务商或科技公司提供的集成化人工智能开发与应用平台，它集成了模型训练、部署、调试、监控及可视化等工具，降低AI技术使用门槛。普通用户（如业务人员、产品经理或初级开发者）无需深入掌握底层算法或工程细节，即可快速构建、测试和上线AI功能，比如智能客服、图像识别或数据分析助手。了解AI Studio有助于非技术背景者参与AI项目协作，评估可行性，并更高效地将AI能力融入实际业务场景。",
+    "metaphor": "AI Studio 就像一个智能化的‘厨房工作室’——你不必从种小麦、磨面粉开始，只需选择食材（数据）、调用预制菜谱（预训练模型）和智能厨电（可视化工具），就能做出一道可上桌的AI‘菜品’。",
+    "example": "某电商公司的运营人员在百度AI Studio中，上传历史促销数据，拖拽式配置时间序列预测模型，30分钟内生成下季度销量预测看板，并嵌入内部BI系统供决策参考。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "AI Studio - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/AI_Studio",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:28:56Z"
 }

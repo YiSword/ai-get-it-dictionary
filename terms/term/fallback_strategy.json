@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Fallback Strategy",
+  "term": "fallback_strategy",
   "norm_term": "fallback_strategy",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Fallback Strategy 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Fallback Strategy，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "fallback_strategy（回退策略）是指当主方案不可用、失败或未满足条件时，系统自动启用的备用处理逻辑。它用于提升系统的健壮性与用户体验，避免因单点故障导致服务中断或报错。普通用户虽不直接配置它，但会间接受益——例如网页加载失败时自动显示缓存内容、语音助手听不清指令时转为文字输入，这些‘无缝切换’背后都依赖合理的回退策略。",
+    "metaphor": "就像开车时导航突然失灵，手机立刻切换到离线地图并推荐已知路线——不是放弃，而是有备选方案的冷静应对。",
+    "example": "一个电商网站的支付接口在高峰期超时，系统自动触发 fallback_strategy，将订单暂存并引导用户改用预存的 PayPal 账户完成支付，而非直接显示‘支付失败’错误页。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Fallback Strategy - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Fallback_Strategy",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:23:27Z"
 }

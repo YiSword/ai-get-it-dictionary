@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Claim Detection",
+  "term": "claim_detection",
   "norm_term": "claim_detection",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Claim Detection 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Claim Detection，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "claim_detection（声明检测）是一种自然语言处理技术，用于自动识别文本中可验证的陈述性语句（即‘主张’或‘声明’），例如‘喝红酒能预防心脏病’或‘某国2023年GDP增长5.2%’。它不判断真假，而是先精准定位哪些句子属于事实性主张，为后续的事实核查、虚假信息识别或知识图谱构建提供关键输入。普通用户需要了解它，因为它是当前新闻平台、社交网络和搜索引擎对抗谣言、提升信息可信度背后的核心支撑技术之一。",
+    "metaphor": "就像图书管理员在成堆书籍中快速挑出所有‘声称某事为真’的论断性章节，而暂不评判其对错。",
+    "example": "在社交媒体平台审核一条推文‘本疫苗导致10万例严重过敏反应’时，claim_detection模块首先将其识别为一条需核查的量化医学主张，再交由事实核查系统验证。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Claim Detection - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Claim_Detection",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:30:40Z"
 }

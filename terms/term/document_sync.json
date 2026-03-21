@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Document Sync",
+  "term": "document_sync",
   "norm_term": "document_sync",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Document Sync 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Document Sync，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "document_sync（文档同步）是指在多个设备或用户之间实时或近实时地保持同一份文档内容一致的技术机制。它通过自动检测修改、上传变更、下载更新并解决冲突，确保无论你在手机、电脑还是网页端编辑，看到的都是最新版本。普通用户需要了解它，因为它是协作办公、跨设备无缝续写、防止误覆盖或丢失工作的基础——若同步失效，可能导致辛苦编辑的内容被旧版本覆盖，或团队成员看到不同信息。",
+    "metaphor": "就像一群人在同一块共享白板上写字，每个人写的字会瞬间出现在所有人的白板上，且系统能自动协调谁先写、谁改了哪一行，避免涂改混乱。",
+    "example": "当你在 iPad 上用 Notion 编辑会议纪要，随后在笔记本电脑上打开同一文档时，新增的待办事项和高亮文字已自动出现；即使同事也在同时修改，系统会合并各自改动或提示冲突供你选择保留。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Document Sync - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Document_Sync",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:46:15Z"
 }

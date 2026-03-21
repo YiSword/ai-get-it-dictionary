@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Hosted Model",
+  "term": "hosted_model",
   "norm_term": "hosted_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Hosted Model 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Hosted Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "hosted_model 指由云服务提供商（如 AWS、Google Cloud 或 Hugging Face）托管并运行的机器学习或大语言模型。用户无需自行部署、维护硬件或管理模型推理服务，只需通过 API 调用即可使用。普通用户需要了解这一概念，因为它直接影响使用成本、响应延迟、数据隐私控制以及功能更新的及时性——例如选择 hosted_model 可能意味着放弃本地数据处理权，但获得开箱即用的稳定服务。",
+    "metaphor": "就像租用一家专业厨房（含厨师、设备和食材）来制作定制餐点，而不是自己买灶具、学烹饪、囤原料再开火。",
+    "example": "一家初创公司调用 OpenAI 的 GPT-4 API 实现客服自动回复，其背后依赖的就是 OpenAI 托管的 hosted_model；该公司不接触模型权重，也不运维 GPU 集群，仅按 token 使用量付费。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Hosted Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Hosted_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:13:28Z"
 }

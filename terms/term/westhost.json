@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "westhost",
+  "norm_term": "westhost",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "WestHost 是一家曾运营多年的美国虚拟主机和网站托管服务提供商，成立于2000年代初，主要面向中小网站开发者提供共享主机、VPS 和域名注册等基础网络服务。它因早期价格低廉、控制面板友好（如cPanel）而受到个人站长和小型企业欢迎。但该公司已于2018年正式停止运营，其客户被迁移至同集团旗下的其他品牌（如HostGator）。普通用户需要知道它，不仅因为历史项目可能仍残留其配置痕迹（如DNS记录、旧邮箱后缀），更在于理解‘托管服务商’的生命周期风险——服务终止会影响网站可用性、数据迁移和SSL证书续期等关键运维环节。",
+    "metaphor": "WestHost 就像一家曾经街角常见的社区照相馆：方便、亲切、服务多年，但随着数码浪潮来临，它悄然关门，留下老相册（网站）需要重新归档到新平台。",
+    "example": "一位用户在2015年用WestHost搭建了企业博客，2018年收到通知服务终止，不得不将WordPress站点、数据库和邮件账户整体迁移到新主机，并更新DNS解析和HTTPS证书，否则网站将无法访问。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:52:49Z",
+  "updated_at": "2026-03-21T10:24:58Z"
+}

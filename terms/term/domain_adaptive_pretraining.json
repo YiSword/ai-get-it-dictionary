@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Domain-Adaptive Pretraining",
+  "term": "domain_adaptive_pretraining",
   "norm_term": "domain_adaptive_pretraining",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "训练方法",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Domain-Adaptive Pretraining 是模型训练或适配过程中常见的方法，用来让模型学到新能力、降低成本，或提升效果。你不一定需要亲自训练模型，但理解它有助于看懂为什么同一个基础模型会出现很多不同版本。它通常和微调、优化或部署成本有关。",
-    "metaphor": "它类似给模型安排一种更高效的学习方式，让模型用更少成本学会或适应新的任务。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Domain-Adaptive Pretraining，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "domain_adaptive_pretraining 是一种预训练策略，指在通用语料预训练之后，针对特定领域（如医学、法律或金融）的文本进一步进行无监督语言建模训练，使模型更深入地掌握该领域的术语、句式和知识结构。它不同于从头训练或简单微调，而是在保留通用语言能力的基础上提升领域适应性。普通用户需要了解它，因为这直接影响AI工具在专业场景中的准确性和可靠性——例如医生使用的病历分析系统若未经过医学领域自适应预训练，可能误读专业缩写或混淆临床概念。",
+    "metaphor": "就像一位通识毕业的医学生，在进入医院实习前，先用半年时间专攻心内科病例库反复学习，不是重学解剖学，而是让已有知识‘适配’真实诊疗语境。",
+    "example": "某银行使用金融新闻、财报和监管文件对通用大模型进行 domain_adaptive_pretraining，再微调用于自动识别信贷风险提示条款，显著提升了对‘或有负债’‘交叉违约’等术语的上下文理解准确率。"
   },
   "scenario_tags": [
-    "训练",
-    "微调",
-    "模型优化"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Domain-Adaptive Pretraining - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Domain-Adaptive_Pretraining",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:47:23Z"
 }

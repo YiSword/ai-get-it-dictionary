@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "pipeline_parallelism",
+  "norm_term": "pipeline_parallelism",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Pipeline parallelism 是一种将深度神经网络按层（或模块）切分，分配到多个计算设备（如GPU）上并行执行的技术。前向传播和反向传播被划分为多个阶段，各阶段在不同设备上流水线式运行，以缓解单设备显存压力并提升训练吞吐量。普通用户（尤其是模型开发者或训练工程师）需要了解它，因为当模型规模超出单卡容量时，这是实现大模型训练的关键手段之一，直接影响可训练模型的上限与硬件资源利用率。",
+    "metaphor": "就像汽车装配线：每个工人只负责固定工序（如安装车门），车辆在工位间流动，多个车辆在不同工序上同时被处理，整体产出率远高于单人组装整辆车。",
+    "example": "在训练拥有100层的LLaMA-3变体时，将模型按25层一组切分为4段，分别部署在4块GPU上，通过微批次（micro-batch）流水线调度实现高效训练。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:43:22Z",
+  "updated_at": "2026-03-21T09:10:02Z"
+}

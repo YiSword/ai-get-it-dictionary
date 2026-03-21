@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Kubeflow",
+  "term": "kubeflow",
   "norm_term": "kubeflow",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Kubeflow 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Kubeflow，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Kubeflow 是一个开源平台，旨在将机器学习工作流简化并标准化地运行在 Kubernetes 集群上。它提供了一套模块化组件（如训练、超参调优、模型服务、流水线编排等），帮助数据科学家和工程师在生产环境中可复现、可扩展、可协作地开发和部署 AI 模型。普通用户——尤其是从事 AI 工程化或 MLOps 的从业者——需要了解 Kubeflow，因为它解决了从实验到上线过程中环境不一致、资源难调度、流程难追踪等关键痛点，是构建企业级机器学习基础设施的重要工具。",
+    "metaphor": "Kubeflow 就像为机器学习打造的‘智能工厂流水线’：Kubernetes 是厂房和自动化吊装系统，而 Kubeflow 则是预装好的标准化工位、质检站、物流调度台和操作手册。",
+    "example": "一家电商公司使用 Kubeflow Pipelines 构建端到端推荐模型流水线：每日自动拉取用户行为数据、训练新模型、对比 A/B 效果，并将最优模型一键部署到 KFServing 提供的在线 API 服务中。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Kubeflow - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Kubeflow",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:57:11Z"
 }

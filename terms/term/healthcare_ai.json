@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Healthcare AI",
+  "term": "healthcare_ai",
   "norm_term": "healthcare_ai",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Healthcare AI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Healthcare AI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Healthcare_AI 指将人工智能技术（如机器学习、自然语言处理和计算机视觉）应用于医疗健康领域的系统与工具。它能辅助疾病早期筛查、个性化治疗建议、医学影像分析、药物研发及慢性病管理等。普通用户需要了解它，因为其正逐步融入日常健康服务——例如通过手机App分析症状、智能手环预警心律异常，或帮助医生更快给出准确诊断，从而提升就医效率、降低误诊风险，并让优质医疗资源更可及。",
+    "metaphor": "就像一位不知疲倦、过目不忘的超级专科医生助手，既能瞬间比对百万病例，又能24小时守在你身边观察身体细微变化。",
+    "example": "某三甲医院使用Healthcare_AI系统分析肺部CT影像，3秒内标记出毫米级结节并评估恶性概率，使早期肺癌检出率提升40%。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Healthcare AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Healthcare_AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:07:28Z"
 }

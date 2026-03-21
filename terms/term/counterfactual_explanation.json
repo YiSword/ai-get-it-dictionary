@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Counterfactual Explanation",
+  "term": "counterfactual_explanation",
   "norm_term": "counterfactual_explanation",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Counterfactual Explanation 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Counterfactual Explanation，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Counterfactual explanation 是一种可解释人工智能（XAI）技术，用于回答‘如果某个输入条件稍作改变，模型的预测结果会如何变化？’这类问题。它通过生成最接近原始输入但导致不同决策的最小修改样本来揭示模型决策的关键依据。普通用户需要了解它，是因为它能以直观、非技术化的方式揭示算法决策背后的逻辑，帮助识别偏见、验证 fairness、提升信任，并支持用户采取具体行动来改变不利结果（例如，‘若收入提高500元，贷款就会获批’）。",
+    "metaphor": "就像一位耐心的银行经理在拒贷后告诉你：‘只要把月收入多写800元，或把负债少填2万元，这次申请就能通过。’",
+    "example": "某信用评分模型拒绝了一位用户的房贷申请；系统生成反事实解释：‘若您的信用卡当前余额减少12,000元且近6个月无逾期记录，则评分将达准入阈值，申请极可能获批。’"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Counterfactual Explanation - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Counterfactual_Explanation",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:02:51Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Episode",
+  "term": "episode",
   "norm_term": "episode",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Episode 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Episode，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Episode 是强化学习中的一个基本单位，指智能体从初始状态开始，与环境交互直至达到终止状态（如任务完成或失败）所经历的一系列连续动作、状态和奖励的完整过程。它类似于一次独立的‘尝试’或‘试验’。普通用户需要理解 episode，因为它体现了智能体如何通过反复试错来学习——每次 episode 都是积累经验、优化策略的机会；不了解 episode 就难以把握强化学习‘边做边学’的核心逻辑。",
+    "metaphor": "就像一个人学骑自行车：每一次从蹬车起步到最终停下（无论成功保持平衡还是摔倒），都是一次独立的练习回合。",
+    "example": "在训练机器人走迷宫的强化学习任务中，一个 episode 指机器人从入口出发，不断选择移动方向，直到抵达出口（成功）或撞墙超时（失败）的全过程。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Episode - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Episode",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:10:46Z"
 }

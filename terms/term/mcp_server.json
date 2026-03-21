@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "MCP Server",
+  "term": "mcp_server",
   "norm_term": "mcp_server",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MCP Server 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 MCP Server，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "mcp_server 是 Model Context Protocol（MCP）规范中定义的一种标准化后端服务，负责接收客户端（如 AI 工具或 IDE 插件）的请求，执行上下文感知操作（如读取文件、查询数据库、调用 API），并安全、结构化地返回结果。它不是通用 Web 服务器，而是专为 AI 系统提供可信赖外部能力接入点的轻量级协议服务器。普通用户无需直接操作它，但当使用支持 MCP 的智能编程助手、AI 笔记工具或自动化工作流时，其背后依赖 mcp_server 来安全获取本地代码、日历或邮件等敏感信息——因此了解它有助于判断工具的数据权限边界与隐私保障机制。",
+    "metaphor": "就像公寓楼里的门禁管家：不替你做决定，但严格核验访客（AI 工具）身份，并只开放经你授权的房间（如‘项目代码’或‘待办清单’）供其临时查阅。",
+    "example": "当你在 VS Code 中使用一个 AI 编程插件自动生成单元测试时，该插件通过本地运行的 mcp_server 安全读取当前项目的源码文件和测试配置，而不会将代码上传至远程服务器。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "MCP Server - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/MCP_Server",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:29:10Z"
 }

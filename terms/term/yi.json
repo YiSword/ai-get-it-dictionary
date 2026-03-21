@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Yi",
+  "term": "yi",
   "norm_term": "yi",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Yi 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Yi，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "‘Yi’（亿）是中文数字单位，代表10^8，即一后面跟着八个零（100,000,000）。它常用于表达大规模数量，如人口、GDP、企业营收或数据量，在中文语境中比直接使用‘100 million’更自然、简洁。普通用户需要理解‘yi’，因为日常新闻、财经报道、政府公告和科技产品参数（如‘用户破十亿’‘存储容量达五亿条记录’）频繁使用该单位；误读可能导致数量级误解，例如将‘两亿’错当成‘两百万’，造成对规模的严重低估。",
+    "metaphor": "就像‘打’之于鸡蛋（一打=12个），‘亿’是中文里专为‘一亿个东西’而设的计量打包单位——不是零散计数，而是整箱搬运。",
+    "example": "中国互联网用户规模在2023年已超过十亿人；某短视频平台宣布其累计上传视频总量突破三亿条。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Yi - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Yi",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:30:22Z"
 }

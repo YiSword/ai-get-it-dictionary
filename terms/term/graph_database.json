@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Graph Database",
+  "term": "graph_database",
   "norm_term": "graph_database",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Graph Database 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Graph Database，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "图数据库是一种专门用于存储和查询实体（节点）及其关系（边）的数据库系统，它以图结构——而非传统表格——组织数据，天然支持高复杂度的关联分析。普通用户需要了解它，是因为在社交网络推荐、欺诈检测、知识图谱搜索等依赖‘关系’的应用中，图数据库比关系型数据库更快、更直观、更易建模，能直接表达‘谁认识谁’‘什么导致什么’这类现实逻辑。",
+    "metaphor": "就像一张动态的亲友关系网手绘图，每个人是一个圆圈（节点），每条连线（边）代表一种关系（如‘同事’‘亲属’），你可以一眼看出远亲如何通过中间人产生联系。",
+    "example": "Netflix 使用图数据库分析用户观看行为与影片标签、演员、导演之间的多层关系，从而实时生成高度个性化的‘因为您看了X，所以推荐Y’内容序列。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Graph Database - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Graph_Database",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:57:48Z"
 }

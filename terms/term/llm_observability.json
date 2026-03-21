@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "LLM Observability",
+  "term": "llm_observability",
   "norm_term": "llm_observability",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LLM Observability 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 LLM Observability，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "LLM Observability 是指对大语言模型（LLM）在生产环境中运行时的行为、性能、输出质量、资源消耗及异常情况进行持续监控、追踪与分析的能力。它涵盖输入/输出日志、延迟、token 使用、幻觉检测、偏见倾向、上下文截断、错误率等维度。普通用户（尤其是产品、运维和AI工程师）需要了解它，因为仅靠模型准确率无法反映真实服务健康度——例如响应变慢、悄悄生成有害内容或成本激增，都可能在用户无感知时损害体验、信任或预算。",
+    "metaphor": "就像给一辆自动驾驶汽车装上仪表盘、黑匣子和路况摄像头：不仅知道它是否到达目的地，还能实时看清油量、刹车响应、路线偏差和乘客反馈。",
+    "example": "某客服聊天机器人突然开始频繁重复回答或回避敏感问题，通过LLM observability工具发现是提示词被意外截断导致上下文丢失，团队据此修复了输入预处理逻辑。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "LLM Observability - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/LLM_Observability",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:15:07Z"
 }

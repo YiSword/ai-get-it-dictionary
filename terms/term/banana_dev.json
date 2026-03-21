@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "banana_dev",
+  "norm_term": "banana_dev",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "banana_dev 是一个开源硬件与软件协同开发平台，专注于边缘AI和嵌入式机器学习应用，提供简化的模型部署工具链、低功耗设备支持（如 Banana Pi 系列开发板）及可视化训练界面。普通用户需要了解它，是因为它降低了在资源受限设备上运行AI模型的技术门槛，使创客、教育者和小型团队无需深厚底层经验即可快速构建智能物联网原型。",
+    "metaphor": "就像为厨房新手设计的智能料理机——你只需放入食材（数据）并选择菜式（模型），它就自动完成切配、火候控制和装盘（量化、编译、部署）。",
+    "example": "一名高中教师用 banana_dev 在 Banana Pi BPI-M2 Zero 上部署了一个实时手势识别模型，让学生通过摄像头比划数字，设备立即语音播报识别结果，整个过程未编写一行C/C++代码。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:22:25Z",
+  "updated_at": "2026-03-21T03:55:17Z"
+}

@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "HumanEval",
+  "term": "humaneval",
   "norm_term": "humaneval",
   "lang": "en",
   "aliases": [],
-  "entity_type": "metric",
-  "category": "评测指标",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "HumanEval 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 HumanEval，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "HumanEval 是一个用于评估代码生成模型编程能力的基准测试数据集，由 OpenAI 等机构提出。它包含 164 个手工编写的 Python 编程问题，每个问题附有函数签名、自然语言描述和多个通过单元测试的正确示例。与传统基于大规模代码语料库的自动评测不同，HumanEval 强调功能正确性与人类意图对齐，能更真实地反映模型是否真正理解需求并生成可运行、无逻辑错误的代码。普通用户（尤其是开发者、技术选型者或AI工具使用者）需要了解它，因为它是当前衡量Copilot类工具‘写代码是否靠谱’的关键标尺之一。",
+    "metaphor": "就像驾照路考——不看你会背多少交通规则，只看你能否在真实路口准确完成掉头、泊车、避让等具体任务。",
+    "example": "当一家公司想评估新发布的代码补全模型是否值得集成到其IDE插件中时，会用 HumanEval 运行该模型，统计其在164道题中通过全部单元测试的比例（即 pass@1 指标），以此量化其实际编码可靠性。"
   },
   "scenario_tags": [
-    "评测",
-    "基准",
-    "比较"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "HumanEval - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/HumanEval",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T07:17:27Z"
 }

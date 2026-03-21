@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "habana",
+  "norm_term": "habana",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Habana 是一家被英特尔收购的以色列人工智能芯片公司，专注于开发高性能、低功耗的AI加速器（如Gaudi系列训练芯片和Gaudi2/Gaudi3），用于大规模深度学习模型的训练与推理。它提供软硬件协同优化的AI计算平台，挑战英伟达在AI加速领域的主导地位。普通用户虽不直接接触硬件，但其技术可能间接影响所用AI服务（如大模型响应速度、云服务成本与能效），尤其在企业级AI部署、云计算及AI基础设施升级中日益重要。",
+    "metaphor": "Habana 就像为AI超级大脑量身定制的‘高效手术刀’——不像通用CPU那样样样都做，也不像传统GPU那样偏重图形处理，而是专为切开海量数据、精准缝合神经网络而设计。",
+    "example": "某云服务商采用Habana Gaudi2芯片集群替代部分NVIDIA GPU，将LLaMA-2 7B模型的训练时间缩短35%，同时降低40%每卡功耗；另一家自动驾驶公司用Gaudi3加速多传感器融合推理，在车载边缘服务器上实现毫秒级实时决策。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:27:44Z",
+  "updated_at": "2026-03-21T07:04:55Z"
+}

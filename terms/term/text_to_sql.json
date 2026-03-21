@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Text-to-SQL",
+  "term": "text_to_sql",
   "norm_term": "text_to_sql",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Text-to-SQL 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Text-to-SQL，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "text_to_sql 是一种人工智能技术，能将自然语言描述的问题（如‘上个月销售额最高的产品是什么？’）自动转换为结构化查询语言（SQL）语句，从而让非技术人员无需学习数据库语法，也能直接从关系型数据库中获取所需数据。它降低了数据分析门槛，提升了业务人员自主探索数据的效率，避免了反复依赖工程师写查询的延迟和沟通成本。",
+    "metaphor": "就像给数据库配了一位精通双语的实时翻译——你用日常说话的方式提问，它立刻把话‘翻译’成数据库能听懂的指令。",
+    "example": "市场专员在BI工具中输入‘显示华东区2024年Q1复购率超过30%的客户数量’，系统自动生成并执行对应SQL，即时返回结果。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Text-to-SQL - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Text-to-SQL",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:05:56Z"
 }

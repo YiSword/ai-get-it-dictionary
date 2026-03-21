@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "multi_controlnet",
+  "norm_term": "multi_controlnet",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "multi_controlnet 是指在生成式AI图像模型（如Stable Diffusion）中同时启用多个ControlNet模块，每个模块独立引导图像生成的不同结构特征（如边缘、深度、姿态或涂鸦），从而实现更精细、多维度的条件控制。普通用户需要了解它，是因为它显著提升了对AI绘图过程的掌控力——不再依赖单一约束，而是能像专业设计师一样协同调控构图、姿势、光影和线条等多个层面，让输出结果更符合复杂创作意图。",
+    "metaphor": "就像一位导演同时指挥摄影、灯光、美术和动作指导四位资深副导演，各自负责一个关键维度，共同精准还原分镜脚本。",
+    "example": "用户想生成一幅‘穿旗袍的舞者在古风庭院中旋转’的图像，可同时加载OpenPose ControlNet控制肢体动态、Depth ControlNet把控建筑透视、Canny ControlNet强化门窗雕花线条，三者协同确保人物姿态自然、场景纵深准确、细节纹理清晰。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:14:15Z",
+  "updated_at": "2026-03-21T08:49:52Z"
+}

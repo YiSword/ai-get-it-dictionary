@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Chunking",
+  "term": "chunking",
   "norm_term": "chunking",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Chunking 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Chunking，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Chunking 是指将大段连续的文本、代码或数据按语义或长度切分为更小、更易处理的单元（称为 chunk）的技术。它广泛应用于大语言模型的输入预处理、文档检索、嵌入向量化等场景。普通用户需要了解它，是因为它直接影响 AI 工具能否准确理解长文档——若 chunk 切得太碎会丢失上下文，太长则可能超出模型处理能力，导致信息遗漏或截断。",
+    "metaphor": "就像把一本厚书拆成若干章节目录卡片，每张卡片承载独立主题但又保持逻辑连贯，方便快速翻找和理解。",
+    "example": "在用 RAG（检索增强生成）系统查询公司内部知识库时，PDF 手册被 chunking 切分为 512 字符的语义段落，再分别向量化存入向量数据库，确保用户提问能精准匹配到相关段落而非整份文档。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Chunking - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Chunking",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T04:29:20Z"
 }

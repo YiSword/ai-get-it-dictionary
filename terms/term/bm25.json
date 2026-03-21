@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "BM25",
+  "term": "bm25",
   "norm_term": "bm25",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "BM25 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 BM25，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "BM25（Best Matching 25）是一种广泛使用的搜索引擎相关性排序算法，用于评估文档与用户查询之间的匹配程度。它基于词频、文档长度和语料库统计信息（如逆文档频率）进行加权计算，比早期的TF-IDF更鲁棒，能有效抑制过长文档或高频词的干扰。普通用户虽不直接接触该算法，但每次在搜索引擎、电商网站或知识库中获得精准结果，背后往往依赖BM25——理解它有助于意识到搜索并非简单关键词匹配，而是有数学逻辑支撑的智能排序。",
+    "metaphor": "就像图书管理员不仅看一本书里‘咖啡’出现了几次，还会考虑这本书是否专门讲咖啡（而非仅提了一句），以及整个图书馆里讲咖啡的书多不多，从而更合理地推荐最相关的那本。",
+    "example": "当你在Elasticsearch驱动的电商App中搜索‘无线降噪耳机’，系统用BM25为每款商品标题和描述打分，优先展示‘Sony WH-1000XM5 无线主动降噪耳机’这类语义贴合、关键词分布自然且品类专注的商品，而非仅含‘无线’和‘耳机’但实际是蓝牙音箱的商品。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "BM25 - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/BM25",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:12:07Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "bluewallet",
+  "norm_term": "bluewallet",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "BlueWallet 是一款开源、非托管的比特币和闪电网络钱包应用，支持 iOS 和 Android。它允许用户完全掌控自己的私钥，无需依赖第三方托管，从而真正拥有资产。普通用户需要知道它，是因为它兼顾易用性与安全性：既提供简洁界面和快速闪电支付体验，又避免中心化交易所或托管钱包带来的跑路、冻结或单点故障风险，适合希望自主管理比特币的初学者和进阶用户。",
+    "metaphor": "就像一把只由你自己保管钥匙的数字保险箱，既不用寄存在银行（托管），也不需要自己焊铁皮造箱子（全节点），而是由可信工匠（开源社区）设计好、你随时能开合取用。",
+    "example": "用户小李用 BlueWallet 扫描咖啡店的闪电网络二维码，3 秒内完成支付，资金直接从他的手机钱包发出，无需经过银行或支付平台；交易记录和私钥始终只存于他自己的设备中。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:25:26Z",
+  "updated_at": "2026-03-21T04:11:51Z"
+}

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Judge Agreement",
+  "term": "judge_agreement",
   "norm_term": "judge_agreement",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Judge Agreement 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Judge Agreement，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "judge_agreement 是指在评估任务（如标注、评分或分类）中，多个评判者（如人工标注员、专家或模型）对同一内容给出一致判断的程度。它用于衡量评判过程的可靠性与客观性，常见于自然语言处理、医学诊断、教育测评等领域。普通用户需要了解它，因为当结果依赖多人判断（如AI训练数据质量、考试评分公平性、内容审核标准），高judge_agreement意味着结论更可信、争议更少；反之则提示需统一标准或加强培训。",
+    "metaphor": "就像多位厨师独立品尝同一道菜后，几乎都给出‘咸淡适中’的评价——这种共识程度就是judge_agreement。",
+    "example": "在构建情感分析数据集时，三位标注员对100条微博分别标注‘正面/中性/负面’，若92%的样本获得完全一致标签，则judge_agreement（如Cohen’s Kappa值）就很高，说明标注标准清晰可靠。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Judge Agreement - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Judge_Agreement",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:46:29Z"
 }

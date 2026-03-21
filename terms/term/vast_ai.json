@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "vast_ai",
+  "norm_term": "vast_ai",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Vast.ai 是一个去中心化的 GPU 算力租赁平台，允许用户按需租用全球闲置的高性能显卡（如 NVIDIA A100、RTX 4090）来运行 AI 训练、推理、渲染或科学计算等任务。它类似云计算的‘闲鱼版’——不依赖大型厂商，而是连接个人矿工、实验室和企业空闲的硬件资源。普通用户（尤其是独立开发者、学生或小团队）需要知道它，因为它能以远低于 AWS 或 RunPod 的价格获得弹性算力，降低 AI 实验门槛，避免长期订阅或硬件重投入。",
+    "metaphor": "就像 Airbnb 把空闲房间变成酒店客房，Vast.ai 把散落在世界各地的闲置显卡变成可即时预订的‘AI 发动机’。",
+    "example": "一位研究人员想在 8 小时内训练一个 LoRA 微调模型，她在 Vast.ai 上筛选出带 24GB 显存的 RTX 3090 实例，按秒付费租用 6 小时，总成本不到 5 美元，完成后自动释放资源。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:31:51Z",
+  "updated_at": "2026-03-21T10:15:48Z"
+}

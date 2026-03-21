@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Guard Llama",
+  "term": "guard_llama",
   "norm_term": "guard_llama",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
-  "category": "模型架构",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Guard Llama 是 AI 模型体系中的重要结构或模型类型，决定了模型如何理解输入、组织信息和生成结果。虽然普通用户不会直接训练它，但很多今天常见的 AI 能力都建立在这类结构之上。理解它能帮助你建立更完整的 AI 基础认知。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Guard Llama，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "guard_llama 是指基于 Llama 系列大语言模型（如 Llama 3）专门微调或部署用于内容安全防护的轻量级守门员模型，负责实时检测并拦截有害、违规、越狱或不安全的用户输入与模型输出。它不替代主模型，而是作为前置过滤层，提升系统合规性与鲁棒性。普通用户需要了解它，因为其存在直接影响对话是否被拒绝、提示是否被重写，或敏感话题能否被安全响应——它是AI产品背后看不见的‘内容安检员’。",
+    "metaphor": "就像机场安检门，guard_llama 不负责带你登机（生成回答），但会先扫描你的行李（输入/输出），拦下危险品（违规内容），只放行合规请求。",
+    "example": "当用户在某款企业级AI助手里输入‘教我如何绕过公司防火墙’，guard_llama 会在请求抵达主Llama模型前识别该指令为越狱尝试，并返回标准化拒绝响应，而非让主模型生成实际方法。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Guard Llama - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Guard_Llama",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:04:08Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Homomorphic Encryption",
+  "term": "homomorphic_encryption",
   "norm_term": "homomorphic_encryption",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Homomorphic Encryption 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Homomorphic Encryption，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "同态加密是一种密码学技术，允许在密文上直接进行计算，而无需先解密——计算结果解密后，与对明文执行相同操作的结果完全一致。它解决了数据隐私与可用性之间的根本矛盾：云服务商或第三方可处理用户加密的数据（如统计、搜索、AI训练），却无法获知原始内容。普通用户需要了解它，因为它是未来医疗、金融、智能设备等敏感场景中‘数据可用不可见’的关键保障，意味着你的健康记录、工资单或聊天记录能在被分析的同时，真正免于泄露。",
+    "metaphor": "就像把一份写满秘密的信件放进一个特制的魔法盒子——别人可以在盒子外对信件做折叠、裁剪、盖章等操作，打开盒子后，信件内容依然加密，但所有操作的效果已准确体现在解密后的文本上。",
+    "example": "医院将患者加密的基因数据上传至云端AI平台，平台在不解密的前提下完成疾病风险预测计算，仅返回加密的预测结果；医院解密后获得准确结论，而云平台全程无法读取任何基因信息。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Homomorphic Encryption - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Homomorphic_Encryption",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:12:58Z"
 }

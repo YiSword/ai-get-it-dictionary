@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "storj",
+  "norm_term": "storj",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Storj 是一个去中心化的云存储网络，它利用全球志愿者闲置的硬盘空间来存储用户加密后的数据，而非依赖传统中心化数据中心。用户上传文件前会自动分片、加密并分布式存储在多个节点上，只有用户持有解密密钥。普通用户需要知道它，因为它提供了更强的隐私保护、抗审查性以及潜在更低的存储成本，同时减少了对大型科技公司数据垄断的依赖。",
+    "metaphor": "就像把一本日记拆成几十页，每页用不同锁加密后寄给世界各地的邻居保管，只有你有全部钥匙和页码顺序，才能还原原文。",
+    "example": "一位独立记者使用 Storj 客户端将调查素材加密上传，即使某个存储节点被关闭或审查，数据仍完整保留在其他节点，且未经许可无人能读取内容。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:35:24Z",
+  "updated_at": "2026-03-21T09:55:51Z"
+}

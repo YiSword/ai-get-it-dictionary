@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Dynamic Batching",
+  "term": "dynamic_batching",
   "norm_term": "dynamic_batching",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Dynamic Batching 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Dynamic Batching，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "dynamic_batching 是一种在推理服务中自动将多个用户请求临时合并成一个批次进行模型计算的技术，它根据到达时间、延迟容忍度和硬件资源动态调整批大小，而非使用固定批次。相比静态批处理，它能更高效地利用 GPU 等加速器，降低平均响应延迟并提升吞吐量。普通用户需要了解它，因为这直接影响 AI 服务的响应速度、成本（单位请求算力开销）和可扩展性——例如在聊天机器人或实时翻译等场景中，它让高并发下的体验更流畅且服务更经济。",
+    "metaphor": "就像快递公司不等凑满一整车才发车，而是根据订单时效和路线动态拼单，在保证送达时间的前提下最大化货车装载率。",
+    "example": "某云厂商的文本生成 API 使用 dynamic_batching，当 12 个用户在 50 毫秒内发起请求时，系统自动将其合为一批送入 GPU 推理，而非逐个处理，使平均延迟从 320ms 降至 180ms，吞吐量提升 2.3 倍。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Dynamic Batching - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dynamic_Batching",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:58:02Z"
 }

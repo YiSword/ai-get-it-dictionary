@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "role_playing",
+  "norm_term": "role_playing",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "role_playing（角色扮演）是一种交互技术，指用户或系统在特定情境中模拟某个身份、立场或行为模式进行表达与响应。它广泛应用于教育训练、心理治疗、AI对话系统（如客服机器人设定为‘耐心顾问’）、游戏设计等领域。普通用户需要了解它，是因为越来越多的智能工具（如AI助手）通过角色设定来调整语气、知识边界和回应风格，理解这一点有助于更有效地引导AI输出，避免误解其‘人设’与真实能力之间的区别。",
+    "metaphor": "就像演员戴上不同面具进入戏中——AI不是真的变成医生或老师，而是临时穿上那套行为规则的外衣来配合你的需求。",
+    "example": "当你在AI写作工具中设置‘请以资深编辑身份帮我润色文案’，系统便启用严谨、简洁、注重逻辑连贯性的语言策略，而非默认的通用表达风格。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:06:18Z",
+  "updated_at": "2026-03-21T09:34:38Z"
+}

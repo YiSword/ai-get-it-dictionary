@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Knowledge Distillation Prompting",
+  "term": "knowledge_distillation_prompting",
   "norm_term": "knowledge_distillation_prompting",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "提示工程",
-  "difficulty": "高级",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Knowledge Distillation Prompting 是和 AI 交流时常见的一类方法或输入形式，用来更明确地表达任务、限制和输出要求。它会直接影响模型回答的方向、质量和稳定性。对初学者来说，理解它的作用，往往比研究模型参数更能立刻提升使用效果。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你希望 AI 按固定格式输出结果，或针对某个场景调整语气和步骤时，就会用到 Knowledge Distillation Prompting，因为这类任务高度依赖输入表达方式。"
+    "plain": "Knowledge distillation prompting 是一种将大型语言模型（LLM）的推理能力或领域知识，通过精心设计的提示（prompt）迁移给小型模型或人类学习者的技术。它不依赖模型权重微调，而是利用大模型生成高质量的推理链、解释或结构化输出，作为小模型训练或人类理解的‘教学脚手架’。普通用户需要了解它，因为它能显著降低使用AI辅助学习、教学或轻量级部署的门槛——无需昂贵算力，仅靠提示工程即可复用顶尖模型的智慧。",
+    "metaphor": "就像一位经验丰富的厨师 verbally guiding a home cook through each step of a complex recipe—不是直接 handing over the finished dish, but teaching *how to think* like a chef.",
+    "example": "在编程教学中，教师用 GPT-4 生成带详细错误分析和重构建议的 Python 调试示例，再将这些提示模板固化为学生练习时的标准输入，使初学者在与轻量级本地模型交互时也能获得类专家级反馈。"
   },
   "scenario_tags": [
-    "提问",
-    "写作",
-    "指令"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Knowledge Distillation Prompting - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Knowledge_Distillation_Prompting",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:53:40Z"
 }

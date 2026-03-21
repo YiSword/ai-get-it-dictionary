@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Context Parallelism",
+  "term": "context_parallelism",
   "norm_term": "context_parallelism",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Context Parallelism 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Context Parallelism，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "context_parallelism（上下文并行）是一种大语言模型训练与推理中的分布式计算策略，它将长输入序列按上下文（如文档段落或对话轮次）切分，分配到不同设备上并行处理，同时保持跨设备的注意力计算一致性。它不同于数据并行或张量并行，专为高效处理超长上下文而设计，能显著降低显存占用和通信开销。普通用户需要了解它，因为它是支撑现代AI处理万字文档、长对话历史或代码库级理解的关键底层技术，直接影响模型响应的完整性与实时性。",
+    "metaphor": "就像一群图书管理员协同校对一本巨著：每人负责不同章节，但通过实时共享批注索引，确保全书逻辑连贯、引用准确，而非各自为政。",
+    "example": "在训练一个支持128K上下文的代码补全模型时，系统采用context_parallelism将单次输入的超长源码文件切分为多个上下文块，分发至8张GPU并行执行注意力计算，并通过环形通信同步关键位置的KV缓存。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Context Parallelism - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Context_Parallelism",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:52:08Z"
 }

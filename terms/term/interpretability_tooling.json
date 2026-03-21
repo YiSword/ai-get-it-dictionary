@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Interpretability Tooling",
+  "term": "interpretability_tooling",
   "norm_term": "interpretability_tooling",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Interpretability Tooling 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Interpretability Tooling，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "interpretability_tooling 是指用于理解、分析和解释机器学习模型（尤其是复杂模型如深度神经网络）内部决策逻辑的一系列工具、库和方法。它帮助用户查看模型为何做出特定预测，例如哪些输入特征起了关键作用、中间层如何响应数据等。普通用户需要了解它，是因为当AI系统被用于医疗诊断、信贷审批或司法辅助等高风险场景时，仅靠准确率不够——必须能验证其合理性、发现潜在偏见，并满足监管透明性要求。",
+    "metaphor": "就像给一台黑箱发动机装上透明外壳和实时仪表盘，让你不仅能看见它是否运转，还能看清油路怎么走、转速怎么变、哪里有异常抖动。",
+    "example": "某银行使用LIME工具分析信用评分模型，发现模型意外地将‘邮政编码’作为拒贷主因，从而识别出地域歧视风险并重新训练模型。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Interpretability Tooling - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Interpretability_Tooling",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:38:00Z"
 }

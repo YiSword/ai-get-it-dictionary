@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "parent_document_retriever",
+  "norm_term": "parent_document_retriever",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "parent_document_retriever 是一种信息检索技术，用于在分块（chunking）后的文档中，当某个小片段（child chunk）被检索到时，自动回溯并返回其原始完整文档（parent document）作为最终结果。它解决了‘碎片化检索导致上下文丢失’的问题——用户看到的不是孤立句子，而是有标题、段落结构和背景信息的完整文档。普通用户需要了解它，因为这直接影响搜索结果的实用性：比如查一份长报告中的某句话，系统若只返回那句话就难理解，而用 parent_document_retriever 则能直接给出整份报告或对应章节。",
+    "metaphor": "就像在图书馆里，你只记得某页上的一句话，管理员不只把那一页给你，而是立刻找出整本书并翻到正确章节。",
+    "example": "在法律咨询AI中，用户提问‘竞业限制最长多久’，系统从数千页劳动合同范本中匹配到含该短语的一个段落，parent_document_retriever 自动返回该段落所属的完整合同模板文件，并高亮相关条款所在章节。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:36:08Z",
+  "updated_at": "2026-03-21T09:06:13Z"
+}

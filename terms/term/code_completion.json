@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Code Completion",
+  "term": "code_completion",
   "norm_term": "code_completion",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Code Completion 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Code Completion，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "code_completion（代码补全）是一种编程工具功能，能在开发者输入代码时自动预测并建议后续可能的语法结构，如变量名、函数名、参数、类成员或关键字。它基于上下文（如当前文件、导入模块、类型信息）实时提供准确建议，显著提升编码速度、减少拼写错误，并帮助初学者快速熟悉API和框架。普通用户（尤其是学习编程或日常开发的人）需要了解它，因为它已成为现代编辑器和IDE的标准能力，直接影响开发效率与体验。",
+    "metaphor": "就像手机输入法根据你打的前几个字智能推荐整句话一样，代码补全则是编辑器根据你已写的代码，猜出你接下来最可能写的那行逻辑。",
+    "example": "当你在Python中输入 'requests.get(' 后按下点号，编辑器立刻列出 .json()、.text、.status_code 等可用方法供选择；或在输入 'os.pa' 时自动补全为 'os.path.join'。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Code Completion - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Code_Completion",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T04:35:13Z"
 }

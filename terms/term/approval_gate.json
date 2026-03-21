@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Approval Gate",
+  "term": "approval_gate",
   "norm_term": "approval_gate",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Approval Gate 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Approval Gate，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "approval_gate（审批关卡）是一种软件或工作流中的控制机制，用于在关键操作（如发布代码、支付大额款项、上线新功能）前强制插入人工审核环节，确保符合安全、合规或质量要求。它不是自动放行的通道，而是必须由授权人员明确批准后才能继续的‘检查点’。普通用户需要了解它，因为遇到审批关卡时操作会被暂停，需主动提交材料、等待反馈或联系审批人，否则流程将卡住，影响任务进度。",
+    "metaphor": "就像机场安检口——无论你多赶时间，都必须停下、出示证件、接受检查，通过后才能登机。",
+    "example": "某电商平台运营人员提交促销活动配置后，系统触发approval_gate，要求财务和风控负责人分别审批预算和合规性，双签通过后活动才正式生效。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Approval Gate - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Approval_Gate",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:40:11Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "AI Middleware",
+  "term": "ai_middleware",
   "norm_term": "ai_middleware",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AI Middleware 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 AI Middleware，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "ai_middleware 是指位于人工智能应用与底层基础设施（如模型、GPU、数据库、API）之间的软件层，负责统一处理模型调用、数据路由、权限控制、监控日志、缓存、格式转换等共性任务。它不直接参与AI推理或训练，而是让开发者无需重复造轮子就能快速、安全、可扩展地集成多个AI能力。普通用户虽不直接接触它，但它的稳定性、响应速度和隐私保护能力直接影响所用AI产品的体验——比如聊天响应是否延迟、对话历史是否被误共享、能否无缝切换不同大模型。",
+    "metaphor": "它就像智能建筑里的中央楼宇管理系统：不负责设计房间或制造电梯，但协调电力、空调、门禁和消防，确保所有设施协同、高效且安全运行。",
+    "example": "某客服平台接入多个大模型（如GPT-4、Claude、本地医疗专用模型），通过ai_middleware统一管理请求分发、敏感信息脱敏、响应格式标准化及调用频次限流，使前端无需为每个模型编写适配代码。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "AI Middleware - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/AI_Middleware",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:27:47Z"
 }

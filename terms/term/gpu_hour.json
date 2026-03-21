@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "GPU Hour",
+  "term": "gpu_hour",
   "norm_term": "gpu_hour",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GPU Hour 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 GPU Hour，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "gpu_hour 是云计算中衡量 GPU 资源使用量的计费单位，表示一块特定型号的 GPU（如 NVIDIA A100）连续运行一小时所消耗的算力额度。它将硬件性能、使用时长和配置规格（如显存大小、计算精度）综合折算为标准化计量单位，用于云服务商向用户精准计费。普通用户需要了解它，因为训练大模型、渲染视频或运行 AI 应用时，成本可能随 GPU 类型和运行时间指数级增长，误选高配 GPU 或未及时释放资源会导致远超预期的账单。",
+    "metaphor": "就像租车按‘车型×小时’计费——开一辆保时捷一小时的费用远高于开一辆经济型轿车一小时，gpu_hour 也是按 GPU 的‘性能等级’乘以使用时间来算钱。",
+    "example": "某开发者在云平台选用 1 块 A10G GPU 训练图像生成模型 3 小时，消耗 3 gpu_hour；若改用更强大的 A100，则同等时间可能折算为 6 gpu_hour，费用翻倍。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "GPU Hour - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/GPU_Hour",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:54:57Z"
 }

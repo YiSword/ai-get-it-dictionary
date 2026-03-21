@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "aave",
+  "norm_term": "aave",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Aave 是一个基于以太坊的去中心化借贷协议，允许用户无需中介即可存入加密资产赚取利息，或抵押资产借出其他代币。它支持闪电贷（无需抵押的即时借贷）、变利率与稳定利率选择，以及跨链资产支持。普通用户需要了解 Aave，因为它代表了传统银行服务的替代方案——资金完全由自己掌控，无信用审查，但需自行承担智能合约风险和价格波动导致的清算风险。",
+    "metaphor": "Aave 就像一座全自动、无人值守的金融图书馆：你把书（资产）存进保险柜就能获得积分（利息），也能用一本已有的书作抵押，立刻借走另一本书（贷款），且整个过程由公开透明的规则自动执行。",
+    "example": "一位 DeFi 用户将 1 ETH 存入 Aave 协议，实时开始赚取年化利息；随后他用其中 0.5 ETH 作为抵押，借出 1000 DAI 来参与另一个收益农场，全程无需注册账户或提供身份信息。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:29:51Z",
+  "updated_at": "2026-03-21T03:14:37Z"
+}

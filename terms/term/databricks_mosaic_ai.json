@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Databricks Mosaic AI",
+  "term": "databricks_mosaic_ai",
   "norm_term": "databricks_mosaic_ai",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Databricks Mosaic AI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Databricks Mosaic AI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Databricks Mosaic AI 是 Databricks 平台内嵌的一套统一 AI 开发与部署工具集，涵盖模型训练、微调、评估、推理优化及 RAG（检索增强生成）等全生命周期能力。它深度集成于 Databricks 的数据湖仓架构中，支持原生访问 Delta Lake 表、向量索引和权限管理，让数据工程师、数据科学家和 ML 工程师能在同一可信环境中协作构建生产级 AI 应用。普通用户需要了解它，是因为它大幅降低了在企业级数据基础设施上构建和运维 AI 的门槛——无需跨平台搬移数据或重建权限体系，即可安全、高效地将私有数据转化为智能能力。",
+    "metaphor": "就像一个自带厨房、食材仓库、食谱库和食品安全监管系统的智能餐厅——Mosaic AI 让你不用另建灶台、不买新冰箱、也不用自己写菜谱，就能直接用现有食材（企业数据）做出合规可追溯的AI‘菜品’。",
+    "example": "某银行使用 Mosaic AI 在其 Delta Lake 数据湖上直接构建客户风险问答助手：自动索引信贷报告和监管文档，微调开源 LLM，并通过内置 RAG 框架实时检索最新政策条款，所有操作均在原有数据权限和审计日志体系内完成，无需导出敏感数据。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Databricks Mosaic AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Databricks_Mosaic_AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:11:34Z"
 }

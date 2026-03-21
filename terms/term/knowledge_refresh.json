@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Knowledge Refresh",
+  "term": "knowledge_refresh",
   "norm_term": "knowledge_refresh",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Knowledge Refresh 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Knowledge Refresh，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "knowledge_refresh 指系统或模型在运行过程中动态更新其内部知识库或参数，以纳入最新信息、修正过时内容或适应新任务需求的过程。它区别于一次性训练，强调持续性、低开销的知识演进。普通用户需要了解这一概念，因为当他们使用智能助手、推荐系统或企业知识库时，若系统缺乏有效的 knowledge_refresh 机制，就可能给出陈旧、错误甚至有害的答案——例如推荐已下架商品、引用失效政策或忽略突发公共事件的最新进展。",
+    "metaphor": "就像给一本纸质百科全书定期插入活页更新页，而不是每次出新版都重印整本书。",
+    "example": "某银行客服AI在监管新规发布24小时内，通过 knowledge_refresh 自动加载新条款摘要与合规话术，无需人工重新训练整个模型，即可准确解答客户关于账户冻结条件变更的问题。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Knowledge Refresh - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Knowledge_Refresh",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:54:10Z"
 }

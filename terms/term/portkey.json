@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "portkey",
+  "norm_term": "portkey",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Portkey 是《哈利·波特》魔法世界中一种被施加了‘门钥匙咒’（Portus）的普通物品，能在指定时间或触发条件下将接触者瞬间传送到预设地点。它不同于飞路粉或幻影显形，无需施法者具备高阶魔法能力，且传送路径和时间完全可控。普通用户（尤其是读者或影视观众）需要了解它，因为它在系列关键情节中承担重要叙事功能——如《哈利·波特与火焰杯》结尾的三强争霸赛奖杯被篡改为 Portkey，直接引发伏地魔复活的重大转折。",
+    "metaphor": "就像一把只在特定时刻自动开启、通往唯一目的地的智能钥匙，你只需触碰它，下一秒就站在千里之外的门口。",
+    "example": "在霍格沃茨三强争霸赛中，塞德里克和哈利同时触碰被黑魔法改造的奖杯，瞬间被传送到小汉格顿墓地，触发伏地魔的回归。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:00:26Z",
+  "updated_at": "2026-03-21T09:14:00Z"
+}

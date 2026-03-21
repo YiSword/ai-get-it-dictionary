@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Hunyuan",
+  "term": "hunyuan",
   "norm_term": "hunyuan",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Hunyuan 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Hunyuan，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Hunyuan（混元）是腾讯研发的超大规模人工智能模型系列，涵盖语言、视觉、语音、多模态等多个方向，具备强大的内容生成、逻辑推理和跨模态理解能力。它被集成在腾讯会议、微信、QQ、腾讯文档等常用产品中，普通用户无需专门学习即可通过自然对话获得写作辅助、会议纪要生成、图片创作、代码解释等实用服务。了解Hunyuan有助于用户更高效地利用日常工具提升工作与学习效率。",
+    "metaphor": "就像一位精通百艺的全能助理，既会写诗做饭，又能看图识物、听声辨意，还随时待命帮你处理手头各种琐事。",
+    "example": "在腾讯会议中开启‘AI纪要’功能后，Hunyuan会实时转录发言、提炼重点、自动生成待办事项，并以清晰结构呈现在会议结束后。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Hunyuan - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Hunyuan",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T07:18:29Z"
 }

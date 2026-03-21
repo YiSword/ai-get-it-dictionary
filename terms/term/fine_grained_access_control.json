@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Fine-Grained Access Control",
+  "term": "fine_grained_access_control",
   "norm_term": "fine_grained_access_control",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Fine-Grained Access Control 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Fine-Grained Access Control，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "细粒度访问控制（Fine-Grained Access Control, FGAC）是一种安全机制，允许系统对数据或功能的访问权限进行高度精确的定义，例如按用户角色、时间、地理位置、数据敏感级别甚至单条数据库记录或API请求参数来动态授权。它比传统基于角色的访问控制（RBAC）更灵活和严格，能防止过度授权，降低数据泄露与越权操作风险。普通用户需要了解它，因为其背后直接关系到个人隐私是否被合理保护、企业敏感信息是否仅被授权人接触，以及合规要求（如GDPR、等保2.0）能否落地。",
+    "metaphor": "就像一栋智能大厦的门禁系统：不仅区分‘员工’和‘访客’，还能根据工牌权限、当前时间、所在楼层甚至具体办公室门牌号，决定某人能否在某时刻打开某扇门。",
+    "example": "在医疗信息系统中，医生只能查看自己负责患者的完整病历，护士可访问生命体征但不可修改诊断结论，而医保审计员仅能读取脱敏后的费用摘要数据，且仅限工作日9:00–17:00访问。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Fine-Grained Access Control - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Fine-Grained_Access_Control",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:29:28Z"
 }

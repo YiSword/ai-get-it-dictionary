@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Planner Agent",
+  "term": "planner_agent",
   "norm_term": "planner_agent",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "产品概念",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Planner Agent 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Planner Agent，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "planner_agent 是一种专门设计用于分解复杂任务、制定执行步骤并协调其他智能体或工具的AI角色。它不直接执行具体操作（如调用API或生成文本），而是像项目负责人一样分析目标、识别依赖关系、规划子任务顺序，并将任务分发给合适的执行者。普通用户需要了解它，因为它是实现自动化工作流、多步骤推理和可靠AI协作的关键组件——尤其在需要逻辑严谨性、容错性和可追溯性的场景中，比如智能办公助手或自主研究系统。",
+    "metaphor": "就像旅行前的行程规划师：它不帮你订机票或背行李，但会综合天气、预算、签证和交通，把整个旅程拆解成‘查签证→订酒店→买机票→准备行李’等清晰有序的步骤。",
+    "example": "当用户说‘帮我调研2024年全球AI监管趋势并生成一份简报’，planner_agent会先识别需完成的子任务：检索政策文件、提取各国要点、对比分析异同、撰写摘要、格式化输出；然后依次调度网络搜索agent、文档解析agent、写作agent和排版agent来协同完成。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Planner Agent - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Planner_Agent",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:11:07Z"
 }

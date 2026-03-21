@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Context Length",
+  "term": "context_length",
   "norm_term": "context_length",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Context Length 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Context Length，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "context_length 是指大语言模型在单次推理中能够处理的最大输入和输出文本总长度（通常以 token 为单位）。它决定了模型能‘记住’并参考多少上下文信息，比如对话历史、长文档片段或复杂指令。普通用户需要知道它，因为超出限制会导致内容被截断、关键信息丢失，进而影响回答准确性；例如上传一篇长 PDF 提问时，若 context_length 不足，模型可能看不到文档末尾的关键结论。",
+    "metaphor": "就像一个人阅读一本书时，只能同时盯着一页纸上的内容——context_length 就是这页纸的大小，决定了他一次性能看到多少文字。",
+    "example": "当使用支持 32K token 上下文的模型分析一份 25K token 的法律合同并提问条款细节时，模型能完整覆盖全文；但若换成仅支持 4K token 的模型，大部分合同内容会被丢弃，导致回答失准。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Context Length - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Context_Length",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:51:52Z"
 }

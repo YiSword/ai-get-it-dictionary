@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "DeepInfra",
+  "term": "deepinfra",
   "norm_term": "deepinfra",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DeepInfra 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 DeepInfra，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "DeepInfra 是一个提供高性能、免托管大语言模型（LLM）和生成式AI服务的云平台，用户无需自行部署模型或管理GPU基础设施，即可通过简单API调用访问Llama、Mixtral、Phi等开源模型。它降低了AI应用开发门槛，使开发者、初创团队甚至非技术用户能快速集成前沿模型能力，尤其适合需要灵活试错、快速原型验证但缺乏算力运维资源的场景。",
+    "metaphor": "就像一家按需供应顶级厨师和现成灶具的智能厨房——你只需点菜（发请求），不用买食材、装设备、雇大厨，就能立刻端出专业级料理（AI响应）。",
+    "example": "一位独立开发者正在构建一个面向小学生的古诗解释微信小程序，直接通过DeepInfra的API调用Phi-3模型，以毫秒级延迟生成简洁易懂的白话解析，全程无需配置服务器或优化推理代码。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "DeepInfra - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/DeepInfra",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:22:10Z"
 }

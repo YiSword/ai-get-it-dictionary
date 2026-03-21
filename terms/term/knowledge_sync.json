@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Knowledge Sync",
+  "term": "knowledge_sync",
   "norm_term": "knowledge_sync",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Knowledge Sync 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Knowledge Sync，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "knowledge_sync（知识同步）指在多个设备、应用或团队成员之间，实时或定期地保持知识内容（如文档、笔记、标签、关系图谱等）的一致性与最新状态。它不是简单复制文件，而是智能识别变更、解决冲突、保留上下文和历史版本。普通用户需要了解它，因为日常使用的笔记软件、协作平台或AI助手若缺乏有效知识同步，会导致信息碎片化、重复劳动、误用过时资料，甚至影响决策质量。",
+    "metaphor": "就像一群共用同一本活页笔记本的合作者——每次有人修改一页，所有人的副本都会自动翻到最新页，并标出谁改了什么、为什么改。",
+    "example": "当你在手机上用Notion更新项目需求文档，同时同事在电脑端编辑同一页面的流程图，knowledge_sync机制会合并两处改动，保留各自编辑痕迹，并确保双方下次打开时看到的是融合后的最新一致版本。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Knowledge Sync - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Knowledge_Sync",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:54:26Z"
 }

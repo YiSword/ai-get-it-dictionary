@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Midjourney",
+  "term": "midjourney",
   "norm_term": "midjourney",
   "lang": "en",
   "aliases": [],
-  "entity_type": "product",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Midjourney 是用户在真实使用中高频会接触到的 AI 产品或服务。它通常把模型能力包装成聊天、搜索、写作、编码或生成内容等具体功能，因此比底层技术词更容易直接感知。理解它的定位，有助于分辨不同 AI 产品各自擅长什么。",
-    "metaphor": "它就像一个已经包装好的 AI 工具箱，用户不需要知道所有底层原理，也能直接拿来完成具体任务。",
-    "example": "比如用户想直接完成写作、搜索、总结或生成内容任务时，往往会先接触 Midjourney 这类产品，因为它把底层能力封装成了更容易上手的界面。"
+    "plain": "MidJourney 是一个基于人工智能的图像生成工具，用户通过输入文字描述（称为 prompt）即可快速获得高质量、富有艺术感的图片。它无需专业设计技能或复杂软件操作，适合普通用户用于创意表达、内容创作、视觉构思等场景。了解 MidJourney 有助于普通人以低成本、高效率的方式实现视觉化想法，例如制作社交媒体配图、辅助教学演示或激发设计灵感。",
+    "metaphor": "它就像一位不知疲倦、风格多变的数字画家，你只需用日常语言‘点单’，它便立刻为你挥毫作画。",
+    "example": "一位教师想为历史课制作古罗马市集的插图，只需输入 prompt：'a bustling Roman marketplace in 100 AD, detailed, cinematic lighting, photorealistic'，几秒内就能得到可用于课件的高清图像。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Midjourney - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Midjourney",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
-  "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T08:38:28Z"
 }

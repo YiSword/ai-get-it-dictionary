@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "LLM-as-a-Judge",
+  "term": "llm_as_a_judge",
   "norm_term": "llm_as_a_judge",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LLM-as-a-Judge 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 LLM-as-a-Judge，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "llm_as_a_judge 是指将大语言模型（LLM）用作自动评估器，对其他模型的输出（如回答质量、事实性、流畅度或安全性）进行打分或分类。它不依赖人工标注，而是利用LLM自身的理解与推理能力模拟人类评判标准。普通用户需要了解它，因为该方法正广泛用于AI产品评测、模型选型和内容审核中，但其结果可能受LLM自身偏见、幻觉或提示设计影响，盲目信任可能导致误判。",
+    "metaphor": "就像让一位资深但偶尔记错细节的大学教授，快速批改上百份作文并给出等级——效率很高，但评分未必完全客观公正。",
+    "example": "在评估两个客服聊天机器人时，研究者用GPT-4作为judge，分别对它们回答‘如何重置密码’的准确性、礼貌性和步骤清晰度打分，从而选出表现更优的模型。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "LLM-as-a-Judge - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/LLM-as-a-Judge",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:14:49Z"
 }

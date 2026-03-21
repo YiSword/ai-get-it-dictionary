@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Model Governance",
+  "term": "model_governance",
   "norm_term": "model_governance",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Model Governance 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Model Governance，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Model governance（模型治理）是指对人工智能模型的全生命周期进行系统性管理与监督的实践，涵盖开发、部署、监控、更新和退役等环节，确保其安全性、公平性、可解释性、合规性及业务有效性。普通用户需要了解它，因为模型治理直接影响AI决策是否可靠、透明和公正——例如在信贷审批、招聘筛选或医疗辅助中，缺乏有效治理可能导致歧视、错误判断或隐私泄露，进而损害用户权益。",
+    "metaphor": "就像城市交通管理部门制定并执行红绿灯规则、限速标准和事故响应流程，以保障道路安全与通行效率，模型治理是为AI模型设立‘交通规则’和‘监管哨所’，确保其在真实世界中稳健、守法、负责地运行。",
+    "example": "某银行上线信用评分AI模型后，通过模型治理机制持续监控其对不同性别、地域群体的审批通过率偏差，并定期重训模型以消除歧视性倾向，同时留存完整审计日志以满足金融监管合规要求。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Model Governance - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Model_Governance",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:46:34Z"
 }

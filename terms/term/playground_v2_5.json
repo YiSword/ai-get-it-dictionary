@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "playground_v2_5",
+  "norm_term": "playground_v2_5",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "playground_v2_5 是指某款AI开发或交互平台（如Hugging Face、Google AI Studio或类似工具）中特定版本的实验性界面，用于快速测试模型、调试提示词、可视化推理过程及对比不同参数效果。它不是生产环境，而是面向开发者和研究人员的轻量级沙盒环境。普通用户需要知道它，是因为它是零代码尝试AI能力、验证创意、学习提示工程最直接的入口，避免本地部署复杂性，同时能直观感受模型迭代带来的能力变化。",
+    "metaphor": "就像厨房里的试味台——不用洗整套锅碗，也不用开火做饭，你只需舀一勺新调的酱汁尝鲜，即时调整咸淡。",
+    "example": "一位产品经理在发布聊天机器人前，用 playground_v2_5 输入典型用户问题，切换 temperature 和 top-k 参数，实时观察回复多样性与准确性变化，从而确定上线时的最佳配置。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:38:44Z",
+  "updated_at": "2026-03-21T09:11:39Z"
+}

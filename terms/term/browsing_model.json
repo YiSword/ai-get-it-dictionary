@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Browsing Model",
+  "term": "browsing_model",
   "norm_term": "browsing_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Browsing Model 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Browsing Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "browsing_model 是指浏览器在渲染网页时所采用的底层行为模型，它定义了页面如何解析 HTML/CSS/JavaScript、如何构建 DOM 和 CSSOM、何时触发重排与重绘、以及事件如何冒泡和捕获等核心机制。这个模型直接影响网页的加载速度、交互响应性和内存占用。普通用户虽不直接操作它，但理解其存在有助于解释为何某些网页卡顿、表单提交无响应或后退按钮行为异常——这些问题往往源于 browsing_model 中的同步阻塞、渲染流水线中断或事件循环调度失衡。",
+    "metaphor": "就像城市交通管制系统：它不决定你去哪里（URL），但严格规定车辆（HTML 元素）何时上路、在哪交汇（渲染树合成）、红绿灯如何协调（事件循环），稍有调度失误就会引发拥堵（页面卡死）。",
+    "example": "当用户在单页应用中快速连续点击导航菜单时，若 JavaScript 频繁强制同步读取 offsetHeight 触发回流，browsing_model 会中断当前渲染帧，导致界面明显卡顿甚至丢帧。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Browsing Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Browsing_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:15:16Z"
 }

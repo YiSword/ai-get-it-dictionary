@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Data Efficiency",
+  "term": "data_efficiency",
   "norm_term": "data_efficiency",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Data Efficiency 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Data Efficiency，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "data_efficiency（数据效率）指模型在有限训练数据下达成良好性能的能力，即用更少、更精炼的数据实现同等或接近的准确率与泛化能力。它关系到训练成本、数据采集难度和隐私合规性——尤其对中小企业、医疗或金融等数据稀缺或敏感领域至关重要。普通用户需要了解它，因为低数据效率意味着AI产品可能依赖海量用户行为数据来‘凑效果’，而高数据效率则暗示模型更可靠、更尊重隐私、部署门槛更低。",
+    "metaphor": "就像一位经验丰富的厨师能用少量优质食材做出一桌好菜，高数据效率的模型也能从少量高质量数据中提炼出深刻规律。",
+    "example": "一家医院仅拥有200例罕见病影像数据，通过元学习和数据增强技术提升数据效率，成功训练出诊断准确率达92%的AI辅助系统，避免了因数据不足而放弃建模。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Data Efficiency - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Data_Efficiency",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:12:22Z"
 }

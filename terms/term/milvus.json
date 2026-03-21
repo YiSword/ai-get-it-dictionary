@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Milvus",
+  "term": "milvus",
   "norm_term": "milvus",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Milvus 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Milvus，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Milvus 是一个开源的向量数据库，专为高效存储、索引和检索海量高维向量数据而设计。它支持相似性搜索（如‘找最像这张图片的十张图’），广泛应用于AI场景，例如推荐系统、图像检索、语义搜索和大模型RAG（检索增强生成）。普通用户需要了解它，是因为随着AI应用普及，传统数据库无法快速处理嵌入向量这类非结构化数据的相似匹配，而Milvus填补了这一关键能力缺口。",
+    "metaphor": "Milvus 就像一座为‘数字指纹’（即向量）量身定制的超级图书馆——它不按书名或作者分类，而是根据每本书散发出的独特‘气味’（语义特征）快速找出气味最相近的几本。",
+    "example": "某电商App使用Milvus存储商品图片的视觉向量，当用户上传一张‘红色运动鞋’照片时，系统在毫秒内从千万级商品中召回外观与语义最相似的候选商品，实现以图搜图。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Milvus - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Milvus",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:39:20Z"
 }

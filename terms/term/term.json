@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "讯飞星火",
+  "term": "term",
   "norm_term": "term",
-  "lang": "zh",
+  "lang": "en",
   "aliases": [],
   "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "讯飞星火 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 讯飞星火，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "术语（term）是在特定学科、行业或技术领域中被明确定义并赋予精确含义的词汇或短语。它不同于日常用语，往往承载专业概念、操作规则或抽象关系，是准确交流和知识传承的基础。普通用户需要理解术语，才能有效阅读说明书、参与技术讨论、避免误解（如将‘带宽’误认为物理宽度），并在数字生活、医疗咨询、法律事务等场景中做出知情判断。",
+    "metaphor": "术语就像交通信号灯中的‘黄灯’——它不是简单的颜色，而是被严格定义为‘警示即将切换状态’的专业指令。",
+    "example": "在使用云存储服务时，用户看到‘对象存储（object storage）’这一术语，需理解它指一种以唯一标识符管理非结构化数据（如图片、视频）的存储方式，而非传统文件夹结构。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "讯飞星火 - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/%E8%AE%AF%E9%A3%9E%E6%98%9F%E7%81%AB",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:04:18Z"
 }

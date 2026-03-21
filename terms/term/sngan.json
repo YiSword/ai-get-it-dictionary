@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "sngan",
+  "norm_term": "sngan",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "SNGAN（Spectral Normalization GAN）是一种改进的生成对抗网络（GAN）训练方法，通过在判别器的每一层权重上施加谱归一化约束，稳定GAN的训练过程并缓解模式崩溃问题。它不依赖复杂的网络结构或超参数调优，就能使模型更可靠地生成高质量图像。普通用户虽不直接操作该技术，但其衍生应用（如AI绘画工具、图像修复服务）的稳定性与画质提升正受益于SNGAN等底层优化，因此了解它有助于理解当前AI生成内容为何更逼真、更可控。",
+    "metaphor": "就像给一辆高速行驶的赛车装上智能限速器和动态平衡系统，SNGAN不是降低速度，而是让判别器‘刹车’更精准、‘转向’更平稳，从而避免训练过程失控翻车。",
+    "example": "在医疗影像增强中，研究人员使用SNGAN生成高分辨率CT图像切片，以扩充小样本训练数据集，显著提升病灶分割模型的泛化能力。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:24:11Z",
+  "updated_at": "2026-03-21T09:46:47Z"
+}

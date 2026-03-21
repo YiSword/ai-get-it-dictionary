@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Embedding API",
+  "term": "embedding_api",
   "norm_term": "embedding_api",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
-  "category": "数据工程",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Embedding API 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Embedding API，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "embedding_api 是一种提供向量化服务的编程接口，它能将文本、图像等非结构化数据转换为高维数值向量（即 embedding），使计算机可以计算语义相似度或进行检索、聚类等任务。普通用户无需理解底层数学原理，但需知道它支撑着智能搜索、个性化推荐、聊天机器人等日常功能——比如你输入一句话，系统靠 embedding_api 快速找到最相关的答案或内容。",
+    "metaphor": "就像给每本书生成一个独特的‘指纹坐标’，图书馆系统不靠书名匹配，而是根据坐标的远近判断哪几本书最相关。",
+    "example": "某客服机器人接收到用户提问‘我的订单还没发货’，通过 embedding_api 将该句转为向量，并在知识库向量库中快速检索出最匹配的‘发货延迟处理流程’文档片段。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Embedding API - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Embedding_API",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T06:05:25Z"
 }

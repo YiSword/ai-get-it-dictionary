@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Inference Cost",
+  "term": "inference_cost",
   "norm_term": "inference_cost",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "推理与部署",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Inference Cost 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Inference Cost，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "inference_cost 是指在人工智能模型（尤其是大语言模型）完成一次推理（即接收输入、生成输出）过程中所消耗的计算资源成本，通常以算力时间、内存占用或云服务计费单位（如每千token费用）衡量。它直接影响应用的响应延迟、可扩展性和运营开销。普通用户需要了解它，因为高频使用AI功能（如聊天、内容生成）可能导致意外的费用累积，尤其在调用商用API或自托管高规格模型时；理解该成本有助于合理设计交互逻辑、优化提示词或选择性价比更高的模型。",
+    "metaphor": "就像开车时每公里的油费——你不一定时刻盯着仪表盘，但跑得越远、车越重、路况越差，总花费就越可观。",
+    "example": "某客服系统每天调用大模型生成10万条回复，若单次inference_cost为$0.002，则日支出达$200；改用更轻量模型后降至$0.0005，日成本压缩至$50。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Inference Cost - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Inference_Cost",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:29:01Z"
 }

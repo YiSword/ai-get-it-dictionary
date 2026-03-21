@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "robinhood",
+  "norm_term": "robinhood",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Robinhood 是一家美国金融科技公司，以推出零佣金股票、ETF 和加密货币交易应用而闻名。它通过简化开户流程、提供直观的移动端界面和免手续费模式，大幅降低了个人投资者参与资本市场的门槛。普通用户需要了解 Robinhood，不仅因为它改变了散户投资的习惯，还因其曾因市场剧烈波动（如2021年游戏驿站事件）限制交易而引发对平台规则透明度、风险管理及投资者保护的广泛讨论。",
+    "metaphor": "Robinhood 就像一家把华尔街咖啡馆开进大学宿舍的创业小店——价格亲民、操作简单，但菜单背后藏着复杂的营业规则和突发闭店可能。",
+    "example": "一位刚毕业的用户用 Robinhood App 在几分钟内完成开户，买入10股苹果股票，全程未支付佣金；但在2021年1月游戏驿站股价飙升期间，该用户突然发现无法买入该股票，仅能卖出。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:07:38Z",
+  "updated_at": "2026-03-21T09:34:23Z"
+}

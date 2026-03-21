@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "coreml",
+  "norm_term": "coreml",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Core ML 是苹果公司推出的机器学习框架，用于在 iOS、macOS、watchOS 和 tvOS 设备上高效运行训练好的机器学习模型。它不用于训练模型，而是将来自 TensorFlow、PyTorch 等框架训练出的模型转换为轻量、优化的格式，在设备端完成推理（如图像识别、文本预测、行为分析）。普通用户无需直接操作 Core ML，但它的存在让 App 能离线、快速、隐私安全地提供智能功能——比如相机实时识别人物、备忘录自动建议关键词、Siri 理解语音意图，而无需上传数据到云端。",
+    "metaphor": "Core ML 就像一台专为 iPhone 定制的‘AI 翻译器+加速引擎’：它把复杂笨重的 AI 模型‘翻译’成手机能秒懂、低功耗运行的语言，并内置硬件加速支持。",
+    "example": "Instagram 的实时滤镜使用 Core ML 运行人脸关键点检测模型，在不联网的情况下精准追踪用户面部并叠加动画效果；Apple Photos 则用它本地识别相册中的猫狗、海滩或生日场景，全程数据不出设备。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:48:36Z",
+  "updated_at": "2026-03-21T05:00:03Z"
+}

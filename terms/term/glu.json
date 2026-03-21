@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "GLU",
+  "term": "glu",
   "norm_term": "glu",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GLU 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 GLU，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "GLU（Gated Linear Unit）是一种神经网络中的激活单元，由输入的线性变换与一个门控机制（通常用Sigmoid函数控制）相乘构成，用于选择性地传递信息。它被设计为替代传统ReLU等激活函数，在保持计算效率的同时缓解梯度消失问题，并提升序列建模能力。普通用户无需直接调用GLU，但若使用或微调现代大语言模型（如LLaMA、Gemma）、语音合成系统或Transformer变体，理解GLU有助于把握模型结构特点及性能差异。",
+    "metaphor": "GLU就像一扇智能水闸：水流（输入信号）能否通过，不仅取决于水压大小（线性变换结果），还取决于闸门开合程度（门控信号），两者协同决定最终输出。",
+    "example": "在LLaMA系列模型的前馈网络（FFN）层中，每个块使用两个并行线性层，其输出经逐元素相乘（即GLU操作）组合，显著提升了参数效率和表达能力。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "GLU - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/GLU",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:49:27Z"
 }

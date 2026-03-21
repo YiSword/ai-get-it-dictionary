@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Fact Verification",
+  "term": "fact_verification",
   "norm_term": "fact_verification",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Fact Verification 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Fact Verification，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Fact verification（事实核查）是指通过交叉比对权威信源、原始证据和逻辑分析，系统性地检验一条陈述是否真实、准确的过程。它广泛应用于新闻编辑、社交媒体内容审核、学术研究和公共政策讨论中。普通用户需要掌握这一能力，因为在信息过载和虚假信息泛滥的时代，未经核实的断言可能误导判断、影响决策，甚至煽动偏见或危害公共利益。",
+    "metaphor": "就像厨师在烹饪前检查食材是否新鲜、有无变质，事实核查是我们在接受信息前对其‘保质期’和‘真伪标签’的必要查验。",
+    "example": "当某条微博声称‘某城市自来水含致癌物超标300倍’，事实核查机构会调取当地水务部门检测报告、第三方实验室数据及国家水质标准，最终发布报告澄清该说法缺乏依据。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Fact Verification - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Fact_Verification",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T06:21:30Z"
 }

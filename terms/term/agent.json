@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Agent",
+  "term": "agent",
   "norm_term": "agent",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "产品概念",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Agent 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Agent，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Agent（智能体）是一种能感知环境、自主决策并执行动作以达成特定目标的软件实体。它不同于传统程序，不需要用户逐条指令驱动，而是能理解意图、规划步骤、调用工具（如搜索、计算、调用API），甚至反思修正行为。普通用户需要了解它，因为越来越多的应用（如AI助手、自动化客服、个人事务管家）背后都是agent在运作——理解它有助于更有效地与AI协作，判断其能力边界，并合理设定预期。",
+    "metaphor": "就像一位经过专业培训的私人助理：你只需说明目标（比如‘帮我安排下周三的出差’），他自动查日程、比价订票、预约会议、同步提醒，全程无需你一步步指挥。",
+    "example": "当你对手机说‘帮我订一张今晚7点附近川菜馆的两人位，并把预约信息发到工作群’，背后的agent会解析意图、调用地图和订餐API、确认可用性、发送消息，一气呵成完成多步任务。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Agent - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Agent",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T03:23:47Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "BLOOMZ",
+  "term": "bloomz",
   "norm_term": "bloomz",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "BLOOMZ 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 BLOOMZ，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Bloomz 是一个基于 Bloom 模型系列的多语言、指令微调的开源大语言模型，由 BigScience 社区衍生发展而来，专为跨语言任务和零样本/少样本指令遵循能力优化。它支持包括中文、英文、法语、西班牙语等数十种语言，能在不需大量标注数据的情况下理解并执行用户用自然语言给出的指令。普通用户需要了解它，是因为它代表了一类轻量、开放、可本地部署的AI助手技术，适合注重隐私、低成本应用或教育科研场景的非专业开发者。",
+    "metaphor": "就像一位精通多国语言、随身携带翻译手册且自学能力强的国际志愿者，不需要专门培训就能听懂不同国家用户的请求并快速响应。",
+    "example": "一名中学教师用中文输入指令‘请将这段英文课文改写成适合初二学生阅读的简明版本’，Bloomz 在本地运行后即时生成适龄改写文本，全程无需联网或依赖商业API。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "BLOOMZ - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/BLOOMZ",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:11:18Z"
 }

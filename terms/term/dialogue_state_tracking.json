@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Dialogue State Tracking",
+  "term": "dialogue_state_tracking",
   "norm_term": "dialogue_state_tracking",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Dialogue State Tracking 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Dialogue State Tracking，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Dialogue State Tracking（DST）是对话系统中的一项核心技术，用于在多轮对话过程中持续识别并更新用户当前的意图、需求和关键信息（如地点、时间、偏好等），形成结构化的‘对话状态’。它像对话系统的短期记忆，确保系统能准确理解上下文，避免重复提问或误解。普通用户虽不直接接触该技术，但它的优劣直接影响语音助手、客服机器人等是否‘听得懂话’、能否连贯完成订餐、查航班等复杂任务，是自然流畅人机交互的基础。",
+    "metaphor": "就像一位细心的餐厅服务员，一边听你点菜，一边在小本子上实时记下‘不要香菜、加辣、打包带走’，并随着你补充‘再加一瓶可乐’不断更新笔记，始终清楚你此刻要什么。",
+    "example": "当用户对智能音箱说‘帮我订明天下午三点从北京到上海的高铁’，接着又说‘改成后天’，DST会将日期从‘明天’更新为‘后天’，同时保留出发地、目的地、时间等其他槽位信息，确保后续订票动作准确执行。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Dialogue State Tracking - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dialogue_State_Tracking",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:33:54Z"
 }

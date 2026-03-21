@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Memory Fragmentation",
+  "term": "memory_fragmentation",
   "norm_term": "memory_fragmentation",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Memory Fragmentation 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Memory Fragmentation，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "memory_fragmentation（内存碎片化）是指系统中可用内存总量充足，但因已分配和释放的内存块分布零散，导致无法满足较大连续内存请求的现象。它分为外部碎片（空闲内存分散、无足够连续空间）和内部碎片（分配单元大于实际需求造成的浪费）。普通用户需要了解它，因为碎片化会降低系统性能、引发应用卡顿或崩溃，尤其在长期运行的设备（如服务器、手机）中，可能表现为‘明明还有内存却打不开新应用’。",
+    "metaphor": "就像图书馆里书架上空位很多，但都是东一个西一个的单格空位，而你要借一本厚书——必须占用连续三格，结果找不到合适位置，尽管总空位数足够。",
+    "example": "一台Linux服务器运行数周后，频繁创建销毁进程，内核日志显示‘Out of memory: Kill process’，但free命令显示仍有2GB空闲内存——这很可能是外部内存碎片导致大页分配失败。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Memory Fragmentation - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Memory_Fragmentation",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:34:02Z"
 }

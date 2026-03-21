@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Lineage",
+  "term": "lineage",
   "norm_term": "lineage",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Lineage 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Lineage，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Lineage（血缘/谱系）在数据工程和机器学习中指数据从源头到最终结果的完整追踪路径，包括原始数据、中间处理步骤、模型训练过程及衍生出的指标或预测。它记录了‘谁生成了什么、基于什么输入、何时生成、如何转换’等元信息。普通用户需要了解 lineage，因为它能快速定位分析结果异常的根源（如某张报表出错是因上游某张表被误删），保障数据可信度，并满足合规审计要求。",
+    "metaphor": "就像食品包装上的‘原料溯源二维码’——扫码就能看到这盒牛奶来自哪座牧场、经过哪些工厂、何时灌装，lineage 让每一份数据也有清晰可查的‘出生证明’和‘成长日记’。",
+    "example": "某电商公司发现推荐系统点击率骤降，通过 lineage 图迅速定位到问题源于三天前一次ETL任务中用户行为日志的时间戳字段被错误截断，而非模型本身失效。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Lineage - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Lineage",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:09:08Z"
 }

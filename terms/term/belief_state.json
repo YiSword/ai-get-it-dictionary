@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Belief State",
+  "term": "belief_state",
   "norm_term": "belief_state",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Belief State 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Belief State，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "belief_state 是人工智能对话系统（尤其是任务型对话系统）中用于表示系统对当前对话状态的内部理解，它汇总了用户已表达的意图、槽位值（如时间、地点、偏好等）以及系统尚未确认或存在歧义的信息。它不是用户的真实心理状态，而是系统基于对话历史推断出的、可操作的概率化状态表示。普通用户无需直接操作它，但理解其存在有助于明白为什么对话系统有时会追问细节、重复确认或突然‘忘记’前文——这往往源于 belief_state 更新不准确或信息丢失。",
+    "metaphor": "就像一位尽责的会议速记员，边听讨论边实时更新一张动态便签：上面写着‘已确认出发时间是明天下午、目的地是浦东机场、但航班号还没问清、用户可能想选靠窗座位？’。",
+    "example": "当用户说‘订一张明天去北京的机票’，系统将 belief_state 更新为 {destination: '北京', date: '明天', intent: 'book_flight'}；接着追问‘请问出发城市是哪里？’，因为该槽位在 belief_state 中仍为空。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Belief State - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Belief_State",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:01:44Z"
 }

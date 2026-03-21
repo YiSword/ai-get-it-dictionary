@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Dataset Mixture",
+  "term": "dataset_mixture",
   "norm_term": "dataset_mixture",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Dataset Mixture 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Dataset Mixture，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "dataset_mixture 是指将多个来源、格式或分布不同的数据集按特定比例或策略混合组成一个统一训练数据源的技术。它常用于多任务学习、领域自适应或提升模型泛化能力，尤其在大语言模型预训练和微调阶段被广泛采用。普通用户需要了解它，因为数据混合方式会显著影响模型的行为倾向——例如偏向某类语言、领域或风格，进而影响实际使用效果，如回答的专业性、公平性或鲁棒性。",
+    "metaphor": "就像调酒师按精确配比混合不同基酒和辅料来调制一款新鸡尾酒，dataset_mixture 是用算法‘配方’把多个数据集‘原料’调配成适合模型‘口味’的训练‘饮品’。",
+    "example": "在训练一个医疗问答模型时，研究者可能将 60% 的通用百科文本、25% 的医学教科书语料和 15% 的真实医患对话日志混合为 dataset_mixture，以兼顾知识广度、专业深度与语言自然性。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Dataset Mixture - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dataset_Mixture",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:15:56Z"
 }

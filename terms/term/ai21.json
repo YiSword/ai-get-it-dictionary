@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "AI21",
+  "term": "ai21",
   "norm_term": "ai21",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AI21 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 AI21，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "AI21 Labs 是一家专注于自然语言处理（NLP）的人工智能公司，以开发高性能大语言模型（如 Jurassic 系列）而知名。其模型在文本生成、问答、摘要等任务上表现优异，已被集成到企业级写作助手、客服系统和教育工具中。普通用户需要知道 AI21，是因为它代表了除 OpenAI、Anthropic 等之外的重要技术力量，影响着日常使用的智能写作工具、搜索增强服务及多语言内容创作的底层能力。",
+    "metaphor": "AI21 就像一位精通多种语言、熟读百万本书籍的资深编辑，不仅能精准理解你的意图，还能以专业风格帮你润色、扩写或重构文字。",
+    "example": "某在线法律服务平台集成了 AI21 的 Jurassic-2 模型，客户输入模糊的合同修改需求后，系统即时生成符合当地法规、语义严谨的条款草案。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "AI21 - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/AI21",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:25:25Z"
 }

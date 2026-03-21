@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "LongBench",
+  "term": "longbench",
   "norm_term": "longbench",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LongBench 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 LongBench，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "LongBench 是一个专为评估大语言模型长文本理解与推理能力而设计的基准测试套件，涵盖问答、摘要、代码、数学、法律、医疗等12个领域，最大输入长度达16K tokens。它通过统一难度、多样化任务和真实场景数据，弥补了传统评测在长上下文处理上的不足。普通用户（尤其是开发者、研究者和AI产品决策者）需要了解LongBench，因为它能更真实地反映模型在实际应用中处理长文档、复杂指令或跨段落推理时的表现，避免被短文本高分误导。",
+    "metaphor": "就像驾照考试不仅考倒车入库，还要考高速路变道、夜间会车和突发状况应对，LongBench 是语言模型的‘全场景驾驶考核’，而非仅限于停车场里的单项测试。",
+    "example": "某法律科技公司用LongBench评测两个开源模型在合同审查任务中的表现，发现A模型在短条款上准确率高，但在跨页条款逻辑一致性判断上显著落后于B模型——这一差异仅在LongBench的长上下文法律问答子集中暴露出来。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "LongBench - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/LongBench",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:18:13Z"
 }

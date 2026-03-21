@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Dataset Hub",
+  "term": "dataset_hub",
   "norm_term": "dataset_hub",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Dataset Hub 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Dataset Hub，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "dataset_hub 是一个集中管理、发现、共享和复用数据集的平台或系统，通常集成在机器学习工作流中，支持版本控制、元数据标注、访问权限管理和格式标准化。它帮助数据科学家、工程师和研究人员快速定位高质量、可信且已预处理的数据资源，避免重复采集与清洗，提升模型开发效率与实验可复现性。普通用户（尤其是AI从业者）需要了解它，因为它是连接数据资产与实际建模任务的关键枢纽，直接影响项目启动速度、协作质量与合规性。",
+    "metaphor": "就像图书馆的中央目录系统——它不直接存放所有书籍，但能让你一秒查到哪本书在哪个书架、谁借过、是否最新版，还能一键申请借阅。",
+    "example": "某医疗AI团队在训练肺部CT病灶检测模型时，通过 dataset_hub 检索到经脱敏处理、带专家标注、含DICOM与NIfTI双格式的‘LungX-2023’数据集，并直接加载其v2.1版本用于训练，跳过了数周的数据整理与验证工作。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Dataset Hub - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dataset_Hub",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:15:40Z"
 }

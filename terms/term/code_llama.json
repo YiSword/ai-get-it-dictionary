@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Code Llama",
+  "term": "code_llama",
   "norm_term": "code_llama",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
-  "category": "模型架构",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Code Llama 是 AI 模型体系中的重要结构或模型类型，决定了模型如何理解输入、组织信息和生成结果。虽然普通用户不会直接训练它，但很多今天常见的 AI 能力都建立在这类结构之上。理解它能帮助你建立更完整的 AI 基础认知。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Code Llama，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Code Llama 是由 Meta 开发的一系列开源大语言模型，专为理解、生成和推理编程代码而优化，支持多种主流编程语言（如 Python、Java、C++ 等）。它基于 Llama 架构，但使用大量代码数据微调，在代码补全、调试解释、文档生成等任务上表现优异。普通用户（尤其是开发者、学生或技术爱好者）需要了解它，因为它是免费、可本地运行的高性能编程助手，能显著提升编码效率，且无需依赖闭源商业服务。",
+    "metaphor": "Code Llama 就像一位精通十几种编程语言、随时待命的资深结对程序员，不仅能读懂你写到一半的代码，还能精准续写、指出潜在错误，甚至用自然语言为你讲解逻辑。",
+    "example": "一名 Python 初学者在编写爬虫时卡在 requests 异常处理逻辑上，将不完整的代码粘贴给本地运行的 Code Llama，模型立即返回带注释的健壮异常处理片段，并解释每种 HTTP 错误的应对策略。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Code Llama - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Code_Llama",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T04:38:33Z"
 }

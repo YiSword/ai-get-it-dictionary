@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "celsius",
+  "norm_term": "celsius",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "摄氏度（Celsius）是一种常用的温度计量单位，符号为℃，以水的冰点（0℃）和沸点（100℃）为基准，在标准大气压下定义。它是全球绝大多数国家日常测温、天气预报、烹饪、医疗等场景中使用的标准单位。普通用户需要了解它，因为温度直接影响生活决策——比如穿衣、开空调、判断是否发烧或食物是否安全储存；同时，理解摄氏度有助于准确解读天气信息、电器设置和国际产品说明。",
+    "metaphor": "摄氏度就像一把为人类日常体验量身定制的温度尺子，把最常遇到的冷热感受（结冰到沸腾）均匀分成100格，每格代表一份‘日常冷暖感’。",
+    "example": "天气预报说今天最高气温28℃，你据此决定穿短袖出门；体温计显示孩子体温37.5℃，你判断其处于低热范围，需密切观察。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:20:24Z",
+  "updated_at": "2026-03-21T04:22:56Z"
+}

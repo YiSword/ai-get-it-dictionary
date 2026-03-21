@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Codeforces Benchmark",
+  "term": "codeforces_benchmark",
   "norm_term": "codeforces_benchmark",
   "lang": "en",
   "aliases": [],
-  "entity_type": "metric",
-  "category": "评测指标",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Codeforces Benchmark 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Codeforces Benchmark，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "codeforces_benchmark 是指在 Codeforces 平台上用于评估算法实现性能的一类标准化测试任务或数据集，通常包含预设的输入规模、时间/内存限制及多组边界用例。它并非官方术语，而是社区中对 Codeforces 题目（尤其是性能敏感题如模拟、数据结构、图论等）所隐含的运行效率验证标准的统称。普通用户需要了解它，是因为仅通过样例测试（pretests）不等于真正通过——必须在严格时限和大输入下稳定运行，否则会在系统测试（system tests）中因超时（TLE）或超内存（MLE）失败。",
+    "metaphor": "就像汽车出厂前不仅要在平路上试驾，还要上高速、爬陡坡、载重跑长途——Codeforces benchmark 就是那套严苛的‘综合路况测试’，专挑最吃性能的场景检验你的代码是否真正健壮。",
+    "example": "例如，在解决一道要求处理 2×10⁵ 个节点的树上路径查询问题时，若你使用 O(n²) 暴力算法，虽能通过小样例，但在 Codeforces benchmark 的大数据集下必然超时；而改用 O(n log n) 的树链剖分或 LCA 预处理才能稳定通过。"
   },
   "scenario_tags": [
-    "评测",
-    "基准",
-    "比较"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Codeforces Benchmark - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Codeforces_Benchmark",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:35:46Z"
 }

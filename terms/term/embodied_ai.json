@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Embodied AI",
+  "term": "embodied_ai",
   "norm_term": "embodied_ai",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Embodied AI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Embodied AI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Embodied AI（具身人工智能）指能够通过物理身体（如机器人）或虚拟代理（如游戏中的智能体）感知环境、与之交互并自主行动的人工智能系统。它不仅依赖数据和算法，更强调‘在真实或模拟世界中做事情’的能力，比如抓取物体、导航避障或理解空间指令。普通用户需要了解它，因为这类技术正快速进入家庭服务机器人、自动驾驶、康复辅具和教育交互系统等日常场景，直接影响未来人机协作的方式与安全边界。",
+    "metaphor": "就像一个刚学会走路和伸手拿东西的婴儿——它不是靠纯想象学习，而是在一次次跌倒、触摸和调整中真正理解世界。",
+    "example": "一款厨房服务机器人通过摄像头识别食材位置，用机械臂准确抓取番茄并切片，全程根据台面障碍物实时调整动作路径。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Embodied AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Embodied_AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:06:10Z"
 }

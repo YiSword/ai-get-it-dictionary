@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "JSON Repair",
+  "term": "json_repair",
   "norm_term": "json_repair",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "JSON Repair 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 JSON Repair，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "json_repair 是一种容错性 JSON 解析技术，用于自动修正格式不合法但语义可推断的 JSON 字符串（如缺失引号、尾部逗号、单引号代替双引号、括号不匹配等），使其能被正常解析。普通用户需要了解它，因为现实中的 JSON 数据常因手写错误、日志截断、API 响应异常或前端序列化缺陷而损坏，直接解析会失败；启用 json_repair 可提升系统鲁棒性，避免因微小语法瑕疵导致整个数据流中断。",
+    "metaphor": "就像一位细心的图书管理员，在发现借阅卡上有个错别字或标点遗漏时，并不直接拒收卡片，而是根据上下文合理修正后继续办理借阅。",
+    "example": "某聊天应用后端收到前端发来的 JSON 消息 '{\"msg\": \"Hello\", \"ts\": 1712345678,}'（末尾多了一个逗号），标准 JSON 解析器会报错，而使用 json_repair 可自动修复该字符串并成功提取消息内容与时间戳。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "JSON Repair - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/JSON_Repair",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:45:57Z"
 }

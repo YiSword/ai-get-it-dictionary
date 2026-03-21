@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "ML Ops",
+  "term": "ml_ops",
   "norm_term": "ml_ops",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ML Ops 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 ML Ops，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "ML Ops（机器学习运维）是一套将软件工程实践（如持续集成、持续部署、版本控制、监控）应用于机器学习系统开发与维护的方法论。它解决的是模型从实验室走向生产环境时面临的可重复性差、协作困难、性能退化、难以追踪等问题。普通用户需要了解它，因为这直接关系到AI应用是否稳定可靠——比如推荐系统突然不准、语音助手频繁误识别，背后往往就是ML Ops缺失导致的模型更新失控或数据漂移未被察觉。",
+    "metaphor": "就像汽车制造业中的‘总装线+质量检测站’：数据是零部件，模型是发动机，ML Ops则是整条自动化产线和实时路测系统，确保每一台出厂的车（即上线模型）都安全、合规、性能达标。",
+    "example": "一家电商公司使用ML Ops平台自动完成每日新订单数据的验证、特征工程重训练、A/B测试及灰度发布；当检测到新模型在转化率上显著优于旧版且无异常延迟后，才全量切换，全程无需人工干预模型上线流程。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "ML Ops - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/ML_Ops",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:44:44Z"
 }

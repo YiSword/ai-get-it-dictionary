@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Guardrail",
+  "term": "guardrail",
   "norm_term": "guardrail",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Guardrail 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Guardrail，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "guardrail（护栏）在软件工程和系统设计中指一种预防性机制，用于防止用户或开发者无意中执行危险、不合规或易出错的操作。它不是阻止所有行为，而是通过默认限制、参数校验、权限拦截或交互提示等方式，在关键路径上设置安全边界。普通用户需要了解它，因为它是保障系统稳定性、数据安全和用户体验一致性的隐形防线——例如防止误删生产数据、避免配置冲突或拦截恶意输入，从而减少故障、降低运维成本，并增强对数字服务的信任感。",
+    "metaphor": "就像高速公路旁的物理护栏，它不禁止车辆行驶，但会在车辆偏离车道时及时阻挡并引导回正轨，避免坠入危险区域。",
+    "example": "在云平台的资源管理控制台中，当用户尝试删除一个被多个服务依赖的核心数据库实例时，guardrail 会自动拦截该操作并弹出确认警告，同时列出依赖关系，要求用户先解除关联或提供强制删除凭证。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Guardrail - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Guardrail",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T07:04:25Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Entropy Bonus",
+  "term": "entropy_bonus",
   "norm_term": "entropy_bonus",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Entropy Bonus 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Entropy Bonus，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "entropy_bonus 是一种在强化学习（尤其是基于策略梯度的算法如PPO）中引入的正则化项，用于鼓励智能体探索更多样化的动作分布，防止过早收敛到次优确定性策略。它通过在损失函数中加入策略输出概率分布的熵值（通常加权后）来实现：熵越高，动作越随机、越不确定，从而提升探索能力。普通用户（如AI开发者或训练智能体的研究者）需要了解它，因为不当设置 entropy_bonus 可能导致训练不稳定——过大时策略过度随机、无法收敛；过小时易陷入局部最优、泛化能力差。",
+    "metaphor": "就像给一位反复走同一条路的快递员额外奖金，鼓励他偶尔尝试新路线，哪怕暂时多花点时间，只为发现更快捷或更可靠的路径。",
+    "example": "在训练一个玩《Atari Breakout》的游戏AI时，设置 entropy_bonus=0.01 可防止智能体只学会固定角度发球，而持续探索不同击球时机和角度，从而提升应对未知砖块布局的鲁棒性。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Entropy Bonus - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Entropy_Bonus",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:10:14Z"
 }

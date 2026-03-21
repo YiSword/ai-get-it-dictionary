@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "workflow",
+  "norm_term": "workflow",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Workflow（工作流）是指为完成某项任务而定义的一系列有序、可重复的步骤或操作，通常涉及人员、工具和系统之间的协作与自动流转。它把抽象的目标拆解为具体、可执行的动作，并明确每步的输入、输出、责任人和触发条件。普通用户需要了解 workflow，因为它直接影响日常效率——比如提交报销、发布文章或处理客户请求时，清晰的工作流能减少重复沟通、避免遗漏环节、缩短等待时间，并让问题更容易被追踪和优化。",
+    "metaphor": "就像一家咖啡馆的点单流程：顾客下单→收银员确认→吧台制作→品控检查→递给顾客，每个环节衔接紧密、职责分明，确保每一杯咖啡稳定又及时。",
+    "example": "在软件开发中，一个典型的 workflow 是：开发者提交代码 → 自动触发测试 → 测试通过后通知审核人 → 审核通过则自动部署到预发环境 → 最终经人工验收后上线。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T10:28:03Z"
+}

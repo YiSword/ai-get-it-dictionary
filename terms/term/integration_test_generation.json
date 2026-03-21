@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Integration Test Generation",
+  "term": "integration_test_generation",
   "norm_term": "integration_test_generation",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Integration Test Generation 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Integration Test Generation，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "integration_test_generation（集成测试生成）是指自动创建用于验证多个软件模块或组件协同工作是否正确的测试用例的过程。它关注接口、数据流和交互逻辑，而非单个函数或类的内部行为。普通用户（尤其是开发者、测试工程师和DevOps人员）需要了解它，因为手动编写高质量集成测试耗时易错，而自动化生成能提升测试覆盖率、加快交付节奏，并及早暴露模块间兼容性问题，从而增强系统整体稳定性。",
+    "metaphor": "就像为一支新组建的乐队自动生成合奏练习曲目——不是单独考核每位乐手的指法，而是确保小提琴、钢琴和鼓在真实演奏中节奏同步、音调和谐。",
+    "example": "在一个微服务架构的电商系统中，集成测试生成工具可自动创建测试用例，验证订单服务、库存服务和支付服务在‘下单扣库存并发起支付’这一业务流程中能否正确传递数据、处理异常并保持事务一致性。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Integration Test Generation - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Integration_Test_Generation",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:36:07Z"
 }

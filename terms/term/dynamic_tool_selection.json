@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Dynamic Tool Selection",
+  "term": "dynamic_tool_selection",
   "norm_term": "dynamic_tool_selection",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Dynamic Tool Selection 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Dynamic Tool Selection，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "dynamic_tool_selection 是指AI系统在执行任务过程中，根据当前输入、上下文和目标，实时决定调用哪个外部工具（如计算器、搜索引擎、数据库API等）并传入合适参数的能力。它不同于预设固定流程，而是由模型自主推理、评估并动态决策。普通用户需要了解这一概念，因为它直接影响AI助手是否能准确响应复杂请求——例如既查天气又订机票时能否自动切换工具，而非卡在单一功能里，从而决定了交互的灵活性与实用性。",
+    "metaphor": "就像一位经验丰富的厨师 who doesn’t follow a rigid recipe but instantly chooses the right knife, pan, or spice based on what the dish needs at each step.",
+    "example": "当用户说‘帮我对比iPhone 15和三星S24的最新评测，并生成购买建议’时，系统先调用搜索引擎获取评测网页，再调用内容提取工具解析文本，最后用摘要与推理工具生成建议——整个过程中的工具选择是动态发生的。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Dynamic Tool Selection - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dynamic_Tool_Selection",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:58:21Z"
 }

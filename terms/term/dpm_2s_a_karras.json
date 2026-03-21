@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "dpm_2s_a_karras",
+  "norm_term": "dpm_2s_a_karras",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "dpm_2s_a_karras 是一种用于扩散模型（如 Stable Diffusion）的采样算法，全称是 DPM-Solver-2S with Karras noise schedule。它通过两步近似求解微分方程，在保持高质量图像生成的同时显著加快采样速度。普通用户需要知道它，是因为在图像生成工具中选择该算法可平衡出图质量与等待时间——相比默认的 Euler 或 DDIM，它通常在 15–25 步内就能产出细节丰富、噪声可控的结果，尤其适合本地显存有限或追求高效迭代的创作者。",
+    "metaphor": "就像一位经验丰富的厨师用双刀快切法替代传统慢剁，在保证食材纹理完整（图像细节）的前提下，把一道菜的准备时间缩短了一半。",
+    "example": "当在 Automatic1111 WebUI 中生成一幅写实风格人像时，将采样器设为 dpm_2s_a_karras 并配置 20 步，可在 8 秒内输出一张高一致性、低杂色的图像，而同等条件下使用 Euler 需要 35 步且边缘略带模糊。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:59:21Z",
+  "updated_at": "2026-03-21T05:51:33Z"
+}

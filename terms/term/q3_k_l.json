@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "q3_k_l",
+  "norm_term": "q3_k_l",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "q3_k_l 是 llama.cpp 项目中定义的一种量化模型权重格式，表示使用 3 位整数（q3）进行权重量化，并采用特定的分组策略（k）与局部标量优化（l）来平衡精度与压缩率。它属于 GGUF 文件格式支持的多种低比特量化方案之一，旨在让大语言模型能在消费级 CPU 或边缘设备上高效运行。普通用户需要了解它，是因为选择该格式可能显著影响模型加载速度、内存占用和推理质量——例如在笔记本电脑上运行 Llama 3 时，q3_k_l 比 fp16 版本节省约 70% 内存，但需接受轻微的生成质量下降。",
+    "metaphor": "就像把一本精装全彩画册压缩成一本精心设计的线描简笔画集：保留关键轮廓和结构，大幅减小体积，普通人能快速翻阅，只是细节不如原版丰富。",
+    "example": "用户在 Ollama 中运行 'ollama run llama3:8b-q3_k_l'，即可在仅 4GB RAM 的旧笔记本上流畅启动 8B 参数模型，用于本地聊天或文档摘要，而无需 GPU。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T17:25:17Z",
+  "updated_at": "2026-03-21T09:19:22Z"
+}

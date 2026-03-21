@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "invideo",
+  "norm_term": "invideo",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Invideo 是一款基于人工智能的在线视频生成工具，允许用户通过输入文字脚本、选择模板、语音和风格，自动生成高质量短视频。它无需专业剪辑技能或安装软件，适合营销人员、教育者、内容创作者等快速制作社交媒体广告、教学视频或产品介绍。普通用户需要了解它，是因为它大幅降低了视频创作门槛，将原本耗时数小时的手动剪辑压缩至几分钟，同时支持多语言、自动字幕和AI配音，提升了内容生产效率与可及性。",
+    "metaphor": "就像一位24小时待命的全能视频助理——你只需口述想法，它便自动选画面、配音乐、加字幕、调节奏，把文字瞬间变成专业短视频。",
+    "example": "一名电商运营人员输入‘新款无线耳机开箱体验’的文案，选择科技风模板和英文AI配音，3分钟内生成一条带动态字幕、BGM和产品特写镜头的Instagram短视频。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:59:30Z",
+  "updated_at": "2026-03-21T07:38:56Z"
+}

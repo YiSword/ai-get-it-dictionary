@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Kimi",
+  "term": "kimi",
   "norm_term": "kimi",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Kimi 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Kimi，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Kimi 是由月之暗面（Moonshot）研发的超大规模人工智能模型，具备长文本理解、多模态处理、代码生成和复杂推理能力。它支持高达200万字的上下文输入，能精准解析长文档、PDF、表格等结构化内容。普通用户需要了解 Kimi，因为它正逐步集成到办公、学习和创作工具中，成为辅助阅读、写作、编程和知识管理的高效智能助手，尤其适合处理学术论文、行业报告或技术文档等长篇信息。",
+    "metaphor": "Kimi 就像一位过目不忘、精通多语、还能即时总结和提问的超级图书管理员，不仅能一口气读完整本百科全书，还能帮你从密密麻麻的注释里找出关键结论。",
+    "example": "一名研究生上传了120页的英文文献PDF和附带的实验数据表，用 Kimi 提问‘请对比表3与图5的结论差异，并用中文列出三个研究局限’，Kimi 在10秒内返回结构化分析和可直接引用的要点。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Kimi - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Kimi",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T07:50:48Z"
 }

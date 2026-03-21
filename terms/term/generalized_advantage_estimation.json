@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Generalized Advantage Estimation",
+  "term": "generalized_advantage_estimation",
   "norm_term": "generalized_advantage_estimation",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Generalized Advantage Estimation 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Generalized Advantage Estimation，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Generalized Advantage Estimation（GAE）是一种在强化学习中用于估计策略梯度中优势函数的高效技术，它通过加权组合多步时序差分误差来平衡偏差与方差。相比单步或蒙特卡洛估计，GAE提供更稳定、更平滑的梯度信号，从而提升策略优化的收敛速度和鲁棒性。普通用户（尤其是算法工程师或研究者）需要了解它，因为它是现代策略梯度算法（如PPO、A2C）的核心组件，直接影响训练稳定性与最终性能。",
+    "metaphor": "就像医生不会仅凭病人某一次血压读数就诊断病情，而是综合多次测量并按时间衰减加权评估健康趋势，GAE也不依赖单一时间步的反馈，而是用指数衰减方式融合近期多步的‘惊喜程度’来判断某个动作到底有多好。",
+    "example": "在训练一个四足机器人行走策略时，GAE被用于计算每个关节扭矩动作相对于平均表现的优势值，使策略能更准确地区分‘偶然成功’和‘真正优质’的动作序列。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Generalized Advantage Estimation - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Generalized_Advantage_Estimation",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:45:27Z"
 }

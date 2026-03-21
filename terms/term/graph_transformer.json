@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Graph Transformer",
+  "term": "graph_transformer",
   "norm_term": "graph_transformer",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "数据工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Graph Transformer 常用于让 AI 更好地处理、检索或组织信息，特别适合知识库、搜索、推荐和文档问答场景。它的价值不只在模型本身，而在于帮助系统更准确地找到和利用相关内容。对初学者来说，这是理解 RAG 和知识图谱的关键基础。",
-    "metaphor": "它好比给信息先做好整理和定位，再交给 AI 使用，这样系统更容易找到真正相关的内容。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Graph Transformer，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Graph Transformer 是一种结合图神经网络（GNN）与Transformer架构的深度学习模型，专门用于处理图结构数据（如社交网络、分子结构、知识图谱）。它通过自注意力机制建模节点之间长距离、非局部的依赖关系，克服了传统GNN受限于局部邻域聚合的瓶颈。普通用户需要了解它，因为其正推动药物发现、推荐系统、芯片设计等关键领域取得突破性进展，直接影响未来AI应用的智能化水平和实用性。",
+    "metaphor": "就像一位既能看清邻里互动、又能瞬间把握整座城市交通脉络的超级城市规划师，Graph Transformer 不只关注‘邻居’，还能全局统筹任意两个节点间的隐含关联。",
+    "example": "在药物研发中，Graph Transformer 将分子表示为原子（节点）和化学键（边）构成的图，精准预测其生物活性，大幅加速新药候选物筛选过程。"
   },
   "scenario_tags": [
-    "检索",
-    "知识库",
-    "数据处理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Graph Transformer - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Graph_Transformer",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:58:56Z"
 }

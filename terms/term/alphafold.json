@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "AlphaFold",
+  "term": "alphafold",
   "norm_term": "alphafold",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AlphaFold 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 AlphaFold，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "AlphaFold 是由 DeepMind 开发的人工智能系统，能高精度预测蛋白质的三维结构，仅凭其氨基酸序列即可实现。这一突破解决了生物学中长达五十年的‘蛋白质折叠问题’，大幅加速药物研发、疾病机制研究和合成生物学进展。普通用户虽不直接操作它，但未来受益于更快上市的新药、更精准的诊断工具或新型环保酶制剂，都可能源于 AlphaFold 提供的基础科学支持。",
+    "metaphor": "就像一位从不看图纸却能仅凭零件清单就完美组装出复杂机械模型的天才工程师。",
+    "example": "研究人员利用 AlphaFold 预测了疟原虫关键蛋白的结构，从而快速筛选出可阻断其感染能力的候选化合物，将原本需数年的靶点验证缩短至数周。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "AlphaFold - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/AlphaFold",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:33:35Z"
 }

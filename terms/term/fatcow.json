@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "fatcow",
+  "norm_term": "fatcow",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "fatcow 是一个早期互联网时代的网络文化术语，指代一种过度设计、资源冗余、加载缓慢但视觉繁复的网页风格，常见于1990年代末至2000年代初。这类网站常滥用闪烁文字、大尺寸图片、自动播放音乐、复杂背景和大量动画，牺牲可用性和性能换取表面‘丰富感’。普通用户需要了解它，不仅因为它是网页设计演进史上的重要反面案例，更因为它揭示了性能、可访问性与用户体验之间的根本权衡——今天许多‘重前端’应用或广告弹窗泛滥的问题，本质上仍是 fatcow 思维的变体。",
+    "metaphor": "就像有人把整个厨房的装饰品、彩灯和音响全搬到餐桌上摆满，只为让一顿饭看起来‘隆重’，结果你连筷子都找不到，更别说好好吃饭了。",
+    "example": "1998年某个人主页用10MB的GIF动画做背景、嵌入3段MIDI音乐、每点击一次链接就弹出新窗口并播放音效——这就是典型的 fatcow 网站。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:53:31Z",
+  "updated_at": "2026-03-21T06:24:02Z"
+}

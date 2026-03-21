@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Computer Use",
+  "term": "computer_use",
   "norm_term": "computer_use",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Computer Use 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Computer Use，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "computer_use 指的是个人或组织在日常活动中操作计算机系统完成任务的行为，包括运行软件、访问网络、处理文档、编程、多媒体编辑等。它不仅涉及技术操作，还涵盖数字素养、安全意识和效率策略。普通用户需要理解这一概念，因为现代工作、学习、社交和公共服务高度依赖计算机使用能力；缺乏基本的 computer_use 能力可能导致信息获取受限、工作效率低下，甚至面临隐私泄露或网络诈骗风险。",
+    "metaphor": "就像驾驶汽车不仅是踩油门和刹车，而是理解交通规则、路况判断和车辆维护的综合能力，computer_use 也不是简单点鼠标，而是与数字世界安全、有效互动的一整套实践智慧。",
+    "example": "一位教师用电子表格统计学生成绩、通过视频会议软件开展线上教学、并指导学生使用教育平台提交作业——这些活动共同构成了典型的 computer_use 场景。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Computer Use - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Computer_Use",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T04:47:03Z"
 }

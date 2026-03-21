@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "dpm_2m",
+  "norm_term": "dpm_2m",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "dpm_2m 是一种用于文本生成的扩散采样算法，全称是 'DPM-Solver-2 Multi-step'，属于高效求解扩散微分方程的二阶显式方法。它能在极少步数（如10–20步）内高质量还原图像或文本潜变量，显著快于传统DDPM等百步采样器。普通用户需要了解它，是因为许多AI绘图工具（如Stable Diffusion WebUI）默认或推荐使用dpm_2m，启用后可大幅缩短单张图生成时间而不明显牺牲质量，直接影响使用效率与体验。",
+    "metaphor": "就像用精准的导航路径替代缓慢的逐街摸索——dpm_2m 不是一步一停地试错，而是根据趋势预判下一步最优落点，快速抵达目标。",
+    "example": "在Stable Diffusion中，用户将采样器设为'dpm_2m'并指定15步，即可在3秒内生成一张细节丰富的写实人像，而同参数下用Euler a需35步、耗时近8秒。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:55:00Z",
+  "updated_at": "2026-03-21T05:50:07Z"
+}

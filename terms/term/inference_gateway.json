@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Inference Gateway",
+  "term": "inference_gateway",
   "norm_term": "inference_gateway",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "推理与部署",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Inference Gateway 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Inference Gateway，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "inference_gateway 是指部署在模型服务前端的统一接入层，负责接收用户请求、进行身份认证、请求路由、限流熔断、日志审计及协议转换（如将 HTTP 请求转为 gRPC 调用模型），再将结果返回给客户端。它不直接执行模型推理，而是作为安全、可控、可观测的‘守门人’，保障大模型或AI服务在生产环境中的稳定性与合规性。普通用户无需直接操作它，但其存在直接影响响应速度、访问权限、错误提示是否友好，以及服务是否持续可用。",
+    "metaphor": "就像机场的值机与安检通道——你提交登机请求（输入提示），它核验身份、分配柜台、检查行李（请求合法性）、分流航班（路由到对应模型），但真正起飞（执行推理）的是背后的飞机（模型服务）。",
+    "example": "某企业客服系统调用大语言模型生成回复时，所有用户消息都先发送至 inference_gateway；该网关验证API密钥、限制每秒请求数、记录调用日志，并将合法请求转发给后端部署在GPU集群上的LLM服务。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Inference Gateway - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Inference_Gateway",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:29:54Z"
 }

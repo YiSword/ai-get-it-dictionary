@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "arize_phoenix",
+  "norm_term": "arize_phoenix",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Arize Phoenix 是一个开源的 Python 库，用于在本地快速启动交互式 LLM（大语言模型）可观测性与评估平台，支持对提示词、响应、延迟、token 使用、幻觉、偏见等维度进行实时分析和调试。它无需云服务或复杂部署，适合开发者、产品经理和AI工程师在模型集成初期快速诊断问题。普通用户需要知道它，是因为它能将抽象的LLM行为转化为可量化、可追溯的指标，降低AI应用调试门槛，避免‘黑箱’导致的线上故障或用户体验下降。",
+    "metaphor": "就像给你的AI应用装上一个便携式汽车仪表盘——无需进修理厂（云端平台），就能实时看到油量（token消耗）、转速（响应延迟）、异常抖动（幻觉标志）。",
+    "example": "一名聊天机器人开发者在本地运行Phoenix后，发现某类客服提示词触发了高频率的虚构事实响应，通过内置的幻觉检测视图定位问题，并在上线前优化提示模板。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:59:34Z",
+  "updated_at": "2026-03-21T03:42:11Z"
+}

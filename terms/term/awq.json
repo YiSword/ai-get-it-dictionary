@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "AWQ",
+  "term": "awq",
   "norm_term": "awq",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AWQ 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 AWQ，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "AWQ（Activation-aware Weight Quantization）是一种针对大语言模型的高效量化技术，它在压缩模型体积和降低推理功耗的同时，尽可能保留原始模型精度。与传统均匀量化不同，AWQ 通过分析神经元激活值的分布特性，智能识别并保护对精度影响最大的关键权重，对其保留更高精度，其余权重则大幅压缩。普通用户需要了解 AWQ，因为它正被广泛用于手机端、边缘设备上的轻量级AI应用（如本地聊天机器人），直接影响响应速度、耗电量和功能可用性。",
+    "metaphor": "就像一位经验丰富的图书管理员，不是把所有书都按统一尺寸缩印，而是先翻阅每本书的关键章节，只对核心内容保留高清印刷，其余部分用精简排版——既省纸又不丢重点。",
+    "example": "当在iPhone上运行Llama-3-8B本地模型时，开发者采用AWQ将模型从15GB FP16压缩至约4GB INT4，推理延迟降低60%，且问答准确率仅下降不到2%，使实时离线对话成为可能。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "AWQ - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/AWQ",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:52:34Z"
 }

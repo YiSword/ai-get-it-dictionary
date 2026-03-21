@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Cluster Scheduling",
+  "term": "cluster_scheduling",
   "norm_term": "cluster_scheduling",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Cluster Scheduling 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Cluster Scheduling，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "cluster_scheduling 是指在由多台机器组成的计算集群中，自动决定将哪些任务（如容器、作业或服务实例）分配到哪台节点上运行，并管理其生命周期（启动、迁移、扩缩容、故障恢复）的过程。它由调度器（如 Kubernetes Scheduler、YARN ResourceManager）实现，核心目标是提升资源利用率、保障服务质量（如延迟、可靠性）和满足策略约束（如亲和性、硬件要求）。普通用户需要了解它，因为调度策略直接影响应用性能、成本和稳定性——例如错误配置可能导致服务长时间无法启动，或关键任务被挤占资源。",
+    "metaphor": "就像一位经验丰富的机场塔台调度员，既要根据航班类型（货运/客运）、机型（需特定跑道）、天气和停机位空闲情况实时分配登机口和滑行路线，又要动态应对突发延误或机械故障。",
+    "example": "在 Kubernetes 集群中，当用户提交一个需要 GPU 的 AI 训练任务时，调度器会扫描所有节点，筛选出装有可用 GPU 且满足内存与标签约束的节点，并将该 Pod 分配到其中一台，而非随机或负载最轻的通用节点。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Cluster Scheduling - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Cluster_Scheduling",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:34:42Z"
 }

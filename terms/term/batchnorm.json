@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "BatchNorm",
+  "term": "batchnorm",
   "norm_term": "batchnorm",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "BatchNorm 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 BatchNorm，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "BatchNorm（批量归一化）是一种深度学习中常用的层，用于对神经网络某一层的输入在每个小批次（batch）内进行标准化处理——即减去均值、除以标准差，并引入可学习的缩放和平移参数。它能加速训练、提升模型稳定性与泛化能力，减少对初始化和学习率的敏感性。普通用户（如AI应用开发者或算法工程师）需要了解它，因为它是现代CNN、Transformer等主流架构的标配组件，直接影响模型是否收敛、训练速度及最终性能。",
+    "metaphor": "就像学生每次考试前统一按班级平均分和标准差调整试卷难度，让所有人站在同一起跑线上再比拼，BatchNorm也让每批数据‘考前调准’，避免某些特征过强或过弱干扰学习。",
+    "example": "在ResNet图像分类模型中，每个卷积层后常紧跟BatchNorm层，以稳定梯度传播并允许使用更高的学习率训练更深的网络。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "BatchNorm - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/BatchNorm",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:58:02Z"
 }

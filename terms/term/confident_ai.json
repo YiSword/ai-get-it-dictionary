@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Confident AI",
+  "term": "confident_ai",
   "norm_term": "confident_ai",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Confident AI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Confident AI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Confident_AI 指的是一类具备可解释性、不确定性量化与鲁棒决策能力的人工智能系统，它不仅能给出预测结果，还能清晰表达自身判断的置信度（例如‘85%把握’或‘数据不足，建议人工复核’）。普通用户需要了解它，是因为它能帮助识别AI输出是否可靠——避免盲目信任错误答案（如医疗建议误判或金融决策失误），从而在人机协作中做出更安全、更理性的选择。",
+    "metaphor": "就像一位经验丰富的医生，不仅告诉你‘可能是流感’，还会说明依据（发烧+咳嗽+检测阴性）、把握程度（70%）以及是否需要进一步验血。",
+    "example": "某银行信贷AI拒绝贷款申请时，同时标注‘信用分临界，收入证明不完整，置信度仅62%，建议人工审核补充材料’，而非直接拒贷且不解释原因。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Confident AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Confident_AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:48:03Z"
 }

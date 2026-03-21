@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Few-Shot Prompting",
+  "term": "few_shot_prompting",
   "norm_term": "few_shot_prompting",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "提示工程",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Few-Shot Prompting 是和 AI 交流时常见的一类方法或输入形式，用来更明确地表达任务、限制和输出要求。它会直接影响模型回答的方向、质量和稳定性。对初学者来说，理解它的作用，往往比研究模型参数更能立刻提升使用效果。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你希望 AI 按固定格式输出结果，或针对某个场景调整语气和步骤时，就会用到 Few-Shot Prompting，因为这类任务高度依赖输入表达方式。"
+    "plain": "few_shot_prompting（少样本提示）是一种让大语言模型快速理解并执行新任务的技术，通过在提示中提供少量（通常2-5个）输入-输出示例，而非依赖大量训练数据或复杂指令。它降低了使用门槛，使普通用户无需编程或调参就能引导模型完成如翻译、分类、改写等任务，特别适合快速验证想法或处理个性化需求。",
+    "metaphor": "就像教朋友做一道新菜时，不讲烹饪理论，而是直接给他看三份成品照片和对应的食材步骤清单，他就能照着做出第四份。",
+    "example": "用户想让AI把口语化句子转成正式邮件用语，就在提示里给出两个例子：'嘿，明早开会记得来！→ 请您准时参加明日早晨的会议。'，再附上新句子请求转换。"
   },
   "scenario_tags": [
-    "提问",
-    "写作",
-    "指令"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Few-Shot Prompting - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Few-Shot_Prompting",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T06:26:57Z"
 }

@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Streamlit",
+  "term": "streamlit",
   "norm_term": "streamlit",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Streamlit 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Streamlit，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Streamlit 是一个开源的 Python 库，用于快速构建和部署数据科学与机器学习的交互式 Web 应用（如仪表盘、模型演示界面），无需前端开发知识。它让数据分析师、研究人员和工程师能用纯 Python 脚本几行代码就生成可共享的网页应用。普通用户需要知道它，是因为它大幅降低了将分析结果或 AI 模型转化为直观、可操作工具的门槛，无需依赖专业前端或全栈开发者。",
+    "metaphor": "Streamlit 就像一位懂 Python 的‘网页速记员’——你用自然的 Python 逻辑说话，它立刻为你写下并展示一个漂亮的网页。",
+    "example": "一位数据科学家用 Streamlit 在 15 行代码内创建了一个实时股票价格可视化工具，支持用户通过滑块选择时间范围，并一键下载图表，然后直接分享链接给业务团队使用。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Streamlit - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Streamlit",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:56:09Z"
 }

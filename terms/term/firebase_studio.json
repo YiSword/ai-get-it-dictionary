@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Firebase Studio",
+  "term": "firebase_studio",
   "norm_term": "firebase_studio",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Firebase Studio 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Firebase Studio，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Firebase Studio 是 Google 官方推出的、面向 Firebase 开发者的集成化本地开发与调试环境（目前处于预览阶段），它将 Firebase 控制台的核心功能（如 Firestore 数据库浏览、实时数据库模拟、身份验证测试、函数本地运行等）整合到一个桌面应用中，并支持离线操作、数据快照比对和端到端模拟。普通用户（尤其是移动或 Web 应用开发者）需要知道它，因为它显著降低了 Firebase 服务的调试门槛——无需反复部署、切换网页控制台或手动构造 API 请求，就能在本地安全、直观地验证后端逻辑与数据流。",
+    "metaphor": "就像为 Firebase 构建了一个‘数字实验室工作台’，开发者可以在这里像摆弄物理电路板一样拖拽、修改、实时观察云服务的行为，而不用每次实验都跑到云端‘工厂车间’去试产。",
+    "example": "一位开发聊天应用的工程师使用 Firebase Studio 在本地加载模拟用户数据，实时查看 Firestore 安全规则是否阻止了未授权读取，并一键触发 Cloud Function 模拟新消息事件，全程无需连接生产环境或修改代码部署。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Firebase Studio - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Firebase_Studio",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:31:07Z"
 }

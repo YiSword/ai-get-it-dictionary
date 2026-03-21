@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "q6_k_l",
+  "norm_term": "q6_k_l",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "q6_k_l 是一种量化格式，用于压缩大语言模型的权重参数，将原本32位浮点数（float32）近似为平均约6位有效精度的整数表示，同时采用分组量化（k-means聚类）和局部标量缩放（l代表layer-wise或block-wise精细校准）来平衡精度与体积。普通用户需要知道它，是因为选择该格式可在消费级显卡（如8GB显存GPU）上流畅运行7B级别模型，显著降低硬件门槛和推理延迟，是开源模型本地部署的关键优化选项。",
+    "metaphor": "就像把一本高清摄影集压缩成保留关键色彩层次的精编画册——不是简单模糊降质，而是智能挑选每页最能传神的6比特色调组合。",
+    "example": "当在MacBook M2上用llama.cpp运行Phi-3模型时，选用q6_k_l量化版本可在仅4.2GB显存占用下实现每秒18词的实时对话响应，而未量化版本则直接因内存溢出失败。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T17:28:08Z",
+  "updated_at": "2026-03-21T09:23:13Z"
+}

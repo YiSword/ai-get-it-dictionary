@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Vision Transformer",
+  "term": "vision_transformer",
   "norm_term": "vision_transformer",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "模型架构",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Vision Transformer 是 AI 模型体系中的重要结构或模型类型，决定了模型如何理解输入、组织信息和生成结果。虽然普通用户不会直接训练它，但很多今天常见的 AI 能力都建立在这类结构之上。理解它能帮助你建立更完整的 AI 基础认知。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Vision Transformer，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Vision Transformer（ViT）是一种将Transformer架构应用于图像识别任务的深度学习模型。它把图像分割成固定大小的小块（patches），线性嵌入后按序列输入Transformer编码器，从而捕捉长距离空间依赖关系。与传统卷积神经网络不同，ViT不依赖局部感受野假设，而是通过自注意力机制全局建模图像结构。普通用户需要了解它，因为它是当前主流AI图像理解系统（如多模态大模型、智能相册分类、医学影像分析）的核心组件之一，标志着视觉AI从‘局部特征提取’迈向‘全局语义建模’的关键演进。",
+    "metaphor": "就像一位画家先将整幅画拆成拼图碎片，再逐一审视每块与其他所有碎片的关系，最终在脑海中重构出画面的整体意义。",
+    "example": "Google Photos 使用类似ViT的模型自动识别照片中的人物、地点和活动类型，即使同一人物在不同光照或角度下出现，也能准确聚类归档。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Vision Transformer - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Vision_Transformer",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:19:17Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Contract Review AI",
+  "term": "contract_review_ai",
   "norm_term": "contract_review_ai",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Contract Review AI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Contract Review AI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "contract_review_ai 是指利用人工智能技术自动分析、解读和评估法律合同的系统或工具。它能识别关键条款（如付款条件、违约责任、保密义务）、标记潜在风险、比对标准模板，并生成通俗摘要。普通用户需要了解它，因为传统合同审阅依赖律师，成本高、耗时长；而该技术可降低中小企业和个人在租房、雇佣、合作等场景中的法律门槛，提升效率与风险防范能力。",
+    "metaphor": "就像一位精通法律的速读专家，能在几秒内扫完几十页合同，圈出陷阱、标出重点，并用大白话告诉你‘这里可能吃亏，那里要留意’。",
+    "example": "一家初创公司收到投资方发来的增资协议，上传至 contract_review_ai 后，系统30秒内指出‘反稀释条款过于严苛’‘董事会席位分配未明确’，并附修改建议和风险等级提示。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Contract Review AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Contract_Review_AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:55:25Z"
 }

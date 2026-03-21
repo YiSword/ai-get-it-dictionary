@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Code Interpreter",
+  "term": "code_interpreter",
   "norm_term": "code_interpreter",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Code Interpreter 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Code Interpreter，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "code_interpreter 是一种能直接执行用户编写的代码（如 Python）并返回结果的程序组件，常见于 AI 助手或数据分析工具中。它不只理解代码含义，还能实际运行代码、处理数据、绘图或调用内置函数。普通用户需要知道它，是因为它让非程序员也能通过自然语言描述任务（例如‘画出这组数据的折线图’），由系统自动生成并运行代码完成操作，大幅降低技术门槛，提升分析效率和交互灵活性。",
+    "metaphor": "就像一位随叫随到的编程助手，你口头吩咐任务，它立刻写好代码、按下回车、把结果端到你面前。",
+    "example": "用户上传一份 CSV 销售数据后说‘统计各季度销售额并画柱状图’，code_interpreter 自动解析文件、编写 Pandas 和 Matplotlib 代码、执行并返回图表。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Code Interpreter - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Code_Interpreter",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:38:02Z"
 }

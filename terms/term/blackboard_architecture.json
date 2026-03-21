@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Blackboard Architecture",
+  "term": "blackboard_architecture",
   "norm_term": "blackboard_architecture",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Blackboard Architecture 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Blackboard Architecture，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Blackboard architecture 是一种软件系统设计模式，用于解决复杂、不确定且需要多领域知识协同的问题。它由一个共享的‘黑板’数据结构、多个独立的知识源（专家模块）和一个控制组件组成；各模块不直接通信，而是通过读写黑板上的信息间接协作。普通用户无需理解其实现细节，但了解它有助于认识智能系统（如语音识别、医疗诊断辅助工具）如何整合不同专业能力来处理模糊或动态变化的任务。",
+    "metaphor": "就像一群各自专精的专家围坐在一块共享黑板前，谁看到能解决的问题就上去写方案或补充信息，其他人据此调整自己的判断，无需事先约定顺序或分工。",
+    "example": "在航天器故障诊断系统中，信号分析、热力学建模和电路逻辑等不同知识源模块，通过更新黑板上的观测数据、假设和置信度，协同推断出最可能的故障原因。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Blackboard Architecture - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Blackboard_Architecture",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:09:35Z"
 }

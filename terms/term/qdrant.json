@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Qdrant",
+  "term": "qdrant",
   "norm_term": "qdrant",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Qdrant 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Qdrant，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Qdrant 是一个开源的向量数据库，专为高效存储、检索和管理高维向量（如 AI 模型生成的嵌入向量）而设计。它支持语义搜索、相似性匹配和复杂过滤，常用于推荐系统、AI 应用和知识库构建。普通用户需要了解它，是因为随着大模型和个性化服务普及，背后依赖的‘找相似内容’能力正越来越多由 Qdrant 这类工具提供——它让机器真正理解‘意思相近’而非仅靠关键词匹配。",
+    "metaphor": "就像图书馆的智能索引员，不仅能按书名查找，还能根据你描述的‘跟《三体》风格类似、带宇宙尺度哲思的科幻小说’，从成千上万本书中精准找出最契合的几本。",
+    "example": "某电商 App 使用 Qdrant 存储商品图像和文本的联合向量，当用户上传一张‘米白色高腰阔腿裤’照片时，系统在毫秒内返回视觉与语义都高度相似的商品，而非仅依赖标签或标题匹配。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Qdrant - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Qdrant",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:25:09Z"
 }

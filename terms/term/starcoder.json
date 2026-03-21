@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "starcoder",
+  "norm_term": "starcoder",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "StarCoder 是由 BigCode 社区开发的一系列开源大语言模型，专为代码理解与生成任务优化，支持多种编程语言。它基于大量公开代码数据训练，具备补全、调试、解释和重构代码等能力。普通用户（尤其是开发者、学生或技术爱好者）需要知道它，因为它是免费、可本地部署的编程助手，能提升编码效率、辅助学习，并保障代码隐私——无需将敏感项目上传至商业闭源服务。",
+    "metaphor": "就像一位随叫随到、精通数十种编程语言的资深结对程序员，既熟悉最佳实践，又愿意耐心帮你逐行推敲逻辑。",
+    "example": "一名前端开发者在编写 React 组件时输入注释‘// 实现一个带防抖的搜索输入框’，StarCoder 立即生成完整、可运行的 TypeScript 代码，包含 useEffect、useRef 和防抖逻辑。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:57:23Z",
+  "updated_at": "2026-03-21T09:54:00Z"
+}

@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Quantization",
+  "term": "quantization",
   "norm_term": "quantization",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "训练方法",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Quantization 是模型训练或适配过程中常见的方法，用来让模型学到新能力、降低成本，或提升效果。你不一定需要亲自训练模型，但理解它有助于看懂为什么同一个基础模型会出现很多不同版本。它通常和微调、优化或部署成本有关。",
-    "metaphor": "它类似给模型安排一种更高效的学习方式，让模型用更少成本学会或适应新的任务。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Quantization，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "量化（quantization）是将连续或高精度数值近似为有限离散值的过程，常用于人工智能模型压缩。它通过降低模型参数（如权重和激活值）的数值精度（例如从32位浮点数转为8位整数），显著减少模型体积和计算开销，从而提升推理速度、降低功耗。普通用户需要知道它，因为这项技术让手机、耳机、车载系统等资源受限设备也能流畅运行语音识别、图像处理等AI功能，直接影响日常体验的响应速度与续航能力。",
+    "metaphor": "就像把一张高清照片转换成色彩有限的像素画——细节略有损失，但整体可识别，且文件小得多、加载快得多。",
+    "example": "苹果设备上的实时Face ID人脸识别，就依赖量化后的轻量神经网络，在A系列芯片上以毫秒级延迟完成本地运算，无需上传数据到云端。"
   },
   "scenario_tags": [
-    "训练",
-    "微调",
-    "模型优化"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Quantization - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Quantization",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:25:41Z"
 }

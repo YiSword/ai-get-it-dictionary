@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "dpm2",
+  "norm_term": "dpm2",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "DPM2（Diffusion Probabilistic Model 2）是一种改进的扩散模型采样算法，用于加速图像生成过程。它通过二阶数值积分方法（如Heun方法）提升采样精度，在较少步数下仍能生成高质量图像。普通用户需要了解它，是因为它直接影响AI绘图工具（如Stable Diffusion插件）的出图速度与细节表现——选择DPM2往往意味着比基础DDIM更快、比Euler a更稳定，尤其适合兼顾效率与质量的日常创作。",
+    "metaphor": "就像用更聪明的导航算法开车：不靠一步步试探路线，而是预判下一个弯道和坡度，两步并作一步走，既省油又不绕路。",
+    "example": "在Stable Diffusion WebUI中启用DPM2采样器，将采样步数设为20，可在3秒内生成一张细节丰富、边缘自然的写实人像，而同等条件下DDIM需40步才能达到相近质量。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:54:21Z",
+  "updated_at": "2026-03-21T05:49:01Z"
+}

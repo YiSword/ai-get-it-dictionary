@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "EleutherAI",
+  "term": "eleutherai",
   "norm_term": "eleutherai",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "EleutherAI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 EleutherAI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Eleutherai（ἐλευθέραι）是古希腊语中‘自由的’或‘解放的’阴性复数形式，常用于指代获得自治权的城邦、被释放的奴隶群体，或作为女神伊西斯、阿耳忒弥斯等在特定崇拜中象征自由的尊称。它并非现代常用术语，但在阅读古希腊铭文、哲学文本（如斯多亚学派对精神自由的论述）或研究古代政治制度时频繁出现。普通用户若接触西方思想史、古典文献或博物馆展品说明，理解该词有助于准确把握‘自由’在古代语境中的具体政治与宗教意涵，避免将其简单等同于现代个人主义式自由。",
+    "metaphor": "就像一枚古币上的双面印记——同一词既刻着城邦议会的决议，也印着神庙祭坛的誓言，eleutherai同时承载着现实的政治身份与神圣的伦理承诺。",
+    "example": "公元前2世纪的一块罗德岛铭文宣告某附属城邦‘koinē eleutherai kai autonómoi’（共同自由且自治），表明其脱离宗主国统治后获得的法定地位；在埃及的希腊化时期神庙壁画中，伊西斯女神被题献为‘Eleutheria’，强调她赐予灵魂解脱的力量。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "EleutherAI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/EleutherAI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:03:12Z"
 }

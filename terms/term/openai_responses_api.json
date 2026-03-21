@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "OpenAI Responses API",
+  "term": "openai_responses_api",
   "norm_term": "openai_responses_api",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "OpenAI Responses API 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 OpenAI Responses API，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "openai_responses_api 并非 OpenAI 官方定义的正式术语，而是开发者社区中对调用 OpenAI API 后所返回的响应数据结构（如 ChatCompletionResponse）及其内容（如 message 内容、usage 统计、finish_reason 等）的泛称。它强调的是 API 调用结果中可解析、可消费的实际输出部分，而非请求过程本身。普通用户（尤其是应用开发者）需要理解它，才能正确提取模型生成的文本、处理流式响应、调试错误（如 content filtering 触发）、或合规记录 token 使用量。",
+    "metaphor": "就像餐厅点餐后收到的完整上菜托盘——不仅有主菜（生成文本），还附带了菜单编号（id）、烹饪耗时（response_ms）、食材用量清单（token counts）和厨师备注（finish_reason）。",
+    "example": "开发者调用 /chat/completions 接口后，从 response['choices'][0]['message']['content'] 中提取 AI 回复，并通过 response['usage']['total_tokens'] 监控成本，这整个响应体即为 openai_responses_api 所指的核心对象。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "OpenAI Responses API - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/OpenAI_Responses_API",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:59:44Z"
 }

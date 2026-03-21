@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Vercel AI SDK",
+  "term": "vercel_ai_sdk",
   "norm_term": "vercel_ai_sdk",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Vercel AI SDK 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Vercel AI SDK，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "vercel_ai_sdk 是 Vercel 官方提供的开源 JavaScript/TypeScript SDK，用于在前端和后端轻松集成 AI 功能（如流式响应、工具调用、会话管理）。它抽象了与 AI 模型（如 OpenAI、Anthropic 或 Vercel 自托管模型）通信的底层细节，支持 React Server Components、Server Actions 和客户端流式渲染。普通用户（尤其是开发者）需要了解它，因为它显著降低了构建生产级 AI 应用的门槛——无需手动处理 SSE、错误重试、状态同步或 token 流解析，能快速实现类 ChatGPT 的实时交互体验。",
+    "metaphor": "就像为厨房配备了预制调料包和智能灶台，你只需专注设计菜品（AI 逻辑），不必从研磨香料、校准火候开始。",
+    "example": "一个博客网站使用 vercel_ai_sdk 在评论区嵌入实时 AI 辅助写作功能：用户输入半句话，SDK 自动调用后端 AI 接口并流式返回补全建议，整个过程在 React 组件中通过 useChat Hook 实现，无需手写 fetch 或解析 event-stream。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Vercel AI SDK - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Vercel_AI_SDK",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:17:10Z"
 }

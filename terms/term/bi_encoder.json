@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Bi-Encoder",
+  "term": "bi_encoder",
   "norm_term": "bi_encoder",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Bi-Encoder 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Bi-Encoder，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "bi_encoder（双编码器）是一种用于语义匹配的神经网络架构，它分别用两个独立但结构相同的编码器将查询（如搜索词）和文档（如网页标题或段落）映射到同一向量空间中的稠密向量，再通过向量相似度（如余弦相似度）衡量二者相关性。它被广泛应用于搜索、问答和推荐系统中，相比传统关键词匹配更懂语义，且推理速度快、易于部署。普通用户虽不直接接触该技术，但日常使用的搜索引擎、智能客服或内容推荐背后往往依赖它来实现更准确、更自然的结果匹配。",
+    "metaphor": "就像两位翻译家各自独立地把中文句子和英文句子译成同一种‘意义语言’，然后只需比对两种译文在‘意义语言’里的距离，就能判断原句是否意思相近。",
+    "example": "当你在电商App中搜索‘防水轻便的登山鞋’，bi_encoder会将这个查询和商品标题‘GORE-TEX®认证徒步鞋，重量仅380g，全地形防滑’分别编码为向量，并快速计算其相似度，从而把这款鞋排在靠前位置。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Bi-Encoder - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Bi-Encoder",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:06:14Z"
 }

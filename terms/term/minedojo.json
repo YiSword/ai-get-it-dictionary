@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "MineDojo",
+  "term": "minedojo",
   "norm_term": "minedojo",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MineDojo 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 MineDojo，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Minedojo 是一个面向人工智能研究的开源模拟平台，基于《我的世界》（Minecraft）构建，旨在为AI智能体提供复杂、开放、可定制的三维环境以训练和评估具身智能能力。它支持任务自动化生成、多模态观察（如图像、文本、动作）、程序化世界构建及真实感物理交互。普通用户（尤其是AI研究者、教育者或开发者）需要了解它，因为它降低了在高保真虚拟环境中训练自主智能体的技术门槛，推动了具身推理、长程规划和跨任务泛化等前沿方向的可复现研究。",
+    "metaphor": "Minedojo 就像为AI科学家打造的‘乐高式实验室’——用标准化积木（可编程世界、任务模板、接口）快速搭建千变万化的实验场景，无需从零开发仿真引擎。",
+    "example": "研究人员使用 Minedojo 训练一个AI智能体，让它根据自然语言指令‘建造一座带窗户的红石灯塔，并在夜晚点亮它’，在动态生成的岛屿环境中自主采集资源、合成工具、编程红石电路并完成建造。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "MineDojo - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/MineDojo",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:39:36Z"
 }

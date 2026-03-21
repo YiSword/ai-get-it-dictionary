@@ -1,28 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Retrieval-Augmented Generation",
+  "term": "retrieval_augmented_generation",
   "norm_term": "retrieval_augmented_generation",
   "lang": "en",
-  "aliases": ["RAG", "检索增强生成", "检索增强"],
+  "aliases": [],
   "entity_type": "concept",
-  "category": "产品概念",
-  "difficulty": "入门",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Retrieval-Augmented Generation 是把先查资料再生成回答组合起来的方法。系统会先从知识库、文档或网页里检索相关内容，再把这些内容交给模型生成答案。这样能减少胡编乱造，也更适合回答依赖最新或私有资料的问题。",
-    "metaphor": "它类似考试时先翻开参考书再作答，不是只靠脑子里原本记住的内容。",
-    "example": "比如企业客服机器人回答内部流程问题时，会先查公司文档再回复，因为这些信息不一定在模型训练数据里，而且需要尽量准确。"
+    "plain": "检索增强生成（Retrieval-Augmented Generation，RAG）是一种将外部知识检索与大语言模型生成能力结合的技术。它先从可信数据源（如文档库、数据库）中实时检索相关信息，再将检索结果作为上下文输入给语言模型，从而生成更准确、可追溯、时效性强的回答。普通用户需要了解它，是因为它能显著提升AI回答的可靠性与透明度——比如在医疗咨询、法律查询或企业知识问答中，避免模型‘胡编乱造’，让用户知道答案依据何在。",
+    "metaphor": "就像一位博学的教授在回答问题前，先快速翻阅几本权威参考书，再结合自己的理解给出有据可依的解答。",
+    "example": "某公司客服AI使用RAG技术，当用户询问‘2024年最新报销政策’时，系统自动从内部更新的HR文档库中检索出相关政策条款，并据此生成准确、带出处的回复，而非依赖训练时已过时的通用知识。"
   },
-  "scenario_tags": ["知识库", "问答", "企业搜索", "客服"],
-  "sources": [
-    {
-      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks - arXiv",
-      "url": "https://arxiv.org/abs/2005.11401",
-      "type": "paper"
-    }
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
-  "created_at": "2026-03-18T12:55:23.269Z",
-  "updated_at": "2026-03-19T09:01:00.000Z"
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T09:33:34Z"
 }

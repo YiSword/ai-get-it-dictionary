@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Distributed Training",
+  "term": "distributed_training",
   "norm_term": "distributed_training",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Distributed Training 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Distributed Training，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "distributed_training（分布式训练）是指将机器学习模型的训练任务拆分到多个计算设备（如多台服务器或同一台机器上的多个GPU）上并行执行的技术。它通过数据并行、模型并行或流水线并行等方式，显著缩短大规模模型的训练时间，并支持超出单设备内存限制的超大模型。普通用户需要了解它，因为现代AI应用（如智能助手、图像生成）背后依赖的模型往往只能通过分布式训练实现，理解该术语有助于评估技术方案的可行性、资源需求及开发门槛。",
+    "metaphor": "就像几十位建筑师同时绘制一栋摩天大楼的不同楼层和结构模块，再统一组装，而不是让一个人从头画到尾。",
+    "example": "OpenAI训练GPT-3时使用了数千块GPU组成的分布式集群，将海量文本数据切分后并行处理，使原本需数月的训练压缩至数周。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Distributed Training - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Distributed_Training",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:44:21Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Dedicated Instance",
+  "term": "dedicated_instance",
   "norm_term": "dedicated_instance",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Dedicated Instance 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Dedicated Instance，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "dedicated_instance（专用实例）是指云服务中完全独占物理服务器或虚拟化资源的计算实例，不与其他用户共享CPU、内存、存储或网络硬件。它提供更强的性能稳定性、可预测性、安全隔离性和合规性保障，适用于对延迟敏感、需满足严格监管要求（如金融、医疗）或运行关键企业应用的场景。普通用户需要了解它，是因为在性能需求上升、数据敏感性增强或合规压力增大时，可能需从共享型实例升级至此，避免‘邻居噪声’干扰和资源争抢风险。",
+    "metaphor": "就像租住一栋整栋别墅，而不是合租公寓——所有房间、水电、安保都只为你一人服务，不受隔壁住户行为影响。",
+    "example": "某银行核心交易系统部署在AWS的Dedicated Instance上，确保其数据库服务器独占物理主机，满足金融行业对数据隔离与审计追踪的强制合规要求。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Dedicated Instance - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dedicated_Instance",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:20:29Z"
 }

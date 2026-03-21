@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "musiclm",
+  "norm_term": "musiclm",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "MusicLM 是由 Google Research 开发的一个文本到音乐生成模型，能根据自然语言描述（如‘欢快的钢琴曲，带有爵士风格和雨声背景’）直接生成高质量、连贯且风格匹配的音频片段。它基于大规模音乐数据训练，支持多小节结构化生成，无需音乐制作经验即可创作定制化配乐。普通用户需要了解它，是因为它正逐步降低专业音乐创作门槛，让内容创作者、教育者或爱好者能快速获得原创背景音乐，减少版权风险与制作成本。",
+    "metaphor": "就像一位精通百种风格的作曲家，你只需用日常语言点单，它便即刻谱曲、编曲并演奏出成品。",
+    "example": "一位教师在制作科学课短视频时，输入提示词‘宁静悠扬的长笛旋律，模拟宇宙星空氛围，时长30秒’，MusicLM 在几秒内生成一段贴合主题的原创背景音乐，直接用于视频配音。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:48:36Z",
+  "updated_at": "2026-03-21T08:52:07Z"
+}

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "autogen",
+  "norm_term": "autogen",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Autogen（全称 AutoGen）是由微软研究院开发的开源框架，用于构建基于大语言模型（LLM）的多智能体协作系统。它允许开发者定义多个具有不同角色、能力与行为规则的AI代理（Agent），并通过自然语言进行自主对话与任务协同。普通用户需要了解它，是因为它正推动AI从单次问答工具转向可自主规划、分工协作的‘AI工作团队’，显著提升复杂任务（如代码调试、报告生成、跨领域研究）的自动化水平和可靠性。",
+    "metaphor": "就像一支由不同专长的专家（如项目经理、程序员、测试员）组成的虚拟团队，autogen 让这些AI角色自动开会、分配任务、互相质疑并共同交付结果。",
+    "example": "一位数据分析师用 autogen 搭建三个代理：一个解析用户需求，一个调用Python执行数据分析，另一个生成可视化图表并撰写结论——整个流程无需人工干预代码编写或步骤调度。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:04:24Z",
+  "updated_at": "2026-03-21T03:49:41Z"
+}

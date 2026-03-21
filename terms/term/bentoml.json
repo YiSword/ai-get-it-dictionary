@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "bentoml",
+  "norm_term": "bentoml",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "BentoML 是一个开源的机器学习模型服务框架，用于将训练好的模型打包成可部署、可版本化、可扩展的 API 服务。它支持多种 ML 框架（如 PyTorch、Scikit-learn、XGBoost 等），并提供标准化的模型保存、服务封装、性能监控和批量/在线推理能力。普通用户（尤其是数据科学家和工程师）需要了解它，因为它显著降低了从实验代码到生产服务的门槛，避免重复造轮子，提升模型交付效率与可靠性。",
+    "metaphor": "BentoML 就像为机器学习模型定制的‘便当盒’——把模型、预处理逻辑、依赖和 API 接口整齐打包，无论送到云服务器、Kubernetes 还是边缘设备，都能原样打开即用。",
+    "example": "一家电商公司用 XGBoost 训练出用户购买预测模型，通过 BentoML 将其打包为 REST API 服务，一键部署到 Kubernetes 集群，供推荐系统实时调用，同时自动记录请求日志与延迟指标。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:52:27Z",
+  "updated_at": "2026-03-21T04:04:10Z"
+}

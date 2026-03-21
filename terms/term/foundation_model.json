@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Foundation Model",
+  "term": "foundation_model",
   "norm_term": "foundation_model",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Foundation Model 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Foundation Model，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Foundation model 是指在大量通用数据上预训练的大规模人工智能模型，具备广泛的任务适应能力，如理解语言、生成文本、识别图像等。它不针对某一具体应用而设计，而是作为底层‘基础’，可通过微调或提示工程适配到各种下游任务。普通用户需要了解它，因为它是当前大多数AI应用（如智能助手、自动写作、图像生成）背后的核心技术，影响着AI的能力边界、可靠性及潜在偏见。",
+    "metaphor": "就像一块未经雕刻的优质大理石原石——它本身不是成品雕塑，但具备成为任何雕塑的潜力，只需后续的精细雕琢（微调）或巧妙引导（提示）。",
+    "example": "一家电商公司使用 foundation model（如 Llama 或 Qwen）为基础，仅通过少量客服对话数据微调，就快速构建出能处理退换货咨询、订单查询等多样化问题的专属客服机器人。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Foundation Model - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Foundation_Model",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:37:28Z"
 }

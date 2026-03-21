@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Diarization",
+  "term": "diarization",
   "norm_term": "diarization",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Diarization 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Diarization，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Diarization（说话人日志化）是一种语音处理技术，用于识别一段音频中‘谁在什么时候说了什么’，即将连续语音按说话人身份切分并标注。它不识别具体词语内容（那是语音识别的任务），而是聚焦于区分不同说话者及其发言时段。普通用户需要了解它，因为这项技术支撑着会议记录自动整理、在线课程字幕分角色标注、客服通话分析等实用功能，让语音数据真正变得可检索、可分析、可管理。",
+    "metaphor": "就像给一场多人围坐的圆桌谈话配上实时姓名标签的隐形主持人，不用听清每句话，也能一眼看出谁说了哪一段。",
+    "example": "在一次三人的线上项目会议录音中，diarization系统自动将整段音频标记为‘张经理（0:00–2:15）’、‘李工程师（2:16–5:40）’、‘王设计师（5:41–8:33）’，便于后续按人快速回溯发言内容。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Diarization - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Diarization",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:34:17Z"
 }

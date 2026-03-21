@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "graphcore",
+  "norm_term": "graphcore",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Graphcore 是一家英国人工智能芯片公司，专注于设计和制造专用于机器学习工作负载的智能处理器（IPU，Intelligence Processing Unit）。与传统CPU或GPU不同，IPU采用大规模并行架构和片上存储优化，专为高效运行图神经网络、大规模模型训练和实时推理而设计。普通用户虽不直接接触其硬件，但可能间接受益于使用Graphcore技术加速的AI服务——如更快的语音识别、更精准的医疗影像分析或更流畅的生成式AI响应。",
+    "metaphor": "Graphcore IPU就像一位精通多人协作剧本排练的导演，不是靠单人快速跑完所有台词，而是同时调度数十名演员在各自后台熟记、预演、即时互动，让整部AI‘戏剧’一气呵成。",
+    "example": "DeepMind曾在蛋白质结构预测研究中使用Graphcore IPU加速AlphaFold2的部分计算流程，将某些子任务的执行时间缩短了数倍；另一例是金融风控公司利用IPU实时处理千万级交易图谱，毫秒内识别异常资金流转模式。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T13:27:32Z",
+  "updated_at": "2026-03-21T06:57:28Z"
+}

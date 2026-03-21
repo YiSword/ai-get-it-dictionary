@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Visual Question Answering",
+  "term": "visual_question_answering",
   "norm_term": "visual_question_answering",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Visual Question Answering 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Visual Question Answering，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Visual Question Answering（VQA，视觉问答）是一种人工智能任务，要求模型根据给定图像和自然语言提出的问题，生成准确、简洁的文本答案。它融合了计算机视觉与自然语言处理能力，使机器能像人一样‘看图说话’。普通用户需要了解它，因为VQA正驱动着无障碍技术（如为视障者描述图片）、智能相册搜索、教育辅助工具等实用应用的发展，让图像信息更易被理解与交互。",
+    "metaphor": "就像一位既懂摄影又精通百科全书的导游，看到一张照片后，能立刻听懂你的问题，并用口语化语言给出贴切解答。",
+    "example": "用户上传一张餐厅菜单照片并提问‘最贵的主菜是什么？’，VQA系统识别图像中的文字与价格布局，定位‘黑松露牛排 ¥298’并回答‘黑松露牛排’。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Visual Question Answering - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Visual_Question_Answering",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:19:51Z"
 }

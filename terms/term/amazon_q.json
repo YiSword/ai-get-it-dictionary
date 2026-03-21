@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Amazon Q",
+  "term": "amazon_q",
   "norm_term": "amazon_q",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Amazon Q 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Amazon Q，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Amazon Q 是亚马逊推出的生成式人工智能助手，专为工作场景设计，可集成到企业工具（如Salesforce、Slack、AWS控制台）中，帮助用户分析数据、编写代码、生成报告或解答业务问题。它与通用AI助手不同，强调安全、企业级数据隔离和与AWS服务的深度协同。普通用户需要了解它，是因为它正逐步嵌入日常办公软件，影响工作效率、IT支持方式乃至企业知识管理流程。",
+    "metaphor": "就像一位精通你公司所有系统、文档和云资源的资深内部顾问，随时待命，不记笔记也不泄密，只为你当前任务调取最相关的知识。",
+    "example": "一位AWS客户支持工程师在排查EC2实例故障时，在AWS控制台内直接向Amazon Q提问：‘过去24小时哪些us-east-1区域的t3.micro实例因内存不足触发了CloudWatch告警？’，Q即时查询日志并生成带时间戳和实例ID的摘要。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Amazon Q - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Amazon_Q",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:34:55Z"
 }

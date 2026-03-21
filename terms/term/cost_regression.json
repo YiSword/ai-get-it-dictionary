@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Cost Regression",
+  "term": "cost_regression",
   "norm_term": "cost_regression",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Cost Regression 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Cost Regression，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "cost_regression 是一种统计建模方法，用于分析和预测与成本相关的变量如何随其他因素（如时间、产量、资源投入等）变化。它帮助组织识别成本驱动因素、评估效率变化、发现异常支出，并支持预算规划与定价决策。普通用户——尤其是财务人员、项目经理或运营管理者——需要了解它，因为它是将业务活动量化为可解释、可预测的成本趋势的关键工具，避免凭经验拍板导致的资源浪费或利润损失。",
+    "metaphor": "就像给一辆车安装行车电脑，不仅记录油耗，还分析出是路况、载重还是驾驶习惯真正影响了每公里花费。",
+    "example": "某制造企业用 cost_regression 分析过去两年的生产数据，发现设备老化程度比人工工时对单位产品维修成本的影响大3倍，从而优先安排关键产线的设备更新而非加聘技工。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Cost Regression - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Cost_Regression",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:02:30Z"
 }

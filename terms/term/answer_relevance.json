@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Answer Relevance",
+  "term": "answer_relevance",
   "norm_term": "answer_relevance",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Answer Relevance 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Answer Relevance，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "answer_relevance 是指模型生成的回答与用户原始问题在语义和意图上的匹配程度。它衡量回答是否切题、是否解决了提问者真正关心的问题，而非仅仅语法通顺或信息丰富。普通用户需要了解这一概念，因为它直接影响AI助手的实用性——高相关性意味着少反复追问、少误解、更高效地获取所需信息；低相关性则可能导致答非所问，浪费时间甚至引发错误决策。",
+    "metaphor": "就像餐厅里你点了一碗牛肉面，服务员却端来一杯橙汁：虽然食物本身没问题，但完全没回应你的需求。",
+    "example": "用户问‘如何用Python读取CSV文件并跳过第一行标题？’，若模型只讲解pandas基础语法却不提skiprows参数，该回答的answer_relevance就较低；而直接给出含skiprows=1的代码示例，则具有高answer_relevance。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Answer Relevance - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Answer_Relevance",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:37:00Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Abstract Syntax Tree",
+  "term": "abstract_syntax_tree",
   "norm_term": "abstract_syntax_tree",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Abstract Syntax Tree 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Abstract Syntax Tree，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "抽象语法树（Abstract Syntax Tree，AST）是源代码在编译或解释过程中被解析后生成的一种树状数据结构，它忽略括号、分号等冗余细节，只保留程序的语法结构和语义关系，如函数调用、变量声明、运算符优先级等。普通用户（尤其是开发者、学习编程者或参与代码分析工具使用者）需要了解AST，因为它构成了代码静态分析、自动格式化、语法高亮、代码转换（如Babel转译）、漏洞检测等工具的核心基础。",
+    "metaphor": "就像建筑师把一栋建筑的设计蓝图简化为骨架模型——去掉墙面颜色和灯具品牌，只保留承重柱、梁和房间连接关系，AST就是代码的‘语义骨架’。",
+    "example": "当使用ESLint检查JavaScript代码是否符合编码规范时，它先将源码解析为AST，再遍历该树查找不符合规则的节点（如未使用的变量）；Babel也将ES6+代码转为AST，修改节点后再生成兼容旧版浏览器的代码。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Abstract Syntax Tree - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Abstract_Syntax_Tree",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T03:15:41Z"
 }

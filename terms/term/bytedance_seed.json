@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "ByteDance Seed",
+  "term": "bytedance_seed",
   "norm_term": "bytedance_seed",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ByteDance Seed 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 ByteDance Seed，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "bytedance_seed 是字节跳动内部用于标识用户初始行为轨迹或设备首次激活状态的一个唯一随机标识符，常用于归因分析、反作弊和个性化推荐系统的冷启动阶段。它并非公开暴露的用户ID，也不直接关联手机号或账户，但在设备首次安装并启动抖音、TikTok等字节系App时生成，后续可能参与联邦学习或隐私计算中的匿名化建模。普通用户无需主动管理它，但了解其存在有助于理解为何新设备刚装App就可能推送高度相关的视频——背后并非‘监听’，而是基于seed触发的预置兴趣推演。",
+    "metaphor": "它就像一本空白日记本扉页上印好的唯一编号，不记录具体内容，却决定了整本书被分发到哪个阅读实验室、按什么规则贴标签。",
+    "example": "当用户在新手机首次打开TikTok时，客户端生成bytedance_seed并上传至服务器，结合网络环境与设备基础属性，触发预加载的‘泛娱乐兴趣模型’，从而在未登录状态下即推荐舞蹈、美食类短视频。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "ByteDance Seed - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/ByteDance_Seed",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T04:16:15Z"
 }

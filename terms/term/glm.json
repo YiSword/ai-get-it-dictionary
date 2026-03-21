@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "GLM",
+  "term": "glm",
   "norm_term": "glm",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GLM 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 GLM，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "GLM（General Language Model）是由智谱AI研发的一系列开源大语言模型，涵盖从轻量级到超大规模的多个版本（如GLM-4），具备强大的中文理解与生成能力、多轮对话支持、工具调用和代码生成等特性。普通用户需要了解它，是因为它被广泛集成于办公助手、教育工具、客服系统等日常应用中，直接影响人机交互的效率与体验；同时其开源特性也降低了开发者构建AI应用的门槛。",
+    "metaphor": "GLM就像一位精通多国语言、熟悉各行各业的全能助理，不仅能听懂你的口语化表达，还能主动查资料、写邮件、编代码，甚至帮你做决策。",
+    "example": "一名大学生使用搭载GLM-4的笔记App，只需输入‘把课堂录音转成带重点标记的Markdown笔记’，模型便自动完成语音转文字、提炼核心概念并结构化排版。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "GLM - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/GLM",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T06:48:23Z"
 }

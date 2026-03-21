@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "GGUF",
+  "term": "gguf",
   "norm_term": "gguf",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GGUF 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 GGUF，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "GGUF 是一种专为大型语言模型（LLM）设计的开源二进制文件格式，由 llama.cpp 团队开发，用于高效存储模型权重、架构参数和量化信息。它支持多种精度（如 FP16、Q4_K_M）、元数据嵌入（如 tokenizer 配置、聊天模板）以及跨平台运行，使模型能在 CPU 或轻量级设备上快速加载和推理。普通用户需要了解 GGUF，因为它已成为本地运行开源大模型（如 Llama、Phi、Qwen）的事实标准格式——下载模型时常见 .gguf 后缀，选择合适量化版本直接影响运行速度与显存/内存占用。",
+    "metaphor": "GGUF 就像为 AI 模型定制的‘智能压缩包’：不仅打包了所有必需组件，还内置说明书（元数据）和省电模式（量化配置），让任何兼容设备都能即插即用。",
+    "example": "用户在 macOS 上使用 Ollama 或 LM Studio 运行本地大模型时，需从 Hugging Face 下载一个 3GB 的 'mistral-7b-v0.1.Q5_K_M.gguf' 文件——这个 GGUF 文件直接加载后即可在无 GPU 的笔记本上流畅对话。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "GGUF - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/GGUF",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:46:53Z"
 }

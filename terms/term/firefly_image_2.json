@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "firefly_image_2",
+  "norm_term": "firefly_image_2",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "firefly_image_2 是 Adobe Firefly 生成式AI模型的第二代图像生成版本，专为高质量、可控性强的文本到图像合成而优化。它支持更精细的风格理解、更准确的提示词响应，以及对版权安全内容的增强保障。普通用户需要了解它，是因为它直接决定了在Adobe Express、Photoshop（'生成式填充'等）中AI绘图的准确性、速度与合规性——例如避免生成侵权元素或失真结构。",
+    "metaphor": "就像一位经验更丰富的数字画师，不仅听懂你的草图描述，还能主动避开版权雷区，并精准复现你想要的光影和构图细节。",
+    "example": "设计师在Photoshop中输入提示词‘一只半透明玻璃猫蹲在晨光窗台，写实风格，柔焦背景’，firefly_image_2能生成符合物理透光逻辑、无模糊畸变且不包含受版权保护IP元素的图像。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:40:35Z",
+  "updated_at": "2026-03-21T06:31:22Z"
+}

@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Alignment",
+  "term": "alignment",
   "norm_term": "alignment",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "安全与对齐",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Alignment 主要和 AI 的风险、边界或治理有关，帮助人们理解模型为什么会出错、失控，或带来不符合预期的结果。它不仅是技术问题，也关系到产品设计和使用习惯。对初学者来说，理解这类概念能减少对 AI 的误判。",
-    "metaphor": "它像给 AI 系统装上护栏和告警规则，帮助人们更早发现风险，而不是等出事后再补救。",
-    "example": "比如团队在上线 AI 功能前评估误答、泄露或越权风险时，就需要理解 Alignment，因为它会直接影响系统是否可靠可控。"
+    "plain": "alignment（对齐）是计算机科学和人工智能中的核心概念，指不同数据、模型组件或系统行为在结构、语义或目标上保持一致与协调的过程。例如，在自然语言处理中，它可能要求词向量空间中的关系匹配人类语义（如'国王-男+女≈女王'）；在多模态模型中，需让图像特征与文本描述在共享空间中靠近。普通用户需要了解它，因为alignment质量直接决定AI是否理解真实意图、避免有害输出，影响助手的可靠性与安全性。",
+    "metaphor": "就像乐队指挥确保每位乐手按同一节拍、调性和情感演奏，alignment让AI的各个部分协同表达人类真正想要的意义。",
+    "example": "当用户说‘把会议推迟到下周三’，一个对齐良好的日历助手不仅识别时间，还理解‘推迟’隐含原定时间、‘下周三’需结合当前日期计算，并自动更新所有相关参与者的日程。"
   },
   "scenario_tags": [
-    "安全",
-    "风险",
-    "治理"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "Alignment - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Alignment",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T03:31:29Z"
 }

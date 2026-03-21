@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Mixture of Experts",
+  "term": "mixture_of_experts",
   "norm_term": "mixture_of_experts",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Mixture of Experts 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Mixture of Experts，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Mixture of Experts（MoE）是一种神经网络架构设计策略，它将模型拆分为多个‘专家’子网络，每个专家专精于处理输入数据的特定子集；在推理时，一个轻量级的门控机制动态选择最相关的少数专家进行计算，其余专家保持闲置。这种稀疏激活方式大幅降低实际计算开销，同时提升模型容量和泛化能力。普通用户需要了解它，因为它是当前大语言模型（如Mixtral、GLM-4-9B-Chat-MoE）实现高性能与高效率平衡的关键技术，直接影响AI产品的响应速度、部署成本和终端设备兼容性。",
+    "metaphor": "就像一家大型咨询公司，面对不同客户问题，前台接待员（门控网络）快速判断问题类型，并只呼叫对应领域的几位资深顾问（专家）参与解答，而非让所有顾问同时开会。",
+    "example": "在多语言翻译服务中，MoE模型会根据输入语种和领域自动激活擅长法语法律文本或中文科技新闻的特定专家，避免为每项任务调用全部参数，显著提升吞吐量和能效。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Mixture of Experts - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Mixture_of_Experts",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:43:37Z"
 }

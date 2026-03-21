@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Contextual Bandit",
+  "term": "contextual_bandit",
   "norm_term": "contextual_bandit",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Contextual Bandit 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Contextual Bandit，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Contextual bandit（上下文赌博机）是一种强化学习模型，用于在每次决策时根据实时上下文信息（如用户特征、时间、环境状态）从多个可选动作中选择最优的一个，并立即获得反馈（奖励或损失）。它比传统多臂老虎机更智能，因为不依赖固定策略，而是动态适配情境。普通用户需要了解它，是因为该技术已广泛应用于个性化推荐、广告投放、新闻推送等日常服务中——它决定了你看到什么内容、收到什么优惠，直接影响体验与效率。",
+    "metaphor": "就像一位经验丰富的咖啡师，每次根据顾客的穿着、进店时间、天气和过往点单记录，即时推荐最可能满意的饮品，而不是机械地推销销量最高的那一款。",
+    "example": "某短视频App在用户打开首页的瞬间，基于其历史观看时长、当前时段、设备类型和地理位置，从数千个视频中实时选出一个最可能被点击并看完的视频进行首推，这就是contextual bandit的典型应用。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Contextual Bandit - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Contextual_Bandit",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:53:25Z"
 }

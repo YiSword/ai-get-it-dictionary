@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "DROP",
+  "term": "drop",
   "norm_term": "drop",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DROP 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 DROP，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "在计算机网络和系统管理中，'drop' 指数据包或请求被主动丢弃而不作任何响应或转发。这通常由防火墙、路由器或操作系统内核执行，用于安全防护（如拦截恶意流量）、缓解过载（如防止DDoS攻击）或策略控制（如阻止特定IP访问）。普通用户需要了解它，因为当网页打不开、视频卡顿或游戏断连时，背后可能是关键数据包被‘drop’所致——这不是网络故障，而是有意为之的保护机制，理解这点有助于更准确地排查问题而非盲目重启设备。",
+    "metaphor": "就像邮局安检员发现可疑信件后直接销毁它，既不退回也不通知寄件人，只确保它不会进入投递流程。",
+    "example": "当你使用iptables配置Linux防火墙并执行'drop'规则时，来自某恶意IP的所有TCP连接请求将被静默丢弃，客户端会收到超时错误而非拒绝响应。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "DROP - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/DROP",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:55:18Z"
 }

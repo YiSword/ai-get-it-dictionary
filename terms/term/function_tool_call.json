@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Function Tool Call",
+  "term": "function_tool_call",
   "norm_term": "function_tool_call",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Function Tool Call 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Function Tool Call，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "function_tool_call 是指大语言模型在推理过程中，主动生成结构化指令以调用外部工具（如计算器、数据库、API等）的行为。它不是模型自己执行操作，而是输出符合预定义格式的函数调用请求（含函数名和参数），交由系统解析并执行。普通用户需要了解它，因为这是当前AI助手实现‘能做事’而非仅‘能说话’的关键机制——比如查天气、订机票、分析文件，背后都依赖这一能力。",
+    "metaphor": "就像一位擅长统筹的项目经理，自己不亲手写代码或拨电话，但能精准写下‘调用天气API，城市=上海，时间=今天’的工单，交给技术团队执行。",
+    "example": "当用户问‘帮我把附件里的销售数据按季度汇总并画成柱状图’时，模型可能生成 function_tool_call：{'name': 'run_python_code', 'arguments': {'code': 'import pandas as pd; ...'}}，触发后台Python沙箱执行分析任务。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Function Tool Call - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Function_Tool_Call",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T06:41:01Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Grok-3",
+  "term": "grok_3",
   "norm_term": "grok_3",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Grok-3 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Grok-3，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "grok_3 是指第三代 Grok 系列大语言模型，由 xAI 团队研发，具备更强的推理能力、更长的上下文理解（支持超长输入）、实时网络信息检索集成，以及对多模态信号（如结构化数据、代码、数学表达式）的深度适配。它并非开源模型，主要服务于 X 平台（原 Twitter）生态内的高级智能交互场景。普通用户需要了解它，是因为其直接影响所用平台的搜索质量、内容摘要准确性、对话响应逻辑乃至虚假信息识别能力——尤其在获取时效性强、专业度高的信息时，模型代际差异会显著影响体验与决策依据。",
+    "metaphor": "就像从功能手机升级到搭载AI协处理器的旗舰智能手机：grok_3 不只是更快，而是能实时调用外部信息、理解复杂指令意图，并自主拆解多步骤任务。",
+    "example": "当用户在X平台上输入‘对比2024年Q1特斯拉和比亚迪的电池专利数量，并列出最近三个月被引用最多的三项’，grok_3可自动联网抓取专利数据库、解析法律文本、统计引用频次并生成带来源标注的简明报告。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Grok-3 - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Grok-3",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:01:27Z"
 }

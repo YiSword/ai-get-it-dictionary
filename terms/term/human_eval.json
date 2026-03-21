@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Human Eval",
+  "term": "human_eval",
   "norm_term": "human_eval",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Human Eval 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Human Eval，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "human_eval 是一种评估人工智能代码生成能力的基准测试方法，通过让真实人类程序员对模型输出的代码是否正确解决给定编程问题进行判断，而非依赖自动测试用例。它强调语义正确性与实际可运行性，能发现自动评测遗漏的逻辑错误或边界问题。普通用户（尤其是开发者、技术决策者）需要了解它，因为它是当前衡量代码大模型实用性的黄金标准之一，直接影响对模型真实能力的判断和选用。",
+    "metaphor": "就像请一位资深厨师品尝一道AI生成的菜谱做出来的菜，而不是只检查菜谱是否语法通顺或是否包含盐——重点是‘好不好吃’，即代码能否真正解决问题。",
+    "example": "当使用CodeLlama生成一个Python函数来反转二叉树时，human_eval会邀请多名程序员独立阅读该函数，并手动验证其在多种输入（包括空树、单节点、不平衡树）下是否正确工作，最终统计通过率作为模型得分。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Human Eval - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Human_Eval",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:17:10Z"
 }

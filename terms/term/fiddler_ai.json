@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Fiddler AI",
+  "term": "fiddler_ai",
   "norm_term": "fiddler_ai",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Fiddler AI 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Fiddler AI，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Fiddler AI 是一家专注于机器学习模型可观测性（ML Observability）的公司，其平台帮助数据科学家和工程师监控、调试和优化已部署的AI模型。它能检测模型性能下降、数据漂移、特征异常及预测偏差等问题，确保AI系统在生产环境中持续可靠运行。普通用户虽不直接使用该工具，但其背后支撑着众多依赖AI的服务（如推荐系统、风控模型、智能客服），了解Fiddler AI有助于理解为何AI应用会‘突然变笨’或‘给出奇怪答案’——这往往不是算法本身出了错，而是现实世界的数据或环境发生了变化。",
+    "metaphor": "Fiddler AI 就像AI系统的‘行车记录仪+体检中心’，不仅实时记录模型的每一次决策，还能定期扫描它的健康状况，提前发现‘疲劳驾驶’或‘营养不良’。",
+    "example": "某银行上线了基于Fiddler AI监控的信用评分模型，当新一批用户行为数据中出现大量非典型消费模式时，平台自动触发告警，提示数据分布偏移，团队随即重新校准模型，避免了数百万贷款审批失误。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Fiddler AI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Fiddler_AI",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:27:14Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Live Traffic Eval",
+  "term": "live_traffic_eval",
   "norm_term": "live_traffic_eval",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Live Traffic Eval 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Live Traffic Eval，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "live_traffic_eval 是指在系统实际运行过程中，对实时产生的生产流量（如用户请求、API调用、消息事件等）进行即时、自动化的效果评估。它不依赖离线日志回放或模拟数据，而是直接在真实服务链路中注入评估逻辑（如A/B测试指标计算、模型预测质量打分、响应合规性校验），从而快速验证新策略、模型或配置变更的实际影响。普通用户需要了解它，是因为它决定了线上功能是否真正可靠、推荐是否精准、风控是否有效——任何延迟或偏差都可能直接影响体验甚至造成业务损失。",
+    "metaphor": "就像在高速公路上边开车边用实时仪表盘监测油耗、胎压和导航准确性，而不是等回家后翻行车记录仪复盘。",
+    "example": "某电商App上线新版搜索排序模型后，通过 live_traffic_eval 实时统计每千次真实用户搜索中点击率提升2.3%、加购转化率无下降，15分钟内确认灰度发布可继续扩量。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Live Traffic Eval - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Live_Traffic_Eval",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:12:20Z"
 }

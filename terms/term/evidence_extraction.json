@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Evidence Extraction",
+  "term": "evidence_extraction",
   "norm_term": "evidence_extraction",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Evidence Extraction 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Evidence Extraction，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "evidence_extraction（证据抽取）是指从非结构化或半结构化文本中自动识别并提取支持特定主张、结论或事实的关键信息片段的过程。它常用于法律分析、医疗诊断辅助、学术研究和事实核查等场景。普通用户需要了解这一技术，因为它正越来越多地嵌入搜索引擎、新闻摘要工具和AI助手之中——例如当你查询‘某药物是否有效’时，系统背后可能正通过证据抽取从临床论文中抓取疗效数据，从而提供更可靠、可追溯的回答。",
+    "metaphor": "就像经验丰富的图书管理员快速翻阅一摞杂乱的档案，只抽出贴有‘关键证词’标签的几页纸，而忽略其余冗余内容。",
+    "example": "在新冠疫情期间，研究人员使用证据抽取技术从数千篇预印本论文中自动提取‘疫苗接种后重症率下降百分比’这一具体数值及其对应的实验条件和样本量。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Evidence Extraction - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Evidence_Extraction",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:15:32Z"
 }

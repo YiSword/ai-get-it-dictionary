@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Feature Store",
+  "term": "feature_store",
   "norm_term": "feature_store",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Feature Store 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Feature Store，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Feature store 是一个专门用于存储、管理、共享和复用机器学习特征（feature）的系统。特征是模型训练和推理所依赖的结构化输入数据，比如用户过去7天的点击次数、商品的平均评分等。普通用户（尤其是数据科学家和工程师）需要知道它，是因为它能避免重复计算特征、确保训练与推理时特征的一致性（消除‘训练-服务偏差’），并提升团队协作效率——不同项目可安全复用已验证的特征，而不必各自从原始数据重新开发。",
+    "metaphor": "就像厨房里的预制调料柜：厨师（数据科学家）不用每次做菜都现磨香料（重算特征），而是直接取用标准化封装、标签清晰、保质期明确的调料包（特征）。",
+    "example": "某电商公司使用 feature store 统一管理‘用户30天内加购次数’和‘商品类目热度分’等特征；推荐模型训练时读取这些特征，上线后实时推理也调用同一份逻辑生成的特征，确保线上线下行为一致。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Feature Store - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Feature_Store",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:25:20Z"
 }

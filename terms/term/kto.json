@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "KTO",
+  "term": "kto",
   "norm_term": "kto",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "KTO 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 KTO，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "KTO 是 'Key Technical Officer'（关键技术人员）的缩写，常见于开源项目、大型软件工程或合规性文档中，指被正式指定负责核心模块设计、安全审查或关键决策的技术负责人。普通用户需要了解 KTO，是因为其签字或批准常是代码合入、版本发布或合规审计的必要条件，直接影响软件可靠性与责任归属；在参与开源贡献或企业级系统协作时，识别 KTO 有助于明确技术决策路径和问题上报对象。",
+    "metaphor": "KTO 就像一栋高楼的首席结构工程师——不是每天搬砖的人，但每根承重梁是否合格，必须由他签字确认。",
+    "example": "在 Linux 内核某个子系统（如网络栈）的补丁合入流程中，只有该子系统的 KTO 明确 Reviewed-by 或 Acked-by，补丁才能进入主线合并队列。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "KTO - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/KTO",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:56:39Z"
 }

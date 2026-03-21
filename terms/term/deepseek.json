@@ -1,36 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "DeepSeek",
+  "term": "deepseek",
   "norm_term": "deepseek",
   "lang": "en",
-  "aliases": [
-    "DeepSeek Chat",
-    "深度求索"
-  ],
-  "entity_type": "product",
-  "category": "产品概念",
-  "difficulty": "入门",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "DeepSeek 是用户在真实使用中高频会接触到的 AI 产品或服务。它通常把模型能力包装成聊天、搜索、写作、编码或生成内容等具体功能，因此比底层技术词更容易直接感知。理解它的定位，有助于分辨不同 AI 产品各自擅长什么。",
-    "metaphor": "它就像一个已经包装好的 AI 工具箱，用户不需要知道所有底层原理，也能直接拿来完成具体任务。",
-    "example": "比如用户想直接完成写作、搜索、总结或生成内容任务时，往往会先接触 DeepSeek 这类产品，因为它把底层能力封装成了更容易上手的界面。"
+    "plain": "DeepSeek 是由深度求索（DeepSeek）公司研发的一系列开源大语言模型，涵盖从轻量级到超大规模的多个版本（如 DeepSeek-V2、DeepSeek-Coder、DeepSeek-MoE），以高性能、强代码能力与中文优化著称。普通用户需要了解它，是因为它提供了免费、可本地部署、高性价比的AI工具选择，尤其适合开发者、学生和中小企业在编程辅助、内容生成、教育学习等场景中替代部分商业闭源模型。",
+    "metaphor": "就像一位精通多国语言、特别擅长写代码和解数学题的自学成才博士，既能在大学讲台上授课，也能帮你快速调试一段Python脚本。",
+    "example": "一名前端开发者使用 DeepSeek-Coder 模型，在本地IDE插件中实时获取JavaScript错误修复建议和React组件自动生成，全程数据不上传云端，保障项目隐私。"
   },
   "scenario_tags": [
-    "对话",
-    "推理",
-    "写作",
-    "编码"
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "sources": [
-    {
-      "title": "DeepSeek",
-      "url": "https://www.deepseek.com/",
-      "type": "doc"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T05:28:55Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Batch Size",
+  "term": "batch_size",
   "norm_term": "batch_size",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Batch Size 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Batch Size，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "batch_size 是指在训练机器学习模型时，每次送入模型进行前向传播和反向传播的样本数量。它不是一次性用全部数据（计算开销大），也不是逐个样本处理（收敛不稳定），而是折中选择一组样本作为‘一批’来更新模型参数。普通用户需要了解它，因为它直接影响训练速度、内存占用、模型收敛稳定性以及最终效果——设置过小可能导致训练波动大，过大则可能因显存不足而失败或泛化变差。",
+    "metaphor": "就像厨师炒菜时一次下锅的食材量：太少（如一粒米）效率极低；太多（整袋米）锅装不下还容易糊；适中的一把米才能又快又好地出锅。",
+    "example": "在用 ResNet 训练 ImageNet 数据集时，常用 batch_size = 256，即每次从 1400 万张图像中随机抽取 256 张组成一个批次，计算梯度并更新一次网络权重。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Batch Size - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Batch_Size",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T03:58:18Z"
 }

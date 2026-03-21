@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "HellaSwag",
+  "term": "hellaswag",
   "norm_term": "hellaswag",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "HellaSwag 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 HellaSwag，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Hellaswag 是一个用于评估语言模型常识推理能力的基准数据集，全称是 'Highly Efficient Language Learning and Assessment of Situational Understanding with Adversarial Generation'。它包含约70,000个多项选择题，每个问题要求模型从四个选项中选出最符合日常物理、社会或时间逻辑的后续动作。普通用户需要了解它，是因为它揭示了AI在‘像人一样理解世界’方面的实际短板——比如知道‘人滑倒后更可能伸手撑地而非打开笔记本’，这种隐含常识恰恰是当前大模型常出错的关键环节。",
+    "metaphor": "就像考驾照时的‘情景判断题’：不是考你背交规条文，而是问‘雨天看到前方积水，前车突然急刹，你该先做什么？’——考验的是本能般的现实推断力。",
+    "example": "当模型被输入句子‘她把冰块放进玻璃杯，然后倒入苏打水’，Hellswag 会要求它从‘气泡开始上升’‘杯子外壁凝结水珠’‘冰块迅速融化’等选项中选出最合理、最常见、最符合物理常识的下一步现象。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "HellaSwag - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/HellaSwag",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:08:01Z"
 }

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "nexusgpt",
+  "norm_term": "nexusgpt",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "NexusGPT 并非一个官方发布或广泛认可的公开大语言模型产品，目前不存在由主流机构（如OpenAI、Anthropic、Meta或国内头部AI公司）推出的名为'NexusGPT'的标准化模型。它可能是个别企业、研究团队或开发者内部使用的定制化模型代号，或源于混淆、误传、营销包装甚至虚构名称。普通用户需警惕以此为名的非正规AI服务，避免误信其能力宣称或泄露敏感数据；了解该术语的模糊性有助于增强对AI产品真实性的辨识力，防止被伪技术概念误导。",
+    "metaphor": "就像有人把自家改装过的自行车称作'星际巡航者'——名字听起来很酷，但它既不是NASA造的飞船，也不具备航天功能。",
+    "example": "某初创公司在官网宣传其客服系统‘基于NexusGPT驱动’，但实际后台调用的是微调后的Llama-3模型，且未提供任何可验证的技术文档或基准测试结果。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:47:07Z",
+  "updated_at": "2026-03-21T08:54:37Z"
+}

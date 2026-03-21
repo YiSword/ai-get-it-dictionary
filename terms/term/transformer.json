@@ -1,28 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Transformer",
+  "term": "transformer",
   "norm_term": "transformer",
   "lang": "en",
-  "aliases": ["Transformer架构", "变换器", "自注意力架构"],
+  "aliases": [],
   "entity_type": "concept",
-  "category": "模型架构",
-  "difficulty": "入门",
+  "category": "其他",
+  "difficulty": "中级",
   "explanations": {
-    "plain": "Transformer 是现代大多数 AI 文本模型常用的基础架构，擅长同时处理整段内容中不同词之间的关系。它不像早期方法那样必须一个词一个词顺着看，因此更容易理解上下文。很多今天常见的聊天 AI，底层都建立在这套结构上。",
-    "metaphor": "它好比一个能同时听完整场讨论的人，不只盯着前一句话，而是能把整段内容连起来理解。",
-    "example": "比如聊天机器人在总结长文章时，需要同时参考前后多段信息，这正是 Transformer 发挥作用的地方，因为它擅长处理远距离上下文关系。"
+    "plain": "Transformer 是一种深度学习模型架构，于2017年提出，核心特点是完全依赖自注意力机制（self-attention）来建模序列中元素间的关系，无需传统RNN或CNN结构。它大幅提升了并行训练效率和长距离依赖建模能力，成为现代大语言模型（如ChatGPT、BERT）的基石。普通用户需要知道它，因为几乎所有当前主流AI对话助手、翻译工具和内容生成服务背后都运行着基于Transformer的模型，理解其存在有助于理性看待AI的能力边界与局限。",
+    "metaphor": "就像一位经验丰富的会议主持人，能同时关注全场每位发言者的关键观点、彼此间的关联和上下文重点，而不必按顺序逐个倾听。",
+    "example": "当你用手机输入‘帮我写一封辞职信’，背后的AI应用Transformer模型实时解析你的意图、匹配语境、生成语法正确且得体的文本。"
   },
-  "scenario_tags": ["对话", "摘要", "翻译", "文本生成"],
-  "sources": [
-    {
-      "title": "Transformer (deep learning architecture) - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)",
-      "type": "glossary"
-    }
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
   ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
-  "created_at": "2026-03-19T08:50:00.000Z",
-  "updated_at": "2026-03-19T08:50:00.000Z"
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T10:10:41Z"
 }

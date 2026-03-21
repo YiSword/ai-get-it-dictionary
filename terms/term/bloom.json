@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "BLOOM",
+  "term": "bloom",
   "norm_term": "bloom",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "BLOOM 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 BLOOM，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Bloom（布隆过滤器）是一种空间效率极高的概率型数据结构，用于快速判断一个元素是否可能存在于某个集合中。它不存储原始数据，而是通过多个哈希函数将元素映射到位数组上；查询时若任一对应位为0，则元素一定不存在；若全为1，则元素很可能存在（但存在极小误判率）。普通用户无需直接使用它，但在使用搜索引擎、数据库、缓存系统或反垃圾邮件服务时，很可能正受益于其背后的Bloom过滤器——它让海量数据的快速存在性检查成为可能，同时节省大量内存和计算资源。",
+    "metaphor": "就像图书馆门口的快速预检员：他不翻阅整本目录，只看几页特定索引页上的标记；如果某页没标，就断定书不在馆内；如果都标了，就大概率在，但仍需进库确认。",
+    "example": "Redis 使用 Bloom 过滤器加速缓存穿透防护：当用户查询一个肯定不存在的商品ID时，先查Bloom过滤器，若返回‘不存在’，则直接拒绝请求，避免无效查询打到后端数据库。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "BLOOM - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/BLOOM",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:11:03Z"
 }

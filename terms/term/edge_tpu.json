@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Edge TPU",
+  "term": "edge_tpu",
   "norm_term": "edge_tpu",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Edge TPU 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Edge TPU，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Edge TPU（Edge Tensor Processing Unit）是谷歌专为在边缘设备（如摄像头、传感器、嵌入式主板）上高效运行机器学习模型而设计的低功耗专用AI加速芯片。它能以极小的尺寸和能耗执行量化神经网络推理，显著提升响应速度并降低云端依赖。普通用户需要了解它，是因为越来越多的智能设备（如家庭安防摄像头、语音助手、工业质检终端）正依靠这类芯片实现本地实时AI功能，从而保障隐私、减少延迟，并在无网络时仍可工作。",
+    "metaphor": "就像给一台普通相机装上一副‘AI眼镜’，无需联网或调用手机算力，它自己就能立刻认出门口的人是家人还是快递员。",
+    "example": "一款搭载Edge TPU的智能门铃摄像头，在本地实时分析视频流，当检测到人形时立即触发通知并区分是否为注册用户，全程数据不上传云端。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Edge TPU - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Edge_TPU",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:01:25Z"
 }

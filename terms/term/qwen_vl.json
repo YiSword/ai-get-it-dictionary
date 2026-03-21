@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "qwen_vl",
+  "norm_term": "qwen_vl",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "qwen_vl 是通义实验室推出的多模态大模型，能同时理解图像和文本，支持看图说话、图文问答、视觉推理等任务。它不是单纯的图像识别工具，而是具备跨模态语义对齐能力的AI系统。普通用户需要了解它，是因为它正逐步融入日常应用——比如用手机拍一张菜谱照片就能自动解析步骤并推荐替代食材，或帮助视障人士实时描述周围环境，让AI真正‘看得懂、说得清’。",
+    "metaphor": "就像一位精通双语且受过美术训练的翻译，不仅能准确读出文字，还能看懂画里的细节，并把两者自然地联系起来解释给你听。",
+    "example": "用户上传一张电路板故障照片并提问‘哪个元件可能损坏？’，qwen_vl会定位电容位置，结合其鼓包特征和上下文文本说明，判断为电解电容失效，并建议更换型号。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:32:11Z",
+  "updated_at": "2026-03-21T09:26:40Z"
+}

@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "exl2",
+  "norm_term": "exl2",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "exl2 是 Excel 2007 及以后版本引入的二进制文件格式（.xlsx）的底层核心结构，全称是 'Excel 2007+ Office Open XML Spreadsheet'，基于 ZIP 压缩的 XML 文件集合。它取代了旧版 Excel 的二进制 .xls 格式（BIFF），支持更大工作表、更丰富样式、公式和数据验证等功能。普通用户需要知道 exl2 相关概念，是因为它直接影响文件兼容性（如老版本 Excel 打不开 .xlsx）、安全性（宏禁用机制）、以及与自动化工具（如 Python 的 openpyxl）交互的方式。",
+    "metaphor": "exl2 就像一本用标准纸张、统一装订方式和清晰目录编排的现代精装书，而旧版 .xls 则像一本手写、页码混乱、只有一家书店能读懂的古籍。",
+    "example": "当用户用 Python 的 pandas 库读取一个 .xlsx 文件时，底层实际是通过 openpyxl 解析 exl2 结构中的 /xl/workbook.xml 和 /xl/worksheets/sheet1.xml 等 XML 组件来提取数据。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T17:09:49Z",
+  "updated_at": "2026-03-21T06:17:21Z"
+}

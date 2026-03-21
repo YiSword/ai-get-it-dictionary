@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "llava_1_5",
+  "norm_term": "llava_1_5",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "LLaVA-1.5 是一个开源的多模态大语言模型，能同时理解图像和文本，并基于图文输入生成自然语言回答。它在 LLaVA-1.0 基础上改进了视觉编码器、训练数据质量和指令微调策略，显著提升了视觉推理、细粒度描述和复杂问答能力。普通用户需要了解它，是因为它代表了当前消费级设备可运行的先进图文AI能力——比如用手机拍一张菜谱照片，就能获得改写、翻译或营养分析，无需专业技能即可体验强大AI助手。",
+    "metaphor": "就像一位精通视觉与语言的双语向导，既能看懂你随手拍的照片，又能用流畅的口语为你解释、提问甚至创作。",
+    "example": "用户上传一张电路板故障照片并提问‘这个烧毁的元件是什么型号？如何替换？’，LLaVA-1.5 能识别元件位置、推测型号，并给出焊接建议和替代型号清单。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T15:43:05Z",
+  "updated_at": "2026-03-21T08:14:17Z"
+}

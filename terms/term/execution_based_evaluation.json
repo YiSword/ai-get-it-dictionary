@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Execution-Based Evaluation",
+  "term": "execution_based_evaluation",
   "norm_term": "execution_based_evaluation",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Execution-Based Evaluation 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Execution-Based Evaluation，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "execution_based_evaluation 是一种通过实际运行程序（或模型）并观察其输出行为来评估其正确性、性能或鲁棒性的方法，而非仅依赖静态分析或理论推导。它关注‘做出来是否有效’，例如输入测试数据后检查结果是否符合预期、响应是否及时、是否崩溃或产生异常。普通用户需要了解它，因为这是判断软件、AI工具或自动化系统是否真正可靠可用的核心方式——再漂亮的说明书也比不上亲自试一次。",
+    "metaphor": "就像试驾一辆新车：不看参数表，而是亲自踩油门、转弯、刹车，看它是否平稳、响应是否灵敏、有没有异响。",
+    "example": "评估一个自动生成Python代码的AI模型时，研究人员会将它的输出代码在真实Python环境中运行，检查是否能通过所有预设测试用例，而非仅靠语法检查或人工审阅代码逻辑。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Execution-Based Evaluation - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Execution-Based_Evaluation",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:16:35Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "EAGLE",
+  "term": "eagle",
   "norm_term": "eagle",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "EAGLE 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 EAGLE，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Eagle 是一款开源的桌面应用程序，专为前端开发者设计，用于实时预览和调试 HTML、CSS 和 JavaScript 代码。它无需启动本地服务器或刷新页面，即可在编辑器旁即时显示代码效果，显著提升开发效率。普通用户（尤其是初学者和教学场景中的学习者）需要知道 Eagle，因为它降低了 Web 开发的入门门槛，让‘写一行、看一行’成为可能，避免了传统开发中配置环境、处理跨域、管理构建工具等繁琐障碍。",
+    "metaphor": "就像一位随叫随到的玻璃匠，你每画一笔草图，他就立刻在旁边为你装上对应效果的透明玻璃窗，让你当场看清光影如何变化。",
+    "example": "一名高中生在学习 CSS 动画时，用 Eagle 打开一个空白 HTML 文件，输入 @keyframes 规则并实时调整 duration 和 easing 值，右侧预览区立即播放动画效果，无需保存、刷新或切换浏览器标签页。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "EAGLE - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/EAGLE",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:58:53Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Baichuan",
+  "term": "baichuan",
   "norm_term": "baichuan",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Baichuan 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Baichuan，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Baichuan（百川）是一系列由百川智能公司研发的开源大语言模型，包括Baichuan-7B、Baichuan2等版本，具备中文理解与生成、多轮对话、代码写作等能力。它面向开发者和研究者免费开放权重，支持本地部署与二次开发。普通用户需要了解它，是因为它代表了中国本土高质量开源AI模型的重要进展，意味着更可控、更透明、更可定制的AI工具正在进入公众视野，为教育、办公、创作等场景提供替代性选择。",
+    "metaphor": "就像一座开源的智能图书馆，不仅向所有人免费开放书架，还允许你自由搬走整套藏书、按需改造阅览室结构。",
+    "example": "一名高校教师使用Baichuan2模型在本地服务器上微调，构建了一个专用于批改学生古诗作业的AI助教，无需依赖云端API且完全掌控数据隐私。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Baichuan - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Baichuan",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-19T09:23:37Z"
+  "updated_at": "2026-03-21T03:54:16Z"
 }

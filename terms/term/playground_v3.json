@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "playground_v3",
+  "norm_term": "playground_v3",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "playground_v3 是指某类交互式编程或AI实验环境的第三代版本，通常用于快速测试代码、调试模型、尝试API调用或探索新功能，无需本地配置。它常集成在开发者平台、AI工具链或教育系统中，提供沙箱化、实时反馈、多语言支持和预置示例。普通用户需要知道它，是因为它是零门槛接触前沿技术（如大模型推理、数据可视化或自动化脚本）的最常用入口，能显著降低学习成本和试错风险。",
+    "metaphor": "就像一个配备了全套安全护具和即时反馈屏的儿童科学实验室——你随时可以混合试剂、调整参数，看到结果，但打翻了也不会弄脏厨房。",
+    "example": "一名产品经理在 Hugging Face 的 playground_v3 中上传一段用户评论，选择不同情感分析模型实时对比输出，5分钟内就确定了最适合其APP的API方案。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T16:39:02Z",
+  "updated_at": "2026-03-21T09:11:54Z"
+}

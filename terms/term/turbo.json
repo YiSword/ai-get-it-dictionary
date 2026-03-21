@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "turbo",
+  "norm_term": "turbo",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Turbo 是一种软件或硬件加速机制，用于在特定条件下临时提升系统性能（如 CPU 频率、GPU 时钟、网络吞吐或算法执行速度），以缩短任务响应时间。它常见于现代处理器（如 Intel Turbo Boost、AMD Precision Boost）、Web 框架（如 Hotwire Turbo）和开发工具中。普通用户需要了解 turbo，因为它直接影响设备的流畅度、应用加载速度和电池续航之间的权衡——开启 turbo 可能让视频导出更快，但也可能引发发热或耗电增加。",
+    "metaphor": "就像汽车的涡轮增压器：平时匀速行驶省油，遇到超车需求时瞬间加压，迸发额外动力，但不能长期维持。",
+    "example": "当你用支持 Turbo Boost 的笔记本剪辑 4K 视频时，CPU 会自动将部分核心频率从 2.8 GHz 提升至 4.6 GHz，使渲染时间缩短约 30%；而一旦温度升高，系统又会悄然降频以保护硬件。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T17:05:45Z",
+  "updated_at": "2026-03-21T10:12:32Z"
+}

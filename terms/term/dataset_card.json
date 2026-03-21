@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Dataset Card",
+  "term": "dataset_card",
   "norm_term": "dataset_card",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Dataset Card 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Dataset Card，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "dataset_card 是一份结构化文档，用于透明、全面地描述数据集的关键信息，包括其来源、构建方法、潜在偏差、适用场景、伦理考量及使用限制等。它类似于数据集的‘产品说明书’或‘营养标签’，帮助研究人员、开发者和政策制定者理解数据是否适合特定任务，避免误用或引发公平性、隐私和安全问题。普通用户需要知道它，是因为它直接影响AI系统输出的可靠性与公正性——使用缺乏卡片的数据集，就像服用未标明成分和禁忌症的药物，风险不可控。",
+    "metaphor": "Dataset card 就像食品包装上的营养成分表和过敏原标识：不直接提供食物，但告诉你它从哪来、含什么、谁该慎用。",
+    "example": "某医疗影像数据集发布时附带 dataset card，明确指出样本仅来自单一地区中年男性患者，且未包含罕见病病例，提醒开发者在部署面向老年女性或罕见病筛查的AI模型时需谨慎评估泛化能力。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Dataset Card - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dataset_Card",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:15:23Z"
 }

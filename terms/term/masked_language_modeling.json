@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Masked Language Modeling",
+  "term": "masked_language_modeling",
   "norm_term": "masked_language_modeling",
   "lang": "en",
   "aliases": [],
-  "entity_type": "model",
-  "category": "模型架构",
+  "entity_type": "concept",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Masked Language Modeling 是 AI 模型体系中的重要结构或模型类型，决定了模型如何理解输入、组织信息和生成结果。虽然普通用户不会直接训练它，但很多今天常见的 AI 能力都建立在这类结构之上。理解它能帮助你建立更完整的 AI 基础认知。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Masked Language Modeling，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Masked language modeling（掩码语言建模）是一种自然语言处理中的预训练技术，模型被要求预测句子中被随机遮盖（如用[MASK]标记）的词语，基于上下文推断缺失内容。它让模型学习词语间的语义与语法关系，是BERT等主流语言模型的核心训练方式。普通用户虽不直接操作该技术，但日常使用的智能输入法、翻译工具、搜索推荐等功能背后都依赖此类模型的理解能力，因此了解它有助于理解AI为何能‘读懂’人类语言。",
+    "metaphor": "就像给学生做填空题——遮住文章里的关键词，让他们根据前后句推测原词，从而锻炼真正的语言理解力，而非死记硬背。",
+    "example": "当你在搜索引擎中输入‘苹果公司最新发布的iPhone搭载了___芯片’，系统可能利用掩码语言建模预测出‘A17’并自动补全或优化搜索结果。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Masked Language Modeling - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Masked_Language_Modeling",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T08:27:14Z"
 }

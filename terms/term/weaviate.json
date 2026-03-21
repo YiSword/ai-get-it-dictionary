@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Weaviate",
+  "term": "weaviate",
   "norm_term": "weaviate",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Weaviate 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Weaviate，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Weaviate 是一个开源的向量数据库，专为存储、搜索和管理嵌入向量（embedding vectors）而设计。它将文本、图像等非结构化数据转化为高维向量，并支持语义搜索、相似性检索、过滤和聚合等功能。普通用户需要了解 Weaviate，是因为它正成为构建智能搜索、推荐系统、RAG（检索增强生成）应用等 AI 原生服务的关键基础设施——无需手动处理底层向量运算，就能快速实现‘理解意图’而非‘匹配关键词’的搜索体验。",
+    "metaphor": "Weaviate 就像一座按思想关系排列的图书馆：书不是按书名首字母排序，而是根据内容主题的相似性自动聚类，你问‘关于气候变化的科普读物’，它会立刻从哲学、政策、气象学等不同书架上找出真正相关的几本。",
+    "example": "一家电商公司用 Weaviate 存储商品描述、用户评论和图像特征向量，当顾客搜索‘适合户外徒步的轻便防水鞋’时，系统能忽略关键词缺失（如未提‘Gore-Tex’），却精准召回具备相关语义特征的商品。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Weaviate - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Weaviate",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:23:16Z"
 }

@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Ablation Study",
+  "term": "ablation_study",
   "norm_term": "ablation_study",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Ablation Study 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Ablation Study，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "ablation_study（消融实验）是一种在机器学习和人工智能研究中常用的方法，通过系统性地移除模型的某个组件（如某一层、某种正则化技术或一个输入特征），观察性能变化，从而评估该组件的实际贡献。它帮助研究者区分‘真正有效’的设计与‘看似有用但实为冗余甚至有害’的部分。普通用户需要了解它，是因为它揭示了技术宣传背后的实证依据——避免被‘加了XX模块性能提升20%’这类缺乏对照的断言误导，理解一项改进是否经得起科学检验。",
+    "metaphor": "就像厨师做一道新菜时，每次只去掉一种调料来试味，从而确认哪一味才是提鲜的关键，而不是靠直觉猜测。",
+    "example": "在训练一个图像识别模型时，研究人员关闭注意力机制模块后发现准确率下降5%，说明该模块对性能有实质性贡献；若关闭某层Dropout后结果不变，则表明该正则化在此任务中可能并不必要。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Ablation Study - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Ablation_Study",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T03:15:10Z"
 }

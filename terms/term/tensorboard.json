@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "TensorBoard",
+  "term": "tensorboard",
   "norm_term": "tensorboard",
   "lang": "en",
   "aliases": [],
-  "entity_type": "tool",
+  "entity_type": "concept",
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "TensorBoard 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 TensorBoard，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "TensorBoard 是 TensorFlow 提供的可视化工具套件，用于监控、调试和理解机器学习模型的训练过程。它能实时展示损失曲线、准确率变化、计算图结构、权重分布、嵌入向量投影等关键信息。普通用户（尤其是开发者和研究人员）需要它，是因为训练深度学习模型如同在黑箱中调试——没有 TensorBoard，就难以判断模型是否收敛、是否存在梯度消失、过拟合或数据输入异常等问题，从而大幅降低开发效率与模型可靠性。",
+    "metaphor": "TensorBoard 就像汽车的仪表盘，把发动机转速、油量、水温等抽象内部状态，转化为直观的指针、图表和警报，让驾驶员无需拆开发动机就能掌控全局。",
+    "example": "一位工程师在训练图像分类模型时，用 TensorBoard 实时查看训练损失与验证准确率曲线，发现验证准确率在第50轮后停滞不前，随即调整学习率并添加 dropout，避免了过早终止训练。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "TensorBoard - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/TensorBoard",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T10:03:13Z"
 }

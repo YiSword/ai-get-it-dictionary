@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Meeting Assistant",
+  "term": "meeting_assistant",
   "norm_term": "meeting_assistant",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Meeting Assistant 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Meeting Assistant，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "meeting_assistant 是一种人工智能驱动的软件工具，用于在会议中自动执行记录、转录、摘要、任务分配和后续跟进等任务。它能实时识别发言人、提取关键决策与待办事项，并生成结构化会议纪要。普通用户需要了解它，是因为它显著减轻会后整理负担、减少信息遗漏、提升跨团队协作效率，尤其适用于远程办公、高频会议或需合规存档的职场场景。",
+    "metaphor": "它就像一位永不疲倦、过目不忘的超级行政秘书，一边听你开会，一边悄悄记笔记、划重点、分派任务，散会时已把成果和下一步清单整整齐齐放在你面前。",
+    "example": "产品经理主持线上需求评审会时，meeting_assistant 实时转录讨论内容，自动标出‘需法务审核’‘UI稿下周二前交付’等行动项，并在会后5分钟内将带责任人和截止时间的纪要邮件发送给全体参会者。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Meeting Assistant - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Meeting_Assistant",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T08:31:06Z"
 }

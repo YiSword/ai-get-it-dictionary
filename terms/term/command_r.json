@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Command R",
+  "term": "command_r",
   "norm_term": "command_r",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Command R 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Command R，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "command_r 是 Cohere 公司推出的一款专为高级推理与企业级检索增强生成（RAG）任务优化的开源大语言模型。它在长上下文理解、复杂逻辑推理和精准信息检索方面表现突出，支持128K上下文长度和高效工具调用。普通用户需要了解它，是因为它代表了当前RAG应用中兼顾响应质量、速度与可控性的实用选择——尤其适合开发者构建需深度文档分析、多步决策或合规性审查的智能助手。",
+    "metaphor": "就像一位精通档案管理又擅长抽丝剥茧的资深律师，command_r 不仅能快速翻遍整座图书馆的资料，还能准确找出相互矛盾的条款并推导出最稳妥的结论。",
+    "example": "某金融公司用 command_r 搭建内部合规问答系统：员工上传最新监管文件后，模型可即时回答‘该文件对跨境数据传输新增了哪些义务？’并精准引用原文段落及生效日期。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Command R - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Command_R",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:45:14Z"
 }

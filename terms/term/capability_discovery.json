@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Capability Discovery",
+  "term": "capability_discovery",
   "norm_term": "capability_discovery",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Capability Discovery 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Capability Discovery，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "capability_discovery（能力发现）是指系统或设备在运行时自动识别、查询并获取自身或对端所支持的功能特性（如协议版本、加密算法、传输选项等）的过程。它避免了硬编码假设，使软件能动态适配不同环境，提升兼容性与健壮性。普通用户虽不直接操作，但依赖它实现无缝连接——例如手机连Wi-Fi后自动启用最佳安全协议，或视频会议App根据网络状况实时切换编解码器，背后都靠能力发现确保功能可用且最优。",
+    "metaphor": "就像两位初次见面的人通过简短自我介绍快速了解彼此会什么、能做什么，从而决定如何高效合作。",
+    "example": "当一台新打印机接入企业网络时，打印管理服务通过capability_discovery自动探测其是否支持双面打印、PDF直接渲染或高级色彩校准，再据此向用户展示可用功能选项。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Capability Discovery - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Capability_Discovery",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:19:17Z"
 }

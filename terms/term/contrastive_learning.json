@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Contrastive Learning",
+  "term": "contrastive_learning",
   "norm_term": "contrastive_learning",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Contrastive Learning 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Contrastive Learning，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "对比学习（contrastive learning）是一种无监督或自监督的机器学习方法，它不依赖人工标注的标签，而是通过构造‘相似’和‘不相似’的数据对来训练模型——让同类样本在特征空间中彼此靠近，不同类样本则远离。它解决了标注数据稀缺、成本高昂的问题，广泛应用于图像、文本和语音表示学习中。普通用户虽不直接编写算法，但日常使用的智能相册分类、跨语言搜索、个性化推荐等功能背后，往往依赖对比学习生成的高质量语义表示。",
+    "metaphor": "就像教孩子辨认动物：不是逐个告诉‘这是猫’‘这是狗’，而是把两张猫图放一起说‘它们很像’，再把猫和汽车图放一起说‘它们很不一样’，孩子由此自己学会猫的共同特征。",
+    "example": "Instagram 使用对比学习对海量未标注图片建模，使得即使用户上传一张从未见过的宠物照片，系统也能准确将其与相似风格或主题的图片聚类并推荐相关内容。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Contrastive Learning - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Contrastive_Learning",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:55:39Z"
 }

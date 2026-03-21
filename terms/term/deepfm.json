@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "DeepFM",
+  "term": "deepfm",
   "norm_term": "deepfm",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DeepFM 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 DeepFM，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "DeepFM 是一种融合深度神经网络与因子分解机（FM）的推荐系统模型，专门用于处理高维稀疏的类别型特征（如用户ID、商品类别、点击行为等）。它能同时建模低阶特征交互（如两个字段的组合效应）和高阶非线性关系（如多个行为的复杂协同），在点击率预测、广告推荐等任务中效果显著。普通用户虽不直接接触模型，但日常刷到更准的短视频、电商首页推荐更合口味的商品，背后很可能就依赖 DeepFM 这类技术提升个性化体验。",
+    "metaphor": "就像一位经验丰富的美食顾问，既懂经典搭配（如红酒配牛排——类比FM捕捉二阶特征交互），又能凭直觉创新融合新食材（如榴莲配巧克力——类比DNN学习高阶抽象模式）。",
+    "example": "某电商平台用 DeepFM 分析用户历史点击、浏览时长、商品类目和促销标签，精准预测用户对新上架手机壳的点击概率，从而动态调整首页推荐位。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "DeepFM - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/DeepFM",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T05:21:54Z"
 }

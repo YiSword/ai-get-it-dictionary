@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "state_space_model",
+  "norm_term": "state_space_model",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "状态空间模型（State Space Model）是一种数学框架，用于描述动态系统随时间演化的内部状态及其与可观测输出之间的关系。它由状态方程（刻画状态如何变化）和观测方程（刻画状态如何生成测量值）组成，广泛应用于控制工程、信号处理、经济预测和机器人定位等领域。普通用户虽不直接编写模型，但在使用智能设备（如手机GPS导航、语音助手的噪声抑制、自动驾驶路径规划）时，其背后常依赖此类模型实现对不确定环境的实时感知与决策。",
+    "metaphor": "就像一位经验丰富的船长，不单靠眼前海面波浪（观测值）判断航向，还持续推算船的当前速度、方向、惯性等隐藏状态（内部状态），再结合风浪变化预测下一步位置。",
+    "example": "在无人机飞行控制系统中，状态空间模型融合加速度计、陀螺仪和GPS数据，实时估计无人机的位置、速度和姿态角，并据此调整电机转速以保持稳定悬停或精确跟踪轨迹。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:31:05Z",
+  "updated_at": "2026-03-21T09:55:04Z"
+}

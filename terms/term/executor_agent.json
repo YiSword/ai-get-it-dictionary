@@ -1,32 +1,26 @@
 {
   "entry_kind": "term",
-  "term": "Executor Agent",
+  "term": "executor_agent",
   "norm_term": "executor_agent",
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "产品概念",
+  "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Executor Agent 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Executor Agent，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "executor_agent 是一种专门负责执行具体操作的智能体（agent），它接收来自规划或决策模块的指令，并调用工具、API、脚本或系统接口完成实际任务，如发送邮件、查询数据库、运行代码等。普通用户需要了解它，是因为在自动化工作流、AI助手或低代码平台中，executor_agent 是真正‘动手做事’的环节——若它配置错误或权限不足，再完美的计划也无法落地。",
+    "metaphor": "就像一位经验丰富的厨师，接到主厨写好的菜谱（指令）后，亲自切菜、炒制、装盘（调用工具并执行），把抽象计划变成可品尝的成果。",
+    "example": "在AI客服系统中，当对话代理判断用户需要重置密码时，executor_agent 会自动调用认证服务的密码重置API，生成并发送验证邮件，全程无需人工干预。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Executor Agent - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Executor_Agent",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:17:03Z"
 }

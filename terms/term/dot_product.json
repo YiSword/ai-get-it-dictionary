@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Dot Product",
+  "term": "dot_product",
   "norm_term": "dot_product",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Dot Product 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Dot Product，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "点积（dot_product）是两个向量对应分量相乘后再求和的数学运算，结果是一个标量（单个数值）。它衡量两个向量在方向上的相似程度：值越大，说明它们越同向；为零表示正交（垂直）；为负则说明夹角大于90度。普通用户虽不直接计算，但在推荐系统、图像搜索、语音识别等日常应用中，点积是支撑‘相似性匹配’的核心机制——比如短视频平台判断你是否喜欢某条内容，本质常依赖用户行为向量与视频特征向量的点积。",
+    "metaphor": "就像两个人用手电筒照向同一方向：光束重叠越多（角度越小），照亮的区域越亮（点积越大）；若手电筒朝完全相反方向，就一片漆黑（负值）；若互相垂直，则没有重叠光斑（点积为零）。",
+    "example": "在音乐App中，系统将每首歌表示为包含节奏、情绪、年代等维度的向量，也将你的听歌历史压缩成一个偏好向量；通过计算你与每首未听歌曲的点积，排序推荐最‘方向一致’的曲目。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Dot Product - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dot_Product",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:48:28Z"
 }

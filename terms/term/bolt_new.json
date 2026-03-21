@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Bolt.new",
+  "term": "bolt_new",
   "norm_term": "bolt_new",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Bolt.new 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Bolt.new，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "bolt_new 是 Apache Storm 流处理框架中用于声明新 Bolt 组件的底层构造方法（通常在 Java API 中出现），它负责实例化并初始化一个处理数据元组（tuple）的计算单元。Bolt 是 Storm 中执行过滤、聚合、连接或与外部系统交互的核心逻辑组件，而 bolt_new 作为其创建入口点，影响拓扑（topology）的构建正确性与性能。普通用户（尤其是 Storm 开发者）需要理解它，因为错误使用可能导致序列化失败、状态丢失或并行度配置异常，进而引发数据处理中断或结果不一致。",
+    "metaphor": "就像装配流水线上的工位负责人必须按标准流程领取并启动新设备一样，bolt_new 就是为 Storm 数据流水线‘上岗’一个新处理工位的正式入职手续。",
+    "example": "在构建实时日志分析拓扑时，开发者调用 bolt_new(MyAnalysisBolt.class) 来注册一个负责统计 HTTP 状态码频次的 Bolt，并将其链接到上游 Spout 与下游数据库写入 Bolt。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Bolt.new - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Bolt.new",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-19T10:02:59Z"
+  "updated_at": "2026-03-21T04:12:23Z"
 }

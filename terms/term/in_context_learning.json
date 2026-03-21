@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "In-Context Learning",
+  "term": "in_context_learning",
   "norm_term": "in_context_learning",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "In-Context Learning 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 In-Context Learning，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "In-context learning（上下文学习）是指大语言模型在不更新参数的前提下，仅通过输入中提供的少量示例（即‘上下文’）就学会完成新任务的能力。它无需传统机器学习中的微调或训练，用户只需在提示词（prompt）中给出几个输入-输出范例，模型就能据此推断任务模式并生成符合要求的响应。普通用户需要了解它，因为这是当前与AI高效协作的核心方式——无需编程或训练知识，仅靠精心设计的提示即可让模型快速适应翻译、摘要、分类等多样化需求。",
+    "metaphor": "就像一位经验丰富的助理，你只需给他看两三个你过去写的邮件范本，他就能立刻模仿你的语气和格式写出一封新邮件，而不需要你教他任何规则或让他重新学习写作。",
+    "example": "用户在对话框中输入：'将以下英文句子翻译成中文：Hello → 你好；Thank you → 谢谢；Goodbye → 再见；Now translate: See you later → ？'，模型随即输出'待会儿见'。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "In-Context Learning - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/In-Context_Learning",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T07:27:25Z"
 }

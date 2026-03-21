@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "q8_0",
+  "norm_term": "q8_0",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "q8_0 是一种量化格式，用于压缩神经网络模型的权重参数，将原本32位浮点数（float32）近似为8位整数（int8）存储，同时保留一个单独的缩放因子（scale）来维持数值范围和精度。它属于GGUF格式中支持的量化类型之一，常见于本地运行的LLM（如Llama系列）模型文件中。普通用户需要了解它，是因为选择不同量化等级（如q4_k、q6_k、q8_0）会直接影响模型运行所需的内存/显存、推理速度与输出质量之间的平衡——q8_0精度较高但体积较大，适合在资源较充足的设备上追求更稳定生成效果。",
+    "metaphor": "就像把一本高清摄影集重制成扫描精度略低但依然清晰的电子相册：牺牲少量细节换来了更小的文件体积，而关键内容仍完整可辨。",
+    "example": "当你在Ollama或llama.cpp中加载一个标记为'q8_0'的Llama-3模型时，该模型会以约5.5GB大小运行在你的Mac笔记本上，在保持接近原始模型输出质量的同时，避免了对16GB以上RAM的硬性要求。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T17:15:21Z",
+  "updated_at": "2026-03-21T09:24:02Z"
+}

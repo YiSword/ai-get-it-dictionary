@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Dreamer",
+  "term": "dreamer",
   "norm_term": "dreamer",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Dreamer 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Dreamer，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Dreamer 是一种基于世界模型的深度强化学习智能体架构，它通过学习环境的潜在动态模型（即‘世界模型’）来规划长期行为，而无需与真实环境进行大量交互。其核心思想是让智能体在内部‘梦境’中反复模拟、试错和优化策略。普通用户需要了解它，因为它是当前AI自主决策、机器人控制和游戏AI等前沿应用背后的关键技术之一，代表了从‘被动响应’走向‘主动构想’的重要范式转变。",
+    "metaphor": "就像一位建筑师先在脑海中构建并反复修改整栋大楼的3D模型和施工流程，再动手建造，而不是直接搬砖试错。",
+    "example": "在自动驾驶仿真训练中，Dreamer 智能体仅通过少量真实驾驶数据学习交通动态模型，随后在虚拟环境中自主模拟数百万公里的极端路况，从而安全高效地提升决策能力。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Dreamer - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dreamer",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T05:54:10Z"
 }

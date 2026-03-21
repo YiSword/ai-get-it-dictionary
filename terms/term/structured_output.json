@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Structured Output",
+  "term": "structured_output",
   "norm_term": "structured_output",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Structured Output 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Structured Output，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "structured_output 指模型生成的响应严格遵循预定义的数据格式（如 JSON、XML 或带明确字段的表格），而非自由文本。它确保输出可被程序直接解析、验证和集成到下游系统中，避免人工提取或正则匹配的错误与开销。普通用户（尤其是开发者、数据分析师或自动化流程设计者）需要了解它，因为它是实现可靠AI集成、构建可扩展应用和保障数据一致性的关键能力。",
+    "metaphor": "就像餐厅提供标准化营养标签的盒饭——每道菜的位置、分量、成分都固定在指定格子里，无需拆解就能快速读取和计算。",
+    "example": "调用一个简历解析API时，模型返回标准JSON：{ \"name\": \"张三\", \"email\": \"zhang@example.com\", \"skills\": [\"Python\", \"SQL\"] }，前端可直接绑定字段渲染，无需写代码从段落中抽取邮箱。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Structured Output - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Structured_Output",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "updated_at": "2026-03-21T09:56:24Z"
 }

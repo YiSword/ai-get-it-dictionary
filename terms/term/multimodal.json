@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Multimodal",
+  "term": "multimodal",
   "norm_term": "multimodal",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Multimodal 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Multimodal，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Multimodal（多模态）指系统或模型能够同时处理、理解并关联多种类型的数据，如文本、图像、音频、视频、传感器信号等。它突破了传统单一模态（如仅处理文字或仅识别图片）的局限，使人工智能更接近人类的综合感知能力。普通用户需要了解这一概念，因为越来越多的应用——比如智能助手、内容生成工具和无障碍服务——正依赖多模态技术提供更自然、更准确的交互体验，影响日常使用效果和隐私边界。",
+    "metaphor": "就像一位经验丰富的医生，不仅听病人描述（语音）、看面色和检查报告（图像），还结合体温、心率等数据（传感器）综合判断病情。",
+    "example": "当你用手机拍照并语音提问‘这张菜谱里的辣椒用量能换成青椒吗？’时，AI同时分析图像中的文字和食材、理解语音指令，并生成合理建议——这就是典型的多模态应用。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Multimodal - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Multimodal",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
-  "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-19T10:01:26Z"
+  "created_at": "2026-03-19T09:23:37Z",
+  "updated_at": "2026-03-21T08:50:07Z"
 }

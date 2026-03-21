@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Fallback Response",
+  "term": "fallback_response",
   "norm_term": "fallback_response",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Fallback Response 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Fallback Response，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "fallback_response 是指当主请求路径（如API调用、模型生成或服务响应）失败、超时或无法提供有效结果时，系统自动返回的备用响应。它通常设计为简洁、安全且有意义的兜底内容，例如默认文本、错误提示或简化答案。普通用户需要知道它，因为这直接影响体验的稳定性——当网络波动、服务器繁忙或输入异常时，fallback_response 能避免页面空白、卡顿或崩溃，让交互保持可控和友好。",
+    "metaphor": "就像电梯主控制系统失灵时，应急电源自动启动并缓慢将轿厢降至最近楼层，而不是让乘客悬在半空。",
+    "example": "当用户向聊天机器人提问冷门历史事件，而大模型因知识截止或置信度不足无法生成可靠答案时，系统会返回预设的 fallback_response：‘我暂时无法确认该细节，建议查阅权威史料或提供更具体的时间/地点以便进一步帮助。’"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Fallback Response - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Fallback_Response",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T06:23:11Z"
 }

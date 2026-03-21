@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "ray_serve",
+  "norm_term": "ray_serve",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "ray_serve 是 Ray 生态中用于构建、部署和管理可扩展机器学习模型和服务的轻量级服务框架。它允许开发者将 Python 函数或类快速封装为 HTTP 或 gRPC 接口，并自动处理扩缩容、流量路由、版本灰度和多模型编排。普通用户需要知道它，是因为它大幅降低了将训练好的模型投入生产环境的门槛——无需搭建复杂运维系统，即可获得高并发、低延迟、弹性伸缩的在线推理服务。",
+    "metaphor": "就像一个智能餐厅前台：你只需把做菜的厨师（模型）和菜单（API）交给它，它就能自动安排座位（扩缩容）、分流客人（负载均衡）、试推新品（A/B 测试），并保证上菜又快又稳。",
+    "example": "一家电商公司用 ray_serve 将多个商品推荐模型（如协同过滤、图神经网络）打包成统一 API，根据用户设备类型和实时行为动态路由到最优模型，毫秒级响应个性化推荐请求。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T12:52:14Z",
+  "updated_at": "2026-03-21T09:28:16Z"
+}

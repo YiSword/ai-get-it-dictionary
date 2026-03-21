@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "siacoin",
+  "norm_term": "siacoin",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Siacoin（SC）是去中心化云存储平台Sia网络的原生加密货币，用于支付存储空间租用、带宽和合约执行等服务费用。用户上传文件时需向主机节点支付Siacoin，而主机提供者则通过贡献闲置硬盘空间赚取Siacoin。普通用户需要了解它，因为它是使用Sia网络存储数据的唯一支付媒介，其价格波动、钱包安全性和交易确认机制直接影响存储成本与可靠性。",
+    "metaphor": "Siacoin就像Sia网络这个‘数字仓库租赁市场’里通用的租金代币——租客用它付押金和月租，房东凭它收报酬，整个市场不依赖银行或中介运转。",
+    "example": "一位独立摄影师将100GB的原始照片备份到Sia网络，系统自动生成智能合约并扣除0.05 SC作为首年存储预付款；三个月后，他通过Sia-UI钱包查看剩余余额，并续费延长存储期。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:35:37Z",
+  "updated_at": "2026-03-21T09:45:09Z"
+}

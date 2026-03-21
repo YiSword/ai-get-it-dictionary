@@ -1,6 +1,6 @@
 {
   "entry_kind": "term",
-  "term": "Grouped-Query Attention",
+  "term": "grouped_query_attention",
   "norm_term": "grouped_query_attention",
   "lang": "en",
   "aliases": [],
@@ -8,25 +8,19 @@
   "category": "其他",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Grouped-Query Attention 是 AI 领域里常见的术语，常被用于描述一种能力、方法、产品或系统组成部分。它和用户实际使用 AI 的体验往往有直接关系，比如回答质量、搜索效果、自动化能力或安全边界。对初学者来说，先理解它的用途，比追求学术定义更重要。",
-    "metaphor": "它就像理解 AI 世界的一块拼图，单独看不一定完整，但放进整体结构里就能看清它为什么重要。",
-    "example": "比如你在搭建 AI 词典、知识库问答或自动化工作流时，往往会遇到 Grouped-Query Attention，因为它和系统效果、结构设计或用户体验有直接关系。"
+    "plain": "Grouped Query Attention（GQA）是一种优化的注意力机制变体，用于大语言模型中平衡计算效率与建模能力。它将多个查询头分组共享同一组键和值头，介于多头注意力（MHA）和多查询注意力（MQA）之间：相比MHA减少显存与计算开销，相比MQA保留更强的表达能力。普通用户需要了解它，因为GQA正被广泛应用于主流开源模型（如Llama-3、Phi-3），直接影响模型推理速度、硬件需求和部署成本。",
+    "metaphor": "就像一个会议中，不是每位参会者都单独向所有专家提问（MHA），也不是所有人只向一位首席专家提问（MQA），而是分成几组，每组共用一位领域专家来回答问题。",
+    "example": "在部署Llama-3-8B模型进行实时聊天时，启用GQA可将KV缓存内存占用降低约40%，显著提升单卡并发响应数，同时保持接近MHA的生成质量。"
   },
   "scenario_tags": [
-    "AI基础",
+    "AI 基础",
     "应用",
     "理解"
   ],
-  "sources": [
-    {
-      "title": "Grouped-Query Attention - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Grouped-Query_Attention",
-      "type": "glossary"
-    }
-  ],
-  "review_status": "seed",
-  "content_source": "ai_generated",
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-19T10:20:59Z"
+  "updated_at": "2026-03-21T07:03:19Z"
 }

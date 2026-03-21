@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "metamask",
+  "norm_term": "metamask",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "其他",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "MetaMask 是一款主流的加密货币钱包浏览器扩展和移动应用，它允许用户安全地存储、发送、接收以太坊及兼容链上的代币和 NFT，并与去中心化应用（dApps）交互。它不托管用户资产，而是通过本地生成和管理私钥来赋予用户完全控制权。普通用户需要了解 MetaMask，因为它是进入 Web3 世界最常用的入口工具——无论是参与 DeFi、NFT 交易，还是使用区块链游戏或社交协议，几乎都需先安装并连接 MetaMask。",
+    "metaphor": "MetaMask 就像你数字世界的护照和随身保险箱合二为一：既证明你是谁（身份验证），又让你亲手保管自己的资产钥匙（私钥），无需依赖银行或平台。",
+    "example": "当用户想在 Uniswap 上用 ETH 兑换 USDC 时，需先在浏览器中打开 Uniswap 网站，点击‘Connect Wallet’并选择 MetaMask，授权连接后即可签名交易，全程资产始终由用户自己控制。"
+  },
+  "scenario_tags": [
+    "AI 基础",
+    "应用",
+    "理解"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-20T14:21:30Z",
+  "updated_at": "2026-03-21T08:37:07Z"
+}
