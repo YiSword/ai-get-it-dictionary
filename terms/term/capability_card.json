@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型治理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "capability_card 是一种用于结构化描述系统、模型或智能体所具备功能的标准化信息单元，通常包含能力名称、输入输出规范、调用条件、限制说明及安全边界等字段。它不是代码本身，而是能力的‘说明书’和‘准入凭证’，帮助开发者、平台或用户快速理解某模块能做什么、不能做什么、如何安全使用。普通用户需要知道它，是因为在AI应用集成、插件选择或权限配置时，capability_card 提供了可读、可验证、可审计的功能承诺，避免误用或越权操作。",
+    "plain": "capability_card 是描述 AI 系统或智能体功能的标准化元数据单元，包含能力名称、输入输出规范、调用条件及安全边界等字段。作为能力的“说明书”和“准入凭证”，它帮助开发者和用户理解模块功能限制，确保集成时的安全性与合规性，避免误用或越权操作，是 AI 治理与插件生态中的关键文档。",
     "metaphor": "就像汽车的用户手册中一页‘功能速查卡’——清楚标明‘自动泊车’支持哪些场景、需满足什么条件（如车速<10km/h）、不适用于斜坡等限制。",
     "example": "一个医疗问答AI在接入医院系统前，会提供一张capability_card，声明其仅能基于公开指南回答高血压用药问题，不支持诊断或处方生成，并要求输入必须脱敏处理。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 安全",
+    "模型集成",
+    "权限管理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1810.03993"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:19:02Z"
+  "updated_at": "2026-03-23T15:33:13.694927Z",
+  "quality_score": 0.95
 }

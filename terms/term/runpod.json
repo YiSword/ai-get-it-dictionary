@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 基础设施",
   "difficulty": "中级",
   "explanations": {
-    "plain": "RunPod 是一个基于云的 GPU 计算服务平台，允许开发者和研究人员按需租用高性能 GPU 实例来运行 AI 模型、训练神经网络或执行大规模并行计算任务。它提供简化的 API、预配置的容器环境和秒级启动能力，无需用户自行维护服务器或配置底层驱动。普通用户（尤其是 AI 开发者、数据科学家或独立研究者）需要了解 RunPod，因为它降低了使用高端 GPU 的门槛——无需购买昂贵硬件或管理复杂云基础设施，即可快速部署和扩展计算资源。",
+    "plain": "RunPod 是一个基于云的 GPU 计算服务平台，允许用户按需租用高性能 GPU 实例来运行 AI 模型或训练神经网络。它提供简化的 API 和预配置环境，无需维护服务器。这降低了使用高端 GPU 的门槛，无需购买硬件即可快速部署计算资源，适合 AI 开发者和研究人员。",
     "metaphor": "RunPod 就像一家按分钟计费的高性能跑车租赁服务：你不需要买车、保养或考驾照，只需手机下单，立刻就能开上最新款的 Tesla 或 Lamborghini 去完成一段高强度的赛道测试。",
     "example": "一位开发者正在微调 Llama-3 的 7B 模型，他通过 RunPod 启动一个搭载 A100 GPU 的实例，上传训练脚本和数据集，20 分钟后获得微调后的模型权重，整个过程无需配置 CUDA 环境或等待云厂商审批配额。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "云计算",
+    "GPU 加速"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.runpod.io/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:32:04Z",
-  "updated_at": "2026-03-21T09:35:41Z"
+  "updated_at": "2026-03-23T15:38:08.358076Z",
+  "quality_score": 0.95
 }

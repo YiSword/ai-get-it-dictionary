@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理参数",
   "difficulty": "中级",
   "explanations": {
-    "plain": "logit_bias 是一种在大语言模型推理过程中对特定 token 的原始输出分数（logits）进行人工偏移调整的技术。它不改变模型权重，而是在生成前直接增加或减少某些词元的得分，从而提升或抑制其被选中的概率。普通用户需要了解它，是因为这是微调生成倾向最轻量、最即时的手段之一——比如强制模型始终用中文回答、避免输出敏感词，或优先选用专业术语，而无需重新训练模型。",
+    "plain": "logit_bias 是大语言模型推理参数，用于对特定 token 的原始输出分数（logits）进行偏移调整。它不改变模型权重，而是在生成前直接增减某些词元的得分，从而提升或抑制其被选中的概率。用户可用它强制模型用中文回答、避免敏感词或优先选用专业术语，无需重新训练模型。",
     "metaphor": "就像给投票箱里预先塞进几张赞成票或废掉几张反对票，不改变候选人的本质，却悄悄改变了最终结果的倾向。",
     "example": "在客服对话系统中，设置 'logit_bias' 对 token '抱歉' 和 '谢谢' 赋予大幅正值，可显著提升模型回应中的礼貌用语出现频率；反之，对‘无法’‘不行’等 token 设负值，可减少消极表达。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文本生成",
+    "内容控制",
+    "API 调用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs/api-reference/chat/create"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:17:23Z"
+  "updated_at": "2026-03-23T11:27:37.652582Z",
+  "quality_score": 0.95
 }

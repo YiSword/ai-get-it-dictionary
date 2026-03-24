@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "检索增强生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "contextual_compression 是一种信息处理技术，指在保留关键语义和任务相关性的前提下，动态缩减输入文本长度，而非简单截断或均匀删减。它利用大语言模型理解上下文，识别并保留对当前任务（如问答、摘要）真正重要的片段，同时剔除冗余或干扰信息。普通用户需要了解它，因为这项技术直接影响AI响应的质量与效率——例如在聊天中上传长文档后能否快速获得精准答案，而不被无关细节淹没。",
+    "plain": "contextual_compression 是一种大模型上下文处理技术。它在保留关键语义和任务相关性的前提下，动态缩减输入文本长度，而非简单截断。利用模型理解上下文，识别并保留对当前任务重要的片段，剔除冗余信息。这直接影响 AI 响应质量与效率，确保长文档处理后能获得精准答案，避免无关细节干扰。",
     "metaphor": "就像一位经验丰富的图书编辑，在不改变核心观点的前提下，为不同读者定制精简版章节：给学生保留例题和定义，给专家只留公式推导。",
     "example": "当用户向AI提问‘这份50页财报中，2023年净利润增长率是多少？’时，contextual_compression会自动提取管理层讨论、财务摘要和附注中相关段落，过滤掉产品介绍、历史沿革等无关内容，再将浓缩后的上下文送入模型生成答案。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "检索增强生成",
+    "长文本处理",
+    "大模型优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://python.langchain.com/docs/modules/data_connection/retrievers/contextual_compression"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:53:41Z"
+  "updated_at": "2026-03-23T18:13:42.375379Z",
+  "quality_score": 0.95
 }

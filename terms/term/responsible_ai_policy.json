@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "responsible_ai_policy",
+  "norm_term": "responsible_ai_policy",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "framework",
+  "category": "AI 治理",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "负责任人工智能政策是确保 AI 系统设计、开发及应用符合伦理与社会价值的指导框架。它明确公平性、透明度、隐私保护及问责制等核心要求，旨在规避算法偏见与数据滥用风险。该政策帮助组织建立可信赖的 AI 服务，推动技术向善，是企业合规与伦理审查的重要依据。",
+    "metaphor": "如同交通规则约束车辆行驶，负责任 AI 政策为技术开发者划定‘道德车道’，确保人工智能在创新道路上不偏离安全与公平的轨道。",
+    "example": "某银行采用负责任 AI 政策审核贷款算法，通过定期检测种族、性别等敏感变量影响，确保信贷决策无歧视，并向用户公开评估报告。"
+  },
+  "scenario_tags": [
+    "企业合规",
+    "伦理审查",
+    "风险管理"
+  ],
+  "sources": [
+    "https://oecd.ai/en/ai-principles",
+    "https://www.microsoft.com/en-us/ai/responsible-ai"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:54:22.977600Z",
+  "updated_at": "2026-03-23T10:14:14.945040Z",
+  "quality_score": 1.0
+}

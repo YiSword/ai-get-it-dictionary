@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "SQL generation 是指系统自动构造符合语法和语义要求的 SQL 查询语句的过程，通常基于自然语言描述、数据模式或用户意图。它常见于低代码平台、AI 数据助手和报表工具中，让非技术人员也能通过提问或点击操作获取数据库结果。普通用户需要了解它，是因为它降低了使用数据库的门槛，但同时也需警惕生成语句可能存在的逻辑错误、性能问题或安全风险（如隐式注入），从而在依赖自动化的同时保持基本判断力。",
+    "plain": "SQL generation 指系统基于自然语言或用户意图自动构造 SQL 查询语句的过程。常见于 AI 数据助手和低代码平台，降低数据库使用门槛。用户需警惕生成语句可能存在的逻辑错误、性能问题或安全风险，在依赖自动化同时保持判断力。",
     "metaphor": "就像一位不懂厨艺的人对智能料理机说出‘做一道清淡的番茄炒蛋’，机器自动拆解步骤、挑选食材、控制火候并完成烹饪——SQL generation 就是把用户的模糊需求翻译成数据库能精确执行的‘指令菜谱’。",
     "example": "某销售主管在BI工具中输入‘显示华东区上季度销售额最高的前5个产品’，系统自动生成并执行包含JOIN、WHERE、GROUP BY和LIMIT的SQL语句，直接返回结果表格。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "代码生成",
+    "数据库查询"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Text-to-SQL"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:50:56Z"
+  "updated_at": "2026-03-23T11:56:57.337687Z",
+  "quality_score": 0.95
 }

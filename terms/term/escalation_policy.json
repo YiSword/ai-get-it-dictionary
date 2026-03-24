@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "运维管理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "escalation_policy（升级策略）是一种预先定义的规则集，用于在事件（如系统故障、告警未响应）未被及时处理时，自动将责任逐级转移给更高权限或更可用的人员或团队。它确保关键问题不会因第一响应者离线、忽略或无法解决而被搁置，是运维、SRE 和IT服务管理中保障响应可靠性的核心机制。普通用户（尤其是技术团队成员）需要理解它，因为它是故障响应流程的‘安全网’，直接影响系统稳定性与用户体验。",
+    "plain": "升级策略是预先定义的规则集，用于在事件未被及时处理时，自动将责任逐级转移给更高权限或更可用的人员。它确保关键问题不因第一响应者离线而被搁置，是运维和 SRE 保障响应可靠性的核心机制。作为故障响应流程的安全网，它直接影响系统稳定性与用户体验。",
     "metaphor": "就像医院的急诊分诊制度：轻症先由护士处理，若病情恶化或无人响应，会自动转给主治医生，再不行则升级至值班主任。",
     "example": "当监控系统检测到数据库主节点宕机，3分钟内未被值班工程师确认，升级策略会自动将告警发送给二线DBA；若5分钟后仍未响应，则通知CTO并触发电话呼叫。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "事件响应",
+    "告警管理",
+    "运维流程"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://support.pagerduty.com/docs/escalation-policies",
+    "https://sre.google/sre-book/incident-management/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:11:34Z"
+  "updated_at": "2026-03-23T11:59:36.533252Z",
+  "quality_score": 0.95
 }

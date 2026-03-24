@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "网络安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "FIM（File Integrity Monitoring，文件完整性监控）是一种安全技术，用于持续检测和报告关键系统文件、配置文件或应用程序二进制文件的意外或未授权变更。它通过定期计算并比对文件的哈希值（如SHA-256）来识别新增、修改或删除操作。普通用户—尤其是系统管理员、安全运维人员或合规责任人—需要了解FIM，因为它能及时发现恶意篡改、配置漂移或勒索软件加密行为，是满足等保、PCI DSS等合规要求的核心控制措施之一。",
+    "plain": "FIM（文件完整性监控）是一种安全技术，用于持续检测关键系统文件、配置文件或应用程序的未授权变更。它通过比对文件哈希值识别新增、修改或删除操作。FIM 能及时发现恶意篡改、配置漂移或勒索软件行为，是满足等保、PCI DSS 等合规要求的核心控制措施，主要面向系统管理员及安全运维人员。",
     "metaphor": "就像给重要文件装上‘数字指纹锁’和‘24小时守卫’，一旦有人偷偷改动哪怕一个字符，警报立刻响起。",
     "example": "某银行Web服务器启用FIM后，在凌晨自动捕获到/etc/passwd文件被异常修改，经查为攻击者植入后门所致，运维团队随即隔离主机并回滚备份，避免了进一步数据泄露。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "安全监控",
+    "合规审计",
+    "入侵检测"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final",
+    "https://cisecurity.org/control/file-integrity-monitoring"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:28:53Z"
+  "updated_at": "2026-03-23T15:41:27.205255Z",
+  "quality_score": 0.95
 }

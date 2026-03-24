@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型评估",
   "difficulty": "中级",
   "explanations": {
-    "plain": "code_execution_accuracy 是指模型生成的代码在实际运行中正确完成预期任务的比例，它不仅衡量语法是否合法，更关注逻辑是否正确、边界条件是否处理得当、输出是否符合需求。普通用户需要关注这一指标，因为高准确率意味着更少的手动调试、更低的部署风险，以及更可靠的自动化结果——尤其在使用AI辅助编程、生成脚本或集成到生产流程时，低执行准确率可能导致数据错误、系统故障甚至安全漏洞。",
+    "plain": "code_execution_accuracy 指模型生成代码在实际运行中正确完成预期任务的比例。它不仅衡量语法合法性，更关注逻辑正确性、边界处理及输出符合度。高准确率意味着更少调试、更低部署风险及更可靠的自动化结果，尤其在 AI 辅助编程或生产集成时，低准确率可能导致数据错误或系统故障。",
     "metaphor": "就像一位厨师照着菜谱做菜，code_execution_accuracy 不是看菜谱写得漂不漂亮，而是看他端上来的菜是否真能吃、味道对不对、有没有漏掉关键步骤。",
     "example": "当用户让AI生成一个Python函数来安全解析CSV文件并过滤出年龄大于30的记录时，code_execution_accuracy 高意味着该函数能正确处理空字段、编码异常和类型转换，而不会在运行时抛出ValueError或返回错误结果。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "模型评估",
+    "性能指标"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/openai/human-eval"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:35:27Z"
+  "updated_at": "2026-03-23T12:15:47.841799Z",
+  "quality_score": 1.0
 }

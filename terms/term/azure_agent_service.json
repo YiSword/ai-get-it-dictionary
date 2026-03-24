@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "azure_agent_service",
+  "norm_term": "azure_agent_service",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "platform",
+  "category": "AI 平台",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Azure AI Agent Service 是微软 Azure 推出的托管服务，助力开发者构建、部署及管理 AI 代理。支持多模型编排、工具调用及记忆管理，简化开发流程。企业可利用其快速实现自动化任务与客户支持，确保数据安全合规，显著降低 AI 应用落地门槛。",
+    "metaphor": "就像为 AI 代理建造的‘智能工厂流水线’，开发者只需输入需求蓝图，系统自动完成从零件组装（模型训练）到质检交付（部署监控）的全流程。",
+    "example": "某电商企业使用该服务创建售后代理，自动解析用户退货请求，调用库存系统验证商品状态，生成退货标签并同步物流信息，全程无需人工干预。"
+  },
+  "scenario_tags": [
+    "AI 开发",
+    "云服务",
+    "智能代理"
+  ],
+  "sources": [
+    "https://learn.microsoft.com/azure/ai-services/agent-service/",
+    "https://azure.microsoft.com/products/ai-agent-service"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:40:02.460557Z",
+  "updated_at": "2026-03-23T12:20:37.655763Z",
+  "quality_score": 1.0
+}

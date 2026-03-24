@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "图像生成与编辑",
   "difficulty": "中级",
   "explanations": {
-    "plain": "StyleCLIP 是一种结合对比语言-图像预训练模型（如 CLIP）与生成对抗网络（GAN）的图像编辑技术，它能将自然语言描述（如‘戴墨镜’‘油画风格’）精准映射到预训练 GAN（如 StyleGAN）的潜在空间中，实现文本驱动的高质量图像编辑。普通用户需要了解它，是因为它降低了专业图像编辑门槛——无需手动调参或绘图技能，仅用日常语言就能直观、实时地修改人脸、物体或艺术风格，广泛应用于创意设计、社交内容生成和个性化图像定制。",
+    "plain": "StyleCLIP 是一种结合 CLIP 模型与 StyleGAN 的图像编辑技术。它通过将自然语言描述映射到 GAN 潜在空间，实现文本驱动的高质量图像编辑。用户无需专业技能，仅用文本即可修改人脸、物体或艺术风格，广泛应用于创意设计和内容生成。",
     "metaphor": "就像给一张高清照片配上智能语音遥控器：你说‘让它微笑并变成赛博朋克风’，照片就立刻响应变化，而不需要你亲手调整每一根线条或色块。",
     "example": "用户上传一张自拍照后，在输入框键入‘加蓬松卷发和复古胶片滤镜’，StyleCLIP 即刻生成符合描述的编辑结果，保留原脸结构的同时自然融合新特征。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像编辑",
+    "多模态交互",
+    "创意设计"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2103.17249",
+    "https://github.com/orpatashnik/StyleCLIP"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:28:23Z",
-  "updated_at": "2026-03-21T09:56:58Z"
+  "updated_at": "2026-03-23T17:04:40.300325Z",
+  "quality_score": 1.0
 }

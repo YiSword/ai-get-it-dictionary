@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "World model 是指人工智能系统内部构建的、对现实世界（或其模拟环境）的结构化表征，包含物体、规则、因果关系和动态变化等知识。它使模型能在不依赖实时感官输入的情况下进行推理、预测和规划。普通用户需要了解它，因为它是高级AI（如具身智能、自动驾驶、游戏AI）实现自主决策与长期规划的核心能力，直接影响AI是否真正‘理解’环境而非仅匹配模式。",
+    "plain": "World model 是 AI 系统内部对现实环境的结构化表征，包含物体、规则及因果关系。它使模型能在无实时输入下进行推理、预测和规划。这是具身智能、自动驾驶等实现自主决策的核心，决定 AI 是否真正理解环境而非仅匹配模式。",
     "metaphor": "就像人类司机脑中形成的‘道路心智地图’——无需每秒看后视镜也能预判前车刹车后的连锁反应。",
     "example": "特斯拉Optimus机器人在未见过的厨房中识别水壶、灶台和开关后，通过其world model推断出‘先开火再烧水’的合理动作序列，而非仅模仿训练视频中的固定步骤。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "强化学习",
+    "自动驾驶",
+    "具身智能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/World_model",
+    "https://ai.meta.com/research/publications/a-path-towards-autonomous-machine-intelligence/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:28:31Z"
+  "updated_at": "2026-03-23T11:20:57.603714Z",
+  "quality_score": 0.95
 }

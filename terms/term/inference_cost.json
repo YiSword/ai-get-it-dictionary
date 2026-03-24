@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型运营",
   "difficulty": "中级",
   "explanations": {
-    "plain": "inference_cost 是指在人工智能模型（尤其是大语言模型）完成一次推理（即接收输入、生成输出）过程中所消耗的计算资源成本，通常以算力时间、内存占用或云服务计费单位（如每千token费用）衡量。它直接影响应用的响应延迟、可扩展性和运营开销。普通用户需要了解它，因为高频使用AI功能（如聊天、内容生成）可能导致意外的费用累积，尤其在调用商用API或自托管高规格模型时；理解该成本有助于合理设计交互逻辑、优化提示词或选择性价比更高的模型。",
+    "plain": "inference_cost 指 AI 模型完成一次推理所消耗的计算资源成本，常以算力时间、内存或每千 token 费用衡量。它直接影响应用延迟、可扩展性及运营开销。理解该成本有助于在使用商用 API 或自托管模型时控制费用，通过优化提示词或选择模型避免意外支出，平衡性能与预算。",
     "metaphor": "就像开车时每公里的油费——你不一定时刻盯着仪表盘，但跑得越远、车越重、路况越差，总花费就越可观。",
     "example": "某客服系统每天调用大模型生成10万条回复，若单次inference_cost为$0.002，则日支出达$200；改用更轻量模型后降至$0.0005，日成本压缩至$50。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "成本管控",
+    "模型部署",
+    "API 调用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/api/pricing/",
+    "https://aws.amazon.com/sagemaker/pricing/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:29:01Z"
+  "updated_at": "2026-03-23T14:27:25.076951Z",
+  "quality_score": 0.95
 }

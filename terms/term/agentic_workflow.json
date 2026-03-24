@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 智能体",
   "difficulty": "中级",
   "explanations": {
-    "plain": "agentic_workflow 是一种以‘智能体（agent）’为核心构建的自动化工作流，其中多个具备感知、规划、工具调用和反思能力的AI代理协同完成复杂任务。与传统脚本化流程不同，它能动态调整步骤、处理异常、自主选择工具并迭代优化结果。普通用户需要了解它，因为这代表了AI从被动响应转向主动协作的新范式——未来办公、编程、研究等场景中，用户只需设定目标，Agent会自主拆解、执行并交付成果。",
-    "metaphor": "就像一位经验丰富的项目经理带领跨职能团队：每个成员（Agent）各司其职，实时沟通、灵活应变，无需事事由老板手把手指挥。",
-    "example": "用户输入‘分析上季度销售数据并生成PPT汇报’，agentic_workflow自动启动数据提取Agent连接数据库，分析Agent运行统计模型，图表Agent生成可视化，最后PPTAgent整合内容并美化排版，全程无需人工干预中间步骤。"
+    "plain": "智能体工作流指由具备自主规划、工具调用与反思能力的 AI 智能体协同完成复杂任务的自动化流程。相比传统规则驱动流程，它强调动态决策与适应性执行。该技术正融入办公助理、编程辅助等场景，显著提升任务效率与人机协作深度，是下一代自动化系统的核心架构。",
+    "metaphor": "就像一支经验丰富的项目团队：成员能自己拆解目标、分配任务、主动查资料、试错调整，而不只是机械执行预设步骤。",
+    "example": "用户让AI助手‘分析上季度销售数据并生成PPT汇报’，智能体自动选择清洗数据、调用统计模型、生成图表、撰写摘要、排版PPT，过程中发现缺失值时主动请求补充或切换处理策略。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 智能体",
+    "自动化流程",
+    "人机协作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.deeplearning.ai/",
+    "https://www.langchain.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T03:24:55Z"
+  "updated_at": "2026-03-23T14:24:12.343092Z",
+  "quality_score": 0.95
 }

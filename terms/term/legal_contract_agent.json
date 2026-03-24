@@ -1,0 +1,27 @@
+{
+  "entry_kind": "term",
+  "term": "legal_contract_agent",
+  "norm_term": "legal_contract_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "AI 智能体",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "法律合同智能体是应用于法律领域的 AI 智能体，利用自然语言处理与法律知识库，自动化完成合同起草、审查、谈判及管理。它能识别关键条款、提示风险并生成合规文本，显著提升企业法务、采购及商务场景下的文件处理效率，降低合规风险，是实现法律科技智能化的核心工具之一。",
+    "metaphor": "如同配备了一位24小时在线的智能法律顾问，能快速解析合同条款、标记潜在漏洞，并像拼图一样自动组合出符合需求的标准化协议。",
+    "example": "某科技公司使用法律合同代理系统，在30分钟内完成供应商服务协议的生成与合规审查，而传统流程需法务团队耗时3个工作日。"
+  },
+  "scenario_tags": [
+    "法律科技",
+    "智能体",
+    "企业服务"
+  ],
+  "sources": [],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:21:37.044090Z",
+  "updated_at": "2026-03-23T12:38:00.294632Z",
+  "quality_score": 0.85
+}

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "bidirectional_attention 是一种在 Transformer 模型中使用的注意力机制，允许每个词元（token）同时关注其左侧和右侧的所有词元，从而捕获上下文的双向依赖关系。与单向注意力（如 GPT 中仅看前面词）不同，它能更全面地理解句子结构、指代消解和语义歧义。普通用户需要知道它，因为这是 BERT 等主流语言模型理解自然语言的基础能力，直接影响搜索、翻译、客服等 AI 应用的准确性和自然度。",
+    "plain": "双向注意力是 Transformer 模型中的核心机制，允许每个词元同时关注左右两侧的所有词元，从而捕获上下文的双向依赖关系。不同于 GPT 的单向注意力，它能更全面地理解句子结构与语义歧义。这是 BERT 等模型的基础，直接影响搜索、翻译等 AI 应用的准确性。",
     "metaphor": "就像开会时每位参与者既能听左边同事的发言，也能听右边同事的补充，实时整合全场信息，而不是只盯着发言顺序排在自己前面的人。",
     "example": "当模型处理句子‘苹果发布了新手机，它运行速度很快’时，bidirectional_attention 让‘它’能同时参考前文的‘苹果’和‘新手机’，从而准确判断‘它’指代的是后者而非公司。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言理解",
+    "机器翻译",
+    "智能搜索"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1810.04805",
+    "https://ai.google/discover/bert/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:05:57Z"
+  "updated_at": "2026-03-23T11:50:30.846051Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "设计工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Canva AI 是指集成在 Canva 设计平台中的一系列人工智能功能，如智能文本生成、图像生成（Magic Studio）、背景移除、设计建议、文案优化等。它让非专业用户无需掌握复杂设计或编程技能，就能快速创建高质量海报、演示文稿、社交媒体图等视觉内容。普通用户需要了解它，是因为它显著降低了创意表达的门槛，提升工作效率，尤其适合教育工作者、小企业主、营销人员和学生等资源有限但需高频产出视觉内容的人群。",
+    "plain": "Canva AI 是 Canva 平台集成的人工智能功能套件，涵盖 Magic Studio 图像生成、智能文案、背景移除及设计建议等。它旨在降低创意门槛，使用户无需专业技能即可快速创建海报、演示文稿等视觉内容。适合教育、营销及小企业主等需高频产出视觉素材的人群，显著提升工作效率。",
     "metaphor": "就像一位随叫随到的全能设计助理，既懂配色构图，又会写文案、修图、出点子，还从不抱怨修改三次。",
     "example": "一位教师想为班级活动制作一张宣传海报，只需输入‘三年级春游通知，活泼温馨风格’，Canva AI 就能自动生成多版配图、排版和文案初稿，她再简单调整即可下载使用。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "创意设计",
+    "内容生成",
+    "办公效率"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.canva.com/ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:18:32Z"
+  "updated_at": "2026-03-23T15:29:25.869424Z",
+  "quality_score": 0.95
 }

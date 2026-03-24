@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生态学",
   "difficulty": "中级",
   "explanations": {
-    "plain": "habitat（栖息地）指某种生物自然生活、觅食、繁殖和躲避天敌的特定环境区域，包括其所需的气候、土壤、水源、植被和其他生物等综合条件。它不仅是地理空间概念，更体现生物与环境之间长期适应形成的动态关系。普通用户需要了解这一术语，因为它关乎生物多样性保护、生态平衡认知以及人类活动（如城市扩张、农业开发）对自然系统的实际影响，帮助我们理解为何保护一片湿地或森林远不止是‘留几棵树’那么简单。",
+    "plain": "栖息地指生物个体、种群或群落自然生活、觅食、繁殖和躲避天敌的特定环境区域。它包含气候、土壤、水源、植被等综合条件，体现生物与环境间长期适应的动态关系。保护栖息地关乎生物多样性与生态平衡，有助于理解人类活动对自然系统的影响，明白保护湿地或森林不仅是保留空间，更是维护生存条件。",
     "metaphor": "就像一个人离不开自己的家——有熟悉的房间布局、稳定的水电供应和邻里关系，每种生物也依赖其栖息地提供生存必需的‘基础设施’和‘社交网络’。",
     "example": "长江江豚仅分布于长江中下游干流及部分通江湖泊，这些水域的水文特征、鱼类资源和低航运干扰水平共同构成其不可替代的栖息地；一旦围湖造田或密集采砂破坏该环境，种群便面临灭绝风险。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "生态保护",
+    "生物多样性",
+    "环境科学"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.britannica.com/science/habitat",
+    "https://www.nationalgeographic.org/encyclopedia/habitat/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:05:13Z"
+  "updated_at": "2026-03-23T13:23:54.877405Z",
+  "quality_score": 0.95
 }

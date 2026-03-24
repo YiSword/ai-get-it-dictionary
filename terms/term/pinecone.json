@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "向量数据库",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Pinecone 是一个专为大规模向量搜索设计的云原生数据库服务，用于高效存储、索引和检索高维向量（如文本、图像或音频的嵌入表示）。它让开发者无需从零构建复杂的近似最近邻（ANN）搜索系统，就能快速实现语义搜索、推荐系统或RAG（检索增强生成）等AI应用。普通用户——尤其是AI应用开发者、数据工程师或产品经理——需要知道它，因为它显著降低了将语义理解能力集成到产品中的技术门槛和运维成本。",
+    "plain": "Pinecone 是专为大规模向量搜索设计的云原生向量数据库服务。它支持高效存储、索引和检索高维向量嵌入，帮助开发者快速构建语义搜索、推荐系统或 RAG 应用。无需自建近似最近邻搜索系统，显著降低集成语义理解能力的技术门槛与运维成本，是 AI 应用开发的关键基础设施。",
     "metaphor": "就像图书馆的智能索引员，不仅能按书名关键词查找，还能理解‘讲量子物理的科普书’和‘薛定谔的猫故事’之间的深层关联，并瞬间找出最匹配的几本。",
     "example": "一家客服SaaS公司使用Pinecone存储过往工单的语义向量，当新用户输入‘我的订单还没发货，能查下物流吗？’时，系统实时检索相似历史问题，自动推荐解决方案或转接对应专员。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "RAG",
+    "语义搜索",
+    "向量检索"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.pinecone.io/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:09:46Z"
+  "updated_at": "2026-03-23T17:44:55.411995Z",
+  "quality_score": 1.0
 }

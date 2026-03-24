@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型评估",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Calibration（校准）是指通过调整或验证测量设备、传感器或软件模型的输出，使其与已知标准或真实值保持一致的过程。它确保数据准确、可比且可靠。普通用户需要了解校准，因为日常设备如智能手表的心率监测、手机陀螺仪、家用电子秤甚至相机白平衡都依赖校准；若未定期校准，可能导致健康误判、导航偏差或照片偏色等实际问题。",
+    "plain": "校准是指调整设备、传感器或模型输出，使其与已知标准或真实值保持一致的过程。在 AI 领域，它确保模型预测概率反映真实可能性；在硬件层面，它保证传感器数据准确。若未校准，可能导致导航偏差、健康误判或模型置信度不可靠，是确保系统数据准确、可比且可靠的关键步骤。",
     "metaphor": "就像给一把尺子重新刻上准确的刻度，或者给闹钟对照原子钟调准时间——校准是让工具‘学会正确说话’的过程。",
     "example": "医生使用血压计前，会先用标准压力源进行校准，确保读数误差小于±2 mmHg；否则可能将正常血压误判为高血压，导致不必要的用药。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "传感器技术",
+    "数据质量"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://scikit-learn.org/stable/modules/calibration.html",
+    "https://www.nist.gov/pml/owm/metric-si/unit-definition/calibration"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:17:32Z"
+  "updated_at": "2026-03-23T19:11:31.136857Z",
+  "quality_score": 0.95
 }

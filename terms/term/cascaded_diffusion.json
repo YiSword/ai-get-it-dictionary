@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "扩散模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "cascaded_diffusion（级联扩散）是一种生成式AI建模技术，通过多个依次衔接的扩散模型分阶段细化输出——例如先生成低分辨率图像，再逐级提升分辨率和细节。它能显著降低单次模型的计算负担，提升生成质量与可控性。普通用户需要了解它，因为该技术正被用于手机摄影增强、AI绘画工具（如Adobe Firefly升级版）和实时视频生成等实际应用中，直接影响生成速度、画质和设备兼容性。",
+    "plain": "级联扩散是一种生成式 AI 技术，通过多个扩散模型分阶段细化输出。先生成低分辨率图像，再逐级提升分辨率和细节，从而降低计算负担并提升画质与可控性。该技术广泛应用于 AI 绘画、视频生成及手机摄影增强，直接影响生成速度、画质和设备兼容性，是高效高质量生成的关键方案。",
     "metaphor": "就像一位画家先勾勒草图，再铺大色块，最后精修五官和纹理，每一阶段都在前一阶段基础上专注优化特定层次的细节。",
     "example": "Stable Diffusion XL的Refiner模型即采用级联扩散：主模型输出基础图像后，Refiner模型在相同文本提示下对其高维特征进行二次去噪，显著提升面部表情、材质质感等局部真实感。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "视频生成",
+    "生成式 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2106.15282"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:49:42Z",
-  "updated_at": "2026-03-21T04:20:06Z"
+  "updated_at": "2026-03-23T12:11:13.184936Z",
+  "quality_score": 0.95
 }

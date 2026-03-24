@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "去中心化金融",
   "difficulty": "中级",
   "explanations": {
-    "plain": "UMA（Universal Market Access）是一个基于以太坊的去中心化金融协议，允许任何人创建和交易合成资产（如跟踪股票、商品或加密货币价格的代币），而无需依赖传统金融机构或托管方。它通过乐观预言机（Optimistic Oracle）和抵押机制实现价格验证与结算，使用户能以抗审查、无需许可的方式参与全球市场。普通用户需要了解UMA，因为它代表了一种新型金融主权实践——无需中介即可获得多样化资产敞口，同时也需意识到其智能合约风险与去中心化治理的权责边界。",
+    "plain": "UMA（Universal Market Access）是基于以太坊的去中心化金融协议，支持无需许可地创建和交易合成资产。通过乐观预言机与抵押机制实现价格验证，摆脱传统中介依赖。用户可借此获得全球市场敞口，但需关注智能合约风险及治理权责。",
     "metaphor": "UMA就像一个开源的、自动运行的‘金融乐高工厂’：你提供设计图纸（合约模板）和原料（抵押品），它就能按需铸造出任意挂钩现实资产的数字积木。",
     "example": "一名开发者部署了一个UMA合成合约，发行代币‘GOLD-USD’，该代币完全由ETH抵押，并通过链上价格请求与争议机制跟踪伦敦金现货价；投资者可直接在Uniswap上买卖该代币，获得黄金价格暴露，全程无需持有实物黄金或信任交易所。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "合成资产",
+    "预言机",
+    "DeFi 协议"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://uma.xyz",
+    "https://docs.uma.xyz"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:30:42Z",
-  "updated_at": "2026-03-21T10:13:42Z"
+  "updated_at": "2026-03-23T12:49:04.026206Z",
+  "quality_score": 1.0
 }

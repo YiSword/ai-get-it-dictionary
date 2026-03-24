@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "检索增强生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "corrective_rag 是一种增强检索（RAG）的技术变体，它在标准 RAG 流程中引入了动态纠错机制：当大语言模型生成的初始回答与检索到的权威文档存在事实冲突或逻辑矛盾时，系统会自动识别偏差、回溯检索结果，并重新生成更准确的回答。普通用户需要了解它，因为它能显著降低AI‘一本正经胡说八道’的风险，尤其在医疗咨询、法律解读或学术研究等对准确性要求极高的场景中，让AI回答更可信、可追溯、可修正。",
+    "plain": "Corrective RAG 是检索增强生成的改进技术。它在标准流程中加入验证与纠错机制，当生成内容与检索文档冲突时，自动回溯并重新生成。该技术显著降低模型幻觉，提升回答准确性与可追溯性，适用于医疗、法律等对事实精度要求极高的场景。",
     "metaphor": "就像一位严谨的编辑，在作者初稿完成后立刻对照原始资料逐句核对，发现错误就划掉重写，而不是直接把草稿印成书。",
     "example": "用户询问‘阿司匹林是否适用于所有心脏病患者？’，模型初始回答‘是’，但 corrective_rag 检测到检索出的临床指南明确指出‘活动性胃溃疡患者禁用’，于是自动修正回答并附上依据来源。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "高精度问答",
+    "事实核查",
+    "专业领域咨询"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2401.15884"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:40:05Z",
-  "updated_at": "2026-03-21T05:00:37Z"
+  "updated_at": "2026-03-23T13:52:56.344890Z",
+  "quality_score": 0.95
 }

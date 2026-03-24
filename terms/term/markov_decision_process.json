@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "马尔可夫决策过程（Markov Decision Process, MDP）是一种用于建模序贯决策问题的数学框架，它描述了智能体在不确定环境中如何根据当前状态选择动作，以最大化长期累积奖励。MDP 的核心假设是‘马尔可夫性’——即未来状态只依赖于当前状态和动作，与历史无关。普通用户需要了解它，因为它是强化学习、自动驾驶、推荐系统、游戏AI等智能决策技术的理论基石，帮助我们理解机器如何在复杂、动态世界中权衡短期代价与长期收益。",
+    "plain": "马尔可夫决策过程（MDP）是建模序贯决策问题的数学框架，用于描述智能体在不确定环境中通过动作最大化长期奖励。其核心是马尔可夫性，即未来状态仅依赖当前状态和动作。它是强化学习的理论基石，广泛应用于自动驾驶、推荐系统及游戏 AI 等领域，帮助机器在动态世界中权衡短期与长期收益。",
     "metaphor": "就像一位老练的棋手，每步只看当前棋盘局势和对手可能的回应，不纠结于之前走了多少步，却能步步为营通向胜利。",
     "example": "机器人在迷宫中导航时，将每个格子视为一个状态，上下左右移动为动作，撞墙受罚、到达出口得奖；MDP 帮助它计算出从任意起点出发的最优路径策略。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "强化学习",
+    "决策理论",
+    "人工智能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/马尔可夫决策过程",
+    "http://incompleteideas.net/book/the-book-2nd.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:26:44Z"
+  "updated_at": "2026-03-23T12:07:05.836941Z",
+  "quality_score": 0.95
 }

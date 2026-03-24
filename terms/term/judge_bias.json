@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 伦理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "judge_bias 指模型在生成判断、评估或决策类输出时，因训练数据偏差、算法设计缺陷或提示词引导而表现出的系统性倾向性，例如对特定群体、观点或结果的隐性偏好。普通用户需要了解它，因为这种偏差可能导致不公平的推荐、误判的风险评估或强化刻板印象，影响实际使用中的可信度与公正性，尤其在招聘、信贷、司法辅助等高敏感场景中尤为关键。",
+    "plain": "judge_bias 指模型在进行判断或决策时，因数据或算法缺陷表现出的系统性倾向。这种偏差可能导致不公平推荐或强化刻板印象，影响可信度与公正性。在招聘、信贷等高敏感场景中，识别此类偏差对确保 AI 系统的伦理合规与安全性至关重要，用户需警惕其潜在风险。",
     "metaphor": "就像一位长期只读某一类报纸的法官，在审理案件时会不自觉地用那套框架去理解所有证据，即使他自认为客观中立。",
     "example": "当AI系统被要求‘评估求职者是否适合领导岗位’时，若训练数据中高管多为男性，则模型可能给女性候选人的领导力评分系统性偏低，即使其简历条件相当。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "算法公平",
+    "风险控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developers.google.com/machine-learning/responsible-ai/bias",
+    "https://www.ibm.com/topics/ai-bias"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:46:43Z"
+  "updated_at": "2026-03-23T19:04:37.352746Z",
+  "quality_score": 0.95
 }

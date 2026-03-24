@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多智能体系统",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Mixture of Agents（MoA）是一种新兴的多智能体协同架构，它让多个轻量级、专业化的小型AI代理协同工作，通过加权聚合各自输出来生成最终响应，而非依赖单一巨型模型。与传统单一大模型不同，MoA能动态组合不同专长的代理（如推理型、检索型、校验型），提升答案准确性、鲁棒性和可解释性。普通用户需要了解它，因为它正推动AI系统变得更可靠、更透明、更少‘幻觉’，尤其在医疗咨询、法律辅助、编程调试等高风险场景中意义重大。",
+    "plain": "Mixture of Agents（MoA）是一种多智能体协同架构，通过组合多个轻量级专用代理协同工作，加权聚合输出以生成最终响应。相比单一巨型模型，MoA 动态组合不同专长代理，提升准确性、鲁棒性和可解释性，减少幻觉，适用于医疗、法律等高风险场景。",
     "metaphor": "就像一支由不同专科医生组成的会诊小组，每位医生快速给出独立诊断意见，再由首席医师综合权重后形成最终诊疗方案。",
     "example": "在编写Python代码时，一个MoA系统可能同时调用：检索代理从文档库找API示例、逻辑代理检查语法结构、安全代理扫描潜在漏洞，最后融合三者输出生成既正确又安全的代码片段。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多智能体协同",
+    "模型架构",
+    "高风险应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2406.04692"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:43:19Z"
+  "updated_at": "2026-03-23T18:49:18.137240Z",
+  "quality_score": 1.0
 }

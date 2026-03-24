@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "alignment（对齐）是计算机科学和人工智能中的核心概念，指不同数据、模型组件或系统行为在结构、语义或目标上保持一致与协调的过程。例如，在自然语言处理中，它可能要求词向量空间中的关系匹配人类语义（如'国王-男+女≈女王'）；在多模态模型中，需让图像特征与文本描述在共享空间中靠近。普通用户需要了解它，因为alignment质量直接决定AI是否理解真实意图、避免有害输出，影响助手的可靠性与安全性。",
+    "plain": "alignment（对齐）是 AI 安全核心概念，指模型目标与人类价值观保持一致的过程。技术上涉及数据语义匹配；应用上关乎避免有害输出。对齐质量决定 AI 是否理解真实意图，直接影响助手的可靠性与安全性。确保模型行为符合人类利益，是防止风险、提升信任的关键机制，也是当前大模型研发的重点方向。",
     "metaphor": "就像乐队指挥确保每位乐手按同一节拍、调性和情感演奏，alignment让AI的各个部分协同表达人类真正想要的意义。",
     "example": "当用户说‘把会议推迟到下周三’，一个对齐良好的日历助手不仅识别时间，还理解‘推迟’隐含原定时间、‘下周三’需结合当前日期计算，并自动更新所有相关参与者的日程。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 安全",
+    "大模型",
+    "基础理论"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/AI_alignment",
+    "https://openai.com/safety/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T03:31:29Z"
+  "updated_at": "2026-03-23T13:23:05.595188Z",
+  "quality_score": 0.95
 }

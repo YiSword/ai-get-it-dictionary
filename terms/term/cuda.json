@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "硬件加速",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CUDA（Compute Unified Device Architecture）是 NVIDIA 开发的并行计算平台和编程模型，允许开发者使用 C/C++、Python 等语言直接调用 GPU 的数千个核心执行大规模并行任务。它不是简单的图形加速技术，而是将 GPU 转变为通用高性能计算引擎。普通用户虽不直接编写 CUDA 代码，但其日常使用的 AI 应用（如照片增强、语音助手、游戏实时渲染）、科学计算软件乃至现代深度学习框架（如 PyTorch、TensorFlow）底层都高度依赖 CUDA 加速，因此了解它有助于理解为什么某些任务在配备 NVIDIA GPU 的设备上快得多。",
+    "plain": "CUDA 是 NVIDIA 开发的并行计算平台和编程模型，旨在将 GPU 转化为通用计算引擎。它允许开发者通过 C/C++ 等语言直接调用 GPU 核心进行大规模并行处理。虽然普通用户不直接编写 CUDA 代码，但 PyTorch、TensorFlow 等主流深度学习框架底层高度依赖它。它是实现 AI 模型高效训练与推理的关键基础设施。",
     "metaphor": "CUDA 就像给 GPU 配备了一本详细的操作手册和一支训练有素的工人队伍，让原本只擅长画图的‘美术生’（GPU）也能高效完成海量数学题、数据筛选等通用计算工作。",
     "example": "当使用 Stable Diffusion 生成一张 AI 图像时，其背后的神经网络推理过程由 CUDA 调度，在 NVIDIA 显卡上并行运行数万个计算线程，将原本需数分钟的运算压缩至几秒钟。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "GPU 计算",
+    "深度学习",
+    "模型训练"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developer.nvidia.com/cuda-zone"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:07:32Z"
+  "updated_at": "2026-03-23T15:38:15.347366Z",
+  "quality_score": 0.95
 }

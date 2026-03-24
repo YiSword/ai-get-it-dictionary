@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "attention_sink 是一种在长上下文语言模型推理中使用的缓存优化技术，通过将早期、低信息量的 token（如开头的冗余描述或重复前缀）压缩为少量代表性向量并冻结其梯度更新，从而节省显存和计算开销。它不丢弃上下文，而是‘沉淀’不活跃注意力权重，使模型能更高效地处理超长文本。普通用户需要了解它，因为该技术直接影响大模型在文档摘要、法律分析或代码长链推理等实际任务中的响应速度、成本与可用长度。",
+    "plain": "Attention Sink 是大模型注意力机制中的一种现象，指注意力分数倾向于聚集在初始少数 token 上。基于此发现，优化技术可安全移除中间历史 token 而保留初始 sink 向量，从而实现无限长度生成并大幅降低显存与计算开销。该技术显著提升了长上下文任务中的推理效率与可用性。",
     "metaphor": "就像图书馆把多年未借阅的旧书压缩成微缩胶片存档——既保留全部内容，又腾出大量书架空间供新书流通。",
     "example": "当用户上传一份100页的技术白皮书让模型逐段总结时，attention_sink 会将前20页的标准引言和术语定义压缩为固定记忆槽，后续推理只动态更新最后30页的关键分析段落。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "长上下文",
+    "推理优化",
+    "显存管理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2309.17453"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:46:13Z"
+  "updated_at": "2026-03-23T10:05:01.719756Z",
+  "quality_score": 0.95
 }

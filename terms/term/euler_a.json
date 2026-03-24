@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器人技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "euler_a 通常指欧拉角（Euler angles）中的绕 X 轴旋转的角度（即 roll 或 alpha），用于描述三维空间中刚体的姿态。它与 euler_b（pitch/beta）、euler_c（yaw/gamma）共同构成一组三自由度旋转参数，在机器人、无人机、计算机图形学和姿态传感器（如IMU）中被广泛使用。普通用户虽不直接操作该参数，但在使用AR应用、飞行控制器或3D建模软件时，其底层姿态解算和动画控制往往依赖于 euler_a 的准确表达与转换。",
+    "plain": "euler_a 通常代表欧拉角序列中的第一个角度（如绕 X 轴的 Roll 角或 Alpha 角）。它与 euler_b、euler_c 共同描述三维刚体姿态，广泛应用于机器人、无人机及计算机图形学领域。该参数是姿态解算、飞行控制及 3D 动画底层的核心变量，用于精确表达物体在空间中的旋转状态。",
     "metaphor": "就像转动方向盘时汽车前轮绕自身轴倾斜的角度——它不改变车头朝向，但决定了车身是否向左或向右‘歪’。",
     "example": "在无人机遥控APP的姿态显示界面中，euler_a 数值为 -15° 表示机身正向右倾斜15度；飞控系统据此实时调整电机转速以恢复水平。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "机器人",
+    "无人机",
+    "三维图形"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Euler_angles"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:52:12Z",
-  "updated_at": "2026-03-21T06:13:09Z"
+  "updated_at": "2026-03-23T14:05:04.676569Z",
+  "quality_score": 1.0
 }

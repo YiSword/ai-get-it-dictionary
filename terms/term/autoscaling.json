@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Autoscaling（自动扩缩容）是一种根据实时负载动态调整计算资源（如服务器实例数量或CPU内存配额）的技术，常见于云平台。它让系统在流量高峰时自动增加资源以保障性能和可用性，在低谷时自动缩减资源以节省成本。普通用户需要了解它，因为这直接影响应用的稳定性、响应速度和使用成本——例如电商大促期间网站不崩溃，或个人博客在无人访问时不会持续产生高额账单。",
+    "plain": "Autoscaling（自动扩缩容）是云计算中根据实时负载动态调整计算资源的技术。它在流量高峰时自动增加资源保障性能，低谷时缩减资源节省成本。这直接影响应用稳定性、响应速度和使用成本，例如电商大促期间网站不崩溃，或无人访问时不产生高额账单。",
     "metaphor": "就像一家餐厅根据门口排队人数自动增减服务员和开放包厢：人多时立刻叫来帮手、打开新桌，人少时让部分员工休息、关闭闲置区域。",
     "example": "某新闻网站在突发热点事件引发流量激增时，其后端服务通过autoscaling在2分钟内将API服务器从3台扩展至12台，避免了用户请求超时；待热度下降后，又自动缩容回原配置。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "运维管理",
+    "成本优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/autoscaling/",
+    "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:52:17Z"
+  "updated_at": "2026-03-23T11:25:04.184487Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AIGC 应用",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Jukedeck 是一家英国人工智能音乐初创公司（2012–2018），曾开发基于AI的自动作曲平台，允许用户通过选择情绪、节奏、乐器和时长等参数，几秒内生成无版权争议的原创背景音乐。它面向内容创作者、视频博主、广告制作者等非专业音乐人，解决了传统授权音乐成本高、流程繁琐、存在侵权风险等问题。尽管该公司已于2018年被Adobe收购并逐步关停服务，但其技术理念推动了AI生成音乐的普及，是理解当前AIGC音乐工具（如Suno、Udio）发展脉络的重要起点。",
+    "plain": "Jukedeck 是英国 AI 音乐初创公司（2012–2018），开发基于 AI 的自动作曲平台。用户可通过选择情绪、节奏等参数，秒级生成无版权原创背景音乐，面向内容创作者解决授权成本高及侵权风险。2018 年被 Adobe 收购后关停，其技术理念推动了 AI 生成音乐普及，是理解当前 AIGC 音乐工具发展脉络的重要起点。",
     "metaphor": "就像一位不知疲倦的私人作曲家，你只需告诉它‘想要一段轻松愉快、带点钢琴的30秒短视频配乐’，它立刻为你写好并交付。",
     "example": "一位YouTube新手在剪辑旅行Vlog时，用Jukedeck输入‘欢快、中速、吉他为主、45秒’，生成了一段专属BGM，并直接下载嵌入视频，全程无需担心版权限制。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "音乐生成",
+    "内容创作",
+    "AIGC 工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.jukedeck.com/",
+    "https://en.wikipedia.org/wiki/Jukedeck"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:43:25Z",
-  "updated_at": "2026-03-21T07:47:30Z"
+  "updated_at": "2026-03-23T13:53:46.811176Z",
+  "quality_score": 0.95
 }

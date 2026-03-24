@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "计算机科学",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Overlap 指两个或多个元素在时间、空间、功能或内容上存在共同部分的现象。它常见于日程安排、图像处理、信号分析、编程（如数组切片）、机器学习（如滑动窗口）等领域。普通用户需要理解 overlap，因为它直接影响任务效率与结果准确性——例如，重复预订会议可能引发冲突，而忽略图像处理中的重叠区域则可能导致拼接痕迹明显。识别和控制 overlap 是避免冗余、确保连续性与提升质量的关键。",
+    "plain": "Overlap 指多个元素在时间、空间或内容上存在共同部分的现象。广泛应用于日程管理、图像处理、信号分析及机器学习滑动窗口等场景。理解该概念有助于避免任务冲突、减少数据冗余并确保处理连续性。例如，目标检测中的重叠度影响评估准确性，会议时间重叠则引发调度冲突。有效控制重叠是提升系统效率与结果质量的关键。",
     "metaphor": "就像两块相邻的瓦片在屋顶上略微交叠，既防止雨水从缝隙渗入，又保证整体覆盖无缝衔接。",
     "example": "在视频剪辑软件中，将两个片段设置 0.5 秒的 overlap，可实现声音淡出与淡入的自然过渡，避免音频突兀中断。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "机器学习",
+    "数据处理",
+    "任务调度"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Overlap",
+    "https://www.techtarget.com/searchdefinition/definition/overlap"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:35:26Z",
-  "updated_at": "2026-03-21T09:03:25Z"
+  "updated_at": "2026-03-23T17:45:02.176732Z",
+  "quality_score": 0.95
 }

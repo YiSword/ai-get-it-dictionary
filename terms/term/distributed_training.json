@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "distributed_training（分布式训练）是指将机器学习模型的训练任务拆分到多个计算设备（如多台服务器或同一台机器上的多个GPU）上并行执行的技术。它通过数据并行、模型并行或流水线并行等方式，显著缩短大规模模型的训练时间，并支持超出单设备内存限制的超大模型。普通用户需要了解它，因为现代AI应用（如智能助手、图像生成）背后依赖的模型往往只能通过分布式训练实现，理解该术语有助于评估技术方案的可行性、资源需求及开发门槛。",
+    "plain": "分布式训练是将模型训练任务拆分到多个计算设备（如多 GPU 或服务器）并行执行的技术。通过数据并行、模型并行等方式，显著缩短训练时间并支持超大模型训练。它是现代大模型开发的基础设施，直接影响资源需求与开发效率。理解该术语有助于评估技术方案可行性。",
     "metaphor": "就像几十位建筑师同时绘制一栋摩天大楼的不同楼层和结构模块，再统一组装，而不是让一个人从头画到尾。",
     "example": "OpenAI训练GPT-3时使用了数千块GPU组成的分布式集群，将海量文本数据切分后并行处理，使原本需数月的训练压缩至数周。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "深度学习",
+    "基础设施"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/tutorials/beginner/dist_overview.html",
+    "https://www.tensorflow.org/guide/distributed_training"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:44:21Z"
+  "updated_at": "2026-03-23T17:03:37.040418Z",
+  "quality_score": 0.95
 }

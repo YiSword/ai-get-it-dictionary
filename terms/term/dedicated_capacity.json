@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "dedicated_capacity（专用容量）指为特定用户、应用或工作负载预留且独占使用的计算、存储或网络资源，不与其他租户共享。它保障性能稳定、延迟可预测，并满足合规性与安全性要求。普通用户需要了解这一概念，因为当业务对稳定性、数据隔离或服务等级协议（SLA）有较高要求时（如金融交易系统或实时分析平台），选择专用容量而非共享资源可能直接影响系统可靠性与用户体验。",
+    "plain": "专用容量指为特定用户或工作负载独占预留的计算、存储或网络资源，不与多租户共享。它能保障性能稳定、延迟可预测，并满足高合规性与安全性要求。适用于对稳定性、数据隔离或 SLA 有严格要求的场景，如金融交易系统或实时分析平台，选择专用容量可显著提升系统可靠性与用户体验。",
     "metaphor": "就像租用一栋整栋办公楼供自己公司独享，而不是在联合办公空间里和其他公司共用同一层楼。",
     "example": "某银行在其云环境中部署核心支付系统时，采购了专用的数据库实例容量，确保高并发交易下响应时间始终低于50毫秒，且不受其他客户工作负载波动的影响。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "资源管理",
+    "资源隔离",
+    "性能保障"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/ec2/dedicated-hosts/",
+    "https://learn.microsoft.com/azure/virtual-machines/dedicated-hosts"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:20:10Z"
+  "updated_at": "2026-03-23T15:29:33.426459Z",
+  "quality_score": 0.95
 }

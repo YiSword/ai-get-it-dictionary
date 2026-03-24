@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "基础概念",
   "difficulty": "中级",
   "explanations": {
-    "plain": "‘Yi’（亿）是中文数字单位，代表10^8，即一后面跟着八个零（100,000,000）。它常用于表达大规模数量，如人口、GDP、企业营收或数据量，在中文语境中比直接使用‘100 million’更自然、简洁。普通用户需要理解‘yi’，因为日常新闻、财经报道、政府公告和科技产品参数（如‘用户破十亿’‘存储容量达五亿条记录’）频繁使用该单位；误读可能导致数量级误解，例如将‘两亿’错当成‘两百万’，造成对规模的严重低估。",
+    "plain": "‘亿’（yi）是中文数字单位，代表 10^8（100,000,000）。常用于人口、GDP、数据量等大规模数量表达。在中文语境中比'100 million'更简洁。理解该单位可避免数量级误解，如将‘两亿’错当成‘两百万’。日常新闻、财经及科技参数中频繁使用，是中文数值理解的基础。",
     "metaphor": "就像‘打’之于鸡蛋（一打=12个），‘亿’是中文里专为‘一亿个东西’而设的计量打包单位——不是零散计数，而是整箱搬运。",
     "example": "中国互联网用户规模在2023年已超过十亿人；某短视频平台宣布其累计上传视频总量突破三亿条。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数值理解",
+    "中文处理",
+    "数据规模"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://baike.baidu.com/item/亿/3998",
+    "https://zh.wikipedia.org/wiki/億"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:30:22Z"
+  "updated_at": "2026-03-23T16:27:37.809386Z",
+  "quality_score": 1.0
 }

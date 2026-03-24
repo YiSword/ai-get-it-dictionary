@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "软件开发",
   "difficulty": "中级",
   "explanations": {
-    "plain": "computer_use_api 指计算机系统或软件通过预定义的接口（API，Application Programming Interface）调用其他程序、服务或硬件功能的行为。它让不同软件组件无需了解内部实现即可安全、标准化地交换数据或触发操作。普通用户虽不直接编写代码，但日常使用的应用——如微信登录第三方网站、手机天气App获取气象数据——背后都依赖此类API调用；理解它有助于识别功能依赖关系、评估隐私风险（如某App为何需要读取通讯录），并更理性地判断软件权限请求的合理性。",
+    "plain": "计算机通过预定义接口（API）调用外部服务或硬件的行为。它使软件组件无需了解内部实现即可安全交换数据。用户日常使用的应用登录、数据获取均依赖此机制。理解它有助于识别功能依赖、评估隐私风险及判断权限请求合理性，是系统集成与数据安全的基础概念。",
     "metaphor": "就像餐厅里顾客不进厨房，而是通过菜单点单、由服务员将需求传达给厨师，API就是那张菜单和传话的服务员。",
     "example": "当你在电商App中点击‘用微信支付’，该App通过微信提供的支付API向微信客户端发起请求，微信弹出确认界面并完成扣款，整个过程双方无需共享源代码或底层逻辑。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "接口调用",
+    "权限管理",
+    "系统集成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developer.mozilla.org/zh-CN/docs/Glossary/API",
+    "https://aws.amazon.com/what-is/api/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T04:47:17Z"
+  "updated_at": "2026-03-23T15:30:31.313818Z",
+  "quality_score": 0.95
 }

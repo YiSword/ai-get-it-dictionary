@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "文档智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "document_parsing 是指将原始文档（如 PDF、Word、HTML 或扫描图像）中的内容结构化处理，提取出文字、标题、表格、列表等语义元素，并转换为机器可读、可编程操作的数据格式（如 JSON 或 XML）。普通用户需要了解它，是因为日常使用的搜索、文档比对、合同审查、简历筛选等功能背后都依赖这一技术——它决定了信息能否被准确识别和有效利用，而非仅作为不可编辑的图片或杂乱文本存在。",
+    "plain": "document_parsing 是将 PDF、Word 等非结构化文档转换为机器可读格式（如 JSON）的技术。它提取文字、表格等语义元素，支撑搜索、合同审查等应用。该技术确保信息能被准确识别和利用，是将杂乱文本转化为可用数据的关键步骤。",
     "metaphor": "就像一位精通多国语言且细心的图书管理员，不仅把一摞混装的书籍拆开，还按章节、作者、关键词逐一分类贴标，让后续查找变得精准高效。",
     "example": "当 HR 系统自动从上百份 PDF 简历中提取姓名、工作年限和技能关键词并填入数据库时，背后正是 document_parsing 在解析非结构化文档内容。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据预处理",
+    "信息提取",
+    "知识库构建"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview",
+    "https://docs.langchain.com/docs/components/document_loaders"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T05:45:43Z"
+  "updated_at": "2026-03-23T15:27:52.877443Z",
+  "quality_score": 0.95
 }

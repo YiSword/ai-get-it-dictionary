@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "本地部署",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GPT4All 是一个开源、本地运行的大语言模型生态系统，允许用户在个人电脑（甚至低配设备）上免费下载并运行类ChatGPT的AI助手，无需联网或依赖云服务。它强调隐私保护、离线可用和硬件兼容性，支持Windows、macOS和Linux。普通用户需要知道它，是因为它提供了一种安全、自主、零订阅费的方式体验AI对话与内容生成，尤其适合关注数据隐私、网络受限或希望完全掌控AI使用环境的人。",
+    "plain": "GPT4All 是一个开源的本地大语言模型生态系统。它允许用户在个人电脑上离线运行类 ChatGPT 助手，无需联网或云服务。支持 Windows、macOS 和 Linux，强调隐私保护与硬件兼容性。适合关注数据隐私、希望零订阅费且完全掌控 AI 环境的用户，提供安全自主的对话与内容生成体验。",
     "metaphor": "就像在自家厨房里装了一台不插电也能工作的智能料理机——所有食材（输入）和烹饪过程（推理）都在你眼皮底下完成，不用把菜谱发给餐厅后台处理。",
     "example": "一位教师在没有稳定网络的乡村学校，用GPT4All在旧笔记本电脑上本地运行模型，实时为学生生成数学练习题和批改反馈，全程不上传任何学生数据。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "隐私保护",
+    "离线使用",
+    "开源软件"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://gpt4all.io/",
+    "https://github.com/nomic-ai/gpt4all"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:52:59Z"
+  "updated_at": "2026-03-23T11:37:03.412809Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "字典学习（Dictionary Learning）是一种无监督机器学习方法，旨在从原始数据中自动学习一组简洁、可复用的基础元素（称为‘原子’或‘字典项’），使得数据能被稀疏地表示为这些原子的线性组合。它不依赖预设模型，而是让数据本身‘告诉’我们什么是最有效的表达方式。普通用户需要了解它，因为它是图像去噪、压缩、人脸识别和语音分离等实际应用背后的关键技术，直接影响手机拍照降噪效果或语音助手识别准确率。",
+    "plain": "字典学习是一种无监督学习方法，旨在从数据中自动学习一组基础元素（原子），使数据能被稀疏地表示为这些原子的线性组合。它不依赖预设模型，让数据自身决定最有效的表达方式。该技术广泛应用于图像去噪、压缩、人脸识别和语音分离等领域，是影响手机拍照降噪及语音助手识别准确率的关键算法之一。",
     "metaphor": "就像画家摸索属于自己的调色盘——不是直接使用商店里固定的12色颜料，而是反复试验，提炼出最能还原万千风景的8种核心色调。",
     "example": "在医学影像处理中，字典学习被用于MRI重建：从少量欠采样的扫描数据中学习患者特异性的图像结构字典，从而高保真地恢复完整高清图像，大幅缩短扫描时间。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "无监督学习",
+    "图像处理",
+    "特征提取"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://scikit-learn.org/stable/modules/decomposition.html#dictionary-learning",
+    "https://en.wikipedia.org/wiki/Dictionary_learning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:39:37Z"
+  "updated_at": "2026-03-23T17:26:37.495156Z",
+  "quality_score": 0.95
 }

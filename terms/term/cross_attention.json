@@ -5,23 +5,27 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "注意力机制",
   "difficulty": "中级",
   "explanations": {
-    "plain": "cross_attention 是一种注意力机制，用于让一个序列（如文本）在处理过程中有选择地关注另一个不同序列（如图像或语音）的关键信息。它不同于自注意力（只关注自身序列内部关系），而是建立两个独立序列之间的动态关联。普通用户需要了解它，因为它是多模态AI（如看图说话、语音翻译、图文生成）的核心技术，直接影响模型能否准确理解并融合不同类型的信息。",
+    "plain": "Cross Attention 是一种注意力机制，使一个序列（如文本）能有选择地关注另一个不同序列（如图像）的关键信息。不同于自注意力，它建立两个独立序列间的动态关联。作为多模态 AI（如图文生成、语音翻译）的核心技术，它直接决定模型融合不同类型信息的能力，是实现跨模态理解的关键组件。",
     "metaphor": "就像一位双语同声传译员，一边听中文发言，一边实时扫描投影上的英文PPT，只聚焦于与当前讲话内容最相关的那几行文字来组织译文。",
     "example": "在图像描述生成任务中，模型通过 cross_attention 让文本解码器在生成每个词时，动态聚焦于输入图片中对应的视觉区域（例如生成‘狗’时重点关注画面中的犬类物体）。",
     "technical_note": "该机制通常由查询（Query）来自目标序列，键（Key）和值（Value）来自源序列，经缩放点积计算后加权聚合源信息。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态",
+    "深度学习",
+    "模型架构"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/glossary#cross-attention",
+    "https://arxiv.org/abs/1706.03762"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:05:24Z"
+  "updated_at": "2026-03-23T18:30:03.319549Z",
+  "quality_score": 0.95
 }

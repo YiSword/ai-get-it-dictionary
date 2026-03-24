@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成控制",
   "difficulty": "中级",
   "explanations": {
-    "plain": "seed_thinking 是一种在人工智能生成过程中，通过固定随机种子（seed）来确保输出可复现的思维方式或实践方法。它强调对生成结果的可控性与可验证性——当输入、模型和 seed 都相同时，AI 每次都会产生完全相同的输出。普通用户需要了解它，是因为在调试提示词、对比模型行为、协作复现结果或进行内容审核时，缺乏 seed 控制会导致结果飘忽不定，难以归因和迭代。",
+    "plain": "seed_thinking 是一种通过固定随机种子确保 AI 生成结果可复现的实践方法。当输入、模型参数及种子值一致时，输出将完全相同。该方法强调生成的可控性与可验证性，适用于提示词调试、模型行为对比及协作场景。缺乏种子控制会导致结果随机波动，难以归因迭代，是保障内容稳定性的重要手段。",
     "metaphor": "就像用同一把刻刀、同一块木料、同一份图纸雕刻，seed_thinking 确保每次‘雕’出的细节分毫不差。",
     "example": "一位设计师用文本生成图像工具反复优化海报文案配图，通过固定 seed 值，她能准确对比不同提示词微调带来的视觉变化，而不被随机性干扰。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型调试",
+    "生成控制",
+    "实验复现"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/main_classes/text_generation"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:40:59Z"
+  "updated_at": "2026-03-23T11:19:59.941894Z",
+  "quality_score": 0.9
 }

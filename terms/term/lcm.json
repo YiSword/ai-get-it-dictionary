@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数学",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LCM（Least Common Multiple，最小公倍数）是指两个或多个整数共有的倍数中最小的那个正整数。例如，6和8的公倍数有24、48、72……，其中最小的是24，因此LCM(6,8)=24。普通用户需要了解LCM，因为它在日常计算中频繁出现，比如安排周期性事件（如公交发车间隔、服药时间）、分数通分、工程排程或同步多任务节奏时，能帮助找到最短的共同周期，避免重复计算或资源浪费。",
+    "plain": "LCM（Least Common Multiple，最小公倍数）指两个或多个整数共有的倍数中最小的正整数。例如 6 和 8 的最小公倍数是 24。该概念常用于分数通分、周期事件同步及工程排程，帮助确定最短共同周期，是基础算术与数论中的核心概念，广泛应用于计算与算法领域。",
     "metaphor": "就像两个不同节奏的鼓手，一个每3拍敲一次，另一个每4拍敲一次，他们第一次同时敲击的时刻，就是3和4的最小公倍数——第12拍。",
     "example": "小明每6天浇一次花，小红每8天浇一次花；若两人今天一起浇水，下一次共同浇水的日子是24天后，因为LCM(6,8)=24。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "基础数学",
+    "算术运算",
+    "算法基础"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Least_common_multiple"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:04:09Z",
-  "updated_at": "2026-03-21T08:04:42Z"
+  "updated_at": "2026-03-23T18:55:38.951441Z",
+  "quality_score": 0.95
 }

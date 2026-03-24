@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据管理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "数据治理（data_governance）是指组织为确保数据的可用性、完整性、一致性、安全性和合规性而建立的一套政策、流程、角色和标准体系。它涵盖数据质量管控、元数据管理、数据隐私保护、访问权限控制以及数据生命周期管理等内容。普通用户需要了解它，因为日常工作中处理的数据（如客户信息、报表、共享文档）是否准确、可信、合法，直接受数据治理水平影响；若缺乏有效治理，可能导致决策失误、隐私泄露或合规风险。",
+    "plain": "数据治理是组织为确保数据可用性、完整性、安全性和合规性建立的政策、流程及标准体系。涵盖数据质量、元数据、隐私保护及生命周期管理。有效治理能保障数据准确可信，避免决策失误与合规风险，是企业数据资产管理的核心基础。",
     "metaphor": "就像城市交通管理系统——红绿灯规则、道路标线、交警执法共同保障车辆有序通行，数据治理则是为数据流动设定规则、责任与监督机制，防止‘数据拥堵’‘数据事故’和‘数据违章’。",
     "example": "某银行上线新信贷系统前，通过数据治理委员会明确客户身份证号字段的采集标准、脱敏规则和访问权限，确保不同部门调用时数据一致且符合《个人信息保护法》要求。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据管理",
+    "信息安全",
+    "合规审计"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.dama.org/",
+    "https://www.gartner.com/en/information-technology/glossary/data-governance"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:13:11Z"
+  "updated_at": "2026-03-23T13:00:32.055878Z",
+  "quality_score": 0.95
 }

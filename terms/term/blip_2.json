@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Blip-2 是一种多模态人工智能模型，由 Salesforce 研究团队于 2023 年提出，专为图像理解与文本生成任务设计。它无需大量标注图像-文本对即可通过‘冻结’的视觉编码器（如 ViT）和轻量级 Q-Former 模块高效对齐视觉与语言特征，显著降低训练成本。普通用户需要了解它，是因为它是推动手机相册智能描述、无障碍图像解说、低资源场景图文检索等实用功能背后的关键技术之一，代表了轻量化多模态AI的发展方向。",
+    "plain": "BLIP-2 是 Salesforce 研发的多模态模型，专注于图像理解与文本生成。它利用冻结视觉编码器与轻量级 Q-Former 模块，高效对齐视觉与语言特征，大幅降低训练成本。作为轻量化多模态 AI 的代表，它广泛应用于智能相册描述、无障碍图像解说及图文检索场景。",
     "metaphor": "就像一位精通速写的翻译家——不用逐字背诵所有外语词典，仅凭快速观察图画并调用已有语言经验，就能即时给出准确又自然的描述。",
     "example": "当你在某款支持 Blip-2 的相册App中上传一张未加标签的家庭聚餐照片，系统几秒内自动生成描述：‘厨房里三位成年人围坐在木桌旁笑着举杯，桌上摆着蛋糕和红酒。’"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像理解",
+    "多模态检索",
+    "内容生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2301.12597",
+    "https://github.com/salesforce/LAVIS"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:10:34Z"
+  "updated_at": "2026-03-23T12:44:31.316657Z",
+  "quality_score": 0.95
 }

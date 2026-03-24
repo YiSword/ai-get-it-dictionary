@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "向量检索",
   "difficulty": "中级",
   "explanations": {
-    "plain": "HNSW（Hierarchical Navigable Small World）是一种用于高效近似最近邻搜索的图索引结构，特别适用于高维向量空间。它通过构建多层稀疏图，使搜索能在对数级时间内完成，显著快于暴力搜索。普通用户虽不直接接触它，但在使用图像检索、推荐系统、语义搜索或大语言模型的向量数据库时，背后往往依赖HNSW加速相似内容查找——这意味着更快响应、更低延迟和更流畅的体验。",
+    "plain": "HNSW（Hierarchical Navigable Small World）是高效近似最近邻搜索算法，专为高维向量设计。通过多层导航图实现对数级搜索，远超暴力搜索。广泛应用于图像检索、推荐系统及向量数据库，显著降低延迟，提升查找效率，是支撑 AI 语义搜索的核心索引技术。",
     "metaphor": "就像一座城市的分层导航系统：顶层是高速公路网（快速跨区域），中层是主干道，底层是小巷（精确抵达），你无需走遍每条街，就能用最少转弯找到目的地。",
     "example": "当在电商平台搜索‘类似这件蓝色连衣裙’时，系统将图片转为向量，并利用HNSW索引在千万级商品向量库中毫秒内召回视觉最相似的款式。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "向量检索",
+    "相似性搜索",
+    "索引算法"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1603.09320"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:12:42Z"
+  "updated_at": "2026-03-23T17:42:49.232503Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Mistral 是一家法国人工智能公司，专注于研发开源大语言模型（如 Mistral 7B、Mixtral 8x7B），以高性能、高效率和宽松的开源许可（如 Apache 2.0）著称。其模型在推理速度、多语言支持和本地部署能力上表现突出，普通用户需要了解它，是因为它提供了可免费商用、无需依赖云服务、能在消费级显卡上运行的高质量AI工具，降低了使用先进AI技术的门槛。",
+    "plain": "Mistral 是法国 AI 公司，主打开源大语言模型（如 Mistral 7B、Mixtral）。其模型以高性能、高效率及宽松许可（如 Apache 2.0）著称，支持多语言且适合本地部署。用户可通过消费级显卡运行其模型，实现免费商用且无需依赖云服务，显著降低了先进 AI 技术的使用门槛，是开源社区的重要选择。",
     "metaphor": "Mistral 就像一位精通多国语言、反应敏捷且乐于分享笔记的顶尖翻译兼顾问——不收中介费，还把工作手册公开给你，让你自己在家就能搭起专业级的智能助手。",
     "example": "一名独立开发者用一台配备 RTX 3090 的笔记本电脑，本地运行 Mistral 7B 模型，为小众语言博客自动生成摘要和多语种标题，全程离线、零API费用。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "开源模型",
+    "本地部署",
+    "生成式 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://mistral.ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:42:13Z"
+  "updated_at": "2026-03-23T15:56:07.496935Z",
+  "quality_score": 0.95
 }

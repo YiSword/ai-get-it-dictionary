@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "int8 是一种整数数据类型，表示用 8 位二进制数存储的有符号整数，取值范围为 -128 到 127。它比常见的 int32 或 int64 占用更少内存（仅 1 字节），在资源受限的场景（如嵌入式设备、移动应用或大模型推理）中能显著降低内存带宽和功耗。普通用户虽不直接编码使用，但在使用轻量级 AI 应用、智能摄像头、语音助手等依赖高效计算的工具时，背后常由 int8 运算加速，影响响应速度与电池续航。",
+    "plain": "int8 是一种 8 位有符号整数数据类型，取值范围 -128 至 127。相比 int32/64，它仅占 1 字节，能显著降低内存占用与带宽消耗。在 AI 领域，int8 量化技术广泛用于大模型推理，通过降低计算精度换取更高的运算速度与能效，常见于嵌入式设备、移动端及云端推理场景，有效延长电池续航并提升响应速度。",
     "metaphor": "就像用一张只印着 0–99 的简版温度计代替标准刻度尺——精度有限但轻便快捷，适合不需要毫米级读数、却要快速批量测温的场景。",
     "example": "手机上的人脸识别功能常将原始图像像素从 float32 量化为 int8 进行神经网络推理，使识别速度提升 2–3 倍且功耗降低约 40%。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型量化",
+    "推理加速",
+    "边缘计算"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developer.nvidia.com/blog/maximizing-gpu-performance-with-int8-precision/",
+    "https://pytorch.org/docs/stable/quantization.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:35:52Z"
+  "updated_at": "2026-03-23T13:42:29.556503Z",
+  "quality_score": 0.95
 }

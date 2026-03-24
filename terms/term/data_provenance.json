@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据治理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "data_provenance（数据溯源）是指记录和追踪数据从产生、处理、转换到最终使用的完整历史路径，包括来源系统、操作人员、时间戳、所用算法及中间变更等关键信息。它帮助确保数据可信、可审计、可复现，对发现错误、追责问题、满足合规要求（如GDPR或医疗数据监管）至关重要。普通用户虽不直接操作溯源系统，但在使用依赖数据的公共服务（如健康码、信贷评分、新闻推荐）时，其决策质量与公平性背后都依赖于可靠的数据溯源机制。",
+    "plain": "数据溯源（data_provenance）指记录数据从产生到使用的全生命周期历史，包括来源、处理过程、变更及责任人。它确保数据可信、可审计且可复现，是满足 GDPR 等合规要求的关键。在 AI 模型训练及公共服务中，溯源机制保障了决策的公平性与透明度，帮助定位错误并明确责任归属。",
     "metaphor": "就像食品包装上的‘产地+加工流水线+质检记录’标签，数据溯源是数据的‘出生证+成长日记+体检报告’三合一档案。",
     "example": "某医院AI辅助诊断系统输出异常结果，通过数据溯源快速定位到问题源于三个月前某次影像预处理脚本中未校准的灰度归一化参数，而非原始CT设备故障。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据治理",
+    "合规审计",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.w3.org/TR/prov-overview/",
+    "https://www.ibm.com/topics/data-provenance"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:15:08Z"
+  "updated_at": "2026-03-23T18:44:25.818664Z",
+  "quality_score": 0.95
 }

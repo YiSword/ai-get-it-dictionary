@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "learned_positional_embedding 是一种在 Transformer 类模型中用于编码序列中词元位置信息的可训练向量表示。与固定公式生成的位置编码（如正弦余弦函数）不同，它作为模型参数被端到端学习，能更灵活地适配特定任务对位置关系的建模需求。普通用户虽不直接操作它，但理解其存在有助于明白为何大语言模型能区分‘猫追狗’和‘狗追猫’这类依赖顺序的语义差异，是模型理解语言结构的关键隐式机制之一。",
+    "plain": "learned_positional_embedding 是 Transformer 中编码序列位置的可训练向量。相比固定公式编码，它作为参数端到端学习，更灵活适配任务。它是模型理解语言顺序的关键，使模型能区分依赖词序的语义差异，确保结构信息被有效捕捉。",
     "metaphor": "就像图书馆给每本书分配一个可调整的、带编号的专属书签，这个编号不是刻死的，而是根据借阅习惯不断优化，让图书管理员（模型）更快定位上下文中的关键信息。",
     "example": "在训练一个中文文本摘要模型时，模型通过 learned_positional_embedding 自动发现句首名词更可能为摘要主语，从而提升生成摘要的准确性。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "Transformer",
+    "自然语言处理",
+    "模型组件"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1706.03762",
+    "https://arxiv.org/abs/1810.04805"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:05:29Z"
+  "updated_at": "2026-03-23T17:18:08.378914Z",
+  "quality_score": 0.95
 }

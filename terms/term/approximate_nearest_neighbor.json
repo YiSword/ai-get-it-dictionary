@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "算法",
   "difficulty": "中级",
   "explanations": {
-    "plain": "approximate_nearest_neighbor（近似最近邻）是一种在高维空间中快速查找与目标点‘最相似’但不保证绝对最优的候选点的算法技术。它牺牲少量精度换取显著的速度和内存优势，尤其适用于海量数据（如图像、文本、用户行为向量）的实时检索场景。普通用户虽不直接调用该术语，但在使用照片搜索、商品推荐、语音识别或社交网络‘可能认识的人’等功能时，其背后往往依赖此类技术实现毫秒级响应。",
+    "plain": "近似最近邻（ANN）是在高维空间中快速查找相似点的算法技术。它牺牲少量精度换取显著的速度与内存优势，适用于海量数据实时检索。常见于照片搜索、商品推荐及语音识别等场景，支撑毫秒级响应，是向量数据库的核心技术之一。",
     "metaphor": "就像在图书馆里找一本风格最接近你刚读完小说的书——图书管理员不翻遍全部藏书，而是根据分类和封面快速挑出几本高度可能的候选，再让你从中挑选。",
     "example": "抖音推荐系统在接收到用户当前观看视频的嵌入向量后，通过近似最近邻搜索，在亿级视频向量库中毫秒内召回数百个视觉或语义最相近的候选视频，再交由排序模型精排。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "向量检索",
+    "推荐系统",
+    "图像搜索"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Nearest_neighbor_search",
+    "https://github.com/facebookresearch/faiss"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:40:27Z"
+  "updated_at": "2026-03-23T11:16:05.018028Z",
+  "quality_score": 0.95
 }

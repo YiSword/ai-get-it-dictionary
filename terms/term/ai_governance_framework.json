@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "ai_governance_framework",
+  "norm_term": "ai_governance_framework",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "framework",
+  "category": "AI 治理",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "AI 治理框架是指导组织负责任地开发、部署和监控人工智能系统的管理体系。它解决伦理风险、法律合规、数据安全及算法公平性问题，确保技术可控。包含原则制定、风险评估与审计机制，帮助企业规避危机并建立信任，是数字化转型的基础设施。",
+    "metaphor": "就像建造高楼需要建筑规范和安全监理一样，AI 治理框架是人工智能发展的“交通规则”与“安全监理”。它不直接造车，但规定车怎么开、谁来开、出事谁负责，确保道路上的每辆车都安全行驶，不会横冲直撞伤害行人。",
+    "example": "某银行引入 AI 审批贷款时，采用治理框架规定必须定期检测算法是否存在性别或地域歧视，并确保用户数据加密存储。若模型出现偏差，框架内的审计流程会触发警报并暂停服务，直到人工复核修正，从而避免不公平放贷引发的法律纠纷。"
+  },
+  "scenario_tags": [
+    "企业合规",
+    "风险管理",
+    "伦理安全"
+  ],
+  "sources": [
+    "https://www.nist.gov/itl/ai-risk-management-framework",
+    "https://www.iso.org/standard/81230.html"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:51:18.228267Z",
+  "updated_at": "2026-03-23T11:23:10.963788Z",
+  "quality_score": 0.95
+}

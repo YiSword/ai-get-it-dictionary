@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 基础设施",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Bedrock（基石）在人工智能领域特指亚马逊云科技（AWS）推出的生成式AI基础模型服务集合，它提供一系列预训练的大语言模型（如Claude、Llama、Titan等）及配套工具，允许开发者无需从头训练模型即可构建定制化AI应用。普通用户需要知道它，是因为它正成为企业级AI应用开发的主流基础设施——就像水电一样，用户不必理解发电原理，却能按需调用强大、安全、合规的AI能力。",
+    "plain": "Amazon Bedrock 是 AWS 推出的生成式 AI 服务，聚合多种预训练基础模型（如 Claude、Llama）及开发工具。开发者无需从头训练，即可快速构建定制化应用。作为企业级 AI 基础设施，它支持按需调用安全、合规的 AI 能力，显著简化开发流程并降低使用门槛。",
     "metaphor": "Bedrock 就像一座智能城市的地下管网系统：看不见但无处不在，为地面上每一栋建筑（AI应用）稳定输送电力（模型能力）、水源（数据接口）和通信（API连接）。",
     "example": "一家电商公司使用 Bedrock 调用 Claude 模型，快速搭建客服对话系统，自动解析用户退货请求、提取关键信息并生成合规回复，全程无需自建大模型训练平台。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "生成式 AI",
+    "云服务",
+    "大模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/bedrock/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:00:43Z"
+  "updated_at": "2026-03-23T13:07:32.310575Z",
+  "quality_score": 0.95
 }

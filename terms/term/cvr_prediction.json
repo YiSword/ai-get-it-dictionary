@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CVR_prediction（Conversion Rate Prediction，转化率预测）是指模型对用户在完成某项关键行为（如点击后下单、注册后付费）的概率进行预估的技术。它广泛应用于广告投放、电商推荐和内容分发等场景，直接影响平台收益与用户体验。普通用户虽不直接操作该技术，但其购物时看到的‘猜你喜欢’商品、广告是否精准、甚至结账流程是否被优化，背后都依赖CVR预测的准确性——预测越准，推送越相关，干扰越少。",
+    "plain": "CVR_prediction（转化率预测）指模型预估用户完成关键行为（如点击后下单）概率的技术。广泛应用于广告投放、电商推荐场景，直接影响平台收益与体验。预测越准，推送越相关，干扰越少，是计算广告与推荐系统的核心环节之一。",
     "metaphor": "就像一位经验丰富的餐厅服务员，能根据顾客点完前菜后的表情、语速和停留时间，预判ta有多大可能加点甜点；CVR预测就是系统对用户行为信号的‘读心术’。",
     "example": "某电商平台在用户将商品加入购物车后，实时调用CVR模型预测其15分钟内完成支付的概率；若预测值高于阈值，系统自动触发‘限时免运费’弹窗，显著提升实际转化率。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "广告投放",
+    "电商推荐",
+    "计算广告"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.google/discover/",
+    "https://www.alibabacloud.com/product/machine-learning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:08:32Z"
+  "updated_at": "2026-03-23T11:31:18.306020Z",
+  "quality_score": 0.95
 }

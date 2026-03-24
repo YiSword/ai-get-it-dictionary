@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "hugging_face_hub 是 Hugging Face 提供的官方 Python 库，用于与 Hugging Face Hub（一个开源模型、数据集和演示应用的共享平台）进行交互。它支持下载预训练模型和数据集、上传自定义资源、管理访问令牌、以及在本地与远程仓库同步。普通用户需要了解它，因为它是使用 Hugging Face 生态中最常用、最可靠的工具之一——无论是快速加载像 BERT 或 Llama 这样的模型，还是复现他人工作、分享自己的成果，都依赖此库完成底层通信和认证。",
+    "plain": "huggingface_hub 是 Hugging Face 官方 Python 库，用于与 Hugging Face Hub 平台交互。支持下载预训练模型和数据集、上传资源、管理访问令牌及同步仓库。作为访问 Hugging Face 生态的核心工具，它简化了加载 BERT、Llama 等模型的流程，处理底层通信与认证。",
     "metaphor": "它就像去图书馆借书时用的智能借阅卡和自助终端：既能刷证登录、检索书目，又能一键借出实体书（模型/数据集），还能把自家写的书上架供他人借阅。",
     "example": "开发者调用 from transformers import AutoModel; model = AutoModel.from_pretrained('bert-base-uncased') 时，背后正是 hugging_face_hub 在自动从 Hub 下载模型权重文件并缓存到本地。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型加载",
+    "资源管理",
+    "开发工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/huggingface/huggingface_hub",
+    "https://huggingface.co/docs/huggingface_hub"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:16:08Z"
+  "updated_at": "2026-03-23T15:23:21.803254Z",
+  "quality_score": 0.95
 }

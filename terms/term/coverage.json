@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "软件测试",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Coverage 是软件测试中的核心指标，指测试用例执行时实际触及的代码比例（如行覆盖率、分支覆盖率等），用于量化测试的完整性与风险暴露程度。普通用户虽不直接写代码，但若使用依赖高覆盖率保障质量的App、金融系统或医疗设备软件，coverage 背后的测试充分性直接影响其功能可靠性、崩溃概率和安全漏洞风险——低 coverage 意味着大量代码未经验证，潜在缺陷更可能流入生产环境。",
+    "plain": "Coverage 是软件测试核心指标，指测试用例执行时触及的代码比例（如行覆盖、分支覆盖）。它量化测试完整性与风险暴露程度。虽用户不写代码，但高覆盖率保障 App、金融系统等功能可靠性，降低崩溃与安全漏洞风险。低覆盖率意味着大量代码未经验证，缺陷易流入生产环境。",
     "metaphor": "就像用探照灯扫过一间黑屋子：coverage 表示灯光实际照亮的地板面积占比，未被照到的角落可能藏着危险物品。",
     "example": "某银行App升级后要求核心转账模块的单元测试覆盖率不低于90%，团队通过补充边界值和异常流程测试，将原72%的行覆盖率提升至93%，从而降低资金错误处理的风险。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "软件测试",
+    "代码质量",
+    "风险管理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.istqb.org/glossary.html",
+    "https://learn.microsoft.com/en-us/visualstudio/test/using-code-coverage-to-determine-how-much-code-is-being-tested"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:03:22Z"
+  "updated_at": "2026-03-23T15:31:26.952726Z",
+  "quality_score": 0.95
 }

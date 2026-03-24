@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "ai_dataset_curation_agent",
+  "norm_term": "ai_dataset_curation_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "MLOps",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "AI 数据集策展代理是利用 AI 自动化管理数据生命周期的工具。它在流程中负责筛选、清洗、标注和质量评估，确保输入数据高质量。相比人工规则，它能智能识别噪声、平衡样本并监控数据漂移。作为现代 MLOps 的关键组件，它降低数据准备门槛，提升迭代速度，使团队专注于模型逻辑，是高效 AI 工程化的关键。",
+    "metaphor": "它就像一位智能图书管理员，不仅负责把书放回书架，还会自动检查书页是否破损、内容是否重复，并根据读者的需求推荐最合适的书籍组合，确保图书馆藏书始终优质且易于使用。",
+    "example": "在某公司构建客服聊天机器人时，该代理自动扫描历史对话日志，剔除无关闲聊，识别并脱敏用户隐私信息，再将高质量问答对分类存储。这使得训练数据准备时间从数周缩短至几天，显著提升了模型上线效率。"
+  },
+  "scenario_tags": [
+    "数据准备",
+    "自动化",
+    "质量监控"
+  ],
+  "sources": [
+    "https://arxiv.org/search/?query=dataset+curation+agent"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:02:26.354730Z",
+  "updated_at": "2026-03-23T15:53:26.302303Z",
+  "quality_score": 1.0
+}

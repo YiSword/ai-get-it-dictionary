@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "real_time_data（实时数据）是指在产生后几乎立即被采集、处理并可供使用的数据，延迟通常在毫秒到秒级。它区别于批量处理的滞后数据，能真实反映当前状态。普通用户需要了解它，因为现代生活高度依赖实时数据——比如导航App避开拥堵、股票交易决策、智能手表监测心率异常等，延迟过高的数据可能导致错误判断或行动失效。",
+    "plain": "实时数据是指在产生后几乎立即被采集、处理并可供使用的数据，延迟通常在毫秒到秒级。它区别于批量处理的滞后数据，能真实反映当前状态。广泛应用于导航避堵、股票交易、智能健康监测等场景，低延迟特性确保了决策的及时性与准确性，是现代智能系统的核心支撑。",
     "metaphor": "就像透过一扇干净的窗户直接看外面的街道，而不是观看一分钟前录下的监控回放。",
     "example": "网约车平台持续接收司机GPS位置和乘客下单请求，毫秒级匹配最近车辆并预估到达时间，整个过程依赖实时数据流支撑。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "物联网",
+    "金融科技",
+    "智能交通"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ibm.com/topics/real-time-data",
+    "https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-real-time-data-processing/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:29:18Z"
+  "updated_at": "2026-03-23T15:30:39.493580Z",
+  "quality_score": 0.95
 }

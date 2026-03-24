@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "隐私保护",
   "difficulty": "中级",
   "explanations": {
-    "plain": "数据匿名化是指通过技术手段（如删除、泛化、扰动或替换）移除或隐藏个人身份信息，使数据无法关联到特定自然人，同时尽可能保留其统计或分析价值。普通用户需要了解它，因为这是保护隐私的关键防线——当APP、医院或银行处理你的姓名、身份证号、位置等敏感信息时，合规的匿名化能大幅降低数据泄露后被追溯和滥用的风险。",
+    "plain": "数据匿名化是通过删除、泛化或扰动等技术，移除数据中可识别个人身份的信息，使其无法关联到特定自然人。这是隐私保护的关键防线，确保在数据分析或共享时，即使数据泄露也无法追溯至具体用户，同时保留数据的统计价值。合规的匿名化处理能有效降低隐私滥用风险。",
     "metaphor": "就像把一张清晰的人脸照片磨砂成模糊轮廓，既看不出是谁，又还能分辨出是‘成年人’还是‘戴眼镜的人’这类群体特征。",
     "example": "某医院将患者电子病历中的姓名、身份证号、住址替换为随机ID，并将年龄从具体数值改为年龄段（如‘45–59岁’），再发布给科研机构用于疾病趋势分析。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "隐私合规",
+    "数据安全",
+    "大数据处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://gdpr.eu/what-is-anonymization/",
+    "https://www.iso.org/standard/75393.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:11:15Z"
+  "updated_at": "2026-03-23T11:26:19.739805Z",
+  "quality_score": 0.95
 }

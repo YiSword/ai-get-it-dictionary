@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "expert_choice_routing 是一种在稀疏混合专家（MoE）模型中使用的门控机制，它让每个输入样本仅被路由到固定数量（如 top-k）的专家子网络，且每个专家被选中的次数受全局容量限制，以避免负载不均。与简单 top-k 路由不同，它通过动态分配槽位并可能丢弃部分 token 来保障计算效率和内存可控性。普通用户需要了解它，因为它是支撑现代大模型（如 Mixtral）实现高性能、低成本推理的关键设计之一，直接影响模型响应速度、硬件资源占用和部署成本。",
+    "plain": "expert_choice_routing 是稀疏混合专家（MoE）模型中的路由机制。它允许专家主动选择顶部 token 进行处理，而非仅由 token 选择专家，且受全局容量限制。这有效解决了负载不均问题，避免专家闲置。作为现代大模型高性能、低成本推理的关键设计，它直接影响响应速度、资源占用和部署成本，确保计算效率与内存可控。",
     "metaphor": "就像一场高峰时段的地铁调度系统：不是所有乘客都挤进同一节车厢，而是智能分流到多个指定车厢，同时每节车厢有载客上限，超员者暂候或转乘，确保整体运行不瘫痪。",
     "example": "在 Mixtral-8x7B 模型处理一段英文翻译请求时，expert_choice_routing 将输入 token 分配给最多 2 个最匹配的语言专家，同时限制每个专家在当前批次中最多处理 128 个 token，超出则被静默丢弃或重路由。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型",
+    "混合专家模型",
+    "推理优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2101.03961",
+    "https://arxiv.org/abs/1701.06538"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:19:19Z"
+  "updated_at": "2026-03-23T18:17:36.140628Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 音乐生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Riffusion 是一个开源的 AI 系统，能直接从文本提示生成音乐片段（通常是几秒长的旋律或氛围音轨），其核心技术是将文本映射到频谱图，再通过扩散模型生成并逆向转换为音频。它不依赖传统符号化音乐表示（如 MIDI），而是端到端地‘画’出声音的视觉表征，再‘听’回来。普通用户需要了解它，是因为它让非专业者也能用自然语言快速创作定制化背景音乐、短视频配乐或实验性音效，降低了音乐生成的门槛。",
+    "plain": "Riffusion 是一个开源 AI 系统，通过文本提示生成音乐片段。其核心是将文本映射到频谱图，利用扩散模型生成视觉表征再逆向转换为音频。它不依赖 MIDI，而是端到端地生成声音。这让非专业者能用自然语言快速创作背景音乐或音效，降低了音乐生成门槛。",
     "metaphor": "就像用文字‘写一幅会发声的画’——输入‘温暖的八十年代合成器慢摇’，Riffusion 先画出对应的声波图像，再把它‘翻译’成耳朵能听见的真实声音。",
     "example": "一位独立视频博主输入提示词‘轻快木吉他 + 雨声 + 咖啡馆氛围’，Riffusion 在 10 秒内生成一段 4 秒长的原创配乐，直接用于其 Vlog 开头。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "音乐创作",
+    "音频生成",
+    "AIGC"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/riffusion/riffusion",
+    "https://www.riffusion.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:48:11Z",
-  "updated_at": "2026-03-21T09:33:49Z"
+  "updated_at": "2026-03-23T17:31:37.191322Z",
+  "quality_score": 1.0
 }

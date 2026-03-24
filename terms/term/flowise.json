@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 开发工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Flowise 是一个开源的低代码平台，用于可视化构建、调试和部署基于大语言模型（LLM）的自定义对话流程（如聊天机器人、知识问答系统）。它无需编写大量代码，用户可通过拖拽组件（如LLM、提示词模板、向量数据库、文档加载器等）连接成工作流，快速实现RAG、多步推理或API封装。普通用户需要了解它，是因为它大幅降低了AI应用开发门槛，让业务人员、产品经理或非程序员也能自主搭建符合实际需求的智能助手，而不必依赖工程师从零开发。",
+    "plain": "Flowise 是一款开源低代码平台，支持可视化构建基于大语言模型的应用流程。用户通过拖拽组件（如 LLM、向量数据库、提示词模板）即可连接成工作流，快速搭建聊天机器人或 RAG 系统。它显著降低了 AI 开发门槛，使非技术人员也能自主创建智能助手，无需编写大量代码。",
     "metaphor": "Flowise 就像乐高积木——每个组件是预装好的功能模块（如‘提问’‘查文档’‘总结答案’），用户只需按逻辑拼接，就能搭出专属的AI工作流。",
     "example": "一家电商公司用 Flowise 将商品说明书PDF导入向量数据库，并连接ChatGLM模型，搭建了一个客服问答机器人：客户输入‘如何清洁无线耳机？’，系统自动检索说明书片段并生成简洁回答，全程无需写一行后端代码。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "低代码",
+    "大语言模型",
+    "应用开发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://flowise.ai/",
+    "https://github.com/FlowiseAI/Flowise"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:34:09Z"
+  "updated_at": "2026-03-23T12:08:02.690046Z",
+  "quality_score": 0.95
 }

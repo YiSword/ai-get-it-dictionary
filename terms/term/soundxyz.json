@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "Web3",
   "difficulty": "中级",
   "explanations": {
-    "plain": "SoundXYZ 是一个基于区块链的音乐NFT平台，允许艺术家将歌曲、专辑或独家音轨铸造成可收藏和交易的数字资产，粉丝则可通过加密货币直接购买、拥有并支持创作者。它引入了版税自动分配、可拆分所有权及社交聆听功能，改变了传统流媒体中创作者收益微薄、用户无实质参与权的模式。普通用户需要了解它，因为这是首次让听歌行为可能带来资产权益（如未来版税分成），也标志着音乐消费正从‘访问权’转向‘所有权’范式。",
+    "plain": "SoundXYZ 是基于区块链的音乐 NFT 平台，允许艺术家将歌曲铸造成数字资产供粉丝购买收藏。它支持版税自动分配及社交聆听功能，改变传统流媒体收益模式。用户可通过参与获得资产权益，标志音乐消费从“访问权”转向“所有权”。",
     "metaphor": "就像买一张限量黑胶唱片不仅让你听音乐，还可能因稀缺性和艺术家成长而升值；SoundXYZ 把每首歌变成一张可交易、带分红权的‘数字黑胶’。",
     "example": "独立音乐人A在SoundXYZ上发布新单曲NFT，粉丝B花0.1 ETH购入，不仅获得高清音源和专属封面，还自动获得该曲未来所有链上播放收入的5%分成。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "Web3",
+    "NFT",
+    "音乐科技"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.sound.xyz"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:39:59Z",
-  "updated_at": "2026-03-21T09:48:30Z"
+  "updated_at": "2026-03-23T14:53:11.279708Z",
+  "quality_score": 1.0
 }

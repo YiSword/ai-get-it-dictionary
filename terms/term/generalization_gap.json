@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型评估",
   "difficulty": "中级",
   "explanations": {
-    "plain": "generalization_gap（泛化间隙）指机器学习模型在训练数据上的性能（如准确率）与在未见过的测试数据上的性能之间的差距。这个差距越小，说明模型越能从训练样本中提炼出普适规律，而非死记硬背；差距过大则意味着过拟合——模型在训练集上表现优异，却无法应对真实场景。普通用户需要了解它，因为它是判断AI产品是否可靠、能否稳定落地的关键指标：一个宣传‘99%准确率’但泛化间隙巨大的模型，可能在实际使用中频繁出错。",
+    "plain": "泛化间隙指模型在训练集与测试集上的性能差异。差距越小，模型普适性越强；差距过大则意味着过拟合，即模型无法应对新场景。它是评估 AI 产品能否稳定落地的关键指标，巨大的泛化间隙会导致实际使用中频繁出错，即便训练准确率很高。",
     "metaphor": "就像一个学生靠背题库考了满分，却在换题型的期末考试中不及格——训练成绩和真实能力之间的落差就是泛化间隙。",
     "example": "某医疗AI系统在医院内部历史影像数据上诊断准确率达98%，但在跨地区、不同设备采集的新患者影像上准确率骤降至72%，这26个百分点的下降即为显著的泛化间隙。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "过拟合",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developers.google.com/machine-learning/glossary"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:45:09Z"
+  "updated_at": "2026-03-23T16:38:39.096280Z",
+  "quality_score": 0.95
 }

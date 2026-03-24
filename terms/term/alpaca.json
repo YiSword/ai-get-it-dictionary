@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Alpaca 是一个轻量级、开源的指令微调语言模型系列，最初由斯坦福大学研究人员基于 LLaMA 基础模型微调而成，专为遵循人类指令而优化。它不依赖复杂基础设施，可在消费级显卡上运行，适合开发者快速构建和部署定制化对话或任务型 AI 应用。普通用户无需直接使用 Alpaca，但其技术理念推动了更易获取、更透明的本地 AI 工具发展，降低了对中心化大模型服务的依赖。",
+    "plain": "Alpaca 是斯坦福大学基于 LLaMA 微调的轻量级开源指令遵循模型。它专为消费级显卡设计，无需复杂基础设施即可运行，适合开发者快速构建定制化 AI 应用。其技术理念推动了本地化、透明化 AI 工具的发展，降低了对中心化服务的依赖。",
     "metaphor": "就像一位刚从名校毕业、经过专项实习训练的助理，Alpaca 不像全能高管（如 GPT-4），但能高效、可靠地完成你明确交代的日常任务。",
     "example": "开发者在本地笔记本电脑上运行 Alpaca 模型，将其集成进一个待办事项应用中，用户输入‘把明天上午10点的会议改到下午2点，并通知张三’，模型准确解析意图并生成对应操作指令。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "开源模型",
+    "指令微调",
+    "本地部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/tatsu-lab/stanford_alpaca"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:32:31Z"
+  "updated_at": "2026-03-23T18:56:54.742451Z",
+  "quality_score": 0.95
 }

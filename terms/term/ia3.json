@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "参数高效微调",
   "difficulty": "中级",
   "explanations": {
-    "plain": "IA3（Infused Adapter by Inhibiting and Amplifying Attention）是一种轻量级的大型语言模型参数高效微调方法，它通过在Transformer层的注意力机制中注入可训练的小型向量（而非修改原始权重），动态抑制或放大特定注意力头的输出，从而实现任务适配。普通用户需要了解IA3，因为它代表了AI模型定制化的新趋势：无需昂贵重训，就能让通用大模型快速、低成本、低资源地适配个人或企业特定需求，同时保持原始模型的安全性和稳定性。",
+    "plain": "IA3 是一种参数高效微调技术，通过向 Transformer 层注入可训练向量来缩放激活值，而非修改原始权重。它能大幅降低计算成本，使大模型快速适配特定任务，同时保持基座模型稳定性。适用于资源受限下的模型定制场景。",
     "metaphor": "就像给一副高级光学镜头加装可拆卸的滤光镜片——不改动镜头本身，却能实时调节进光色彩与对比度，精准适配不同拍摄场景。",
     "example": "一家电商公司使用IA3在开源大模型上仅训练不到0.1%的参数，就使其能准确理解并生成符合自家商品描述风格和促销话术的客服回复，整个过程耗时不到2小时，显存占用仅需一台消费级GPU。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "参数高效微调",
+    "大语言模型",
+    "模型优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2205.05638",
+    "https://huggingface.co/docs/peft/conceptual_guides/ia3"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:21:11Z"
+  "updated_at": "2026-03-23T17:57:28.029471Z",
+  "quality_score": 1.0
 }

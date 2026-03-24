@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "情感分析（sentiment_analysis）是一种自然语言处理技术，用于自动识别和分类文本中表达的情绪倾向，如正面、负面或中性。它广泛应用于社交媒体监控、产品评论分析和客户服务反馈处理等场景。普通用户需要了解它，因为日常接触的推荐系统、客服机器人甚至新闻推送背后，都可能依赖情感分析来判断用户态度或优化体验，从而影响信息获取的质量与个性化程度。",
+    "plain": "情感分析是自然语言处理的核心技术，旨在自动识别文本中的情绪倾向（如正面、负面或中性）。该技术广泛应用于社交媒体监控、产品评论分析及客户服务反馈处理。日常使用的推荐系统、客服机器人及新闻推送均依赖此技术判断用户态度，以优化个性化体验与信息质量。",
     "metaphor": "就像一位细心的图书管理员，快速翻阅成百上千条读者留言，不读全文，只凭语气词、形容词和上下文，就能准确标出‘喜欢’‘讨厌’或‘无所谓’。",
     "example": "某手机品牌在微博发布新品后，用情感分析工具实时扫描数万条评论，发现大量用户提及‘电池发热’并伴随负面词汇，于是迅速调整公关回应并启动内部技术排查。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "文本挖掘",
+    "客户服务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sentiment_analysis",
+    "https://www.ibm.com/cloud/learn/sentiment-analysis"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:43:43Z"
+  "updated_at": "2026-03-23T17:15:42.897609Z",
+  "quality_score": 0.95
 }

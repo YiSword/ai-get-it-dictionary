@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "logits 是神经网络最后一层（通常是全连接层）输出的原始数值，未经任何概率归一化处理。它们代表模型对每个类别的‘置信度打分’，但不直接表示概率——需经 softmax 或 sigmoid 等函数转换后才具备概率意义。普通用户需要了解 logits，是因为在模型调试、自定义损失函数、温度缩放（temperature scaling）或对抗样本分析等场景中，直接操作 logits 比使用概率更稳定、更灵活；此外，许多深度学习框架（如 PyTorch、TensorFlow）的默认损失函数（如 CrossEntropyLoss）内部直接接收 logits，而非概率，误传概率会导致训练错误。",
+    "plain": "logits 是神经网络最后一层输出的原始数值，未经过 softmax 等函数归一化，不直接表示概率。它们代表模型对各类别的置信度打分。在深度学习框架中，损失函数（如交叉熵）通常直接接收 logits 以保证数值稳定性。开发者需注意勿将概率误传为 logits，否则导致训练错误。",
     "metaphor": "logits 就像厨师刚端出的未加盐和调味的炖菜底料——味道尚未平衡，但已蕴含所有关键风味成分，后续只需一步‘调味’（如 softmax）就能变成可直接品尝的成品。",
     "example": "在图像分类任务中，ResNet 模型对一张猫图输出 shape 为 [1, 1000] 的 logits 张量，其中第282个值最高，表示‘猫’类的原始得分；训练时，PyTorch 的 nn.CrossEntropyLoss 会自动对这批 logits 应用 softmax 并计算负对数似然损失。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "损失函数",
+    "神经网络"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html",
+    "https://www.tensorflow.org/api_docs/python/tf/nn/softmax_cross_entropy_with_logits"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:17:57Z"
+  "updated_at": "2026-03-23T16:52:07.734349Z",
+  "quality_score": 0.95
 }

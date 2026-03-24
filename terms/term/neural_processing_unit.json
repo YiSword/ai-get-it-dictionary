@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "硬件",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Neural Processing Unit（NPU）是一种专为加速人工智能任务（尤其是神经网络推理和训练）而设计的硬件芯片。它不同于通用CPU或图形处理GPU，通过高度并行的架构和针对矩阵运算、张量计算的优化电路，显著提升AI模型运行效率并降低功耗。普通用户需要了解NPU，因为它是智能手机、笔记本电脑和智能设备中实现实时语音助手、图像增强、视频降噪、人脸识别等功能的关键底层技术——这些体验的流畅性与能效直接受NPU性能影响。",
+    "plain": "NPU 是专为人工智能任务设计的硬件芯片。不同于通用 CPU 或 GPU，它通过高度并行架构优化矩阵和张量运算，显著提升 AI 模型效率并降低功耗。它是智能手机、笔记本电脑实现语音助手、图像增强、人脸识别等功能的关键底层技术，直接影响体验流畅性与能效。",
     "metaphor": "NPU就像一位精通速算和模式识别的数学特工，专为处理AI的‘脑力劳动’而生，而CPU更像是一个通才管家，GPU则像一群擅长重复绘图任务的画师。",
     "example": "华为Mate 60系列手机搭载自研Ascend NPU，可在拍照时实时完成超分辨率重建与夜景降噪；苹果A17 Pro芯片中的NPU每秒可执行18万亿次运算，支撑iOS系统中实况文本、视觉查找等AI功能的瞬时响应。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "硬件加速",
+    "模型推理",
+    "边缘计算"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Neural_processing_unit",
+    "https://www.intel.com/content/www/us/en/products/processors/ai/npu.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:53:47Z"
+  "updated_at": "2026-03-23T11:52:28.075487Z",
+  "quality_score": 0.95
 }

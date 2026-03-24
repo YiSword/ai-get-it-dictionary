@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "vertex_ai_agent_builder",
+  "norm_term": "vertex_ai_agent_builder",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "platform",
+  "category": "AI 开发平台",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Vertex AI Agent Builder 是 Google Cloud 推出的低代码开发平台，专为构建生成式 AI 应用设计。用户可通过可视化界面快速创建智能搜索、对话客服及任务执行代理。它集成大模型能力，支持无需深厚编程基础即可部署企业级 AI 智能体，适用于自动化客服、知识库查询等场景，降低开发门槛并提升业务效率。",
+    "metaphor": "就像用乐高积木搭建机器人，用户通过拖拽功能模块组合出能理解指令、执行任务的智能代理，无需从零编写代码。",
+    "example": "某电商企业使用该平台创建客服代理，自动处理订单查询、退货申请等请求，并与库存系统联动，减少人工客服 70% 重复性工作。"
+  },
+  "scenario_tags": [
+    "生成式 AI",
+    "低代码开发",
+    "智能客服"
+  ],
+  "sources": [
+    "https://cloud.google.com/vertex-ai/agent-builder"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:40:53.706012Z",
+  "updated_at": "2026-03-23T14:18:24.594610Z",
+  "quality_score": 0.95
+}

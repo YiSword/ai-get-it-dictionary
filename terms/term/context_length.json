@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型参数",
   "difficulty": "中级",
   "explanations": {
-    "plain": "context_length 是指大语言模型在单次推理中能够处理的最大输入和输出文本总长度（通常以 token 为单位）。它决定了模型能‘记住’并参考多少上下文信息，比如对话历史、长文档片段或复杂指令。普通用户需要知道它，因为超出限制会导致内容被截断、关键信息丢失，进而影响回答准确性；例如上传一篇长 PDF 提问时，若 context_length 不足，模型可能看不到文档末尾的关键结论。",
+    "plain": "context_length 指大语言模型单次推理能处理的最大文本总长度（单位 token）。它决定模型可参考的上下文信息量，如对话历史或长文档。超出限制会导致内容截断、关键信息丢失，影响回答准确性。例如处理长 PDF 时，若长度不足，模型可能忽略末尾结论。用户需关注此参数以确保信息完整处理。",
     "metaphor": "就像一个人阅读一本书时，只能同时盯着一页纸上的内容——context_length 就是这页纸的大小，决定了他一次性能看到多少文字。",
     "example": "当使用支持 32K token 上下文的模型分析一份 25K token 的法律合同并提问条款细节时，模型能完整覆盖全文；但若换成仅支持 4K token 的模型，大部分合同内容会被丢弃，导致回答失准。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型",
+    "推理性能",
+    "文本处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs/models",
+    "https://huggingface.co/docs/transformers/main/en/main_classes/tokenizer"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:51:52Z"
+  "updated_at": "2026-03-23T12:25:18.569767Z",
+  "quality_score": 0.95
 }

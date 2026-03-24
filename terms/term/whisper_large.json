@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "语音识别",
   "difficulty": "中级",
   "explanations": {
-    "plain": "whisper_large 是 OpenAI 推出的 Whisper 自动语音识别（ASR）模型系列中参数量最大、性能最强的版本，专为高精度转录多语言、带口音、低信噪比或含背景噪声的语音而优化。它支持99种语言，能同时完成语音识别、语种检测和翻译任务。普通用户需要了解它，是因为在会议记录、视频字幕生成、无障碍辅助、外语学习等场景中，whisper_large 往往能提供远超轻量级模型的准确率和鲁棒性，尤其适合对转录质量要求较高的专业或个人应用。",
+    "plain": "whisper_large 是 OpenAI 推出的 Whisper 系列中参数量最大、性能最强的自动语音识别模型。它支持 99 种语言，具备语音识别、语种检测和翻译功能。专为高精度转录多语言、带口音或噪声语音优化，适合会议记录、字幕生成等对质量要求较高的场景，准确率远超轻量级模型。",
     "metaphor": "就像一位精通近百种语言、听力超群且经验丰富的同声传译专家，无论你说话快慢、带不带口音，甚至周围有咖啡馆嘈杂声，他都能精准捕捉并实时翻译成文字。",
     "example": "一位纪录片制作人用 whisper_large 将一段长达两小时、夹杂法语旁白与现场环境噪音的实地采访音频，自动转录为高准确率的中文字幕，仅耗时15分钟，后续仅需少量人工校对。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语音识别",
+    "多语言支持",
+    "音频转录"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/openai/whisper",
+    "https://openai.com/research/whisper"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:27:17Z",
-  "updated_at": "2026-03-21T10:26:00Z"
+  "updated_at": "2026-03-23T12:55:25.535733Z",
+  "quality_score": 1.0
 }

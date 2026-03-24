@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "safety_spec_finetuning",
+  "norm_term": "safety_spec_finetuning",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "technique",
+  "category": "模型安全与对齐",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "安全规范微调是一种模型对齐技术，通过在特定安全数据集上微调参数，使模型输出符合预设安全准则。它旨在解决大模型生成有害、偏见或违规内容的问题，强化安全边界。用户可通过此概念评估 AI 服务的安全性，确保在敏感场景下模型输出符合伦理与法律要求，降低潜在风险。",
+    "metaphor": "就像给自动驾驶汽车安装智能刹车系统，当检测到危险行为倾向时自动修正方向，安全规范微调为 AI 模型内置了行为矫正机制。",
+    "example": "某医疗咨询 AI 在微调后，当用户询问药物滥用方法时，会主动拒绝回答并引导至专业医疗机构，而非提供危险信息。"
+  },
+  "scenario_tags": [
+    "模型训练",
+    "内容安全",
+    "合规治理"
+  ],
+  "sources": [
+    "https://openai.com/safety",
+    "https://arxiv.org/search/?query=safety+fine+tuning"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:36:22.641422Z",
+  "updated_at": "2026-03-23T14:57:46.096059Z",
+  "quality_score": 0.95
+}

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "kl_penalty 是一种在强化学习（尤其是基于策略梯度的算法如PPO）中用于约束新旧策略之间差异的正则化项，其核心是KL散度（Kullback-Leibler divergence）。它通过惩罚新策略与旧策略分布之间的过大偏离，防止策略更新过于激进，从而提升训练稳定性。普通用户（如AI开发者或研究人员）需要理解它，因为不当设置kl_penalty可能导致训练发散、性能下降或收敛缓慢，直接影响模型的可用性与可靠性。",
+    "plain": "kl_penalty 是强化学习算法（如 PPO）中的正则化项，基于 KL 散度约束新旧策略分布的差异。它防止策略更新过于激进，提升训练稳定性。不当设置可能导致训练发散或收敛缓慢，是调整 RL 模型性能的关键超参数。",
     "metaphor": "就像教练在教新手骑自行车时，不让他突然猛扭车把，而是温和地限制每次转向的幅度，确保动作平滑可控。",
     "example": "在使用PPO训练游戏AI时，若每轮更新强制要求新旧策略的KL散度不超过0.01，则优化目标中会显式加入kl_penalty = c × max(0, KL(π_old || π_new) − 0.01)，以动态抑制过大的策略跳跃。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "强化学习",
+    "模型训练",
+    "超参数调整"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1707.06347",
+    "https://stable-baselines3.readthedocs.io/en/master/modules/ppo.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:52:25Z"
+  "updated_at": "2026-03-23T19:04:25.143162Z",
+  "quality_score": 0.95
 }

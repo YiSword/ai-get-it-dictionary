@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "知识图谱（knowledge_graph）是一种以结构化方式表示现实世界中实体（如人物、地点、事件）及其相互关系的语义网络。它将信息组织成‘节点（实体）—边（关系）—节点’的形式，例如‘爱因斯坦—出生于—德国’。普通用户需要了解它，因为它是搜索引擎精准回答、智能助手理解上下文、推荐系统提供个性化内容背后的核心技术，直接影响日常获取信息的效率与准确性。",
+    "plain": "知识图谱是一种结构化语义网络，用于表示现实世界实体及其关系。它采用“节点 - 边 - 节点”形式组织信息，如“爱因斯坦 - 出生于 - 德国”。作为搜索引擎、智能助手及推荐系统的核心技术，它提升了信息获取的效率与准确性，帮助机器理解上下文并提供个性化服务。",
     "metaphor": "就像一本动态更新的百科全书，不仅列出词条，还用彩色丝线把所有相关词条实时连起来，一拉一个词条，整张关系网就亮起来了。",
     "example": "当你在谷歌搜索‘图灵奖得主中谁创办了谷歌’时，知识图谱能直接关联‘图灵奖’‘拉里·佩奇’‘谢尔盖·布林’和‘谷歌’之间的多重关系，秒级给出答案，而非仅返回一堆网页链接。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "搜索引擎",
+    "推荐系统",
+    "语义网络"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developers.google.com/knowledge-graph",
+    "https://en.wikipedia.org/wiki/Knowledge_graph"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T07:53:55Z"
+  "updated_at": "2026-03-23T16:51:42.244573Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理策略",
   "difficulty": "中级",
   "explanations": {
-    "plain": "best_of_n 是一种生成式 AI 的采样策略，指模型并行生成 n 个候选输出（如文本、代码或图像描述），再从中自动选择得分最高（如概率最高、困惑度最低或人工评分最优）的一个作为最终结果。它不改变单次生成的随机性，而是通过‘多试几次再挑最好的’来提升输出质量与可靠性。普通用户需要了解它，因为许多 AI 工具（如编程助手、文案生成器）默认启用该机制，理解它有助于合理预期响应稳定性——例如，相同输入多次调用可能返回不同答案，而开启 best_of_n=3 通常比 n=1 更准确、更少出错。",
+    "plain": "best_of_n 是一种生成式 AI 推理策略。模型并行生成 n 个候选输出，并根据奖励模型、概率或人工评分自动选择得分最高的一个作为最终结果。它通过“多试几次挑最好”提升输出质量与可靠性，常用于编程助手或文案生成。开启后响应更准确，但计算成本增加。",
     "metaphor": "就像厨师为一道菜准备三份不同火候的样品，最后只端出最完美的一盘给客人。",
     "example": "在使用 LLM 自动生成产品广告语时，设置 best_of_n=5 会让模型一次性生成 5 条备选文案，再根据语言流畅性、关键词匹配度和情感强度综合打分，返回得分最高的那一条。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "推理优化",
+    "内容生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2203.02155",
+    "https://huggingface.co/docs/trl/en/main_modules"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:04:55Z"
+  "updated_at": "2026-03-23T14:54:27.802122Z",
+  "quality_score": 0.95
 }

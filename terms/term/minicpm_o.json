@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "minicpm_o",
+  "norm_term": "minicpm_o",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "端侧语言模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "MiniCPM 系列优化版本，专为资源受限环境设计。通过架构优化与模型压缩技术，在保持高性能的同时显著降低计算消耗。适用于移动设备、边缘计算等场景，助力用户在有限硬件条件下部署 AI 应用，如手机端助手或离线语音系统，平衡性能与资源。",
+    "metaphor": "就像将大型卡车的发动机改装成节能型摩托车引擎，在保持基本运输能力的同时大幅降低油耗，让普通用户也能在自家车库轻松维护使用。",
+    "example": "某快递公司将 minicpm_o 部署在手持终端设备上，实现包裹信息的实时语音识别与分类，无需联网即可完成地址解析和异常检测，在仓库弱网环境下仍保持 95% 以上的识别准确率。"
+  },
+  "scenario_tags": [
+    "边缘计算",
+    "模型压缩",
+    "移动部署"
+  ],
+  "sources": [
+    "https://github.com/OpenBMB/MiniCPM"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:42:49.889582Z",
+  "updated_at": "2026-03-23T16:39:37.426033Z",
+  "quality_score": 0.95
+}

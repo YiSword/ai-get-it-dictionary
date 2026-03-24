@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "核心组件",
   "difficulty": "中级",
   "explanations": {
-    "plain": "inference_engine（推理引擎）是人工智能系统中负责执行逻辑推理、规则匹配和决策推导的核心组件。它接收输入数据（如用户查询或传感器信号），结合预定义的知识库或模型（如规则集、神经网络权重），实时生成结果（如分类标签、推荐内容或动作指令）。普通用户需要了解它，因为它是智能助手、自动驾驶、医疗诊断等AI应用‘思考’和‘做决定’的幕后机制——没有它，AI就只能被动响应，无法理解上下文或自主判断。",
+    "plain": "推理引擎是人工智能系统的核心组件，负责执行模型推理和决策。它接收输入数据，结合预训练模型或规则库，实时生成预测结果或动作指令。作为 AI 应用的“大脑”，它使智能助手、自动驾驶等系统能够理解上下文并自主判断，而非被动响应。它是实现 AI 功能落地的关键执行层。",
     "metaphor": "就像一位经验丰富的医生，根据病人的症状（输入）、医学指南和过往案例（知识库），快速推理出最可能的病因并开出药方（输出）。",
     "example": "在智能客服系统中，推理引擎分析用户输入的‘订单还没发货’这句话，匹配规则库中的‘物流延迟处理流程’，自动触发查单、补偿话术生成和工单创建等一系列响应。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型部署",
+    "实时决策",
+    "系统架构"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ibm.com/cloud/learn/ai-inference",
+    "https://en.wikipedia.org/wiki/Inference_engine"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:29:35Z"
+  "updated_at": "2026-03-23T15:43:31.706092Z",
+  "quality_score": 0.95
 }

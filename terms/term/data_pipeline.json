@@ -5,22 +5,27 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "data_pipeline（数据管道）是一系列自动化步骤，用于从多个源头采集、清洗、转换和加载数据到目标系统（如数据库或分析平台）。它确保数据在流动过程中保持一致性、准确性和时效性。普通用户需要了解它，因为现代应用（如推荐系统、实时报表、风控模型）都依赖稳定可靠的数据管道提供底层支持；若管道故障，可能导致App推荐失准、订单状态延迟或仪表盘数据错误，直接影响使用体验和业务决策。",
+    "plain": "数据管道是一系列自动化步骤，用于从多源头采集、清洗、转换和加载数据到目标系统。它确保数据流动的一致性、准确性和时效性。现代应用如推荐系统、实时报表依赖稳定管道提供底层支持。若管道故障，可能导致推荐失准、数据延迟或错误，直接影响体验及决策。",
     "metaphor": "就像城市供水系统：水源（原始数据）经由过滤厂（清洗）、加压泵站（转换）、输水管网（传输），最终稳定送达千家万户（分析工具或应用）。",
     "example": "电商平台每天将用户点击日志、订单记录和库存变动从Web服务器、移动端和ERP系统中抽取出来，统一去重、补全缺失字段、打上用户画像标签，再写入数据仓库，供运营团队生成昨日转化漏斗报表。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据工程",
+    "ETL",
+    "大数据"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-pipeline/",
+    "https://cloud.google.com/architecture/data-pipeline",
+    "https://en.wikipedia.org/wiki/Data_pipeline"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:14:34Z"
+  "updated_at": "2026-03-23T17:30:42.180259Z",
+  "quality_score": 0.95
 }

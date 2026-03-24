@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "区块链基础",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Mint（铸造）是指在区块链上首次创建并发行一个数字资产（如NFT或代币）的过程。它将一段代码、元数据和所有权信息写入区块链，使其成为不可篡改、可验证的数字对象。普通用户需要了解mint，因为这是参与Web3经济的基础动作——无论是抢购限量NFT、加入新项目空投，还是自行发布原创数字作品，都绕不开mint环节；同时，mint通常需支付Gas费，且可能涉及抢购门槛或资格限制，理解它有助于避免操作失误或资金损失。",
+    "plain": "Mint（铸造）指在区块链上首次创建并发行数字资产（如 NFT 或代币）的过程。该操作将元数据和所有权信息写入链上，使其成为不可篡改的数字对象。用户参与 NFT 抢购、空投或发布作品时需执行 mint，通常需支付 Gas 费。理解此概念有助于避免操作失误及资金损失，是参与 Web3 经济的基础动作。",
     "metaphor": "就像在造币厂把一块金属压印成一枚法定硬币，mint是把一段数字信息‘压印’到区块链上，赋予它唯一身份和流通资格。",
     "example": "艺术家在OpenSea平台上传一幅画作并点击‘Create’完成上链，系统生成唯一Token ID并记录在以太坊上——这个过程就是mint。此时该NFT才真正诞生，可被交易或收藏。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "NFT",
+    "代币发行",
+    "链上操作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ethereum.org/zh/nft/",
+    "https://academy.binance.com/zh/articles/what-is-nft-minting"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:02:49Z",
-  "updated_at": "2026-03-21T08:41:48Z"
+  "updated_at": "2026-03-23T14:32:33.340980Z",
+  "quality_score": 0.95
 }

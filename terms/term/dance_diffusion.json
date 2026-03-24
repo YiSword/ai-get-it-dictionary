@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 音乐生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Dance Diffusion 是一种基于扩散模型（diffusion model）的开源人工智能音乐生成工具，专为实时生成富有节奏感与律动性的电子舞曲（EDM）而设计。它能根据用户输入的BPM、调性、风格标签（如'techno'或'dubstep'）等参数，逐步‘去噪’生成高质量的多轨音频片段。普通用户需要了解它，是因为它降低了专业级舞曲创作门槛——无需乐理基础或DAW操作经验，即可在浏览器中快速获得可直接用于编舞、直播或灵感激发的原创节拍。",
+    "plain": "Dance Diffusion 是 Harmonai 推出的开源 AI 音乐生成模型，基于扩散技术专为电子舞曲设计。用户可通过设定 BPM、调性等参数，生成高质量多轨音频。它无需乐理基础，降低了音乐创作门槛，适用于编舞配乐、直播背景或灵感激发，支持浏览器快速体验。",
     "metaphor": "就像一位精通所有舞曲流派的DJ，在黑胶唱片上逐层刮擦、叠加、校准节奏，最终让混沌的噪音凝聚成一段精准卡点的律动。",
     "example": "一位编舞师在排练前输入'BPM=128, key=A minor, style=melodic house'，Dance Diffusion在15秒内生成一段30秒无缝循环的立体声舞曲小样，她立即用它测试新动作组合的节奏契合度。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "音乐创作",
+    "开源模型",
+    "音频合成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/Harmonai-org/sample-generator",
+    "https://www.harmonai.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:49:02Z",
-  "updated_at": "2026-03-21T05:10:28Z"
+  "updated_at": "2026-03-23T18:25:41.773924Z",
+  "quality_score": 1.0
 }

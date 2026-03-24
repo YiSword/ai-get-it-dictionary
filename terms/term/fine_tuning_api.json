@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "fine_tuning_api 是一种允许开发者使用自有数据对预训练大语言模型进行定制化微调的编程接口。它不从头训练模型，而是在已有能力基础上，通过少量标注数据调整模型行为，使其更适配特定任务（如客服问答、行业术语理解）。普通用户无需了解底层模型结构，但需知道它能低成本、快速地让通用AI变成专属AI，显著提升实际业务中的准确率和专业性。",
+    "plain": "fine_tuning_api 是允许开发者使用自有数据对预训练大模型进行定制化微调的编程接口。它无需从头训练，仅通过少量标注数据调整模型行为，使其适配特定任务（如客服、行业术语）。该接口让通用 AI 低成本快速转变为专属 AI，显著提升业务准确率与专业性，无需了解底层结构。",
     "metaphor": "就像给一位通晓多国语言的翻译家提供几本你的行业手册和常用对话记录，让他迅速掌握你的说话风格和专业术语，而不必重读所有语言学教材。",
     "example": "一家医疗科技公司用 fine_tuning_api 将开源大模型在数千份脱敏医患对话上微调，使其能准确理解‘心悸’‘ST段抬高’等术语，并生成符合临床规范的初步分诊建议。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型微调",
+    "开发接口"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs/guides/fine-tuning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:30:00Z"
+  "updated_at": "2026-03-23T13:27:16.611133Z",
+  "quality_score": 0.95
 }

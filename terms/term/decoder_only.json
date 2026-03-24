@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "decoder_only 是一种大语言模型的架构设计，指模型仅由解码器（decoder）堆叠构成，不包含编码器（encoder）。它通过自回归方式逐词生成文本，依赖注意力掩码确保预测时只看到前面的词。普通用户需要了解它，因为当前主流聊天机器人（如ChatGPT、Qwen、Llama系列）几乎都基于此类架构，其单向生成特性直接影响回答的连贯性、幻觉倾向和上下文长度限制。",
+    "plain": "decoder_only 是一种大语言模型架构，仅由解码器堆叠构成，不含编码器。它采用自回归方式逐词生成，利用注意力掩码确保预测时仅可见前方内容。主流模型如 ChatGPT、Llama 系列均基于此架构。其单向生成特性决定了文本连贯性与上下文处理能力，是理解现代 AI 聊天机器人工作原理的基础。",
     "metaphor": "就像一位只听前半句就即兴续写故事的说书人，从不回看全文，也不做笔记，全靠记忆已讲内容来决定下一句。",
     "example": "当你在手机上用通义千问App提问‘如何煮一碗番茄鸡蛋面？’时，背后运行的正是decoder_only模型——它根据你的问题逐字生成步骤说明，每输出一个字都严格依赖之前所有已生成的文字。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型架构",
+    "生成式 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1706.03762",
+    "https://huggingface.co/docs/transformers/model_doc/gpt2"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:14:21Z",
-  "updated_at": "2026-03-21T05:19:37Z"
+  "updated_at": "2026-03-23T13:37:10.122748Z",
+  "quality_score": 0.95
 }

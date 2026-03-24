@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "损失函数",
   "difficulty": "中级",
   "explanations": {
-    "plain": "contrastive_loss 是一种用于度量学习的损失函数，旨在让同类样本在嵌入空间中彼此靠近，而不同类样本则尽可能远离。它通过成对样本（正样本对和负样本对）计算距离差异来优化模型，常用于人脸识别、图像检索、文本相似度匹配等任务。普通用户需要了解它，是因为它支撑着许多日常应用背后的‘精准识别’能力——比如手机相册自动归类相似人脸，或购物App根据一张图搜出同款商品。",
+    "plain": "contrastive_loss 是一种度量学习损失函数，旨在让同类样本在嵌入空间中靠近，不同类样本远离。它通过计算正负样本对的距离差异优化模型，广泛应用于人脸识别、图像检索及文本相似度匹配。该函数支撑着手机相册人脸归类、购物 App 以图搜图等日常应用的精准识别能力。",
     "metaphor": "就像一位细心的图书管理员，把同一作者的书紧紧排在一起，同时把风格迥异的书籍远远隔开，确保每本书的位置都能反映它真正的‘身份归属’。",
     "example": "在训练人脸识别系统时，模型使用 contrastive_loss 处理成对的人脸图像：若两张图来自同一人（正样本对），损失会惩罚它们在特征空间中距离过远；若来自不同人（负样本对），则惩罚距离过近。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "度量学习",
+    "计算机视觉",
+    "模型训练"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/docs/stable/generated/torch.nn.ContrastiveLoss.html",
+    "https://paperswithcode.com/method/contrastive-loss"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:55:57Z"
+  "updated_at": "2026-03-23T14:21:33.879206Z",
+  "quality_score": 0.95
 }

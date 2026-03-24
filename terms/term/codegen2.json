@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "codegen2 是微软推出的第二代代码生成模型，专为开发者设计，能理解自然语言指令并生成高质量、上下文感知的代码片段，支持多种编程语言和框架。它集成在 GitHub Copilot 等工具中，显著提升编码效率、减少重复劳动，并辅助学习新语法或调试逻辑。普通用户（尤其是程序员）需要了解它，因为它正逐步成为日常开发中不可或缺的智能协作者，影响代码质量、学习路径和团队协作方式。",
+    "plain": "CodeGen2 是 Salesforce 推出的第二代代码生成大模型，能理解自然语言指令并生成高质量、上下文感知的代码片段，支持多种编程语言。它可集成在开发工具中，显著提升编码效率、减少重复劳动，并辅助学习新语法或调试逻辑，成为开发中不可或缺的智能协作者。",
     "metaphor": "就像一位经验丰富的结对编程伙伴，不仅能听懂你模糊的需求描述，还能主动补全函数、修复边界条件，甚至提醒你潜在的安全隐患。",
     "example": "开发者在 VS Code 中输入注释 '// 将 CSV 字符串解析为 JSON 数组，跳过空行'，codegen2 自动补全完整、健壮的 TypeScript 解析函数，包含错误处理和类型定义。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "大语言模型",
+    "软件开发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/salesforce/CodeGen",
+    "https://blog.salesforceairesearch.com/codegen/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:09:04Z",
-  "updated_at": "2026-03-21T04:37:18Z"
+  "updated_at": "2026-03-23T17:01:23.514407Z",
+  "quality_score": 1.0
 }

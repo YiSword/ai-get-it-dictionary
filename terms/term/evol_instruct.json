@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "微调技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "evol_instruct 是一种用于训练大语言模型的指令微调方法，核心思想是通过算法自动生成难度逐步提升、语义更丰富、结构更复杂的指令数据，而非依赖人工编写。它让模型在迭代中学习处理从简单到复杂的任务，从而提升泛化能力、推理深度和遵循复杂指令的准确性。普通用户需要了解它，因为该技术直接影响AI助手是否能准确理解模糊请求、拆解多步骤任务或适应个性化表达方式，进而决定日常交互的流畅度与可靠性。",
+    "plain": "Evol-Instruct 是一种指令微调数据构建方法，利用大模型自动演化生成难度递增、结构复杂的指令数据，替代人工编写。该方法使模型在迭代中学习处理复杂任务，显著提升泛化能力与推理深度。它直接影响助手理解模糊请求及拆解多步骤任务的能力，决定交互流畅度与可靠性。",
     "metaphor": "就像一位教练为运动员设计渐进式训练计划——先练基础动作，再组合成连招，最后模拟真实比赛场景，evol_instruct 让AI在‘认知健身’中稳步升级。",
     "example": "当用户输入‘帮我规划一次三天两夜的杭州文化之旅，避开网红打卡点，侧重南宋遗迹和小众茶馆，并生成带时间戳的行程表’时，evol_instruct 训练出的模型更能精准解析嵌套需求、调用多源知识并结构化输出结果。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "指令微调",
+    "数据合成",
+    "模型训练"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/nlpxucan/WizardLM",
+    "https://arxiv.org/abs/2304.12244"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:15:48Z"
+  "updated_at": "2026-03-23T11:40:46.353994Z",
+  "quality_score": 1.0
 }

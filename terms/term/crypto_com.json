@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "加密货币平台",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Crypto.com 是一家总部位于新加坡的全球性加密货币平台，提供数字资产交易、钱包服务、借贷、支付卡（如 Crypto.com Visa 卡）及去中心化金融（DeFi）接入等功能。它通过整合交易所、自有区块链（Cronos）、原生代币（CRO）和用户激励体系，构建了一个面向大众的加密生态。普通用户需要了解它，是因为它降低了接触加密货币的门槛——无需技术背景即可买卖比特币、以太坊等主流币种，还能将数字资产用于日常消费或赚取收益，但同时也需警惕其合规风险、市场波动及平台安全问题。",
+    "plain": "Crypto.com 是全球领先的加密货币平台，提供数字资产交易、钱包、借贷及 Visa 支付卡服务。基于自有区块链 Cronos 和原生代币 CRO，它降低了用户接触加密资产的门槛，支持日常消费与收益赚取。用户在使用时需关注市场波动、合规风险及平台安全性，是连接传统金融与 Web3 生态的重要入口。",
     "metaphor": "Crypto.com 就像一个融合了银行、证券交易所、超市会员积分系统和预付信用卡的超级数字钱包，把钱、投资、奖励和支付全装进一个App里。",
     "example": "一位用户在 Crypto.com App 上用美元买入 CRO 代币，质押后获得年化返现权益，并用绑定的 Crypto.com Visa 卡在咖啡店扫码支付，实时将代币按市价兑换成法币完成结算。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数字资产",
+    "金融科技",
+    "区块链"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://crypto.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:17:58Z",
-  "updated_at": "2026-03-21T05:06:46Z"
+  "updated_at": "2026-03-23T13:08:51.595453Z",
+  "quality_score": 0.95
 }

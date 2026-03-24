@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CausalLM（因果语言模型）是一种专为自回归文本生成设计的大型语言模型架构，其核心特点是严格遵循从左到右的单向注意力机制——即每个词只能关注它前面的词，不能看到后续内容。这种结构确保了模型在生成时能真实模拟人类‘边想边写’的因果推理过程，避免信息泄露。普通用户需要了解它，是因为绝大多数日常使用的AI助手（如聊天机器人、代码补全工具）底层都基于CausalLM，理解其单向性有助于合理预期其行为边界，比如为何它无法根据后文反向修正前文。",
+    "plain": "CausalLM（因果语言模型）是基于自回归机制的大型语言模型架构。其核心采用单向注意力掩码，确保每个 token 只能关注之前的上下文，无法看到未来信息。这防止了训练时的信息泄露，适用于文本生成、聊天机器人及代码补全。它是大多数生成式 AI 的底层基础，理解其单向性有助于明白模型为何无法根据后文修正前文。",
     "metaphor": "就像一位专注听你说话的速记员，他只看已经说出口的句子，边听边记、边记边写，绝不会偷看接下来你要讲什么。",
     "example": "当你在编程IDE中输入'for i in range(10): print('，CausalLM会基于已有的代码片段预测下一个最可能的字符（如'i'或'('），而不会利用尚未生成的后续行来反推当前应填什么。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "文本生成",
+    "模型架构"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/model_doc/auto#automodelforcausallm"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:13:10Z",
-  "updated_at": "2026-03-21T04:21:50Z"
+  "updated_at": "2026-03-23T18:41:36.834638Z",
+  "quality_score": 0.95
 }

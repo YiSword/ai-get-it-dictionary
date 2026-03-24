@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "VisualGLM 是一个开源的多模态大模型系列，由智谱AI推出，能够同时理解图像和文本，并支持图文互生成、视觉问答、图像描述等任务。它基于GLM架构扩展，融合了视觉编码器（如ViT）与语言解码器，实现端到端的跨模态对齐。普通用户需要了解它，是因为它代表了当前AI从纯文本走向‘看懂世界’的关键进展——让手机App、教育工具或内容创作平台能更自然地响应‘这张图讲了什么’或‘帮我生成一张符合文字描述的图’这类需求。",
+    "plain": "VisualGLM 是智谱 AI 推出的开源多模态大模型系列。它基于 GLM 架构，融合视觉编码器与语言解码器，支持图文互生成、视觉问答及图像描述。该模型实现了端到端跨模态对齐，标志着 AI 从纯文本向视觉理解迈进，广泛应用于内容创作、教育工具及智能交互场景，让设备能看懂图像并响应自然语言指令。",
     "metaphor": "就像一位精通双语又擅长看图说话的全能翻译官，既能读图又能写文，还能在两者之间无缝转译。",
     "example": "用户上传一张电路板照片并提问‘这个元件烧坏了，可能是什么问题？’，VisualGLM分析图像后结合电子知识推理出‘疑似电容鼓包导致电源滤波失效’，并用中文清晰解释。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态理解",
+    "图文生成",
+    "视觉问答"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/THUDM/VisualGLM-6B",
+    "https://www.zhipuai.cn/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:42:39Z",
-  "updated_at": "2026-03-21T10:19:33Z"
+  "updated_at": "2026-03-23T16:50:01.988621Z",
+  "quality_score": 0.95
 }

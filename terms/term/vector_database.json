@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据库",
   "difficulty": "中级",
   "explanations": {
-    "plain": "向量数据库是一种专门用于高效存储、索引和检索高维向量数据的数据库系统。它将文本、图像、音频等非结构化数据通过AI模型转换为数学向量（即嵌入），再基于向量间的相似度（如余弦距离）快速查找最相关的结果。普通用户需要了解它，因为它是当前智能搜索、个性化推荐、AI聊天机器人等应用背后的关键基础设施——比如你问AI‘帮我找类似这张猫图的照片’，背后就是向量数据库在毫秒内比对成千上万张图的向量特征。",
+    "plain": "向量数据库是专门存储和检索高维向量数据的系统。它将文本、图像等非结构化数据转化为向量嵌入，基于相似度（如余弦距离）快速查找相关结果。它是智能搜索、推荐系统及 AI 聊天机器人（如 RAG 架构）的关键基础设施，支持毫秒级海量数据比对。",
     "metaphor": "就像图书馆的‘语义分类卡’系统：不按书名字母排序，而是按每本书的核心思想在多维思想空间中的位置归类，让你能轻松找到‘讲得像《三体》一样硬核又带哲学味’的书。",
     "example": "某电商App使用向量数据库，将用户浏览过的商品图片转为向量，实时推荐视觉风格高度相似但尚未上架的新款服饰；用户上传一张‘复古黄铜台灯’照片，0.3秒内返回10款语义与外观最匹配的商品。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "人工智能",
+    "数据存储",
+    "大模型应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vector_database",
+    "https://www.pinecone.io/learn/what-is-a-vector-database/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T10:16:05Z"
+  "updated_at": "2026-03-23T18:42:48.155770Z",
+  "quality_score": 0.95
 }

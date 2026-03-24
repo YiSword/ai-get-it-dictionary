@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AlphaZero 是由 DeepMind 开发的一种通用强化学习算法，它不依赖人类棋谱或领域知识，仅通过自我对弈和神经网络训练，就能在围棋、国际象棋和将棋等复杂策略游戏中达到超越人类顶尖水平的表现。它标志着人工智能从‘数据驱动’向‘原理驱动’的范式转变——机器能自主发现最优策略。普通用户需要了解它，因为它代表了AI不再只是模仿人类，而是真正具备创造性推理能力的重要里程碑，正深刻影响游戏设计、药物研发、芯片布局等实际领域。",
+    "plain": "AlphaZero 是 DeepMind 开发的通用强化学习算法。它无需人类先验知识，仅通过自我对弈与神经网络训练，便在围棋、国际象棋等复杂游戏中超越人类顶尖水平。这一突破标志着 AI 具备自主推理能力，广泛影响游戏设计、药物研发及芯片布局等领域。",
     "metaphor": "就像一个从没上过棋校的少年，只靠一本规则说明书和无限次与自己下棋，几个月后竟成为世界冠军。",
     "example": "DeepMind 使用 AlphaZero 在数小时内自学掌握国际象棋规则，并击败当时最强的传统引擎 Stockfish，且走法展现出前所未有的战略深度和创新性。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "强化学习",
+    "游戏 AI",
+    "通用人工智能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://deepmind.com/research/publications/alphazero",
+    "https://www.nature.com/articles/nature24270"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:34:06Z"
+  "updated_at": "2026-03-23T15:27:03.724008Z",
+  "quality_score": 0.95
 }

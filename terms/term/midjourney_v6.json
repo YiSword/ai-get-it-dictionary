@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MidJourney v6 是 MidJourney 公司于 2023 年底发布的第六代图像生成模型，显著提升了文本理解能力、细节表现力、构图一致性与风格可控性。它支持更自然的提示词语法（如更宽容的标点和语序）、原生多主体协调、更强的光照与材质渲染，并大幅减少常见幻觉（如畸形肢体或文字错误）。普通用户需要了解它，因为其对提示词的语义理解更接近人类，降低了创作门槛，同时输出质量跃升使专业级视觉表达成为可能。",
+    "plain": "MidJourney v6 是 2023 年底发布的第六代文生图模型，显著提升文本理解、细节表现与构图一致性。支持更自然的提示词语法、原生多主体协调及更强的光影渲染，大幅减少肢体畸形等幻觉。其语义理解更接近人类，降低创作门槛，使专业级视觉表达成为可能，是当前主流的 AI 绘画工具版本之一。",
     "metaphor": "就像从功能手机升级到智能手机——v6 不仅画得更准，还能听懂你‘随便画个雨中穿红裙的诗人，带点王尔德式的忧郁’这种模糊又诗意的要求。",
     "example": "一位插画师输入提示词 'a cyberpunk street food stall at midnight, neon reflections on wet pavement, cinematic lighting, --v 6.0'，直接生成高分辨率、光影真实、细节丰富且无需后期修复的场景图，用于概念设定稿。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "创意设计",
+    "人工智能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://midjourney.com",
+    "https://docs.midjourney.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:29:33Z",
-  "updated_at": "2026-03-21T08:39:05Z"
+  "updated_at": "2026-03-23T17:41:21.322618Z",
+  "quality_score": 0.95
 }

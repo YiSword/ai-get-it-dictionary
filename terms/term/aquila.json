@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Aquila 是 Meta（原 Facebook）于2023年发布的开源大语言模型系列，专为研究目的设计，支持多语言、长上下文（最高128K tokens）和高效推理。它并非面向普通用户的消费级产品，而是供学术界和开发者评估模型能力、进行微调或构建垂直应用的基准工具。普通用户虽不直接使用 Aquila，但了解它有助于识别当前开源AI生态中高质量中文友好模型的存在，避免盲目依赖闭源商业服务，并理解国产大模型技术演进的重要节点。",
+    "plain": "Aquila 是由北京智源研究院（BAAI）发布的开源大语言模型系列，支持多语言及长上下文处理。该模型专为研究与开发者设计，提供高效推理与微调能力，是国产开源模型的重要代表。它并非 Meta 产品，而是旨在推动开源生态发展，适用于学术评估及垂直应用构建，帮助开发者掌握中文友好型模型技术演进。",
     "metaphor": "Aquila 就像一位精通多国语言、记性极好又乐于分享笔记的语言学教授，不图名利，只愿把方法论和手稿公开给其他研究者参考。",
     "example": "某高校NLP实验室使用 Aquila-7B 模型，在医疗中文文本摘要任务上进行轻量微调，仅用4张A10显卡就实现了接近商用模型的准确率，且全部代码与权重均来自公开仓库。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "开源模型",
+    "大语言模型",
+    "技术研究"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/FlagAI-Open/FlagAI"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:40:45Z"
+  "updated_at": "2026-03-23T16:37:14.366205Z",
+  "quality_score": 1.0
 }

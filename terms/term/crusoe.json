@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "处理器",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Crusoe 是 Transmeta 公司在 2000 年代初推出的低功耗 x86 兼容处理器系列，其核心创新在于采用软件层面的代码翻译（Code Morphing Software）将 x86 指令动态编译为内部 VLIW 微架构可执行的原生指令。普通用户需要了解 Crusoe，不仅因为它代表了早期移动计算中功耗与兼容性权衡的重要尝试，更因为它预示了后来广泛使用的动态二进制翻译技术（如 Rosetta、Wine 或 ARM 上运行 x86 应用）的发展路径。",
+    "plain": "Crusoe 是 Transmeta 公司在 2000 年代初推出的低功耗 x86 兼容处理器系列。其核心创新在于采用代码翻译软件（CMS）将 x86 指令动态编译为内部 VLIW 微架构指令。该设计代表了早期移动计算中功耗与兼容性权衡的重要尝试，预示了动态二进制翻译技术的发展路径。",
     "metaphor": "就像一位实时口译员，一边听懂外语演讲（x86 指令），一边用本地习惯的语言和节奏（VLIW 指令）流畅复述，无需提前翻译整本书。",
     "example": "2002 年的戴尔 Latitude C810 笔记本曾搭载 Crusoe TM5600 处理器，依靠其极低的 1–3 瓦功耗实现长达 6 小时的电池续航，同时仍能运行 Windows 和主流办公软件。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "计算机硬件",
+    "处理器架构",
+    "低功耗技术"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/Transmeta_Crusoe"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:29:03Z",
-  "updated_at": "2026-03-21T05:06:29Z"
+  "updated_at": "2026-03-23T11:31:53.053668Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 服务平台",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DeepInfra 是一个提供高性能、免托管大语言模型（LLM）和生成式AI服务的云平台，用户无需自行部署模型或管理GPU基础设施，即可通过简单API调用访问Llama、Mixtral、Phi等开源模型。它降低了AI应用开发门槛，使开发者、初创团队甚至非技术用户能快速集成前沿模型能力，尤其适合需要灵活试错、快速原型验证但缺乏算力运维资源的场景。",
+    "plain": "DeepInfra 是一个提供高性能大语言模型推理服务的云平台。用户无需管理 GPU 基础设施，即可通过 API 调用访问 Llama、Mixtral 等开源模型。它降低了 AI 开发门槛，适合开发者快速集成模型能力、进行原型验证，尤其适合缺乏算力运维资源的场景。",
     "metaphor": "就像一家按需供应顶级厨师和现成灶具的智能厨房——你只需点菜（发请求），不用买食材、装设备、雇大厨，就能立刻端出专业级料理（AI响应）。",
     "example": "一位独立开发者正在构建一个面向小学生的古诗解释微信小程序，直接通过DeepInfra的API调用Phi-3模型，以毫秒级延迟生成简洁易懂的白话解析，全程无需配置服务器或优化推理代码。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型推理",
+    "API 服务",
+    "生成式 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://deepinfra.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:22:10Z"
+  "updated_at": "2026-03-23T11:12:54.326114Z",
+  "quality_score": 1.0
 }

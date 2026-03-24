@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Hetzner 是一家总部位于德国的知名互联网基础设施服务商，主要提供虚拟服务器（VPS）、专用服务器、云存储和托管服务。它以高性价比、透明定价和欧洲本土数据中心著称，深受开发者、中小企业和开源项目青睐。普通用户需要了解 Hetzner，是因为它常被用于搭建个人网站、博客、游戏服务器或自托管应用（如 Nextcloud、Home Assistant），且其自助式控制面板和自动化部署工具降低了技术门槛。",
+    "plain": "Hetzner 是德国知名互联网基础设施服务商，提供虚拟服务器、专用服务器及云存储等服务。凭借高性价比、透明定价及欧洲数据中心优势，深受开发者与中小企业青睐。常用于搭建个人网站、游戏服务器或自托管应用，其自助控制面板有效降低了部署与维护的技术门槛。",
     "metaphor": "Hetzner 就像一家高效、实惠又讲信誉的‘数字地产公司’——它不建网站，但为你在德国黄金地段租一块干净、稳定、随取随用的服务器土地，并配好水电（网络、电力、基础安全）。",
     "example": "一位独立开发者使用 Hetzner 的 Cloud Server 在 5 分钟内部署了一个基于 Docker 的个人笔记应用，并通过其免费 IPv4 和 Let's Encrypt 集成快速启用 HTTPS 访问。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "基础设施",
+    "自托管"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.hetzner.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:40:22Z",
-  "updated_at": "2026-03-21T07:08:33Z"
+  "updated_at": "2026-03-23T18:11:22.790691Z",
+  "quality_score": 0.95
 }

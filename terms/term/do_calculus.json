@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "因果推理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "do_calculus 是由 Judea Pearl 提出的一套形式化因果推理工具，用于在概率图模型（尤其是有向无环图 DAG）中严格区分‘观察’（seeing）与‘干预’（doing）。它通过引入 do-算子（如 P(Y | do(X=x))）来表示对变量 X 的主动干预，而非仅基于数据的条件关联。普通用户需要了解它，是因为它能帮助识别哪些相关性可转化为因果结论（例如广告点击率提升是否真由新算法导致），避免混淆混杂因素，从而支撑更可靠的决策、政策评估或AI系统可解释性。",
+    "plain": "do_calculus 是 Judea Pearl 提出的因果推理核心工具，基于有向无环图区分“观察”与“干预”。通过 do-算子表达主动干预，消除混杂因素干扰，将相关性转化为因果结论。适用于政策评估、算法归因及 AI 可解释性场景，支撑可靠决策。",
     "metaphor": "就像医生不能仅靠观察发烧病人是否喝过凉水就断定凉水致病，而必须设计对照实验——do_calculus 就是给统计分析装上‘实验开关’的数学语言。",
     "example": "在评估在线教育平台中‘每日提醒推送’对学生结课率的影响时，研究者用 do_calculus 判断：P(结课 | do(推送=开启)) 是否显著高于 P(结课 | do(推送=关闭))，从而排除学生主动性等混杂变量干扰。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "因果分析",
+    "决策科学",
+    "可解释性"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "http://bayes.cs.ucla.edu/BOOK-2K/",
+    "https://en.wikipedia.org/wiki/Do-calculus"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:45:08Z"
+  "updated_at": "2026-03-23T17:54:50.039166Z",
+  "quality_score": 1.0
 }

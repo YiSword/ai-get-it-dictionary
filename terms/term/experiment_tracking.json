@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "工具链",
   "difficulty": "中级",
   "explanations": {
-    "plain": "experiment_tracking（实验追踪）是指在机器学习或数据科学项目中，系统化地记录、存储和管理模型训练过程中的各项要素，包括代码版本、超参数、数据集、指标（如准确率、损失值）、硬件环境及输出结果等。它帮助团队复现结果、对比不同实验、快速定位问题，并支持协作与模型迭代。普通用户（尤其是开发者、研究人员）需要了解它，因为缺乏追踪会导致实验混乱、结果不可靠、协作困难，甚至阻碍模型上线。",
+    "plain": "实验追踪指在机器学习项目中系统化记录训练过程中的代码、超参数、数据集及指标等要素。它支持结果复现、实验对比及问题定位，是 MLOps 核心环节。通过专用工具管理实验元数据，确保可追溯性与协作效率，避免实验混乱，加速模型迭代与上线流程。",
     "metaphor": "就像实验室里的科研笔记本，每一页都详细记录每次实验的条件、步骤和结果，确保别人或未来的你能原样重做并验证结论。",
     "example": "一个AI团队使用MLflow进行experiment_tracking，在训练10个不同超参组合的图像分类模型时，自动捕获每个实验的准确率、训练时间、GPU型号和代码提交哈希，从而一键筛选出最优配置。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "MLOps",
+    "模型训练",
+    "研发协作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://mlflow.org/docs/latest/tracking.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:19:00Z"
+  "updated_at": "2026-03-23T10:26:16.948768Z",
+  "quality_score": 0.95
 }

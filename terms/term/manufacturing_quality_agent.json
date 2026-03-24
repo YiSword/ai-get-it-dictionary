@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "manufacturing_quality_agent",
+  "norm_term": "manufacturing_quality_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "工业 AI",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "制造质量代理是基于 AI 的工业应用，通过实时分析生产数据、设备状态和工艺参数，自动识别质量风险并优化决策。它解决传统质检依赖人工、响应滞后及漏检问题，帮助企业降低次品率、提升产品一致性。该技术直接影响消费品质量稳定性与生产成本，间接关联商品价格与可靠性。",
+    "metaphor": "如同给生产线配备了一位 24 小时在线的'数字质检大师'，它用算法代替人眼扫描产品，用数据预测替代事后补救，像经验丰富的老师傅般精准却永不疲劳。",
+    "example": "在汽车零部件冲压车间，该代理系统通过传感器监测模具温度与压力数据，当检测到参数偏离标准值 0.5% 时，自动调整设备参数并标记潜在缺陷品，使批次合格率从 92% 提升至 98.5%。"
+  },
+  "scenario_tags": [
+    "智能制造",
+    "质量控制",
+    "工业 AI"
+  ],
+  "sources": [
+    "https://azure.microsoft.com/en-us/solutions/ai/manufacturing/",
+    "https://www.siemens.com/global/en/products/automation/topic-areas/industrial-ai.html"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:16:13.444436Z",
+  "updated_at": "2026-03-23T16:49:08.906786Z",
+  "quality_score": 0.95
+}

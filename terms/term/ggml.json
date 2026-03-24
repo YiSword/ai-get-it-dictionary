@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习库",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GGML（General GPU Machine Learning）是一个专为CPU和轻量级GPU优化的开源张量计算库，主要用于运行量化大语言模型（如Llama、Phi等）在消费级硬件上。它不依赖CUDA或大型深度学习框架（如PyTorch），而是通过手动优化的C代码和内存映射实现高效推理。普通用户需要了解GGML，因为它让在笔记本电脑、树莓派甚至手机上本地运行AI模型成为可能，兼顾隐私、离线使用和低资源开销。",
+    "plain": "GGML 是一个专为 CPU 及轻量级 GPU 优化的开源张量计算库，核心用于量化大语言模型的本地高效推理。它不依赖 CUDA 或大型深度学习框架，通过手动优化的 C 代码实现低资源开销。这使得在消费级硬件上离线运行 AI 模型成为可能，兼顾隐私与性能，是本地 AI 部署的关键基础设施。",
     "metaphor": "GGML就像一台经过手工调校、无需加油的自行车发动机——没有复杂的变速箱（不依赖大型AI框架），却能把沉重的货物（大模型）稳稳驮上山坡（在普通设备上运行）。",
     "example": "一位开发者使用GGML将7B参数的Llama-3模型量化为4位精度，在16GB内存的MacBook Air上本地部署聊天应用，全程离线且响应延迟低于2秒。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "本地推理",
+    "模型量化",
+    "大语言模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ggerganov/ggml"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:46:35Z"
+  "updated_at": "2026-03-23T11:52:04.732439Z",
+  "quality_score": 0.95
 }

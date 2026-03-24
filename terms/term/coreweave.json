@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 基础设施",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CoreWeave 是一家专注于高性能云计算的美国公司，专为人工智能训练、推理、3D 渲染和科学计算等 GPU 密集型工作负载优化基础设施。它不提供通用云服务（如 AWS 或 Azure 那样的全栈产品），而是构建在 NVIDIA GPU（尤其是 H100、A100）之上的专用云平台，强调低延迟、高带宽互联和按需弹性扩展。普通用户——尤其是 AI 开发者、初创团队或需要快速迭代大模型的工程师——需要知道 CoreWeave，因为它能以更优性价比和更低调度延迟运行大型语言模型或视频生成任务，绕过传统云厂商的资源排队与抽象层开销。",
+    "plain": "CoreWeave 是一家专注于 GPU 云计算的美国公司，为人工智能训练、推理及渲染提供专用基础设施。基于 NVIDIA GPU 构建，强调低延迟与高带宽互联。相比传统云厂商，它能以更优性价比和更低调度延迟运行大模型任务，是 AI 开发者及初创团队获取高性能算力的重要选择。",
     "metaphor": "CoreWeave 就像一家只接高级定制跑车订单的赛车工坊：不造家用车，也不卖保险，但当你需要把一辆千匹马力的电动超跑瞬间调校到赛道极限状态时，它是最快响应、最懂引擎细节的选择。",
     "example": "一家 AI 初创公司正在微调一个 70B 参数的开源大语言模型，使用 CoreWeave 的裸金属 A100/H100 实例集群，在 4 小时内完成训练，而同等预算下在主流公有云上因 GPU 队列等待和网络瓶颈需耗时超过 18 小时。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "GPU 算力",
+    "大模型训练"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.coreweave.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:00:21Z"
+  "updated_at": "2026-03-23T13:41:34.511995Z",
+  "quality_score": 0.95
 }

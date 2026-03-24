@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能伦理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Green AI 指的是在人工智能研发与应用中注重能源效率、碳排放控制和环境可持续性的实践，包括优化算法降低算力需求、使用可再生能源训练模型、设计轻量化模型等。普通用户需要了解它，因为AI服务的普及正带来显著的电力消耗与碳足迹，而Green AI关系到数字技术发展的长期生态成本，也影响未来AI服务的可及性、成本及企业社会责任表现。",
+    "plain": "Green AI 指在人工智能研发与应用中注重能源效率、碳排放控制和环境可持续性的实践。主要措施包括优化算法降低算力需求、使用可再生能源训练模型及设计轻量化模型。它关乎数字技术的长期生态成本，影响 AI 服务的可及性与成本，是应对 AI 高能耗问题的关键方向，体现企业社会责任。",
     "metaphor": "就像选择一辆油耗低、用清洁能源驱动的汽车，Green AI 是给人工智能‘装上节能引擎’和‘接上绿色充电桩’。",
     "example": "某研究团队将原本需千张GPU训练10天的大语言模型，通过知识蒸馏和稀疏化训练压缩为仅需8张GPU训练2天的版本，能耗降低92%，这就是Green AI的典型实践。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "可持续发展",
+    "算法优化",
+    "企业社会责任"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1907.10597"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:59:40Z"
+  "updated_at": "2026-03-23T12:45:25.618256Z",
+  "quality_score": 0.95
 }

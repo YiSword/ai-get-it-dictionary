@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "prompt_hub",
+  "norm_term": "prompt_hub",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "platform",
+  "category": "开发工具",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "PromptHub 是集中化管理提示词的平台工具，帮助用户高效创建、存储、优化和共享 GenAI 指令模板。它解决提示词分散导致的效率低、版本混乱及协作困难问题。通过标准化库、性能追踪和团队协作，提升交互精准度，支持开发者复用模板，确保企业业务场景的一致性与安全性。",
+    "metaphor": "就像图书馆为书籍建立分类索引系统，PromptHub为提示词提供结构化存储和检索框架，让用户能像借阅图书一样快速调用经过验证的提示方案。",
+    "example": "某电商客服团队使用PromptHub统一管理产品咨询回复模板，客服人员通过平台调取已优化的提问句式，确保回答符合品牌话术规范，同时记录不同提示词的用户满意度数据以持续改进。"
+  },
+  "scenario_tags": [
+    "生成式 AI",
+    "提示词工程",
+    "团队协作"
+  ],
+  "sources": [
+    "https://prompthub.ai"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:50:16.250350Z",
+  "updated_at": "2026-03-23T18:12:59.550155Z",
+  "quality_score": 1.0
+}

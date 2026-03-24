@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "算法模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Neural Network（神经网络）是一种模仿生物大脑结构的计算模型，由大量相互连接的节点（神经元）组成。它是现代深度学习的基础，能够通过学习数据中的模式来完成图像识别、语言理解等复杂任务。普通用户需要了解它，因为这是当前 AI 技术的核心架构，理解它有助于判断哪些任务适合用 AI 解决。",
+    "plain": "神经网络是一种模仿生物神经系统结构的计算模型，由相互连接的节点（神经元）组成。作为深度学习的核心基础，它通过训练数据学习模式，广泛应用于图像识别、自然语言处理等任务。理解神经网络有助于把握 AI 技术的基本原理及其适用场景。",
     "metaphor": "就像人脑通过神经元网络处理信息一样，人工神经网络用数学方式模拟这个过程，层层传递和处理信号。",
     "example": "当你使用手机的人脸解锁功能时，背后的神经网络正在分析你的面部特征，判断是否与存储的模型匹配。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "深度学习",
+    "机器学习",
+    "基础理论"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Neural_network",
+    "https://www.ibm.com/cloud/learn/neural-networks"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-21T11:59:20Z",
-  "updated_at": "2026-03-21T11:59:20Z"
+  "updated_at": "2026-03-23T14:47:47.056737Z",
+  "quality_score": 0.95
 }

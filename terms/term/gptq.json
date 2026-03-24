@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型压缩",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GPTQ（Generalized Post-Training Quantization）是一种针对大语言模型的高效量化技术，能在几乎不损失精度的前提下，将模型权重从16位浮点数压缩为3位、4位甚至更低精度的整数表示。它通过后训练校准和逐层优化，显著减小模型体积、降低显存占用并加速推理——普通用户需要知道它，因为这意味着手机或低端显卡也能流畅运行原本只在高端服务器上跑的AI助手，让强大AI更轻量、更普及、更省电。",
+    "plain": "GPTQ 是一种针对大语言模型的高精度后训练量化技术。它通过逐层优化和误差补偿，将模型权重从 16 位浮点数压缩至 3-4 位整数，显著降低显存占用并加速推理。这使得大模型能在消费级显卡甚至手机端高效运行，推动了 AI 的本地化部署与普及。",
     "metaphor": "就像把一本高清摄影集重新排版成线描简笔画册：保留所有关键结构和辨识特征，但大幅减少纸张用量和翻阅负担。",
     "example": "开发者用GPTQ将70亿参数的LLaMA-3模型量化为4-bit版本，在消费级笔记本的8GB显存上成功本地部署并实时响应对话请求。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型压缩",
+    "推理加速"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2210.17323"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:54:40Z"
+  "updated_at": "2026-03-23T18:19:31.307522Z",
+  "quality_score": 0.95
 }

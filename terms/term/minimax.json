@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "算法",
   "difficulty": "中级",
   "explanations": {
-    "plain": "minimax 是一种在博弈论和人工智能中用于决策的策略，核心思想是在最坏可能情况下追求最好的结果：玩家假设对手总是做出对自己最不利的最优应对，因此选择能使自身最大损失最小化的行动。它广泛应用于棋类游戏（如国际象棋、围棋）的AI算法中，是Alpha-Beta剪枝等优化技术的基础。普通用户虽不直接编写minimax算法，但在使用智能对战系统、理解AI如何‘思考’对手意图时，这一概念有助于破除对AI的神秘感，并提升对人机交互逻辑的认知。",
+    "plain": "Minimax 是一种用于博弈论和人工智能的决策算法。核心思想是在最坏情况下追求最好结果，即假设对手最优应对，选择使自身最大损失最小化的行动。它广泛应用于棋类游戏 AI，是 Alpha-Beta 剪枝的基础。有助于理解 AI 决策逻辑。",
     "metaphor": "就像一位谨慎的登山者，在每条岔路都先设想最恶劣天气下的最糟后果，然后选择那条即使遭遇暴雪也仍能安全下撤的路线。",
     "example": "国际象棋AI在每一步都会模拟自己走法后对手可能的最强反击，再回溯评估所有路径，最终选择让对手最优回应下己方得分最高的那步棋。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "博弈论",
+    "决策算法",
+    "游戏 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Minimax"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:40:41Z"
+  "updated_at": "2026-03-23T14:11:17.498021Z",
+  "quality_score": 0.95
 }

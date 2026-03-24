@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "生成对抗网络（GAN）是一种人工智能模型，由两个神经网络——生成器和判别器——相互博弈训练而成：生成器试图创造逼真的假数据（如图像），判别器则努力区分真假。这种对抗机制使生成器不断提升伪造能力，最终产出高度逼真的内容。普通用户需要了解它，因为GAN正广泛应用于照片修复、AI换脸、艺术创作、药物分子设计等场景，既带来便利与创意，也引发深度伪造、版权与伦理等现实问题。",
+    "plain": "生成对抗网络（GAN）属于深度学习模型，由生成器与判别器两个神经网络通过对抗博弈进行训练。生成器负责制造逼真假数据，判别器负责区分真假，二者竞争促使生成能力不断提升。该技术广泛应用于图像生成、AI 换脸及艺术创作等领域，既带来创意便利，也引发深度伪造与伦理版权等风险，用户需加以关注。",
     "metaphor": "就像一位新手画家（生成器）不断临摹名画，而一位严苛的艺术鉴定师（判别器）反复指出破绽，两人在反复较量中共同进步，最终画家能创作出足以骗过专家的赝品。",
     "example": "Instagram滤镜中的‘AI写真’功能，利用GAN将用户自拍实时转换为油画、水彩或动漫风格图像；另一典型应用是医学领域，GAN可生成高质量的合成CT影像，用于训练诊断模型而不泄露真实患者隐私。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "生成式 AI",
+    "图像生成",
+    "人工智能伦理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1406.2661",
+    "https://developers.google.com/machine-learning/gan"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:45:47Z"
+  "updated_at": "2026-03-23T12:32:34.325042Z",
+  "quality_score": 0.95
 }

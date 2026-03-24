@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "工具链",
   "difficulty": "中级",
   "explanations": {
-    "plain": "batch_size 是指在训练机器学习模型时，每次送入模型进行前向传播和反向传播的样本数量。它不是一次性用全部数据（计算开销大），也不是逐个样本处理（收敛不稳定），而是折中选择一组样本作为‘一批’来更新模型参数。普通用户需要了解它，因为它直接影响训练速度、内存占用、模型收敛稳定性以及最终效果——设置过小可能导致训练波动大，过大则可能因显存不足而失败或泛化变差。",
+    "plain": "batch_size 是机器学习训练超参数，指每次迭代送入模型计算的样本数量。它平衡内存占用与收敛稳定性：过小致训练波动，过大致显存不足或泛化变差。合理设置可优化训练速度与效果，是模型调优的关键配置。",
     "metaphor": "就像厨师炒菜时一次下锅的食材量：太少（如一粒米）效率极低；太多（整袋米）锅装不下还容易糊；适中的一把米才能又快又好地出锅。",
     "example": "在用 ResNet 训练 ImageNet 数据集时，常用 batch_size = 256，即每次从 1400 万张图像中随机抽取 256 张组成一个批次，计算梯度并更新一次网络权重。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "超参数调优",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/docs/stable/data.html",
+    "https://www.tensorflow.org/api_docs/python/tf/keras/Model#fit"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:58:18Z"
+  "updated_at": "2026-03-23T10:26:55.317648Z",
+  "quality_score": 0.95
 }

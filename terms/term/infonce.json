@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "InfoNCE（Information Noise Contrastive Estimation）是一种用于自监督学习的损失函数，核心思想是通过对比区分正样本（语义相关）和大量负样本（随机采样），从而让模型学会提取有意义的表征。它不依赖人工标注标签，而是利用数据自身的结构（如同一图像的不同增强视图）构建监督信号。普通用户虽不直接编写该函数，但其支撑着许多无需标注数据即可训练的AI应用（如手机相册自动分类、语音助手理解口音变体），理解它有助于认识当前AI如何在隐私敏感或标注成本高的场景中高效学习。",
+    "plain": "InfoNCE 是一种用于自监督学习的损失函数，核心是通过对比区分正负样本，让模型提取有意义表征。它不依赖人工标注，利用数据自身结构构建监督信号，支撑手机相册分类等无需标注的 AI 应用。理解它有助于认识 AI 如何在高成本或隐私敏感场景中高效学习。",
     "metaphor": "就像在嘈杂的鸡尾酒会中，你通过反复辨认熟悉朋友的声音（正样本）并忽略其他所有陌生人的说话声（负样本），逐渐练就了精准听辨的能力。",
     "example": "在SimCLR图像自监督训练中，同一张照片经不同裁剪、颜色变换后生成两个增强视图作为正样本对，而批次内其他所有图像的增强视图则作为负样本，InfoNCE损失驱动编码器将正样本映射到相近的特征向量，同时推开负样本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自监督学习",
+    "对比学习",
+    "损失函数"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1807.03748"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:31:38Z"
+  "updated_at": "2026-03-23T18:26:42.437078Z",
+  "quality_score": 0.95
 }

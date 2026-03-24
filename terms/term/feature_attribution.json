@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "可解释性",
   "difficulty": "中级",
   "explanations": {
-    "plain": "feature_attribution（特征归因）是指在机器学习模型（尤其是黑盒模型）做出预测时，量化每个输入特征对最终输出贡献程度的技术。它帮助解释‘为什么模型会这样判断’，例如在信贷审批中识别是收入、负债率还是历史逾期记录主导了拒贷决定。普通用户需要了解它，因为这关系到算法决策的透明度、公平性与可信度——当AI影响贷款、医疗或招聘等关键人生选择时，人们有权知道依据何在，而非被动接受一个无法质疑的结果。",
+    "plain": "特征归因（Feature Attribution）是量化输入特征对机器学习模型预测结果贡献程度的技术。它旨在解释黑盒模型的决策依据，例如在信贷审批中识别收入或负债率哪个因素主导了结果。该技术关乎算法透明度与可信度，帮助用户理解 AI 决策逻辑，而非被动接受结果，广泛应用于医疗、金融等高风险场景。",
     "metaphor": "就像一道菜的口味评分背后附带的‘风味雷达图’，标明盐、糖、酸、辣各自贡献了多少，feature_attribution 是给AI预测结果画出的一张‘决策成分图’。",
     "example": "某医院使用深度学习模型预测患者术后感染风险，feature_attribution 显示白细胞计数和手术时长的归因分值最高，提示医生应优先关注这两项指标以降低风险。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型解释",
+    "金融信贷",
+    "算法公平"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://cloud.google.com/vertex-ai/docs/explainable-ai/overview",
+    "https://developers.google.com/machine-learning/glossary"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:24:33Z"
+  "updated_at": "2026-03-23T15:32:30.563492Z",
+  "quality_score": 0.95
 }

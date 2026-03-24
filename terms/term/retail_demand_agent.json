@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "retail_demand_agent",
+  "norm_term": "retail_demand_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "AI 应用",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "零售需求代理是一种 AI 驱动解决方案，帮助零售商精准预测市场需求、优化库存管理及提升销售策略。它分析历史销售、消费者行为及外部因素，自动生成需求预测模型和补货建议，解决库存积压或缺货问题，降低成本并提高客户满意度，实现数据驱动的精细化运营。",
+    "metaphor": "就像一位经验丰富的店员，能根据顾客购买习惯和季节变化，提前预判哪些商品会畅销，并提醒店主及时备货，避免货架空置或仓库堆积。",
+    "example": "某连锁超市在节假日前使用零售需求代理分析往年销售数据与当前市场趋势，系统预测某款礼品套装需求将增长30%，自动建议增加采购量并调整陈列位置，最终实现销量提升且零库存积压。"
+  },
+  "scenario_tags": [
+    "智能零售",
+    "需求预测",
+    "库存管理"
+  ],
+  "sources": [
+    "https://aws.amazon.com/supply-chain/",
+    "https://learn.microsoft.com/en-us/dynamics365/commerce/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:09:42.885874Z",
+  "updated_at": "2026-03-23T18:06:32.476538Z",
+  "quality_score": 0.95
+}

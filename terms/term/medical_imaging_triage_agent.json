@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "medical_imaging_triage_agent",
+  "norm_term": "medical_imaging_triage_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "医疗人工智能",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "医疗影像分诊代理是基于 AI 的解决方案，自动分析医学影像并按病情紧急程度排序。它利用深度学习识别脑出血、肺栓塞等危急值，辅助放射科医生优先处理高风险病例。这优化了工作流，解决资源紧张导致的诊断延迟，提高急救效率和患者生存率，增强对智能医疗系统的信任。",
+    "metaphor": "它就像急诊室里的智能分诊护士，不需要医生亲自查看每一位病人，而是先快速检查所有影像片子，把那些看起来最危险、最需要立刻处理的病例挑出来，优先递给医生。",
+    "example": "某医院放射科每天接收数百张 CT 扫描。部署该代理后，系统自动筛查所有图像，发现一名患者有疑似中风迹象，立即将该病例标记为紧急并推送至医生工作站顶端，确保患者在黄金时间内得到救治，避免延误。"
+  },
+  "scenario_tags": [
+    "智慧医疗",
+    "医学影像",
+    "急诊分诊"
+  ],
+  "sources": [
+    "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-software-medical-device",
+    "https://www.rsna.org/ai"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:09:12.922493Z",
+  "updated_at": "2026-03-23T16:46:31.842954Z",
+  "quality_score": 1.0
+}

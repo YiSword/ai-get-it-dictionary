@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "iso_42001",
+  "norm_term": "iso_42001",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "regulation",
+  "category": "标准",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "ISO 42001 是国际标准化组织发布的全球首个人工智能管理体系标准。它为企业建立、实施和维护 AI 管理体系提供框架，规范开发、部署与使用流程。通过风险管控、伦理审查和透明度要求，解决数据偏见、算法歧视及责任归属问题，保障用户数据安全与算法公平性，是评估 AI 服务可靠性的关键依据。",
+    "metaphor": "就像交通规则指导司机安全驾驶，ISO 42001 为人工智能系统设定了‘行车规范’，确保企业在创新道路上既能加速前进，又能规避伦理与法律风险。",
+    "example": "某医疗科技公司采用 ISO 42001 标准开发疾病预测 AI 系统，通过建立算法审计机制和患者数据保护流程，确保诊断建议符合医疗伦理，同时满足欧盟《人工智能法案》的合规要求。"
+  },
+  "scenario_tags": [
+    "合规",
+    "风险管理",
+    "人工智能"
+  ],
+  "sources": [
+    "https://www.iso.org/standard/81230.html"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:52:56.882731Z",
+  "updated_at": "2026-03-23T12:34:13.919011Z",
+  "quality_score": 0.95
+}

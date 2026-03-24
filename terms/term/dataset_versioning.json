@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据管理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "dataset_versioning 是指对数据集的变更进行系统化记录、标识和管理的过程，类似于代码版本控制（如 Git），但针对的是数据内容本身。它能追踪每次数据更新的时间、修改者、变更描述及前后快照，确保可复现性、可审计性和协作可靠性。普通用户需要知道它，因为模型训练、分析结果或业务决策若依赖错误或未标记的数据版本，可能导致严重偏差或合规风险；尤其在团队协作、模型迭代或监管审查场景中，版本混乱会直接引发信任危机。",
+    "plain": "数据集版本控制是对数据集变更进行系统化记录和管理的过程，类似代码版本控制。它追踪更新的时间、修改者及快照，确保可复现性和可审计性。在模型训练和团队协作中，依赖错误版本可能导致偏差或合规风险。有效管理数据版本能避免混乱，保障业务决策可靠性与模型迭代质量。",
     "metaphor": "就像图书的修订再版——每一版都有明确的ISBN、出版日期和修订说明，读者能精准引用第3版第2次印刷，而不是笼统地说‘这本书’。",
     "example": "某医疗AI团队在训练肺炎诊断模型时，将标注数据集从v1.0（含5000张原始CT图）升级为v1.2（剔除误标样本并新增1200张增强图像），通过dataset_versioning自动关联模型训练日志与对应数据快照，确保结果可复现且符合临床数据治理规范。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "数据治理",
+    "可复现性"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://dvc.org/doc/start/data-versioning",
+    "https://cloud.google.com/vertex-ai/docs/datasets/versioning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:16:30Z"
+  "updated_at": "2026-03-23T17:28:50.850791Z",
+  "quality_score": 0.95
 }

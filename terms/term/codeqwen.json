@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CodeQwen 是阿里巴巴研发的专注于代码理解与生成的大型语言模型，基于 Qwen 系列底座进行深度代码领域增强训练。它能理解多种编程语言，支持代码补全、解释、调试、翻译和单元测试生成等任务。普通用户（尤其是开发者、学生或技术爱好者）需要了解它，因为它可显著提升编码效率、降低学习门槛，并辅助解决日常开发中的重复性难题。",
+    "plain": "CodeQwen 是阿里巴巴推出的专注代码领域的大型语言模型，基于 Qwen 系列增强训练。支持多种编程语言的代码补全、解释、调试及单元测试生成。它能显著提升开发者编码效率，降低学习门槛，辅助解决开发中的重复性问题，是技术爱好者与专业程序员的高效助手。",
     "metaphor": "就像一位随叫随到的资深结对编程伙伴，既懂你正在写的代码逻辑，又能即时指出潜在错误或推荐更优写法。",
     "example": "一名前端开发者在编写 React 组件时输入注释‘实现一个带防抖搜索框’，CodeQwen 可自动生成完整、可运行的 TypeScript + React 代码，并附带防抖逻辑说明和使用示例。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "大语言模型",
+    "智能编程"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/QwenLM/CodeQwen1.5",
+    "https://modelscope.cn/models?q=codeqwen"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:39:17Z"
+  "updated_at": "2026-03-23T13:10:21.519275Z",
+  "quality_score": 0.95
 }

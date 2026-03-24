@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Multimodal（多模态）指系统或模型能够同时处理、理解并关联多种类型的数据，如文本、图像、音频、视频、传感器信号等。它突破了传统单一模态（如仅处理文字或仅识别图片）的局限，使人工智能更接近人类的综合感知能力。普通用户需要了解这一概念，因为越来越多的应用——比如智能助手、内容生成工具和无障碍服务——正依赖多模态技术提供更自然、更准确的交互体验，影响日常使用效果和隐私边界。",
+    "plain": "多模态（Multimodal）指 AI 系统能同时处理、理解并关联文本、图像、音频等多种数据类型。它突破单一模态局限，使机器更接近人类综合感知能力。该技术广泛应用于智能助手、内容生成及无障碍服务，提供更自然、准确的交互体验，是当前大模型发展的核心方向之一。",
     "metaphor": "就像一位经验丰富的医生，不仅听病人描述（语音）、看面色和检查报告（图像），还结合体温、心率等数据（传感器）综合判断病情。",
     "example": "当你用手机拍照并语音提问‘这张菜谱里的辣椒用量能换成青椒吗？’时，AI同时分析图像中的文字和食材、理解语音指令，并生成合理建议——这就是典型的多模态应用。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型",
+    "人机交互",
+    "技术基础"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Multimodal_learning",
+    "https://huggingface.co/tasks/multimodal"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T08:50:07Z"
+  "updated_at": "2026-03-23T13:28:11.075257Z",
+  "quality_score": 0.95
 }

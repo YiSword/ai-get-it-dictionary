@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "procurement_agent",
+  "norm_term": "procurement_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "AI 智能体",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "采购代理是基于 AI 的企业级智能体，旨在自动化优化采购流程。利用 NLP 和机器学习技术，自主执行供应商筛选、订单生成及合规检查。常见于 SAP 等供应链平台，解决效率低下与数据分散问题。通过智能决策识别风险并优化支出，推动采购职能从操作型向战略型转变，提升供应链透明度与成本效益。",
+    "metaphor": "它就像一位不知疲倦的虚拟采购专员，全天候监控市场价格和库存，自动比价下单，确保企业只买对的且符合预算，无需人工反复审批，让采购像网购一样简单高效。",
+    "example": "某制造企业需要批量购买原材料，采购代理自动分析历史数据和市场波动，推荐最优供应商并生成订单，仅需人类经理确认关键条款，将原本数天的流程缩短至几小时。同时自动核对发票与合同，确保合规。"
+  },
+  "scenario_tags": [
+    "企业管理",
+    "供应链",
+    "AI 智能体"
+  ],
+  "sources": [
+    "https://www.coupa.com/platform/ai",
+    "https://www.sap.com/products/artificial-intelligence.html"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:15:59.380389Z",
+  "updated_at": "2026-03-23T14:17:17.315207Z",
+  "quality_score": 1.0
+}

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "基础概念",
   "difficulty": "中级",
   "explanations": {
-    "plain": "memory_token 是指在大语言模型（LLM）交互中，用于表示上下文记忆单位的抽象符号，通常对应模型处理的一个子词或字符片段。它不是物理内存，而是模型输入/输出序列中可计数的基本处理单元，直接影响上下文长度限制、API 调用成本和响应质量。普通用户需要了解它，因为超出模型的 memory_token 上限会导致截断、遗忘历史对话或请求失败，合理估算 token 数有助于优化提示词设计、控制费用并提升多轮对话连贯性。",
+    "plain": "memory_token 指大模型交互中代表上下文记忆单位的抽象符号，对应模型处理的子词或字符片段。它非物理内存，而是序列计数的基本单元，直接影响上下文长度限制与 API 成本。超出上限会导致对话截断，合理估算有助于优化提示词设计并控制费用。",
     "metaphor": "就像图书馆借书卡上每本书占用一个格子，memory_token 是模型‘工作台’上能同时摆放的最小信息单元，格子满了就不能再加新内容。",
     "example": "当你向支持 8192 token 的模型发送一段含 7500 token 的长文档加提问时，剩余 692 token 只够生成简短回答；若提问本身超限，模型将自动截断文档或拒绝请求。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "上下文管理",
+    "成本控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/tokenizer",
+    "https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:34:53Z"
+  "updated_at": "2026-03-23T14:30:22.485669Z",
+  "quality_score": 1.0
 }

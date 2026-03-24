@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "财务管理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "QuickBooks 是一款由 Intuit 公司开发的主流会计软件，专为中小型企业、自由职业者和会计师设计，用于管理收入、支出、发票、工资、税务和财务报表。它自动化记账流程，减少手工错误，并支持云端同步与多用户协作。普通用户需要了解 QuickBooks，因为它能显著降低财务管理门槛——无需专业会计背景，也能合规记账、按时报税、实时掌握企业现金流状况，从而支撑更稳健的经营决策。",
+    "plain": "QuickBooks 是 Intuit 公司开发的云端会计软件，专为中小企业及自由职业者设计。核心功能包括收支管理、发票、工资、税务及财务报表生成。它通过自动化记账减少错误，支持多用户协作，帮助用户无需专业背景即可合规记账、掌握现金流，支撑稳健经营决策。",
     "metaphor": "QuickBooks 就像一位随叫随到的数字会计助理，既帮你整理每一张收据和账单，又在月底自动生成清晰的财务健康报告。",
     "example": "一家小型摄影工作室使用 QuickBooks 在线版为客户开具电子发票，自动匹配银行入账记录，并在季度末一键导出利润表和销售税报表提交给税务局。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "中小企业",
+    "财务管理",
+    "SaaS"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://quickbooks.intuit.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:54:10Z",
-  "updated_at": "2026-03-21T09:26:12Z"
+  "updated_at": "2026-03-23T16:52:32.030847Z",
+  "quality_score": 0.95
 }

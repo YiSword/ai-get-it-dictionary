@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "安全与隐私",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Membership inference 是一种隐私攻击技术，用于判断某个特定数据样本是否被用于训练某个机器学习模型。它利用模型对‘见过’和‘没见过’的样本在输出（如预测置信度）上的细微差异，推断该样本是否属于训练集。普通用户需要了解它，因为即使模型不直接泄露训练数据，攻击者仍可能通过公开API或预测服务反推出你是否曾提供过敏感信息（如医疗记录、金融行为），从而威胁个人隐私。",
+    "plain": "成员推断攻击是一种隐私威胁技术，用于判断特定样本是否属于机器学习模型的训练集。攻击者通过分析模型对训练与非训练数据在输出置信度上的差异进行推断。即使模型不直接泄露数据，攻击者仍可通过 API 反推用户敏感信息，威胁个人隐私。",
     "metaphor": "就像通过一个人回答问题时的语气犹豫程度，判断这个问题是否是他自己练习过的题目。",
     "example": "攻击者向某健康AI服务提交自己的基因检测结果并获取疾病风险预测，再结合多个类似查询的置信度模式，推断该结果是否曾被用于训练该AI模型。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "隐私保护",
+    "模型安全",
+    "数据泄露"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1610.05820",
+    "https://owasp.org/www-project-machine-learning-security-top-10/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:22:02Z",
-  "updated_at": "2026-03-21T08:31:55Z"
+  "updated_at": "2026-03-23T18:34:10.669325Z",
+  "quality_score": 0.95
 }

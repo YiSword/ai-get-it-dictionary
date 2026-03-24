@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "产品战略",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AI_first_product（AI优先产品）指从设计之初就以人工智能为核心能力、而非后期附加功能的产品。它的架构、用户体验和核心价值都围绕AI能力展开，例如实时语义理解、个性化生成或自主决策。普通用户需要了解这一概念，因为它标志着产品是否真正具备智能化本质——不是简单调用聊天框，而是能主动适应需求、持续学习并深度融入工作流，直接影响效率、隐私和使用门槛。",
-    "metaphor": "就像一辆‘电动优先’汽车不是在燃油车底盘上加装电机，而是从电池布局、热管理到驾驶逻辑全部为电驱动重构。",
-    "example": "Notion AI 是典型的 AI_first_product：笔记、数据库、任务管理等功能原生支持自然语言指令驱动，用户无需切换工具或手动配置模型，输入‘总结上周会议要点并生成待办清单’即可直接执行。"
+    "plain": "AI First Product 指设计之初即以人工智能为核心驱动力的数字产品，而非后期功能叠加。它依赖 AI 模型深度参与核心体验，如实时理解意图、自主优化流程。对用户而言，产品响应更自然、服务更主动，但也需关注数据隐私与算法透明度。这是产品从“能用”向“懂你”演进的关键标志。",
+    "metaphor": "就像一辆从零开始按电动车逻辑设计的汽车，而不是给燃油车加装充电口；AI_first_product 的每个部件都为智能而生，而非事后改装。",
+    "example": "Notion AI 是典型的 AI_first_product：其笔记、数据库与协作功能原生支持自然语言指令（如‘总结这篇会议记录并列出待办’），AI 不是插件，而是贯穿编辑、组织与检索全流程的底层能力。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "产品设计",
+    "人工智能",
+    "用户体验"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://blog.google/technology/ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:26:56Z"
+  "updated_at": "2026-03-23T17:22:54.139556Z",
+  "quality_score": 0.95
 }

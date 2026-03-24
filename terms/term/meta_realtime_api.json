@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "meta_realtime_api",
+  "norm_term": "meta_realtime_api",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "api",
+  "category": "API 服务",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Meta Realtime API 指 Meta 平台提供的实时数据订阅接口，基于 Webhook 机制实现事件推送。开发者可订阅用户行为、内容变更等事件，替代低效轮询，实现毫秒级响应。广泛应用于社交同步、即时通知等场景，显著提升应用实时交互体验，是构建动态社交功能的关键基础设施。",
+    "metaphor": "就像邮局开通了‘特急专送’服务，当有新信件时主动投递到你家信箱，而非每天定时检查邮箱。",
+    "example": "社交应用通过该接口实时接收好友动态：当用户发布新照片时，其他用户的界面立即刷新显示，无需手动下拉更新。"
+  },
+  "scenario_tags": [
+    "实时通信",
+    "数据同步",
+    "开发工具"
+  ],
+  "sources": [
+    "https://developers.facebook.com/docs/graph-api/webhooks"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:41:30.771184Z",
+  "updated_at": "2026-03-23T12:15:47.244932Z",
+  "quality_score": 0.95
+}

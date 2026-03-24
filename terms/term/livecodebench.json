@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "基准测试",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LiveCodeBench 是一个面向编程教育与代码实时协作的开源基准测试平台，用于评估和比较不同编程环境（如 Jupyter、VS Code Live Share、Replit 等）在交互式代码执行、响应延迟、状态同步和多用户协同编辑等维度上的实际表现。它不评测算法能力，而是聚焦‘人机交互链路’的质量。普通用户——尤其是教师、学生、远程结对编程者或低代码工具选型者——需要了解它，因为其测试结果能直观反映某个平台是否真正‘顺手’：比如改一行代码后多久出结果、多人编辑时会不会丢光标、中断运行后状态是否一致。",
+    "plain": "LiveCodeBench 是一个面向大语言模型的代码能力评估基准，旨在解决数据污染问题。它通过收集竞赛平台最新题目，动态更新测试集，客观评测模型在生成、调试代码方面的真实水平。广泛应用于 AI 编程助手选型及模型验证，帮助开发者识别模型是否具备实时解题能力而非记忆训练数据。",
     "metaphor": "就像汽车测评中不只看发动机参数，还要实测踩油门到车动的延迟、多人轮流开车时档位记忆是否准确，LiveCodeBench 测的是编程环境的‘驾驶手感’。",
     "example": "某高校计算机系用 LiveCodeBench 对比了 VS Code 远程开发插件与 GitHub Codespaces，在 5 人同步调试 Python Web 应用时发现前者平均响应延迟低 320ms，且断连重连后调试器断点自动恢复率高出 94%，据此选定教学平台。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型评估",
+    "代码生成",
+    "基准测试"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/livecodebench/livecodebench"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:11:34Z"
+  "updated_at": "2026-03-23T14:30:31.264888Z",
+  "quality_score": 1.0
 }

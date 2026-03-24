@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能伦理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "可解释人工智能（Interpretable AI）指那些其决策逻辑能被人类直接理解、追踪和验证的AI系统。与‘黑箱’模型（如深度神经网络）不同，它通过简洁规则、可视化特征权重或自然语言说明等方式，清晰展示‘为什么得出这个结论’。普通用户需要了解它，因为当AI参与医疗诊断、贷款审批或司法辅助等关键决策时，透明性关乎公平性、责任归属和基本信任——人们有权知道算法是否偏见、错误或不合理。",
+    "plain": "可解释人工智能指决策逻辑能被人类直接理解、追踪和验证的 AI 系统。与黑箱模型不同，它通过规则、权重可视化等方式展示决策原因。在医疗、金融等关键领域，透明性关乎公平与信任，确保用户有权知晓算法是否存在偏见或错误，是建立人机信任的基础。",
     "metaphor": "就像一位医生不仅告诉你‘你得了流感’，还会指着血检报告中的白细胞升高和病毒抗原阳性，一步步解释判断依据。",
     "example": "一家银行使用基于决策树的信用评分模型，向申请人展示：‘您的申请被拒绝，主要因为近6个月有3次逾期还款（权重40%）且收入稳定性评分低于阈值（权重35%）’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "医疗诊断",
+    "金融审批",
+    "司法辅助"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.darpa.mil/program/explainable-artificial-intelligence",
+    "https://www.nist.gov/itl/ai-risk-management-framework"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:38:16Z"
+  "updated_at": "2026-03-23T19:08:27.828684Z",
+  "quality_score": 0.95
 }

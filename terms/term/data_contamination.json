@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Data contamination 指在训练机器学习模型时，无意中将本应仅用于评估或测试的数据（如未来数据、验证集、真实世界未见样本）混入训练数据中，导致模型性能被虚假高估。这种污染破坏了模型泛化能力的客观评估，使模型在实际部署中表现远差于预期。普通用户需要了解它，因为许多AI产品（如智能推荐、医疗辅助诊断）若存在数据污染，可能给出看似精准实则不可靠的结果，影响决策安全与信任。",
+    "plain": "Data contamination 指训练模型时，误将测试或验证数据混入训练集。这导致模型性能被虚假高估，破坏泛化能力评估，使实际部署表现远差于预期。若 AI 产品（如推荐、诊断）存在此问题，可能给出不可靠结果，严重影响决策安全与用户信任。",
     "metaphor": "就像厨师在考试前偷偷尝过考官最后要品尝的成品菜，再根据味道调整做法——他不是真会做这道菜，只是记住了答案。",
     "example": "某公司用2023年全年用户行为日志训练推荐模型，却把12月最后一周的数据既放进训练集又当作测试集评估准确率，导致报告98%准确率，上线后实际效果骤降。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "数据质量",
+    "风险评估"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developers.google.com/machine-learning/guides/rules-of-ml",
+    "https://scikit-learn.org/stable/modules/cross_validation.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:11:51Z"
+  "updated_at": "2026-03-23T16:44:36.449173Z",
+  "quality_score": 0.95
 }

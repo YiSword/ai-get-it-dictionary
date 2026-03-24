@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "active_parameters 是指在模型推理或训练过程中实际参与计算、具有非零值或被显式启用的可调参数集合。它区别于模型中所有声明的参数（包括被冻结、掩码掉或设为零的参数）。普通用户需要了解这一概念，因为模型的行为、内存占用、推理速度和可解释性往往取决于哪些参数真正处于激活状态——例如在稀疏模型、适配器微调（如LoRA）或动态网络中，仅少量 active_parameters 被更新或使用，直接影响部署效率与资源需求。",
-    "metaphor": "就像一辆汽车里所有安装好的零件是‘总参数’，而真正通电、转动并驱动车辆前进的那些部件（如引擎活塞、传动轴）才是‘active_parameters’。",
-    "example": "在使用LoRA对大语言模型进行微调时，原始模型权重被冻结，仅新增的低秩矩阵参数被训练和激活，此时 active_parameters 仅占全量参数的0.1%左右，却能高效适配新任务。"
+    "plain": "active_parameters 指模型训练或推理中实际参与计算的非零参数集合，区别于被冻结或掩码的总参数量。在稀疏模型、MoE 或 LoRA 微调中，仅部分参数被激活更新，直接决定内存占用、推理速度及部署成本。理解该概念有助于评估模型效率与资源需求。",
+    "metaphor": "就像一辆汽车里所有安装好的零件（方向盘、刹车片、装饰灯）是‘全部参数’，而只有当前通电并响应驾驶操作的那些部件（如转向电机和制动液压阀）才是‘active_parameters’。",
+    "example": "在使用LoRA对大语言模型进行轻量微调时，原始模型权重被冻结，仅新增的低秩矩阵参数被训练和激活，这些新增矩阵中的非零权重即构成 active_parameters。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "性能优化",
+    "稀疏计算"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/peft",
+    "https://pytorch.org/docs/stable/nn.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:20:00Z"
+  "updated_at": "2026-03-23T18:19:56.912353Z",
+  "quality_score": 0.95
 }

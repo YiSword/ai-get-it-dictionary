@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型评估",
   "difficulty": "中级",
   "explanations": {
-    "plain": "execution_based_evaluation 是一种通过实际运行程序（或模型）并观察其输出行为来评估其正确性、性能或鲁棒性的方法，而非仅依赖静态分析或理论推导。它关注‘做出来是否有效’，例如输入测试数据后检查结果是否符合预期、响应是否及时、是否崩溃或产生异常。普通用户需要了解它，因为这是判断软件、AI工具或自动化系统是否真正可靠可用的核心方式——再漂亮的说明书也比不上亲自试一次。",
+    "plain": "execution_based_evaluation 是一种通过实际运行程序或模型并观察输出来评估其正确性与性能的方法。它不依赖静态分析，而是关注代码执行结果是否符合预期，常用于代码大模型评测。该方法能有效验证功能可用性，是衡量系统可靠性的核心手段，比理论推导更具实践意义。",
     "metaphor": "就像试驾一辆新车：不看参数表，而是亲自踩油门、转弯、刹车，看它是否平稳、响应是否灵敏、有没有异响。",
     "example": "评估一个自动生成Python代码的AI模型时，研究人员会将它的输出代码在真实Python环境中运行，检查是否能通过所有预设测试用例，而非仅靠语法检查或人工审阅代码逻辑。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "模型评估",
+    "自动化测试"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2107.03374"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:16:35Z"
+  "updated_at": "2026-03-23T12:51:15.229205Z",
+  "quality_score": 0.95
 }

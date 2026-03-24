@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "语音技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "voice_cloning（语音克隆）是一种人工智能技术，能通过少量目标人物的语音样本，生成高度相似的合成语音，实现说话风格、音色、语调甚至情感表达的逼真复现。普通用户需要了解它，不仅因为它正广泛应用于有声书、智能助手和无障碍服务中，更因为其潜在风险——如被用于伪造语音诈骗、虚假音频传播或未经授权的内容创作，关系到个人声音权益与信息真实性。",
+    "plain": "语音克隆是一种 AI 技术，利用少量样本合成高度相似的目标语音，复现音色、语调及情感。它广泛应用于有声书、智能助手及无障碍服务，但也存在被用于诈骗、伪造音频等风险，涉及个人声音权益与信息真实性保护。用户需警惕滥用，关注技术伦理与安全。",
     "metaphor": "就像用一张人脸照片生成可驱动的数字替身一样，语音克隆是用几段说话录音‘打印’出一个能开口说话的声学分身。",
     "example": "一位失去语言能力的渐冻症患者，仅需提供早期录制的10分钟语音，即可生成专属语音克隆模型，让语音合成设备以他原本的声音表达想法。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语音合成",
+    "内容安全",
+    "生成式 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Voice_cloning",
+    "https://www.ibm.com/think/topics/voice-cloning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:21:15Z"
+  "updated_at": "2026-03-23T19:02:22.024237Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "latent_diffusion_model（潜在扩散模型）是一种生成式人工智能模型，它先将图像压缩到低维潜在空间，再在该空间中执行高效的噪声添加与去噪过程，最终重建出高质量图像。相比直接在像素空间操作的扩散模型，它大幅降低计算开销，使消费级显卡也能运行文生图等任务。普通用户需要了解它，因为它是当前主流AI绘画工具（如Stable Diffusion）的核心技术，直接影响生成速度、画质和本地部署可行性。",
+    "plain": "潜在扩散模型（LDM）是一种生成式 AI 模型。它先将图像压缩到低维潜在空间，再在该空间执行噪声添加与去噪，最终重建高质量图像。相比像素空间扩散模型，它大幅降低计算开销，使消费级显卡也能运行文生图任务。它是 Stable Diffusion 等主流 AI 绘画工具的核心技术，直接影响生成速度、画质和本地部署可行性。",
     "metaphor": "就像建筑师先用简化的3D草图（潜在空间）反复修改设计，而不是每次都重绘整栋建筑的每一砖一瓦（像素空间），从而更快更省力地完成最终蓝图。",
     "example": "当你在Stable Diffusion WebUI中输入‘赛博朋克城市夜景’并点击生成时，背后正是latent diffusion model在压缩后的潜在表示上迭代去噪，几秒内输出一张高清图像。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "文生图",
+    "AIGC"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2112.10752",
+    "https://github.com/CompVis/latent-diffusion"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:03:04Z"
+  "updated_at": "2026-03-23T18:51:07.157940Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "安全分析",
   "difficulty": "中级",
   "explanations": {
-    "plain": "dynamic_analysis（动态分析）是一种在程序实际运行时检查其行为的技术，通过监控内存使用、函数调用、网络请求、系统调用等实时活动来识别漏洞、恶意行为或性能问题。与静态分析不同，它不依赖源代码或二进制文件的表面结构，而是观察真实执行路径。普通用户虽不直接操作该技术，但其成果广泛影响日常安全——例如杀毒软件实时拦截勒索软件、浏览器阻止恶意脚本执行，都依赖动态分析能力，因此了解它有助于理解为何某些威胁只能在‘运行中’被发现。",
+    "plain": "动态分析是在程序运行时监控其行为的技术，通过跟踪内存、函数调用及网络请求等实时活动，识别漏洞或恶意行为。与静态分析不同，它观察真实执行路径。该技术广泛应用于杀毒软件拦截勒索软件、浏览器阻止恶意脚本等场景，是发现运行时威胁的关键手段。",
     "metaphor": "就像医生用实时心电图和血压监测来诊断病人突发性心律失常，而不是仅靠看体检报告照片。",
     "example": "安全研究人员将可疑下载的PDF文件放入沙箱环境运行，动态分析工具捕获到它悄悄启动cmd.exe并尝试连接C2服务器，从而确认其为恶意文档。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "软件安全",
+    "恶意代码分析",
+    "漏洞检测"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://owasp.org/www-community/controls/Dynamic_Analysis",
+    "https://en.wikipedia.org/wiki/Dynamic_program_analysis"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:57:44Z"
+  "updated_at": "2026-03-23T18:00:38.509801Z",
+  "quality_score": 0.95
 }

@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "minicpm_v_2_6",
+  "norm_term": "minicpm_v_2_6",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "视觉语言模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "面壁智能推出的 MiniCPM-V 2.6 是轻量级多模态大模型。它融合视觉与文本理解，支持图像识别、图文推理及跨模态生成。凭借轻量化架构，它在保持高性能的同时降低资源消耗，适合移动端部署与实时交互。用户可通过集成应用享受智能视觉问答、文档解析等服务，是端侧多模态技术的代表版本。",
+    "metaphor": "就像配备双核处理器的智能助手，既能用眼睛看懂图表照片，又能用大脑分析文字逻辑，还能把看到的和想到的结合起来给出完整解答。",
+    "example": "教师使用该模型扫描学生手绘的几何图形，自动生成解题步骤说明；电商客服通过上传商品图片，快速获取多语言产品描述文案。"
+  },
+  "scenario_tags": [
+    "移动端部署",
+    "视觉问答",
+    "轻量化模型"
+  ],
+  "sources": [
+    "https://github.com/OpenBMB/MiniCPM-V",
+    "https://huggingface.co/openbmb/MiniCPM-V-2_6"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:43:04.858400Z",
+  "updated_at": "2026-03-23T17:27:54.870225Z",
+  "quality_score": 0.95
+}

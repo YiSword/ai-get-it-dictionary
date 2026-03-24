@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "可信 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Explainability（可解释性）是指人工智能或机器学习模型能够以人类可理解的方式，清晰说明其决策依据和推理过程的能力。它让非技术人员也能知道‘为什么模型会做出这个判断’，而不仅仅是看到结果。普通用户需要了解它，因为当AI被用于贷款审批、医疗诊断或司法评估等关键场景时，缺乏可解释性可能导致偏见、错误决策难以纠正，甚至损害信任与公平。具备可解释性的系统更透明、更易问责，也更利于用户质疑和监督。",
+    "plain": "可解释性指 AI 模型以人类可理解方式说明决策依据和推理过程的能力。它让用户知晓“为何做出此判断”，而非仅看结果。在贷款、医疗等关键场景，缺乏可解释性可能导致偏见且难纠错。具备该能力的系统更透明、易问责，利于监督，是构建可信 AI 的核心要素，确保公平与安全。",
     "metaphor": "就像一位医生不仅告诉你‘你得了高血压’，还会解释血压读数、生活习惯影响和药物作用机制——可解释性就是AI的‘临床解释能力’。",
     "example": "一家银行使用可解释性工具分析贷款申请，向被拒用户展示具体原因：‘因过去12个月有3次信用卡逾期，且负债收入比高于70%’，而非仅输出‘申请未通过’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "金融风控",
+    "医疗诊断",
+    "伦理合规"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ibm.com/topics/ai-explainability",
+    "https://www.nist.gov/itl/ai-risk-management-framework"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:19:54Z"
+  "updated_at": "2026-03-23T14:23:57.081257Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Pika Labs 是一家专注于生成式人工智能视频技术的公司，其核心产品 Pika 是一个能够根据文本提示、图像或视频片段生成高质量、连贯短视频（通常为3–4秒）的AI模型。它支持文本到视频、图像到视频、视频风格迁移及帧插值等功能，以易用性和实时性见长。普通用户需要了解它，是因为它大幅降低了专业级视频创作门槛——无需剪辑经验或昂贵设备，仅凭自然语言描述即可快速产出创意短视频，适用于社交媒体内容、教育演示或原型构思等日常场景。",
+    "plain": "Pika Labs 是领先的生成式 AI 视频公司，核心模型 Pika 支持文本到视频、图像到视频及视频编辑功能。它能生成高质量连贯短视频，显著降低创作门槛。用户无需专业设备，仅凭提示词即可快速制作创意内容，广泛应用于社交媒体营销、教育演示及创意原型设计等场景，是大众化视频创作的重要工具。",
     "metaphor": "就像一位精通分镜、运镜和调色的全能短视频导演，你只需口头说出想法，它便立刻为你拍出一段流畅小片。",
     "example": "一位教师想讲解‘水分子在加热时的运动加剧’，输入提示‘animated close-up of water molecules vibrating faster as temperature rises, scientific style’，Pika 在几秒内生成一段3秒动态示意图视频，直接插入课件使用。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AIGC",
+    "视频创作",
+    "多模态生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pika.art"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:00:12Z",
-  "updated_at": "2026-03-21T09:09:29Z"
+  "updated_at": "2026-03-23T14:16:57.727314Z",
+  "quality_score": 0.95
 }

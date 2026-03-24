@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数值计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Heun 是一种二阶显式数值方法，用于求解常微分方程（ODE），可看作是欧拉法的改进版本：它先用欧拉法做一次粗略预测，再用该预测点的斜率修正初始斜率，最终取两者平均值来更新解。相比欧拉法，Heun 法精度更高、稳定性更好，且实现简单，常被用于教学和轻量级科学计算中。普通用户虽不直接调用它，但在使用仿真软件、物理引擎或数据分析工具（如某些 Python 数值库的底层求解器）时，可能间接依赖此类算法——了解其原理有助于判断结果可靠性及参数设置合理性。",
+    "plain": "Heun 法是一种二阶显式数值方法，用于求解常微分方程（ODE）。它是欧拉法的改进版，采用预测 - 校正策略：先用欧拉法预测，再用预测点斜率修正，取平均值更新解。相比欧拉法精度更高、稳定性更好，实现简单，常用于教学、物理引擎及科学计算库底层求解器，有助于理解仿真结果可靠性。",
     "metaphor": "就像开车时先凭直觉打一把方向（欧拉预测），再快速 glance 后视镜确认车身姿态（用预测点重新评估），最后平滑调整方向盘（加权平均两次斜率）来更稳准地过弯。",
     "example": "在模拟弹簧振子运动时，若用欧拉法会出现能量虚假增长，而采用 Heun 法能在不显著增加计算开销的前提下，更真实地保持系统能量守恒。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数值模拟",
+    "微分方程",
+    "科学计算"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Heun%27s_method",
+    "https://mathworld.wolfram.com/HeunsMethod.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:54:01Z",
-  "updated_at": "2026-03-21T07:08:48Z"
+  "updated_at": "2026-03-23T18:36:19.620758Z",
+  "quality_score": 0.95
 }

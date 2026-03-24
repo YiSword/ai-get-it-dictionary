@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "mistral_guard",
+  "norm_term": "mistral_guard",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "安全护栏",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Mistral Guard 是 Mistral AI 构建的内容安全护栏，专用于检测和过滤人工智能生成内容中的潜在风险。它分析文本等多模态输入，识别仇恨言论、暴力及隐私泄露等有害信息并阻止传播。适用于企业级内容审核和合规管理，保障人机交互安全，维护网络环境健康。",
+    "metaphor": "就像机场安检系统对行李进行危险品扫描，Mistral Guard 为 AI 输出内容建立了一道智能过滤网，自动拦截可能危害用户或社会的‘数字违禁品’。",
+    "example": "某社交平台集成 Mistral Guard 后，当用户尝试发布包含种族歧视言论的 AI 生成内容时，系统会自动标记并阻止发布，同时向管理员发送风险报告。"
+  },
+  "scenario_tags": [
+    "内容安全",
+    "企业合规",
+    "大模型安全"
+  ],
+  "sources": [
+    "https://mistral.ai/",
+    "https://docs.mistral.ai/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:46:49.040255Z",
+  "updated_at": "2026-03-23T17:09:56.649181Z",
+  "quality_score": 0.9
+}

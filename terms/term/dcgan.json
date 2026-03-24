@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DCGAN（Deep Convolutional Generative Adversarial Network）是一种基于卷积神经网络的生成对抗网络架构，用于高质量图像生成。它通过判别器和生成器两个深度网络相互博弈：生成器学习从随机噪声中合成逼真图像，判别器则区分真假图像，二者在训练中共同提升。普通用户需要了解DCGAN，因为它构成了许多AI图像生成工具（如早期艺术风格迁移、人脸合成、数据增强系统）的技术基础，理解其原理有助于理性看待AI生成内容的真实性与局限性。",
+    "plain": "DCGAN（Deep Convolutional Generative Adversarial Network）是将卷积神经网络引入生成对抗网络的架构。它通过生成器从噪声合成图像，判别器区分真假，双方博弈提升生成质量。作为早期成功的图像生成模型，它为后续 AI 绘画、人脸合成等技术奠定了基础，是理解生成式 AI 原理的关键案例。",
     "metaphor": "就像一位初学绘画的学生（生成器）不断临摹大师作品，而一位严苛的美术老师（判别器）逐笔指出破绽，双方在反复较量中共同进步。",
     "example": "研究人员使用DCGAN从少量医学影像中生成合成X光片，用于扩充训练数据集，从而提升疾病检测模型的泛化能力，同时保护患者隐私。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "深度学习",
+    "计算机视觉"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1511.06434"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:27:04Z",
-  "updated_at": "2026-03-21T05:17:02Z"
+  "updated_at": "2026-03-23T16:35:18.305016Z",
+  "quality_score": 0.95
 }

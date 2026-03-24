@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "autonomy_level（自主等级）指系统或智能体在无需人工干预的情况下独立感知、决策和执行任务的能力程度，通常分为若干层级（如L0-L5），常见于自动驾驶、机器人和工业自动化领域。普通用户需要了解它，因为该指标直接关系到设备的安全边界、使用时需承担的监控责任以及何时必须接管控制——例如高 autonomy_level 的车辆允许脱手驾驶，但低等级下误信系统可能导致事故。",
+    "plain": "自主等级衡量系统或智能体无需人工干预独立完成任务的能力程度，常分为 L0-L5 层级。广泛应用于自动驾驶与机器人领域。该指标直接界定设备安全边界与用户监控责任：高等级允许脱手，低等级需随时接管。用户需据此判断何时介入，避免因误信系统导致事故。",
     "metaphor": "就像学车时教练坐在副驾：autonomy_level 越高，教练越少插手；L0 是教练全程握方向盘，L5 则是教练已下车，你完全不用在场。",
     "example": "一辆标称 autonomy_level 为L2的汽车可在高速上自动跟车与居中行驶，但驾驶员必须持续手扶方向盘并随时准备接管；若系统突然提示‘autonomy_level dropped to L1’，说明车道保持功能失效，需立即人工介入。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自动驾驶",
+    "机器人",
+    "智能系统"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.sae.org/standards/content/j3016_202104/",
+    "https://en.wikipedia.org/wiki/Autonomous_car"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:51:44Z"
+  "updated_at": "2026-03-23T11:47:43.211414Z",
+  "quality_score": 0.95
 }

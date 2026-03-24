@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型推理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "batch_embedding 是指一次性将多个文本（如句子、短语或文档）输入模型，由模型并行生成对应的向量表示（即嵌入向量）的过程。它区别于逐个处理的单样本嵌入，能显著提升计算效率，尤其在处理大规模数据时减少 GPU/CPU 等待时间、提高吞吐量。普通用户（如开发者、数据分析师）需要了解它，因为选择是否启用 batch embedding 直接影响模型服务的响应速度、资源消耗和部署成本。",
+    "plain": "batch_embedding 指将多个文本一次性输入模型，并行生成向量表示的过程。相比单样本处理，它能显著提升计算效率，减少硬件等待时间并提高吞吐量。开发者需关注此机制，因其直接影响服务响应速度、资源消耗及部署成本，是大规模数据处理中的关键优化手段。",
     "metaphor": "就像邮局不挨家挨户送信，而是把一叠信件装进一个邮袋统一派送——batch_embedding 是把多段文字‘打包’交给模型，一次算出所有结果，而不是每句话都单独跑一趟。",
     "example": "在构建搜索系统时，后台需为10万篇新闻标题实时生成向量以支持语义检索，使用 batch_embedding（如每次处理512个标题）可将处理时间从数小时缩短至几分钟。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型推理",
+    "性能优化",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/perf_infer_gpu_one",
+    "https://python.langchain.com/docs/modules/data_connection/text_embedding/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:57:14Z"
+  "updated_at": "2026-03-23T14:29:35.850463Z",
+  "quality_score": 0.95
 }

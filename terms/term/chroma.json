@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "图像处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Chroma 指色彩的纯度或饱和度，即颜色中所含灰度成分的多少——chroma 越高，颜色越鲜艳、越接近光谱色；越低则越灰暗、越接近中性灰。它不同于明度（亮度）和色相（颜色种类），是描述颜色‘鲜活程度’的关键维度。普通用户需要了解 chroma，因为它直接影响照片调色、UI 设计中的视觉吸引力、印刷品色彩准确性，以及在视频编辑或摄影中避免过饱和失真或画面乏力等问题。",
+    "plain": "Chroma 指色彩的纯度或饱和度，表示颜色中灰度成分的多少。Chroma 越高，颜色越鲜艳；越低则越灰暗。它区别于明度和色相，是描述颜色鲜活程度的关键维度。该概念广泛应用于照片调色、UI 设计、印刷及视频编辑中，直接影响视觉吸引力与色彩准确性，避免过饱和失真。",
     "metaphor": "就像一杯果汁，chroma 相当于其中纯果汁的浓度：加水越多（灰度越多），味道越淡、颜色越浅；原汁越浓（灰度越少），味道越烈、颜色越艳。",
     "example": "在手机修图 App 中调整‘饱和度’滑块时，实际主要改变的就是图像中各像素的 chroma 值；专业设计师为品牌选择主色时，会严格控制 chroma 以确保 Logo 在不同材质上印刷后仍保持一致的鲜明感。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像处理",
+    "色彩理论",
+    "视觉设计"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chroma_(color)"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T04:28:33Z"
+  "updated_at": "2026-03-23T17:34:00.941738Z",
+  "quality_score": 0.95
 }

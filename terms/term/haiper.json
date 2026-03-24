@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "视频生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Haiper 是一家专注于人工智能视频生成技术的公司，其核心产品是高性能、高保真度的AI视频生成模型（如 Haiper Video），能够根据文本提示或图像输入快速生成高质量、连贯的短视频。普通用户需要了解它，是因为它代表了当前AIGC视频创作领域的前沿能力——相比早期工具，Haiper 在运动一致性、细节还原和提示响应准确性上显著提升，让非专业用户也能以极低门槛制作接近实拍效果的创意视频，适用于社交媒体内容、教育演示或营销素材等日常场景。",
+    "plain": "Haiper 是专注于 AI 视频生成的公司及产品。核心模型支持文本或图像输入，快速生成高质量、连贯的短视频。其在运动一致性和细节还原上表现优异，显著降低视频创作门槛。适用于社交媒体、教育演示及营销素材制作，是当前 AIGC 视频领域的前沿代表。",
     "metaphor": "就像一位精通分镜、运镜和剪辑的虚拟导演，你只需描述想法，它便能自动生成流畅自然的短视频成片。",
     "example": "一位教师输入提示词‘一只卡通猫用显微镜观察水滴中的微生物，镜头缓缓推进’，Haiper Video 在10秒内生成一段3秒高清视频，微生物随水流轻微游动，镜头运动平稳且焦点准确。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "视频生成",
+    "AIGC 应用",
+    "创意创作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://haiper.ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:00:23Z",
-  "updated_at": "2026-03-21T07:05:35Z"
+  "updated_at": "2026-03-23T18:12:41.995664Z",
+  "quality_score": 1.0
 }

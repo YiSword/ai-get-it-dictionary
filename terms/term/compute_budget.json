@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "智能合约",
   "difficulty": "中级",
   "explanations": {
-    "plain": "compute_budget 是 Solana 区块链中用于限制单个交易可消耗计算资源（如 CPU 时间和内存）的机制，以防止恶意或低效程序拖慢整个网络。每个交易必须声明其最大允许计算单位（CU），超出即被拒绝；系统据此分配执行优先级和费用。普通用户需要了解它，因为若交易因 CU 不足而失败，需手动调整预算参数（如 setComputeUnitLimit），否则无法成功提交复杂操作（如多指令合约调用或大型数据序列化）。",
+    "plain": "compute_budget 是 Solana 限制单笔交易计算资源（CU）的机制，防止恶意程序拖慢网络。交易需声明最大计算单位，超出即被拒绝。若因 CU 不足导致失败，开发者需手动调整预算参数（如 setComputeUnitLimit）以确保复杂操作成功提交。",
     "metaphor": "就像去自助餐厅前领取一张限时用餐券——你只能在规定时间内吃完，超时会被请出餐厅，无论饭菜是否吃完。",
     "example": "当在 Solana 上执行一个包含多个代币交换和跨程序调用的 DeFi 交易时，若默认 compute budget 不足，交易会因 'Computational Budget Exceeded' 错误而失败；开发者需显式调用 setComputeUnitLimit(200_000) 来提升配额以确保成功执行。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "Solana",
+    "智能合约",
+    "交易优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://docs.solana.com/developing/programming-model/compute-budget"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:46:31Z"
+  "updated_at": "2026-03-23T19:01:00.009936Z",
+  "quality_score": 0.95
 }

@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "treasury_management_agent",
+  "norm_term": "treasury_management_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "AI 应用",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "资金管理智能体是基于 AI 技术构建的企业资金管理解决方案。它通过自动化监控、预测和优化现金流、外汇风险及投资组合，整合实时财务数据与市场信息，辅助企业做出资金配置决策，降低流动性风险并提升资本效率。",
+    "metaphor": "如同为大型企业配备了一位24小时在线的AI财务总监，它能实时分析全球账户余额、预测资金缺口，并自动执行最优汇率兑换策略。",
+    "example": "某跨国零售企业使用资金管理智能体，在季度末自动协调全球20个子公司的闲置资金，通过预测模型将短期盈余投资于低风险理财产品，同时规避了欧元兑美元的汇率波动风险。"
+  },
+  "scenario_tags": [
+    "金融科技",
+    "企业服务",
+    "智能决策"
+  ],
+  "sources": [
+    "https://www.sap.com/products/treasury-and-risk-management.html",
+    "https://www.microsoft.com/en-us/industry/financial-services/copilot-finance"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:20:20.246791Z",
+  "updated_at": "2026-03-23T17:24:44.748372Z",
+  "quality_score": 1.0
+}

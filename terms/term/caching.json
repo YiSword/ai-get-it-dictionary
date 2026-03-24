@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "系统架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Caching（缓存）是指将频繁访问或计算代价高的数据临时存储在更快、更靠近请求方的位置，以便后续快速读取，避免重复获取或重新计算。它广泛存在于浏览器、手机应用、操作系统和网站后台中。普通用户需要了解缓存，因为它直接影响网页加载速度、App响应流畅度和离线可用性；同时，当遇到内容未更新或页面异常时，清除缓存往往是简单有效的解决方法。",
+    "plain": "缓存（Caching）是将频繁访问或高计算成本的数据临时存储在更快、更接近请求源的位置，以加速后续读取并避免重复计算。它广泛应用于浏览器、操作系统及服务器后端。缓存显著提升网页加载速度和应用响应流畅度。当遇到内容未更新或页面异常时，清除缓存通常是有效的解决手段。",
     "metaphor": "就像把常用工具放在工作台抽屉里，而不是每次都要去地下室仓库取——缓存就是把‘高频用品’就近暂存，省去来回奔波的时间。",
     "example": "当你第二次打开新闻App时，首页标题和图片几乎瞬间显示，这是因为上次浏览时这些内容已被缓存在手机本地；即使短暂断网，你仍能查看刚刷新过的文章列表。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "性能优化",
+    "数据存储",
+    "网页加载"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developer.mozilla.org/zh-CN/docs/Glossary/Caching",
+    "https://en.wikipedia.org/wiki/Cache_(computing)"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:17:01Z"
+  "updated_at": "2026-03-23T12:40:45.786664Z",
+  "quality_score": 0.95
 }

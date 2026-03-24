@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数字钱包",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Atomic Wallet 是一款支持多链资产的非托管加密货币钱包，允许用户在不交出私钥的前提下自主管理比特币、以太坊、Cardano 等数百种代币，并内置去中心化交易所（DEX）实现跨链原子交换。普通用户需要了解它，是因为它兼顾了安全性（私钥本地存储）、便捷性（一键兑换）和资产多样性（无需多个钱包），避免了中心化交易所的托管风险与提款限制。",
+    "plain": "Atomic Wallet 是一款非托管多链加密货币钱包，支持比特币、以太坊等数百种代币。用户本地存储私钥，确保资产自主可控。内置去中心化交易所功能，支持跨链原子交换与一键兑换。相比中心化交易所，它避免了托管风险与提款限制，兼顾安全性与便捷性，适合需要管理多样数字资产的用户使用。",
     "metaphor": "就像一个自带全球货币兑换柜台和保险柜的个人数字钱包——钱始终在你手里，但能随时按实时汇率把美元换成日元或欧元，且无需经过银行。",
     "example": "用户小李用 Atomic Wallet 持有比特币和以太坊，他直接在 App 内发起原子交换，将 0.1 BTC 无缝换成等值 ETH，全程无需充值到交易所，也未暴露私钥给第三方。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "资产管理",
+    "去中心化金融",
+    "安全存储"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://atomicwallet.io"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:22:11Z",
-  "updated_at": "2026-03-21T03:45:10Z"
+  "updated_at": "2026-03-23T14:25:29.904163Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "代码生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Alphacode 是微软研究院于2021年发布的开源代码生成模型，专为编程任务设计，能根据自然语言描述（如注释或函数名）生成高质量、可执行的源代码。它基于大规模代码语料库训练，支持多种编程语言，并在多个基准测试中超越当时主流模型。普通用户（尤其是开发者、学习者或技术产品经理）需要了解它，因为它代表了AI辅助编程的重要演进——不仅提升编码效率，还降低了初学者理解复杂逻辑的门槛，同时提醒用户注意其生成代码的安全性、版权及调试必要性。",
+    "plain": "AlphaCode 是 DeepMind 发布的代码生成模型，专为竞争性编程设计。它基于大规模代码语料库训练，能根据自然语言描述生成高质量源代码，支持多种编程语言。该模型在基准测试中表现优异，代表 AI 辅助编程的重要演进。开发者需注意生成代码的安全性、版权及调试必要性，适用于提升编码效率及辅助学习。",
     "metaphor": "就像一位经验丰富的结对程序员，能听懂你用日常语言描述的需求，立刻写出结构清晰、语法正确的代码草稿。",
     "example": "开发者在编写Python脚本时输入注释‘# 将CSV文件读入DataFrame并按日期列降序排序’，Alphacode随即生成完整、可运行的pandas代码。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "编程辅助",
+    "大模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://deepmind.com/blog/article/alphacode"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:04:17Z",
-  "updated_at": "2026-03-21T03:33:06Z"
+  "updated_at": "2026-03-23T12:24:22.462520Z",
+  "quality_score": 1.0
 }

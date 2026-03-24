@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ideogram 是一种通过图形符号直接表达概念或事物的书写单位，不依赖语音或字母拼写，例如汉字‘山’本身形似山峰，传达‘山’的概念。它区别于表音文字（如英文单词），强调形与义的直接关联。普通用户需要了解 ideogram，因为它是理解汉字、日文汉字（kanji）、古埃及象形文字等非拼音文字系统的基础，有助于跨语言学习、字体设计、信息可视化，甚至在人工智能处理多语种文本时涉及字符识别与语义映射。",
+    "plain": "ideogram 指通过图形符号直接表达概念或事物的书写单位，不依赖语音拼写，如汉字‘山’。它区别于表音文字，强调形与义的直接关联。理解该术语有助于掌握非拼音文字系统，并在人工智能领域涉及多语种文本处理、字符识别及语义映射等任务，是跨语言信息处理的基础概念。",
     "metaphor": "就像交通标志中的‘禁止停车’图标——不用读字，一眼就懂意思，ideogram 是思想的快照，跳过声音，直抵意义。",
     "example": "当你看到汉字‘火’，其笔画模拟火焰升腾的形态，即使不懂普通话发音，也能联想到燃烧、热量等含义；在中文输入法中，用户输入‘huo’后候选栏显示该 ideogram，正是形义绑定的典型应用。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "文本识别",
+    "多语言支持"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ideogram"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:39:20Z",
-  "updated_at": "2026-03-21T07:23:09Z"
+  "updated_at": "2026-03-23T17:52:02.958134Z",
+  "quality_score": 0.95
 }

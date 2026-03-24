@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "核心概念",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Debate 是一种结构化的公共交流形式，参与者围绕特定议题提出主张、提供证据、回应反驳，并遵循逻辑与规则进行理性交锋。它不同于日常争吵或意见表达，强调清晰立论、尊重对方立场和依据事实推理。普通用户需要了解 debate，因为它培养批判性思维、信息甄别能力和有效沟通技巧——这些能力在识别虚假信息、参与公共事务、职场协作乃至日常决策中都至关重要。",
+    "plain": "Debate 是一种结构化公共交流形式，参与者围绕议题提出主张、证据并回应反驳，遵循逻辑规则理性交锋。它区别于日常争吵，强调清晰立论与事实推理。理解 Debate 有助于培养批判性思维与信息甄别能力，对识别虚假信息、职场协作及日常决策至关重要，亦是多智能体系统探索真理的机制。",
     "metaphor": "就像一场网球赛：双方轮流发球（陈述观点）、回击（反驳质疑），并遵守规则（逻辑与礼节），目标不是击倒对手，而是共同把球打得更远、更准。",
     "example": "在高中模拟联合国活动中，学生代表不同国家就气候变化政策展开 debate，需引用科学数据、预判对方立场、调整己方论点，最终由评委依据论证质量而非立场倾向评分。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "批判性思维",
+    "多智能体协作",
+    "信息甄别"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/research/ai-safety-via-debate",
+    "https://en.wikipedia.org/wiki/Debate"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:17:51Z"
+  "updated_at": "2026-03-23T18:06:45.694814Z",
+  "quality_score": 0.95
 }

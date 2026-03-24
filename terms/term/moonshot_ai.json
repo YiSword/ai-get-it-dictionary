@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Moonshot AI refers to highly ambitious, breakthrough-oriented artificial intelligence initiatives that aim to solve extremely difficult or previously intractable problems—such as achieving human-level reasoning, curing complex diseases via AI-driven biology, or building fully autonomous scientific discovery systems. Unlike incremental AI improvements, moonshot AI embraces high risk and long time horizons, often requiring novel architectures, massive interdisciplinary collaboration, and new foundational research. Ordinary users should know it because such efforts may eventually reshape healthcare, education, and work—though its impacts are indirect and years away, and distinguishing realistic progress from hype is crucial for informed engagement with AI narratives.",
+    "plain": "月之暗面（Moonshot AI）是专注于大型人工智能模型研发的公司，旗下拥有 Kimi 智能助手。公司致力于实现通用人工智能愿景，擅长长上下文处理技术，支持超长文本理解与分析。其模型广泛应用于自然语言处理、知识检索及复杂任务推理场景，是国内领先的大模型服务提供商之一。",
     "metaphor": "It's like funding a mission to build the first fusion-powered starship: not about upgrading today's rockets, but reimagining physics, materials, and engineering from the ground up to reach a once-unthinkable destination.",
     "example": "Google DeepMind's AlphaFold project—which predicted protein structures with atomic accuracy, accelerating drug discovery—was a moonshot AI effort, transforming computational biology in ways experts had deemed unrealistic just a decade earlier."
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "长文本处理",
+    "生成式 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.moonshot.cn/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:48:30Z"
+  "updated_at": "2026-03-23T10:15:13.264404Z",
+  "quality_score": 1.0
 }

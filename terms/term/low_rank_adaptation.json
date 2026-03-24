@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型微调",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Low-rank adaptation（LoRA）是一种高效的大型语言模型微调技术，它通过在原始模型权重旁添加一对低秩矩阵（即维度远小于原矩阵的分解矩阵）来实现参数更新，而非直接修改全部参数。这种方法大幅减少了训练所需的显存和计算量，同时保持接近全参数微调的效果。普通用户需要了解它，是因为它让个人开发者或小团队也能在消费级GPU上快速、低成本地定制专业领域的AI模型，而无需昂贵的算力资源。",
+    "plain": "LoRA 是一种高效的大型语言模型微调技术。它通过在原始权重旁添加低秩矩阵来更新参数，而非修改全部参数。这大幅减少了显存和计算量，同时保持接近全参数微调的效果。它让开发者能在消费级 GPU 上低成本定制专业模型，无需昂贵算力。",
     "metaphor": "就像给一辆高性能汽车加装可拆卸的智能驾驶辅助模块，而不是重新设计整台发动机——既保留了原有性能，又以极小改动获得了新能力。",
     "example": "一家医疗初创公司使用LoRA在开源大模型上仅用一台RTX 4090，三天内就微调出能准确解析放射科报告的专科助手，新增参数不足原模型的0.1%。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型微调",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2106.09685"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-18T12:55:23.269Z",
-  "updated_at": "2026-03-21T08:22:00Z"
+  "updated_at": "2026-03-23T14:59:29.006395Z",
+  "quality_score": 0.95
 }

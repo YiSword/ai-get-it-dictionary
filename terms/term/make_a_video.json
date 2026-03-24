@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "视频生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "make_a_video 是指利用人工智能模型（如基于扩散模型的视频生成系统）将文本提示（prompt）或静态图像自动转换为短时长、连贯的视频内容的技术。它无需传统拍摄、剪辑或专业软件，普通用户只需输入描述性文字（如'一只橘猫在秋叶上跳跃'），即可在几秒到几分钟内生成数秒的短视频。普通用户需要了解它，因为它正快速融入社交媒体创作、教育演示、营销素材制作等日常场景，降低了视频创作门槛，但也需警惕生成内容的真实性、版权及伦理风险。",
+    "plain": "make_a_video 指 Meta 等机构研发的 AI 视频生成技术，能将文本或图像自动转换为短视频。它基于扩散模型，无需专业剪辑，用户输入提示词即可生成连贯画面。该技术降低了创作门槛，广泛应用于社交媒体、营销及教育场景，但需注意内容真实性与版权伦理风险。",
     "metaphor": "就像用语音点单后咖啡机自动研磨、萃取、拉花出一杯咖啡——你只提供想法，机器完成全部‘手艺’。",
     "example": "一位教师输入提示语‘水分子在0°C结冰的过程动画’，30秒内生成一段3秒高清微视频用于课堂讲解；或小商家上传产品图并添加‘旋转展示+柔光背景’指令，自动生成电商主图视频。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "视频生成",
+    "内容创作",
+    "多模态应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.meta.com/research/make-a-video/",
+    "https://arxiv.org/abs/2209.14792"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:10:19Z",
-  "updated_at": "2026-03-21T08:25:18Z"
+  "updated_at": "2026-03-23T16:43:11.264465Z",
+  "quality_score": 0.95
 }

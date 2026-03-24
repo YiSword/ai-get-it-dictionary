@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "工程技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ECE 通常指 'Electrical and Computer Engineering'（电气与计算机工程），是一个融合电子电路、信号处理、嵌入式系统、计算机硬件与底层软件的交叉工程学科。它支撑着从智能手机、物联网设备到自动驾驶汽车等现代智能系统的底层设计与实现。普通用户虽不直接从事该领域，但日常依赖的通信网络、智能家电、医疗电子设备和安全系统，其可靠性与性能都源于 ECE 的技术积累，理解其存在有助于认识数字世界背后的物理与逻辑根基。",
+    "plain": "ECE 指电气与计算机工程，是融合电子电路、信号处理、嵌入式系统及计算机硬件的交叉学科。它支撑智能手机、物联网、自动驾驶等智能系统的底层设计。通信网络、智能家电等设备的可靠性均源于此技术，是数字世界背后的物理与逻辑根基。",
     "metaphor": "ECE 就像现代数字社会的‘神经与骨骼系统’——既传递信息（神经），又提供结构与动力（骨骼）。",
     "example": "当你的智能手表实时监测心率并无线同步数据到手机时，其中的传感器信号调理、低功耗微控制器运行固件、蓝牙协议栈实现通信，全部属于 ECE 的典型工作范畴。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "硬件设计",
+    "嵌入式系统",
+    "通信技术"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ieee.org/",
+    "https://en.wikipedia.org/wiki/Electrical_and_computer_engineering"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:59:43Z"
+  "updated_at": "2026-03-23T13:31:13.426102Z",
+  "quality_score": 1.0
 }

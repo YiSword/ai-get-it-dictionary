@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 视频生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Pictory 是一款基于人工智能的在线视频生成工具，能将文字脚本、博客文章或大纲自动转化为带配音、字幕和配图的短视频。它内置语音合成、智能镜头匹配和模板化剪辑功能，无需专业剪辑技能即可快速产出社交媒体适配的内容。普通用户——尤其是内容创作者、营销人员和教育工作者——需要了解它，因为它显著降低了视频制作门槛和时间成本，让非技术人员也能高效传递信息、提升传播力。",
+    "plain": "Pictory 是一款 AI 驱动在线视频生成工具，支持将文本、博客自动转化为含配音、字幕及配图的短视频。内置语音合成与智能镜头匹配，无需专业剪辑技能即可快速制作社交媒体内容。该工具显著降低视频制作门槛与时间成本，助力创作者高效产出传播素材。",
     "metaphor": "就像一位不知疲倦的全能视频助理：你只需口述想法，它就自动写稿、配音、选画面、加字幕、剪辑成片。",
     "example": "一名独立讲师将自己写的3000字科普文章粘贴进 Pictory，10分钟后获得一支配有自然语音朗读、动态图表与场景切换的2分钟YouTube短片，并一键导出发布。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AIGC",
+    "视频创作",
+    "内容营销"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pictory.ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:59:18Z",
-  "updated_at": "2026-03-21T09:08:40Z"
+  "updated_at": "2026-03-23T12:54:45.919304Z",
+  "quality_score": 0.95
 }

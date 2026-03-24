@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Galactica 是由 Meta AI 在2022年发布的开源大型语言模型，专为科学、数学、代码和学术文本设计，能直接处理 LaTeX、化学式、蛋白质序列等结构化符号。它不依赖网页爬取数据，而是基于高质量学术文献（如 arXiv、PubMed）训练，强调事实准确性与可追溯性。普通用户需要了解它，是因为它代表了一类‘知识优先’的AI范式——不同于通用聊天模型，Galactica 更适合科研人员、学生或工程师快速获取可信的技术解释、推导公式或生成规范学术表达。",
+    "plain": "Galactica 是 Meta AI 于 2022 年发布的开源大语言模型，专为科学、数学和代码设计。它基于高质量学术文献训练，能处理 LaTeX、化学式等结构化符号，强调事实准确性。不同于通用聊天模型，它更适合科研人员快速获取可信的技术解释和学术表达，代表了一种知识优先的 AI 范式。",
     "metaphor": "就像一位精通多学科的大学图书馆馆长，不仅熟记所有教科书和论文，还能当场为你手写推导、画出分子结构，并指出每句话的原始出处。",
     "example": "一名天体物理学研究生用 Galactica 输入‘推导弗里德曼方程在ΛCDM模型下的形式’，模型返回带完整张量符号、参考文献标注和 LaTeX 可编译代码的解答。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "科学研究",
+    "学术写作",
+    "代码生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.meta.com/blog/galactica-generative-language-model-science/",
+    "https://arxiv.org/abs/2211.09085"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:41:58Z"
+  "updated_at": "2026-03-23T12:52:03.982097Z",
+  "quality_score": 0.95
 }

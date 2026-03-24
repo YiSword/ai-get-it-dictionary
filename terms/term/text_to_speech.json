@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "语音技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "text_to_speech（TTS）是一种将书面文字自动转换为自然语音的技术。它通过人工智能模型分析文本的语法、语义和上下文，生成接近真人发音的音频。普通用户需要了解它，因为它广泛应用于无障碍服务（如视障人士阅读网页）、智能助手（如手机语音播报）、有声书生成和语言学习工具中，让信息获取更便捷、更包容。",
+    "plain": "text_to_speech（TTS）是一种将书面文字自动转换为自然语音的人工智能技术。它通过深度学习模型分析文本语义与上下文，生成接近真人发音的音频。该技术广泛应用于无障碍服务、智能助手、有声书生成及语言学习工具中，显著提升信息获取的便捷性与包容性，是人机交互的重要桥梁。",
     "metaphor": "就像一位不知疲倦的朗读员，只需给你一段文字，就能立刻用清晰流畅的声音把它读出来。",
     "example": "当你在导航App中输入目的地后，系统用TTS将‘前方300米右转’实时转为语音提示，引导你驾驶。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "无障碍服务",
+    "智能助手",
+    "内容生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Speech_synthesis",
+    "https://cloud.google.com/text-to-speech"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T10:05:42Z"
+  "updated_at": "2026-03-23T12:11:28.670725Z",
+  "quality_score": 0.95
 }

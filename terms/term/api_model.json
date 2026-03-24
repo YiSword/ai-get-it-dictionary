@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "软件开发",
   "difficulty": "中级",
   "explanations": {
-    "plain": "api_model 是指在软件开发中，用于描述 API（应用程序编程接口）结构、行为和交互规则的数据模型。它通常定义请求参数、响应格式、状态码、认证方式等关键要素，是前后端协作或系统集成的重要契约。普通用户虽不直接编写它，但其设计质量直接影响 App 功能是否稳定、数据是否准确、第三方服务能否顺畅接入——例如天气 App 能否实时显示温度，就依赖背后 api_model 是否清晰定义了温度字段与单位。",
+    "plain": "api_model 是描述 API 结构、行为及交互规则的数据模型。它定义请求参数、响应格式、状态码及认证方式，是前后端协作的关键契约。其设计质量直接影响系统稳定性与数据准确性，确保第三方服务顺畅接入及业务功能正常运行。",
     "metaphor": "就像餐厅的菜单，api_model 规定了顾客（调用方）能点什么菜（接口）、每道菜包含哪些配料（参数）、上菜时用什么容器呈现（响应结构）。",
     "example": "某电商网站的 '获取商品详情' 接口，其 api_model 明确声明：GET /products/{id} 返回 JSON，包含 id、name、price（数字类型）、stock（整数）等字段，并要求携带 JWT token 认证。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "后端开发",
+    "接口设计",
+    "系统集成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://docs.aws.amazon.com/apigateway/latest/developerguide/models-mappings.html",
+    "https://spec.openapis.org/oas/v3.1.0"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:39:04Z"
+  "updated_at": "2026-03-23T11:21:41.256092Z",
+  "quality_score": 0.95
 }

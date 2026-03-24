@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "体育运动",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Windsurf（帆板运动）是一种结合冲浪与帆船的水上运动，参与者站在一块带可转动帆杆的浮板上，利用风力推动板体滑行并完成转向、跳跃等动作。它对平衡感、核心力量和风向判断有较高要求，但入门门槛相对较低，适合青少年至成人的休闲健身与户外探险。普通用户需要了解它，不仅因为其在全球滨海旅游地广泛开展，也因其作为低门槛风动力运动，能帮助理解自然能量利用与身体协调的关系。",
+    "plain": "帆板运动（Windsurf）是结合冲浪与帆船的水上运动。参与者站在带可转动帆杆的浮板上，利用风力滑行并完成转向、跳跃。该运动对平衡感、核心力量和风向判断有要求，入门门槛相对较低，适合青少年至成人休闲健身。在全球滨海旅游地广泛开展，是典型的风动力运动。",
     "metaphor": "就像骑一辆没有车把的自行车，靠身体倾斜和手臂微调来驾驭一阵看不见却推着你走的风。",
     "example": "在海南万宁日月湾，初学者在教练指导下使用稳定型帆板和小风帆，在浅水区练习控帆与起航；熟练者则换用竞速板，在侧后风条件下疾驰并跃过小浪坡。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "水上运动",
+    "户外运动",
+    "休闲健身"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.worldsailing.org/",
+    "https://www.iwa-windsurfing.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:27:15Z"
+  "updated_at": "2026-03-23T15:28:46.449273Z",
+  "quality_score": 0.95
 }

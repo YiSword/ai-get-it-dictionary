@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Stable Diffusion 是一种开源的文本到图像生成人工智能模型，它能根据用户输入的自然语言描述（如‘一只穿着宇航服的柴犬在火星上奔跑’）快速生成高质量、风格多样的图像。它运行效率高，可在消费级显卡上本地部署，不依赖云端服务，因此普通用户能免费、自主、隐私可控地创作图像，广泛应用于艺术设计、内容创作、教育演示等场景。",
+    "plain": "Stable Diffusion 是开源的文本到图像生成模型，可根据自然语言描述快速生成高质量图像。其运行效率高，支持消费级显卡本地部署，无需云端，实现免费、自主且隐私可控的创作。广泛应用于艺术设计、内容创作及教育演示等场景。",
     "metaphor": "就像一位精通千万种画风的速写大师，你只需口头描述画面，他就能立刻在画布上挥毫呈现。",
     "example": "一位独立插画师用 Stable Diffusion 快速生成多个角色草图方案，再基于满意的结果手工精绘；学生用它为历史课作业生成‘宋代汴京街市’的视觉参考图。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "开源模型",
+    "内容创作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/Stability-AI/stablediffusion",
+    "https://stability.ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T09:51:44Z"
+  "updated_at": "2026-03-23T11:10:11.288830Z",
+  "quality_score": 0.95
 }

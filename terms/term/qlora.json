@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型微调",
   "difficulty": "中级",
   "explanations": {
-    "plain": "QLoRA（Quantized Low-Rank Adaptation）是一种高效微调大语言模型的技术，它将模型权重先量化（如从16位浮点压缩到4位整数），再通过低秩矩阵更新关键参数，大幅降低显存占用和计算开销。普通用户需要知道它，是因为它让在消费级显卡（如24GB显存GPU）上微调7B甚至13B规模模型成为可能，降低了AI模型定制的硬件门槛和成本。",
+    "plain": "QLoRA（Quantized Low-Rank Adaptation）是一种高效微调大语言模型的技术。它通过将模型权重量化至 4 位整数，并结合低秩适配器更新参数，显著降低显存占用。这使得用户能在消费级显卡上微调 7B 甚至更大规模的模型，大幅降低了 AI 模型定制的硬件门槛和成本，推动了大模型的普及应用。",
     "metaphor": "就像给一本厚重的百科全书制作一份精简索引和便携手写批注本，而不是复印整套原书再逐页修改。",
     "example": "开发者使用QLoRA在单张RTX 4090上仅用不到24GB显存，就将Llama-3-8B模型微调为专属法律咨询助手，训练耗时缩短至传统全参数微调的1/10。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型微调",
+    "资源优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2305.14314"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:25:25Z"
+  "updated_at": "2026-03-23T15:14:59.372165Z",
+  "quality_score": 0.95
 }

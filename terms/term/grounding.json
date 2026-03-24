@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Grounding（接地/具身化）是人工智能，尤其是多模态大模型中的一项关键技术，指将模型的抽象输出（如文字、指令）与真实世界的具体对象、位置或感知信号（如图像中的像素区域、3D空间坐标、语音时间戳）建立明确对应关系的过程。它让AI不仅能‘说’出‘把红色杯子拿过来’，还能准确识别图像中哪个像素区域是‘红色杯子’，并定位其空间位置。普通用户需要了解它，因为这是AI能否真正理解并可靠执行视觉任务（如智能助手看图办事、自动驾驶识别路标、AR导航标注实物）的基础——缺乏良好grounding的AI容易‘指鹿为马’或响应脱节。",
+    "plain": "Grounding 指将 AI 抽象输出与真实世界对象建立对应关系的技术。它使模型不仅能生成文本，还能定位图像像素、3D 坐标或语音时间戳。这是智能助手看图办事、自动驾驶识别路标的基础，缺乏良好 grounding 会导致 AI 响应脱节，直接影响多模态任务可靠性。",
     "metaphor": "就像给语言装上GPS和显微镜：你说‘左上角那个穿蓝衣服的人’，grounding就是让AI立刻在画面里精准框出那个人，并标出他的坐标和衣着细节。",
     "example": "在一款支持图片问答的手机App中，用户上传一张厨房照片并提问‘盐罐在哪？’，经过grounding处理的模型不仅能回答‘在灶台右后方’，还会在原图上用方框高亮标出盐罐所在像素区域。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态模型",
+    "计算机视觉",
+    "智能助手"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.google/discover/",
+    "https://huggingface.co/tasks/visual-grounding"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:02:48Z"
+  "updated_at": "2026-03-23T18:22:49.270585Z",
+  "quality_score": 0.95
 }

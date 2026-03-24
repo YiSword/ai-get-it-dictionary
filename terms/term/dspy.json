@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发框架",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DSPy（Declarative Self-Improving Programs in Python）是一个用于构建和优化基于语言模型的程序的开源框架。它允许开发者以声明式方式定义任务目标（如‘从文本中提取法律条款并分类’），然后自动编译、优化提示词、选择模型调用策略，甚至迭代重写子模块。普通用户需要了解它，是因为它降低了AI应用开发门槛——无需手动调试提示词或反复试错，就能让LLM系统更可靠、可复现、可维护。",
+    "plain": "DSPy 是一个用于构建和优化基于语言模型程序的开源框架。它允许开发者以声明式方式定义任务，自动编译和优化提示词及模型调用策略。无需手动调试提示词，即可让 LLM 系统更可靠、可复现且易维护，显著降低了 AI 应用开发门槛。",
     "metaphor": "就像一位经验丰富的烹饪教练，你只需告诉DSPy‘我要做一道适合过敏人群的川味凉拌菜’，它会自动设计食谱、调整辣度配比、替换致敏食材，并反复试做优化，而不用你亲手调试每一步火候和调料。",
     "example": "一家医疗初创公司用DSPy构建病历结构化系统：仅声明‘从自由文本病历中提取主诉、诊断、用药三类信息，确保诊断术语符合ICD-11标准’，DSPy便自动生成并优化多步推理链，在未人工编写任何提示词的情况下，将F1分数从0.68提升至0.89。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型开发",
+    "提示词工程",
+    "AI 框架"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/stanfordnlp/dspy",
+    "https://dspy.ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T05:56:07Z"
+  "updated_at": "2026-03-23T13:16:27.929247Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Recurrent Neural Network（循环神经网络，RNN）是一种专门处理序列数据的神经网络，具有'记忆'能力，能够记住之前的输入信息。它特别适合处理语言、时间序列等有序数据，是早期语言模型和语音识别的核心技术。了解 RNN 有助于理解 AI 如何处理有顺序依赖的信息。",
+    "plain": "循环神经网络（RNN）是一种专为处理序列数据设计的深度学习模型。其核心优势在于拥有内部记忆机制，能够捕捉输入信息中的时间依赖关系与上下文关联。RNN 广泛应用于自然语言处理、语音识别及时间序列预测等领域，是早期序列建模的核心技术，为理解 AI 处理有序数据奠定了基础。",
     "metaphor": "RNN 就像一个有短期记忆的读者，读每个新词时都能记得前面读过的内容，从而理解整句话的意思。",
     "example": "在机器翻译中，RNN 逐词阅读源语言句子，同时记住已读内容，最终生成完整的目标语言翻译。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "时间序列分析",
+    "语音识别"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Recurrent_neural_network",
+    "https://developers.google.com/machine-learning/recurrent-neural-networks"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-21T11:59:20Z",
-  "updated_at": "2026-03-21T11:59:20Z"
+  "updated_at": "2026-03-23T14:13:12.670585Z",
+  "quality_score": 0.95
 }

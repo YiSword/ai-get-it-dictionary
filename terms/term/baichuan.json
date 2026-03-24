@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Baichuan（百川）是一系列由百川智能公司研发的开源大语言模型，包括Baichuan-7B、Baichuan2等版本，具备中文理解与生成、多轮对话、代码写作等能力。它面向开发者和研究者免费开放权重，支持本地部署与二次开发。普通用户需要了解它，是因为它代表了中国本土高质量开源AI模型的重要进展，意味着更可控、更透明、更可定制的AI工具正在进入公众视野，为教育、办公、创作等场景提供替代性选择。",
+    "plain": "Baichuan（百川）是由百川智能研发的开源大语言模型系列，包含 Baichuan-7B、Baichuan2 等版本。具备优秀的中文理解、多轮对话及代码生成能力。模型权重免费开放，支持本地部署与二次开发，为中国本土高质量开源 AI 代表，适用于教育、办公及创作场景，提供可控透明的 AI 工具选择。",
     "metaphor": "就像一座开源的智能图书馆，不仅向所有人免费开放书架，还允许你自由搬走整套藏书、按需改造阅览室结构。",
     "example": "一名高校教师使用Baichuan2模型在本地服务器上微调，构建了一个专用于批改学生古诗作业的AI助教，无需依赖云端API且完全掌控数据隐私。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "代码生成",
+    "开源社区"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.baichuan-ai.com/",
+    "https://github.com/baichuan-inc"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T03:54:16Z"
+  "updated_at": "2026-03-23T11:37:19.921663Z",
+  "quality_score": 0.95
 }

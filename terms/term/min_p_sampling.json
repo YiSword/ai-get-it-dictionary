@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "采样算法",
   "difficulty": "中级",
   "explanations": {
-    "plain": "min_p_sampling 是一种文本生成中的概率截断采样策略，它通过保留所有满足 p_i ≥ min_p × p_max 的词元（即其概率不低于最高概率词元的 min_p 倍）来限制候选集，从而在保持多样性的同时避免低质量、离谱的输出。与传统的 top-k 或 nucleus（top-p）采样不同，它基于相对概率比例动态调整候选范围，对长尾分布更鲁棒。普通用户需要了解它，因为该参数直接影响大模型回复的可靠性与创造性平衡——设置过小易产生胡言乱语，过大则可能抑制合理多样性。",
+    "plain": "min_p_sampling 是一种大模型文本生成采样策略。它设定最低概率阈值，仅保留概率不低于最高概率词元 min_p 倍的候选词。相比 top-p，它能动态调整候选集大小，有效抑制低质量输出，同时保持多样性。调整该参数可平衡回复的创造性与可靠性，避免胡言乱语或过于保守。",
     "metaphor": "就像乐队指挥只允许音量不低于首席小提琴手一半的乐手演奏，既不让最弱的杂音干扰整体，也不因过度筛选而失去和声层次。",
     "example": "在用 LLaMA-3 生成技术文档时，将 min_p 设为 0.1 可排除那些概率仅为最优词元 1/10 以下的生僻术语，避免出现语法正确但领域错误的词汇，如将 'ReLU' 错生成为 'ReLX'。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型推理",
+    "文本生成",
+    "参数调优"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ggerganov/llama.cpp"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:41:32Z"
+  "updated_at": "2026-03-23T18:32:05.400527Z",
+  "quality_score": 1.0
 }

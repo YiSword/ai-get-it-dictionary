@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据标注",
   "difficulty": "中级",
   "explanations": {
-    "plain": "human_annotation 是指由真实人类而非算法对数据（如图像、文本、音频）进行人工标记或分类的过程，例如为一张猫的图片打上‘猫’的标签，或在一段对话中标注情感倾向为‘正面’。它是训练和评估人工智能模型的关键基础，直接影响模型的准确性与公平性。普通用户需要了解它，因为日常使用的智能推荐、语音助手、内容审核等功能背后都依赖于大量人工标注的数据——这些标注的质量和多样性，直接决定了AI是否理解真实世界，甚至可能暴露偏见或错误。",
+    "plain": "human_annotation 指由人类对数据（如图像、文本）进行标记或分类的过程。它是训练监督学习模型的关键基础，直接影响模型的准确性与公平性。日常使用的智能推荐、语音助手等功能背后都依赖大量人工标注数据。标注的质量和多样性决定了 AI 理解真实世界的能力，也可能暴露潜在偏见。",
     "metaphor": "就像厨师依赖优质食材才能做出好菜，AI模型依赖高质量的人工标注数据才能学会正确识别和决策。",
     "example": "在开发一款医学影像辅助诊断系统时，放射科医生会逐张标注CT扫描图中肿瘤的位置和类型，这些标注数据被用来训练深度学习模型识别早期癌症征兆。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "监督学习",
+    "数据准备",
+    "模型训练"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Data_annotation",
+    "https://www.ibm.com/topics/data-labeling"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:16:54Z"
+  "updated_at": "2026-03-23T11:44:39.168730Z",
+  "quality_score": 0.95
 }

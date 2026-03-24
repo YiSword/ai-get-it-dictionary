@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Digital twin（数字孪生）是指在虚拟空间中构建的物理实体或系统的动态、实时映射，它通过传感器数据、仿真模型和AI算法持续更新，反映真实对象的状态、行为与演化。普通用户需要了解它，因为数字孪生正悄然支撑着智能家电远程诊断、城市交通优化、甚至个人健康监测等服务——它让复杂系统的运行更透明、预测更精准、干预更及时，是未来人机协同生活的重要底层技术。",
+    "plain": "数字孪生是在虚拟空间构建物理实体或系统的动态实时映射。它利用传感器数据、仿真模型和 AI 算法持续更新，反映真实对象的状态与演化。该技术支撑智能家电诊断、城市交通优化等场景，使系统运行更透明、预测更精准，是实现人机协同与智能制造的关键底层技术。",
     "metaphor": "就像给一台发动机配了一位永不疲倦的‘虚拟双胞胎’，它在电脑里同步呼吸、发热、磨损，甚至提前告诉你‘明天可能熄火’。",
     "example": "某风电场为每台风力发电机建立数字孪生模型，实时融合风速、振动、温度等数据，提前两周预测叶片裂纹风险，避免停机损失。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "智能制造",
+    "物联网",
+    "仿真模拟"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.iso.org/standard/75376.html",
+    "https://www.nist.gov/topics/digital-twin"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:42:09Z"
+  "updated_at": "2026-03-23T18:42:54.987380Z",
+  "quality_score": 0.95
 }

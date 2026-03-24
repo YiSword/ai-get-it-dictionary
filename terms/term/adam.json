@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "功能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Adam（Adaptive Moment Estimation）是一种广泛使用的深度学习优化算法，用于训练神经网络。它结合了动量法（Momentum）和自适应学习率（RMSProp）的优点，能自动调整每个参数的学习率，并在梯度方向上累积历史信息以加速收敛。普通用户虽不直接编写Adam代码，但几乎所有主流AI应用（如图像识别、语音助手、推荐系统）的模型训练都依赖它——理解其存在有助于明白为什么AI模型能高效学习，以及为何训练过程常需调参而非简单‘一键搞定’。",
-    "metaphor": "就像一位经验丰富的登山教练，既根据学员当前体力（梯度）实时调整步伐节奏（学习率），又记住过去几段山路的陡峭程度（一阶与二阶矩估计），从而带领团队更稳更快地抵达山顶。",
-    "example": "在训练一个识别猫狗图片的卷积神经网络时，开发者通常将优化器设为Adam，配合初始学习率0.001，让模型在数千张标注图像上快速收敛，而无需手动为每一层权重设计不同的更新规则。"
+    "plain": "Adam（Adaptive Moment Estimation）是一种深度学习优化算法。它结合动量法与自适应学习率优点，利用梯度的一阶和二阶矩动态调整参数学习率。作为 TensorFlow、PyTorch 等框架的默认优化器，它能实现稳定快速的模型收敛，无需过多手动调参，广泛用于神经网络训练任务。",
+    "metaphor": "就像一位经验丰富的登山向导，Adam会根据每位队员（参数）当前的体力状态（梯度历史）和脚下路况（梯度变化幅度），实时调整每个人的行进节奏和步长，而不是让所有人统一迈同样大小的步子。",
+    "example": "在训练一个图像分类模型时，工程师只需在PyTorch中写optimizer = torch.optim.Adam(model.parameters(), lr=0.001)，Adam就会自动处理不同层参数的更新步长，显著提升训练效率和最终准确率。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "深度学习",
+    "模型训练",
+    "优化算法"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1412.6980"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:20:48Z"
+  "updated_at": "2026-03-23T09:43:48.367585Z",
+  "quality_score": 0.95
 }

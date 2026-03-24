@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型量化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "q5_k_s 是一种量化格式，用于在大语言模型推理中压缩权重参数，表示每权重使用 5 位（bit）精度、采用 K-quants（分组量化）策略中的 's' 变体（即对每个权重块单独计算缩放因子与偏置，不共享），兼顾精度与效率。普通用户需要了解它，是因为选择不同量化格式（如 q4_k_m、q5_k_s、q6_k）会直接影响模型运行速度、显存占用和回答质量——q5_k_s 在中等硬件上常是精度与性能的较好平衡点。",
+    "plain": "q5_k_s 是 llama.cpp 框架下 GGUF 格式的一种 5 位量化类型。它采用 K-quants 策略，对权重块单独计算缩放因子，旨在平衡模型精度与显存占用。相比 q4 系列精度更高，相比 q6 系列更省资源，适合中等显存设备运行大语言模型，是本地部署时常用的性价比选择。",
     "metaphor": "就像把一本厚字典按页分组，每组用最适合该页内容的尺子重新刻度缩放，而不是全书共用一把尺子。",
     "example": "在本地运行 Llama-3-8B 模型时，用户选用 GGUF 格式的 q5_k_s 量化版本，可在 8GB 显存的笔记本 GPU 上流畅推理，同时保持接近 FP16 的生成质量。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型量化",
+    "推理部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ggerganov/llama.cpp"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:26:31Z",
-  "updated_at": "2026-03-21T09:22:40Z"
+  "updated_at": "2026-03-23T17:15:39.876004Z",
+  "quality_score": 1.0
 }

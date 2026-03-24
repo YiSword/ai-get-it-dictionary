@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型评估",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Expected Calibration Error（ECE）是衡量机器学习模型（尤其是分类模型）预测置信度与实际准确率之间一致性的量化指标。它将预测概率划分为若干区间（如0–0.1、0.1–0.2…），计算每个区间内预测置信度的加权平均偏差（即该区间内模型平均置信度与真实准确率之差的绝对值），再按样本数量加权求和。普通用户需要了解ECE，因为高置信度不等于高可靠性——例如医疗或自动驾驶中，模型‘非常确信’却判错，可能造成严重后果；ECE低意味着模型‘知道自己几斤几两’，更值得信赖。",
+    "plain": "Expected Calibration Error (ECE) 衡量模型预测置信度与实际准确率的一致性。通过概率分箱计算加权偏差，ECE 越低表示模型越可靠。在医疗、自动驾驶等高风险场景，低 ECE 意味着模型清楚自身不确定性，避免盲目自信导致严重后果，是评估模型校准度的核心指标。",
     "metaphor": "就像一个天气预报员，不仅报出‘明天降水概率70%’，而且长期来看，每10次说‘70%概率’的日子，确实大约有7天会下雨——ECE衡量的就是他说话靠谱的程度。",
     "example": "在医学影像AI系统中，模型对肺癌检测输出95%置信度，若在大量测试中该置信度区间的真实阳性率仅为82%，就会拉高ECE；工程师通过温度缩放或标签平滑等校准方法降低ECE，使95%置信度真正对应约95%准确率。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "分类模型",
+    "不确定性量化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1706.04599",
+    "https://torchmetrics.readthedocs.io/en/latest/classification/calibration_error.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:18:29Z"
+  "updated_at": "2026-03-23T11:39:00.385623Z",
+  "quality_score": 0.95
 }

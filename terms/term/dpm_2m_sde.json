@@ -1,26 +1,26 @@
 {
-  "entry_kind": "term",
-  "term": "dpm_2m_sde",
-  "norm_term": "dpm_2m_sde",
-  "lang": "en",
+  "term": "DPM++ 2M SDE",
+  "definition": "DPM++ 2M SDE 是 Stable Diffusion 扩散模型的2M SDE采样器。",
+  "description": "DPM++ 2M SDE (2M SDE) 是 DPM++ 系列采样器的一员，基于高阶数值方法实现高效的扩散过程采样。该采样器在图像生成质量和速度之间提供特定平衡，适用于不同的生成场景和需求。",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
-  "difficulty": "中级",
-  "explanations": {
-    "plain": "dpm_2m_sde 是一种用于扩散模型（diffusion models）的采样算法，全称是 DPM-Solver-2 Multi-step Stochastic Differential Equation solver。它通过结合二阶多步求解与随机微分方程（SDE）路径，在保证生成质量的同时显著加速图像或数据合成过程。普通用户需要了解它，是因为该算法直接影响AI绘图工具（如Stable Diffusion插件）的出图速度与稳定性——启用后可在更少迭代步数（如10–20步）内生成高保真结果，降低显存占用并提升交互体验。",
-    "metaphor": "就像一位经验丰富的厨师不用逐秒盯着烤箱，而是根据食材特性和预设曲线精准控制火候和时间，dpm_2m_sde 也不依赖冗长试错，而用数学预判最优降噪路径。",
-    "example": "在 Stable Diffusion WebUI 中启用 'DPM++ 2M SDE' 采样器后，用户输入提示词生成一张4K人像图，仅需15步迭代便达到原本需50步的Euler a才能实现的细节清晰度与色彩自然度。"
-  },
-  "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+  "category": "扩散模型采样算法",
+  "difficulty": "中等",
+  "sources": [
+    "https://arxiv.org/abs/2211.01095",
+    "https://github.com/LuChengTHU/dpm-solver"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
-  "content_source": "llm_generated_v2",
-  "hit_count": 0,
-  "created_at": "2026-03-20T16:56:55Z",
-  "updated_at": "2026-03-21T05:50:43Z"
+  "scenario_tags": [
+    "AIGC",
+    "扩散模型",
+    "图像生成"
+  ],
+  "quality_level": "llm_generated_v2",
+  "created_at": "2026-03-22T15:44:38Z",
+  "updated_at": "2026-03-23T16:30:50.183951Z",
+  "explanations": {
+    "plain": "DPM-Solver++ 2M SDE 是一种基于随机微分方程的高速扩散模型采样算法。它在 2M 多步策略基础上引入随机性，加速去噪过程。相比确定性采样，它能生成更多样化的图像细节，兼顾速度与质量，常用于 Stable Diffusion 等工具，适合需要丰富纹理的场景。"
+  },
+  "quality_score": 0.95,
+  "review_status": "auto_verified"
 }

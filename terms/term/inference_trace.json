@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型运维",
   "difficulty": "中级",
   "explanations": {
-    "plain": "inference_trace 是指在机器学习模型（尤其是大语言模型或深度神经网络）执行推理（inference）过程中，系统记录的内部计算路径与关键决策节点的详细日志，包括输入如何逐层激活、注意力权重分布、中间张量值等。它并非用户直接操作的对象，但对开发者调试模型行为、排查幻觉、验证逻辑一致性或满足可解释性合规要求至关重要；普通用户虽不直接接触，但在关注AI输出是否可靠、公平或可审计时，其背后依赖的就是这类追踪能力。",
+    "plain": "inference_trace 指模型推理过程中记录的内部计算路径与决策节点日志，包含层激活、注意力权重及中间张量值。它对开发者调试模型、排查幻觉及验证逻辑一致性至关重要。它是确保 AI 输出可靠、公平及满足可审计合规要求的技术基础，支撑模型行为的可解释性与监控。",
     "metaphor": "就像飞机黑匣子实时记录飞行中的所有操控指令和传感器数据，inference_trace 是AI模型‘思考过程’的飞行数据记录仪。",
     "example": "当医疗AI系统生成诊断建议时，通过启用inference_trace，工程师能回溯模型是否过度依赖某项非特异性指标（如患者所在医院的编码前缀），从而发现并修正地域偏差。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型调试",
+    "可解释性",
+    "推理监控"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://opentelemetry.io/",
+    "https://pytorch.org/docs/stable/profiler.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:31:06Z"
+  "updated_at": "2026-03-23T18:56:36.315881Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评测基准",
   "difficulty": "中级",
   "explanations": {
-    "plain": "capability_benchmark 是指针对人工智能系统在特定能力维度（如推理、多语言理解、工具调用或视觉识别）所设计的标准化测试，用于客观衡量其实际表现水平。它不同于综合性能评测，更聚焦于拆解AI的‘单项技能’，帮助开发者、采购方或政策制定者判断模型是否真正具备某项关键能力。普通用户需要了解它，是因为它能揭示宣传中的‘全能AI’是否在你需要的具体任务上可靠——比如客服机器人宣称‘懂法律’，但 capability_benchmark 可能显示其合同条款解析准确率仅62%。",
+    "plain": "capability_benchmark 指针对 AI 特定能力维度设计的标准化测试，用于客观衡量单项技能表现。它区别于综合评测，聚焦拆解关键能力，帮助开发者及用户判断模型在具体任务上的可靠性，揭示宣传与实际效果的差距，确保选型准确。",
     "metaphor": "就像汽车测评中不只看百公里加速，还要单独测试刹车距离、麋鹿测试和自动泊车成功率，capability_benchmark 是给AI做‘分项体能测试’。",
     "example": "某医疗AI公司发布新模型时，用MedQA（医学问答基准）和RadGraph（放射报告结构化基准）分别验证其诊断推理与影像报告生成能力，而非仅依赖整体准确率指标。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "性能测试",
+    "人工智能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://crfm.stanford.edu/helm/latest/",
+    "https://huggingface.co/docs/evaluate/index"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:18:47Z"
+  "updated_at": "2026-03-23T11:24:23.104103Z",
+  "quality_score": 0.95
 }

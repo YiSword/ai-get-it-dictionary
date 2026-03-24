@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DocVQA（Document Visual Question Answering）是一种人工智能任务，旨在让模型根据文档图像（如扫描的发票、表格或合同）中的视觉和文本信息，准确回答自然语言问题。它融合了计算机视觉（理解布局、文字位置、图表）和自然语言处理（理解问题语义、提取答案）。普通用户需要了解它，因为这类技术正逐步应用于智能办公、无障碍阅读、自动化报销等场景，直接影响日常工作效率与数字服务体验。",
+    "plain": "DocVQA（Document Visual Question Answering）是文档视觉问答任务。模型融合计算机视觉与自然语言处理技术，理解文档布局、文字及图表以回答问题。应用于智能办公、自动化报销及无障碍阅读场景，提升文档信息提取效率与数字服务体验。",
     "metaphor": "就像一位既会看图又会读字的资深行政助理，面对一张杂乱的纸质报销单，能迅速定位金额、日期和商品名称，并准确回答‘这笔费用发生在哪天？’",
     "example": "用户上传一张医院检验报告的扫描件，向AI提问‘白细胞计数是多少？’，DocVQA模型自动识别报告中的表格区域、定位对应字段并提取数值作答。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文档理解",
+    "多模态",
+    "智能办公"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.docvqa.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:46:31Z"
+  "updated_at": "2026-03-23T16:58:40.970216Z",
+  "quality_score": 0.95
 }

@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "azure_ai_studio",
+  "norm_term": "azure_ai_studio",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "platform",
+  "category": "AI 开发平台",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Azure AI Studio 是微软推出的云端 AI 开发平台，集成机器学习、NLP 及计算机视觉工具。提供可视化界面与预构建模板，简化模型训练、部署与管理流程。解决环境配置复杂问题，支持用户快速构建智能应用，无需深入底层技术，显著降低 AI 开发门槛，适用于企业级 AI 解决方案构建。",
+    "metaphor": "如同为开发者配备的'AI 工具箱'，内置现成工具与标准化流程，让用户像搭积木一样组合功能模块，无需从零制造每个零件。",
+    "example": "某电商企业利用 Azure AI Studio 快速搭建商品推荐系统：上传用户行为数据后，选择预训练模型进行微调，通过拖拽界面配置推荐逻辑，最终将模型部署为 API 服务嵌入购物网站。"
+  },
+  "scenario_tags": [
+    "模型开发",
+    "云服务",
+    "低代码"
+  ],
+  "sources": [
+    "https://learn.microsoft.com/zh-cn/azure/ai-studio/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:39:35.410950Z",
+  "updated_at": "2026-03-23T18:59:45.794883Z",
+  "quality_score": 1.0
+}

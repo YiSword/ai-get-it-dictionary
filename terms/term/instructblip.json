@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "InstructBLIP 是一种多模态大模型架构，专为遵循自然语言指令来理解并推理图像内容而设计。它结合了视觉编码器（如ViT）和语言解码器，并通过指令微调（instruction tuning）使模型能响应如‘描述这张图’‘找出图中所有红色物体’等具体任务。普通用户需要了解它，是因为它代表了当前AI看图说话、跨模态交互能力的重要进展，正被集成到智能助手、无障碍工具和内容审核系统中，直接影响图像搜索、自动字幕生成等日常体验。",
+    "plain": "InstructBLIP 是一种多模态大模型，结合视觉编码器与语言解码器，专为遵循自然语言指令理解图像而设计。通过指令微调，它能执行图像描述、视觉问答等任务。该技术代表了跨模态交互的重要进展，广泛应用于智能助手、无障碍工具及内容审核系统，提升图像搜索与自动字幕生成体验。",
     "metaphor": "就像一位精通双语且受过专业训练的美术馆导览员——你用日常语言提问，它立刻结合眼前画作的细节给出准确、有针对性的回答。",
     "example": "用户上传一张杂乱的厨房照片并输入指令‘列出所有未清洗的餐具’，InstructBLIP能识别盘子、叉子等物体状态，返回‘一个白色瓷盘、两把不锈钢叉子’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像理解",
+    "多模态交互",
+    "指令微调"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/salesforce/LAVIS",
+    "https://arxiv.org/abs/2305.06500"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:31:35Z",
-  "updated_at": "2026-03-21T07:33:52Z"
+  "updated_at": "2026-03-23T12:12:17.307275Z",
+  "quality_score": 0.95
 }

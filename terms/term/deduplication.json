@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据存储",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Deduplication（去重）是一种数据存储优化技术，通过识别并消除重复的数据块，只保留一份副本，其余重复部分用指向该副本的指针替代。它能显著节省磁盘空间、降低备份带宽和存储成本，同时加快备份与恢复速度。普通用户需要了解它，因为许多云备份服务、企业邮箱系统甚至手机相册管理背后都依赖此技术——这意味着他们可能在不知不觉中享受更长的免费存储、更快的同步体验，或避免因重复文件占满空间而困扰。",
+    "plain": "Deduplication（数据去重）是一种存储优化技术，通过识别消除重复数据块，仅保留唯一副本并用指针替代重复部分。该技术能显著节省存储空间、降低带宽成本并提升备份恢复效率。广泛应用于云备份、企业邮箱及手机相册管理等场景，帮助用户在不感知的情况下获得更高效的存储体验。",
     "metaphor": "就像整理书架时，把多本相同的《新华字典》只留一本，其余位置贴上‘同上’便签，既省地方又不丢信息。",
     "example": "某公司每天对员工电脑做全量备份，启用去重后，仅首次备份存储全部数据，后续备份只保存新增或修改的文件块，使三年备份总量减少约65%。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据存储",
+    "数据备份",
+    "云计算"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Data_deduplication",
+    "https://learn.microsoft.com/en-us/windows-server/storage/data-deduplication/overview"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:20:44Z"
+  "updated_at": "2026-03-23T16:01:43.890882Z",
+  "quality_score": 0.95
 }

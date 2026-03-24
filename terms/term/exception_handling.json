@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "功能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "exception_handling（异常处理）是程序在运行过程中应对意外错误或非正常情况的机制，例如除零、文件不存在或网络断连。它允许程序不因小故障而崩溃，而是有策略地捕获、响应并恢复。普通用户虽不直接编写代码，但依赖这一机制获得稳定体验——比如网页加载失败时显示友好提示而非白屏，或手机App在无网络时缓存操作而非直接闪退。",
+    "plain": "异常处理是程序运行时应对错误或非正常情况的机制，如除零或文件缺失。它允许程序捕获错误并恢复，避免崩溃。用户依赖此机制获得稳定体验，例如网页加载失败显示提示而非白屏，或 App 无网时缓存操作。作为软件开发基础功能，它保障系统鲁棒性。",
     "metaphor": "就像汽车的安全气囊系统：它不阻止事故发生，但在碰撞瞬间自动介入，减轻伤害并维持基本可控性。",
     "example": "当一个银行App尝试从服务器获取账户余额却遭遇网络中断时，异常处理会捕获该错误，转而显示‘网络不稳定，请稍后重试’，并保留本地最近一次的有效数据供查看。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "软件开发",
+    "系统稳定性",
+    "编程基础"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://docs.python.org/3/tutorial/errors.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:16:19Z"
+  "updated_at": "2026-03-23T10:16:50.160692Z",
+  "quality_score": 0.95
 }

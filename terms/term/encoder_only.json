@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "encoder_only 是指一类仅包含编码器（Encoder）结构、不包含解码器（Decoder）的神经网络架构，典型代表如BERT。它通过双向上下文理解输入文本，擅长语义理解、分类、匹配等任务，但不能直接生成新文本。普通用户需要了解它，是因为许多日常应用（如智能搜索、情感分析、客服问答的语义理解模块）背后都依赖这类模型；知道它是‘只读不写’的，有助于理解为何它能精准判断文本含义却无法像ChatGPT那样续写对话。",
+    "plain": "encoder_only 指仅含编码器（Encoder）不含解码器（Decoder）的神经网络架构，代表模型如 BERT。它擅长双向上下文理解，适用于语义分析、分类任务，但无法生成文本。日常搜索、情感分析多基于此架构。理解其“只读不写”特性，有助于区分其与生成式模型的差异。",
     "metaphor": "就像一位专注阅读和分析书籍的文学评论家——他能深刻解读每段文字的隐含意义、情感和逻辑关系，但从不自己提笔写小说。",
     "example": "当你在招聘平台上传简历，系统自动提取你的技能关键词并匹配岗位要求，这一过程通常由 encoder_only 模型（如BERT微调版）完成；它将整份简历编码为向量，再计算与职位描述的语义相似度。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "模型架构",
+    "语义理解"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1706.03762",
+    "https://arxiv.org/abs/1810.04805"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:14:03Z",
-  "updated_at": "2026-03-21T06:07:56Z"
+  "updated_at": "2026-03-23T12:09:56.805998Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "计算机视觉",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Segment Anything 是 Meta 开发的一个通用图像分割模型，能根据提示（如点、框或文本）自动识别并精确分割图像中任意物体。它不依赖特定类别训练，而是通过海量数据学习‘什么是可分割的物体’，从而实现零样本泛化能力。普通用户需要知道它，因为它正快速融入照片编辑、内容创作、医疗影像辅助分析等工具中，让非专业人士也能一键精准抠图或标注目标区域，大幅降低图像理解与处理的技术门槛。",
+    "plain": "Segment Anything (SAM) 是 Meta 发布的通用图像分割模型。它能根据点、框或文本提示，自动识别并分割图像中任意物体。无需特定类别训练，具备零样本泛化能力。该模型正融入照片编辑、医疗影像等工具，大幅降低图像处理门槛，让非专业人士也能一键精准抠图或标注目标区域。",
     "metaphor": "就像一位精通万物边界的视觉向导，你只需用手指轻点或画个框，它便立刻为你描出所指物体的精确轮廓，无需事先告诉它那是什么。",
     "example": "在手机修图App中，用户长按一张杂乱背景里的宠物照片，模型即时分割出猫的全身轮廓，支持一键换背景或添加特效；科研人员也可用它快速标记显微镜图像中的细胞边界，无需手动绘制。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像分割",
+    "零样本学习",
+    "基础模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.meta.com/sam/",
+    "https://github.com/facebookresearch/segment-anything"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:41:34Z"
+  "updated_at": "2026-03-23T13:30:26.258521Z",
+  "quality_score": 0.95
 }

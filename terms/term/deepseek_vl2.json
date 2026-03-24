@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "deepseek_vl2",
+  "norm_term": "deepseek_vl2",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "视觉语言模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "deepseek_vl2 是深度求索推出的视觉语言模型，融合图像识别与自然语言理解技术。它支持图像内容描述、视觉问答及文档解析等跨模态任务。该模型广泛应用于智能助手、医疗影像分析及教育工具场景，能显著提升人机交互效率与智能化水平。",
+    "metaphor": "它像一个数字世界的双语翻译官，既能看懂图片里的信息，又能用人类语言解释内容，还能根据文字指令操作图像。",
+    "example": "用户上传一张产品故障照片，deepseek_vl2 可识别设备型号并生成维修建议，同时用自然语言说明故障原因与解决步骤。"
+  },
+  "scenario_tags": [
+    "计算机视觉",
+    "自然语言处理",
+    "智能助手"
+  ],
+  "sources": [
+    "https://www.deepseek.com"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:31:45.730075Z",
+  "updated_at": "2026-03-23T18:24:18.857521Z",
+  "quality_score": 0.95
+}

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "XAI（可解释人工智能）是指让人工智能模型的决策过程变得透明、可理解、可追溯的技术与方法。它帮助用户不仅知道模型输出了什么结果，还能理解‘为什么’会得出这个结果。普通用户需要了解XAI，因为在医疗诊断、信贷审批、司法辅助等关键场景中，AI的错误或偏见可能带来严重后果；只有当AI的判断逻辑可被人类检验和信任时，我们才能安全、公平地依赖它。",
+    "plain": "XAI（可解释人工智能）是一类让人工智能模型决策过程透明、可理解的技术。它帮助用户理解模型为何得出特定结果，而不仅仅是知道结果本身。在医疗、金融、司法等高风险场景中，XAI 能揭示 AI 的偏见与错误逻辑，增强人类对系统的信任，确保决策的安全性与公平性，是构建可靠 AI 系统的关键。",
     "metaphor": "就像一位医生不仅要告诉你‘你得了感冒’，还要解释发烧、咳嗽等症状如何支持这一诊断，XAI就是让AI系统也能说出它的‘临床推理过程’。",
     "example": "银行使用XAI工具分析贷款申请时，不仅能给出‘批准/拒绝’结论，还能明确指出‘因过去12个月有3次逾期还款，且负债收入比高于70%，故风险评级为高’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型透明性",
+    "算法伦理",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.darpa.mil/program/explainable-artificial-intelligence",
+    "https://www.ibm.com/topics/explainable-ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:29:02Z"
+  "updated_at": "2026-03-23T19:03:41.247259Z",
+  "quality_score": 0.95
 }

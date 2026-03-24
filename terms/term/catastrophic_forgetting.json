@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "灾难性遗忘（catastrophic_forgetting）是机器学习中的一种现象，指模型在学习新任务或新数据后，突然且严重地丢失先前已掌握的知识。它常见于持续学习或增量学习场景，尤其在神经网络微调时——模型参数被大幅更新，导致旧任务的权重分布被覆盖。普通用户需要了解它，因为这解释了为何某些AI助手在更新后‘忘了’老功能，或智能设备升级后无法识别原来熟悉的语音指令，进而帮助用户理性看待AI的局限性和迭代风险。",
+    "plain": "灾难性遗忘指机器学习模型在学习新任务后，严重丢失先前已掌握知识的现象。常见于持续学习或神经网络微调场景，因参数更新覆盖旧任务权重所致。这解释了为何 AI 助手更新后可能‘忘了’老功能，帮助用户理性看待 AI 迭代风险。",
     "metaphor": "就像一个学生为了准备新考试而疯狂背诵新知识点，结果把上周刚考过的全部内容忘得一干二净。",
     "example": "一个图像分类模型先学会识别猫和狗，再用新数据集训练识别鸟；训练完成后，它对猫狗的识别准确率从95%骤降至30%，却能很好识别鸟。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "持续学习",
+    "神经网络",
+    "模型训练"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Catastrophic_forgetting"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:20:50Z"
+  "updated_at": "2026-03-23T13:47:16.386724Z",
+  "quality_score": 0.95
 }

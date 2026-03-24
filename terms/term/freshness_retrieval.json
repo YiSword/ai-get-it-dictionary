@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "信息检索",
   "difficulty": "中级",
   "explanations": {
-    "plain": "freshness_retrieval（新鲜度检索）是一种信息检索技术，强调在返回结果时优先保障内容的时效性与最新状态，而不仅是相关性或权威性。它常用于新闻推送、社交媒体流、实时监控系统或金融行情等对时间敏感的场景。普通用户需要了解它，因为当搜索突发新闻、疫情动态或股价变动时，排在前面的结果是否‘刚刚发生’，可能比‘最全面’更重要——过时的信息不仅无用，还可能引发误判。",
+    "plain": "freshness_retrieval（新鲜度检索）是一种信息检索技术，在排序时优先保障内容的时效性与最新状态。常用于新闻推送、社交媒体流或金融行情等时间敏感场景。对于突发新闻或股价变动，结果的‘新鲜度’比‘全面性’更关键，过时信息可能导致误判。",
     "metaphor": "就像超市货架上牛奶的保质期标签：不是最便宜或包装最漂亮的牛奶被推到最前面，而是生产日期最近的那一盒。",
     "example": "当你在新闻App中搜索‘台风登陆’，系统会优先展示过去两小时内发布的现场视频和气象局通报，而非昨天的分析长文，这背后就是freshness_retrieval在起作用。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "信息检索",
+    "搜索引擎",
+    "实时数据"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developers.google.com/search/docs/advanced/guidelines/news-content"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:39:38Z"
+  "updated_at": "2026-03-23T16:32:06.798828Z",
+  "quality_score": 0.95
 }

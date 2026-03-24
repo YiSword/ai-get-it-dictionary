@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AIVA（Artificial Intelligence Virtual Artist）是一款专注于音乐创作的人工智能系统，能根据用户设定的情绪、风格、时长等参数自动生成原创交响乐、游戏配乐或广告背景音乐。它由作曲家与AI研究人员共同开发，已获多项国际版权认证。普通用户需要了解AIVA，因为它降低了专业级音乐创作的门槛——无需乐理知识或乐器技能，即可快速获得高质量、可商用的定制化音频内容，适用于短视频创作者、独立游戏开发者或教育工作者。",
+    "plain": "AIVA 是一款专注于音乐创作的生成式 AI 系统，能根据情绪、风格等参数自动生成原创交响乐、游戏配乐或广告音乐。该系统获版权认证，无需乐理知识即可获得可商用音频，适用于短视频创作者、独立游戏开发者等，显著降低了专业音乐创作门槛。",
     "metaphor": "就像一位精通百种乐器、熟读万部乐谱的虚拟作曲家，你只需告诉它‘想要一段紧张而充满希望的两分钟科幻片头音乐’，它便立刻为你谱写并演奏出来。",
     "example": "一位独立游戏开发者在Unity中为新游戏的Boss战场景输入提示词‘史诗感、紧迫节奏、弦乐主导、带电子音效’，AIVA在30秒内生成了60秒的原创配乐，并直接导出为WAV文件嵌入项目。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "音乐创作",
+    "生成式 AI",
+    "内容商用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.aiva.ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:43:01Z",
-  "updated_at": "2026-03-21T03:29:30Z"
+  "updated_at": "2026-03-23T12:06:55.918917Z",
+  "quality_score": 0.95
 }

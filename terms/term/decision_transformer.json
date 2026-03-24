@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "decision_transformer 是一种基于 Transformer 架构的序列建模方法，用于将强化学习中的决策过程转化为类似语言建模的条件生成任务：它把状态、动作、奖励按时间步拼接成序列，通过自回归方式预测下一个动作，以实现策略学习。普通用户需要了解它，是因为它打破了传统强化学习对试错和环境交互的强依赖，让智能体能像阅读文本一样‘读懂’历史轨迹并做出决策，为离线学习、可解释性决策和跨任务泛化提供了新思路。",
+    "plain": "Decision Transformer 是一种基于 Transformer 的序列建模方法，将强化学习决策转化为条件生成任务。它拼接状态、动作、奖励序列，通过自回归预测动作，实现策略学习。该方法降低了对环境交互的依赖，适用于离线学习场景，提升了决策可解释性与泛化能力。",
     "metaphor": "就像一位经验丰富的棋手，不是靠实时计算每一步胜负，而是根据过往高手对局的完整记录（谁在什么局面下了什么棋、结果如何），直接‘续写’下一步最可能赢的落子。",
     "example": "在机器人控制中，decision_transformer 可以仅用过去收集的数百段人类操作视频（含关节角度、扭矩、任务完成度等时序数据），不与真实环境交互，就学会执行新装配任务。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "离线强化学习",
+    "序列建模",
+    "Transformer 架构"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2106.01345",
+    "https://decision-transformer.github.io/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:19:02Z"
+  "updated_at": "2026-03-23T11:38:06.907054Z",
+  "quality_score": 1.0
 }

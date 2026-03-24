@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "ai_monitoring_pipeline",
+  "norm_term": "ai_monitoring_pipeline",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "tool",
+  "category": "机器学习运维",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "AI 监控管道是用于实时追踪、分析和响应人工智能系统运行状态的技术架构。它收集模型性能指标、数据流日志和系统资源数据，帮助检测异常行为、识别安全威胁并确保 AI 服务符合预期标准，保障服务可靠性与数据安全。",
+    "metaphor": "如同为人工智能系统配备全天候安全摄像头和警报系统，持续观察其'健康状况'并在发现异常时立即通知管理员。",
+    "example": "电商平台使用AI监控管道检测推荐系统异常：当系统突然将大量用户导向非常规商品页面时，管道自动触发告警并隔离可疑模型版本，防止恶意操纵导致销售损失。"
+  },
+  "scenario_tags": [
+    "模型运维",
+    "异常检测",
+    "数据安全"
+  ],
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/machine-learning/concept-monitor-models",
+    "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:00:12.481258Z",
+  "updated_at": "2026-03-23T17:20:29.579993Z",
+  "quality_score": 0.95
+}

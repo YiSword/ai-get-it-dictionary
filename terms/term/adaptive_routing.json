@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "网络技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "adaptive_routing 是一种网络路由技术，它能根据实时网络状况（如链路延迟、拥塞程度、故障状态等）动态调整数据包的传输路径，而非依赖预先设定的静态路由表。这种机制提升了网络的可靠性、效率和容错能力。普通用户虽不直接配置它，但其背后支撑着视频会议不卡顿、在线游戏低延迟、云服务高可用等体验——当某条网络路径突然拥堵或中断时，系统会自动切换到更优路径，用户几乎无感。",
-    "metaphor": "就像一位熟悉全城实时路况的出租车司机，不按固定路线行驶，而是在导航提示下随时选择最畅通的街道绕行。",
-    "example": "在大型云服务商的数据中心内部，当某台交换机因过热导致丢包率上升时，adaptive_routing 会立即把流量重新分配到其他低负载链路上，保障客户业务连续运行。"
+    "plain": "自适应路由是一种网络技术，根据实时网络状况（如延迟、拥塞、故障）动态调整数据包传输路径。相比静态路由，它持续监测并优化转发决策，提升传输效率、可靠性和容错能力。该技术支撑视频会议、云游戏等低延迟体验，是现代互联网高可用性的关键保障。",
+    "metaphor": "就像一位熟悉全城实时路况的智能导航司机，不是按固定路线行驶，而是在堵车、事故或修路时立刻切换最优小路，确保你准时到达。",
+    "example": "当某条骨干网光纤因施工中断时，数据中心之间的自适应路由协议会毫秒级识别故障，并将原本经该链路的流量自动重定向至备用路径，用户视频通话完全不受影响。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "网络优化",
+    "数据传输",
+    "高可用性"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Adaptive_routing",
+    "https://www.cisco.com/c/en/us/tech/docs/routing.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:21:51Z"
+  "updated_at": "2026-03-23T15:13:57.367370Z",
+  "quality_score": 0.95
 }

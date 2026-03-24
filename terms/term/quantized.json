@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Quantized（量化）是指将连续或高精度的数值（如32位浮点数）近似映射为有限个离散、低精度值（如8位整数）的过程，常用于人工智能模型压缩与加速。它能显著减少模型体积、内存占用和计算开销，使大模型可在手机、嵌入式设备等资源受限环境中运行。普通用户虽不直接操作量化，但会间接受益于它带来的更快响应、更低耗电和更流畅的本地AI体验（如实时翻译、拍照识物），而无需依赖云端或牺牲隐私。",
+    "plain": "量化（Quantized）是将高精度数值（如 32 位浮点数）映射为低精度离散值（如 8 位整数）的过程。它用于压缩 AI 模型，显著减少体积、内存和计算开销。这使得大模型能在手机等资源受限设备上运行，带来更快响应和更低耗电，无需依赖云端，保护用户隐私。",
     "metaphor": "就像把一本高清摄影集缩印成一本简笔画册——细节略有简化，但核心内容清晰可辨，且更容易随身携带和快速翻阅。",
     "example": "苹果的iOS系统在iPhone上运行的视觉识别功能（如相册中‘猫’的自动分类）就使用了量化后的神经网络模型，确保识别速度快、不发热、不耗电，且所有处理都在设备本地完成。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型压缩",
+    "推理加速",
+    "边缘计算"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/docs/stable/quantization.html",
+    "https://www.tensorflow.org/model_optimization/guide/quantization"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:06:38Z",
-  "updated_at": "2026-03-21T09:25:56Z"
+  "updated_at": "2026-03-23T13:17:49.518618Z",
+  "quality_score": 0.95
 }

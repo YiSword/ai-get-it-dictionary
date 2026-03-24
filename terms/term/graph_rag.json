@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "检索增强生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Graph RAG（图增强检索增强生成）是一种将知识图谱与RAG技术结合的AI方法，它不仅从文档中检索文本片段，还利用实体间的关系结构（如‘巴黎是法国首都’‘法国位于欧洲’）进行语义推理和上下文扩展。相比传统RAG仅依赖关键词匹配或向量相似度，Graph RAG能更准确理解复杂问题中的隐含逻辑关系，提升答案的准确性与可解释性。普通用户需要了解它，是因为它正被用于智能客服、专业咨询、教育问答等场景，直接影响AI回答是否靠谱、连贯、有依据。",
+    "plain": "Graph RAG 是结合知识图谱与检索增强生成的 AI 技术。它利用实体间关系结构进行语义推理，超越传统 RAG 的关键词或向量匹配。该方法能理解复杂问题中的隐含逻辑，显著提升答案准确性与可解释性。广泛应用于智能客服、专业咨询及教育问答等场景。",
     "metaphor": "就像一位熟悉城市街巷的老向导，不只按路名找地点，还会根据‘这条街通向广场，广场旁是博物馆’这样的关系网络为你规划最优路径。",
     "example": "当用户提问‘哪些药物可能加重心力衰竭患者的水肿？’时，Graph RAG会从医学知识图谱中检索‘呋塞米→利尿剂→缓解水肿’和‘NSAIDs→抑制前列腺素→加重水肿’等关系链，而非仅匹配含‘水肿’的段落，从而给出机制明确、有依据的答案。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "知识问答",
+    "智能客服",
+    "企业知识库"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/microsoft/graphrag",
+    "https://www.microsoft.com/en-us/research/project/graph-rag/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:58:39Z"
+  "updated_at": "2026-03-23T12:36:58.139772Z",
+  "quality_score": 0.95
 }

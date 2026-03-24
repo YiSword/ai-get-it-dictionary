@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Search-Augmented Generation（SAG）是一种将实时信息检索与大语言模型生成能力结合的技术：当用户提问时，系统先自动搜索权威数据源（如网页、知识库或数据库），再将检索结果作为上下文输入模型，从而生成更准确、可溯源、时效性强的回答。普通用户需要了解它，因为这能显著提升AI回答的可靠性——避免‘一本正经地胡说八道’，尤其在查新闻、医疗建议、政策条文等需事实支撑的场景中，SAG让AI从‘凭记忆瞎猜’转向‘查完再说’。",
+    "plain": "Search-Augmented Generation（SAG）结合实时检索与大模型生成能力。用户提问时，系统先搜索权威数据源，再将结果作为上下文输入模型，生成准确、可溯源的回答。这避免了模型幻觉，显著提升新闻、医疗等需事实支撑场景的可靠性，让 AI 从凭记忆猜测转向查证后回答。",
     "metaphor": "就像一位博学但记性一般的教授，每次被问到新问题，都会先快速翻阅最新教材和期刊，再结合自己的理解作答。",
     "example": "当你问‘2024年巴黎奥运会新增了哪些比赛项目？’，SAG系统会先检索国际奥委会官网最新公告，再基于该内容生成简洁准确的回答，而非依赖训练数据中过时的信息。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "信息检索",
+    "内容生成",
+    "大模型应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2305.14283",
+    "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:39:56Z"
+  "updated_at": "2026-03-23T13:50:30.460485Z",
+  "quality_score": 0.95
 }

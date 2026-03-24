@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Kosmos-1 是一个开源多模态大模型系列中的首个实验性版本，由微软研究院于2023年提出，旨在统一处理文本、图像、音频等多种模态信息，并支持跨模态理解与生成。它并非商用产品，而是学术探索性框架，强调‘感知-认知’一体化建模。普通用户无需直接使用它，但了解其存在有助于理解当前AI如何逐步突破单一文本局限，迈向更接近人类感知能力的智能系统，也为后续如Kosmos-2、Kosmos-3等更实用化模型的发展奠定基础。",
+    "plain": "Kosmos-1 是微软研究院 2023 年推出的开源多模态大模型，能统一处理文本与图像信息，支持跨模态理解与生成。作为学术探索框架，它强调感知与认知一体化建模，虽非商用产品，但为后续 Kosmos 系列及多模态 AI 发展奠定基础，展示了 AI 突破单一文本局限的能力。",
     "metaphor": "就像一位刚完成通识训练的全科实习生，Kosmos-1尚未专精某一领域，但已能初步看图说话、听音识物、读文生图，展现出跨感官协同思考的雏形。",
     "example": "研究人员用Kosmos-1在包含图文对的网页数据集上进行联合预训练，使其能根据一张电路板图片准确描述其元件布局，并回答‘哪个芯片负责电源管理’这类需图文关联推理的问题。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态理解",
+    "开源模型",
+    "学术研究"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/microsoft/unilm/tree/master/kosmos-1",
+    "https://arxiv.org/abs/2302.14045"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:36:50Z",
-  "updated_at": "2026-03-21T07:55:32Z"
+  "updated_at": "2026-03-23T12:40:44.317615Z",
+  "quality_score": 0.95
 }

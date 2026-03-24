@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "视频生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Stable Video Diffusion（SVD）是一种基于扩散模型的开源视频生成技术，由Stability AI推出，能将静态图像或文本提示转化为几秒长的高质量短视频。它不依赖复杂训练流程，支持用户本地部署和快速迭代，显著降低了专业级视频生成的门槛。普通用户需要了解它，是因为它代表了AI内容创作从图像迈向动态视频的关键一步，让非技术人员也能在消费级硬件上尝试创意视频制作，影响社交媒体、教育、广告等日常场景。",
+    "plain": "Stable Video Diffusion (SVD) 是 Stability AI 推出的开源视频生成模型，基于扩散技术将静态图像转化为高质量短视频。它支持本地部署，显著降低视频创作门槛，是图像生成向动态视频延伸的关键技术，广泛应用于社交媒体、广告及教育等 AIGC 场景。",
     "metaphor": "就像一位熟练的动画师，只看一张手绘草图就能自动补全中间帧并生成流畅的短片。",
     "example": "设计师上传一张产品线稿，用SVD生成16帧、2秒的旋转展示视频，直接用于网页首屏宣传；或教师输入‘水分子电解过程’，生成带动态粒子运动的3秒教学动画。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "内容创作",
+    "多模态",
+    "开源模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://stability.ai/news/stable-video-diffusion-open-ai-video-model",
+    "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:03:44Z",
-  "updated_at": "2026-03-21T09:53:45Z"
+  "updated_at": "2026-03-23T15:05:12.589254Z",
+  "quality_score": 0.95
 }

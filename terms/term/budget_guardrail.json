@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "成本管理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "budget_guardrail 是一种云服务或财务管理系统中设置的自动管控机制，用于在预算即将超支或已超支时触发预警、限制资源创建或暂停计费操作，防止意外费用飙升。它不是静态的预算目标，而是具备主动干预能力的防护边界。普通用户需要了解它，因为仅设定预算上限无法阻止超额消费——而 guardrail 能实时拦截风险行为，避免账单失控，尤其对缺乏成本监控经验的开发者或中小企业至关重要。",
+    "plain": "budget_guardrail 是云成本管理系统中的自动管控机制。当预算即将或已超支时，它触发预警、限制资源创建或暂停服务，防止费用意外飙升。不同于静态预算目标，它具备主动干预能力，能实时拦截风险行为，避免账单失控。这对缺乏成本监控经验的开发者及中小企业至关重要，确保支出在可控范围内。",
     "metaphor": "就像汽车的电子限速器：当车速接近危险阈值时，它会自动收油甚至轻踩刹车，而不是等撞上墙才报警。",
     "example": "某团队在 AWS 中为测试环境设置每月 500 美元预算，并启用 budget_guardrail；当支出达 450 美元时，系统自动停止新 EC2 实例启动并发送告警，避免月末突发扩容导致超额扣费。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "成本管理",
+    "风险控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/aws-cost-management/aws-budgets/",
+    "https://www.finops.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:15:31Z"
+  "updated_at": "2026-03-23T15:15:43.527624Z",
+  "quality_score": 0.95
 }

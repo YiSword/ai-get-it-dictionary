@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "平台工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Hugging Face 是一个开源人工智能社区和平台，专注于自然语言处理（NLP）及其他AI模型的共享、训练与部署。它提供大量预训练模型（如BERT、LLaMA等）、数据集、推理API和协作工具，让开发者无需从零开始训练模型即可快速构建AI应用。普通用户需要了解它，因为它是当前AI开发最活跃的‘模型应用商店’之一，降低了使用前沿AI技术的门槛，无论是学生、研究人员还是工程师都能从中受益。",
+    "plain": "Hugging Face 是全球领先的开源 AI 社区与平台，专注于自然语言处理及多模态模型。提供海量预训练模型、数据集及推理 API，支持模型的共享、训练与部署。作为 AI 界的“模型应用商店”，它极大降低了开发门槛，帮助开发者快速构建应用，是当前生态中最活跃的基础设施之一。",
     "metaphor": "Hugging Face 就像AI世界的GitHub + App Store混合体：既托管开源代码和模型（如GitHub），又提供一键试用和下载的模型服务（如App Store）。",
     "example": "一位产品经理想为客服系统添加自动回复功能，只需在Hugging Face模型库中搜索‘text-to-text’，选中一个微调好的T5模型，通过几行代码调用其API，就能快速集成智能回复能力。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "开源社区",
+    "模型部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T07:15:52Z"
+  "updated_at": "2026-03-23T15:26:51.138037Z",
+  "quality_score": 0.95
 }

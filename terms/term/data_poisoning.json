@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "安全与隐私",
   "difficulty": "中级",
   "explanations": {
-    "plain": "数据投毒（data_poisoning）是一种针对机器学习系统的攻击方式，攻击者通过在训练数据中故意注入恶意样本或篡改标签，使模型学习到错误的模式，从而在部署后产生偏差、误判甚至完全失效。普通用户需要了解它，因为依赖被投毒模型的系统（如人脸识别门禁、信贷风控、内容推荐）可能做出不公、危险或欺诈性决策，而用户往往无法察觉背后的数据已被操纵。",
+    "plain": "数据投毒是一种针对机器学习系统的攻击方式。攻击者在训练数据中注入恶意样本或篡改标签，导致模型学习错误模式。这会使部署后的模型产生偏差、误判或失效。用户需警惕依赖此类模型的系统可能做出的不公或危险决策，因为底层数据可能已被操纵，难以察觉。",
     "metaphor": "就像在烹饪前偷偷往面粉袋里掺入变质原料——面团看起来正常，烤出的面包却会让人食物中毒。",
     "example": "某公司使用公开爬取的图片数据集训练AI审核系统，攻击者向其中批量上传带错误标签的‘违规内容’图像，导致模型上线后将大量正常照片误判为敏感内容并自动删除。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "网络安全",
+    "对抗攻击"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://atlas.mitre.org/techniques/AML.T0001",
+    "https://owasp.org/www-project-machine-learning-security-top-10/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:21:30Z",
-  "updated_at": "2026-03-21T05:14:50Z"
+  "updated_at": "2026-03-23T16:36:43.957820Z",
+  "quality_score": 0.95
 }

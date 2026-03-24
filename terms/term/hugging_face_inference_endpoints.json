@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型部署",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Hugging Face Inference Endpoints 是 Hugging Face 提供的托管式服务，允许用户一键部署训练好的机器学习模型（尤其是 Transformer 模型）为可扩展、低延迟的 REST API。它自动处理基础设施配置、扩缩容、HTTPS 安全、身份认证和监控，使开发者无需运维知识即可将模型快速投入生产。普通用户（如数据科学家、应用开发者）需要了解它，因为它大幅降低了将前沿开源模型集成到实际应用中的技术门槛和时间成本。",
+    "plain": "Hugging Face Inference Endpoints 是 Hugging Face 提供的托管服务，支持一键将机器学习模型部署为可扩展的 REST API。它自动处理基础设施、扩缩容及安全监控，无需运维知识即可快速生产化。该服务降低了将开源模型集成到应用的技术门槛。",
     "metaphor": "就像租用一家已装修好、通电通网、还配有24小时物业和快递代收服务的智能办公室，你只需把你的产品（模型）搬进去，立刻就能对外营业。",
     "example": "一家新闻聚合 App 的工程师使用 Hugging Face Inference Endpoints 部署了一个多语言摘要模型，通过简单 HTTP POST 请求即可实时为任意文章生成中文摘要，无需自行搭建 GPU 服务器或管理 Docker 容器。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型服务",
+    "云端部署",
+    "API 集成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/inference-endpoints"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:53:06Z",
-  "updated_at": "2026-03-21T07:16:23Z"
+  "updated_at": "2026-03-23T11:11:36.785511Z",
+  "quality_score": 0.95
 }

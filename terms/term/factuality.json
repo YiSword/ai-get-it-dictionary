@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型评估",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Factuality 指的是陈述、信息或生成内容与客观事实的一致程度，即它是否真实、可验证、符合现实世界的状态。在人工智能尤其是大语言模型广泛应用的今天，模型可能生成看似合理却虚构或错误的内容（即‘幻觉’），因此理解 factuality 帮助普通用户批判性评估所接收的信息，避免被误导，尤其在新闻、医疗、法律等关键决策场景中至关重要。",
+    "plain": "Factuality 指 AI 生成内容与客观事实的一致程度，即信息是否真实、可验证。面对大模型可能产生的“幻觉”，理解事实性有助于用户批判性评估信息，避免被误导。该指标在医疗、法律等关键决策场景中至关重要，是衡量 AI 可靠性的核心维度。",
     "metaphor": "就像地图必须准确反映真实地形，否则会让人迷路；factuality 就是信息这张‘认知地图’与现实世界的匹配度。",
     "example": "当用户向AI询问‘2023年诺贝尔物理学奖得主是谁’，模型若正确列出皮埃尔·阿戈斯蒂尼等人，则具备高 factuality；若编造一个不存在的获奖者姓名，便是 factuality 缺失。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "内容安全",
+    "风险控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.google.dev/responsibilities/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:21:15Z"
+  "updated_at": "2026-03-23T16:39:03.889416Z",
+  "quality_score": 0.95
 }

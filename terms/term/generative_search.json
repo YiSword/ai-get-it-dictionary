@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "搜索技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Generative search 是一种新型信息检索技术，它不只返回已有网页或文档的链接，而是直接生成简洁、准确、上下文相关的自然语言答案。它结合了语义理解与大语言模型的生成能力，能根据用户意图推理并合成新内容。普通用户需要了解它，因为这标志着搜索正从‘找链接’转向‘得答案’——减少信息筛选负担，提升获取知识的效率和准确性，尤其在复杂、模糊或需整合多源信息的查询中优势显著。",
+    "plain": "生成式搜索是一种结合大语言模型与传统检索的新型技术。它不再仅提供文档链接，而是直接生成简洁、准确的自然语言答案。通过理解用户意图并整合多源信息，它能显著减少筛选负担，提升知识获取效率，尤其适用于复杂查询场景，标志着搜索从“找链接”向“得答案”的转变。",
     "metaphor": "就像一位熟悉你知识盲区的专家图书管理员，不仅快速找到相关书籍，还会当场为你总结要点、画出逻辑图，并用你听得懂的话解释清楚。",
     "example": "当你输入‘对比Transformer和LSTM在长文本翻译任务中的优劣，用表格说明’时，generative search 会直接生成结构清晰的对比表格和简明分析，而非仅列出10篇论文链接。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "信息检索",
+    "大语言模型",
+    "智能搜索"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developers.google.com/search/docs/appearance/generative-ai",
+    "https://www.microsoft.com/en-us/bing/copilot"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:46:03Z"
+  "updated_at": "2026-03-23T17:09:59.263693Z",
+  "quality_score": 0.95
 }

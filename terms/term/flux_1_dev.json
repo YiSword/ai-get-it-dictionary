@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "文生图模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "flux_1_dev 是 Flux 模型系列中的一个开源开发版本，由 Black Forest Labs 发布，专为高保真、细节丰富且构图可控的图像生成而优化。它支持文本到图像、图像重绘及多轮编辑等能力，采用混合扩散与流匹配（flow matching）技术，在生成质量、提示词遵循度和推理效率上表现突出。普通用户需要了解它，是因为它代表了当前开源文生图模型的前沿水平，可免费本地部署、高度可定制，是设计师、开发者和AI爱好者进行创意实验或构建个性化图像工具的重要选择。",
+    "plain": "Flux.1 Dev 是 Black Forest Labs 发布的开源权重模型，基于流匹配技术，专为高质量文生图任务设计。它允许非商业使用和本地部署，适合开发者与创作者进行个性化微调及创意实验，代表了当前开源图像生成模型的前沿水平。",
     "metaphor": "就像一位精通素描、色彩与构图的全能美术助教，不仅能精准理解你的口头描述，还能反复修改草稿直到完全符合你的想象。",
     "example": "一位独立游戏开发者用 flux_1_dev 根据‘赛博朋克风格的雨夜小巷，霓虹招牌闪烁，一只机械猫蹲在锈蚀管道上’这一提示词，快速生成多张高质量概念图，并直接导入Unity进行场景搭建。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "开源模型",
+    "本地部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://blackforestlabs.ai/",
+    "https://huggingface.co/black-forest-labs/FLUX.1-dev"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:35:42Z",
-  "updated_at": "2026-03-21T06:35:29Z"
+  "updated_at": "2026-03-23T12:43:49.025069Z",
+  "quality_score": 1.0
 }

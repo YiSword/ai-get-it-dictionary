@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Bluehost 是一家美国的网络托管服务提供商，主要为个人和小型企业提供网站托管、域名注册、WordPress 一键安装等基础建站服务。它被广泛推荐为初学者友好的主机商，尤其因与 WordPress 官方深度合作而知名。普通用户需要了解 Bluehost，是因为它是搭建独立网站（如博客、小企业官网）最常见、门槛较低的起点之一；无需掌握服务器技术，即可快速上线网站，但需注意其入门套餐可能存在续费涨价、资源限制等实际使用约束。",
+    "plain": "Bluehost 是美国知名的网络托管服务提供商，专注于为个人及中小企业提供网站托管、域名注册和 WordPress 一键安装服务。作为 WordPress 官方推荐主机商，它以初学者友好著称，帮助用户无需服务器技术即可快速建站。使用时需注意入门套餐的续费价格及资源限制。",
     "metaphor": "Bluehost 就像一栋提供精装修公寓和物业管家服务的互联网大厦——你不用自己打地基、拉网线、装水电，只需租下房间（网站空间），拎包入住（上传内容），管家（后台控制面板）还会帮你自动更新门禁系统（WordPress 核心）。",
     "example": "一位自由插画师想建立个人作品集网站，她在 Bluehost 上用 5 分钟完成 WordPress 一键安装，再通过可视化编辑器添加画廊和联系方式，第二天就将域名 artjane.com 指向该站点并对外分享。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "网站托管",
+    "WordPress",
+    "建站服务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.bluehost.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:44:52Z",
-  "updated_at": "2026-03-21T04:11:34Z"
+  "updated_at": "2026-03-23T18:42:10.858941Z",
+  "quality_score": 1.0
 }

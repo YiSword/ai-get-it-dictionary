@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "capability_overhang 指系统或平台当前具备的技术能力（如算力、模型规模、多模态理解等）显著超出其当前实际应用场景或用户需求所要求的水平。这种‘能力冗余’并非缺陷，而是为未来功能扩展、新交互范式或未预见任务预留的弹性空间。普通用户需要了解它，是因为它预示着产品可能即将支持更自然的对话、实时跨模态操作或个性化深度推理——这些升级往往悄然发生，无需用户主动更新或学习新操作。",
+    "plain": "capability_overhang 指 AI 模型潜在能力显著超出当前应用场景或安全对齐限制的水平。这种冗余并非缺陷，而是为未来功能扩展预留的弹性空间，也预示模型具备未发现的推理潜力。用户需了解它，因为产品可能悄然支持更复杂任务，同时也提示潜在安全风险与未预见行为，需关注后续对齐更新。",
     "metaphor": "就像一辆汽车配备了可输出500马力的引擎，但日常通勤只需80马力；那多出的420马力不是浪费，而是为爬陡坡、拖挂或未来改装留出的余量。",
     "example": "某智能助手已内置能实时翻译12种语言并同步生成手语动画的多模态模型，但当前界面仅提供文字翻译功能——这尚未启用的手语生成能力就是典型的 capability_overhang。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 安全",
+    "模型评估",
+    "技术趋势"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.alignmentresearchcenter.org/",
+    "https://arxiv.org/abs/2304.03443"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:19:36Z"
+  "updated_at": "2026-03-23T15:17:17.119628Z",
+  "quality_score": 0.95
 }

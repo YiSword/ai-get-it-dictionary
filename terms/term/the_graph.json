@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "基础设施",
   "difficulty": "中级",
   "explanations": {
-    "plain": "The Graph 是一个去中心化的索引协议，用于高效查询区块链数据。它将链上信息（如以太坊、Polygon 等网络中的交易、代币转移、NFT 所有权等）组织成可被 Web 应用快速读取的结构化数据集（称为 subgraphs）。普通用户无需直接与复杂、低效的底层区块链交互，就能通过 dApp 获取实时、准确的信息——这直接影响钱包显示、DeFi 仪表盘、NFT 市场搜索等体验的流畅性与可靠性。",
+    "plain": "The Graph 是去中心化的区块链数据索引协议。它将以太坊等链上的交易、代币转移等信息组织成称为 Subgraphs 的结构化数据集，供 Web 应用高效查询。开发者无需直接交互底层区块链，即可通过 dApp 获取实时准确数据，广泛应用于钱包、DeFi 仪表盘及 NFT 市场，提升数据检索的流畅性与可靠性。",
     "metaphor": "就像图书馆的目录系统把海量书籍按主题、作者、年份分类编目，The Graph 把散落在区块链各处的原始数据整理成可快速检索的‘数字图书索引’。",
     "example": "当用户在 Uniswap 网站查看某代币的 24 小时交易量或历史价格图表时，前端正是通过 The Graph 查询预构建的 Uniswap subgraph 获取这些聚合数据，而非逐块扫描以太坊链。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "Web3",
+    "基础设施",
+    "数据索引"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://thegraph.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:34:30Z",
-  "updated_at": "2026-03-21T10:06:27Z"
+  "updated_at": "2026-03-23T15:49:13.208883Z",
+  "quality_score": 0.95
 }

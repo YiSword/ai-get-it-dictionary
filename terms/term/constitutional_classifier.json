@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "constitutional_classifier 是一种在人工智能系统中嵌入宪法式原则（如不可侵犯的权利、禁止性规则或价值约束）的分类器，它不仅预测类别，还主动拒绝输出违反预设伦理或法律准则的结果。普通用户需要了解它，因为这类模型正被用于敏感场景（如内容审核、司法辅助、医疗分诊），其决策可能直接影响个人权益；知道它存在，有助于用户理解AI为何有时‘拒绝回答’，而非盲目信任输出。",
+    "plain": "constitutional_classifier 是宪法式 AI（Constitutional AI）中的关键组件，基于预设原则集对模型输出进行批判性评估与分类。它能识别并拒绝违反伦理或安全准则的内容，而非单纯预测类别。主要用于内容安全、模型对齐等场景，帮助用户理解 AI 拒绝回答的原因，提升系统透明度与可靠性。",
     "metaphor": "就像一位法官在判案前必须宣誓遵守宪法，constitutional_classifier 在做出任何分类决定前，先对照内置的‘数字宪法’进行合宪性审查。",
     "example": "某招聘AI使用 constitutional_classifier，在识别简历时自动屏蔽所有涉及年龄、性别或民族的信息，并拒绝生成任何暗示歧视倾向的推荐排序。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "内容安全",
+    "模型对齐",
+    "伦理约束"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:50:01Z"
+  "updated_at": "2026-03-23T14:30:05.828523Z",
+  "quality_score": 0.95
 }

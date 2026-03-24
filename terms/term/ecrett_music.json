@@ -5,22 +5,23 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "非标准术语",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ecrett_music 并非标准技术或行业术语，目前在主流音乐技术、版权管理、音频格式或流媒体平台中均无权威定义。它可能是拼写错误（如误将 'encrypted_music' 或 'secret_music' 拼作 ecrett_music）、特定小众项目/私有系统的内部代号，或测试用占位符名称。普通用户无需特别关注该术语，但若在软件界面、错误提示或配置文件中偶然见到，应结合上下文判断是否为输入错误或临时标识，避免误认为是某种功能或安全机制。",
+    "plain": "ecrett_music 并非标准技术术语，主流文档无收录。极可能是 encrypted_music 或 secret_music 的拼写错误，或特定项目的内部变量名。常见于配置文件、错误日志及测试代码中。用户遇到时应结合上下文排查是否为输入错误，勿误认为特定安全机制或音频格式，无需特别关注。",
     "metaphor": "就像在超市货架上看到一个印着‘xyz-果酱’的罐子——标签既不对应品牌也不符合食品命名规范，大概率是贴错了标签的试用品。",
     "example": "某款音乐播放器的调试日志中出现 'failed to load ecrett_music module'，经排查实为开发者误将 'encrypted_music' 变量名拼错所致，修复后问题消失。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "拼写错误",
+    "配置项",
+    "内部标识"
   ],
   "sources": [],
-  "review_status": "llm_generated",
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:44:03Z",
-  "updated_at": "2026-03-21T06:00:13Z"
+  "updated_at": "2026-03-23T12:32:45.218926Z",
+  "quality_score": 0.85
 }

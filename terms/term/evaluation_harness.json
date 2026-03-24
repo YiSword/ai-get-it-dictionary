@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评估工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "evaluation_harness 是一个标准化的软件框架，用于统一加载、运行和评估大语言模型在多个基准任务（如问答、推理、代码生成）上的性能。它封装了数据预处理、提示工程、指标计算和结果汇总等环节，使研究者能公平、可复现地比较不同模型的能力。普通用户需要了解它，因为它是当前AI社区衡量模型真实能力的‘通用标尺’——避免被单一测试或营销话术误导，从而更理性地选择或评估模型。",
+    "plain": "evaluation_harness 是评估大语言模型性能的标准化工具框架。它统一加载并运行多个基准任务（如问答、推理），封装数据预处理与指标计算，确保结果公平可复现。作为 AI 社区的“通用标尺”，它帮助用户避免被营销误导，理性比较不同模型的真实能力，是模型研发与选型的关键基础设施。",
     "metaphor": "就像汽车行业的统一碰撞测试（如Euro NCAP），evaluation_harness 不关心车型外观或宣传口号，只用一套严格、透明的流程检验核心安全性能。",
     "example": "Hugging Face 的 Open LLM Leaderboard 就基于 lm-evaluation-harness 框架，自动对上百个开源语言模型在 MMLU、TruthfulQA、HumanEval 等10+基准上运行评测并排名。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "基准测试",
+    "开源框架"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/EleutherAI/lm-evaluation-harness"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:14:32Z"
+  "updated_at": "2026-03-23T13:08:20.045108Z",
+  "quality_score": 1.0
 }

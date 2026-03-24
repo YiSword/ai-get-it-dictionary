@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "图像生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "image_to_image 是一种人工智能图像生成技术，指以一张输入图像为条件，生成一张语义相关但内容发生变化的新图像。它不同于从文字生成图像（text-to-image），而是基于原始图像的结构、布局或风格进行转换，例如去噪、超分辨率、风格迁移或草图上色。普通用户需要了解它，因为这项技术已广泛应用于手机修图App、设计工具和内容创作平台，能快速实现专业级图像编辑，降低创意门槛。",
+    "plain": "image_to_image 是一种生成式 AI 技术，指以输入图像为条件生成语义相关的新图像。区别于文生图，它基于原图结构或风格进行转换，常见应用包括去噪、超分辨率、风格迁移及草图上色。该技术广泛用于修图软件与设计平台，能高效实现专业级图像编辑，显著降低创作门槛。",
     "metaphor": "就像给一幅铅笔素描自动涂上水彩颜料，既保留原画的线条和构图，又赋予全新的视觉表现。",
     "example": "设计师上传一张黑白建筑草图，用 image_to_image 模型一键生成逼真的彩色3D效果图；或摄影师将模糊的老照片输入模型，自动修复细节并提升清晰度。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像编辑",
+    "内容创作",
+    "生成式模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/diffusers/using-diffusers/img2img",
+    "https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:26:19Z"
+  "updated_at": "2026-03-23T16:35:23.114500Z",
+  "quality_score": 0.95
 }

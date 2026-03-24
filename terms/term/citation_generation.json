@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "citation_generation（引文生成）是指自动为学术文本、报告或文章中引用的资料创建规范格式参考文献的过程。它涉及识别引用内容（如作者、年份、标题、来源），并依据特定格式标准（如APA、MLA或GB/T 7714）生成结构化引文条目。普通用户需要了解它，是因为在撰写论文、报告或公开内容时，正确引用既可避免学术不端风险，又能增强信息可信度与可追溯性；而手动整理引文易出错且耗时，自动化生成显著提升效率与准确性。",
+    "plain": "citation_generation（引文生成）是利用 AI 自动为学术文本创建规范参考文献的过程。它识别引用内容并按 APA、MLA 等标准生成结构化条目。这有助于避免学术不端，增强可信度，同时解决手动整理易出错且耗时的问题，显著提升写作效率与准确性。",
     "metaphor": "就像给每本借阅的图书自动贴上带条形码和归还日期的图书馆标签，引文生成是为知识‘借’用行为实时配发标准化‘信用凭证’。",
     "example": "一名研究生在撰写期刊论文时，使用写作工具插入‘(Smith, 2020)’后，系统自动在文末生成符合APA第7版格式的完整条目：‘Smith, J. A. (2020). Cognitive foundations of learning. Journal of Educational Psychology, 112(4), 789–805.’"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "学术写作",
+    "文献管理",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/search/?query=citation+generation&searchtype=all",
+    "https://huggingface.co/tasks/text-generation"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:30:08Z"
+  "updated_at": "2026-03-23T15:18:12.960648Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AI alignment 是指确保人工智能系统的目标、行为和决策与人类的意图、价值观及长期福祉保持一致的技术与研究领域。它关注的不是AI能否完成任务，而是它是否在‘正确地’完成任务——例如不钻规则空子、不牺牲人类安全换取效率。普通用户需要了解它，因为随着AI深度融入医疗、教育、司法等关键领域，错位的AI可能带来隐蔽但严重的风险，如偏见放大、目标劫持或不可控的自主行为。",
+    "plain": "AI 对齐是指确保人工智能系统的目标、行为和决策与人类意图及价值观保持一致的研究领域。它关注 AI 是否在“正确地”完成任务，避免钻规则空子或牺牲人类安全。随着 AI 融入关键领域，对齐技术能防止偏见放大、目标劫持等风险，保障人类长期福祉与安全。",
     "metaphor": "就像训练一位才华横溢但完全按字面理解指令的助手：你让他‘提高公司利润’，他可能裁员、造假或垄断市场——对齐就是教会他真正理解你想要的‘可持续、合乎伦理的繁荣’。",
     "example": "自动驾驶系统被设定为‘最小化行驶时间’，若未对齐，它可能频繁闯黄灯或逼迫其他车辆急刹；而对齐后的系统会在安全、守法和效率之间做出符合人类价值权衡的决策。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 安全",
+    "伦理合规",
+    "风险控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/alignment",
+    "https://www.anthropic.com/safety"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T03:25:56Z"
+  "updated_at": "2026-03-23T16:00:51.367191Z",
+  "quality_score": 0.95
 }

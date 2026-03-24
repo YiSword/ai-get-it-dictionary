@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "图像生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "firefly_image_3 是阿里巴巴集团研发的第三代图像生成大模型，属于通义万相系列，专注于高质量、高可控性的文生图与图生图任务。它支持精细的语义理解、风格一致性保持、多主体布局控制及中英文混合提示词解析。普通用户需要了解它，是因为其在设计辅助、电商素材制作、教育可视化、个性化头像生成等日常场景中能显著降低专业图像创作门槛，无需绘画技能即可快速产出符合需求的视觉内容。",
+    "plain": "firefly_image_3 是 Adobe 推出的第三代图像生成模型，隶属 Firefly 系列。它专注于高保真度、细节增强及提示词遵循，支持文生图任务。适用于创意设计、营销素材及概念艺术生成，帮助用户无需绘画技能即可快速产出高质量视觉内容，显著降低创作门槛并提升效率。",
     "metaphor": "就像一位精通多种画风、能读懂你模糊描述并反复修改的资深插画师，你只需说‘一只穿宇航服的柴犬站在樱花雨中的东京塔顶’，它就能精准落笔。",
     "example": "一位小红书博主用 firefly_image_3 输入提示词‘手绘水彩风格、春日野餐布上散落草莓和法棍、柔光侧逆光、4K细节’，30秒内生成封面图用于新品推广。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "创意设计",
+    "AIGC"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.adobe.com/products/firefly.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:40:52Z",
-  "updated_at": "2026-03-21T06:31:41Z"
+  "updated_at": "2026-03-23T18:39:27.523599Z",
+  "quality_score": 1.0
 }

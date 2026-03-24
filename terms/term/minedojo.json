@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "具身智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Minedojo 是一个面向人工智能研究的开源模拟平台，基于《我的世界》（Minecraft）构建，旨在为AI智能体提供复杂、开放、可定制的三维环境以训练和评估具身智能能力。它支持任务自动化生成、多模态观察（如图像、文本、动作）、程序化世界构建及真实感物理交互。普通用户（尤其是AI研究者、教育者或开发者）需要了解它，因为它降低了在高保真虚拟环境中训练自主智能体的技术门槛，推动了具身推理、长程规划和跨任务泛化等前沿方向的可复现研究。",
+    "plain": "MineDojo 是基于 Minecraft 构建的开源具身智能研究平台。它为 AI 智能体提供复杂开放的 3D 环境，支持任务自动生成、多模态观察及程序化世界构建。该平台降低了高保真虚拟环境训练门槛，推动具身推理、长程规划及跨任务泛化等前沿方向的可复现研究，适用于 AI 研究者与开发者。",
     "metaphor": "Minedojo 就像为AI科学家打造的‘乐高式实验室’——用标准化积木（可编程世界、任务模板、接口）快速搭建千变万化的实验场景，无需从零开发仿真引擎。",
     "example": "研究人员使用 Minedojo 训练一个AI智能体，让它根据自然语言指令‘建造一座带窗户的红石灯塔，并在夜晚点亮它’，在动态生成的岛屿环境中自主采集资源、合成工具、编程红石电路并完成建造。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "仿真平台",
+    "强化学习",
+    "多模态"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://minedojo.org/",
+    "https://github.com/MineDojo/MineDojo"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:39:36Z"
+  "updated_at": "2026-03-23T18:42:35.947534Z",
+  "quality_score": 1.0
 }

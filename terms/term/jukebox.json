@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Jukebox（点唱机）是一种早期的自动音乐播放设备，用户通过投币或按键选择唱片，机器随即播放指定歌曲。它在20世纪中叶风靡欧美公共场所，是现代流媒体点播服务的雏形。普通用户需要了解这一术语，因为它体现了‘按需选择内容’这一核心交互理念的起源，有助于理解当今Spotify、Apple Music等平台的设计逻辑与历史脉络。",
+    "plain": "Jukebox 是 OpenAI 发布的音乐生成模型，支持根据流派、艺术家及歌词生成包含人声的音频。它基于 VQ-VAE 和 Transformer 架构，实现了文本到音频的多模态合成。作为早期音乐大模型，它展示了 AI 理解音乐风格与结构的能力，为后续音频生成技术奠定了重要基础，是 AIGC 在音乐领域的代表性应用。",
     "metaphor": "就像一个老式糖果机——投币、转旋钮、选颜色，机器就精准吐出你想要的那一颗糖。",
     "example": "1950年代美国餐厅角落的镀铬点唱机，高中生插入镍币，按下编号K-12，立刻响起Elvis Presley的《Hound Dog》。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "音乐生成",
+    "多模态生成",
+    "AIGC"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/research/jukebox"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:48:50Z",
-  "updated_at": "2026-03-21T07:47:14Z"
+  "updated_at": "2026-03-23T10:54:04.790001Z",
+  "quality_score": 1.0
 }

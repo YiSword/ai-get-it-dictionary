@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LSGAN（Least Squares Generative Adversarial Network）是一种改进的生成对抗网络，它用最小二乘损失函数替代了原始GAN中的sigmoid交叉熵损失。这种改动使判别器输出更平滑、梯度更稳定，从而缓解训练不稳定和模式崩溃问题，提升生成图像的质量和多样性。普通用户虽不直接调参，但若使用AI绘图工具或接触AIGC内容，了解LSGAN有助于理解为何某些模型生成更逼真、细节更丰富的图像。",
+    "plain": "LSGAN（最小二乘生成对抗网络）是生成对抗网络的改进版本。它采用最小二乘损失函数替代传统的交叉熵损失，使判别器输出更平滑、梯度更稳定。这有效缓解了训练不稳定和模式崩溃问题，显著提升了生成图像的质量与多样性，是计算机视觉领域重要的生成模型架构之一。",
     "metaphor": "就像用尺子精确测量误差（而非粗略判断对错），LSGAN让AI在学习造假时被更细腻地打分，从而练出更扎实的‘伪造手艺’。",
     "example": "在医学影像合成中，LSGAN被用于生成高保真的脑部MRI切片，辅助标注稀缺数据，提升下游病灶分割模型的泛化能力。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "生成对抗网络",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1611.04076"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:27:44Z",
-  "updated_at": "2026-03-21T08:22:15Z"
+  "updated_at": "2026-03-23T10:35:54.397178Z",
+  "quality_score": 0.95
 }

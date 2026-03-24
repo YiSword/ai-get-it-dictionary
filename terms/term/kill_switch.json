@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "安全机制",
   "difficulty": "中级",
   "explanations": {
-    "plain": "kill_switch 是一种紧急中断机制，用于在异常或危险情况下立即停止系统、设备或软件的运行，防止进一步损害或数据泄露。它通常设计为一键触发、不可绕过且响应迅速。普通用户需要了解它，因为许多智能设备（如无人机、电动车、加密钱包）和在线服务（如双因素认证应用）都内置了该功能，正确使用可在账户被盗、设备失控或隐私面临即时风险时快速止损，避免财产损失或敏感信息扩散。",
+    "plain": "kill_switch 是一种紧急中断机制，用于在异常或危险情况下立即停止系统、设备或软件运行，防止损害或数据泄露。它通常一键触发、不可绕过且响应迅速。许多智能设备（如无人机、加密钱包）和服务内置此功能，用户正确使用可在账户被盗或设备失控时快速止损，避免财产损失或敏感信息扩散。",
     "metaphor": "就像汽车上的紧急手刹——平时不用，但一旦刹车失灵，拉下它就能让车辆立刻停下，防止撞车。",
     "example": "某加密钱包App设置了kill_switch功能：当用户连续输错密码5次后，该功能自动触发，彻底清除本地私钥并锁定账户，阻止黑客暴力破解。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "信息安全",
+    "系统安全",
+    "应急响应"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kill_switch",
+    "https://csrc.nist.gov/glossary"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:50:32Z"
+  "updated_at": "2026-03-23T17:07:25.095155Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "安全与风控",
   "difficulty": "中级",
   "explanations": {
-    "plain": "fraud_detection（欺诈检测）是指利用数据分析、机器学习和规则引擎等技术，实时或近实时地识别异常行为或可疑交易，以防止金融诈骗、身份盗用、虚假账户注册等恶意活动。它广泛应用于银行、电商、支付平台和保险等行业。普通用户需要了解这一概念，因为它是保护个人资金安全、隐私数据和账户可信度的第一道数字防线——当系统自动拦截一笔陌生设备发起的大额转账时，背后正是欺诈检测在默默工作。",
+    "plain": "欺诈检测利用数据分析、机器学习和规则引擎，实时识别异常行为或可疑交易，防止金融诈骗、身份盗用等恶意活动。广泛应用于银行、电商和支付平台。它是保护个人资金安全和账户可信度的第一道数字防线，例如自动拦截陌生设备的大额转账。",
     "metaphor": "就像机场安检中的X光机和行为分析员，既扫描行李的物理特征，又观察旅客的微表情与行动逻辑，双重判断是否存在潜在威胁。",
     "example": "某用户在凌晨3点从境外IP登录其国内银行App并尝试转账50万元，系统立即触发欺诈检测模型，结合设备指纹、登录历史和行为偏离度判定为高风险，随即冻结操作并推送验证短信。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "金融安全",
+    "风险控制",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/fraud-detector/",
+    "https://learn.microsoft.com/en-us/azure/architecture/example-scenario/ai/fraud-detection"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:38:48Z"
+  "updated_at": "2026-03-23T18:18:10.217247Z",
+  "quality_score": 0.95
 }

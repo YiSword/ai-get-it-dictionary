@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "操作系统",
   "difficulty": "中级",
   "explanations": {
-    "plain": "memory_compression（内存压缩）是一种操作系统技术，通过实时压缩运行中进程的闲置内存页，减少对物理内存的占用，从而在不触发低效交换（swap）的前提下提升多任务性能。普通用户需要了解它，因为这项技术能显著改善设备在内存紧张时的响应速度和流畅度——例如在同时打开数十个浏览器标签、运行多个应用时避免卡顿或崩溃，且无需用户手动干预。",
+    "plain": "内存压缩是操作系统通过实时压缩闲置内存页来减少物理内存占用的技术。它能在不触发低效交换的前提下提升多任务性能，显著改善设备在内存紧张时的响应速度与流畅度，避免多应用运行时卡顿或崩溃，无需用户干预。",
     "metaphor": "就像把一堆蓬松的羽绒服真空压缩进小袋子，既节省行李箱空间，又随时能快速取出穿用。",
     "example": "macOS 的 Compressed Memory 和 Linux 的 zram 都在后台自动启用 memory_compression；当 MacBook 同时运行 Xcode、Chrome 和 Slack 且内存接近满载时，系统会将部分不活跃的 Chrome 标签页内存页压缩存储，释放出可用内存供 Xcode 编译使用。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "系统优化",
+    "内存管理",
+    "多任务处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://learn.microsoft.com/en-us/windows/hardware/design/device-experiences/oem-memory-compression",
+    "https://en.wikipedia.org/wiki/Memory_compression"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:33:44Z"
+  "updated_at": "2026-03-23T18:27:53.601627Z",
+  "quality_score": 0.95
 }

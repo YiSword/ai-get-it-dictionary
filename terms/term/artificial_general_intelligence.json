@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "人工通用智能（AGI）是指具备与人类相当或超越人类的广泛认知能力的AI系统，能理解、学习、推理并灵活适应各种未知任务，而非仅限于特定领域（如下棋或识图）。它不同于当前普遍存在的狭义AI（如语音助手或推荐算法），后者只能执行预设范围内的任务。普通用户需要了解AGI，因为它可能深刻重塑就业结构、教育方式、社会伦理乃至人类自我定位——既是重大机遇，也带来可控性、公平性与存在性风险等根本性挑战。",
+    "plain": "人工通用智能（AGI）指具备与人类相当或超越人类的广泛认知能力的 AI 系统，能理解、学习、推理并灵活适应各种未知任务。它不同于仅执行预设任务的狭义 AI。AGI 可能重塑就业、教育及社会伦理，带来机遇的同时也伴随可控性与存在性风险等挑战，是 AI 研究的终极目标之一。",
     "metaphor": "就像一个刚入学的全能天才儿童，不需要重新编程就能自学做饭、写诗、修车、谈判，甚至教别人学习。",
     "example": "一名AGI医生不仅能分析医学影像和基因数据，还能结合患者情绪、社会背景和最新科研动态，实时制定个性化治疗方案，并向患者用恰当语言解释风险与选择。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "前沿技术",
+    "伦理风险",
+    "基础概念"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Artificial_general_intelligence",
+    "https://futureoflife.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T03:43:18Z"
+  "updated_at": "2026-03-23T16:31:03.193771Z",
+  "quality_score": 0.95
 }

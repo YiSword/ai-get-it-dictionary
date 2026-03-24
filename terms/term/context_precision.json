@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评估指标",
   "difficulty": "中级",
   "explanations": {
-    "plain": "context_precision 是评估检索或生成系统所返回的相关信息中，真正与用户查询意图直接相关、且无冗余或偏离内容的比例。它衡量的是‘精准度’而非‘覆盖面’——即在所有被引用或返回的上下文片段中，有多少比例切实支撑了答案的核心依据。普通用户需要了解它，因为高 context_precision 意味着系统更少地堆砌无关材料、更专注地提供切题证据，从而提升可信度与阅读效率，尤其在法律、医疗或学术等容错率低的场景中至关重要。",
+    "plain": "context_precision 是 RAG 系统核心评估指标，衡量检索到的上下文片段中与实际答案相关内容的比例。它关注检索结果的精准度而非覆盖率，旨在减少无关噪声干扰。高分意味着系统能提供更切题的证据，显著提升生成答案的可信度与效率，适用于法律、医疗等高精度场景。",
     "metaphor": "就像一位经验丰富的图书管理员，不仅准确找到整本相关书籍（召回），还只抽出其中真正解答你问题的那三段话（精度），而不是把整章都塞给你。",
     "example": "当用户提问‘阿司匹林对登革热患者是否安全？’，系统若仅引用WHO指南中明确警告‘登革热期间禁用阿司匹林’的句子，context_precision 就高；若同时混入阿司匹林化学结构、历史发明者等无关段落，则 precision 下降。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "RAG",
+    "模型评估",
+    "检索增强"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://docs.ragas.io/en/latest/concepts/metrics/context_precision.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:52:41Z"
+  "updated_at": "2026-03-23T12:35:18.231526Z",
+  "quality_score": 1.0
 }

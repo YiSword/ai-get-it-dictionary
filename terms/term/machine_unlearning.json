@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "隐私与安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "machine_unlearning 是指从已训练的机器学习模型中安全、有效地移除特定数据点或用户信息的过程，使其对被删除数据的影响降至可忽略水平。这不同于简单地重新训练模型（成本高、耗时长），而是通过算法手段实现局部‘遗忘’。普通用户需要了解它，因为随着隐私法规（如GDPR‘被遗忘权’）落地，当用户要求删除其个人数据时，企业不能仅删除原始记录，还需确保模型不再隐含记忆该数据——否则仍存在隐私泄露和法律风险。",
+    "plain": "Machine Unlearning 是指从已训练模型中安全移除特定数据影响的技术，使模型对该数据“遗忘”。相比重新训练，它更高效。随着 GDPR 等法规落地，用户行使“被遗忘权”时，企业需确保模型不再隐含记忆个人数据，避免隐私泄露风险，是平衡模型效用与隐私合规的关键手段。",
     "metaphor": "就像从一本已经印刷完成的百科全书中精准擦除某一页的内容，而不重印整本书，也不让擦除痕迹影响其他页面的阅读。",
     "example": "一家医疗AI公司收到用户请求删除其历史诊断影像数据；系统执行machine_unlearning后，模型在后续预测中不再受该用户影像特征的影响，且无需从头用剩余数据重新训练整个模型。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "隐私保护",
+    "模型治理",
+    "数据合规"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2002.11545",
+    "https://gdpr.eu/right-to-be-forgotten/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:24:33Z"
+  "updated_at": "2026-03-23T13:45:28.285045Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型能力",
   "difficulty": "中级",
   "explanations": {
-    "plain": "function_calling 是指大语言模型在生成响应时，主动识别用户意图并调用预定义的外部工具（如天气查询、数据库搜索、日历操作等）来获取实时或结构化数据的能力。它让模型不再仅依赖训练时学到的知识，而是能动态接入真实世界的服务。普通用户需要了解它，因为这是AI从‘被动回答’转向‘主动办事’的关键能力——比如直接订外卖、查航班、同步日程，而无需手动切换多个App。",
+    "plain": "function_calling 是指大语言模型识别用户意图并调用预定义外部工具（如 API、数据库）的能力。它使模型能获取实时数据或执行具体操作，如查天气、订机票。这标志着 AI 从被动回答转向主动办事，无需用户切换应用即可完成复杂任务，极大提升了实用性和交互效率。",
     "metaphor": "就像一位熟悉你家所有智能设备的管家，听到你说‘客厅太热了’，立刻自动打开空调并调到26度，而不是只告诉你‘建议开空调’。",
     "example": "用户问‘我今天下午3点在北京有会议吗？’，模型通过function_calling调用日历API查询后，直接返回会议名称和地点，而非泛泛而谈‘请检查你的日历’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "智能助手",
+    "API 集成",
+    "自动化任务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs/guides/function-calling"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:40:44Z"
+  "updated_at": "2026-03-23T14:55:41.564519Z",
+  "quality_score": 0.95
 }

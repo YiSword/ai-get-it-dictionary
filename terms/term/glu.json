@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GLU（Gated Linear Unit）是一种神经网络中的激活单元，由输入的线性变换与一个门控机制（通常用Sigmoid函数控制）相乘构成，用于选择性地传递信息。它被设计为替代传统ReLU等激活函数，在保持计算效率的同时缓解梯度消失问题，并提升序列建模能力。普通用户无需直接调用GLU，但若使用或微调现代大语言模型（如LLaMA、Gemma）、语音合成系统或Transformer变体，理解GLU有助于把握模型结构特点及性能差异。",
+    "plain": "GLU（Gated Linear Unit）是神经网络中的门控线性单元，通过线性变换与 sigmoid 门控相乘选择性地传递信息。它替代传统激活函数，缓解梯度消失并增强序列建模能力。常见于 LLaMA 等大语言模型及 Transformer 架构中，是理解现代模型结构的关键组件。",
     "metaphor": "GLU就像一扇智能水闸：水流（输入信号）能否通过，不仅取决于水压大小（线性变换结果），还取决于闸门开合程度（门控信号），两者协同决定最终输出。",
     "example": "在LLaMA系列模型的前馈网络（FFN）层中，每个块使用两个并行线性层，其输出经逐元素相乘（即GLU操作）组合，显著提升了参数效率和表达能力。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "神经网络",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1612.08083",
+    "https://pytorch.org/docs/stable/generated/torch.nn.GLU.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:49:27Z"
+  "updated_at": "2026-03-23T16:20:35.653945Z",
+  "quality_score": 1.0
 }

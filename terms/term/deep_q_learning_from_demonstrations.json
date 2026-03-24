@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Deep Q-Learning from Demonstrations（DQfD）是一种结合强化学习与人类示范数据的算法，它让智能体不仅能通过试错学习，还能从专家演示中直接提取有效策略。相比纯强化学习需要大量探索和训练时间，DQfD能显著加速学习过程并提升初期表现。普通用户需要了解它，是因为它正推动机器人、自动驾驶和游戏AI等应用更快落地——让AI少走弯路，更安全、高效地掌握复杂任务。",
+    "plain": "DQfD 是结合强化学习与专家示范数据的算法。它允许智能体利用预先收集的演示数据加速学习，减少对大量试错的依赖。相比纯强化学习，DQfD 能显著提升初期性能并缩短训练时间。该技术广泛应用于机器人控制、自动驾驶及游戏等领域，帮助 AI 更安全高效地掌握复杂任务。",
     "metaphor": "就像学开车时，教练先亲自示范几次标准操作，再让你上手练习，同时随时纠正错误，而不是只靠你反复撞墙来摸索。",
     "example": "在工业机器人抓取任务中，工程师先手动操控机械臂完成数十次精准抓取，这些动作轨迹被作为示范数据输入DQfD模型，使机器人仅用少量试错就学会在新场景中稳定抓取不同形状物体。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "机器人",
+    "自动驾驶",
+    "游戏"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1704.03732",
+    "https://ojs.aaai.org/index.php/AAAI/article/view/11689"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:22:43Z"
+  "updated_at": "2026-03-23T16:36:36.935896Z",
+  "quality_score": 0.95
 }

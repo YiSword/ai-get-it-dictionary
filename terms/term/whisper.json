@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "语音识别",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Whisper 是由 OpenAI 开发的开源语音识别（ASR）模型，能将不同语言的语音高精度地转录为文字，并支持翻译、说话人分离和无标点文本自动加标点等功能。它对普通用户意义重大：无需专业设备或付费服务，就能用手机或电脑快速将会议录音、课堂讲解、采访素材等转化为可编辑、可搜索的文字，极大提升信息处理效率，尤其惠及听障人士、多语种学习者和内容创作者。",
+    "plain": "Whisper 是 OpenAI 推出的开源语音识别模型，支持多语言转录、翻译及标点自动添加。它能在普通设备上高效将语音转为文字，适用于会议记录、采访整理等场景。该模型鲁棒性强，极大提升了信息处理效率，惠及听障人士及多语种学习者，是当前主流的 ASR 工具之一。",
     "metaphor": "就像一位精通上百种语言、从不疲倦的速记专家，一边听你说话，一边实时写下准确文字，还能顺手把外语翻译成中文。",
     "example": "用户用手机录下一段15分钟的英文播客，上传至本地运行的Whisper工具，30秒内即生成带时间戳的中文译文稿，可直接复制进笔记软件整理要点。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语音转文字",
+    "多语言支持",
+    "开源模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/research/whisper",
+    "https://github.com/openai/whisper"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:25:44Z"
+  "updated_at": "2026-03-23T15:55:34.677535Z",
+  "quality_score": 0.95
 }

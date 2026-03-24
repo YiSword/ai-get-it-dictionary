@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "realtime_multimodal_pipeline",
+  "norm_term": "realtime_multimodal_pipeline",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "系统架构",
+  "difficulty": "高级",
+  "explanations": {
+    "plain": "实时多模态流水线是一种低延迟 AI 系统架构，能同时接收、处理并融合文本、音频、图像等多种数据。它解决了传统模型单模态或高延迟问题，实现即时交互。这是构建下一代沉浸式应用、实时客服及互动娱乐的核心技术，代表 AI 从离线批处理向在线即时服务的演进。",
+    "metaphor": "这就像是一个训练有素的同声传译团队，不仅耳朵在听你说话，眼睛也在同时观察你的表情和手势，大脑立刻综合所有信息并瞬间给出反馈，而不是等你说完所有话、录完像后再慢慢分析整理，确保了交流的流畅性和自然感。",
+    "example": "在智能客服场景中，当用户通过视频通话求助时，系统实时捕捉用户的语音内容、语调情绪以及屏幕上展示的错误代码图像。流水线即刻融合这些信息，判断用户焦急程度和问题类型，瞬间生成安抚话术并提供解决方案，无需用户等待系统转接或事后回访，极大提升了服务效率。"
+  },
+  "scenario_tags": [
+    "人工智能",
+    "系统架构",
+    "实时交互"
+  ],
+  "sources": [
+    "https://developer.nvidia.com/ai-workflows",
+    "https://cloud.google.com/vertex-ai"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:39:19.832041Z",
+  "updated_at": "2026-03-23T16:40:37.011446Z",
+  "quality_score": 0.95
+}

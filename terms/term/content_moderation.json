@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "内容审核（content_moderation）是指平台或系统对用户生成的内容（如文字、图片、视频、评论等）进行识别、评估和干预的过程，以确保其符合法律法规、社区准则及社会公序良俗。它可能涉及自动检测（如AI识别违规图像或敏感词）和人工复核，用于过滤违法、暴力、色情、仇恨、虚假或骚扰类信息。普通用户需要了解它，因为这直接影响其发帖是否可见、账号是否受限，也关系到网络空间的安全性与可信度——既保护自己免受有害信息侵害，也提醒发布内容需承担相应责任。",
+    "plain": "内容审核是指平台利用 AI 自动检测与人工复核，对用户生成内容进行识别干预，确保符合法律法规及社区准则。主要过滤违法、暴力、色情及虚假信息，保障网络空间安全。用户需知悉此机制，避免账号受限并维护良好网络环境。",
     "metaphor": "就像图书馆管理员既要在书架上提前筛查不适宜的读物，又会在读者借阅时实时提醒内容边界，内容审核是数字世界的‘守门人’与‘提示牌’的结合。",
     "example": "某短视频平台使用AI模型实时扫描用户上传的视频，自动拦截含极端主义符号或未授权版权音乐的片段，并向上传者推送修改建议；若AI判断存疑，则转交人工审核团队在2小时内裁定是否上线。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "网络安全",
+    "社区治理",
+    "合规"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Content_moderation",
+    "https://ai.google.dev/responsibilities/safety-and-societal-benefits/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T04:51:06Z"
+  "updated_at": "2026-03-23T12:25:50.054032Z",
+  "quality_score": 0.95
 }

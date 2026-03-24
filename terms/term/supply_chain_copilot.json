@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "supply_chain_copilot",
+  "norm_term": "supply_chain_copilot",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "AI 应用",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Supply Chain Copilot 是基于 AI 的供应链管理助手，整合供应商、市场及运输数据，利用机器学习预测风险并生成决策建议。它优化物流、库存与生产流程，帮助企业降低运营成本、减少断货风险并增强供应链韧性，是企业数字化转型中提升响应速度与资源利用率的关键工具。",
+    "metaphor": "如同为供应链配备智能导航系统，它能实时预警‘交通拥堵’（物流延迟）、规划‘最优路线’（资源分配），并在‘天气突变’（市场波动）时自动调整行程。",
+    "example": "某汽车制造商利用 Supply Chain Copilot 分析全球芯片供应数据，提前 3 个月预测到某地区港口罢工风险，系统自动建议切换备用供应商并调整生产计划，避免了价值 2000 万美元的停产损失。"
+  },
+  "scenario_tags": [
+    "供应链管理",
+    "智能决策",
+    "企业数字化"
+  ],
+  "sources": [
+    "https://dynamics.microsoft.com/en-us/supply-chain/overview/",
+    "https://www.sap.com/products/scm.html"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:27:54.095946Z",
+  "updated_at": "2026-03-23T12:53:52.759049Z",
+  "quality_score": 0.95
+}

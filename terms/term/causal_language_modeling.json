@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "因果语言建模（Causal Language Modeling）是一种训练语言模型的方法，要求模型在预测下一个词时只能依赖前面的词（即‘从左到右’的单向注意力），不能看到后续内容。这模拟了人类阅读或生成文本时的自然顺序，是GPT系列等自回归模型的核心机制。普通用户需要了解它，因为这解释了为什么这类AI能流畅续写文本，但也意味着它无法基于整句上下文做双向推理——比如无法像人类一样反复推敲前后逻辑。",
+    "plain": "因果语言建模是一种训练语言模型的方法，要求模型预测下一个词时仅依赖前面的词，采用从左到右的单向注意力机制。这是 GPT 系列等自回归模型的核心，模拟了文本生成的自然顺序。它使 AI 能流畅续写文本，但无法基于整句上下文进行双向推理，主要适用于生成任务。",
     "metaphor": "就像一位只允许向前看的火车司机，只能根据已驶过的轨道决定下一节车厢该往哪拐，却看不见前方铁轨的全貌。",
     "example": "当你在聊天界面输入‘今天天气真’，因果语言模型会基于这三个字依次预测‘好’‘晴’‘闷’等可能的下一个字，而不会利用尚未生成的后续词来反向调整预测。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "自然语言处理",
+    "生成式 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/tasks/language_modeling"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:21:33Z"
+  "updated_at": "2026-03-23T15:39:50.384114Z",
+  "quality_score": 0.95
 }

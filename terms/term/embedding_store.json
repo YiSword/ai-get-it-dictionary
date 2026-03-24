@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "向量数据库",
   "difficulty": "中级",
   "explanations": {
-    "plain": "embedding_store 是一种专门用于存储和高效检索向量嵌入（embeddings）的数据库或系统。它将文本、图像等非结构化数据转换为高维数值向量后，通过索引优化（如近似最近邻搜索）支持快速相似性查找。普通用户需要了解它，是因为它支撑着现代AI应用的核心能力——比如在聊天机器人中精准召回相关知识、在图片搜索中找到视觉相似的图像，而无需手动编写匹配规则。",
+    "plain": "embedding_store 是专门用于存储和检索向量嵌入的数据库系统。它将文本、图像等非结构化数据转换为高维向量，利用近似最近邻搜索算法支持快速相似性查找。作为现代 AI 应用的核心组件，它支撑聊天机器人知识召回、图片相似搜索等场景，无需手动编写匹配规则即可实现高效语义检索。",
     "metaphor": "就像图书馆的卡片目录柜，但不是按书名字母排序，而是把每本书‘气味’数字化后，按气味相似度自动归类并秒级定位。",
     "example": "当用户在智能客服中输入‘我的订单还没发货’，系统将该语句转为向量，在 embedding_store 中快速检索出最相似的历史工单处理方案，并即时返回给客服人员。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "RAG",
+    "语义搜索",
+    "知识库"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.pinecone.io/learn/vector-database/",
+    "https://milvus.io/what-is-vector-database"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:05:56Z"
+  "updated_at": "2026-03-23T17:14:33.015499Z",
+  "quality_score": 0.95
 }

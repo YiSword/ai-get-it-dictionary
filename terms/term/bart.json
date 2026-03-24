@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "BART（Bidirectional and Auto-Regressive Transformers）是一种预训练语言模型，由Facebook AI于2019年提出，专为文本生成与理解任务设计。它结合了双向编码（像BERT一样理解上下文）和自回归解码（像GPT一样逐词生成），使其在翻译、摘要、问答等任务中表现优异。普通用户无需直接操作BART，但可能间接受益于它——比如使用新闻App的智能摘要功能、社交平台的自动回复建议或文档工具的改写助手，这些背后常有BART类模型支撑。",
+    "plain": "BART 是 Facebook AI 于 2019 年提出的序列到序列预训练模型，全称为 Bidirectional and Auto-Regressive Transformers。它结合双向编码与自回归解码，擅长文本生成与理解，广泛应用于机器翻译、文本摘要及问答系统。其能力支撑了新闻智能摘要、自动回复等常见应用。",
     "metaphor": "BART就像一位既精通速读又擅长即兴写作的编辑：先通读整篇文章把握全局（双向编码），再根据需求重写标题、提炼要点或续写结尾（自回归生成）。",
     "example": "当你在笔记软件中点击‘生成摘要’按钮，输入一篇长会议纪要，系统几秒内返回一段精炼的3句话总结——这个过程很可能由微调后的BART模型完成。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文本生成",
+    "文本摘要",
+    "机器翻译"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1910.13461",
+    "https://huggingface.co/docs/transformers/model_doc/bart"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T03:56:08Z"
+  "updated_at": "2026-03-23T14:45:45.318618Z",
+  "quality_score": 0.95
 }

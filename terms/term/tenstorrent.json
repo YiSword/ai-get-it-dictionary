@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 芯片",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Tenstorrent 是一家专注于人工智能芯片设计的加拿大公司，开发了专为大规模AI模型训练和推理优化的处理器架构，其芯片结合了通用计算单元、可编程互连网络和定制编译器栈。普通用户需要知道它，是因为它代表了一种挑战英伟达GPU主导地位的新硬件路径，可能在未来影响AI应用的成本、速度与能效——例如让本地大模型运行更流畅、云服务价格更亲民。",
+    "plain": "Tenstorrent 是一家加拿大 AI 芯片公司，由传奇人物 Jim Keller 领导。其架构专为大模型训练与推理优化，结合通用计算单元与可编程互连。作为挑战英伟达 GPU 的新硬件路径，它旨在降低算力成本并提升能效，可能让本地大模型运行更流畅、云服务更亲民，是 AI 基础设施领域的重要新兴力量。",
     "metaphor": "Tenstorrent 就像为AI高速公路量身定制的智能可变车道系统：不是一味加宽单条路（如堆叠更多GPU），而是动态重组车流路径与车辆类型，让数据运输更少绕行、更少堵点。",
     "example": "一家AI初创公司使用Tenstorrent的Grayskull芯片集群，在不依赖昂贵GPU服务器的情况下，两周内完成了13B参数语言模型的微调，推理延迟比同价位GPU方案降低40%。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 芯片",
+    "硬件设施",
+    "大模型推理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://tenstorrent.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:27:57Z",
-  "updated_at": "2026-03-21T10:04:02Z"
+  "updated_at": "2026-03-23T11:33:28.127685Z",
+  "quality_score": 0.95
 }

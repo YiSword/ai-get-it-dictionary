@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "智能体架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "critic_agent（评审智能体）是一种专门负责评估、验证和反馈其他AI智能体（如生成式agent）输出质量的独立模块。它不生成新内容，而是基于预设标准（如事实准确性、逻辑一致性、安全性或风格合规性）对结果进行打分、修正建议或拒绝响应。普通用户需要了解它，因为它是保障AI输出可信、可靠和安全的关键防线——尤其在医疗咨询、法律建议或教育场景中，避免错误信息被直接采纳。",
+    "plain": "critic_agent（评审智能体）是专门评估其他 AI 智能体输出质量的独立模块。它不生成新内容，而是基于事实准确性、逻辑一致性等标准进行打分或修正建议。它是保障 AI 输出可信、可靠和安全的关键防线，尤其在医疗、法律等高风险场景中，避免错误信息被直接采纳，提升系统整体可靠性。",
     "metaphor": "就像论文投稿后必须经过同行评审专家审阅才能发表，critic_agent就是AI工作流中的‘学术审稿人’，不执笔写作，但决定成果能否过关。",
     "example": "在自动编写合同的AI系统中，critic_agent会检查生成条款是否违反现行法规、是否存在模糊表述或责任漏洞，并标出风险段落供人工复核或触发重写。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多智能体协作",
+    "内容安全",
+    "模型评估"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://microsoft.github.io/autogen/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:04:53Z"
+  "updated_at": "2026-03-23T18:21:49.509145Z",
+  "quality_score": 0.95
 }

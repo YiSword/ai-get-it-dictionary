@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型机制",
   "difficulty": "中级",
   "explanations": {
-    "plain": "induction_head（归纳头）是Transformer模型中一种特殊类型的注意力头，它能通过位置关系（如‘A后跟B，B后跟C’）自动识别并泛化序列中的隐含模式，从而在未见过的上下文中预测后续元素。它不依赖预定义规则，而是从训练数据中‘归纳’出结构化规律，例如发现‘<X> is a <Y>’后常接‘<X> is also a <Z>’。普通用户需要了解它，因为它是大语言模型实现类比推理、跨例迁移和零样本泛化能力的关键机制之一，直接影响AI能否真正理解而非机械复现文本。",
+    "plain": "induction_head（归纳头）是 Transformer 模型中的一种注意力头，能识别序列中的重复模式（如 A 后跟 B），并在后续上下文中复制该模式。它是实现上下文学习的关键机制，使模型无需更新权重即可泛化新知。该概念源于机械可解释性研究，揭示了大模型类比推理的内在原理。",
     "metaphor": "就像一位经验丰富的编辑，只看几段相似句式（如‘苹果是水果，香蕉是水果’），就能立刻猜出下一句‘橙子是……’该填什么，而无需被提前告知分类规则。",
     "example": "当模型在训练中反复看到‘Paris is the capital of France’和‘Tokyo is the capital of Japan’，一个归纳头可能学会在新句子‘Berlin is the capital of’后准确补全‘Germany’，即使该国名从未在相同句式中出现过。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "Transformer",
+    "可解释性",
+    "注意力机制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:28:13Z"
+  "updated_at": "2026-03-23T14:44:55.877171Z",
+  "quality_score": 1.0
 }

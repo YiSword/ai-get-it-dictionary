@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "对话系统",
   "difficulty": "中级",
   "explanations": {
-    "plain": "dialogue_policy（对话策略）是对话系统中决定‘下一步该说什么或做什么’的核心决策模块。它根据当前对话状态（如用户意图、历史交互、系统目标）选择最合适的动作，例如提问澄清、提供答案、切换话题或调用外部工具。普通用户虽不直接接触它，但其质量直接影响对话是否自然、高效、不重复或不跑题——比如客服机器人能否准确识别用户生气并优先道歉，就取决于对话策略的设计。",
+    "plain": "dialogue_policy（对话策略）是对话系统的核心决策模块，负责根据当前对话状态（如用户意图、历史上下文）决定下一步动作（如回复、提问、调用工具）。它确保对话自然流畅、目标达成且不跑题。虽用户不可见，但直接决定体验好坏，例如识别用户情绪并调整回应策略。",
     "metaphor": "就像一位经验丰富的会议主持人，根据现场气氛、发言者情绪和议程进度，实时决定谁该说话、何时插话、要不要重申规则。",
     "example": "在智能订餐助手场景中，当用户说‘我要点上次的披萨’，dialogue_policy需判断是否需确认门店、时间或地址，并决定先查询历史订单还是直接发起确认流程。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "对话系统",
+    "人工智能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://rasa.com/docs/rasa/policies/",
+    "https://learn.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:33:27Z"
+  "updated_at": "2026-03-23T12:01:19.861551Z",
+  "quality_score": 0.95
 }

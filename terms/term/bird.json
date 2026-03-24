@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生物学",
   "difficulty": "中级",
   "explanations": {
-    "plain": "bird 是一种温血、卵生、具有羽毛和前肢特化为翅膀的脊椎动物，属于鸟纲（Aves）。它们广泛分布于全球各种生态环境中，具备飞行能力（多数种类）、高代谢率和复杂行为（如鸣唱、筑巢、迁徙）。普通用户需要了解 bird，不仅因为它们是生态系统中的关键角色（如传粉、种子传播、害虫控制），还因其与人类生活密切相关——从家禽提供肉蛋，到城市常见麻雀、鸽子影响环境卫生，再到观鸟成为普及的自然教育与休闲活动。",
+    "plain": "鸟（bird）是鸟纲（Aves）温血卵生脊椎动物，具羽毛及特化翅膀。多数能飞行，代谢率高，行为复杂（如迁徙）。作为生态系统关键角色，它们参与传粉与害虫控制，并与人类生活紧密相关，涉及家禽养殖、城市生态及观鸟休闲活动。",
     "metaphor": "就像城市里的移动信使兼生态清洁工，bird 用翅膀穿梭于天地之间，默默完成授粉、除虫、传播种子等‘快递任务’。",
     "example": "清晨在公园散步时，听到白头鹎在枝头鸣叫并啄食浆果，随后飞走将种子排泄到别处，这既是鸟类日常觅食行为，也参与了本地植物的自然更新。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "生物学",
+    "动物学",
+    "生态学"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Bird",
+    "https://www.britannica.com/animal/bird"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:08:31Z"
+  "updated_at": "2026-03-23T15:28:40.003062Z",
+  "quality_score": 0.95
 }

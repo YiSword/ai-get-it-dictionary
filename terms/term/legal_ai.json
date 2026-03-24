@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "垂直领域",
   "difficulty": "中级",
   "explanations": {
-    "plain": "legal_ai 是指专门用于法律领域的人工智能技术，包括合同审查、法规检索、案件预测、法律文书生成等功能。它不替代律师，但能大幅提升法律服务的效率与可及性。普通用户需要了解它，因为日常生活中可能接触到AI辅助的法律咨询平台、在线合同工具或纠纷调解系统，理解其能力边界有助于避免误信错误建议、保护自身权益，并更高效地获取合规帮助。",
+    "plain": "legal_ai 是专用于法律领域的人工智能技术，功能包括合同审查、法规检索及文书生成等。它辅助律师提升效率，不替代专业判断。公众在使用 AI 法律咨询或在线合同工具时，应了解其能力边界，避免误信错误建议，以高效获取合规帮助并保护权益。",
     "metaphor": "就像一位精通法律条文的超级助理，能瞬间翻遍上万份判例和法规，但最终签字担责的仍是人类律师。",
     "example": "一家初创公司使用 legal_ai 工具在5分钟内完成标准劳动合同的合规性审查，标记出与最新地方劳动条例冲突的条款；用户也可通过手机App上传租房合同，AI即时高亮押金退还时限等关键风险点。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "法律服务",
+    "效率工具",
+    "人工智能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://artificiallawyer.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:06:47Z"
+  "updated_at": "2026-03-23T14:33:20.176182Z",
+  "quality_score": 0.95
 }

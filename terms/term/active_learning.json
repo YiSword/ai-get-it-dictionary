@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Active learning 是一种机器学习范式，其中模型能主动选择最有价值的样本（如最不确定或信息量最大的数据）向人类专家请求标注，而非被动接收大量预先标注的数据。它显著降低人工标注成本，提升模型训练效率，尤其适用于标注昂贵、耗时或需要专业知识的场景（如医学影像分析、法律文本审查）。普通用户需要了解它，是因为它正推动AI工具变得更智能、更省力——比如你用的智能标注助手可能就依赖此技术，让你少标50%的数据却获得同样效果。",
-    "metaphor": "就像一个善于提问的学生，不盲目抄写整本习题集，而是先做几道题，发现薄弱环节后，专挑最困惑的题目请教老师。",
-    "example": "在开发一款皮肤癌识别AI时，系统自动筛选出模型对良恶性判断最犹豫的20张模糊皮损照片，请皮肤科医生优先标注，从而用最少专家时间快速提升诊断准确率。"
+    "plain": "主动学习是一种机器学习范式，模型主动筛选高价值样本请求标注，而非被动接收全量数据。该方法显著降低人工标注成本并提升训练效率，尤其适用于医学影像、法律文本等高专业度场景。目前广泛应用于智能客服与内容审核系统，直接影响服务响应质量与迭代速度。",
+    "metaphor": "就像一个勤学好问的学生，在自习时不是盲目翻完所有习题，而是挑出自己最拿不准的几道题去请教老师。",
+    "example": "在开发一款皮肤癌识别AI时，系统自动筛选出模型预测置信度最低的数十张模糊皮损图像，请皮肤科医生优先标注，从而用最少标注工作快速提升诊断准确率。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "数据标注",
+    "效率优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Active_learning_(machine_learning)",
+    "https://developers.google.com/machine-learning/glossary#active_learning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:19:43Z"
+  "updated_at": "2026-03-23T17:36:15.310845Z",
+  "quality_score": 0.95
 }

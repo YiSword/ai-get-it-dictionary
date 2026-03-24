@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "代码大模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Codestral 是由 Mistral AI 推出的开源代码大语言模型系列，专为理解、生成和补全多种编程语言而优化。它支持长上下文（如 32K tokens）、多语言（Python、JavaScript、Rust、SQL 等）及复杂代码任务（如函数重写、单元测试生成、跨文件推理）。普通用户（尤其是开发者、学习者或技术决策者）需要了解 Codestral，因为它提供高性能、本地可部署、无需订阅的代码智能工具，兼顾隐私性与实用性，是 GitHub Copilot 或 Claude Code 等闭源方案的有力开源替代。",
+    "plain": "Codestral 是 Mistral AI 推出的开源代码大语言模型，专为代码理解、生成和补全优化。支持 32K 上下文及 Python、JS 等多种语言。作为高性能本地可部署工具，它兼顾隐私与实用性，是 GitHub Copilot 等闭源方案的有效开源替代，适合开发者及技术决策者使用。",
     "metaphor": "Codestral 就像一位精通十几种编程语言、随时待命的资深结对程序员，不收薪水、不休息，还能把你的笔记本电脑当办公室。",
     "example": "一名前端开发者在离线环境中用 Codestral 模型本地运行 VS Code 插件，实时将一段模糊的 JavaScript 需求描述自动补全为带 TypeScript 类型注解和 Jest 测试用例的完整 React Hook。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "开源模型",
+    "软件开发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://mistral.ai/news/codestral/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:40:25Z"
+  "updated_at": "2026-03-23T16:42:42.742274Z",
+  "quality_score": 0.95
 }

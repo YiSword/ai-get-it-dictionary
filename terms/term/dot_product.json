@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数学基础",
   "difficulty": "中级",
   "explanations": {
-    "plain": "点积（dot_product）是两个向量对应分量相乘后再求和的数学运算，结果是一个标量（单个数值）。它衡量两个向量在方向上的相似程度：值越大，说明它们越同向；为零表示正交（垂直）；为负则说明夹角大于90度。普通用户虽不直接计算，但在推荐系统、图像搜索、语音识别等日常应用中，点积是支撑‘相似性匹配’的核心机制——比如短视频平台判断你是否喜欢某条内容，本质常依赖用户行为向量与视频特征向量的点积。",
+    "plain": "点积是两个向量对应分量相乘后求和的运算，结果为标量。它衡量向量方向的相似性：值越大越同向，为零表示正交。在 AI 领域，点积是推荐系统、图像搜索等应用中相似性匹配的核心机制，用于计算用户偏好与内容特征之间的关联程度。",
     "metaphor": "就像两个人用手电筒照向同一方向：光束重叠越多（角度越小），照亮的区域越亮（点积越大）；若手电筒朝完全相反方向，就一片漆黑（负值）；若互相垂直，则没有重叠光斑（点积为零）。",
     "example": "在音乐App中，系统将每首歌表示为包含节奏、情绪、年代等维度的向量，也将你的听歌历史压缩成一个偏好向量；通过计算你与每首未听歌曲的点积，排序推荐最‘方向一致’的曲目。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "线性代数",
+    "推荐系统",
+    "向量计算"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dot_product",
+    "https://numpy.org/doc/stable/reference/generated/numpy.dot.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:48:28Z"
+  "updated_at": "2026-03-23T15:34:08.675114Z",
+  "quality_score": 0.95
 }

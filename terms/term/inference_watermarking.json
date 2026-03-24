@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "inference_watermarking",
+  "norm_term": "inference_watermarking",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "technique",
+  "category": "AI 安全",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "推理水印是在 AI 模型输出中嵌入不可见标识的技术，用于追踪内容来源或验证生成过程。通过在文本、图像中植入特定模式，使开发者能识别内容是否由特定模型生成。该技术主要解决归属权确认、滥用追溯及透明度问题，帮助用户识别 AI 内容并判断信息真实性。",
+    "metaphor": "就像在文件上使用隐形墨水盖章，只有特殊仪器才能显示标记，推理水印让 AI 输出携带隐藏的'数字指纹'。",
+    "example": "某新闻平台使用带水印的 AI 生成天气报告，当内容被抄袭时，可通过检测水印证明原始生成模型，维护内容版权。"
+  },
+  "scenario_tags": [
+    "内容溯源",
+    "版权保护",
+    "生成式 AI"
+  ],
+  "sources": [
+    "https://deepmind.google/technologies/synthid/",
+    "https://ai.meta.com/blog/watermarking-generated-content/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:55:51.834105Z",
+  "updated_at": "2026-03-23T18:38:46.313652Z",
+  "quality_score": 1.0
+}

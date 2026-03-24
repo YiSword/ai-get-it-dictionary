@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "gitmcp",
+  "norm_term": "gitmcp",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "protocol",
+  "category": "开发协议",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "GitMCP 是一种连接人工智能模型与 Git 版本控制系统的开放协议。它标准化了两者间的交互框架，解决代码版本与模型上下文同步难题，支持动态追踪变更历史。该协议适用于团队协作及持续集成场景，能有效提升模型迭代效率与可追溯性，是现代 AI 开发中版本管理的重要工具。",
+    "metaphor": "就像图书馆为每本书分配唯一编号并记录借阅历史，GitMCP为AI模型绑定代码版本标签，让模型‘知道’自己基于哪一版代码运行，避免‘用旧地图找新路线’的混乱。",
+    "example": "某团队开发图像识别模型时，通过GitMCP将训练代码的Git提交哈希值嵌入模型元数据。当模型效果异常时，工程师可快速定位到对应代码版本，发现是数据预处理模块的某次更新导致问题，从而精准回滚修复。"
+  },
+  "scenario_tags": [
+    "AI 开发",
+    "版本管理",
+    "持续集成"
+  ],
+  "sources": [
+    "https://github.com/ModelContextProtocol/GitMCP"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:29:58.720612Z",
+  "updated_at": "2026-03-23T12:06:23.609047Z",
+  "quality_score": 0.8
+}

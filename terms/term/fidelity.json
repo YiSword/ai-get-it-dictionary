@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "技术概念",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Fidelity 指的是某事物在复制、传输或再现过程中，与原始对象在细节、准确性和真实感上的匹配程度。它常用于音频、视频、图形、仿真和人机交互等领域，衡量保真度高低——高 fidelity 表示几乎无损、高度还原；低 fidelity 则意味着简化、抽象或失真。普通用户需要了解它，因为日常接触的耳机音质、游戏画面、视频通话清晰度甚至AI生成图像的真实性，都直接受 fidelity 影响，关系到体验的真实感、信息传达的准确性以及决策依据的可靠性。",
+    "plain": "Fidelity 指事物在复制、传输或再现过程中与原始对象的匹配程度，常用于音频、视频、仿真及 AI 生成领域。高保真意味着高度还原、无损；低保真则表示简化或失真。它直接影响用户体验的真实感、信息准确性及决策可靠性，是衡量系统性能的关键指标。",
     "metaphor": "就像用高清相机拍一张名画：fidelity 越高，照片越接近站在真迹前肉眼所见的笔触、色彩与质感；fidelity 越低，就越像一幅潦草速写，只留轮廓，丢了神韵。",
     "example": "在远程医疗中，医生通过高 fidelity 的4K超清视频和实时低延迟传输观察患者皮肤病变，能准确识别细微色差与纹理变化；若 fidelity 过低，模糊或偏色的画面可能导致误判。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多媒体",
+    "人工智能",
+    "信号处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fidelity",
+    "https://www.merriam-webster.com/dictionary/fidelity"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:08:42Z",
-  "updated_at": "2026-03-21T06:27:31Z"
+  "updated_at": "2026-03-23T15:03:00.766736Z",
+  "quality_score": 0.95
 }

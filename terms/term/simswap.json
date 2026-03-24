@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "计算机视觉",
   "difficulty": "中级",
   "explanations": {
-    "plain": "SimSwap 是一种基于深度学习的人脸替换技术，能在保持目标人脸身份特征（如五官结构、表情动态）不变的前提下，将源人脸的外观（如肤色、妆容、年龄感）高保真地迁移到目标图像或视频中。它不依赖3D建模或大量训练数据，以轻量、实时性强著称。普通用户需了解它，因为其易用性使得伪造他人面部内容变得门槛极低，可能被滥用于制作虚假视频、身份冒用或网络欺诈，带来隐私与信任风险。",
+    "plain": "SimSwap 是一种基于深度学习的高效人脸替换技术。它能在保持目标人脸身份特征不变的前提下，将源人脸的外观高保真迁移到目标图像或视频中。该技术不依赖 3D 建模，以轻量、实时性强著称。因易用性低门槛，可能被滥用于制作虚假视频或身份冒用，带来隐私与信任风险，需警惕滥用。",
     "metaphor": "就像给一张照片里的人‘换上另一张脸的皮肤和妆容’，但保留原脸的骨骼轮廓和微表情动作，仿佛戴着一副完美贴合、会随情绪自然变化的数字面具。",
     "example": "有人用 SimSwap 将自己视频中的人脸替换成某明星的脸，生成一段看似该明星在推荐某产品的短视频，并发布到社交平台误导观众。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "人脸替换",
+    "深度伪造",
+    "内容安全"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/neuralchen/SimSwap",
+    "https://arxiv.org/abs/2006.00696"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:18:56Z",
-  "updated_at": "2026-03-21T09:45:41Z"
+  "updated_at": "2026-03-23T18:20:23.015650Z",
+  "quality_score": 1.0
 }

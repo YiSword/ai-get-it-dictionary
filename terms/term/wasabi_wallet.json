@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "钱包",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Wasabi Wallet 是一款开源、去中心化的比特币钱包，专注于隐私保护，通过 CoinJoin 混币协议实现交易混淆，使链上追踪用户资金流向变得极其困难。它运行在用户本地设备上，不依赖中心化服务器，私钥永不离开用户控制。普通用户需要了解它，是因为在比特币日益透明的区块链环境中，标准钱包暴露交易图谱和资产规模，而 Wasabi 提供了一种实用、可验证且无需信任第三方的隐私增强方案，尤其适合重视匿名性与金融自主权的个人。",
+    "plain": "Wasabi Wallet 是一款开源比特币隐私钱包，通过 CoinJoin 协议混淆交易，防止链上追踪。它运行在本地，私钥由用户完全控制，无需信任第三方。适合重视匿名性和金融自主权的用户，在透明区块链环境中提供可验证的隐私增强方案。",
     "metaphor": "就像给每笔现金交易套上随机更换的面具和多人同行的迷雾走廊，让旁观者无法分辨谁真正付了钱、谁收到了钱。",
     "example": "一位自由职业者用 Wasabi Wallet 接收多笔比特币付款后，发起一次 CoinJoin 混合，将资金与其他用户输入合并再分散输出，从而切断其收入地址与后续消费地址之间的链上关联。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "比特币",
+    "隐私保护",
+    "开源软件"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://wasabiwallet.io/",
+    "https://github.com/zkSNACKs/Wasabi"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:25:52Z",
-  "updated_at": "2026-03-21T10:22:06Z"
+  "updated_at": "2026-03-23T13:45:22.881634Z",
+  "quality_score": 0.95
 }

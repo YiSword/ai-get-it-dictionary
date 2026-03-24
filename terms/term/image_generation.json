@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "image_generation（图像生成）是指利用人工智能模型，根据文本描述、草图或其他输入条件自动生成全新数字图像的技术。它不依赖传统摄影或手工绘图，而是通过学习海量图像数据，理解语义并创造视觉内容。普通用户需要了解它，因为这项技术正快速融入日常工具——如社交媒体配图、电商产品展示、教育素材制作甚至个性化头像设计，掌握其基本原理有助于更高效、更负责任地使用AI创作工具，避免误解输出结果的可靠性与版权边界。",
+    "plain": "图像生成是利用 AI 模型根据文本、草图等输入自动生成全新数字图像的技术。它通过学习海量数据理解语义并创造视觉内容，无需传统摄影或绘图。该技术已广泛应用于社交媒体配图、电商展示及教育素材制作等场景。掌握其原理有助于更高效、负责任地使用 AI 创作工具，并理解输出结果的可靠性与版权边界。",
     "metaphor": "就像一位精通千万种画风的速写大师，你只需口头描述‘一只戴墨镜的柴犬坐在太空咖啡馆里’，它就能立刻为你画出对应画面。",
     "example": "一位自媒体作者输入提示词‘清晨阳光下的江南水乡，水墨风格，轻雾缭绕’，几秒内获得一张可用于公众号封面的原创插图。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AIGC",
+    "内容创作",
+    "多模态"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/tasks/text-to-image",
+    "https://ai.google/discover/generative-ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T07:24:44Z"
+  "updated_at": "2026-03-23T16:06:57.544703Z",
+  "quality_score": 0.95
 }

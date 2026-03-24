@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "chat_model 是一种专门针对对话交互优化的大型语言模型，它能理解上下文、维持多轮对话连贯性，并以自然、拟人化的方式回应用户。与通用文本生成模型不同，chat_model 在训练和微调阶段大量使用对话数据（如问答、闲聊、指令遵循等），使其更擅长理解意图、处理模糊表达、拒绝不当请求并保持角色一致性。普通用户需要了解它，是因为日常使用的智能助手（如客服机器人、AI笔记工具、编程助手）背后大多依赖此类模型，理解其能力边界有助于更高效、安全地与AI协作。",
+    "plain": "chat_model 是专为对话交互优化的大型语言模型，能理解上下文并维持多轮对话连贯性。相比通用文本模型，它基于大量对话数据训练，擅长理解意图、处理模糊表达及保持角色一致性。日常智能助手、客服机器人等多依赖此类模型，理解其能力边界有助于更高效地与 AI 协作。",
     "metaphor": "就像一位经过专业训练的资深客服专员，不仅记性好、反应快，还能听懂潜台词、记住你上句话说了什么，并在语气和风格上始终如一。",
     "example": "当你在编程助手App中输入‘帮我用Python写一个读取CSV并画出柱状图的脚本’，接着追问‘改成按月份分组统计呢？’，chat_model 能准确理解这是对前一条指令的迭代修改，而非全新请求，并据此生成适配代码。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "人机交互",
+    "生成式 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://python.langchain.com/docs/modules/model_io/chat/",
+    "https://huggingface.co/docs/transformers/main/en/tasks/chatbot"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T04:27:17Z"
+  "updated_at": "2026-03-23T12:10:54.747076Z",
+  "quality_score": 0.95
 }

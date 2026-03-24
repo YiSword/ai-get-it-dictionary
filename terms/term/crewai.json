@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多智能体框架",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CrewAI 是一个开源的 Python 框架，用于构建由多个自主智能体（agents）协作完成复杂任务的系统。每个 agent 可以拥有角色、目标、工具和记忆，并能通过对话式协作规划、分解和执行任务。普通用户需要了解它，是因为它降低了构建多智能体工作流的门槛——无需从零设计通信协议或调度逻辑，就能快速搭建如自动市场调研、内容生成流水线或跨平台数据整合等实用AI应用。",
+    "plain": "CrewAI 是一个开源的 Python 框架，专为构建协作式多智能体系统设计。它允许用户定义具有特定角色、目标和工具的 AI 智能体，通过对话协作自动规划并执行复杂任务。该框架简化了多智能体工作流的开发，无需手动设计通信协议，适用于市场调研、内容生成及数据整合等场景，显著降低了自主智能体应用的构建门槛。",
     "metaphor": "就像一支分工明确的专业剧组：导演设定目标，编剧撰写脚本，演员执行表演，场务协调资源——CrewAI 让这些‘AI角色’自动沟通、分派任务并共同交付结果。",
     "example": "一家电商公司用 CrewAI 创建三名 agent：市场研究员（爬取竞品价格）、文案专员（基于数据生成促销文案）、审核员（检查合规性与语气），三者协同在10分钟内完成一轮新品推广方案生成。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多智能体协作",
+    "自动化工作流",
+    "LLM 应用开发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.crewai.com",
+    "https://github.com/joaomdmoura/crewai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T05:04:38Z"
+  "updated_at": "2026-03-23T15:42:30.796065Z",
+  "quality_score": 1.0
 }

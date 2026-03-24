@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "网络架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Balancer（负载均衡器）是一种网络设备或软件组件，用于在多个服务器、计算资源或网络路径之间智能分配传入的流量，以避免单点过载、提升系统响应速度、增强可用性与容错能力。普通用户虽不直接操作它，但每次访问大型网站（如电商、视频平台）或使用云服务时，背后都依赖负载均衡器确保页面快速加载、支付不中断、视频不卡顿——它是现代互联网高可靠性和高性能体验的隐形基石。",
+    "plain": "Balancer（负载均衡器）是用于在多个服务器或资源间智能分配网络流量的设备或软件。它能避免单点过载，提升系统响应速度与可用性。用户访问大型网站或云服务时，背后依赖它确保页面加载快、服务不中断。它是现代互联网高可靠性的基石。",
     "metaphor": "就像机场的值机柜台调度员，根据各柜台当前排队人数动态分流旅客，确保没人排长队，所有柜台高效运转。",
     "example": "当双十一期间数百万用户同时涌入某电商平台下单时，负载均衡器会实时将请求分发到后端数百台应用服务器，防止某台服务器崩溃导致整个网站瘫痪。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "高可用",
+    "流量分发",
+    "云计算"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/elasticloadbalancing/",
+    "https://www.cloudflare.com/learning/performance/what-is-load-balancing/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:27:17Z",
-  "updated_at": "2026-03-21T03:55:02Z"
+  "updated_at": "2026-03-23T17:37:04.788052Z",
+  "quality_score": 0.95
 }

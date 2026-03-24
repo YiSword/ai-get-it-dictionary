@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Zeroscope 是一个开源的文本到视频生成模型，专为在消费级硬件（如普通显卡）上运行而优化，支持从简短文本提示生成数秒长的高清短视频。它不依赖云端服务，可本地部署，强调轻量、快速和隐私友好。普通用户需要知道它，是因为它降低了AI视频创作的门槛——无需编程经验、昂贵设备或订阅服务，就能在个人电脑上即时尝试创意视频生成，适用于内容草稿、教育演示或社交媒体素材制作。",
+    "plain": "Zeroscope 是一款开源文本到视频生成模型，专为消费级硬件优化，支持本地部署。它无需云端服务，强调轻量、快速与隐私保护，用户可在普通显卡上生成高清短视频。该模型降低了 AI 视频创作门槛，适用于内容草稿、教育演示及社交媒体素材制作，无需编程经验或昂贵设备即可即时尝试创意生成。",
     "metaphor": "就像一台能读懂你一句话、立刻画出动态小动画的智能速写本，不需要画师，也不用联网上传。",
     "example": "一位教师输入提示‘一只蜜蜂飞过向日葵田，阳光明媚’，Zeroscope 在本地电脑上30秒内生成一段4秒的流畅短视频，用于课堂科学讲解。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "视频生成",
+    "本地部署",
+    "开源模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/cerspense/zeroscope_v2_576w"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:04:13Z",
-  "updated_at": "2026-03-21T10:32:20Z"
+  "updated_at": "2026-03-23T17:40:11.562221Z",
+  "quality_score": 1.0
 }

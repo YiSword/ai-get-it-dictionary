@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型评估",
   "difficulty": "中级",
   "explanations": {
-    "plain": "混淆矩阵是一种用于评估分类模型性能的表格，它展示了模型预测结果与真实标签之间的对应关系，包含真正例、假正例、真反例和假反例四个关键数值。普通用户需要了解它，是因为它能直观揭示模型在哪些类别上容易出错（比如把癌症患者误判为健康），而不仅仅是依赖一个笼统的准确率——后者可能掩盖严重的偏见或漏诊风险。",
+    "plain": "混淆矩阵是评估分类模型性能的表格，展示预测结果与真实标签的对应关系。它包含真正例、假正例、真反例和假反例四个数值。相比单一准确率，它能直观揭示模型在特定类别上的错误分布，帮助发现偏见或漏诊风险，是机器学习模型评估的核心工具之一。",
     "metaphor": "就像医院体检报告中的‘阳性/阴性’交叉核对表：横轴是实际病情（有病/没病），纵轴是检测结果（说有病/说没病），每个格子填的是对应人数。",
     "example": "在垃圾邮件过滤系统中，混淆矩阵可以统计：有多少封真正垃圾邮件被正确拦截（真正例），又有多少正常邮件被错误当成垃圾删掉（假正例），从而帮助工程师权衡敏感度与用户体验。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "分类任务",
+    "性能指标"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html",
+    "https://en.wikipedia.org/wiki/Confusion_matrix"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:48:30Z"
+  "updated_at": "2026-03-23T17:23:34.332411Z",
+  "quality_score": 0.95
 }

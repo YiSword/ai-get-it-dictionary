@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开源组织",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LMSYS（Large Model Systems Organization）是一个开源社区驱动的组织，致力于构建和维护用于评估、比较和测试大语言模型的公共基准平台与工具集，如Chatbot Arena。它不开发模型本身，而是提供公平、匿名、基于人类偏好的竞技场式评测机制，帮助研究者和用户客观了解不同模型的实际表现。普通用户需要知道LMSYS，是因为它提供了透明、可复现的模型能力对比数据，避免被厂商宣传误导，从而更理性地选择适合自身需求的语言模型。",
+    "plain": "LMSYS 是由伯克利分校等高校研究者发起的开源组织。其核心项目 Chatbot Arena 提供基于人类偏好的大模型匿名竞技场评测，生成权威排行榜。用户可通过该平台客观对比模型能力，避免厂商宣传误导，辅助选型决策。该组织不开发模型，专注于构建公平透明的评估基准与工具集。",
     "metaphor": "LMSYS就像一场由真实观众投票决定胜负的AI辩论大赛——模型匿名上台交锋，观众（人类评审）只凭回答质量打分，不看名牌，也不听广告。",
     "example": "当用户想为客服系统选型时，可访问LMSYS Chatbot Arena排行榜，发现Claude 3.5 Sonnet在多轮推理任务中得分显著高于GPT-4o，从而优先测试该模型在自身业务场景中的适配性。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评测",
+    "开源社区",
+    "大语言模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://lmsys.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:16:52Z"
+  "updated_at": "2026-03-23T17:11:14.525944Z",
+  "quality_score": 0.95
 }

@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "agentops",
+  "norm_term": "agentops",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "platform",
+  "category": "可观测性",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "AgentOps 是专为 AI 代理设计的运维与监控平台，实时追踪运行状态、性能及异常。通过可视化仪表盘、日志分析和自动化告警，确保代理稳定性。核心价值在于降低系统故障风险，避免客服机器人中断或数据分析错误，提升 AI 应用可靠性。",
+    "metaphor": "如同汽车仪表盘实时显示油量、速度和故障灯，AgentOps 为 AI 代理提供运行状态的‘驾驶舱视图’，让使用者一眼掌握健康状况。",
+    "example": "某电商公司部署客服机器人后，通过 AgentOps 监控其响应延迟与意图识别准确率。当系统检测到连续 5 次错误分类用户问题时，自动触发告警并推送日志至开发团队，快速修复模型漏洞。"
+  },
+  "scenario_tags": [
+    "AI 运维",
+    "可观测性",
+    "大模型应用"
+  ],
+  "sources": [
+    "https://agentops.ai/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:45:54.571341Z",
+  "updated_at": "2026-03-23T11:17:29.432136Z",
+  "quality_score": 0.95
+}

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "文生图模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "flux_1_schnell 是 Flux 模型系列中一个专为高速推理优化的轻量级变体，能在单次前向传播中完成高质量图像生成，显著降低计算延迟和硬件门槛。它通过精简网络结构、减少采样步数（通常仅1步）并采用知识蒸馏技术，在保持视觉质量接近原版 Flux-1 的同时，大幅提升生成速度。普通用户需要了解它，是因为它让高端文生图能力更易落地——无需高端显卡或长时间等待，即可在消费级设备上实现秒级图像创作，降低了AI图像生成的使用门槛。",
+    "plain": "flux_1_schnell 是 Flux 模型系列中专为高速推理优化的轻量级变体。它采用知识蒸馏技术，通常仅需 1 步采样即可生成高质量图像，显著降低计算延迟。用户无需高端显卡，在消费级设备上也能实现秒级文生图创作，大幅降低了 AI 图像生成的使用门槛。",
     "metaphor": "就像一辆经过赛道调校的超级跑车：去掉冗余内饰和舒适配置，只为在直道上以最短时间冲线。",
     "example": "一位设计师在会议中需实时将‘赛博朋克风格的咖啡馆外立面’草图提示词转化为高清效果图，使用 flux_1_schnell 在配备RTX 4060的笔记本上3秒内即生成可用初稿。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "快速推理",
+    "知识蒸馏"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+    "https://github.com/black-forest-labs/flux"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:38:08Z",
-  "updated_at": "2026-03-21T06:36:02Z"
+  "updated_at": "2026-03-23T16:15:46.329083Z",
+  "quality_score": 0.95
 }

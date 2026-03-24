@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MidJourney v5 是人工智能图像生成服务 MidJourney 推出的第五代核心模型，于2023年3月发布，显著提升了图像细节表现力、文本理解准确性、构图合理性与风格一致性。它支持更自然的提示词解析（如对‘cinematic lighting’或‘volumetric fog’等专业描述响应更精准），并大幅减少畸变与语义错误。普通用户需要了解它，是因为版本差异直接影响生成效果质量——使用 v5 而非旧版，往往意味着更少反复调试提示词、更高概率获得符合预期的高质量图像。",
+    "plain": "MidJourney v5 是 2023 年 3 月发布的第五代 AI 图像生成模型。相比前代，它显著提升了细节表现、文本理解及构图合理性，大幅减少畸变。支持更精准的专业提示词解析。使用该版本可获得更高质量图像，减少调试成本，是当时性能领先的文生图模型。",
     "metaphor": "就像相机从数码单反升级到全画幅无反：传感器、镜头算法和图像处理器全面迭代，同样构图和光线下，拍出来的照片更锐利、色彩更真实、暗部细节更丰富。",
     "example": "一位插画师输入提示词‘a lone samurai standing on a rain-slicked Tokyo rooftop at midnight, neon signs reflecting in puddles, cinematic composition, Fujifilm GFX100S photo’，在 MidJourney v5 下几乎一次性生成出光影层次分明、雨痕与霓虹反射准确、人物比例协调的高完成度图像，而 v4 版本常出现霓虹错位或武士肢体扭曲等问题。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文生图",
+    "AIGC",
+    "创意设计"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.midjourney.com/",
+    "https://docs.midjourney.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:29:13Z",
-  "updated_at": "2026-03-21T08:38:47Z"
+  "updated_at": "2026-03-23T13:03:14.374571Z",
+  "quality_score": 0.95
 }

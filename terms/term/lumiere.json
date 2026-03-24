@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "电影史",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Lumière（法语，意为‘光’）是法国电影史上的关键术语，特指卢米埃尔兄弟（Auguste 和 Louis Lumière）于1895年发明的便携式电影摄影机兼放映机系统。它不仅是首台实用化的电影设备，更标志着世界电影的诞生——1895年12月28日巴黎卡普辛大道咖啡馆的首次公开售票放映被公认为电影时代的开端。普通用户需要知道它，因为它是所有现代影像文化、叙事电影、新闻纪录片乃至短视频生态的技术与观念原点。",
+    "plain": "Lumière（法语“光”）指卢米埃尔兄弟 1895 年发明的便携式电影摄影机兼放映机系统。它是首台实用化电影设备，标志着世界电影诞生。1895 年 12 月 28 日巴黎首次公开售票放映被公认为电影时代开端。它是现代影像文化、叙事电影及纪录片的技术与观念原点。",
     "metaphor": "Lumière 就像影像世界的‘第一粒火种’——没有它，人类就无法将流动的时间封存为可重复观看的光之切片。",
     "example": "在1895年的《火车进站》放映中，观众惊恐后退，以为银幕上的蒸汽火车正冲出画面——这是Lumière设备首次用真实、无剪辑的连续影像制造了集体感官震撼。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "电影史",
+    "技术起源",
+    "文化常识"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lumière_brothers",
+    "https://www.britannica.com/biography/Lumiere-brothers"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:09:06Z",
-  "updated_at": "2026-03-21T08:23:42Z"
+  "updated_at": "2026-03-23T18:47:59.339381Z",
+  "quality_score": 0.95
 }

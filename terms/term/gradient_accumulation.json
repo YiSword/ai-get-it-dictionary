@@ -5,22 +5,24 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "训练优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "gradient_accumulation（梯度累积）是一种在训练深度学习模型时节省显存的技术：它不每次前向-反向传播后立即更新模型参数，而是将多个小批次（mini-batch）计算出的梯度累加起来，等累积到指定步数后再统一执行一次参数更新。这使得在显存有限的情况下，能模拟出更大批量（large batch size）的训练效果，从而提升模型收敛稳定性与最终性能。普通用户需要了解它，因为它是调优训练过程、适配硬件限制（如单卡显存不足）的关键实用技巧。",
+    "plain": "梯度累积是一种深度学习训练优化技术。它不在每次反向传播后立即更新参数，而是将多个小批次的梯度累加，达到指定步数后再统一更新。这能在显存有限时模拟更大批量训练，提升收敛稳定性，是解决单卡显存不足的关键技巧。",
     "metaphor": "就像攒够几笔零钱再一起存入银行账户，而不是每挣一元就立刻存一次——梯度累积是把多次计算出的‘优化方向’先存起来，等攒够了再一起推动模型前进。",
     "example": "在使用单张24GB显存的RTX 4090训练大型语言模型时，若直接使用batch size=64会显存溢出，可改用batch size=8并设置gradient accumulation steps=8，实现等效的64批量训练。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "显存优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/main_classes/trainer"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:55:29Z"
+  "updated_at": "2026-03-23T14:55:53.161427Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "隐私与安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "d_id 是 'device identifier'（设备标识符）的缩写，通常指在软件系统或移动应用中用于唯一识别某台物理设备的字符串，如 iOS 的 IDFA、Android 的 Advertising ID 或自定义生成的 UUID。它不直接暴露用户身份，但可用于设备级行为追踪、个性化推荐、反欺诈和安装归因等场景。普通用户需要了解 d_id，因为它关系到个人设备数据如何被收集与使用，影响隐私安全与广告体验，且部分系统允许用户重置或限制其共享。",
+    "plain": "d_id 是 Device Identifier（设备标识符）缩写，指用于唯一识别物理设备的字符串，如 IDFA 或 Android ID。主要用于设备行为追踪、广告归因及反欺诈。虽不直接暴露身份，但涉及隐私安全，用户通常可在系统设置中重置或限制其共享。开发者需合规采集，用户应关注其权限管理。",
     "metaphor": "d_id 就像你家门牌号——它不告诉你住户是谁，但快递员（广告平台或服务端）靠它精准投递包裹（广告或配置），并记录哪栋楼收件最多。",
     "example": "某电商 App 启动时生成一个 d_id 并上传至服务器；当用户点击广告跳转安装后，该 d_id 被用来匹配广告点击与新安装行为，从而确认这次推广是否有效。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "移动应用",
+    "隐私保护",
+    "广告追踪"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developer.apple.com/documentation/apptrackingtransparency",
+    "https://developer.android.com/google/play-services/id"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:54:56Z",
-  "updated_at": "2026-03-21T05:39:55Z"
+  "updated_at": "2026-03-23T17:09:56.303593Z",
+  "quality_score": 0.95
 }

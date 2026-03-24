@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型量化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "q6_k_m 是一种量化格式，用于压缩大语言模型（LLM）的权重参数，具体指每权重使用约6位（bit）精度、采用k-means聚类优化的分组量化方案，兼顾模型精度与推理效率。它常见于llama.cpp等本地推理框架中，允许在消费级GPU或CPU上更高效地运行7B至13B规模模型。普通用户需要了解它，是因为选择不同量化等级（如q4_k_m、q6_k_m、q8_0）会直接影响运行速度、显存/内存占用和回答质量——q6_k_m通常在精度损失极小的前提下显著提升加载与响应速度。",
+    "plain": "q6_k_m 是 llama.cpp 框架中 GGUF 格式的一种量化类型。它采用约 6 位精度和 K-means 聚类优化，旨在模型精度与内存占用间取得平衡。相比 q4 系列精度更高，相比 q8 系列体积更小。适用于消费级硬件部署 7B-13B 模型，能显著降低显存需求同时保持较好回答质量，是本地运行大语言模型的常用选择。",
     "metaphor": "就像把一本高清摄影集压缩成高质量JPEG：既大幅减小体积，又几乎看不出画质下降。",
     "example": "当用户用llama.cpp在一台16GB内存的MacBook上运行Llama-3-8B模型时，选用q6_k_m量化可使模型占用约5.2GB内存，推理速度比q4_k_m快约18%，同时保持接近原模型的逻辑连贯性。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "本地部署",
+    "模型量化",
+    "推理优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ggerganov/llama.cpp",
+    "https://github.com/ggerganov/llama.cpp/blob/master/docs/gguf.md"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:27:50Z",
-  "updated_at": "2026-03-21T09:23:28Z"
+  "updated_at": "2026-03-23T12:56:28.991395Z",
+  "quality_score": 0.95
 }

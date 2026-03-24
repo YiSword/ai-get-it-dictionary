@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "tencent_cloud（腾讯云）是腾讯公司推出的云计算服务平台，提供计算、存储、网络、安全、数据库、人工智能等全栈云服务。它帮助个人开发者、中小企业和大型企业按需使用IT资源，无需自建机房或采购硬件，从而降低技术门槛和运营成本。普通用户需要了解它，是因为日常使用的许多App、小程序、在线游戏、视频平台背后都依赖腾讯云支撑；同时，创业者或自由职业者也可通过腾讯云快速部署网站、搭建AI应用或开展远程协作。",
+    "plain": "腾讯云是腾讯公司推出的云计算服务平台，提供计算、存储、网络、安全、数据库及人工智能等全栈云服务。它帮助企业和开发者按需使用 IT 资源，无需自建机房，降低运营成本。日常使用的 App、小程序、游戏及视频平台背后多依赖腾讯云支撑，创业者也可通过它快速部署网站或搭建 AI 应用。",
     "metaphor": "就像一座24小时运转的‘数字水电站’，腾讯云把计算力、存储空间和网络带宽像水和电一样即插即用、按量付费地输送给任何需要它的应用或业务。",
     "example": "一家初创公司使用腾讯云的云服务器（CVM）和对象存储（COS）快速上线了一个图片分享小程序，无需购买物理服务器，上线三天内就承载了十万用户上传与访问。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "基础设施",
+    "企业服务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://cloud.tencent.com",
+    "https://cloud.tencent.com/about"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:36:07Z",
-  "updated_at": "2026-03-21T10:02:57Z"
+  "updated_at": "2026-03-23T12:32:20.053931Z",
+  "quality_score": 0.95
 }

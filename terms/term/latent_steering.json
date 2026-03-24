@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型控制",
   "difficulty": "中级",
   "explanations": {
-    "plain": "latent_steering 是指在生成式人工智能（尤其是扩散模型或大型语言模型）中，通过直接修改潜在空间（latent space）中的向量表示，来隐式引导模型输出内容方向的技术。它不依赖显式提示词调整，而是对中间表征进行数学干预（如添加偏移、插值或投影），从而控制风格、情感、姿态等抽象属性。普通用户需要了解它，因为这是高级图像/文本编辑背后的核心机制——例如一键切换照片氛围、保持人像结构的同时更换服装风格，其底层就依赖 latent_steering 实现精细、非破坏性的语义操控。",
+    "plain": "latent_steering 是指在生成式 AI 中直接修改潜在空间向量以引导输出的技术。它不依赖提示词，而是对中间表征进行数学干预，如添加偏移或插值，从而控制风格、情感等属性。这是高级图像/文本编辑的核心机制，实现精细、非破坏性的语义操控，例如一键切换照片氛围或保持结构更换服装。",
     "metaphor": "就像调音师不改变乐谱音符，而是微调乐器共鸣腔的物理参数来改变整首曲子的温暖感或明亮度。",
     "example": "在 Stable Diffusion 中，用户使用 'Prompt-to-Prompt' 方法，通过对文本编码器输出的 latent 向量施加方向性扰动，使生成的同一张人脸图像自动从‘微笑’变为‘沉思’，而面部结构和光照完全保持一致。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AIGC",
+    "模型控制",
+    "图像编辑"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2308.10277"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:03:39Z"
+  "updated_at": "2026-03-23T11:49:53.771061Z",
+  "quality_score": 1.0
 }

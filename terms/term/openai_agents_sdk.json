@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "openai_agents_sdk 是 OpenAI 官方提供的软件开发工具包，用于构建、调试和部署基于其大模型（如 GPT-4）的自主智能体（agents）。它封装了任务规划、工具调用、记忆管理、多步推理等核心能力，简化了开发者创建能理解目标、调用 API、反思并迭代执行的复杂代理系统的流程。普通用户无需直接接触该 SDK，但若使用或定制基于 OpenAI 的自动化助手（如客服机器人、研究助理），其底层能力很可能由该 SDK 支撑，因此了解它有助于判断工具的能力边界与扩展潜力。",
+    "plain": "OpenAI 官方提供的软件开发工具包，用于构建、调试和部署基于其大模型的自主智能体。它封装了任务规划、工具调用、记忆管理等核心能力，简化了开发者创建复杂代理系统的流程。普通用户无需直接接触，但了解它有助于判断基于 OpenAI 的自动化助手的能力边界与扩展潜力。",
     "metaphor": "就像为建筑师提供预制好的智能施工模块（含自动绘图、材料调度和进度反馈系统），而不是从零搭建每根钢筋和电路。",
     "example": "一家电商公司使用 openai_agents_sdk 构建客服代理，该代理能自主分析用户退货请求、查询订单状态、调用退款 API、生成解释话术，并在异常时转接人工——全程无需硬编码每个决策分支。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "智能体开发",
+    "API 集成",
+    "大模型应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs",
+    "https://github.com/openai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:58:57Z"
+  "updated_at": "2026-03-23T11:52:00.049161Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "技术文档",
   "difficulty": "中级",
   "explanations": {
-    "plain": "command_a 是一个占位符术语，常用于技术文档、脚本示例或命令行教学中，代表某个具体但未指定的命令（如 ls、git commit 或 python3 script.py）。它不对应真实系统命令，而是用于通用说明——比如演示语法结构、参数传递或管道组合时，避免引入特定工具的复杂性。普通用户需要理解它并非可执行指令，而是教学符号；误将其直接输入终端会导致‘command not found’错误，因此识别这类占位符有助于区分示例代码与实际操作。",
+    "plain": "command_a 是技术文档与脚本示例中的通用占位符，代表未指定的具体命令。它仅用于演示语法结构或参数传递，并非真实可执行指令。用户需注意区分示例与实际操作，直接运行会导致错误。该术语帮助简化教学场景，避免引入特定工具复杂性，广泛应用于命令行教程及编程指南中。",
     "metaphor": "就像乐谱上写着‘此处演奏主旋律’而非具体音符，command_a 是命令行世界的‘空白小节’，提示你填入适合当前任务的真实指令。",
     "example": "在教程中写‘command_a -v file.txt | grep 'error'’，意在教用户如何将任意命令的输出通过管道传递给 grep；实际使用时需替换为如 ‘cat -v file.txt’ 或 ‘journalctl -v | grep 'error'’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "技术文档",
+    "命令行",
+    "编程教学"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developers.google.com/style/code-examples"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:44:59Z"
+  "updated_at": "2026-03-23T15:57:18.418187Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 框架",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LangGraph 是一个用于构建有状态、多步骤 AI 应用程序的开源 Python 框架，专为扩展 LangChain 生态而设计。它允许开发者将 LLM 调用、工具执行、条件分支和循环等操作组织成可复用、可中断、可恢复的图结构（如有向无环图或带循环的图）。普通用户需要了解它，是因为传统链式调用难以应对复杂交互场景（如客服对话需记忆上下文、反复追问、回溯决策），而 LangGraph 提供了清晰的状态管理与流程控制能力，让 AI 应用更健壮、可调试、可维护。",
+    "plain": "LangGraph 是 LangChain 生态下的开源 Python 框架，专为构建有状态、多步骤 AI 应用设计。它将 LLM 调用、工具执行等组织成图结构，支持循环与分支。相比传统链式调用，它提供更强的状态管理与流程控制，适用于客服对话、复杂 Agent 等需记忆上下文与决策回溯的场景，提升应用健壮性与可维护性。",
     "metaphor": "就像乐高工厂的装配流水线——每个工位（节点）执行特定任务，传送带（边）按规则传递半成品和指令，中央调度板（状态）实时记录当前进度与零件库存，支持暂停、返工或跳转。",
     "example": "一个自动法律咨询代理使用 LangGraph 构建：先解析用户问题（节点1），判断是否需补充事实（条件节点），若需则发起追问（节点2），待用户回复后更新状态并进入法规检索（节点3），整个过程可中断保存、错误时回退到上一节点重试。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "Agent 开发",
+    "工作流编排",
+    "状态管理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://langchain-ai.github.io/langgraph/",
+    "https://github.com/langchain-ai/langgraph"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:00:29Z"
+  "updated_at": "2026-03-23T12:22:20.103415Z",
+  "quality_score": 0.95
 }

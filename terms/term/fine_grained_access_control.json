@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "细粒度访问控制（Fine-Grained Access Control, FGAC）是一种安全机制，允许系统对数据或功能的访问权限进行高度精确的定义，例如按用户角色、时间、地理位置、数据敏感级别甚至单条数据库记录或API请求参数来动态授权。它比传统基于角色的访问控制（RBAC）更灵活和严格，能防止过度授权，降低数据泄露与越权操作风险。普通用户需要了解它，因为其背后直接关系到个人隐私是否被合理保护、企业敏感信息是否仅被授权人接触，以及合规要求（如GDPR、等保2.0）能否落地。",
+    "plain": "细粒度访问控制（FGAC）是一种安全机制，允许对数据或功能的访问权限进行精确定义，如按用户、时间、位置或单条记录动态授权。相比传统 RBAC，它更灵活严格，能防止过度授权，降低数据泄露风险。它是保护个人隐私、企业敏感信息及满足合规要求的关键技术。",
     "metaphor": "就像一栋智能大厦的门禁系统：不仅区分‘员工’和‘访客’，还能根据工牌权限、当前时间、所在楼层甚至具体办公室门牌号，决定某人能否在某时刻打开某扇门。",
     "example": "在医疗信息系统中，医生只能查看自己负责患者的完整病历，护士可访问生命体征但不可修改诊断结论，而医保审计员仅能读取脱敏后的费用摘要数据，且仅限工作日9:00–17:00访问。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据安全",
+    "权限管理",
+    "隐私保护"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://owasp.org/www-project-access-control/",
+    "https://csrc.nist.gov/glossary"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:29:28Z"
+  "updated_at": "2026-03-23T12:24:34.551454Z",
+  "quality_score": 0.95
 }

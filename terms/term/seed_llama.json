@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理参数",
   "difficulty": "中级",
   "explanations": {
-    "plain": "seed_llama 是 Llama 系列大语言模型（如 Llama 2、Llama 3）在推理过程中用于控制随机性的初始随机数种子（seed）参数。它决定了模型生成文本时的确定性行为：相同输入 + 相同 seed_llama → 完全相同的输出。普通用户需要知道它，是因为在调试提示词、复现结果、构建可验证的AI工作流（如测试、教学或合规审查）时，固定 seed_llama 能消除‘每次回答都不同’带来的不确定性，提升可预测性和可信度。",
+    "plain": "seed_llama 指 Llama 系列模型推理时控制随机性的种子参数。固定该值可确保相同输入下生成完全一致的输出，消除随机波动。主要用于调试提示词、复现实验结果及构建可验证的 AI 工作流，提升模型行为的可预测性与可信度，是测试、教学及合规审查中的关键配置项。",
     "metaphor": "就像给一台投骰子的机器设定一个固定的起始旋钮位置——哪怕机器内部机制复杂，只要旋钮位置（seed）不变，每次投出的点数序列就完全一致。",
     "example": "开发者在评估两个提示词效果时，将 seed_llama 设为42，确保模型对同一问题的多次响应完全一致，从而排除随机性干扰，精准比较提示词优劣。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "可复现性",
+    "推理控制",
+    "模型调试"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/meta-llama/llama3"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:41:47Z",
-  "updated_at": "2026-03-21T09:40:44Z"
+  "updated_at": "2026-03-23T18:40:38.581443Z",
+  "quality_score": 1.0
 }

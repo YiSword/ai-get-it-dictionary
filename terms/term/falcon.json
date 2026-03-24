@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Falcon 是一个由阿里巴巴集团研发的开源大语言模型系列，包括 Falcon-7B、Falcon-40B 等多个参数规模的版本，以高性能、强推理能力和宽松的商用许可（Apache 2.0）著称。它在多项基准测试中表现接近甚至超越同规模的主流模型，且支持本地部署和微调。普通用户需要了解 Falcon，是因为它提供了免费、可自主控制、无需依赖国外云服务的大模型能力，适合开发者、研究人员及中小企业构建定制化AI应用。",
+    "plain": "Falcon 是由阿联酋技术创新研究院（TII）研发的开源大语言模型系列，包含 7B、40B 等版本。它以高性能、强推理能力及 Apache 2.0 宽松商用许可著称，基准测试表现优异。支持本地部署与微调，适合开发者及企业构建自主可控的定制化 AI 应用，无需依赖国外云服务。",
     "metaphor": "Falcon 就像一款开源、高性能的‘AI引擎’——不依赖厂商牌照，可自由安装在自己的服务器上，还能按需改装调校。",
     "example": "一家医疗初创公司使用 Falcon-7B 模型，在本地服务器上微调后构建了面向基层医生的问诊辅助系统，全程数据不出内网，避免了隐私泄露与API调用成本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "开源模型",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://falconllm.tii.ae/",
+    "https://huggingface.co/tiiuae"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:22:39Z"
+  "updated_at": "2026-03-23T17:11:33.749612Z",
+  "quality_score": 1.0
 }

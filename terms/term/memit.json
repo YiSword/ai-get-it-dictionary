@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型编辑",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Memit（Memory Editing via Intrinsic Tuning）是一种前沿的大型语言模型编辑技术，旨在对已训练好的模型进行局部、精准的记忆修改，而不需重新训练或访问原始训练数据。它通过优化少量可学习参数（如特定层的适配器或关键token的嵌入偏置），定向修正模型中关于某个人物、事件或事实的错误陈述。普通用户需要了解memit，因为它代表了AI可信度治理的重要进展——未来用户可能有权要求模型‘忘记’过时信息或纠正公开误传，而非被动接受黑箱输出。",
+    "plain": "MEMIT（Mass-Editing Memory in Transformers）是一种大型语言模型编辑技术。它无需重新训练，即可精准修改模型内部存储的事实知识。通过更新关键神经层参数，实现对特定信息的批量修正。这对维护 AI 可信度、纠正错误信息及实现机器遗忘至关重要，是模型生命周期管理的关键工具。",
     "metaphor": "就像给一本已装订好的百科全书插入可擦写便签页，只修改某一页的特定条目，而不重印整本书。",
     "example": "当某位公众人物的职务发生变更后，使用memit可仅更新模型中关于其职位的单一记忆片段，使后续问答自动返回最新信息，而无需微调整个模型或暴露敏感训练数据。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型编辑",
+    "大模型技术",
+    "知识修正"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2210.07229",
+    "https://github.com/kmeng01/memit"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:32:16Z"
+  "updated_at": "2026-03-23T11:24:18.426231Z",
+  "quality_score": 0.95
 }

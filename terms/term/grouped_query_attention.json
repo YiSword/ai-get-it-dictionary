@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Grouped Query Attention（GQA）是一种优化的注意力机制变体，用于大语言模型中平衡计算效率与建模能力。它将多个查询头分组共享同一组键和值头，介于多头注意力（MHA）和多查询注意力（MQA）之间：相比MHA减少显存与计算开销，相比MQA保留更强的表达能力。普通用户需要了解它，因为GQA正被广泛应用于主流开源模型（如Llama-3、Phi-3），直接影响模型推理速度、硬件需求和部署成本。",
+    "plain": "GQA 是一种优化注意力机制，介于多头注意力（MHA）和多查询注意力（MQA）之间。它将多个查询头分组共享同一组键值头，旨在平衡计算效率与建模能力。相比 MHA 减少显存开销，相比 MQA 保留更强表达能力。广泛应用于 Llama-3 等主流模型，直接影响推理速度与部署成本。",
     "metaphor": "就像一个会议中，不是每位参会者都单独向所有专家提问（MHA），也不是所有人只向一位首席专家提问（MQA），而是分成几组，每组共用一位领域专家来回答问题。",
     "example": "在部署Llama-3-8B模型进行实时聊天时，启用GQA可将KV缓存内存占用降低约40%，显著提升单卡并发响应数，同时保持接近MHA的生成质量。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型架构",
+    "推理优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2305.13245"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:03:19Z"
+  "updated_at": "2026-03-23T15:02:02.690957Z",
+  "quality_score": 0.95
 }

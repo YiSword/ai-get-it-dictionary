@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "HTML",
   "difficulty": "中级",
   "explanations": {
-    "plain": "h_r_block 是 HTML 中表示水平分隔线的语义化元素，即 <hr> 标签（horizontal rule 的缩写），用于在文档中视觉上划分不同主题或段落的内容。它并非仅是一条简单线条，而是具有明确语义：表示内容流中的一个主题转换或章节分界。普通用户虽不直接编写代码，但理解它有助于识别网页结构逻辑——比如在博客中看到一条横线，可能意味着作者切换了话题而非仅仅换行；对内容可访问性（如屏幕阅读器处理）和搜索引擎理解页面层次也具实际影响。",
+    "plain": "h_r_block 对应 HTML `<hr>` 标签，表示水平分隔线。它在语义上标志主题转换或章节分界，而非单纯视觉线条。该元素有助于构建清晰的文档结构，提升屏幕阅读器可访问性，并辅助搜索引擎理解页面层次。常用于文章内容逻辑分割。",
     "metaphor": "就像书籍中章节末尾的花式分隔符（如 *** 或小图标），它不承载文字信息，却清晰告诉读者‘这里前后属于不同叙事单元’。",
     "example": "在一篇技术文档中，‘安装步骤’与‘配置说明’两个小节之间插入 <hr>，既在视觉上区分区块，又向辅助技术传达语义断点。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "Web 开发",
+    "HTML",
+    "语义化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/hr"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:02:10Z",
-  "updated_at": "2026-03-21T07:15:23Z"
+  "updated_at": "2026-03-23T16:22:27.653226Z",
+  "quality_score": 0.95
 }

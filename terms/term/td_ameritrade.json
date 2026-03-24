@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "金融",
   "difficulty": "中级",
   "explanations": {
-    "plain": "TD Ameritrade 是一家美国知名在线券商，提供股票、期权、期货、共同基金、ETF 等多种金融产品的交易服务，以及研究工具、实时行情和教育资源。它于2020年被嘉信理财（Charles Schwab）收购，但品牌曾长期独立运营。普通用户需要了解它，是因为它曾是散户投资者接触美股市场的重要入口之一，尤其以强大交易平台Thinkorswim、零佣金政策（2019年起）和教育内容著称，影响了大量新手投资者的入市路径与交易习惯。",
+    "plain": "TD Ameritrade 是美国知名在线券商，提供股票、期权等多种金融产品交易服务。2020 年被嘉信理财收购，此前以平台 Thinkorswim、零佣金政策及教育资源著称。它是散户投资美股的重要入口，深刻影响了新手投资者的交易习惯与路径。",
     "metaphor": "它就像一位既懂行又耐心的证券市场向导兼工具匠——不仅帮你打开交易大门，还亲手递给你一套功能齐全、可定制的智能工具箱。",
     "example": "一位刚毕业的程序员用TD Ameritrade的Thinkorswim平台模拟交易美股期权，通过内置的图表分析和回测功能练习策略，三个月后才用真实资金开户交易。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "美股交易",
+    "在线券商",
+    "金融服务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.tdameritrade.com",
+    "https://www.schwab.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:08:16Z",
-  "updated_at": "2026-03-21T10:02:09Z"
+  "updated_at": "2026-03-23T14:26:31.489855Z",
+  "quality_score": 0.95
 }

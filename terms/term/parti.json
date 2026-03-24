@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Parti 是 Google 提出的一种基于扩散机制的文本到图像生成模型，全称是 'Photorealistic Text-to-Image'。它通过将文本提示逐步转化为高质量、高保真度的图像，在生成过程中融合了自回归建模与扩散策略的优势。普通用户需要了解 Parti，因为它代表了AI图像生成技术的重要演进方向——相比早期模型，Parti 在复杂语义理解（如多对象关系、抽象概念具象化）和构图一致性上表现更优，影响着日常使用的AI绘画工具的生成质量与可控性。",
+    "plain": "Parti 是 Google 研发的多模态文生图模型，全称 Pathways Autoregressive Text-to-Image。它采用自回归架构，将图像转化为令牌序列进行生成，而非扩散机制。Parti 在复杂语义理解、多对象关系及高保真度生成上表现卓越，推动了 AI 绘画向更高可控性与语义一致性发展，是生成式 AI 领域的重要里程碑。",
     "metaphor": "就像一位精通多国语言的建筑师，先仔细研读客户用复杂句子写的需求文档，再分阶段绘制草图、调整细节、最终建成严丝合缝的实景建筑。",
     "example": "用户输入提示词‘一只戴圆框眼镜的橘猫正用爪子推开一扇雕花木门，门后透出晨光和花园’，Parti 能准确解析主体、动作、道具、光影与空间关系，并生成符合描述的连贯图像。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文生图",
+    "多模态",
+    "生成式 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://research.google/blog/parti-scaling-autoregressive-models-for-photorealistic-text-to-image-synthesis/",
+    "https://arxiv.org/abs/2206.10789"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:44:18Z",
-  "updated_at": "2026-03-21T09:06:28Z"
+  "updated_at": "2026-03-23T16:53:31.180106Z",
+  "quality_score": 1.0
 }

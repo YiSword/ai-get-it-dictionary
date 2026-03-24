@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "FlashAttention 是一种优化Transformer模型中注意力机制计算效率的算法，通过融合多个操作（如softmax、缩放、掩码）并减少GPU显存读写次数，显著提升训练和推理速度，同时降低显存占用。它不是简单加速，而是重新设计了注意力的底层实现，避免了传统方法中生成完整注意力矩阵带来的内存瓶颈。普通用户需要知道它，因为它是当前大语言模型高效训练与部署的关键技术之一，直接影响模型能否在有限硬件上运行。",
+    "plain": "FlashAttention 是优化 Transformer 注意力机制的高效算法。它采用 IO 感知设计，融合操作并避免生成完整注意力矩阵，显著减少 GPU 显存读写。这提升了训练推理速度，降低显存占用，是大语言模型高效训练与部署的关键技术，解决了长序列处理的内存瓶颈。",
     "metaphor": "就像快递公司不把所有包裹先堆满整个仓库再分拣，而是边收件边按目的地实时分装，FlashAttention 避免了生成庞大的中间注意力表，直接在流水线上完成计算。",
     "example": "当训练一个拥有70亿参数的LLaMA模型时，启用FlashAttention可将单卡训练的显存需求从48GB降至约32GB，并使每步迭代速度提升约1.5倍。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "性能优化",
+    "Transformer"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/Dao-AILab/flash-attention",
+    "https://arxiv.org/abs/2205.14135"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:33:01Z"
+  "updated_at": "2026-03-23T13:14:01.415471Z",
+  "quality_score": 0.95
 }

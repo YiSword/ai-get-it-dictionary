@@ -1,26 +1,26 @@
 {
-  "entry_kind": "term",
-  "term": "dpm_2s_a",
-  "norm_term": "dpm_2s_a",
-  "lang": "en",
+  "term": "DPM++ 2S a",
+  "definition": "DPM++ 2S a 是 Stable Diffusion 扩散模型的2S a采样器。",
+  "description": "DPM++ 2S a (2S a) 是 DPM++ 系列采样器的一员，基于高阶数值方法实现高效的扩散过程采样。该采样器在图像生成质量和速度之间提供特定平衡，适用于不同的生成场景和需求。",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
-  "difficulty": "中级",
-  "explanations": {
-    "plain": "dpm_2s_a 是一种用于扩散模型（diffusion model）的采样算法，全称是 DPM-Solver-2S-Ancestral。它属于二阶、单步（2-step）、带祖先采样的高效求解器，能在较少迭代步数（如10–20步）下生成高质量图像，兼顾速度与稳定性。普通用户需要了解它，是因为在Stable Diffusion等AI绘图工具中选择该采样器，可显著缩短生成时间而不明显牺牲画质，尤其适合实时交互或硬件资源有限的场景。",
-    "metaphor": "就像用一本精准的烹饪速查手册代替从头推演食谱——你不需要模拟每秒温度变化，也能快速做出一道好菜。",
-    "example": "在ComfyUI中将采样器设为 dpm_2s_a 并配置20步，可在3秒内从文本‘赛博朋克猫咖啡馆’生成一张细节丰富、风格稳定的4K图像。"
-  },
-  "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+  "category": "扩散模型采样器",
+  "difficulty": "中等",
+  "sources": [
+    "https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Samplers",
+    "https://arxiv.org/abs/2206.00927"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
-  "content_source": "llm_generated_v2",
-  "hit_count": 0,
-  "created_at": "2026-03-20T16:58:59Z",
-  "updated_at": "2026-03-21T05:51:16Z"
+  "scenario_tags": [
+    "Stable Diffusion",
+    "图像生成",
+    "采样算法"
+  ],
+  "quality_level": "llm_generated_v2",
+  "created_at": "2026-03-22T15:44:38Z",
+  "updated_at": "2026-03-23T18:23:32.356336Z",
+  "explanations": {
+    "plain": "dpm_2s_a 是一种基于 DPM 算法的二阶随机微分方程祖先采样器。它在采样过程中引入随机噪声，属于祖先采样类型，适合生成具有多样性的图像。相比非祖先采样器，它无法通过固定种子完全复现结果，但在较少步数下能提供不错的细节。常用于 Stable Diffusion WebUI 等 AI 绘画工具中平衡速度与质量。"
+  },
+  "quality_score": 1.0,
+  "review_status": "auto_verified"
 }

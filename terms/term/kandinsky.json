@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "文生图模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Kandinsky 是一个开源的文本到图像生成模型系列，由俄罗斯团队开发，支持多语言提示（包括中文），以高艺术性、强构图控制和风格化输出著称。它不依赖于大型商业平台，可本地部署，强调创作者对生成过程的掌控力。普通用户需要了解它，是因为它提供了一种免费、隐私友好且高度可定制的AI绘画替代方案，尤其适合注重版权归属、风格一致性或离线使用的设计师、插画师和内容创作者。",
+    "plain": "Kandinsky 是由 SberAI 开发的开源文生图模型系列。支持多语言提示，以高艺术性和风格化输出著称。可本地部署，强调隐私与掌控力。为设计师和创作者提供免费、可定制的 AI 绘画方案，适合注重版权、风格一致性及离线使用的场景。",
     "metaphor": "就像一位精通多种绘画流派、能精准理解你口头描述并立刻落笔作画的资深美术助手，而且这位助手随时待命、不上传你的草稿、还能按你要求反复调整笔触和色调。",
     "example": "一位独立漫画作者用 Kandinsky 将‘雨夜上海弄堂，青砖墙泛着水光，穿旗袍的女子提旧式纸灯笼转身’这句中文提示生成风格统一的分镜草图，全程在本地笔记本电脑运行，无需联网或订阅服务。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "开源模型",
+    "本地部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ai-forever/Kandinsky-2"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:44:54Z",
-  "updated_at": "2026-03-21T07:48:38Z"
+  "updated_at": "2026-03-23T16:17:10.348580Z",
+  "quality_score": 0.95
 }

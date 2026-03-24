@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "文生图模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DeepFloyd IF 是一个开源的文本到图像生成模型，由 DeepFloyd 团队开发，采用多阶段级联架构（包括文本编码、草图生成和高分辨率细化），支持高度精确的文本对齐与细节还原。它在复杂提示理解、局部编辑和风格控制方面表现突出，常用于AI艺术创作、设计原型生成和视觉内容自动化。普通用户需要了解它，是因为它代表了当前文生图技术中兼顾语义准确性和图像质量的前沿方案，且相比其他模型更擅长处理长文本描述和精细结构。",
+    "plain": "DeepFloyd IF 是由 DeepFloyd 团队开发的开源文生图模型。它采用多阶段级联架构，结合文本编码与高分辨率细化，擅长处理复杂提示词和精细结构。该模型在语义准确性和图像质量间取得平衡，适用于 AI 艺术创作、设计原型生成及视觉内容自动化，是当前兼顾文本对齐与细节还原的前沿方案之一。",
     "metaphor": "就像一位精通速写、水彩和精工雕刻的三段式艺术家：先听清你的详细要求画出精准线稿，再上色铺调，最后逐个雕琢眼睛、衣纹或光影细节。",
     "example": "设计师输入提示‘一只戴圆框眼镜的橘猫坐在北欧风书房里，窗外有樱花树，阳光斜射在橡木书桌上’，DeepFloyd IF 能分阶段生成符合所有空间关系、物体属性和风格细节的高清图像。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "AIGC",
+    "开源模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/deep-floyd/IF"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:45:53Z",
-  "updated_at": "2026-03-21T05:21:36Z"
+  "updated_at": "2026-03-23T16:05:41.773003Z",
+  "quality_score": 1.0
 }

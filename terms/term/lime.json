@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "可解释性 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LIME（Local Interpretable Model-agnostic Explanations）是一种用于解释机器学习模型预测结果的技术，尤其适用于复杂‘黑箱’模型（如深度神经网络或梯度提升树）。它通过在单个预测附近生成一个简单、可解释的局部代理模型（如线性模型），来近似原始模型的行为，从而说明哪些输入特征对该预测影响最大。普通用户需要了解LIME，因为它能帮助判断AI决策是否合理、公平、可信——例如在医疗诊断、信贷审批等高风险场景中，理解‘为什么模型给出这个结论’比结果本身更重要。",
+    "plain": "LIME（Local Interpretable Model-agnostic Explanations）是一种模型无关的局部解释技术。它通过在单个预测附近构建简单的局部代理模型，近似复杂黑箱模型行为，识别关键输入特征。这有助于理解 AI 决策依据，提升模型透明度与可信度，适用于医疗、金融等高风险场景的模型审计。",
     "metaphor": "就像请一位精通外语的翻译，在你听不懂的整场演讲中，只为你实时口译其中最关键的几句话，让你快速抓住核心意思。",
     "example": "当一个AI模型将一张图片分类为‘狗’时，LIME会高亮图像中对这一判断贡献最大的像素区域（如狗的耳朵和鼻子），并量化每个区域的影响程度，帮助开发者或医生验证模型是否真的基于合理特征做判断。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型解释",
+    "可解释性",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/marcotcr/lime",
+    "https://arxiv.org/abs/1602.04938"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:08:52Z"
+  "updated_at": "2026-03-23T16:00:13.453354Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习框架",
   "difficulty": "中级",
   "explanations": {
-    "plain": "JAX 是一个由 Google 开发的开源 Python 库，专为高性能数值计算和机器学习研究设计。它在 NumPy 基础上扩展，支持自动微分、即时编译（JIT）、向量化（vmap）和并行化（pmap），能将 Python 函数自动转换为可在 GPU/TPU 上高效执行的加速代码。普通用户（尤其是科研人员、算法工程师）需要了解 JAX，因为它正逐渐成为前沿 AI 研究（如大模型训练、概率编程、科学计算）的事实标准工具之一，兼顾表达力与底层控制力。",
+    "plain": "JAX 是 Google 开发的开源 Python 库，基于 NumPy 扩展，专为高性能数值计算和机器学习设计。支持自动微分、即时编译（JIT）、向量化和并行化，能将 Python 函数转换为 GPU/TPU 高效代码。它是前沿 AI 研究（如大模型训练、科学计算）的重要工具，兼顾表达力与底层控制力。",
     "metaphor": "JAX 就像一位精通多国语言且自带实时翻译器和优化引擎的数学助理：你用熟悉的 Python 写下计算逻辑，它瞬间将其重写为高速汇编，并自动安排最优硬件路线。",
     "example": "研究人员用 JAX 实现一个神经网络时，只需用纯函数定义前向传播，再调用 jax.grad() 即可获得精确高效的梯度函数，并通过 jax.jit() 编译后在 TPU 上实现数倍加速。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "深度学习",
+    "数值计算",
+    "科研工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/google/jax",
+    "https://jax.readthedocs.io/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:44:55Z"
+  "updated_at": "2026-03-23T17:02:30.094977Z",
+  "quality_score": 1.0
 }

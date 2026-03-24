@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "性能测试",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Benchmark 是指通过标准化测试来衡量计算机硬件、软件或系统性能的过程与结果。它提供可量化的指标（如每秒处理请求数、渲染帧率、启动时间等），帮助用户客观比较不同产品或配置的优劣。普通用户需要了解 benchmark，因为它能避免被营销话术误导，辅助做出理性购买决策，比如选笔记本时参考真实游戏性能数据，而非仅看CPU型号或宣传语。",
+    "plain": "Benchmark 指通过标准化测试衡量计算机硬件、软件或系统性能的过程与结果。它提供量化指标（如帧率、处理速度），帮助用户客观比较不同产品优劣。了解基准测试能避免被营销话术误导，辅助理性购买决策，例如参考真实游戏性能数据而非仅看 CPU 型号。",
     "metaphor": "就像用同一套考卷测试不同学生的学习水平，benchmark 是用同一套任务测试不同设备或程序的实际能力。",
     "example": "用户在选购新手机时，会查看 Geekbench 的 CPU 多核分数和 3DMark 的图形性能跑分，以此判断该机型在多任务处理和游戏场景下的实际表现是否满足需求。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "硬件评估",
+    "性能测试",
+    "购买决策"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.spec.org/",
+    "https://en.wikipedia.org/wiki/Benchmark_(computing)"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:02:00Z"
+  "updated_at": "2026-03-23T17:32:45.639460Z",
+  "quality_score": 0.95
 }

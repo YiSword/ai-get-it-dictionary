@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "财务管理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ClearBooks 是一家英国的云端会计软件公司，主要为中小企业、自由职业者和会计师提供在线记账、发票开具、税务申报（如 VAT 和 Self Assessment）、银行对账及财务报表生成等服务。它通过自动化流程减少手工录入错误，支持实时财务数据查看，并与英国税务海关总署（HMRC）实现数字对接。普通用户需要了解它，是因为在英国合规经营小企业或开展副业时，使用 ClearBooks 可显著简化财税管理，避免罚款，节省专业会计成本。",
+    "plain": "ClearBooks 是英国领先的云端会计软件，专为中小企业及自由职业者设计。提供在线记账、发票开具、税务申报（如 VAT）及银行对账功能。系统与英国 HMRC 直接对接，自动化流程减少人工错误，助力用户合规经营、节省会计成本并实时掌握财务状况。",
     "metaphor": "就像一位随时待命、从不休假的数字会计助理，自动整理你的每一笔收支，并准时帮你把税单交到税务局门口。",
     "example": "一位伦敦的自由插画师用 ClearBooks 创建客户发票、追踪 PayPal 和银行入账、自动计算季度 VAT，并一键提交给 HMRC，整个过程无需纸质凭证或线下报税。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "中小企业",
+    "财税管理",
+    "SaaS 服务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.clearbooks.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:58:37Z",
-  "updated_at": "2026-03-21T04:31:52Z"
+  "updated_at": "2026-03-23T15:14:13.593236Z",
+  "quality_score": 0.95
 }

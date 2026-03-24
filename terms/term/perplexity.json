@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型评估",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Perplexity（困惑度）是衡量语言模型预测能力的核心指标，数值越低表示模型对文本的不确定性越小、预测越准确。它本质上是对模型分配给真实词序列的概率分布的指数级倒数，反映模型‘有多惊讶’于实际出现的文本。普通用户需要了解它，因为它是评估AI写作、翻译或对话系统是否靠谱的关键数字——困惑度高意味着模型常胡言乱语，低则说明其输出更连贯、符合语言习惯。",
+    "plain": "Perplexity（困惑度）是衡量语言模型预测能力的核心指标。数值越低，表示模型对文本的不确定性越小，预测越准确。它本质上是模型分配给真实词序列概率分布的指数级倒数。用户可通过它评估 AI 系统可靠性，困惑度高意味着模型常胡言乱语，低则说明输出更连贯、符合语言习惯。",
     "metaphor": "就像一位厨师被要求凭直觉猜出一盘菜的下一道工序：困惑度越低，说明他越熟悉菜系逻辑，几乎每次都能猜中；困惑度高，则像新手频繁猜错，手足无措。",
     "example": "在训练一个中文新闻摘要模型时，研究者发现验证集困惑度从45降到28，表明模型对真实新闻语句的预测准确性显著提升，生成的摘要也更通顺、少有语法错误。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "模型评估",
+    "大语言模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Perplexity",
+    "https://huggingface.co/docs/transformers/perplexity"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T09:06:44Z"
+  "updated_at": "2026-03-23T19:13:46.091423Z",
+  "quality_score": 0.95
 }

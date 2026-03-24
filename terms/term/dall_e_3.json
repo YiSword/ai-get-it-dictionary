@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DALL·E 3 是 OpenAI 推出的第三代文本到图像生成模型，能根据自然语言描述（如‘一只穿宇航服的柴犬在月球上喝咖啡’）高质量、高一致性地生成原创图像。它显著提升了对复杂提示的理解能力、细节还原度和文字渲染准确性，并深度集成于 ChatGPT，支持多轮对话式图像创作。普通用户需要了解它，是因为它降低了专业图像创作门槛，让创意表达、教育演示、内容营销等场景无需设计技能即可快速实现可视化构想。",
+    "plain": "DALL·E 3 是 OpenAI 推出的第三代文本到图像生成模型。它能根据自然语言描述高质量生成原创图像，显著提升了对复杂提示的理解能力和文字渲染准确性。深度集成于 ChatGPT，支持多轮对话式创作。让无需设计技能的用户也能快速实现可视化构想，适用于创意表达、教育演示及内容营销等场景。",
     "metaphor": "就像一位精通多种绘画风格、从不打盹的全能视觉翻译官，你用日常语言说话，它立刻把话‘画’出来，而且连你没明说的逻辑和细节都主动补全。",
     "example": "一位教师在备课时输入‘用卡通风格展示光合作用过程，包含叶绿体、阳光、水和二氧化碳分子，标注关键步骤’，DALL·E 3 生成一张清晰、教学友好的示意图，直接用于课件。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "内容创作",
+    "多模态交互"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/dall-e-3",
+    "https://openai.com/blog/dall-e-3"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:28:55Z",
-  "updated_at": "2026-03-21T05:10:10Z"
+  "updated_at": "2026-03-23T13:09:05.890045Z",
+  "quality_score": 0.95
 }

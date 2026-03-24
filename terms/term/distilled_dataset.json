@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "distilled_dataset（蒸馏数据集）是指从大型、复杂或冗余的原始数据集中，通过筛选、压缩、去噪、采样或知识迁移等方法提炼出的更小但信息密度更高、更具代表性或任务适配性的子集。它常用于降低模型训练成本、提升泛化能力，或在资源受限设备上部署AI系统。普通用户需要了解它，因为许多日常使用的智能服务（如语音助手、推荐引擎）背后依赖这类高效数据集，其质量直接影响响应速度、准确性和隐私保护水平。",
+    "plain": "蒸馏数据集指从庞大原始数据中经筛选、压缩或知识迁移提炼出的高密度子集。旨在降低训练成本、提升泛化能力，适用于资源受限场景。日常智能服务如语音助手依赖此类数据，直接影响响应速度与准确性。",
     "metaphor": "就像大厨用数小时熬煮一锅高汤，再浓缩成一小勺精华酱汁——蒸馏数据集是把海量原始数据‘熬炼’成浓缩、纯正、即取即用的智能养分。",
     "example": "一家医疗AI公司从百万份杂乱标注的病理图像中，提取出5000张经专家复核、覆盖所有关键病变模式的高质量样本，构建蒸馏数据集，用于快速训练轻量级诊断模型并部署到基层诊所的便携设备上。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型压缩",
+    "数据预处理",
+    "训练优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://paperswithcode.com/task/data-distillation",
+    "https://arxiv.org/abs/2105.02355"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:44:05Z"
+  "updated_at": "2026-03-23T11:44:28.869818Z",
+  "quality_score": 0.95
 }

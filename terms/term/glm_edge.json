@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理引擎",
   "difficulty": "中级",
   "explanations": {
-    "plain": "glm_edge 是智谱AI推出的轻量化边缘推理引擎，专为在资源受限的终端设备（如手机、嵌入式设备、边缘服务器）上高效运行GLM系列大语言模型而设计。它通过模型量化、算子融合和硬件感知优化，显著降低内存占用与延迟，同时保持较高推理精度。普通用户需要了解它，是因为它让本地化、低延迟、高隐私的AI对话和内容生成成为可能——无需联网上传数据，即可在手机或办公设备上离线使用类ChatGPT能力。",
+    "plain": "glm_edge 是智谱 AI 推出的轻量化边缘推理引擎，专为手机、嵌入式设备等资源受限终端设计。它通过模型量化、算子融合等技术，降低内存占用与延迟，保持较高精度。这使得本地化、低延迟、高隐私的 AI 对话成为可能，用户无需联网即可在设备上离线使用类 ChatGPT 能力，保障数据安全。",
     "metaphor": "就像把一本厚重的百科全书压缩成一本随身速查手册，既保留了核心知识，又能在通勤路上快速翻阅，无需随时连上网查资料。",
     "example": "一位工程师在工厂无网络环境下，用搭载glm_edge的工业平板实时解析设备日志并生成故障建议；或用户在微信小程序中启用本地大模型功能，输入敏感合同文本后直接获得摘要，全程数据不出手机。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "边缘计算",
+    "模型部署",
+    "隐私保护"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.zhipuai.cn/",
+    "https://open.bigmodel.cn/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:52:44Z",
-  "updated_at": "2026-03-21T06:49:10Z"
+  "updated_at": "2026-03-23T11:21:59.068075Z",
+  "quality_score": 0.95
 }

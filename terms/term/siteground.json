@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云服务",
   "difficulty": "中级",
   "explanations": {
-    "plain": "SiteGround 是一家总部位于保加利亚的知名网页托管服务提供商，为个人博客、中小企业网站和电子商务平台提供共享主机、云主机、WordPress 专用托管及 WooCommerce 托管等服务。它以高性能服务器、内置缓存技术、免费 SSL 证书、一键式 WordPress 安装和 24/7 实时客服著称。普通用户需要了解 SiteGround，是因为选择可靠的托管服务商直接影响网站加载速度、安全性、 uptime（正常运行时间）以及技术问题能否及时解决——这些因素共同决定访客体验和搜索引擎排名。",
+    "plain": "SiteGround 是全球知名的网页托管服务提供商，提供共享主机、云主机及 WordPress 专用托管等服务。其以高性能服务器、内置缓存、免费 SSL 证书和 24/7 客服著称。选择可靠的托管商直接影响网站加载速度、安全性及正常运行时间，进而决定访客体验和搜索引擎排名。",
     "metaphor": "SiteGround 就像一位精通水电、安保与装修的全能物业管家，不仅为你提供安全稳固的‘房子’（服务器），还主动优化照明（加速）、安装门禁（SSL 加密）、随时响应报修（技术支持）。",
     "example": "一位自由摄影师用 WordPress 搭建作品集网站，选择 SiteGround 的 WordPress 托管套餐，享受自动更新、每日备份和 1 秒内首屏加载；当她临时需增加高清图库流量时，系统自动弹性扩容，无需手动配置服务器。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "网站托管",
+    "云服务",
+    "WordPress"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.siteground.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:45:04Z",
-  "updated_at": "2026-03-21T09:45:59Z"
+  "updated_at": "2026-03-23T17:19:32.154041Z",
+  "quality_score": 0.95
 }

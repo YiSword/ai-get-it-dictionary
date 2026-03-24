@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "alignment_tax 指在人工智能系统（尤其是大语言模型）中，为使模型行为更符合人类意图、价值观或具体任务目标而施加的约束或优化成本。这种‘税’并非真实货币支出，而是指模型在追求对齐（如安全性、诚实性、有用性）时所牺牲的部分原始能力、响应速度、表达自由度或输出多样性。普通用户需要了解它，因为过度强调对齐可能导致模型回避合理问题、给出模糊答案或丧失专业深度，影响实际使用效果。",
+    "plain": "alignment_tax 指为使 AI 模型符合人类价值观而施加约束所导致的性能损耗。这种“税”并非金钱，而是模型在安全性、诚实性对齐过程中，牺牲的原始能力、响应速度或输出多样性。过度对齐可能导致模型回避合理问题或丧失专业深度，影响用户体验。",
     "metaphor": "就像给一辆高性能跑车加装多重安全气囊和限速系统——它更安全可靠了，但瞬间加速和极限操控能力也随之减弱。",
     "example": "当用户询问‘如何绕过软件版权保护’时，模型因 alignment_tax 主动拒绝回答，即使它技术上完全理解该问题；这种克制虽提升了合规性，却可能让合法研究者难以获取底层原理信息。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "AI 安全",
+    "性能优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/research/",
+    "https://arxiv.org/search/?query=alignment+tax"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:31:59Z"
+  "updated_at": "2026-03-23T13:12:35.783059Z",
+  "quality_score": 0.95
 }

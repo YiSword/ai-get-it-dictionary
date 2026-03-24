@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评估基准",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AlpacaEval 是一个开源的自动化评估框架，用于快速、低成本地比较不同大语言模型（LLM）在开放式生成任务（如问答、推理、创意写作）中的相对质量。它不依赖人工标注，而是通过轻量级的评判模型（如 GPT-4 或本地小模型）对模型输出进行成对胜率判断，从而排序模型性能。普通用户需要了解它，是因为它降低了模型评测门槛——无需昂贵人工评估或复杂指标，就能直观判断哪个模型更‘好用’，尤其适合开发者、研究人员快速迭代和选型。",
+    "plain": "AlpacaEval 是一个开源自动化评估框架，用于快速比较不同大语言模型在开放式生成任务中的相对质量。它不依赖人工标注，而是通过轻量级评判模型对输出进行成对胜率判断，从而排序模型性能。这降低了评测门槛，适合开发者快速迭代和选型。",
     "metaphor": "就像让一群经验丰富的餐厅食客两两盲品两道菜后投票选出更好吃的一道，AlpacaEval 不靠打分细则，而靠简洁的‘谁更胜一筹’判断来排名模型。",
     "example": "一位开发者想从 Llama-3-8B 和 Phi-3-mini 中选择更适合客服场景的模型，便用 AlpacaEval 在自定义的100条用户咨询上运行，5分钟内得到胜率：Llama-3-8B 以58%胜率略优，于是决定以此为基础微调。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "开源工具",
+    "大语言模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/tatsu-lab/alpaca_eval"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:32:49Z"
+  "updated_at": "2026-03-23T11:20:54.901726Z",
+  "quality_score": 0.95
 }

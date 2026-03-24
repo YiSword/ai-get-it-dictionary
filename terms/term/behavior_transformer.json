@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "behavior_transformer 是一种用于建模和预测智能体（如自动驾驶车辆、机器人或游戏AI）长期序列化行为的深度学习架构，它基于Transformer结构，但专门针对动作序列、环境观测与意图推理进行优化。与传统Transformer处理语言不同，它将传感器输入、历史状态和目标指令编码为联合表征，并自回归生成未来动作轨迹。普通用户需要了解它，因为这类模型正驱动着更安全、可解释、能适应复杂场景的自主系统，直接影响日常接触的智能驾驶辅助、服务机器人等产品的可靠性与交互自然度。",
+    "plain": "behavior_transformer 是一种基于 Transformer 的深度学习架构，专为建模智能体长期序列化行为设计。它将传感器输入与指令编码，自回归生成未来动作轨迹，广泛应用于自动驾驶与机器人领域。相比传统模型，它能更好处理多模态输入与复杂场景决策，提升自主系统的安全性与交互自然度。",
     "metaphor": "就像一位经验丰富的驾驶员一边看后视镜、路况和导航指令，一边在脑中动态规划接下来10秒的每一次转向与加减速，behavior_transformer 就是AI的‘驾驶预演大脑’。",
     "example": "在特斯拉FSD V12系统中，behavior_transformer 实时融合摄像头图像、雷达数据和导航目标，直接输出车辆在未来3秒内的连续控制指令（如方向盘转角、踏板开度），替代了传统模块化感知-规划-控制流水线。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自动驾驶",
+    "机器人",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2206.11251"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:01:28Z"
+  "updated_at": "2026-03-23T15:44:11.570270Z",
+  "quality_score": 1.0
 }

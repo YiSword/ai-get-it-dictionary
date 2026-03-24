@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理加速",
   "difficulty": "中级",
   "explanations": {
-    "plain": "flash_decoding 是一种加速大语言模型推理的优化技术，通过高效管理显存中的键值（KV）缓存，减少重复计算和内存冗余，从而显著提升生成文本的速度与吞吐量。它特别适用于长上下文或高并发场景，能降低延迟、节省GPU显存。普通用户虽不直接操作该技术，但使用搭载该技术的AI应用（如实时对话、长文档总结）时，会直观感受到响应更快、更流畅，且服务更稳定、成本更低。",
+    "plain": "flash_decoding 是一种大语言模型推理优化技术，通过高效管理 KV 缓存减少冗余计算，显著提升生成速度与吞吐量。适用于长上下文及高并发场景，能降低延迟并节省显存。用户在使用实时对话或长文档总结应用时，可体验到更快的响应与更流畅的服务，同时降低部署成本。",
     "metaphor": "就像图书馆管理员为常借阅的书籍预先整理好索引并放在前台抽屉里，而不是每次都要去层层书架翻找，flash_decoding 让模型‘快速取用’已计算过的注意力信息，省去重复查找和加载的等待。",
     "example": "当用户在AI助手里连续追问一段万字合同的多个细节时，flash_decoding 使模型无需反复重算前文的全部注意力状态，而是复用缓存的KV对，实现秒级响应。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "推理加速",
+    "显存优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/Dao-AILab/flash-attention"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:33:17Z"
+  "updated_at": "2026-03-23T14:45:51.796601Z",
+  "quality_score": 0.95
 }

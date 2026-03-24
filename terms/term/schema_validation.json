@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "schema_validation 是指依据预定义的数据结构规范（即 schema）检查输入数据是否符合格式、类型、必填项、取值范围等约束的过程。它常用于 API 请求处理、数据库写入、配置文件解析等场景，能及早发现数据错误，防止无效或恶意数据进入系统，提升系统稳定性与安全性。普通用户虽不直接操作，但其体验直接受益于该机制——例如提交表单时即时提示‘邮箱格式错误’，正是 schema_validation 在后台起作用。",
+    "plain": "schema_validation 是指依据预定义结构规范检查数据是否符合格式、类型及约束的过程。常用于 API 处理、数据库写入等场景，能及早发现错误，防止无效数据进入系统，提升稳定性与安全性。用户提交表单时的格式提示即受益于此机制。",
     "metaphor": "就像海关人员对照入境清单逐项核对旅客行李：少带护照、多带违禁品或物品描述不符，都会被拦截。",
     "example": "一个电商网站的用户注册接口要求请求体包含字符串类型的 email、8-20位的 password 和布尔型 agree_to_terms；schema_validation 会在后端自动校验这些字段是否存在、类型是否正确、长度是否合规，任一失败即返回 400 错误。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "API 开发",
+    "数据质量",
+    "系统安全"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://json-schema.org/",
+    "https://swagger.io/specification/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:38:36Z"
+  "updated_at": "2026-03-23T19:04:31.004560Z",
+  "quality_score": 0.95
 }

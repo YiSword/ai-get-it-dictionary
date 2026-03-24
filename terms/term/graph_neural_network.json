@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "图神经网络（Graph Neural Network, GNN）是一种专门处理图结构数据的深度学习模型，能同时利用节点特征和节点之间的连接关系进行学习。与传统神经网络处理图像或文本等规则网格数据不同，GNN适用于社交网络、分子结构、知识图谱等天然呈网状关系的数据。普通用户需要了解它，因为GNN正驱动着推荐系统更懂你的兴趣、药物研发加速新药发现、甚至让地图导航更精准地理解道路拓扑。",
+    "plain": "图神经网络（GNN）是专门处理图结构数据的深度学习模型，能同时利用节点特征和连接关系进行学习。适用于社交网络、分子结构、知识图谱等非欧几里得数据。它广泛应用于推荐系统、药物研发及交通导航等领域，有效捕捉数据间的复杂依赖关系。",
     "metaphor": "就像一位熟悉邻里关系的社区老书记，GNN不仅认识每家每户（节点），还清楚谁常串门、谁是亲戚（边），从而更准确地判断某户人家可能需要什么帮助。",
     "example": "在社交平台中，GNN通过分析用户的好友关系、互动历史和发帖内容，预测你可能想关注的新账号或感兴趣的话题。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "深度学习",
+    "图计算",
+    "推荐系统"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Graph_neural_network",
+    "https://pytorch-geometric.readthedocs.io/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:58:06Z"
+  "updated_at": "2026-03-23T12:26:41.115985Z",
+  "quality_score": 0.95
 }

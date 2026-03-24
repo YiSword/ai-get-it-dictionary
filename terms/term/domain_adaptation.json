@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "迁移学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "domain adaptation（领域自适应）是一种机器学习技术，用于解决模型在训练数据（源域）和实际应用数据（目标域）分布不一致时性能下降的问题。例如，用白天拍摄的图片训练的自动驾驶识别模型，可能在夜间图像上表现很差；领域自适应通过调整模型，使其无需大量标注的目标域数据就能适应新环境。普通用户需要了解它，因为这关系到AI产品在真实场景中是否可靠——比如手机相册的自动分类功能能否准确识别你旅行时拍的异国街景，而非仅限于训练时见过的常见场景。",
+    "plain": "领域自适应是机器学习技术，解决模型在训练数据（源域）与实际数据（目标域）分布不一致时性能下降的问题。它通过调整模型，使其无需大量标注的目标域数据就能适应新环境。例如，自动驾驶模型从白天适应到夜间场景，或手机相册识别异国街景。这关系到 AI 产品在真实场景中的可靠性。",
     "metaphor": "就像一个只在中国厨房受过训练的厨师，被派去法国餐厅工作后，通过快速观察当地食材、工具和口味偏好来调整烹饪方式，而不必从头考取法国厨师执照。",
     "example": "一家医疗AI公司用北京三甲医院的CT影像训练肺结节检测模型，但部署到基层医院时因设备型号老旧、成像质量差导致误检率飙升；通过领域自适应技术，模型能在不获取大量基层标注数据的前提下，自动校准对低质量影像的识别能力。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "迁移学习",
+    "模型训练",
+    "数据分布"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Domain_adaptation",
+    "https://paperswithcode.com/task/domain-adaptation"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:01:35Z",
-  "updated_at": "2026-03-21T05:47:06Z"
+  "updated_at": "2026-03-23T15:47:03.969652Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Hunyuan（混元）是腾讯研发的超大规模人工智能模型系列，涵盖语言、视觉、语音、多模态等多个方向，具备强大的内容生成、逻辑推理和跨模态理解能力。它被集成在腾讯会议、微信、QQ、腾讯文档等常用产品中，普通用户无需专门学习即可通过自然对话获得写作辅助、会议纪要生成、图片创作、代码解释等实用服务。了解Hunyuan有助于用户更高效地利用日常工具提升工作与学习效率。",
+    "plain": "混元（Hunyuan）是腾讯研发的超大规模人工智能模型系列，涵盖语言、视觉、语音及多模态方向。具备内容生成、逻辑推理和跨模态理解能力，已集成至腾讯会议、微信、QQ 等产品中，提供写作辅助、会议纪要、图片创作等服务。作为腾讯核心 AI 基础设施，混元支撑着众多业务场景的智能升级。",
     "metaphor": "就像一位精通百艺的全能助理，既会写诗做饭，又能看图识物、听声辨意，还随时待命帮你处理手头各种琐事。",
     "example": "在腾讯会议中开启‘AI纪要’功能后，Hunyuan会实时转录发言、提炼重点、自动生成待办事项，并以清晰结构呈现在会议结束后。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "多模态",
+    "生成式 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://hunyuan.tencent.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:18:29Z"
+  "updated_at": "2026-03-23T11:54:39.949979Z",
+  "quality_score": 0.95
 }

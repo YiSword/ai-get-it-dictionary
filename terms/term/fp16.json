@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "计算精度",
   "difficulty": "中级",
   "explanations": {
-    "plain": "fp16（半精度浮点数）是一种用16位二进制数表示实数的数值格式，其中1位符号位、5位指数位、10位尾数位。相比常用的fp32（32位），它占用一半内存和带宽，在深度学习训练与推理中可显著提升计算速度、降低显存占用和功耗。普通用户虽不直接操作它，但在使用AI绘图、语音助手或手机端大模型时，背后常依赖fp16加速——这意味着更快响应、更长续航和更流畅体验。",
+    "plain": "fp16 即半精度浮点数，采用 16 位二进制表示实数。相比 fp32，其内存占用与带宽需求减半，能显著提升深度学习训练与推理效率，降低显存压力。用户虽不直接操作，但 AI 绘图、语音助手等应用背后常依赖 fp16 加速，实现更快响应与更流畅体验。",
     "metaphor": "就像把一本厚字典压缩成精简版：牺牲少量查词精度，换来更快翻页速度和更轻便携带。",
     "example": "NVIDIA GPU在运行Stable Diffusion图像生成时，默认启用fp16模式，使一张512×512图片的单步推理时间从45ms降至22ms，同时显存占用减少约40%。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "推理加速",
+    "显存优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Half-precision_floating-point_format",
+    "https://developer.nvidia.com/blog/mixed-precision-training-deep-neural-networks/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:37:43Z"
+  "updated_at": "2026-03-23T15:35:54.271496Z",
+  "quality_score": 0.95
 }

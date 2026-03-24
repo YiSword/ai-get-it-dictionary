@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "shieldgemma",
+  "norm_term": "shieldgemma",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "内容安全模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "ShieldGemma 是谷歌基于 Gemma 开源模型家族开发的内容安全模型。它专为识别和过滤有害内容设计，可部署于本地或云端，实时监测输入输出，防止生成暴力、色情或仇恨言论。适用于开发者构建安全 AI 应用，确保合规性与用户隐私，是开源生态中重要的安全基础设施。",
+    "metaphor": "就像给 AI 系统配备了一位全天候保镖，ShieldGemma 时刻警惕外部威胁，将危险数据挡在门外，只允许安全信息通过。",
+    "example": "某银行使用 ShieldGemma 保护其客服聊天机器人，当用户尝试输入恶意代码或诱导性指令时，模型自动拦截并返回安全提示，防止系统被操控或数据泄露。"
+  },
+  "scenario_tags": [
+    "内容审核",
+    "模型安全",
+    "开源生态"
+  ],
+  "sources": [
+    "https://ai.google.dev/gemma/shieldgemma"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:46:35.509802Z",
+  "updated_at": "2026-03-23T15:40:36.431534Z",
+  "quality_score": 0.95
+}

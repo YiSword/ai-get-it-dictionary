@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "MLOps",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Fiddler AI 是一家专注于机器学习模型可观测性（ML Observability）的公司，其平台帮助数据科学家和工程师监控、调试和优化已部署的AI模型。它能检测模型性能下降、数据漂移、特征异常及预测偏差等问题，确保AI系统在生产环境中持续可靠运行。普通用户虽不直接使用该工具，但其背后支撑着众多依赖AI的服务（如推荐系统、风控模型、智能客服），了解Fiddler AI有助于理解为何AI应用会‘突然变笨’或‘给出奇怪答案’——这往往不是算法本身出了错，而是现实世界的数据或环境发生了变化。",
+    "plain": "Fiddler AI 是一家专注于机器学习模型可观测性的公司，其平台帮助数据科学家监控、调试和优化已部署的 AI 模型。它能检测模型性能下降、数据漂移及预测偏差，确保 AI 系统在生产环境可靠运行。理解它有助于明白 AI 应用为何会变笨，通常是因为数据或环境变化而非算法错误。",
     "metaphor": "Fiddler AI 就像AI系统的‘行车记录仪+体检中心’，不仅实时记录模型的每一次决策，还能定期扫描它的健康状况，提前发现‘疲劳驾驶’或‘营养不良’。",
     "example": "某银行上线了基于Fiddler AI监控的信用评分模型，当新一批用户行为数据中出现大量非典型消费模式时，平台自动触发告警，提示数据分布偏移，团队随即重新校准模型，避免了数百万贷款审批失误。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "MLOps",
+    "模型监控",
+    "数据漂移"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.fiddler.ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:27:14Z"
+  "updated_at": "2026-03-23T12:23:02.726342Z",
+  "quality_score": 0.95
 }

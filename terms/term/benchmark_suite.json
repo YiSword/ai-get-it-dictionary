@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "性能测试",
   "difficulty": "中级",
   "explanations": {
-    "plain": "benchmark_suite 是一组标准化的测试程序或工作负载，用于系统性地评估计算机硬件、软件或系统的性能表现。它通常涵盖多个维度（如计算速度、内存带宽、I/O吞吐、能效等），并提供可重复、可比较的量化结果。普通用户需要了解它，是因为在选购电脑、评估升级效果、比较不同操作系统或云服务性能时，它能提供客观依据，避免被片面宣传误导。",
+    "plain": "benchmark_suite 是一组标准化测试程序，用于系统评估硬件、软件或系统的性能。它涵盖计算速度、内存带宽、I/O 吞吐等维度，提供可重复、可比较的量化结果。用户在选购电脑、评估升级或比较云服务时，可借此获取客观依据，避免被片面宣传误导，确保性能符合预期需求。",
     "metaphor": "就像汽车行业的综合测评实验室——不仅测百公里加速，还测油耗、刹车距离、静音性和操控稳定性，用一套统一标准全面衡量一辆车的真实能力。",
     "example": "开发者在为新发布的ARM服务器芯片做性能验证时，会运行SPEC CPU benchmark suite来对比其整数与浮点运算性能是否达到设计目标；IT采购人员则可能用Phoronix Test Suite评估两款Linux发行版在相同硬件上的图形渲染和启动速度差异。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "硬件评测",
+    "性能评估",
+    "系统测试"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.spec.org/",
+    "https://en.wikipedia.org/wiki/Benchmark_(computing)"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:02:45Z"
+  "updated_at": "2026-03-23T11:06:31.455323Z",
+  "quality_score": 0.95
 }

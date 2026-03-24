@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机械工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "m6 是一种常见的螺纹规格，表示公称直径为 6 毫米、牙距为 1 毫米的细牙普通螺纹（ISO 标准）。它广泛用于电子设备、精密仪器、家具组装和小型机械中，作为连接、固定或调节的关键紧固件。普通用户在 DIY 维修、组装宜家家具、更换笔记本电脑螺丝或维修自行车时，很可能遇到标有 'M6' 的螺丝或螺母；若误用尺寸不符的螺栓，可能导致滑丝、断裂或结构松动，因此识别并正确选用 m6 螺纹对安全与功能至关重要。",
+    "plain": "M6 是一种公制螺纹规格，符合 ISO 标准，表示公称直径为 6 毫米。粗牙牙距通常为 1.0 毫米。它是机械连接中最常用的紧固件规格之一，广泛应用于电子设备、家具组装、汽车维修及小型机械结构中。正确识别 M6 规格对于确保连接强度、防止滑丝及保障结构安全至关重要，选购时需匹配对应的螺母或扳手工具。",
     "metaphor": "就像钥匙与锁芯必须精确匹配才能转动一样，m6 螺栓和螺母的直径与螺纹间距也必须严丝合缝，否则无法旋入或无法承受力。",
     "example": "在安装一台壁挂式液晶电视时，说明书通常要求使用 M6×20 的螺丝将挂架固定在墙体预埋支架上；若错用 M5 或 M8 螺丝，要么无法拧紧，要么撑裂螺孔导致悬挂失效。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "机械制造",
+    "工业标准",
+    "硬件维修"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/ISO_metric_screw_thread",
+    "https://www.iso.org/standard/4759.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:33:17Z",
-  "updated_at": "2026-03-21T08:24:18Z"
+  "updated_at": "2026-03-23T17:09:25.763191Z",
+  "quality_score": 0.95
 }

@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "llama_3_3_405b",
+  "norm_term": "llama_3_3_405b",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "大语言模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Llama 3.3 405B 是 Meta 系列大语言模型的高参数版本，405B 代表约 4050 亿参数。它具备强大的多语言理解、逻辑推理及代码生成能力。权重可获取但商用需遵循许可，适用于企业定制系统、复杂任务处理及学术研究。作为高性能基座，它推动了技术透明度与社区创新，助力开发者构建高效智能应用，是开源生态中的重要模型之一。",
+    "metaphor": "它像一个拥有 405 亿个神经元的人工智能大脑，开源特性如同公开了大脑构造图纸，任何人都能研究改进或组装成特定工具。",
+    "example": "某电商公司使用 Llama_3_3_405b 部署多语言客服机器人，通过微调模型理解各国消费者咨询，自动生成商品推荐和售后解决方案，大幅降低人工客服成本。"
+  },
+  "scenario_tags": [
+    "自然语言处理",
+    "代码生成",
+    "企业级应用"
+  ],
+  "sources": [
+    "https://ai.meta.com/blog/meta-llama-3/",
+    "https://huggingface.co/meta-llama"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:34:06.842936Z",
+  "updated_at": "2026-03-23T16:59:06.902828Z",
+  "quality_score": 0.95
+}

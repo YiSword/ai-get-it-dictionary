@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Lookahead decoding 是一种优化大语言模型推理过程的技术，它在生成当前 token 的同时，并行预测后续多个候选 token 序列，再通过快速验证（如小模型打分或缓存匹配）筛选出最可能的路径，从而减少对主模型的重复调用。相比标准自回归解码（逐个生成、等待前一个输出），它能显著提升生成速度，尤其在高延迟或资源受限场景下（如移动端、实时对话）更关键。普通用户虽不直接操作该技术，但会感知到响应更快、卡顿更少的交互体验。",
+    "plain": "Lookahead Decoding 是一种大模型推理加速技术。它通过并行预测后续多个候选 token 序列，并利用 n-gram 验证等快速机制筛选路径，减少主模型调用次数。相比传统自回归解码，它能显著降低延迟，提升生成速度，适用于实时对话等资源敏感场景，让用户感知到更流畅的交互体验。",
     "metaphor": "就像司机开车时不仅盯着眼前路况，还提前扫视前方几个路口并预选最优路线，避免每到一个路口才临时决策、频繁刹车变道。",
     "example": "在手机端语音助手实时转写并回复用户问题时，系统使用 lookahead decoding 预测接下来 3–5 个词的多种组合，快速过滤低概率分支，使响应延迟降低约 40%。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "LLM 推理",
+    "性能优化",
+    "生成加速"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2308.11462"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:19:19Z"
+  "updated_at": "2026-03-23T15:25:38.868664Z",
+  "quality_score": 0.95
 }

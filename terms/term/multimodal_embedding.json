@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "multimodal_embedding 是一种将来自不同模态（如图像、文本、音频、视频等）的数据映射到统一语义向量空间的数学表示。它使异构信息能在同一坐标系中被比较、检索或融合，例如让一张猫的照片和‘一只橘猫在窗台上晒太阳’这句话在向量空间中彼此靠近。普通用户需要了解它，因为它是现代AI应用（如跨模态搜索、智能相册分类、无障碍图文理解）背后的关键技术，直接影响交互的自然性与准确性。",
+    "plain": "多模态嵌入是将图像、文本、音频等不同模态数据映射到统一语义向量空间的技术。它使异构信息能在同一坐标系中被比较与融合，例如让猫的照片与描述文字在向量空间中靠近。这是跨模态搜索、智能相册等应用的关键技术，直接影响 AI 交互的自然性与准确性。",
     "metaphor": "就像一位精通多种语言的翻译家，能把中文句子、英文歌词、手绘草图都转化为同一种‘意义语言’，让它们彼此对话。",
     "example": "在微信搜一搜中上传一张美食照片，系统返回相关菜谱文字、烹饪短视频及相似菜品推荐——这背后依赖 multimodal_embedding 将图像、文本、视频统一表征并计算语义相似度。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "跨模态搜索",
+    "内容理解",
+    "向量检索"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/research/clip",
+    "https://huggingface.co/docs/transformers/model_doc/clip"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:50:22Z"
+  "updated_at": "2026-03-23T13:46:31.575902Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型能力",
   "difficulty": "中级",
   "explanations": {
-    "plain": "function_tool_call 是指大语言模型在推理过程中，主动生成结构化指令以调用外部工具（如计算器、数据库、API等）的行为。它不是模型自己执行操作，而是输出符合预定义格式的函数调用请求（含函数名和参数），交由系统解析并执行。普通用户需要了解它，因为这是当前AI助手实现‘能做事’而非仅‘能说话’的关键机制——比如查天气、订机票、分析文件，背后都依赖这一能力。",
+    "plain": "function_tool_call 指大语言模型在推理时生成结构化指令以调用外部工具的行为。模型不直接执行操作，而是输出符合预定义格式的函数调用请求，交由系统解析并执行。这是 AI 助手实现“能做事”的关键机制，如查天气、订机票均依赖此能力，连接了模型推理与外部行动。",
     "metaphor": "就像一位擅长统筹的项目经理，自己不亲手写代码或拨电话，但能精准写下‘调用天气API，城市=上海，时间=今天’的工单，交给技术团队执行。",
     "example": "当用户问‘帮我把附件里的销售数据按季度汇总并画成柱状图’时，模型可能生成 function_tool_call：{'name': 'run_python_code', 'arguments': {'code': 'import pandas as pd; ...'}}，触发后台Python沙箱执行分析任务。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "LLM",
+    "API 集成",
+    "智能助手"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs/guides/function-calling"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:41:01Z"
+  "updated_at": "2026-03-23T15:20:58.802086Z",
+  "quality_score": 0.95
 }

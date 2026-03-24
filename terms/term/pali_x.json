@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "网络安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "pali_x 是 Palo Alto Networks 防火墙平台中用于标识特定硬件型号或虚拟设备系列的内部代号前缀，常见于固件版本号、API 响应字段或诊断日志中（如 pali_x86_64 或 pali_arm64）。它不面向终端用户直接使用，但对运维人员排查兼容性问题、升级固件或集成自动化脚本至关重要——错误识别 pali_x 类型可能导致配置失败或安全策略无法生效。",
+    "plain": "pali_x 是 Palo Alto Networks 防火墙平台内部代号前缀，用于标识特定硬件型号或虚拟设备系列。常见于固件版本、API 响应及诊断日志中（如 pali_x86_64）。虽不面向终端用户，但对运维人员排查兼容性、升级固件及自动化集成至关重要，错误识别可能导致配置失败或策略失效。",
     "metaphor": "就像汽车的底盘代号（如MQB、TNGA）不会印在车门上，但决定了能装哪款发动机、适配哪些软件系统，pali_x 是设备底层‘基因代码’，默默决定它能跑什么系统、连什么云、支持哪些新功能。",
     "example": "当管理员通过PanOS REST API获取设备信息时，响应中的'platform'字段可能返回'pali_x86_64'，提示该防火墙基于x86架构，需选用对应架构的插件包进行SOAR集成。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "防火墙运维",
+    "API 集成",
+    "故障排查"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://docs.paloaltonetworks.com",
+    "https://www.paloaltonetworks.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:37:43Z",
-  "updated_at": "2026-03-21T09:05:07Z"
+  "updated_at": "2026-03-23T11:39:28.322632Z",
+  "quality_score": 0.95
 }

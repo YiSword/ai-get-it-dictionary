@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "营销广告",
   "difficulty": "中级",
   "explanations": {
-    "plain": "点击率（Click-Through Rate，CTR）是指在数字广告或内容推广中，点击某条链接或广告的用户数占看到该内容的总用户数的百分比，计算公式为：点击次数 ÷ 展示次数 × 100%。它直观反映内容吸引力和用户兴趣匹配度。普通用户无需直接计算CTR，但了解它有助于理解为何自己会反复看到某些广告——高CTR的内容更易被平台优先推荐，从而影响信息获取的广度与偏差。",
+    "plain": "点击率（CTR）指数字广告或内容推广中，点击次数占展示次数的百分比，计算公式为点击÷展示×100%。它衡量内容吸引力与用户兴趣匹配度，是评估广告效果及推荐系统性能的关键指标。高 CTR 内容易被平台优先推荐，直接影响用户信息获取。",
     "metaphor": "就像书店橱窗里一本封面亮眼的书，路过100人中有20人停下翻看，它的‘橱窗翻阅率’就是20%；CTR正是数字世界中衡量‘第一眼吸引力’的指标。",
     "example": "某电商平台在搜索结果页展示一款蓝牙耳机的广告，当日曝光10,000次，用户点击了320次，则其CTR为3.2%，运营团队据此判断该广告文案和图片效果良好，决定扩大投放范围。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数字营销",
+    "广告评估",
+    "推荐系统"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://support.google.com/googleads/answer/2686374",
+    "https://en.wikipedia.org/wiki/Click-through_rate"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:32:23Z"
+  "updated_at": "2026-03-23T12:16:30.599713Z",
+  "quality_score": 0.95
 }

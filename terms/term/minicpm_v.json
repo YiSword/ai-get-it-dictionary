@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "minicpm_v 是一款轻量级多模态大模型，由面壁智能研发，专为移动端和边缘设备优化，支持图像理解与文本生成的联合推理。它在保持较高视觉语言理解能力的同时，显著压缩了参数量和计算开销，使手机、平板等资源受限设备也能实时运行图文问答、图像描述、视觉推理等任务。普通用户需要了解它，是因为它正推动AI从云端走向本地——意味着更隐私、更低延迟、无需联网的智能体验，比如拍照即时翻译菜单或识别药品说明书。",
+    "plain": "MiniCPM-V 是面壁智能与清华大学联合研发的轻量级多模态大模型。专为移动端和边缘设备优化，支持图像理解与文本生成。它在保持较强视觉语言能力的同时，显著压缩参数量，使手机等资源受限设备能实时运行图文问答、视觉推理等任务，推动 AI 从云端走向本地，提供更隐私、低延迟的体验。",
     "metaphor": "就像一台内置高性能相机和随身翻译官的袖珍笔记本，不用连WiFi、不上传照片，翻盖即用。",
     "example": "用户用手机摄像头对准一道陌生菜式拍照，minicpm_v 在离线状态下立刻识别出‘麻婆豆腐’并解释其辣度、主要食材和素食替代方案。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态理解",
+    "边缘计算",
+    "移动端部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/OpenBMB/MiniCPM-V",
+    "https://modelbest.cn/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:40:08Z"
+  "updated_at": "2026-03-23T15:07:34.878867Z",
+  "quality_score": 1.0
 }

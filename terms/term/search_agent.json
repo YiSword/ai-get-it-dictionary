@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "智能体",
   "difficulty": "中级",
   "explanations": {
-    "plain": "search_agent 是一种具备自主目标理解、信息检索规划与多步执行能力的智能软件代理。它不只响应关键词查询，还能分解复杂问题、选择合适数据源（如网页、数据库、API）、迭代优化搜索策略，并整合结果生成答案。普通用户需要了解它，因为这类代理正逐步取代传统搜索引擎，成为AI助手、客服系统和研究工具的核心组件，影响信息获取效率、可信度及隐私控制方式。",
+    "plain": "search_agent 是一种具备自主目标理解、信息检索规划与多步执行能力的智能软件代理。它能分解复杂问题、选择数据源并迭代优化策略，整合结果生成答案。这类代理正成为 AI 助手核心组件，显著影响信息获取效率与可信度。",
     "metaphor": "就像一位经验丰富的图书管理员，不仅听懂你模糊的借书请求，还会主动查目录、翻索引、跨楼层取书，甚至对比几本相关书籍后为你整理一份定制摘要。",
     "example": "当用户提问‘对比2023年欧盟与中国在可再生能源投资中的政策差异与实际装机增长率’时，search_agent会自动拆解任务：先定位权威政策文件来源，再抓取国际能源署统计数据，最后交叉验证并结构化呈现结论。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "智能体",
+    "信息检索",
+    "自动化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://python.langchain.com/docs/modules/agents/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:39:40Z"
+  "updated_at": "2026-03-23T13:32:06.138577Z",
+  "quality_score": 0.95
 }

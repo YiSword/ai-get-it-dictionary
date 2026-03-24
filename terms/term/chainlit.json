@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发框架",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Chainlit 是一个开源的 Python 框架，用于快速构建和部署交互式聊天界面（如 AI 助手、RAG 应用或 LLM 工具链）的前端 UI。它无需前端开发经验，开发者只需用几行 Python 代码即可创建带消息历史、文件上传、流式响应、工具调用可视化等功能的 Web 应用。普通用户不需要直接使用 Chainlit，但当他们使用基于它的 AI 产品（如内部知识问答机器人或数据分析助手）时，其流畅的对话体验、实时思考过程展示和上下文感知能力，往往就源于 Chainlit 提供的底层交互支持。",
+    "plain": "Chainlit 是一个开源 Python 框架，专为构建 LLM 驱动的交互式对话界面设计。开发者无需前端经验，仅用 Python 代码即可快速创建支持消息历史、文件上传、流式响应及工具调用的 Web 应用。它广泛应用于 AI 助手、RAG 系统及内部工具的原型开发与部署，显著降低 AI 应用前端交互的实现门槛。",
     "metaphor": "Chainlit 就像为 AI 应用定制的‘乐高底板’——你不用从零搭房子（写 HTML/CSS/JS），只需把已有的 Python 逻辑模块（如 LLM 调用、数据库查询）一块块卡上去，它自动帮你组装出美观、可交互的聊天界面。",
     "example": "一家公司用 Chainlit 快速搭建了一个内部文档问答系统：员工输入问题，后端调用 Llama 3 模型和企业向量数据库检索答案，Chainlit 自动渲染带引用来源、支持追问和导出对话的聊天页面，整个开发仅用两天。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "LLM 应用",
+    "对话界面",
+    "快速原型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://chainlit.io",
+    "https://github.com/Chainlit/chainlit"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:23:59Z"
+  "updated_at": "2026-03-23T15:24:49.628905Z",
+  "quality_score": 1.0
 }

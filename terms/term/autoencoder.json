@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Autoencoder 是一种无监督学习的神经网络，由编码器和解码器两部分组成：编码器将输入数据压缩成低维隐表示（即‘特征摘要’），解码器再尝试从该表示中重建原始输入。它的核心目标是学会保留数据最关键的信息，同时丢弃噪声或冗余细节。普通用户需要了解它，因为它是图像去噪、数据压缩、异常检测等常见AI功能背后的关键技术，也常用于理解复杂数据的内在结构。",
+    "plain": "Autoencoder 是一种无监督学习的神经网络，由编码器和解码器组成。编码器将输入数据压缩为低维隐表示，解码器负责从该表示重建原始输入。其核心目标是保留关键信息并去除噪声。该技术广泛应用于图像去噪、数据压缩及异常检测，是理解复杂数据结构的重要工具。",
     "metaphor": "就像一个人快速浏览一幅画后，只记住最突出的轮廓和色彩，再凭记忆重绘——虽不完全一样，但抓住了精髓。",
     "example": "在医学影像分析中，autoencoder 可被训练来重建正常脑部MRI图像；当输入一张含早期肿瘤的异常图像时，重建误差显著增大，从而辅助医生自动识别潜在病变区域。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "无监督学习",
+    "数据压缩",
+    "异常检测"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Autoencoder",
+    "https://www.tensorflow.org/tutorials/generative/autoencoder"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:49:24Z"
+  "updated_at": "2026-03-23T15:26:18.400583Z",
+  "quality_score": 0.95
 }

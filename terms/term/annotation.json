@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "编程开发",
   "difficulty": "中级",
   "explanations": {
-    "plain": "annotation（注解）是程序员在代码中添加的元数据，用于描述、约束或指导程序行为，本身不直接执行逻辑，但可被编译器、运行时或开发工具读取并影响处理方式。它简化了重复性配置（如权限校验、序列化规则），提升代码可读性与可维护性。普通用户虽不写代码，但依赖其支撑的功能——比如App中点击‘分享’按钮能自动适配微信或短信格式，背后常由注解驱动框架实现。",
+    "plain": "annotation（注解）是嵌入代码的元数据，用于描述、约束或指导程序行为。它不直接执行逻辑，但可被编译器或运行时读取以改变处理方式。注解简化了重复配置（如权限校验、序列化），提升代码可读性与可维护性。例如，App 分享功能自动适配格式，常由注解驱动框架实现。它是现代软件开发中简化配置的关键机制。",
     "metaphor": "就像图书页边的手写批注，不改变原文内容，却告诉读者‘此处需重点注意’或‘参考第5章’，注解是写给开发工具看的‘代码旁白’。",
     "example": "在Java Spring框架中，@RestController注解标记一个类为Web控制器，让框架自动将其方法返回值转为HTTP响应；没有它，同样的代码不会被识别为API接口。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "编程开发",
+    "代码规范",
+    "元数据"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://docs.oracle.com/javase/tutorial/java/annotations/",
+    "https://en.wikipedia.org/wiki/Annotation_(computer_programming)"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:36:16Z"
+  "updated_at": "2026-03-23T13:46:20.146892Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "dynamic_batching 是一种在推理服务中自动将多个用户请求临时合并成一个批次进行模型计算的技术，它根据到达时间、延迟容忍度和硬件资源动态调整批大小，而非使用固定批次。相比静态批处理，它能更高效地利用 GPU 等加速器，降低平均响应延迟并提升吞吐量。普通用户需要了解它，因为这直接影响 AI 服务的响应速度、成本（单位请求算力开销）和可扩展性——例如在聊天机器人或实时翻译等场景中，它让高并发下的体验更流畅且服务更经济。",
+    "plain": "dynamic_batching 是推理服务中自动将多个请求合并成批次计算的技术。它根据到达时间和延迟容忍度动态调整批大小，而非固定批次。相比静态批处理，它能更高效利用 GPU，降低平均延迟并提升吞吐量。直接影响 AI 服务的响应速度、成本和可扩展性，让高并发下的体验更流畅且服务更经济。",
     "metaphor": "就像快递公司不等凑满一整车才发车，而是根据订单时效和路线动态拼单，在保证送达时间的前提下最大化货车装载率。",
     "example": "某云厂商的文本生成 API 使用 dynamic_batching，当 12 个用户在 50 毫秒内发起请求时，系统自动将其合为一批送入 GPU 推理，而非逐个处理，使平均延迟从 320ms 降至 180ms，吞吐量提升 2.3 倍。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型推理",
+    "性能优化",
+    "高并发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/optimization.html#dynamic-batching"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:58:02Z"
+  "updated_at": "2026-03-23T17:17:53.839655Z",
+  "quality_score": 0.95
 }

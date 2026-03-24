@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "对比学习（contrastive learning）是一种无监督或自监督的机器学习方法，它不依赖人工标注的标签，而是通过构造‘相似’和‘不相似’的数据对来训练模型——让同类样本在特征空间中彼此靠近，不同类样本则远离。它解决了标注数据稀缺、成本高昂的问题，广泛应用于图像、文本和语音表示学习中。普通用户虽不直接编写算法，但日常使用的智能相册分类、跨语言搜索、个性化推荐等功能背后，往往依赖对比学习生成的高质量语义表示。",
+    "plain": "对比学习是一种自监督学习方法，无需依赖人工标注。它通过构造相似与不相似数据对进行训练，使同类样本在特征空间中靠近，不同类样本远离。该方法有效解决了标注数据稀缺问题，广泛应用于图像、文本及语音的表示学习，支撑智能相册分类、跨语言搜索等应用。",
     "metaphor": "就像教孩子辨认动物：不是逐个告诉‘这是猫’‘这是狗’，而是把两张猫图放一起说‘它们很像’，再把猫和汽车图放一起说‘它们很不一样’，孩子由此自己学会猫的共同特征。",
     "example": "Instagram 使用对比学习对海量未标注图片建模，使得即使用户上传一张从未见过的宠物照片，系统也能准确将其与相似风格或主题的图片聚类并推荐相关内容。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自监督学习",
+    "表示学习",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2002.05709",
+    "https://paperswithcode.com/method/contrastive-learning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:55:39Z"
+  "updated_at": "2026-03-23T18:09:00.773607Z",
+  "quality_score": 0.95
 }

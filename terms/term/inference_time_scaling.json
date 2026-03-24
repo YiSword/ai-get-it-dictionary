@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "inference_time_scaling 描述的是模型在执行推理（即对新输入生成预测或输出）时，其耗时随输入规模（如序列长度、图像分辨率、批量大小）增长而变化的规律。它通常以大O记号表示，例如O(n²)表示推理时间随输入长度n的平方增长。普通用户需要了解它，因为这直接影响AI应用的响应速度、服务成本和实时性——例如聊天机器人响应变慢、视频分析延迟升高，可能正是推理时间随数据量非线性膨胀所致。",
+    "plain": "推理时间缩放指模型推理耗时随输入规模（如序列长度、批量大小）变化的规律，常用大 O 记号表示。该指标直接影响 AI 应用的响应速度、成本及实时性。理解它有助于优化系统性能，避免因数据量增加导致响应延迟非线性上升，是评估模型部署效率的关键参数。",
     "metaphor": "就像复印店处理文件：复印1页只需3秒，但若每页都要和之前所有页做交叉比对，复印100页可能耗时不是300秒，而是接近1小时。",
     "example": "当一个长文本摘要模型处理512词的文档耗时200毫秒，但处理2048词时耗时飙升至3.2秒，表明其inference_time_scaling接近O(n²)，而非理想的O(n)。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型部署",
+    "性能优化",
+    "系统架构"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/performance"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:30:46Z"
+  "updated_at": "2026-03-23T14:33:52.045554Z",
+  "quality_score": 0.95
 }

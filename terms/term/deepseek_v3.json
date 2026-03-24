@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "deepseek_v3",
+  "norm_term": "deepseek_v3",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "大语言模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "DeepSeek-V3 是深度求索推出的新一代大语言模型，采用混合专家架构（MoE），具备强大的语言理解、代码生成及多轮对话能力。它在多项基准测试中表现优异，支持长上下文处理。适用于智能客服、内容创作及辅助编程等场景，用户可依据其性能特点评估在特定业务中的适用性。",
+    "metaphor": "如同经验丰富的图书管理员，能快速从海量书籍中精准定位信息并组织成易懂答案，但需要明确告知需求细节才能获得最佳帮助。",
+    "example": "某电商平台接入 DeepSeek-V3 后，用户咨询'冬季羽绒服推荐'时，模型能结合历史对话记录推荐合适款式，并自动补充洗涤保养建议，减少人工客服重复劳动。"
+  },
+  "scenario_tags": [
+    "自然语言处理",
+    "代码生成",
+    "智能对话"
+  ],
+  "sources": [
+    "https://www.deepseek.com/",
+    "https://github.com/deepseek-ai"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:31:59.215404Z",
+  "updated_at": "2026-03-23T18:21:21.650202Z",
+  "quality_score": 0.95
+}

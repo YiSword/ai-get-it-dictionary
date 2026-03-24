@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "智能代理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "notebook_agent 是一种嵌入在交互式编程环境（如 Jupyter 或 VS Code Notebook）中的智能代理，它能理解用户自然语言指令，自动分析代码单元、执行调试、生成或修改代码、解释结果，并在上下文感知下提供迭代式协助。普通用户需要了解它，是因为它降低了数据分析、机器学习原型开发和教学实验的技术门槛——无需反复查阅文档或手动调试，即可通过对话驱动完成复杂任务。",
+    "plain": "notebook_agent 是嵌入交互式编程环境（如 Jupyter）的智能代理。它理解自然语言指令，自动分析、调试、生成代码并解释结果，提供上下文感知的迭代协助。它降低了数据分析与机器学习开发门槛，用户无需手动调试，通过对话即可驱动完成复杂任务，显著提升开发效率。",
     "metaphor": "就像一位坐在你旁边的资深数据科学家助手，一边看着你写的每一段代码，一边实时听你说话、提问、纠正错误，并主动补全后续步骤。",
     "example": "用户在 Jupyter Notebook 中输入‘用柱状图展示各城市销售额，并标出平均值线’，notebook_agent 自动解析数据结构、生成绘图代码、插入统计计算，并在执行失败时定位缺失列名并建议修复。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "数据分析",
+    "智能辅助"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/jupyterlab/jupyter-ai",
+    "https://code.visualstudio.com/docs/datascience/jupyter-notebooks"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:55:24Z"
+  "updated_at": "2026-03-23T16:47:06.876013Z",
+  "quality_score": 1.0
 }

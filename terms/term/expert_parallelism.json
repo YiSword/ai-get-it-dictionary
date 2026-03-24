@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "分布式训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "expert_parallelism（专家并行）是一种大模型训练与推理的分布式策略，它将模型的前馈网络（FFN）层按专家（expert）切分，不同专家被部署在不同设备上，输入数据根据路由机制动态分配给最相关的专家处理。相比数据并行或张量并行，它能显著提升模型容量而不线性增加单卡显存压力，尤其适用于稀疏激活的混合专家（MoE）架构。普通用户需要了解它，因为它是当前高效扩展超大规模语言模型（如Mixtral、Qwen-MoE）的关键技术，直接影响模型能力、推理成本与部署可行性。",
+    "plain": "专家并行是面向混合专家（MoE）模型的分布式策略。它将 FFN 层专家部署在不同设备，通过路由机制动态分配数据。相比传统并行，它能显著提升模型容量而不线性增加显存压力，是扩展超大规模语言模型的关键技术，直接影响推理成本与部署可行性。",
     "metaphor": "就像一家大型医院把专科医生（如心内科、神经科）分散在不同楼层，患者先经分诊台快速匹配到最对口的科室就诊，而非每位医生都重复配备全套设备和接诊所有病人。",
     "example": "在部署Qwen1.5-32B-MoE模型时，系统采用expert parallelism将32个专家分配到8张GPU上，每卡承载4个专家，前向计算中每个token仅激活2个专家，实现高吞吐低延迟的推理服务。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型训练",
+    "分布式系统",
+    "MoE 架构"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2101.03961",
+    "https://www.deepspeed.ai/tutorials/moe/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:19:38Z"
+  "updated_at": "2026-03-23T18:41:25.224568Z",
+  "quality_score": 0.95
 }

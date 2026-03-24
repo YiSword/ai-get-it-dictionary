@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "evaluation_agent",
+  "norm_term": "evaluation_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "tool",
+  "category": "Agent 类型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "evaluation_agent 是专门用于自动化评估其他 AI 代理性能的智能体。它基于预设指标（如准确性、任务完成度）对目标 Agent 进行系统检测，协助开发者识别缺陷并优化表现。在决策支持、客户服务等关键场景中，该机制通过标准化测试保障服务质量与安全性，是 AI 系统工程化的重要环节。",
+    "metaphor": "就像工厂里的质量检测员，用标准量具检查产品尺寸是否合格，evaluation_agent 为 AI 代理设定考核标准并打分。",
+    "example": "某电商公司部署客服机器人前，用 evaluation_agent 模拟 1000 条用户咨询，检测其回答准确率是否达到 95% 以上，未达标则触发模型迭代优化。"
+  },
+  "scenario_tags": [
+    "模型评估",
+    "自动化测试",
+    "Agent 开发"
+  ],
+  "sources": [
+    "https://python.langchain.com/docs/guides/evaluation",
+    "https://microsoft.github.io/autogen/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:37:03.781248Z",
+  "updated_at": "2026-03-23T13:42:15.280887Z",
+  "quality_score": 1.0
+}

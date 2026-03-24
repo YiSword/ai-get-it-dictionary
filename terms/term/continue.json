@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "控制流",
   "difficulty": "中级",
   "explanations": {
-    "plain": "continue 是编程中的一种控制流语句，用于跳过当前循环的剩余部分，直接进入下一次迭代。它不终止整个循环，而是提前结束本次循环体的执行，立即检查循环条件并继续运行。普通用户虽不直接写代码，但在理解自动化流程（如批量处理文件、游戏中的重复动作逻辑或智能设备的周期性响应）时，了解 continue 能帮助区分‘跳过某次操作’和‘彻底停止任务’的区别，避免对程序行为产生误解。",
+    "plain": "continue 是编程语言中的控制流语句，用于跳过当前循环迭代的剩余代码，直接进入下一次循环。它不会终止整个循环结构，仅提前结束本次循环体。理解此概念有助于区分‘跳过单次操作’与‘彻底停止任务’，避免对自动化流程或程序逻辑产生误解。",
     "metaphor": "就像在阅读一本书时，遇到一页广告就直接翻到下一页正文，而不是合上书本停止阅读。",
     "example": "在遍历用户列表发送通知时，若发现某用户已退订，用 continue 跳过该用户，继续为其余有效用户发送消息。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "循环控制",
+    "编程语法",
+    "程序逻辑"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/continue",
+    "https://docs.python.org/3/tutorial/controlflow.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:54:42Z"
+  "updated_at": "2026-03-23T13:03:34.240565Z",
+  "quality_score": 0.95
 }

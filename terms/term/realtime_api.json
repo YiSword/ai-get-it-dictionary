@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "网络通信/接口",
   "difficulty": "中级",
   "explanations": {
-    "plain": "realtime_api 是一种允许客户端与服务器之间近乎即时地双向传输数据的编程接口。它通过长连接（如 WebSocket）、服务器发送事件（SSE）或高效轮询等技术，避免传统 HTTP 请求-响应模式的延迟。普通用户需要知道它，是因为它支撑着日常依赖即时反馈的功能——比如在线协作文档的光标同步、聊天软件的消息秒达、股票行情实时刷新等；若缺乏此类 API，这些体验将退化为卡顿、延迟甚至手动刷新。",
+    "plain": "Realtime API 是一种支持客户端与服务器间近乎即时双向数据传输的编程接口。它利用 WebSocket、SSE 或长轮询等技术，克服传统 HTTP 请求 - 响应模式的延迟。广泛应用于在线协作文档同步、聊天消息即时送达、股票行情刷新等场景，是即时通讯与协作系统的核心技术。",
     "metaphor": "就像两个人用对讲机实时通话，而不是来回寄信——信息发出即被对方听到，无需等待请求和回执。",
     "example": "多人协作编辑 Google Docs 时，你输入的文字会立刻出现在其他协作者的屏幕上，这背后正是 realtime_api 在持续同步文档状态变更。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "即时通讯",
+    "数据同步",
+    "网络通信"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developer.mozilla.org/en-US/docs/Web/API/WebSocket",
+    "https://en.wikipedia.org/wiki/Push_technology"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:29:05Z"
+  "updated_at": "2026-03-23T11:14:34.175410Z",
+  "quality_score": 0.95
 }

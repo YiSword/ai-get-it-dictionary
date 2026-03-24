@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DataOps 是一种面向数据的协作与自动化方法论，旨在提升数据管道的可靠性、速度和质量，通过整合开发、运维、数据分析与治理实践，实现数据从采集、处理到交付的端到端高效流动。它借鉴了 DevOps 的理念，但聚焦于数据团队特有的挑战，如数据血缘追踪、质量监控、环境一致性与合规性。普通用户（尤其是业务分析师、产品经理或数据消费者）需要了解 DataOps，因为它直接影响他们获取可信、及时、可解释的数据体验——数据延迟、错误或不可追溯，往往根源在于缺乏 DataOps 实践。",
+    "plain": "DataOps 是一种面向数据的协作与自动化方法论，借鉴 DevOps 理念，旨在提升数据管道的可靠性、速度和质量。它整合开发、运维与治理实践，实现数据端到端高效流动，解决数据血缘、质量监控及合规性挑战。业务人员需了解它，因为它直接影响获取可信、及时数据的体验，缺乏实践会导致数据延迟或错误。",
     "metaphor": "DataOps 就像城市交通指挥中心：实时监控道路（数据流）、调度红绿灯（自动化任务）、追踪每辆车的起点与故障（数据血缘与质量告警），确保乘客（业务用户）准时、安全抵达目的地（可用数据）。",
     "example": "一家电商公司采用 DataOps 实践后，将每日销售报表的生成时间从4小时缩短至12分钟，并在数据异常（如某区域订单量突降90%）发生30秒内自动触发告警与根因分析，使运营团队能即时干预。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据治理",
+    "自动化",
+    "数据管道"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.dataopsmanifesto.org/",
+    "https://www.gartner.com/en/information-technology/glossary/dataops"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:14:04Z"
+  "updated_at": "2026-03-23T15:59:24.312197Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "智能运维",
   "difficulty": "中级",
   "explanations": {
-    "plain": "autonomous_debugging（自主调试）指软件系统在无需人工干预的情况下，自动检测、定位、诊断并修复运行时错误或性能异常的能力。它依赖于内置的可观测性机制（如日志、指标、追踪）、AI驱动的根因分析模型以及可编程的修复策略（如回滚、参数调优、服务重启）。普通用户需要了解这一概念，因为随着应用复杂度提升和云原生架构普及，传统手动调试耗时低效，而具备自主调试能力的系统能显著缩短故障恢复时间、提升服务稳定性，并降低对专业运维人员的即时依赖。",
+    "plain": "自主调试指系统在无需人工干预下，自动检测、定位并修复运行时错误的能力。它依赖可观测性数据与 AI 根因分析模型，执行回滚或参数调优等策略。该技术能显著缩短故障恢复时间，提升服务稳定性，降低对运维人员的依赖，适用于云原生及高复杂度应用架构。",
     "metaphor": "就像一辆智能汽车在行驶中自动识别轮胎漏气、计算最佳补救方案并启动应急充气系统，全程无需驾驶员下车检查或求助维修站。",
     "example": "某电商微服务在大促期间突发订单超时，autonomous_debugging系统通过实时链路追踪识别出数据库连接池耗尽，随即动态扩容连接数并临时降级非核心日志写入，5秒内恢复正常响应。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "智能运维",
+    "故障自愈",
+    "软件可靠性"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ibm.com/topics/aiops",
+    "https://en.wikipedia.org/wiki/Self-healing_system"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:50:50Z"
+  "updated_at": "2026-03-23T15:53:44.833491Z",
+  "quality_score": 0.95
 }

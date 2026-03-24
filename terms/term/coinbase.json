@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "区块链技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Coinbase 是比特币等区块链系统中首个区块（即创世区块之后的第一个区块）的特殊交易，用于将新生成的加密货币奖励分配给成功挖出该区块的矿工。它不包含传统意义上的输入，而是由协议直接创建输出，是所有新币的唯一来源。普通用户需要了解 coinbase，因为它体现了加密货币的发行机制——没有中央银行印钞，而是通过算力竞争和协议规则自动产生；同时，coinbase 交易也决定了矿工收入结构（区块奖励+手续费），影响网络安全性与交易确认速度。",
+    "plain": "Coinbase 交易是区块链区块中的第一笔特殊交易，由矿工创建。它无需输入，直接生成新币输出，用于分配区块奖励（新生成币 + 交易手续费）给矿工。这是加密货币发行的唯一来源，体现了去中心化发行机制，无需中央银行干预，确保网络安全与经济激励。",
     "metaphor": "就像一家新开张的造币厂第一次铸造并颁发给首批工人的一批纪念金币，既作为报酬，也标志着货币体系正式启动。",
     "example": "当一个矿工成功挖出比特币区块高度为 840000 的新区块时，其 coinbase 交易会生成 3.125 个新比特币，并转入该矿工指定的钱包地址，这笔钱无需他人支付，完全由比特币协议生成。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "挖矿机制",
+    "交易结构",
+    "加密货币发行"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developer.bitcoin.org/reference/transactions.html#coinbase-transactions",
+    "https://en.bitcoin.it/wiki/Coinbase"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:13:26Z",
-  "updated_at": "2026-03-21T04:42:48Z"
+  "updated_at": "2026-03-23T17:39:23.659362Z",
+  "quality_score": 0.95
 }

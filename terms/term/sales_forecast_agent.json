@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "sales_forecast_agent",
+  "norm_term": "sales_forecast_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "智能代理",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "销售预测代理是一种基于 AI 的智能体，通过分析历史数据、市场趋势及客户行为，自动生成未来销售业绩预测。它协助企业优化库存、制定营销策略及资源分配，降低决策风险。理解此概念有助于认知数据驱动决策对提升企业竞争力的价值。",
+    "metaphor": "如同为销售团队配备了一位精通数据分析的‘预言家’，能提前洞察市场风向，让企业像老练的船长般在商海中提前调整航向。",
+    "example": "某零售企业使用该代理分析过去三年节假日销售数据，结合实时天气和社交媒体热度，预测下季度热门商品需求，提前调整采购计划，避免库存积压。"
+  },
+  "scenario_tags": [
+    "商业智能",
+    "供应链管理",
+    "决策支持"
+  ],
+  "sources": [
+    "https://www.salesforce.com/products/einstein/overview/",
+    "https://learn.microsoft.com/en-us/dynamics365/ai/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:03:48.233149Z",
+  "updated_at": "2026-03-23T18:05:44.975811Z",
+  "quality_score": 0.95
+}

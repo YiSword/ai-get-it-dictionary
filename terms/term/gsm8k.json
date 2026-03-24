@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据集",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GSM8K（Grade School Math 8K）是一个包含8500道小学水平数学应用题的公开数据集，每道题都配有逐步推理的自然语言解答和最终答案。它被广泛用于评估和训练大语言模型的多步逻辑推理与数学解题能力。普通用户（尤其是教育工作者、AI研究者或关注AI能力边界的人）需要了解它，因为它已成为衡量模型是否具备基础严谨推理能力的重要基准，直接影响AI在辅导、自动批改等教育场景中的可靠性。",
+    "plain": "GSM8K 是包含 8500 道小学数学应用题的公开数据集，每题配有逐步推理解答。它广泛用于评估大语言模型的多步逻辑推理与数学解题能力，是衡量模型基础严谨推理能力的重要基准，直接影响 AI 在教育场景中的可靠性。",
     "metaphor": "就像驾照考试中的‘科目二’——不考高深理论，但必须规范完成倒车入库、侧方停车等基础操作，GSM8K检验的是AI能否扎实走好解题的每一步，而非仅靠运气猜中答案。",
     "example": "研究人员用GSM8K测试新推出的数学推理模型：输入题目‘莉莉有12颗糖，分给3个朋友，每人分得相同数量，还剩3颗，问每人分到几颗？’，模型需正确推导出(12−3)÷3=3，并输出完整步骤，才算通过该题。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "数学推理",
+    "教育应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/openai/grade-school-math"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:03:51Z"
+  "updated_at": "2026-03-23T18:12:00.846736Z",
+  "quality_score": 0.95
 }

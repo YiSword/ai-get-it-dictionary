@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "搜索算法",
   "difficulty": "中级",
   "explanations": {
-    "plain": "lookahead_search（前瞻搜索）是一种在搜索或决策过程中预先探索后续若干步可能状态的技术，常用于算法优化、编译器解析、自然语言处理和游戏AI中。它不只评估当前选项，还模拟未来几步的结果，以选择全局更优的路径。普通用户需要了解它，因为该技术直接影响智能输入法的词预测准确性、代码编辑器的自动补全质量，以及语音助手响应的连贯性——这些日常体验背后都依赖于是否‘看得更远’。",
+    "plain": "lookahead_search（前瞻搜索）是在搜索或决策中预先探索后续状态的技术。它模拟未来几步结果以选择全局更优路径，常用于算法优化、编译器解析及游戏 AI。该技术直接影响输入法预测、代码补全及语音助手连贯性，是实现智能决策的关键机制，让系统能“看得更远”以提升体验。",
     "metaphor": "就像老司机开车时不仅看眼前路口，还会扫视前方两个红绿灯和车流趋势，提前调整车速和车道，而不是等到临近才急刹或变道。",
     "example": "在IDE中输入'file.'后，编辑器通过前瞻搜索分析后续可能调用的方法链（如file.open().read().split()），而非仅匹配'file.'开头的单个方法，从而提供更精准的上下文感知补全。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "算法优化",
+    "自然语言处理",
+    "游戏 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lookahead",
+    "https://en.wikipedia.org/wiki/Search_algorithm"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:19:34Z"
+  "updated_at": "2026-03-23T14:26:10.189001Z",
+  "quality_score": 0.95
 }

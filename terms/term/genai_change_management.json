@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "genai_change_management",
+  "norm_term": "genai_change_management",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "practice",
+  "category": "企业管理",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "GenAI Change Management 指企业引入生成式 AI 时，系统性管理组织变革的实践方法。它解决流程重构、人员适应及文化冲突，确保 AI 与业务无缝衔接。该概念影响工作流程、技能需求及人机协作，帮助个人预判职业变化并主动适应技术驱动的组织转型。",
+    "metaphor": "如同航海中调整风帆与航线，它帮助企业在生成式 AI 的技术浪潮中平衡创新速度与传统业务稳定性，避免被变革洪流冲散团队凝聚力。",
+    "example": "某电商公司部署生成式 AI 客服系统时，通过分阶段培训计划让员工掌握新工具操作，同步优化客服流程并设立反馈机制，最终实现人机协作效率提升 40%。"
+  },
+  "scenario_tags": [
+    "企业转型",
+    "人机协作",
+    "组织管理"
+  ],
+  "sources": [
+    "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/generative-ai-and-the-future-of-work",
+    "https://www.gartner.com/en/information-technology/glossary/change-management"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:22:49.289666Z",
+  "updated_at": "2026-03-23T11:36:51.466865Z",
+  "quality_score": 1.0
+}

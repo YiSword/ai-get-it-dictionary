@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云服务",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ionos 是一家总部位于德国的国际云服务与域名注册提供商，提供虚拟主机、VPS、云服务器、SSL证书、电子邮件托管及域名注册等IT基础设施服务。它面向中小企业、开发者和初创公司，以多语言支持、透明定价和一体化控制面板著称。普通用户需要了解 ionos，是因为它常作为网站上线、邮箱部署或轻量级应用托管的入门级选择——尤其在欧洲市场普及度高，且无需复杂技术背景即可快速启用基础数字服务。",
+    "plain": "IONOS 是总部位于德国的国际云服务与域名注册提供商，提供虚拟主机、VPS、云服务器及域名注册等基础设施服务。面向中小企业和开发者，以透明定价和一体化控制面板著称。作为网站上线或轻量应用托管的入门级选择，它在欧洲市场普及度高，用户无需复杂技术背景即可快速启用基础数字服务。",
     "metaphor": "ionos 就像一家‘数字生活便利店’：你不需要自己建机房、拉网线或配置服务器，只要走进去，就能一站式买齐域名、网站空间、邮箱和安全证书。",
     "example": "一位自由设计师用 ionos 注册了 herportfolio.com 域名，并在同一平台开通了托管服务和专业邮箱 hello@herportfolio.com，15分钟内就上线了个人作品网站。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "网站建设",
+    "基础设施"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ionos.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:41:36Z",
-  "updated_at": "2026-03-21T07:39:13Z"
+  "updated_at": "2026-03-23T12:44:33.948290Z",
+  "quality_score": 0.95
 }

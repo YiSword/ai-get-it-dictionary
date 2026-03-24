@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人机协作",
   "difficulty": "中级",
   "explanations": {
-    "plain": "humanloop 指在自动化系统（尤其是AI驱动的工作流）中，人为介入、审核、修正或决策的关键环节。它强调人不是被替代的对象，而是与AI协同的闭环组成部分——AI执行任务后，结果交由人判断；人的反馈又用于优化AI模型或流程。普通用户需要了解它，因为这关系到AI输出的可靠性、责任归属和实际可用性：没有humanloop的AI可能出错而不自知，而设计良好的humanloop能提升信任度、降低风险，并让用户保有最终控制权。",
+    "plain": "humanloop 通常指“人在回路”（Human-in-the-Loop），即在 AI 工作流中引入人工介入、审核或反馈的机制。它强调人机协同，通过人工判断修正 AI 输出，并将反馈用于模型优化。这对确保 AI 可靠性、明确责任归属及保留用户控制权至关重要，能有效降低自动化风险并提升系统信任度。",
     "metaphor": "就像汽车的自动驾驶系统，humanloop相当于司机的手始终轻搭在方向盘上——系统可以行驶，但关键判断和紧急干预仍由人完成。",
     "example": "客服聊天机器人自动生成投诉回复后，将高风险回复（如涉及退款或法律措辞）自动转交人工坐席审核确认，再发送给客户；坐席的修改意见同步用于微调模型。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "人机协作",
+    "模型优化",
+    "风险控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://humanloop.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:17:59Z"
+  "updated_at": "2026-03-23T13:44:38.826188Z",
+  "quality_score": 1.0
 }

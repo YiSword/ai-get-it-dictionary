@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "PGGAN（Progressive Growing of GANs）是一种生成对抗网络的训练方法，由NVIDIA在2017年提出，核心思想是从小分辨率图像（如4×4）开始逐步增加网络深度和图像分辨率（如8×8、16×16……直至1024×1024），同时平滑过渡新层，以稳定训练高分辨率逼真图像。普通用户需要了解它，因为它是早期实现高质量人脸、艺术图像合成的关键技术基础，直接影响如今AI绘画、虚拟形象生成等应用的视觉真实感与训练可行性。",
+    "plain": "PGGAN（Progressive Growing of GANs）由 NVIDIA 于 2017 年提出。核心思想是从低分辨率开始逐步增加网络层数和图像分辨率，直至生成高分辨率图像。这种方法通过平滑过渡新层稳定了训练过程，是实现高质量人脸及艺术图像合成的关键技术，奠定了现代 AI 绘画高视觉真实感的基础。",
     "metaphor": "就像建筑师先搭建微缩模型，再逐层加高并细化结构，而不是一上来就浇筑百层高楼。",
     "example": "PGGAN曾被用于生成高度逼真的虚拟人脸数据集CelebA-HQ，支持人脸识别算法训练；也常作为教学案例，在PyTorch框架中演示渐进式网络扩展与GAN稳定性控制技巧。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "生成对抗网络",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1710.10196",
+    "https://github.com/NVlabs/prog_gan"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:24:36Z",
-  "updated_at": "2026-03-21T09:07:36Z"
+  "updated_at": "2026-03-23T15:47:50.183449Z",
+  "quality_score": 0.95
 }

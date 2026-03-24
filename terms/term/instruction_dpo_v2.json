@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "instruction_dpo_v2",
+  "norm_term": "instruction_dpo_v2",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "technique",
+  "category": "模型对齐技术",
+  "difficulty": "高级",
+  "explanations": {
+    "plain": "instruction_dpo_v2 是基于直接偏好优化（DPO）的指令微调迭代版本。它摒弃传统奖励模型，直接利用偏好数据优化策略，降低训练成本。主要用于提升大模型在复杂指令下的对齐效果、安全性及回复质量。适用于客服、内容创作等需精准交互的场景，帮助用户理解 AI 如何通过人类反馈改进体验。",
+    "metaphor": "就像老师通过对比学生作业的优秀与普通案例，直接指导改进方向，而非先制定评分标准再调整教学。",
+    "example": "某电商平台使用 instruction_dpo_v2 训练客服机器人，通过对比人工标注的优质回复与普通回复数据，使模型在處理退货咨询时能自动生成更符合用户期待的解决方案。"
+  },
+  "scenario_tags": [
+    "模型训练",
+    "人机对齐",
+    "大语言模型"
+  ],
+  "sources": [
+    "https://arxiv.org/abs/2305.18290"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:36:34.813369Z",
+  "updated_at": "2026-03-23T14:41:45.653438Z",
+  "quality_score": 1.0
+}

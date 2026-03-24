@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "T5（Text-To-Text Transfer Transformer）是一种由Google提出的统一文本处理框架，它将所有自然语言任务（如翻译、摘要、问答、分类等）都建模为‘输入文本→输出文本’的格式。它基于Transformer架构，通过大规模预训练和任务特定微调实现强大泛化能力。普通用户需要知道T5，是因为它支撑着许多现代AI应用背后的文本理解与生成能力，例如智能客服、自动写作辅助和多语言翻译工具，其设计理念深刻影响了当前大语言模型的发展路径。",
+    "plain": "T5（Text-To-Text Transfer Transformer）是 Google 提出的统一文本处理框架。它将所有自然语言任务建模为“输入文本→输出文本”格式。基于 Transformer 架构，通过大规模预训练和微调实现强大泛化能力。其设计理念深刻影响了当前大语言模型的发展，广泛应用于智能客服、翻译及文本生成场景。",
     "metaphor": "T5就像一位精通所有语言和文体的全能文书助手，无论你递给他一封邮件、一段会议记录或一道数学题，他都只用‘读一段文字，写一段文字’这一种方式来回应。",
     "example": "当你在某款笔记App中选中一段冗长的技术文档并点击‘生成摘要’时，背后可能正运行着一个微调后的T5模型，将原文作为输入，输出简洁准确的要点概括。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "预训练模型",
+    "文本生成",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html",
+    "https://github.com/google-research/text-to-text-transfer-transformer"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:01:04Z"
+  "updated_at": "2026-03-23T12:07:53.453833Z",
+  "quality_score": 0.95
 }

@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "rwkv_world",
+  "norm_term": "rwkv_world",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "轻量级语言模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "rwkv_world 是基于 RWKV 架构的轻量级语言模型。它融合 RNN 线性计算与 Transformer 并行训练优势，大幅降低推理成本。支持长上下文建模，专为移动端、物联网等资源受限场景设计，平衡性能与效率，为边缘计算及低功耗应用提供高效 NLP 解决方案。",
+    "metaphor": "如同用折叠自行车替代重型卡车运输货物，rwkv_world 以精简结构完成复杂任务，既节省空间又保持灵活机动性，特别适合在狭窄街道（资源受限环境）中高效通行。",
+    "example": "某智能家居语音助手采用 rwkv_world 模型，在本地设备实时解析用户指令并控制家电。相比云端大模型，其响应延迟降低 60%，且无需持续联网，在断网环境下仍能处理基础指令如开关灯、调节温度等操作。"
+  },
+  "scenario_tags": [
+    "边缘计算",
+    "自然语言处理",
+    "高效推理"
+  ],
+  "sources": [
+    "https://rwkv.com/",
+    "https://github.com/BlinkDL/RWKV-LM"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:43:19.153338Z",
+  "updated_at": "2026-03-23T16:34:03.999727Z",
+  "quality_score": 0.95
+}

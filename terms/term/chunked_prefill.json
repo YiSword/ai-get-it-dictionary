@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "chunked_prefill 是大语言模型推理中的一种优化技术，指将长上下文输入（如超长提示词或文档）分块逐步送入模型进行预填充（prefill）计算，而非一次性加载全部内容。这能显著降低显存峰值、避免OOM错误，并提升长文本处理的吞吐效率。普通用户需要了解它，因为当使用支持该特性的模型服务（如vLLM、LightLLM）处理长文档问答、代码补全或法律合同分析时，开启chunked_prefill可让原本失败的请求成功执行，且响应更稳定。",
+    "plain": "chunked_prefill 是大模型推理优化技术，将长上下文分块逐步进行预填充计算，而非一次性加载。这能显著降低显存峰值，避免 OOM 错误，提升长文本吞吐效率。适用于 vLLM 等框架处理长文档问答或代码补全场景，确保请求成功执行且响应更稳定。",
     "metaphor": "就像把一本厚字典拆成几叠，图书馆管理员不是一次扛起整本上楼，而是分批搬运并逐叠登记索引，既不压垮楼梯，又快速建好完整检索目录。",
     "example": "用户向本地部署的70B模型提交一篇128K tokens的医学论文摘要请求摘要，启用chunked_prefill后，系统自动将其切分为8个16K token的块依次执行prefill，最终完成生成；若禁用该功能，显存不足将直接导致请求崩溃。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型推理",
+    "显存优化",
+    "长文本处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/vllm-project/vllm",
+    "https://docs.vllm.ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:28:49Z"
+  "updated_at": "2026-03-23T16:44:14.648156Z",
+  "quality_score": 0.95
 }

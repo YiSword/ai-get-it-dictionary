@@ -1,0 +1,27 @@
+{
+  "entry_kind": "term",
+  "term": "store_ops_agent",
+  "norm_term": "store_ops_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "AI 行业应用",
+  "difficulty": "高级",
+  "explanations": {
+    "plain": "store_ops_agent 是零售专用智能运营代理，整合物联网、库存及销售预测数据，实现门店运营自动化决策。解决人工响应滞后与资源低效问题，动态调整陈列、补货及促销策略。虽消费者不直接接触，但能提升供应稳定性、价格合理性及购物体验。",
+    "metaphor": "就像给超市配备了一位 24 小时在线的智能管家，能同时监控货架空缺、计算最佳补货时间、协调配送车辆路线，甚至根据天气变化调整商品摆放位置。",
+    "example": "当某门店牛奶销量突增时，系统自动触发三个动作：向仓库发送补货指令、调整电子价签显示促销信息、在顾客 APP 推送附近门店库存提醒，全程无需人工干预。"
+  },
+  "scenario_tags": [
+    "零售科技",
+    "智能运营",
+    "自动化决策"
+  ],
+  "sources": [],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:09:57.884445Z",
+  "updated_at": "2026-03-23T15:37:47.964634Z",
+  "quality_score": 0.85
+}

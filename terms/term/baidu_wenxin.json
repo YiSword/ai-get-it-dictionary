@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "baidu_wenxin 是百度公司研发的一系列大语言模型（如文心一言），具备文本生成、逻辑推理、多轮对话等能力，广泛应用于搜索增强、智能客服、内容创作等场景。普通用户需要了解它，是因为其已深度集成在百度App、文心一言App及众多合作产品中，直接影响日常获取信息、写作辅助和人机交互的体验与质量。",
+    "plain": "baidu_wenxin 是百度公司研发的大语言模型系列（文心一言），具备文本生成、逻辑推理及多轮对话能力。它广泛应用于搜索增强、智能客服与内容创作场景，并深度集成于百度 App 及合作产品中。作为国内主流 AI 模型，它直接影响用户获取信息、写作辅助和人机交互的体验与质量，是理解当前 AI 生态的重要术语。",
     "metaphor": "它就像一位熟读亿万本书、随时待命的全能助理，既能帮你写邮件、改文案，也能解释复杂概念或陪练外语。",
     "example": "当用户在百度App中输入‘帮我写一封辞职信，语气礼貌简洁’，背后调用的正是文心大模型实时生成定制化文本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "内容生成",
+    "智能对话",
+    "搜索增强"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://yiyan.baidu.com/",
+    "https://ai.baidu.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T03:54:46Z"
+  "updated_at": "2026-03-23T15:33:07.286396Z",
+  "quality_score": 1.0
 }

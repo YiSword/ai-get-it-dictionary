@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 图像生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "InstantID 是一种基于人脸特征提取与身份绑定的轻量级身份识别技术，常用于AI图像生成领域，使模型能精准复现特定人物的面部身份（如五官结构、轮廓、神态）而不依赖大量训练数据。它通过单张参考图即可提取稳定的身份嵌入向量，并在文生图过程中保持身份一致性。普通用户需要了解它，是因为它降低了个性化AI形象创作的门槛——无需专业训练或数十张照片，就能在Stable Diffusion等工具中快速生成高度保真且风格多变的本人肖像，同时涉及隐私与肖像权风险，需谨慎使用。",
+    "plain": "InstantID 是一种轻量级身份识别技术，用于 AI 图像生成。它通过单张参考图提取身份嵌入向量，无需大量训练即可在文生图过程中精准复现特定人物面部特征，保持身份一致性。这降低了个性化创作门槛，但也涉及隐私与肖像权风险，需谨慎使用。",
     "metaphor": "就像一张可复用的‘数字人脸模板’，你只需拍一次照，它就能把你的脸‘记住’并随时‘印’进任何新画里。",
     "example": "用户上传一张正脸自拍照，用InstantID插件在ComfyUI中生成穿宇航服、在火星漫步的自己，所有输出图像都准确保留其独特鼻型、眼距和微笑弧度。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "身份保持",
+    "AI 绘画",
+    "隐私风险"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/InstantID/InstantID"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:14:41Z",
-  "updated_at": "2026-03-21T07:33:36Z"
+  "updated_at": "2026-03-23T14:12:06.976179Z",
+  "quality_score": 1.0
 }

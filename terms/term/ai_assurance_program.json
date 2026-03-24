@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "ai_assurance_program",
+  "norm_term": "ai_assurance_program",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "practice",
+  "category": "治理",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "AI 保证计划是确保人工智能系统全生命周期符合法律、道德及风险管控要求的系统性流程。它通过评估框架、审计机制和持续监控，解决合规性、透明度和责任归属问题。该计划直接影响用户数据隐私与算法公平性，如在金融信贷或医疗诊断中防止歧视，保障用户权益。",
+    "metaphor": "如同汽车出厂前的安全检测流程，AI 保证计划为人工智能系统设置多重'安全气囊'，确保每个决策环节都经过合规性碰撞测试。",
+    "example": "某银行部署贷款审批 AI 时，通过保证计划定期验证算法是否存在地域歧视，检查训练数据是否覆盖不同收入群体，并建立人工复核通道处理争议案例。"
+  },
+  "scenario_tags": [
+    "合规审计",
+    "风险管理",
+    "算法公平"
+  ],
+  "sources": [
+    "https://www.nist.gov/itl/ai-risk-management-framework",
+    "https://www.iso.org/standard/81230.html"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:53:10.506045Z",
+  "updated_at": "2026-03-23T12:56:21.588666Z",
+  "quality_score": 1.0
+}

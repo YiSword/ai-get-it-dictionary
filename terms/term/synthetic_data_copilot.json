@@ -1,0 +1,26 @@
+{
+  "entry_kind": "term",
+  "term": "synthetic_data_copilot",
+  "norm_term": "synthetic_data_copilot",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "tool",
+  "category": "数据工程",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Synthetic Data Copilot 是一种数据工程工具，通过算法生成人工合成的数据集，用于替代真实敏感数据。它解决数据隐私保护与数据可用性之间的矛盾，允许企业在不泄露原始数据的前提下进行模型训练、测试或分析。普通用户需了解其价值在于平衡数据安全与创新需求，尤其在医疗、金融等强监管领域。",
+    "metaphor": "就像用虚拟模特代替真人展示服装，既能呈现设计效果，又保护了真人隐私。",
+    "example": "某医院使用 Synthetic Data Copilot 生成模拟患者病历数据，供研究人员开发疾病预测模型，避免真实患者信息泄露风险。"
+  },
+  "scenario_tags": [
+    "数据工程",
+    "隐私保护",
+    "企业应用"
+  ],
+  "sources": [],
+  "review_status": "llm_generated",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:50:41.451684Z",
+  "updated_at": "2026-03-23T08:50:41.451684Z"
+}

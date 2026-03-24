@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "openai_structured_output",
+  "norm_term": "openai_structured_output",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "feature",
+  "category": "API 功能",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "OpenAI 结构化输出是 API 提供的一项功能，强制大模型按预定义格式（如 JSON Schema）生成响应。它解决了文本生成格式混乱导致的解析难题，使开发者能直接获取结构化数据，减少后期处理成本，显著提升应用集成效率与数据可靠性。",
+    "metaphor": "就像快递包裹需要按标准尺寸打包才能快速分拣，结构化输出让AI的回答像预装好的零件盒，每个数据都放在固定格子里，接收方无需二次整理就能直接使用。",
+    "example": "当需要从客户反馈中提取订单信息时，开发者可要求模型以JSON格式返回包含订单号、商品名称和数量的数据，系统可直接解析并导入数据库，避免人工整理文本的繁琐过程。"
+  },
+  "scenario_tags": [
+    "API 开发",
+    "数据处理",
+    "大模型应用"
+  ],
+  "sources": [
+    "https://platform.openai.com/docs/guides/structured-outputs"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:30:22.162943Z",
+  "updated_at": "2026-03-23T17:19:22.357123Z",
+  "quality_score": 0.95
+}

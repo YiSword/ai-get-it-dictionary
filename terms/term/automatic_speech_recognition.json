@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "功能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "automatic_speech_recognition（ASR）是一种将人类语音实时转换为文字的计算机技术。它支撑着智能音箱听懂指令、手机语音输入法快速转写说话内容、视频自动生成字幕等功能。普通用户无需了解其背后的深度学习模型或声学建模，但理解ASR有助于合理预期语音交互的边界——比如在嘈杂环境或口音较重时识别可能出错，从而更高效地使用语音助手、会议记录工具等日常应用。",
+    "plain": "automatic_speech_recognition（ASR）是将语音转换为文字的技术，广泛应用于智能音箱、语音输入法及视频字幕生成。理解 ASR 有助于预期交互边界，如嘈杂环境或口音较重时识别可能出错。掌握此概念可帮助用户更高效地使用语音助手及会议记录工具。",
     "metaphor": "就像一位专注速记的同声传译员，ASR系统一边‘听’你说话，一边实时把声音‘翻译’成屏幕上可编辑的文字。",
     "example": "你在微信中长按语音消息说话，几秒后自动转成文字显示在聊天窗口里——背后就是ASR技术在实时工作。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语音交互",
+    "智能硬件",
+    "办公效率"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/tasks/automatic-speech-recognition",
+    "https://en.wikipedia.org/wiki/Automatic_speech_recognition"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T03:50:14Z"
+  "updated_at": "2026-03-23T10:55:04.328272Z",
+  "quality_score": 0.95
 }

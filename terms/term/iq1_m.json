@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型量化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "iq1_m 是一种量化权重格式，常用于高效部署大语言模型（如 Llama 系列），表示将模型权重以 1 位整数（即每个参数仅用 1 比特）加偏置校准（m 可能指 'mean-aware' 或特定校准策略）的方式压缩。它显著降低模型体积与显存占用，但牺牲部分精度；普通用户需要了解它，是因为选择此类极低比特量化模型可能影响回答质量、逻辑连贯性或数学准确性，尤其在专业任务中需权衡速度与可靠性。",
+    "plain": "iq1_m 是 llama.cpp 框架下的 1 比特量化格式，基于 GGUF 标准。它利用重要性矩阵压缩权重，极大降低显存占用与模型体积。适用于资源受限的端侧部署，但相比高比特量化，其逻辑推理与数学精度会有所损失，适合对速度敏感且可容忍精度下降的场景。",
     "metaphor": "就像把一本高清摄影集压缩成只有黑白两色的简笔画册——节省了大量纸张和运输成本，但细节、色彩层次和微妙表情都丢失了。",
     "example": "开发者在树莓派或边缘设备上部署轻量聊天机器人时，选用 iq1_m 量化版本的 Phi-3 模型，使其能在 2GB 内存下实时响应，但用户发现其对多步推理问题容易出错。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型量化",
+    "大模型推理",
+    "端侧部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ggerganov/llama.cpp",
+    "https://github.com/ggerganov/llama.cpp/blob/master/README.md"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:21:01Z",
-  "updated_at": "2026-03-21T07:40:58Z"
+  "updated_at": "2026-03-23T14:43:37.888550Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型治理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Model card 是一种标准化文档，用于透明、全面地描述机器学习模型的关键信息，包括其用途、训练数据、性能指标、已知局限性、偏见分析和伦理考量等。它帮助普通用户（如开发者、政策制定者或终端使用者）理解模型能做什么、不能做什么、在哪些场景下可能出错或产生不公平结果，从而做出更审慎的部署和使用决策，避免盲目信任或误用技术。",
+    "plain": "Model Card 是一种标准化文档，旨在透明描述机器学习模型的关键信息，涵盖用途、训练数据、性能指标、局限性及伦理考量。它帮助开发者、政策制定者等理解模型能力与风险，识别潜在偏见，从而做出审慎的部署决策，避免技术误用，促进负责任的 AI 开发与应用。",
     "metaphor": "就像食品包装上的营养成分表和过敏原提示，model card 为AI模型提供‘技术成分说明书’——告诉你它由什么‘原料’（数据）制成、有何‘功效’（能力）、存在哪些‘禁忌’（偏差或失效场景）。",
     "example": "一家医院在采用皮肤癌检测AI模型前，查阅其model card，发现该模型在深色皮肤人群上的准确率显著偏低，于是决定暂缓临床部署，并优先资助针对性数据补充研究。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型文档",
+    "伦理合规",
+    "透明度"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1810.03993",
+    "https://github.com/tensorflow/model-card-toolkit"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:45:50Z"
+  "updated_at": "2026-03-23T15:36:14.519057Z",
+  "quality_score": 0.95
 }

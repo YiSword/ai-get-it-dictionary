@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "InternLM 是由上海人工智能实验室主导研发的开源大语言模型系列，涵盖多个参数规模（如 InternLM-7B、InternLM-20B），支持中英双语，具备较强的对话理解、代码生成和逻辑推理能力。它面向开发者和研究者免费开放，提供完整训练代码、数据集和部署工具链。普通用户需要知道它，是因为它代表了中国在大模型自主可控方向的重要进展，也为个人开发者提供了可本地部署、可深度定制的高性能替代方案，无需依赖境外闭源模型。",
+    "plain": "InternLM 是由上海人工智能实验室研发的开源大语言模型系列，支持中英双语，具备对话、代码及逻辑推理能力。项目面向开发者免费开放，提供完整训练代码与部署工具链。作为国产自主可控模型，它支持本地部署与深度定制，是高性能的闭源模型替代方案，适用于多种下游任务。",
     "metaphor": "就像一个开源的中文母语‘AI学徒’，既虚心学习海量知识，又乐于向所有人公开自己的学习笔记和手艺流程。",
     "example": "一名高校研究生使用 InternLM-7B 在本地服务器上微调模型，使其能准确解析本校历年《高等数学》期末试题并生成分步解题思路，全程无需联网或调用商业API。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "开源模型",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://internlm.org/",
+    "https://github.com/InternLM/InternLM"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:37:27Z"
+  "updated_at": "2026-03-23T11:49:47.471782Z",
+  "quality_score": 0.95
 }

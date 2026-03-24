@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "伦理与合规",
   "difficulty": "中级",
   "explanations": {
-    "plain": "source_attribution 是指在内容创作、数据使用或模型输出中，明确标识信息原始出处的行为。它确保观点、数据、代码或文本的来源可追溯，既体现学术与职业诚信，也便于验证准确性、避免侵权，并支持透明度和责任归属。普通用户需要知道它，因为日常转发资讯、引用网络内容或使用AI生成结果时，若忽略来源标注，可能无意传播错误信息、侵犯版权，或削弱自身表达的可信度。",
+    "plain": "source_attribution 指在内容创作或模型输出中明确标识信息原始出处的行为。它确保数据、文本来源可追溯，体现诚信并避免侵权。用户引用网络内容或使用 AI 生成结果时，若忽略标注，可能传播错误信息或侵犯版权。标注来源是支持透明度、责任归属及维护可信度的关键实践。",
     "metaphor": "就像在借书时写下原作者和出版社，source_attribution 是给每条信息贴上‘出生证明’，让人一眼看出它从哪里来、由谁孕育。",
     "example": "一名记者撰写报道时，在图表下方注明‘数据来源：国家统计局2023年年度报告’，即完成了 source_attribution；同理，AI工具在生成答案末尾附上‘依据维基百科英文版2024年4月修订条目’，也是该机制的具体实践。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "伦理合规",
+    "内容生成",
+    "版权保护"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://oecd.ai/en/wonk/oecd-ai-principles",
+    "https://www.nist.gov/itl/ai-risk-management-framework"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:48:46Z"
+  "updated_at": "2026-03-23T12:49:41.944507Z",
+  "quality_score": 0.95
 }

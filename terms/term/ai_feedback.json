@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评估与优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ai_feedback 是指用户对人工智能系统输出（如回答、建议、生成内容）所给出的评价、修正或偏好信号，用于帮助模型优化后续响应。它可能是显式的（如点赞/点踩按钮、评分、文本反馈），也可能是隐式的（如修改生成结果后重新提交、跳过某条推荐）。普通用户需要了解它，因为他们的反馈直接影响AI的学习方向和个性化效果——提供清晰、具体的反馈能让AI更快适应其需求，避免陷入错误模式或偏见循环。",
-    "metaphor": "就像教一个认真但经验不足的学徒：你指出哪里做得好、哪里需要调整，他才会越做越贴合你的期望。",
-    "example": "在写作辅助工具中，用户将AI生成的段落删掉半句并手动重写，系统自动记录该编辑行为作为强化学习信号，下次类似场景便更倾向生成简洁有力的句式。"
+    "plain": "ai_feedback 指用户对 AI 输出（如回答、推荐）的评价或修正，如点击有用/无用、编辑文本。它是训练和优化模型的关键数据源，系统通过分析反馈改进准确性、安全性和体验。用户反馈直接塑造 AI 未来表现，赋予用户影响 AI 行为的话语权。",
+    "metaphor": "就像厨师根据食客的口味反馈调整下一道菜的咸淡，AI通过用户反馈实时校准自己的‘烹饪手法’。",
+    "example": "在智能邮件助手生成一封草稿后，用户手动修改了语气并点击‘保存为偏好’，该操作即构成ai_feedback，系统后续会优先生成更符合该用户风格的邮件。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型优化",
+    "用户交互",
+    "数据处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/research/instruction-following"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:26:41Z"
+  "updated_at": "2026-03-23T14:50:36.162958Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "promptfoo 是一个开源命令行工具，用于测试、评估和调试大语言模型（LLM）的提示词（prompt）效果。它允许开发者批量运行不同提示变体，对比输出质量、一致性、事实准确性等指标，并支持自定义评估逻辑（如用另一个 LLM 打分或正则匹配）。普通用户——尤其是AI应用开发者、产品经理或提示工程师——需要知道它，因为手动反复试错提示效率极低，而 promptfoo 能系统化验证提示是否真正可靠、鲁棒，避免上线后因提示微小变化导致结果崩坏。",
+    "plain": "promptfoo 是一款开源命令行工具，用于测试和评估大语言模型提示词。它支持批量运行提示变体，对比输出质量与一致性，提供自定义评估逻辑。开发者可用它系统化验证提示的可靠性与鲁棒性，避免手动试错低效，显著提升 AI 应用开发效率。",
     "metaphor": "就像软件开发中的单元测试框架（如 Jest）之于代码，promptfoo 是提示工程领域的‘单元测试框架’——它不运行功能，而是科学地检验提示词是否每次都能交出合格答卷。",
     "example": "某客服机器人团队用 promptfoo 同时测试10种不同语气的投诉响应提示，自动检查回复是否包含退款政策关键词、是否回避承诺、以及由GPT-4打分的友好度，30分钟内定位出最稳定高分的提示模板。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "提示工程",
+    "模型评估",
+    "LLM 开发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.promptfoo.dev/",
+    "https://github.com/promptfoo/promptfoo"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:17:29Z"
+  "updated_at": "2026-03-23T19:08:08.414005Z",
+  "quality_score": 0.95
 }

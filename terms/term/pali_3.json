@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "语音处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "pali_3 是 PyTorch Audio 库中一个预训练的语音增强模型，专为单通道语音去噪设计，能在低信噪比环境下有效抑制背景噪声、混响和干扰，同时保留语音清晰度与自然度。它基于深度学习架构，无需用户调整复杂参数即可开箱使用。普通用户需要了解它，是因为它被集成在众多语音应用（如视频会议、语音助手、远程教学工具）底层，直接影响通话是否听得清、录得真——即使你没听过这个名字，也可能每天都在受益于它的处理能力。",
+    "plain": "pali_3 是 PyTorch Audio 库中的预训练语音增强模型，专为单通道语音去噪设计。它能在低信噪比环境下抑制背景噪声和混响，保留语音清晰度。基于深度学习架构，无需复杂参数调整即可开箱使用。广泛应用于视频会议、语音助手等场景底层，提升通话质量与录音真实性。",
     "metaphor": "就像一副智能降噪耳机，不仅隔绝嘈杂，还能主动识别并擦除环境噪音，只留下说话人最本真的声音轮廓。",
     "example": "某在线教育平台在学生用手机在厨房录制口语作业时，自动调用 pali_3 模型实时抑制油烟机轰鸣与锅碗碰撞声，使教师听到的语音干净清晰，无需学生重复录音。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语音增强",
+    "噪声抑制",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/audio/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:37:56Z",
-  "updated_at": "2026-03-21T09:04:51Z"
+  "updated_at": "2026-03-23T16:41:19.302582Z",
+  "quality_score": 1.0
 }

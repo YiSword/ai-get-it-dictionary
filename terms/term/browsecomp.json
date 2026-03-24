@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "browsecomp 是 Emacs 编辑器中的一个内置命令（全称 browse-url-composition），用于以结构化方式编辑和预览 HTML、Markdown 或其他标记格式的文档片段，尤其支持在编辑时实时查看渲染效果。它并非独立程序，而是 Emacs 内部集成的轻量级富文本预览机制，常通过快捷键如 C-c C-v 触发。普通用户需要知道它，是因为在撰写技术文档、邮件或网页内容时，无需切换到浏览器即可快速验证格式是否正确，提升写作效率与准确性。",
+    "plain": "browsecomp 是 Emacs 编辑器中的命令，用于结构化编辑和预览 HTML、Markdown 等文档片段。支持编辑时实时查看渲染效果，无需切换浏览器即可验证格式。作为轻量级富文本预览机制，它能显著提升技术文档或邮件撰写的效率与准确性，常通过快捷键触发。",
     "metaphor": "就像你在纸上写信时，旁边放着一面小镜子，能立刻看到字迹排版后的样子——browsecomp 就是 Emacs 为你准备的那面‘所见即所得’的智能镜。",
     "example": "当你在 Emacs 中用 Org 模式编写一份会议纪要，并插入了表格和加粗标题后，运行 browsecomp 命令，Emacs 会在内置的迷你浏览器中即时渲染出接近最终 HTML 效果的预览视图。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "编辑器",
+    "文档预览",
+    "开发效率"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.gnu.org/software/emacs/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:14:28Z"
+  "updated_at": "2026-03-23T12:42:11.857412Z",
+  "quality_score": 0.95
 }

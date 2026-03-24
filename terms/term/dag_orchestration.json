@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "工作流管理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DAG orchestration（有向无环图编排）是一种用于定义、调度和监控复杂任务流程的技术，其中任务以节点表示，依赖关系以有向边表示，且整个图不能存在循环依赖。它广泛应用于数据工程、机器学习流水线和云原生自动化中，确保任务按正确顺序、在合适资源上可靠执行。普通用户（尤其是数据工程师、AI开发者或运维人员）需要理解它，因为它是现代数据平台（如Airflow、Prefect、Dagster）的核心范式，直接影响系统可维护性、故障排查效率和业务逻辑的可重现性。",
+    "plain": "DAG 编排是基于有向无环图的任务流程管理技术，将任务设为节点、依赖设为边，确保无循环。它广泛用于数据工程与 ML 流水线，通过 Airflow 等工具调度监控，保证任务按序可靠执行。作为现代数据平台核心范式，它显著提升系统可维护性与故障排查效率。",
     "metaphor": "就像厨房里一道多步骤菜肴的食谱：洗菜必须在切菜之前，切菜又必须在炒菜之前，但绝不会出现‘炒菜完成后才开始洗菜’这种逻辑死循环。",
     "example": "一家电商公司使用DAG orchestration每天凌晨自动执行数据流水线：先从数据库抽取昨日订单，再清洗并转换为分析格式，接着训练销量预测模型，最后将结果推送到BI仪表盘——任一环节失败都会中断后续步骤并触发告警。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据管道",
+    "任务调度",
+    "自动化运维"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://airflow.apache.org/docs/",
+    "https://docs.prefect.io/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:09:05Z"
+  "updated_at": "2026-03-23T16:34:27.692386Z",
+  "quality_score": 0.95
 }

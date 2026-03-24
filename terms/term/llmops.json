@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 工程化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LLMOps（Large Language Model Operations）是指围绕大语言模型的开发、部署、监控、迭代和治理的一整套工程实践与工具体系。它融合了MLOps理念，但更聚焦于LLM特有的挑战，如提示工程管理、RAG流水线维护、幻觉检测、模型版本与数据漂移跟踪等。普通用户虽不直接操作LLMOps系统，但其背后直接影响AI应用的稳定性、响应质量、安全性与更新速度——例如你使用的智能客服是否突然答非所问，或新知识为何迟迟无法生效，都与LLMOps水平密切相关。",
+    "plain": "LLMOps（Large Language Model Operations）是围绕大语言模型全生命周期的工程实践体系。它继承 MLOps 理念，重点解决提示工程管理、RAG 流水线、幻觉检测及模型版本追踪等特有挑战。LLMOps 直接决定 AI 应用的稳定性、响应质量与安全性，是保障智能客服、知识库等场景高效运行的关键技术底座。",
     "metaphor": "LLMOps就像大型餐厅的后厨运营系统：不仅负责主厨（模型）的日常备餐（推理），还要管理食材采购（数据更新）、菜谱迭代（提示调优）、顾客投诉实时反馈（监控幻觉）、以及卫生与合规检查（安全与合规治理）。",
     "example": "一家银行使用LLMOps平台持续监控其客服大模型在千万次对话中的回答准确率与敏感词触发率，当检测到某类理财问题回复合规性下降时，自动触发RAG知识库刷新与A/B测试验证，2小时内完成热更新并恢复服务。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型运维",
+    "工程实践"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ibm.com/topics/llmops",
+    "https://learn.microsoft.com/en-us/azure/ai-studio/concepts/llmops"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:15:23Z"
+  "updated_at": "2026-03-23T14:39:20.491788Z",
+  "quality_score": 0.95
 }

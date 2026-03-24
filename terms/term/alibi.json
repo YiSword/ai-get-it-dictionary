@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "法律",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Alibi（不在场证明）是一个法律术语，指当事人提供证据证明自己在某个关键时间点并未身处事件发生地，从而排除作案可能。它不是简单的口头声明，而需有可信的第三方证人、监控录像、电子记录等客观佐证。普通用户需要了解它，是因为在遭遇误解、诬告或卷入调查时，及时、合法地提供有效alibi可能直接关系到个人清白与权益保障，也提醒人们日常注意保留行程痕迹（如打卡、支付、通信记录）。",
+    "plain": "Alibi（不在场证明）是法律术语，指证明案发时未身处现场以排除嫌疑。需证人、监控等客观佐证，非口头声明。了解它有助于在遭遇调查时保障权益，提醒日常保留行程痕迹（如支付、通信记录）以备佐证。",
     "metaphor": "就像航班登机口的闸机记录——它不替你说话，但冷冰冰的时间戳和身份信息，比‘我当时在家睡觉’更有说服力。",
     "example": "一名程序员被怀疑参与某次凌晨三点的数据泄露，但他手机基站定位、公司门禁系统日志及GitHub提交时间戳共同构成完整alibi，证实其当时正在异地参加线上技术会议。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "法律常识",
+    "刑事司法",
+    "权益保护"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.law.cornell.edu/wex/alibi"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:31:13Z"
+  "updated_at": "2026-03-23T18:10:35.986385Z",
+  "quality_score": 0.95
 }

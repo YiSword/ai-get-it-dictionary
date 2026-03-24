@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "ai_ethics_training_agent",
+  "norm_term": "ai_ethics_training_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "tool",
+  "category": "AI 治理",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "ai_ethics_training_agent 是指导 AI 系统开发伦理合规的智能代理。它提供伦理框架、风险评估及决策辅助，帮助团队识别算法偏见与隐私风险。包含交互培训场景与检查清单，确保技术在设计阶段嵌入道德考量。了解此工具有助于理解企业落实负责任 AI 承诺，推动可信 AI 系统监督。",
+    "metaphor": "如同建筑工地的安全监理员，这个工具在 AI 开发流程中持续检查'道德施工规范'，确保每个代码模块都不会建成危害社会的'危楼'。",
+    "example": "某医疗 AI 公司使用该工具评估诊断算法，系统提示训练数据中少数族裔样本不足可能导致误诊风险，团队据此补充数据并调整模型，最终通过伦理审查委员会认证。"
+  },
+  "scenario_tags": [
+    "模型开发",
+    "合规审查",
+    "风险管理"
+  ],
+  "sources": [
+    "https://www.ieee.org/about/ieee-ethics.html",
+    "https://ai.google/responsibilities/responsible-ai-practices/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:23:05.578998Z",
+  "updated_at": "2026-03-23T18:48:29.048884Z",
+  "quality_score": 0.95
+}

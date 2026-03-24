@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Bias（偏差）在机器学习和统计学中指模型预测系统性偏离真实值的倾向，通常源于训练数据不具代表性、算法设计缺陷或特征选择不当。它导致模型在整体上持续高估或低估结果，而非随机误差。普通用户需要了解bias，因为带有显著bias的AI系统可能在招聘、信贷或医疗等关键场景中产生不公平甚至有害的决策，影响实际生活权益。",
+    "plain": "Bias（偏差）指模型预测系统性偏离真实值的倾向，源于数据不代表性或算法缺陷。它导致持续高估或低估，而非随机误差。显著偏差会导致 AI 在招聘、信贷等场景产生不公平决策，影响用户权益。理解偏差有助于识别模型局限性，确保 AI 系统公正可靠。",
     "metaphor": "就像一把刻度永远偏左的体重秤，每次称重都稳定少报2公斤——不是偶然出错，而是内在构造导致的系统性偏差。",
     "example": "某银行贷款审批模型使用历史数据训练，而历史数据中女性申请人获批率显著偏低；模型因此习得‘女性更可能违约’的错误关联，对合格女性申请人系统性拒贷。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "人工智能伦理",
+    "数据科学"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Algorithmic_bias",
+    "https://www.ibm.com/topics/ai-bias"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T04:05:41Z"
+  "updated_at": "2026-03-23T11:55:53.291864Z",
+  "quality_score": 0.95
 }

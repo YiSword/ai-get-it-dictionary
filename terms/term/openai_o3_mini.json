@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "openai_o3_mini",
+  "norm_term": "openai_o3_mini",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "轻量级大模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "openai_o3_mini 是 OpenAI 推出的轻量级大语言模型，属于 GPT 系列优化版本。通过架构优化显著降低计算资源消耗，同时保持核心推理能力。主要解决边缘设备部署难、高延迟及成本问题，适合移动端、嵌入式系统或低带宽环境。适用于资源受限的聊天机器人或需快速响应的智能助手开发场景。",
+    "metaphor": "如同将高性能跑车引擎改装为节能紧凑型发动机，在保留核心动力的同时降低油耗，让普通家庭轿车也能享受科技红利。",
+    "example": "某物流公司为快递员开发手持终端应用，采用 openai_o3_mini 实现离线包裹信息识别与路线规划，既保证 2 秒内响应速度，又避免云端依赖导致的信号盲区问题。"
+  },
+  "scenario_tags": [
+    "边缘部署",
+    "成本控制",
+    "低延迟"
+  ],
+  "sources": [
+    "https://platform.openai.com/docs/models"
+  ],
+  "review_status": "needs_attention",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:30:50.677571Z",
+  "updated_at": "2026-03-23T16:10:52.974363Z",
+  "quality_score": 0.75
+}

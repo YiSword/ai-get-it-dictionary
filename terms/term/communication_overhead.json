@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "分布式系统",
   "difficulty": "中级",
   "explanations": {
-    "plain": "communication_overhead 指在分布式系统或并行计算中，为协调、同步和传输数据而产生的额外开销，包括消息封装、网络延迟、序列化/反序列化、协议处理等非实际计算所消耗的时间和资源。它不直接贡献于任务结果，却显著影响系统整体性能与可扩展性。普通用户虽不直接编写分布式代码，但在使用云服务、实时协作工具、多人在线游戏或大数据应用时，若频繁遭遇卡顿、响应延迟或同步失败，往往背后就是通信开销过高所致。",
+    "plain": "指分布式系统或并行计算中，因节点间协调、同步及数据传输产生的额外资源消耗，涵盖网络延迟、序列化等非计算成本。虽不直接贡献任务结果，但显著制约系统性能与可扩展性，是云服务卡顿或高延迟场景的常见成因。",
     "metaphor": "就像开会时，大家花在点名、传话筒、确认议程和整理会议纪要上的时间，远多于真正讨论问题的时间。",
     "example": "在使用 Spark 处理大规模日志时，若将任务切分过细（如每个小文件启动一个 task），节点间频繁交换中间键值对会导致通信开销激增，使总执行时间远超计算本身。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "分布式系统",
+    "性能优化",
+    "并行计算"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Communication_overhead"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:46:01Z"
+  "updated_at": "2026-03-23T16:48:58.876210Z",
+  "quality_score": 0.95
 }

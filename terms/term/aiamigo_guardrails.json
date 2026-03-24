@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "aiamigo_guardrails",
+  "norm_term": "aiamigo_guardrails",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "framework",
+  "category": "AI 安全",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "aiamigo_guardrails 是专为 AI 系统设计的安全控制框架，通过预设规则限制模型行为边界。它利用内容过滤、行为监控和响应干预机制，防止生成有害输出、隐私泄露或逻辑越界。该框架旨在保障系统安全，帮助用户理解 AI 服务背后的安全机制，增强对智能应用的信任，确保交互过程合规且可靠。",
+    "metaphor": "就像高速公路的护栏防止车辆冲出车道，这个框架为 AI 系统划定安全运行轨道，在保持功能灵活性的同时阻止危险行为发生。",
+    "example": "某银行部署智能客服时，通过该框架设置金融术语白名单和敏感操作拦截规则，当用户询问转账流程时自动触发二次验证，有效防止诈骗话术生成。"
+  },
+  "scenario_tags": [
+    "内容安全",
+    "模型治理",
+    "风险控制"
+  ],
+  "sources": [
+    "https://github.com/aiamigo"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:46:20.455939Z",
+  "updated_at": "2026-03-23T16:45:10.793100Z",
+  "quality_score": 0.8
+}

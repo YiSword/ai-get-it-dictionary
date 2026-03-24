@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型能力",
   "difficulty": "中级",
   "explanations": {
-    "plain": "structured_output 指模型生成的响应严格遵循预定义的数据格式（如 JSON、XML 或带明确字段的表格），而非自由文本。它确保输出可被程序直接解析、验证和集成到下游系统中，避免人工提取或正则匹配的错误与开销。普通用户（尤其是开发者、数据分析师或自动化流程设计者）需要了解它，因为它是实现可靠AI集成、构建可扩展应用和保障数据一致性的关键能力。",
+    "plain": "structured_output 指模型生成严格遵循预定义格式（如 JSON）的响应，而非自由文本。它确保输出可被程序直接解析、验证并集成到下游系统，避免正则匹配错误。这是实现可靠 AI 集成、构建可扩展应用和保障数据一致性的关键能力，适用于开发者及自动化流程设计者。",
     "metaphor": "就像餐厅提供标准化营养标签的盒饭——每道菜的位置、分量、成分都固定在指定格子里，无需拆解就能快速读取和计算。",
     "example": "调用一个简历解析API时，模型返回标准JSON：{ \"name\": \"张三\", \"email\": \"zhang@example.com\", \"skills\": [\"Python\", \"SQL\"] }，前端可直接绑定字段渲染，无需写代码从段落中抽取邮箱。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "API 开发",
+    "数据集成",
+    "LLM 应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs/guides/structured-outputs",
+    "https://python.langchain.com/docs/how_to/structured_output/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:56:24Z"
+  "updated_at": "2026-03-23T18:45:02.406903Z",
+  "quality_score": 0.95
 }

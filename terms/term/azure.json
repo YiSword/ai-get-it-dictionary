@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Azure 是微软提供的云计算平台，允许个人、企业和开发者按需使用虚拟服务器、数据库、人工智能工具、存储服务等计算资源，而无需自己购买和维护物理硬件。它支持全球部署、弹性伸缩和按使用付费，降低了技术门槛与运营成本。普通用户需要了解 Azure，不仅因为许多日常应用（如 Office 365、Teams）背后依赖其基础设施，还因为它正深度融入企业数字化转型、远程办公、智能设备协同等场景，影响着数据安全、服务稳定性和创新效率。",
+    "plain": "Azure 是微软推出的云计算服务平台，提供虚拟服务器、数据库、人工智能及存储等资源。用户可按需使用，无需自建硬件，支持全球部署与弹性伸缩，采用按量付费模式。它广泛应用于企业数字化转型、远程办公及智能设备协同，是 Office 365 等日常应用的基础设施，影响数据安全与服务效率。",
     "metaphor": "Azure 就像一座智能城市里的‘电力与水务网络’——你不用自建发电厂或水塔，只需插上插头或拧开水龙头，就能即时获得稳定、可调节、按量计费的算力与服务。",
     "example": "一家初创公司使用 Azure 的虚拟机和托管数据库快速上线电商网站，上线首月根据访问量自动扩容服务器资源，并通过 Azure 的内置防火墙和合规认证保障用户支付数据安全。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "企业服务",
+    "基础设施"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://azure.microsoft.com/zh-cn/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:37:31Z",
-  "updated_at": "2026-03-21T03:53:24Z"
+  "updated_at": "2026-03-23T16:57:37.250428Z",
+  "quality_score": 0.95
 }

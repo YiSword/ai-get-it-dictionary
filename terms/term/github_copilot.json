@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 编程助手",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GitHub Copilot 是由 GitHub 与 OpenAI 合作开发的 AI 编程助手，它能根据开发者在代码编辑器（如 VS Code）中输入的注释、函数名或已有代码，实时建议整行或整段代码。它支持多种主流编程语言，通过理解上下文提供智能补全，显著提升编码效率、减少重复劳动，并帮助初学者学习最佳实践。普通用户（尤其是程序员、学生或技术爱好者）需要了解它，因为它正在重塑日常开发方式，类似 IDE 内置的‘结对编程伙伴’，既降低入门门槛，也推动专业开发者聚焦更高阶的设计与问题解决。",
+    "plain": "GitHub Copilot 是 GitHub 与 OpenAI 合作推出的 AI 编程助手。它基于上下文理解，在编辑器中实时提供代码补全与建议，支持多种主流语言。作为智能“结对编程伙伴”，它能显著提升开发效率，减少重复劳动，帮助开发者聚焦核心逻辑与设计，正在重塑现代软件开发流程。",
     "metaphor": "就像一位经验丰富的同事坐在你旁边，一边看你写需求文档，一边自然地帮你写出对应的代码。",
     "example": "当你在 Python 文件中写下注释 '# 从 CSV 文件读取数据并返回前5行'，Copilot 会立即建议完整的 pandas 读取和切片代码：'import pandas as pd; df = pd.read_csv(\"data.csv\"); return df.head(5)'。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "开发效率",
+    "智能补全"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/features/copilot"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:48:08Z"
+  "updated_at": "2026-03-23T15:47:54.395983Z",
+  "quality_score": 1.0
 }

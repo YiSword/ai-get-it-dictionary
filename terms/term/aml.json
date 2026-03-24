@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "金融合规",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AML（Anti-Money Laundering，反洗钱）是一套法律、监管和运营措施，旨在防止犯罪分子将非法所得（如贩毒、贪污、诈骗收入）伪装成合法资金。它要求银行、支付平台、加密货币交易所等金融机构识别客户身份、监控可疑交易并上报异常活动。普通用户需要了解AML，因为开户、大额转账或跨境汇款时可能被要求提供身份证明、资金来源说明等材料；这不仅关乎合规，也直接关系到账户能否正常使用及资金安全。",
+    "plain": "AML（Anti-Money Laundering，反洗钱）是一套法律、监管和运营措施，旨在防止犯罪分子将非法所得伪装成合法资金。金融机构需识别客户身份、监控可疑交易并上报。用户在进行开户、大额转账或跨境汇款时，可能被要求提供身份证明及资金来源说明，以确保账户合规及安全。",
     "metaphor": "AML就像银行系统的‘安检门’——不阻止所有人通行，但会仔细检查携带可疑物品（异常资金）的旅客，防止黑钱混入正常经济流通。",
     "example": "当你在某加密货币交易所首次充值10万美元时，平台会要求你完成实名认证并上传收入证明，这就是AML合规流程的一部分；若无法合理解释资金来源，该笔资金可能被冻结或交易被拒绝。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "金融",
+    "合规",
+    "安全"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.fatf-gafi.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:35:12Z"
+  "updated_at": "2026-03-23T12:19:33.210852Z",
+  "quality_score": 0.95
 }

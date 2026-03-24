@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Llama 是由 Meta 开发的一系列开源大语言模型（LLM），包括 Llama、Llama2、Llama3 等版本，支持多语言、对话理解和文本生成等能力。它不依赖云端闭源服务，允许开发者在本地或私有服务器上部署和定制，因此在隐私敏感、离线使用或企业可控场景中极具价值。普通用户需要了解 Llama，是因为它代表了一种更透明、可审计、可自主掌控的 AI 使用方式，区别于需联网、受厂商限制的商业模型。",
+    "plain": "Llama 是 Meta 发布的一系列开源大语言模型，涵盖 Llama、Llama2、Llama3 等版本。具备多语言处理、对话理解及文本生成能力。因其开源特性，支持本地或私有化部署，不依赖云端闭源服务，适用于隐私敏感及企业可控场景，为用户提供透明、可自主掌控的 AI 解决方案。",
     "metaphor": "Llama 就像一套开源的智能厨房料理手册——任何人都能免费获取、按需修改食谱，还能在自家厨房里独立烹饪，无需每次做饭都去连锁餐厅点单。",
     "example": "一位医生使用本地运行的 Llama3 模型，在不上传患者数据的前提下，快速将专业医学文献摘要为通俗解释，辅助医患沟通。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "开源模型",
+    "私有化部署",
+    "文本生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.meta.com/llama/",
+    "https://github.com/meta-llama/llama"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T08:12:36Z"
+  "updated_at": "2026-03-23T12:43:34.527610Z",
+  "quality_score": 0.95
 }

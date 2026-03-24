@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 对齐",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Constitutional AI 是一种人工智能对齐方法，通过让模型在训练和推理过程中持续参照一套明确的、人类设定的原则（即‘宪法’）来约束其行为，例如拒绝有害、欺骗或不道德的回应。它不依赖大量人工标注的偏好数据，而是利用模型自我批评与修正的机制来内化价值观。普通用户需要了解它，因为它关系到AI是否真正尊重人类意图、保障安全与公平，而不仅是表面顺从——这直接影响日常交互中AI的可靠性与可信度。",
+    "plain": "Constitutional AI 是一种 AI 对齐方法，让模型参照人类设定的原则（宪法）约束行为，如拒绝有害回应。它不依赖大量人工标注，利用模型自我批评与修正机制内化价值观。这关系到 AI 是否尊重人类意图、保障安全与公平，直接影响交互的可靠性与可信度。",
     "metaphor": "就像一位法官在判案时始终对照宪法条文自我审查，而非仅听从上级指示或过往案例；Constitutional AI 也以预设原则为最高准则，实时反思并修正自己的输出。",
     "example": "当用户要求生成伪造新闻时，Constitutional AI 会先引用‘不得制造虚假信息’的宪法条款进行自我质疑，再生成拒绝请求并解释原因的回应，而非直接执行或简单说‘我不能’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 安全",
+    "模型训练",
+    "伦理规范"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:49:46Z"
+  "updated_at": "2026-03-23T15:19:57.889256Z",
+  "quality_score": 0.95
 }

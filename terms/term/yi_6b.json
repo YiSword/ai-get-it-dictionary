@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "yi_6b 是零一万物（01.ai）研发的开源大语言模型，参数量约为60亿，属于中等规模的中文大模型。它在中文理解与生成任务上表现优异，支持长文本处理、多轮对话和代码生成等能力。普通用户需要了解它，是因为其开源免费、本地可部署、对硬件要求相对较低，适合个人开发者、教育者或中小企业在不依赖云端API的前提下，构建定制化AI应用，如智能客服、文档摘要或学习助手。",
+    "plain": "yi_6b 是由零一万物（01.ai）研发的开源大语言模型，参数量约为 60 亿。该模型在中文理解、长文本处理及代码生成任务上表现优异。因其开源免费且对硬件要求相对较低，适合个人开发者或中小企业本地部署，用于构建智能客服、文档摘要等定制化 AI 应用。",
     "metaphor": "就像一辆性能均衡、油耗适中且维修手册完全公开的家用轿车——不需要专业车厂服务，懂点技术的人就能自己保养、改装，甚至加装个性化功能。",
     "example": "一名高校教师用 yi_6b 在本地电脑上搭建了一个自动批改学生作文的工具，无需联网上传隐私数据，且能根据本校教学大纲微调评分逻辑。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "开源模型",
+    "本地部署",
+    "中文 NLP"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/01-ai/Yi-6B",
+    "https://github.com/01-ai/Yi"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:57:11Z",
-  "updated_at": "2026-03-21T10:30:54Z"
+  "updated_at": "2026-03-23T18:44:06.329809Z",
+  "quality_score": 0.95
 }

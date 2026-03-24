@@ -5,22 +5,27 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "interpretability_tooling 是指用于理解、分析和解释机器学习模型（尤其是复杂模型如深度神经网络）内部决策逻辑的一系列工具、库和方法。它帮助用户查看模型为何做出特定预测，例如哪些输入特征起了关键作用、中间层如何响应数据等。普通用户需要了解它，是因为当AI系统被用于医疗诊断、信贷审批或司法辅助等高风险场景时，仅靠准确率不够——必须能验证其合理性、发现潜在偏见，并满足监管透明性要求。",
+    "plain": "interpretability_tooling 指用于分析和解释机器学习模型内部决策逻辑的工具库与方法。它帮助用户理解模型为何做出特定预测，如识别关键输入特征。在医疗、信贷等高风险场景中，仅靠准确率不足，需借助此类工具验证合理性、发现偏见并满足监管透明性要求，确保 AI 系统可信可靠。",
     "metaphor": "就像给一台黑箱发动机装上透明外壳和实时仪表盘，让你不仅能看见它是否运转，还能看清油路怎么走、转速怎么变、哪里有异常抖动。",
     "example": "某银行使用LIME工具分析信用评分模型，发现模型意外地将‘邮政编码’作为拒贷主因，从而识别出地域歧视风险并重新训练模型。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型调试",
+    "合规审计",
+    "风险控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://interpret.ml/",
+    "https://aif360.mybluemix.net/",
+    "https://christophm.github.io/interpretable-ml-book/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:38:00Z"
+  "updated_at": "2026-03-23T17:43:52.427497Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "human_in_the_loop（人在环路中）指在自动化或人工智能系统运行过程中，人类主动参与关键决策、审核或干预的机制。它不是完全放手给算法，而是在数据标注、模型训练、结果验证或高风险操作等环节嵌入人工判断，以提升系统可靠性、公平性与可解释性。普通用户需要了解这一概念，因为它关系到AI服务是否透明、可控，以及当系统出错时是否有真实的人负责——例如在医疗诊断辅助或信贷审批中，最终决定权是否仍掌握在人手中。",
+    "plain": "human_in_the_loop（人在环路）指在人工智能系统运行中，人类主动参与关键决策、审核或干预的机制。它并非完全自动化，而是在数据标注、模型训练或高风险操作等环节嵌入人工判断，以提升系统可靠性与公平性。这关系到 AI 服务是否透明可控，确保最终决定权掌握在人手中，常见于医疗诊断辅助或信贷审批场景。",
     "metaphor": "就像飞机上的自动驾驶系统，再先进也需飞行员随时监控并在必要时手动接管。",
     "example": "内容审核平台使用AI初筛违规视频，但将边缘案例（如讽刺类视频）自动转交人工审核员判定，确保不误删也不漏放。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "风险控制",
+    "数据标注"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ibm.com/topics/human-in-the-loop",
+    "https://en.wikipedia.org/wiki/Human-in-the-loop"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:17:41Z"
+  "updated_at": "2026-03-23T12:22:10.715090Z",
+  "quality_score": 0.95
 }

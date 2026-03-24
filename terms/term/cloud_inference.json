@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 基础设施",
   "difficulty": "中级",
   "explanations": {
-    "plain": "cloud_inference 是指将人工智能模型的推理（即实际运行模型进行预测或生成）过程放在远程云服务器上完成，而非在本地设备（如手机或电脑）上执行。用户通过网络发送输入数据（如一张图片或一段语音），云端返回处理结果。普通用户需要了解它，因为这直接影响应用响应速度、设备耗电、隐私控制（数据是否上传）以及能否使用高性能但资源消耗大的AI功能（如实时视频分析或大语言模型对话）。",
+    "plain": "cloud_inference 指将 AI 模型推理任务交由远程云服务器执行，而非本地设备。用户通过网络传输数据并获取结果。该方式支持高性能大模型运行，但依赖网络连接，直接影响响应速度、设备能耗及数据隐私。常见于大语言模型对话及复杂视频分析场景。",
     "metaphor": "就像把厨房外包给中央料理工厂——你只需下单并寄出食材，专业厨房做完菜再快递给你，自己不用买灶具、学厨艺，也不用清理油烟。",
     "example": "当你在手机App中拍照识别植物时，照片被上传至云端AI服务，服务器运行大型视觉模型判断物种并返回结果，而你的手机无需安装和运行数GB的模型文件。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "模型部署",
+    "大模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/machine-learning/inference/",
+    "https://cloud.google.com/vertex-ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:24:18Z",
-  "updated_at": "2026-03-21T04:34:11Z"
+  "updated_at": "2026-03-23T14:06:11.569271Z",
+  "quality_score": 0.95
 }

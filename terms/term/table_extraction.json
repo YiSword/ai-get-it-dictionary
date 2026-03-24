@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "文档智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Table extraction 是指从非结构化或半结构化文档（如PDF、扫描图片、网页）中自动识别并提取表格数据，将其转化为结构化格式（如CSV、Excel或数据库记录）的技术。它解决了人工抄录表格费时易错的问题，对财务人员、研究人员和数据分析师尤为重要——能快速将合同、报表、研究文献中的表格转化为可计算、可分析的数据，显著提升信息利用效率。",
+    "plain": "Table extraction 是从非结构化文档（如 PDF、图片）中自动识别并提取表格数据，转化为结构化格式（如 CSV、Excel）的技术。它解决人工抄录费时易错问题，帮助财务、研究人员快速将合同、报表中的表格转化为可分析数据，提升信息利用效率。",
     "metaphor": "就像一位熟练的图书管理员，能瞬间从杂乱堆放的旧报纸堆里精准找出所有带格子的价目表，并把它们一页页整理成整齐的电子清单。",
     "example": "某银行使用table_extraction工具自动解析客户上传的PDF版对账单，从中提取交易日期、金额和商户名称，直接导入风控系统进行异常消费分析。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文档智能",
+    "数据提取",
+    "OCR"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/ai-services/form-recognizer/",
+    "https://camelot-py.readthedocs.io/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:01:21Z"
+  "updated_at": "2026-03-23T14:39:42.984039Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 智能体",
   "difficulty": "中级",
   "explanations": {
-    "plain": "OpenHands 是一个开源的自动化智能体（AI agent）框架，专为复杂、多步骤的软件工程任务设计，支持自主规划、工具调用、代码编辑与环境交互。它基于真实开发数据训练，能理解 GitHub 仓库结构、运行测试、提交 PR 等，无需人工逐行指令。普通用户（尤其是开发者、技术团队）需要了解它，因为它代表了从‘写提示词’到‘交付可执行工作流’的范式升级——让 AI 真正成为能独立完成端到端开发任务的协作者，而非仅回答问题的聊天助手。",
+    "plain": "OpenHands 是一个开源的 AI 智能体框架，专为软件工程任务设计。它支持自主规划、工具调用、代码编辑与环境交互，能理解 GitHub 仓库、运行测试并提交 PR。无需人工逐行指令，代表从“写提示词”到“交付工作流”的范式升级，让 AI 成为独立完成端到端开发任务的协作者。",
     "metaphor": "就像一位刚入职的资深全栈工程师，自带开发环境、熟悉 Git 流程、能读文档查报错、自己建分支改代码并发起评审，你只需告诉ta目标，不用教每一步怎么敲命令。",
     "example": "当用户在 GitHub 上提交 issue 描述‘修复登录页邮箱校验正则导致中文邮箱无法通过’时，OpenHands 可自动复现问题、定位 frontend/src/utils/validate.js 文件、修改正则表达式、运行本地测试、生成修复 commit 并推送 PR。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 智能体",
+    "软件开发",
+    "自动化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openhands.ai",
+    "https://github.com/All-Hands-AI/OpenHands"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:00:32Z"
+  "updated_at": "2026-03-23T15:46:18.873058Z",
+  "quality_score": 1.0
 }

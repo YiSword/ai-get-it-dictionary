@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "采样算法",
   "difficulty": "中级",
   "explanations": {
-    "plain": "UniPC（Unified Predictor-Corrector）是一种用于加速扩散模型（如Stable Diffusion）采样过程的高效数值求解算法。它通过统一预测与校正步骤，显著减少生成高质量图像所需的迭代步数（例如从50步降至10步内），同时保持高保真度。普通用户需要了解它，因为启用UniPC可大幅缩短AI绘图等待时间，降低显存占用，让中低端显卡也能流畅运行文生图任务，提升日常创作效率。",
+    "plain": "UniPC 是一种加速扩散模型采样的高效数值求解算法。它统一预测与校正步骤，显著减少生成高质量图像所需的迭代步数（如 50 步降至 10 步内），同时保持高保真度。启用 UniPC 可大幅缩短 AI 绘图等待时间，降低显存占用，提升创作效率。",
     "metaphor": "就像导航软件在复杂路网中智能规划‘少绕路、不反复确认’的最优路径，UniPC在生成图像时用更聪明的数学策略一步到位，避免传统方法反复试错。",
     "example": "当用户在ComfyUI中将采样器设为UniPC并配置12步采样时，原本需30步才能生成的细节丰富的人像图，能在2秒内完成且无明显质量损失。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 绘图",
+    "扩散模型",
+    "采样优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2302.04867",
+    "https://github.com/wl-zhao/UniPC"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:51:36Z",
-  "updated_at": "2026-03-21T10:14:14Z"
+  "updated_at": "2026-03-23T18:52:10.980256Z",
+  "quality_score": 0.95
 }

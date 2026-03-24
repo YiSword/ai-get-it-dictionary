@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "计算机视觉",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Vision Transformer（ViT）是一种将Transformer架构应用于图像识别任务的深度学习模型。它把图像分割成固定大小的小块（patches），线性嵌入后按序列输入Transformer编码器，从而捕捉长距离空间依赖关系。与传统卷积神经网络不同，ViT不依赖局部感受野假设，而是通过自注意力机制全局建模图像结构。普通用户需要了解它，因为它是当前主流AI图像理解系统（如多模态大模型、智能相册分类、医学影像分析）的核心组件之一，标志着视觉AI从‘局部特征提取’迈向‘全局语义建模’的关键演进。",
+    "plain": "Vision Transformer（ViT）是将 Transformer 架构应用于图像识别的深度学习模型。它将图像分割为小块序列输入编码器，利用自注意力机制捕捉全局依赖，突破传统 CNN 局部感受野限制。作为多模态大模型核心组件，ViT 标志着视觉 AI 从局部特征向全局语义建模的关键演进，广泛用于图像分类与检测任务。",
     "metaphor": "就像一位画家先将整幅画拆成拼图碎片，再逐一审视每块与其他所有碎片的关系，最终在脑海中重构出画面的整体意义。",
     "example": "Google Photos 使用类似ViT的模型自动识别照片中的人物、地点和活动类型，即使同一人物在不同光照或角度下出现，也能准确聚类归档。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像分类",
+    "深度学习",
+    "多模态"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2010.11929",
+    "https://ai.googleblog.com/2020/10/vision-transformer.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:19:17Z"
+  "updated_at": "2026-03-23T12:28:31.057021Z",
+  "quality_score": 0.95
 }

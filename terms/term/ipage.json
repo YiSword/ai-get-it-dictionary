@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "Linux 内核",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ipage 是 Linux 内核中用于管理物理内存页的内部数据结构，全称是 'internal page' 或更准确地说是 'struct page' 的实例，每个实例对应一个物理内存页（通常为 4KB）。它不直接暴露给用户空间程序，但支撑着内存分配、回收、映射和 NUMA 等核心机制。普通用户虽不直接操作 ipage，但理解其存在有助于明白为什么内存泄漏、OOM（内存溢出）或 swap 频繁发生——因为内核正是通过成千上万个 ipage 来追踪每一页的使用状态、所属进程、是否脏、是否被映射等关键信息。",
+    "plain": "ipage 泛指 Linux 内核中管理物理内存页的核心数据结构（即 struct page）实例。每个实例对应一个物理页框，追踪页面状态、映射及归属。虽不直接暴露给用户空间，却是内存分配、回收及 OOM 机制的基础。理解它有助于分析内存泄漏与系统性能问题。",
     "metaphor": "ipage 就像酒店里每间客房门口的智能门牌：它不提供住宿，却实时显示房间是否空闲、住客姓名、是否需要打扫、是否禁止打扰——内核靠它精细调度每一寸物理内存。",
     "example": "当一个 Java 应用触发大量对象分配并引发频繁 GC 时，内核会通过遍历相关 ipage 结构来判断哪些内存页已无人引用，从而安全地回收或换出；/proc/meminfo 中的 'PageTables' 和 'AnonPages' 统计值也直接来源于 ipage 的状态聚合。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "Linux 内核",
+    "内存管理",
+    "系统调试"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.kernel.org/doc/html/latest/mm/index.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:53:03Z",
-  "updated_at": "2026-03-21T07:39:52Z"
+  "updated_at": "2026-03-23T13:59:57.608216Z",
+  "quality_score": 0.95
 }

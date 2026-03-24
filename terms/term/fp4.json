@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据类型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "fp4（Floating Point 4-bit）是一种仅用4位二进制数表示浮点数的极低精度数值格式，用于深度学习模型的权重和激活值压缩。它通过极简的指数与尾数分配（如1位符号、2位指数、1位尾数）大幅减少显存占用和计算开销。普通用户需要知道它，是因为它正推动手机、笔记本等消费级设备实现实时大语言模型运行——比如在iPhone上本地运行聊天助手，无需联网或依赖云端算力。",
+    "plain": "fp4（4-bit Floating Point）是一种极低精度数值格式，仅用 4 位二进制表示浮点数。它通过精简指数与尾数分配，大幅减少显存占用和计算开销，常用于深度学习模型权重压缩。该技术推动手机、笔记本等设备实现本地实时运行大语言模型，无需依赖云端算力，显著提升推理效率与隐私保护。",
     "metaphor": "就像把一本厚字典缩印成口袋卡片，牺牲部分查词精度，只为能随身携带并快速翻找关键词。",
     "example": "Meta在Llama 3的移动端推理中采用fp4量化，使7B参数模型可在搭载A17 Pro芯片的iPhone 15 Pro上以每秒超20词的速度本地生成文本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型压缩",
+    "硬件加速",
+    "边缘推理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developer.nvidia.com/blog/nvidia-blackwell-architecture-unveiled/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:11:05Z",
-  "updated_at": "2026-03-21T06:37:59Z"
+  "updated_at": "2026-03-23T19:08:37.438258Z",
+  "quality_score": 1.0
 }

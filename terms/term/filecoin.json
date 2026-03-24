@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "区块链",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Filecoin 是一个去中心化的存储网络，允许用户出租闲置硬盘空间来存储他人数据，并通过加密经济机制（如质押、证明和奖励）确保数据长期可靠存储。它不是云盘服务，而是一个由全球参与者共同维护的分布式存储市场。普通用户需要知道它，因为它是 Web3 基础设施的关键一环——既能以更低成本获得抗审查、高冗余的数据存储，也能将闲置硬件资源变现，同时支持去中心化应用（如 IPFS 上的内容永久保存）。",
+    "plain": "Filecoin 是基于区块链的去中心化存储网络，允许用户出租闲置硬盘空间存储数据。通过加密经济机制确保数据可靠，并非传统云盘。作为 Web3 基础设施关键一环，它提供抗审查、高冗余的低成本存储方案，支持硬件资源变现及去中心化应用数据永久保存，构建分布式存储市场。",
     "metaphor": "就像一个全球共享的‘硬盘 Airbnb’，用户既是房东（出租存储空间），也是租客（存数据），平台用自动合约和加密证明保障双方履约。",
     "example": "一个独立纪录片团队将影片上传至 Filecoin 网络，支付 FIL 代币获得为期三年的多副本、地理分散存储；即使某几个节点下线，数据仍可完整恢复。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "区块链",
+    "分布式存储",
+    "Web3"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://filecoin.io/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:35:12Z",
-  "updated_at": "2026-03-21T06:28:03Z"
+  "updated_at": "2026-03-23T19:03:47.439189Z",
+  "quality_score": 0.95
 }

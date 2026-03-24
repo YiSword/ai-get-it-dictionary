@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "nist_ai_rmf",
+  "norm_term": "nist_ai_rmf",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "regulation",
+  "category": "标准与框架",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "NIST AI 风险管理框架是由美国国家标准与技术研究院发布的自愿性指南，旨在帮助组织管理人工智能系统风险。它涵盖设计到部署的全生命周期，强调安全性、可靠性和透明度。该框架虽非强制法规，但直接影响数据隐私、算法公平性及技术可信度，尤其在医疗、金融等高风险领域应用广泛，是行业合规的重要参考。",
+    "metaphor": "就像建筑规范要求房屋必须通过抗震测试，该框架为AI系统设定了‘安全标准’，确保技术不会因设计缺陷或数据偏差而‘倒塌’伤害用户。",
+    "example": "某银行开发贷款审批AI时，依据该框架评估算法是否存在种族歧视风险，通过调整训练数据和增加人工复核环节，最终符合监管要求并提升用户信任。"
+  },
+  "scenario_tags": [
+    "风险管理",
+    "合规治理",
+    "人工智能安全"
+  ],
+  "sources": [
+    "https://www.nist.gov/itl/ai-risk-management-framework"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:51:47.335823Z",
+  "updated_at": "2026-03-23T17:41:02.561731Z",
+  "quality_score": 0.95
+}

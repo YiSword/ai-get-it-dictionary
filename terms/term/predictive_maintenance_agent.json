@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "predictive_maintenance_agent",
+  "norm_term": "predictive_maintenance_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "工业智能",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "预测性维护代理是基于 AI 的智能体，通过分析设备传感器数据、日志及历史记录，预测潜在故障并生成维护建议。它解决传统定期维护的资源浪费及突发故障导致的生产中断问题，支持企业在性能下降前主动干预，实现数据驱动的设备管理决策，提升工业运维效率与可靠性。",
+    "metaphor": "就像给机器配备健康手环，持续监测'生命体征'并在异常时发出预警，让维护人员像医生一样提前制定治疗方案。",
+    "example": "某风电场部署该代理后，系统通过分析风机振动数据预测齿轮箱磨损，提前两周安排更换备件，避免非计划停机导致的百万级发电损失。"
+  },
+  "scenario_tags": [
+    "智能制造",
+    "工业物联网",
+    "AI 运维"
+  ],
+  "sources": [
+    "https://azure.microsoft.com/en-us/solutions/ai-predictive-maintenance/",
+    "https://www.ibm.com/watson/iot/predictive-maintenance"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:28:09.103132Z",
+  "updated_at": "2026-03-23T12:26:52.400470Z",
+  "quality_score": 1.0
+}

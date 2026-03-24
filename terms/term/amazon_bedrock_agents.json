@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "amazon_bedrock_agents",
+  "norm_term": "amazon_bedrock_agents",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "platform",
+  "category": "AI 开发平台",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Amazon Bedrock Agents 是 AWS 提供的智能代理构建服务。它支持开发者创建能自主执行多步骤任务的 AI 代理，通过自然语言理解、工具调用和任务编排，连接大模型与企业系统、API 及数据库。用户可快速部署客服助手、数据分析等应用，无需深入机器学习技术，降低企业智能化门槛。",
+    "metaphor": "就像给企业配备了一支 24 小时待命的数字员工团队，每个代理都能像人类员工一样理解指令、调用工具并协作完成复杂工作，比如同时处理客户咨询、更新订单系统并生成报告。",
+    "example": "某电商公司使用 Bedrock Agents 构建售后代理，当用户询问'我的订单为何延迟'时，代理自动查询物流系统、分析延误原因，并同步触发补偿券发放流程，全程无需人工干预。"
+  },
+  "scenario_tags": [
+    "智能代理",
+    "企业自动化",
+    "大模型应用"
+  ],
+  "sources": [
+    "https://aws.amazon.com/bedrock/agents/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:40:17.322111Z",
+  "updated_at": "2026-03-23T12:14:05.064137Z",
+  "quality_score": 0.95
+}

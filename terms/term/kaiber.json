@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 视频生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Kaiber 是一家专注于人工智能视频生成的公司，其核心产品是基于文本或图像提示快速生成高质量短视频的AI工具。它支持风格迁移、动态运镜、音乐同步等功能，使创作者无需专业剪辑技能即可制作富有表现力的视觉内容。普通用户需要了解 Kaiber，因为它代表了AIGC（人工智能生成内容）在视频领域的前沿实践，正逐步降低创意表达的技术门槛，影响社交媒体内容创作、数字营销乃至教育可视化的方式。",
+    "plain": "Kaiber 是一款基于人工智能的视频生成工具，支持通过文本或图像提示快速创作高质量短视频。具备风格迁移、动态运镜及音乐同步功能，无需专业剪辑技能即可制作视觉内容。作为 AIGC 视频领域的前沿应用，它显著降低了创意表达门槛，广泛应用于社交媒体创作与数字营销场景。",
     "metaphor": "就像一位精通绘画、配乐和运镜的全能导演，你只需描述想法，它便能立刻为你拍出一段有情绪、有节奏的短视频。",
     "example": "一位独立音乐人用 Kaiber 将新歌的歌词和专辑封面图输入，5分钟内生成了一支风格统一、镜头流动的宣传短片，直接发布到Instagram吸引粉丝。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AIGC",
+    "视频创作",
+    "多模态生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://kaiber.ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:03:19Z",
-  "updated_at": "2026-03-21T07:48:22Z"
+  "updated_at": "2026-03-23T17:44:15.872364Z",
+  "quality_score": 0.95
 }

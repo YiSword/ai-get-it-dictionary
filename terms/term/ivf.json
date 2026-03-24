@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "医疗健康",
   "difficulty": "中级",
   "explanations": {
-    "plain": "IVF（In Vitro Fertilization，体外受精）是一种辅助生殖技术，指将卵子和精子在实验室培养皿中人工结合形成胚胎，再将发育早期的胚胎移植回女性子宫内着床妊娠。它为因输卵管阻塞、严重少弱精症、排卵障碍或不明原因不孕等导致自然受孕困难的夫妇提供了生育可能。普通用户需要了解IVF，不仅因为其日益普及（全球已有数百万试管婴儿出生），更因为它涉及重大的医学、伦理、心理及经济决策，提前认知有助于理性评估选择、减少误解与焦虑。",
+    "plain": "IVF（体外受精）是一种辅助生殖技术。它将卵子和精子在实验室培养皿中结合形成胚胎，再将早期胚胎移植回女性子宫内着床妊娠。适用于输卵管阻塞、严重少弱精症等导致不孕的夫妇。全球已有数百万试管婴儿出生，涉及医学、伦理及经济决策，需理性评估。",
     "metaphor": "就像在实验室里搭建一座临时的‘生命孵化站’，把原本需要在人体内完成的关键受孕步骤，暂时搬到可控的玻璃器皿中安全执行。",
     "example": "一对结婚八年、因双侧输卵管切除而无法自然怀孕的夫妇，通过IVF成功获得一枚优质胚胎并移植后顺利分娩健康女婴。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "医疗健康",
+    "生殖技术",
+    "辅助生育"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.who.int/health-topics/infertility",
+    "https://www.mayoclinic.org/tests-procedures/in-vitro-fertilization/about/pac-20384717"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:43:17Z"
+  "updated_at": "2026-03-23T11:12:37.664526Z",
+  "quality_score": 0.95
 }

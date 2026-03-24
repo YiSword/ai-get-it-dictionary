@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "cpu_offload 是一种模型优化技术，指将大型机器学习模型的部分计算或参数临时从 GPU 内存卸载（offload）到 CPU 内存甚至磁盘，以缓解 GPU 显存不足的问题。它常用于训练或推理超大模型（如 LLM）时，当模型参数规模超出 GPU 容量，系统通过动态调度，在需要时将参数加载回 GPU、用完再卸载，从而实现‘小显存跑大模型’。普通用户（尤其是开发者和研究人员）需要了解它，因为它是低成本运行百亿级模型的关键手段之一，直接影响能否在消费级硬件上开展实验。",
+    "plain": "cpu_offload 是一种深度学习优化技术，指将模型参数或计算任务从 GPU 显存临时卸载至 CPU 内存或磁盘，以缓解显存不足。常用于大模型训练或推理，通过动态调度实现“小显存跑大模型”。这是在消费级硬件上运行百亿级模型的关键手段，显著降低了实验门槛。",
     "metaphor": "就像图书馆把不常借阅的书籍暂时存放到地下室，只把当前读者需要的书放在阅览室书架上——CPU 是地下室，GPU 是有限的阅览室书架。",
     "example": "使用 Hugging Face Accelerate 库启用 cpu_offload 后，一台配备 12GB 显存的 RTX 4090 可成功加载并推理 130 亿参数的 LLaMA-2 模型，而无需升级硬件。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型推理",
+    "模型训练",
+    "显存优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/accelerate/usage_guides/big_model_inference",
+    "https://www.deepspeed.ai/tutorials/zero-offload/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:03:53Z"
+  "updated_at": "2026-03-23T12:33:07.998301Z",
+  "quality_score": 0.95
 }

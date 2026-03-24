@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "计算机视觉",
   "difficulty": "中级",
   "explanations": {
-    "plain": "OCR（Optical Character Recognition，光学字符识别）是一种将图像中的文字自动转换为可编辑、可搜索的文本数据的技术。它能识别扫描件、照片或截图里的印刷体甚至手写体文字，并将其变成电脑能处理的字符串。普通用户需要了解OCR，因为它广泛应用于日常场景：比如用手机拍下菜单立刻翻译、把纸质合同转成Word文档编辑、或在PDF中直接复制粘贴文字，极大提升了信息获取和处理效率。",
+    "plain": "OCR（光学字符识别）是将图像中的文字转换为可编辑文本的技术。它能识别扫描件、照片中的印刷体或手写体，转化为计算机可处理的字符串。广泛应用于文档数字化、车牌识别、图片翻译等场景，极大提升了信息处理效率。",
     "metaphor": "OCR就像一位精通多国文字的速记员，看到一张纸上的字，不用人工抄写，眨眼间就把它准确地打成电子文档。",
     "example": "当你用手机扫描APP拍摄一张发票照片，OCR技术会自动识别出上面的金额、日期和商家名称，并填入报销系统中。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文档数字化",
+    "图像识别",
+    "自动化办公"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Optical_character_recognition",
+    "https://cloud.google.com/vision/docs/ocr"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:56:46Z"
+  "updated_at": "2026-03-23T18:27:17.545501Z",
+  "quality_score": 0.95
 }

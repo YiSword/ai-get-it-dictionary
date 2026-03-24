@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Contextual bandit（上下文赌博机）是一种强化学习模型，用于在每次决策时根据实时上下文信息（如用户特征、时间、环境状态）从多个可选动作中选择最优的一个，并立即获得反馈（奖励或损失）。它比传统多臂老虎机更智能，因为不依赖固定策略，而是动态适配情境。普通用户需要了解它，是因为该技术已广泛应用于个性化推荐、广告投放、新闻推送等日常服务中——它决定了你看到什么内容、收到什么优惠，直接影响体验与效率。",
+    "plain": "上下文赌博机是一种强化学习模型，根据实时上下文（如用户特征）从多个动作中选择最优项并立即获得反馈。相比传统多臂老虎机，它能动态适配情境。该技术广泛应用于个性化推荐、广告投放等场景，直接影响用户看到的内容与优惠，是提升决策效率的关键算法。",
     "metaphor": "就像一位经验丰富的咖啡师，每次根据顾客的穿着、进店时间、天气和过往点单记录，即时推荐最可能满意的饮品，而不是机械地推销销量最高的那一款。",
     "example": "某短视频App在用户打开首页的瞬间，基于其历史观看时长、当前时段、设备类型和地理位置，从数千个视频中实时选出一个最可能被点击并看完的视频进行首推，这就是contextual bandit的典型应用。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "个性化推荐",
+    "广告投放",
+    "强化学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Contextual_bandit",
+    "https://vowpalwabbit.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:53:25Z"
+  "updated_at": "2026-03-23T12:18:40.020038Z",
+  "quality_score": 0.95
 }

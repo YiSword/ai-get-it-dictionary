@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Gemma 是 Google 推出的一系列开源、轻量级大语言模型，专为开发者和研究人员设计，支持在消费级硬件（如笔记本电脑或边缘设备）上本地运行。它提供多种参数规模（如 2B 和 7B），兼顾性能与效率，并默认启用安全对齐机制。普通用户需要知道 Gemma，因为它降低了使用先进 AI 技术的门槛——无需依赖云端服务、不上传隐私数据，就能在本地实现文本生成、代码辅助、问答等实用功能。",
+    "plain": "Gemma 是 Google 推出的开源轻量级大语言模型系列，提供 2B 和 7B 等参数规模。它专为开发者和研究人员设计，支持在消费级硬件上本地运行，默认启用安全对齐机制。用户无需依赖云端即可实现文本生成、代码辅助等功能，有效降低了 AI 技术使用门槛并保护隐私。",
     "metaphor": "Gemma 就像一台高性能但体积小巧的‘AI 厨房料理机’：不需要接入中央厨房（云端），也能在家（你的电脑）快速做出可口的饭菜（高质量文本输出）。",
     "example": "一位前端开发者在离线环境下用 Gemma 2B 模型实时解释报错信息并生成修复建议，全程数据不出本地；另一名教师用它在课堂平板上即时生成个性化习题，无需网络连接。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "开源模型",
+    "本地部署",
+    "文本生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.google.dev/gemma"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:44:17Z"
+  "updated_at": "2026-03-23T15:54:26.359210Z",
+  "quality_score": 0.95
 }

@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "ai_policy_generator",
+  "norm_term": "ai_policy_generator",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "tool",
+  "category": "安全自动化工具",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "ai_policy_generator 是一种结合机器学习与策略引擎（如 OPA）的安全自动化工具。它通过分析用户行为与系统日志，动态生成符合合规要求的访问控制策略，替代传统手动编写。该工具旨在提升权限管理效率，降低配置错误风险，适用于云原生环境下的智能安全治理场景。",
+    "metaphor": "就像智能导航系统根据实时路况自动规划最佳路线，该工具能根据系统运行状态自动生成最优权限规则，让安全策略像自动驾驶一样智能适配需求。",
+    "example": "某企业使用 ai_policy_generator 分析员工数据访问记录后，自动生成分级权限策略：财务部门仅能访问加密账目文件，研发人员可修改代码库但无法导出核心算法，策略更新延迟从小时级缩短至分钟级。"
+  },
+  "scenario_tags": [
+    "权限管理",
+    "安全合规",
+    "自动化运维"
+  ],
+  "sources": [
+    "https://www.openpolicyagent.org/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:00:25.235131Z",
+  "updated_at": "2026-03-23T14:27:59.585414Z",
+  "quality_score": 0.95
+}

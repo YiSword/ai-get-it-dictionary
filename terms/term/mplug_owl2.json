@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "mPLUG-Owl2 是一个开源的多模态大语言模型，由阿里巴巴集团研发，能够同时理解图像和文本，并执行如视觉问答、图文生成、跨模态推理等复杂任务。它基于更强的视觉编码器和更优的对齐策略，在细粒度理解（如识别图像中物体关系、文字内容）上表现突出。普通用户需要了解它，是因为它代表了AI从‘只读文字’迈向‘看懂世界’的关键进展，正逐步融入智能助手、教育工具、无障碍服务等日常应用中。",
+    "plain": "mPLUG-Owl2 是阿里巴巴研发的开源多模态大语言模型。它能同时理解图像与文本，支持视觉问答、图文生成及跨模态推理。凭借更强的视觉编码器和对齐策略，其在细粒度识别（如物体关系、文字内容）上表现优异。该模型代表了 AI 从文本理解迈向视觉理解的关键进展，广泛应用于智能助手及教育场景。",
     "metaphor": "就像一位精通双语且受过美术训练的编辑，既能逐字解读文章，又能精准描述一幅画的构图、色彩与隐含情绪。",
     "example": "用户上传一张餐厅手写菜单的照片，mPLUG-Owl2不仅能识别出‘红烧肉 ¥48’等文字，还能结合菜品图片判断其色泽质感，并回答‘这道菜看起来偏咸还是偏甜？’"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "视觉问答",
+    "图文生成",
+    "智能助手"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/X-PLUG/mPLUG-Owl",
+    "https://modelscope.cn/models/damo/mplug-owl2"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:46:14Z",
-  "updated_at": "2026-03-21T08:49:01Z"
+  "updated_at": "2026-03-23T15:38:55.268719Z",
+  "quality_score": 0.95
 }

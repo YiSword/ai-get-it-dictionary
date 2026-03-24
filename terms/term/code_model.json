@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "编译器技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "code_model 是指编程语言或编译器在生成机器码时所采用的内存寻址和指令编码规则，它决定了函数调用、全局变量访问、跳转范围等底层行为如何被翻译成可执行代码。普通用户（尤其是C/C++开发者、嵌入式工程师或逆向分析人员）需要了解它，因为错误的 code_model 会导致链接失败、地址截断、跨模块调用崩溃等问题，尤其在32位与64位混合开发、大型程序或资源受限平台中尤为关键。",
+    "plain": "code_model 是编译器生成机器码时采用的内存寻址与指令编码规则，决定函数调用、变量访问及跳转范围。错误配置会导致链接失败、地址截断或崩溃，常见于 64 位开发、大型程序或嵌入式场景，需根据架构选择 small、medium 或 large 等模式。",
     "metaphor": "就像建筑师设计楼房时必须提前约定‘每层楼高3米还是4米’——code_model 就是编译器为整个程序设定的‘指令地址标尺’，所有代码都按这个尺度来丈量和定位。",
     "example": "在x86-64 Linux下编译一个超大二进制文件时，若使用默认的 small code model 而实际代码段超过2GB，会导致相对跳转指令因位移超限而编译失败；此时需显式指定 -mcmodel=medium 让编译器改用更灵活的寻址方式。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "编译配置",
+    "系统编程",
+    "底层优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://gcc.gnu.org/onlinedocs/gcc/x86-Options.html",
+    "https://llvm.org/docs/CodeModel.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T04:39:02Z"
+  "updated_at": "2026-03-23T12:49:05.977193Z",
+  "quality_score": 0.95
 }

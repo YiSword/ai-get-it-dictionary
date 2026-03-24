@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "credit_assignment（信用分配）是强化学习中的核心问题，指在智能体完成一个长序列动作并获得最终奖励后，如何将该奖励合理地归因到此前每一步具体动作上的过程。它决定了哪些行为真正促成了成功（或失败），从而指导策略更新。普通用户需要了解它，因为它是AI自主学习、优化决策逻辑的基础机制——比如推荐系统如何判断是哪次点击导致了用户最终下单，或自动驾驶中哪次转向避免了事故。",
+    "plain": "信用分配是强化学习核心问题，指智能体获得最终奖励后，如何将奖励合理归因到此前每一步动作的过程。它确定哪些行为促成成功或失败，从而指导策略更新。这是 AI 自主优化决策的基础，例如推荐系统判断哪次点击导致用户下单，或自动驾驶中哪次转向避免了事故。",
     "metaphor": "就像导演回看一场电影成片后，要逐帧分析是哪句台词、哪个镜头、哪次剪辑真正打动了观众，才能改进下一部作品。",
     "example": "在训练一个玩Atari游戏的AI时，它在第1000帧打出最后一击击败Boss并获得高分，信用分配算法会追溯计算前几秒内每一次按键对最终胜利的贡献度，而非简单地把全部功劳归给最后一击。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "强化学习",
+    "决策优化",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Credit_assignment_problem",
+    "http://incompleteideas.net/book/the-book-2nd.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:04:08Z"
+  "updated_at": "2026-03-23T12:31:28.821256Z",
+  "quality_score": 0.95
 }

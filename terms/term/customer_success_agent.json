@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "customer_success_agent",
+  "norm_term": "customer_success_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "客户服务",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "客户成功代理指通过系统化监控客户产品使用数据，提供主动干预与个性化服务的企业级解决方案或角色。旨在解决客户流失与使用率低的问题，确保客户持续获得价值并建立长期关系。该概念帮助企业维护服务质量，同时提升用户作为客户的体验价值与满意度。",
+    "metaphor": "就像私人健身教练持续跟踪学员训练数据并提供调整建议，客户成功代理通过数据洞察为客户定制成功路径，防止中途放弃。",
+    "example": "某 SaaS 公司部署客户成功代理系统后，自动识别使用频率下降的客户，触发专属培训邀请并安排客户经理跟进，使季度续费率提升 22%。"
+  },
+  "scenario_tags": [
+    "客户服务",
+    "企业管理",
+    "用户留存"
+  ],
+  "sources": [
+    "https://www.gainsight.com/customer-success/",
+    "https://www.salesforce.com/products/service-cloud/overview/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:03:34.924019Z",
+  "updated_at": "2026-03-23T18:52:03.284784Z",
+  "quality_score": 1.0
+}

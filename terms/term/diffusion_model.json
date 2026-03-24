@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "扩散模型（diffusion model）是一类生成式人工智能模型，通过逐步向数据（如图像）添加噪声，再学习逆向过程——从纯噪声中逐步还原出真实数据。它在图像生成、编辑、超分辨率等任务中表现出色，已成为当前AIGC领域的主流技术之一。普通用户需要了解它，因为日常使用的AI绘图工具（如Stable Diffusion、DALL·E 3背后的部分机制）大多基于此类模型，理解其原理有助于更合理地使用提示词、预判生成效果及识别生成内容的局限性。",
+    "plain": "扩散模型是生成式 AI 模型，通过逐步加噪再学习逆向去噪，从纯噪声中还原真实数据。它在图像生成、编辑等任务表现卓越，是 AIGC 主流技术。日常 AI 绘图工具（如 Stable Diffusion）多基于此，理解原理有助于合理使用提示词及预判生成效果。",
     "metaphor": "就像一位画家先将一幅画彻底涂成均匀的灰白噪点，再凭记忆和技巧，一帧一帧地擦除噪点、还原细节，最终重现整幅作品。",
     "example": "用户在Stable Diffusion中输入提示词‘一只穿宇航服的柴犬在火星上奔跑’，模型通过数十步去噪过程，从随机噪声逐渐生成符合描述的高清图像。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "AIGC",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2006.11239",
+    "https://huggingface.co/docs/diffusers/index"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T05:41:00Z"
+  "updated_at": "2026-03-23T14:37:00.468055Z",
+  "quality_score": 0.95
 }

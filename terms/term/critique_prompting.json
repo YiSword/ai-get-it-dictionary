@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "提示工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "critique_prompting 是一种提示工程策略，指先让大语言模型生成初步回答，再要求它以批判性视角自我审查该回答的逻辑漏洞、事实错误、表达不清或潜在偏见，并据此迭代优化。它不依赖人工反馈，而是通过结构化指令激发模型的元认知能力。普通用户需要了解它，因为能显著提升AI输出的准确性、可靠性和专业性，尤其在写作、编程、学术研究等对质量要求较高的场景中，避免轻信一次性生成结果。",
+    "plain": "critique_prompting 是一种提示工程策略，指让模型先生成回答，再以批判视角自我审查逻辑、事实或偏见，并迭代优化。它不依赖人工反馈，通过结构化指令激发模型元认知能力。适用于写作、编程、学术研究等高质量场景，能显著提升 AI 输出的准确性与可靠性，避免轻信一次性生成结果。",
     "metaphor": "就像一位作者先写完初稿，再戴上编辑眼镜逐段挑刺、删改润色，直到文稿经得起推敲。",
     "example": "用户让模型撰写一段关于气候变化的科普文案，随后追加指令：‘请从科学准确性、受众理解难度和潜在误导风险三方面批判前文，并重写优化版本。’"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "内容生成",
+    "逻辑推理",
+    "质量优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2303.17651",
+    "https://www.promptingguide.ai/techniques/refinement"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:05:08Z"
+  "updated_at": "2026-03-23T17:59:48.189804Z",
+  "quality_score": 0.95
 }

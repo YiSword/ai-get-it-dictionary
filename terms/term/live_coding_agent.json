@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "live_coding_agent",
+  "norm_term": "live_coding_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "capability",
+  "category": "AI 编程助手",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Live Coding Agent 是一种具备实时代码生成与交互能力的 AI 代理。它能在开发者编写代码时动态提供补全、调试及优化建议，通过理解上下文逻辑即时响应需求。该能力旨在减少重复劳动，提升编码效率，帮助用户适应未来人机协作的开发模式，是智能化编程工具的核心价值体现。",
+    "metaphor": "就像编程时的智能副驾驶，在你敲击键盘的瞬间就能预判需求，自动填充代码片段或指出潜在错误，让编程像对话一样流畅。",
+    "example": "开发者在编写 Python 函数时，AI 实时检测循环结构冗余，自动推荐列表推导式优化方案，并展示性能对比数据，帮助快速决策。"
+  },
+  "scenario_tags": [
+    "代码生成",
+    "智能开发",
+    "人机协作"
+  ],
+  "sources": [
+    "https://github.com/features/copilot",
+    "https://www.cursor.com/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:35:26.450805Z",
+  "updated_at": "2026-03-23T17:33:42.812830Z",
+  "quality_score": 0.95
+}

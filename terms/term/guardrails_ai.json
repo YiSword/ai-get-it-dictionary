@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "guardrails_ai",
+  "norm_term": "guardrails_ai",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "framework",
+  "category": "AI 安全",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Guardrails AI 是一个开源框架，用于为大型语言模型（LLM）添加结构化输出和安全防护。它通过定义验证规则（如格式校验、内容过滤），在输入和输出阶段拦截有害或不合规内容。该工具帮助开发者构建可信 AI 应用，降低幻觉与伦理风险，是实现 LLM 生产级部署的关键安全基础设施。",
+    "metaphor": "就像高速公路的护栏防止车辆冲出道路，Guardrails AI 为 AI 输出设置安全边界，确保内容不偏离伦理和法律轨道。",
+    "example": "某银行使用 Guardrails AI 监控客服聊天机器人，自动拦截涉及金融诈骗话术或客户隐私泄露的回复，确保服务符合监管要求。"
+  },
+  "scenario_tags": [
+    "大模型应用",
+    "内容风控",
+    "开发框架"
+  ],
+  "sources": [
+    "https://www.guardrailsai.com/",
+    "https://github.com/guardrails-ai/guardrails"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:46:07.338128Z",
+  "updated_at": "2026-03-23T18:28:50.572918Z",
+  "quality_score": 1.0
+}

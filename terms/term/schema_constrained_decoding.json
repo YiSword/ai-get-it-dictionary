@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "解码策略",
   "difficulty": "中级",
   "explanations": {
-    "plain": "schema_constrained_decoding 是一种大语言模型生成文本时的解码技术，它强制模型的输出严格符合预定义的结构化模式（如 JSON Schema、XML DTD 或特定语法格式）。该技术通过在解码过程中动态裁剪非法 token 或重加权概率分布，确保输出在语法和语义层面都满足约束。普通用户需要了解它，因为这直接关系到模型能否可靠地生成可被程序自动解析的数据（如 API 响应、配置文件或表单提交），避免因格式错误导致下游系统崩溃或人工纠错成本。",
+    "plain": "schema_constrained_decoding 是一种大模型解码技术，强制输出符合预定义结构（如 JSON Schema）。它通过在生成时动态屏蔽非法 token，确保结果满足约束。这使模型能可靠生成可解析数据，避免格式错误导致系统崩溃，降低人工纠错成本，适用于 API 响应等场景。",
     "metaphor": "就像给模型戴上一副‘结构化眼镜’，让它在说话前必须先对照一张精确的填空模板，漏填、错填或自由发挥都不被允许。",
     "example": "当调用一个天气查询 API 时，后端使用 schema_constrained_decoding 强制模型只输出符合 {\"city\": \"string\", \"temperature\": \"number\", \"unit\": \"C|F\"} 的 JSON，杜绝返回自然语言描述或缺失字段。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "结构化输出",
+    "推理控制",
+    "工程化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/outlines-dev/outlines",
+    "https://huggingface.co/blog/constrained-generation"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:38:19Z"
+  "updated_at": "2026-03-23T17:47:32.565191Z",
+  "quality_score": 0.95
 }

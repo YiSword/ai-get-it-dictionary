@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据库",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Milvus 是一个开源的向量数据库，专为高效存储、索引和检索海量高维向量数据而设计。它支持相似性搜索（如‘找最像这张图片的十张图’），广泛应用于AI场景，例如推荐系统、图像检索、语义搜索和大模型RAG（检索增强生成）。普通用户需要了解它，是因为随着AI应用普及，传统数据库无法快速处理嵌入向量这类非结构化数据的相似匹配，而Milvus填补了这一关键能力缺口。",
+    "plain": "Milvus 是一款开源向量数据库，专为高效存储、索引和检索海量高维向量数据设计。它支持相似性搜索，广泛应用于推荐系统、图像检索、语义搜索及大模型 RAG 场景。随着 AI 应用普及，传统数据库难以处理嵌入向量的相似匹配，Milvus 填补了这一关键能力缺口，是 AI 基础设施的重要组成部分。",
     "metaphor": "Milvus 就像一座为‘数字指纹’（即向量）量身定制的超级图书馆——它不按书名或作者分类，而是根据每本书散发出的独特‘气味’（语义特征）快速找出气味最相近的几本。",
     "example": "某电商App使用Milvus存储商品图片的视觉向量，当用户上传一张‘红色运动鞋’照片时，系统在毫秒内从千万级商品中召回外观与语义最相似的候选商品，实现以图搜图。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "向量搜索",
+    "大模型",
+    "检索增强生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://milvus.io/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:39:20Z"
+  "updated_at": "2026-03-23T16:37:38.772789Z",
+  "quality_score": 0.95
 }

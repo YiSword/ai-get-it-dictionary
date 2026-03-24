@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "网络安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "input_filtering（输入过滤）是指在软件或系统接收用户输入时，主动检查、清理或拒绝不符合预期格式、类型或安全要求的数据的过程。它能防止恶意输入（如SQL注入、跨站脚本）导致的安全漏洞，也能避免程序因异常数据而崩溃或产生错误结果。普通用户虽不直接操作该机制，但了解它有助于理解为何某些字符被禁止输入、表单提交失败或网站对密码强度有要求——这些背后都是输入过滤在起作用，保障其数据安全与服务稳定。",
+    "plain": "input_filtering（输入过滤）指系统接收用户输入时，主动检查、清理或拒绝不符合预期格式及安全要求的数据。它能防止 SQL 注入、跨站脚本等安全漏洞，避免程序因异常数据崩溃。用户遇到的字符限制、表单验证失败等现象背后均是该机制在起作用，旨在保障数据安全与服务稳定。",
     "metaphor": "就像机场安检对所有行李进行扫描和开箱检查，只允许符合安全标准的物品登机，输入过滤则是对每一条用户输入‘过一遍安检’，拦截危险或不合格的内容。",
     "example": "当用户在登录表单中输入用户名时，系统自动移除其中的HTML标签和SQL语句片段，仅保留字母、数字和下划线，防止攻击者通过输入'admin'--'来绕过密码验证。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "网络安全",
+    "数据验证",
+    "漏洞防护"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://owasp.org/www-community/controls/Input_Validation",
+    "https://cwe.mitre.org/data/definitions/20.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:33:19Z"
+  "updated_at": "2026-03-23T16:29:19.194610Z",
+  "quality_score": 0.95
 }

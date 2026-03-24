@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评测基准",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MBPP（Mostly Basic Python Problems）是一个面向编程初学者的开源代码生成基准数据集，包含约1000个短小、独立、自然语言描述的Python编程任务，每个任务附带人工编写的正确参考实现。它被广泛用于评估代码大模型（如Codex、CodeLlama）在基础语法、逻辑推理和简单算法上的生成能力。普通用户（尤其是学习编程或使用AI编程助手的人）需要了解MBPP，因为它代表了当前AI理解并生成‘人类可读、可运行、无副作用’基础代码的真实水平，是判断工具是否可靠实用的重要标尺。",
+    "plain": "MBPP（Mostly Basic Python Problems）是面向初学者的开源代码生成基准数据集。包含约 1000 个自然语言描述的 Python 任务及参考实现，用于评估代码大模型在基础语法与逻辑上的生成能力。它是判断 AI 编程工具可靠性的重要标尺，广泛应用于 Codex、CodeLlama 等模型的性能测试。",
     "metaphor": "MBPP就像编程世界的‘乘法口诀表’——不追求复杂技巧，但精准检验AI是否真正掌握了最基础、最常用的编码直觉与规范。",
     "example": "研究人员用MBPP测试新发布的代码模型：给定题目‘写一个函数，输入字符串，返回其中元音字母的数量’，模型需生成简洁正确的Python函数；结果按功能正确性自动评分，而非仅看语法相似度。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "大模型评测",
+    "开源数据集"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2108.07732"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:28:35Z"
+  "updated_at": "2026-03-23T12:11:34.402887Z",
+  "quality_score": 0.95
 }

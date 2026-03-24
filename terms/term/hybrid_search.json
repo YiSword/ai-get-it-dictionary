@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "功能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "hybrid_search（混合搜索）是一种结合多种检索技术（如关键词匹配、向量语义搜索和过滤规则）的搜索方法，旨在同时兼顾准确性、相关性和灵活性。它能理解用户查询的字面含义与潜在意图，例如既匹配‘苹果’这个词语，又识别出用户可能在找水果或科技公司。普通用户需要了解它，因为现代搜索引擎、文档库和电商网站越来越多地依赖这种技术来提供更精准、更自然的结果，避免因单一搜索方式导致的漏检或误检。",
+    "plain": "混合搜索（hybrid_search）结合关键词匹配与向量语义搜索等多种检索技术。它既能捕捉字面匹配，又能理解语义意图，显著提升检索的准确率与召回率。广泛应用于现代搜索引擎、RAG 系统及电商推荐场景，有效避免单一检索方式导致的漏检或误检，为用户提供更精准自然的结果。",
     "metaphor": "就像一位经验丰富的图书管理员，既快速翻阅目录（关键词检索），又根据你的语气和上下文推荐相似主题的书（语义理解），还会按你指定的年代或语言筛选（结构化过滤）。",
     "example": "在企业知识库中搜索‘如何解决登录超时问题’，系统同时匹配‘登录’‘超时’等关键词、理解该问题属于‘技术支持’语义范畴，并仅返回最近6个月且标记为‘已验证’的文档。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "信息检索",
+    "RAG",
+    "搜索引擎"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.elastic.co/guide/en/elasticsearch/reference/current/hybrid-search.html",
+    "https://www.pinecone.io/learn/hybrid-search/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:19:20Z"
+  "updated_at": "2026-03-23T10:21:20.633535Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评估指标",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Accuracy（准确率）是衡量一个系统或模型预测结果与真实情况一致程度的指标，通常以百分比表示。它等于正确预测的样本数除以总样本数。普通用户需要了解它，因为它是评估智能设备、推荐系统、医疗辅助工具或语音识别等AI功能是否可靠的基础指标——高准确率意味着更少出错，更值得信赖。",
+    "plain": "准确率（Accuracy）是衡量 AI 模型预测结果与真实标签一致程度的核心指标，计算公式为正确预测数除以总样本数。它是评估分类模型性能的基础标准，广泛应用于图像识别、语音助手及医疗诊断等场景。高准确率代表模型出错概率低，可靠性强，是用户判断 AI 系统是否值得信赖的关键依据。",
     "metaphor": "就像一位厨师按食谱做菜，准确率衡量的是他端上桌的100道菜中，有多少道完全符合原配方要求。",
     "example": "在手机人脸识别解锁功能中，如果系统对100次解锁尝试成功了98次，其准确率就是98%；这意味着平均每天10次尝试可能有不到1次失败。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "分类任务",
+    "性能指标"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developers.google.com/machine-learning/crash-course/classification/accuracy",
+    "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:16:53Z",
-  "updated_at": "2026-03-21T03:16:48Z"
+  "updated_at": "2026-03-23T18:40:36.415147Z",
+  "quality_score": 0.95
 }

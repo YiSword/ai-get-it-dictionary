@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "azure_openai_on_your_data",
+  "norm_term": "azure_openai_on_your_data",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "platform",
+  "category": "云服务",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Azure OpenAI on Your Data 是微软 Azure 提供的企业级云服务，允许安全连接自有数据与 OpenAI 模型。它通过检索增强生成技术，在不泄露原始数据前提下，提升模型在特定领域的回答准确性。适用于客服系统、内部知识库等场景，有效解决数据隐私顾虑并提供贴合业务的智能化服务。",
+    "metaphor": "就像在公共图书馆里开辟专属阅览区，既保留共享书籍资源，又能添加自己的藏书供特定读者使用，确保知识既开放又安全。",
+    "example": "某保险公司将内部理赔案例库接入该服务后，客服机器人能基于历史数据精准回答客户关于理赔流程的个性化问题，而无需将敏感数据上传至公共模型。"
+  },
+  "scenario_tags": [
+    "企业应用",
+    "数据隐私",
+    "检索增强生成"
+  ],
+  "sources": [
+    "https://learn.microsoft.com/zh-cn/azure/ai-services/openai/concepts/use-your-data",
+    "https://azure.microsoft.com/zh-cn/products/ai-services/openai-service"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:39:48.741453Z",
+  "updated_at": "2026-03-23T17:03:18.485484Z",
+  "quality_score": 0.95
+}

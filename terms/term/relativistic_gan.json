@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Relativistic GAN（相对论GAN）是一类改进的生成对抗网络，其核心思想是让判别器不仅判断单个样本是真实还是伪造，而是比较生成样本与真实样本的相对真实性——即‘这个生成样本比这个真实样本更像真的吗？’。这种相对判别机制能缓解传统GAN中梯度消失和模式崩溃等问题，提升训练稳定性与生成质量。普通用户虽不直接接触算法细节，但会间接受益于它所支撑的更逼真、更多样化的AI图像生成、视频修复或艺术创作工具。",
+    "plain": "Relativistic GAN 是改进的生成对抗网络，核心让判别器比较生成与真实样本的相对真实性。该机制缓解梯度消失和模式崩溃，提升训练稳定性与生成质量。广泛应用于图像生成、视频修复等场景，支撑更逼真的 AI 创作工具。",
     "metaphor": "就像评委不是单独给每位选手打分，而是每次两两对比谁更接近‘冠军标准’，从而避免因整体水平浮动导致的误判。",
     "example": "在AI人脸编辑应用中，Relativistic GAN被用于生成高度自然的表情迁移结果，例如将一张静态人像实时转换为带有微笑、眨眼等动态微表情的视频帧，且避免出现皮肤纹理失真或眼神呆滞等常见瑕疵。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "计算机视觉",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1807.00734",
+    "https://github.com/AlexiaJM/RelativisticGAN"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:28:11Z",
-  "updated_at": "2026-03-21T09:31:11Z"
+  "updated_at": "2026-03-23T17:53:48.819952Z",
+  "quality_score": 0.95
 }

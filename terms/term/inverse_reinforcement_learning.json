@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "逆强化学习（Inverse Reinforcement Learning, IRL）是一种机器学习方法，旨在从专家的示范行为中反推出其背后隐含的奖励函数，而不是像传统强化学习那样预先给定奖励信号。它解决了‘如何让AI理解人类真正想要什么’这一关键问题——因为人类往往难以精确描述目标，却能自然地演示正确行为。普通用户需要了解它，是因为它正被用于使自动驾驶、服务机器人等系统更安全、更符合人类价值观，避免因错误设定奖励而导致危险或违背意图的行为。",
+    "plain": "逆强化学习（IRL）是从专家示范行为中反推隐含奖励函数的机器学习方法，区别于传统强化学习的预先给定奖励。它解决了人类难以精确描述目标却能演示行为的难题，广泛应用于自动驾驶、机器人等领域，使 AI 系统更安全、更符合人类价值观，避免因奖励设定错误导致危险或违背意图的行为。",
     "metaphor": "就像通过观察一位米其林厨师反复制作某道菜的过程，推断出他最看重的是鲜味、火候还是食材本味，而不是直接问他‘你的菜谱打分标准是什么’。",
     "example": "在自动驾驶中，IRL 可以通过分析人类司机在复杂路口的转向、刹车和变道决策，自动学习‘安全优先、礼让行人、平稳驾驶’等隐性驾驶准则，而非依赖工程师手工编写每条规则。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自动驾驶",
+    "机器人",
+    "人工智能安全"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Inverse_reinforcement_learning",
+    "https://ai.stanford.edu/~ang/papers/icml00-irl.pdf"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:38:40Z"
+  "updated_at": "2026-03-23T11:40:39.718819Z",
+  "quality_score": 0.95
 }

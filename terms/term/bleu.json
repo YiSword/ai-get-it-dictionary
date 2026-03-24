@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器翻译",
   "difficulty": "中级",
   "explanations": {
-    "plain": "BLEU（Bilingual Evaluation Understudy）是一种广泛用于评估机器翻译质量的自动指标，通过比较机器生成的译文与一个或多个参考人工译文之间的n元词组（如单词对、三元组）重叠程度来打分，分数范围在0到1之间，越接近1表示匹配度越高。普通用户需要了解BLEU，是因为它常被用来快速判断翻译系统（如网页翻译、手机输入法翻译）的可靠性——尽管它不能完全替代人工评价，但能提供可量化的性能基准，帮助开发者优化模型，也提醒用户对高BLEU分结果保持合理期待。",
+    "plain": "BLEU（Bilingual Evaluation Understudy）是机器翻译领域的自动评估指标。它通过计算机器译文与人工参考译文之间的 n 元词组重叠度来打分，范围 0 到 1。分数越高表示翻译质量越接近人工水平。开发者常用它量化模型性能，但需注意它不能完全替代人工评价，仅作为快速基准参考。",
     "metaphor": "BLEU就像用拼图匹配度来评判一幅临摹画：不是看整体意境，而是数有多少小色块（n元组）和原画完全一致。",
     "example": "研究人员训练了一个中英翻译模型后，用BLEU分数评估其在标准测试集（如WMT）上的表现，发现BLEU-4得分为32.7，说明其四元组匹配水平中等偏上；该分数被用于与其他模型横向对比，决定是否上线部署。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "机器翻译",
+    "模型评估",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aclanthology.org/P02-1040/",
+    "https://en.wikipedia.org/wiki/BLEU"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:09:50Z"
+  "updated_at": "2026-03-23T13:58:58.942836Z",
+  "quality_score": 0.95
 }

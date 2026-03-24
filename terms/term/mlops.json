@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MLOps（Machine Learning Operations）是一套将机器学习模型开发、部署、监控和迭代流程工程化的实践与工具集合，旨在提升模型从实验室到生产环境的可靠性、可重复性和协作效率。它融合了DevOps理念与数据科学工作流，涵盖数据版本控制、模型训练自动化、持续集成/持续部署（CI/CD）、性能监控与漂移检测等环节。普通用户虽不直接操作MLOps系统，但其背后支撑着推荐系统、智能客服、信贷风控等日常依赖AI服务的稳定性与公平性——若缺乏MLOps，这些服务可能频繁出错、响应迟缓或产生偏见结果。",
+    "plain": "MLOps（机器学习运维）是融合 DevOps 理念的工程化实践，用于自动化管理机器学习模型的全生命周期。涵盖数据版本控制、模型训练、持续集成/部署（CI/CD）及性能监控。它提升模型从开发到生产的可靠性与效率，支撑推荐系统、风控等 AI 服务的稳定运行，确保服务公平性与响应速度。",
     "metaphor": "MLOps就像汽车制造业中的总装流水线与质量监测体系：不仅把设计图纸（算法）变成可上路的车（模型），还持续检查引擎状态、轮胎磨损（模型性能衰减）并自动召回升级。",
     "example": "某电商公司使用MLOps平台自动重训商品推荐模型——当用户行为数据每日更新后，系统触发数据验证、模型训练、A/B测试及灰度发布，一旦发现点击率下降超阈值，立即回滚至前一稳定版本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型部署",
+    "自动化运维",
+    "生命周期管理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
+    "https://aws.amazon.com/mlops/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:45:00Z"
+  "updated_at": "2026-03-23T12:00:54.219223Z",
+  "quality_score": 0.95
 }

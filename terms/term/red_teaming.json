@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "网络安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Red_teaming 是一种主动式安全评估方法，指由专业人员模拟真实攻击者的行为，从外部或内部对系统、流程或人员发起多维度、无预先告知的渗透测试，以发现防御体系中的隐蔽弱点。它不仅检验技术漏洞，还评估策略、响应机制和人为因素。普通用户需要了解它，因为红队演练的结果直接影响其使用的数字服务（如银行App、医疗平台）是否真正抗得住高级威胁，而非仅通过表面合规检查。",
+    "plain": "Red Teaming 是一种主动安全评估方法，由专业人员模拟真实攻击者，对系统、流程或人员发起多维度渗透测试，以发现防御体系中的隐蔽弱点。它不仅检验技术漏洞，还评估策略响应和人为因素。结果直接影响数字服务能否抗住高级威胁，确保超越表面合规，保障用户数据安全。",
     "metaphor": "就像聘请职业骗子来反复尝试撬开你家的门锁、翻找窗户缝隙、甚至冒充快递员骗你开门，只为在小偷真的来之前堵住所有可能被利用的漏洞。",
     "example": "某大型银行委托红队伪装成供应链合作伙伴，通过钓鱼邮件、物理尾随进入办公区、社工客服热线等方式，最终发现其内部审批系统的越权访问漏洞和员工安全意识盲区。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "渗透测试",
+    "安全评估",
+    "威胁模拟"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://csrc.nist.gov/glossary/term/red_team",
+    "https://owasp.org/www-community/Red_Teaming"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:30:20Z"
+  "updated_at": "2026-03-23T13:04:39.603331Z",
+  "quality_score": 0.95
 }

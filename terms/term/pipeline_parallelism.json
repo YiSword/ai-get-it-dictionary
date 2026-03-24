@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "分布式训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Pipeline parallelism 是一种将深度神经网络按层（或模块）切分，分配到多个计算设备（如GPU）上并行执行的技术。前向传播和反向传播被划分为多个阶段，各阶段在不同设备上流水线式运行，以缓解单设备显存压力并提升训练吞吐量。普通用户（尤其是模型开发者或训练工程师）需要了解它，因为当模型规模超出单卡容量时，这是实现大模型训练的关键手段之一，直接影响可训练模型的上限与硬件资源利用率。",
+    "plain": "流水线并行是一种分布式训练技术，将神经网络按层切分至多个设备，形成流水线式执行。前向与反向传播被划分为不同阶段，在各设备间重叠运行。此举旨在缓解单卡显存限制，提升大模型训练吞吐量，是突破单设备容量瓶颈、实现超大模型训练的关键手段，直接影响硬件利用率与训练效率。",
     "metaphor": "就像汽车装配线：每个工人只负责固定工序（如安装车门），车辆在工位间流动，多个车辆在不同工序上同时被处理，整体产出率远高于单人组装整辆车。",
     "example": "在训练拥有100层的LLaMA-3变体时，将模型按25层一组切分为4段，分别部署在4块GPU上，通过微批次（micro-batch）流水线调度实现高效训练。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型训练",
+    "分布式计算",
+    "性能优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.googleblog.com/2019/03/gpipe-efficient-training-of-giant.html",
+    "https://pytorch.org/docs/stable/distributed.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:43:22Z",
-  "updated_at": "2026-03-21T09:10:02Z"
+  "updated_at": "2026-03-23T11:39:54.841713Z",
+  "quality_score": 0.95
 }

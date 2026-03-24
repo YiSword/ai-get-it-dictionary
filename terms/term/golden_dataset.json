@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型评估",
   "difficulty": "中级",
   "explanations": {
-    "plain": "golden_dataset 是指经过严格验证、清洗、标注和版本控制的高质量基准数据集，通常作为模型训练、评估或系统比对的权威参考标准。它在机器学习、数据科学和AI研发中起‘事实来源’作用，确保不同团队或实验的结果可复现、可比较。普通用户（如算法工程师、数据产品经理）需要知道它，因为误用低质量或未校准的数据集会导致模型偏差、评测失真，甚至引发线上服务故障。",
+    "plain": "golden_dataset 指经过严格验证、清洗和版本控制的高质量基准数据集。它在机器学习中作为模型训练、评估或系统比对的权威参考标准，确保实验结果可复现且可比较。误用低质量数据会导致模型偏差或评测失真，是算法工程师和数据产品经理必须掌握的核心概念。",
     "metaphor": "就像实验室里用于校准天平的标准砝码——它本身不参与日常称重，但所有测量结果都必须以它为基准来确认是否准确。",
     "example": "某自动驾驶公司发布L3级感知模型时，将KITTI数据集经内部统一标注规范修订并冻结版本后命名为golden_dataset_v2.1，所有新模型的mAP指标均以此为准进行横向对比。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "数据工程",
+    "基准测试"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://cloud.google.com/vertex-ai/docs/training/evaluate-models",
+    "https://huggingface.co/docs/datasets"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:50:17Z"
+  "updated_at": "2026-03-23T14:14:43.840279Z",
+  "quality_score": 0.95
 }

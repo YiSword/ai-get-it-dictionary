@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "ai_audit_trail",
+  "norm_term": "ai_audit_trail",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "practice",
+  "category": "AI 治理",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "AI 审计轨迹是对 AI 系统全生命周期中关键决策、数据输入、模型版本及人为干预的系统性不可篡改记录。它旨在解决决策不透明与责任归属难题，是实现算法问责制的核心技术手段。作为合规审计与风险控制工具，它为争议提供追责依据，确保技术应用符合伦理法律规范，是构建可信 AI 生态的基础设施。",
+    "metaphor": "就像飞机的黑匣子，它忠实地记录了 AI 系统每一次“飞行”的详细数据。无论结果如何，都能通过回放记录还原当时的操作环境和决策逻辑，确保事后有据可查，让无形的算法决策变得透明可见。",
+    "example": "某银行使用 AI 审批贷款。当用户被拒贷时，审计轨迹记录了当时使用的模型版本、输入的个人信用数据、决策阈值及审批时间。若用户申诉，银行可调取该轨迹验证是否存在数据偏差或系统错误，确保公平性。"
+  },
+  "scenario_tags": [
+    "合规审计",
+    "风险控制",
+    "算法问责"
+  ],
+  "sources": [
+    "https://www.nist.gov/itl/ai-risk-management-framework",
+    "https://www.iso.org/standard/81230.html"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:53:53.658575Z",
+  "updated_at": "2026-03-23T18:18:39.842001Z",
+  "quality_score": 0.95
+}

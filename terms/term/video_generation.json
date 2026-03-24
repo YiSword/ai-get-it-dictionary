@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "video_generation（视频生成）是指利用人工智能模型，根据文本描述、图像、音频或其他输入条件，自动生成全新视频内容的技术。它无需传统拍摄、剪辑或特效制作，大幅降低了视频创作门槛。普通用户需要了解它，因为这项技术正快速融入社交媒体、在线教育、广告营销和内容创作工具中，影响我们获取信息、表达创意甚至判断内容真实性的能力。",
+    "plain": "视频生成是利用 AI 模型根据文本、图像或音频等输入，自动生成全新视频内容的技术。它无需传统拍摄剪辑，大幅降低创作门槛。该技术正融入社交媒体、广告营销和内容创作工具，影响信息获取与创意表达，是生成式 AI 在多模态领域的重要应用。",
     "metaphor": "就像一位能听懂你口头描述并立刻画出动态连环画的全能动画师。",
     "example": "用户在手机App中输入‘一只柴犬穿着宇航服在火星上跳跃’，30秒后生成一段5秒高清短视频。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "生成式 AI",
+    "内容创作",
+    "多模态"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/tasks/video-generation",
+    "https://github.com/topics/video-generation"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:18:46Z"
+  "updated_at": "2026-03-23T18:37:09.419746Z",
+  "quality_score": 0.95
 }

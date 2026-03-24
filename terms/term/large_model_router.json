@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 基础设施",
   "difficulty": "中级",
   "explanations": {
-    "plain": "large_model_router 是一种智能调度组件，用于在多个大型语言模型（如不同参数量、专长领域或部署位置的模型）之间动态选择最合适的模型来处理用户请求。它根据查询内容、延迟要求、成本约束或模型能力等条件自动路由请求，避免手动指定模型的繁琐操作。普通用户需要了解它，是因为它能透明地提升响应质量、降低等待时间与使用成本，尤其在企业级AI应用或多模型协作场景中，是保障体验与效率的关键基础设施。",
+    "plain": "large_model_router 是 AI 系统中的智能调度组件，用于在多个大模型间动态选择最优模型处理请求。它依据查询内容、延迟、成本及模型能力自动路由，无需手动指定。该组件能透明提升响应质量、降低耗时与成本，是企业级 AI 应用及多模型协作场景中保障效率的关键基础设施。",
     "metaphor": "就像机场的智能航显系统——不告诉乘客哪条登机口对应哪架飞机，而是根据航班状态、旅客目的地和登机口空闲情况，自动引导每个人走向最优通道。",
     "example": "当用户在客服对话中输入‘用Python写一个爬取天气API的异步脚本’，router会识别技术需求，将请求分发给擅长代码生成的模型；而若用户问‘解释量子纠缠给小学生听’，则自动切换至更注重通俗表达与教育逻辑的模型。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型调度",
+    "系统架构",
+    "成本控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://python.langchain.com/docs/modules/chains/router/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:01:47Z"
+  "updated_at": "2026-03-23T14:04:46.128649Z",
+  "quality_score": 0.95
 }

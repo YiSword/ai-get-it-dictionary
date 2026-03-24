@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "金融机构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Charles Schwab 是一家美国领先的全方位服务金融公司，提供股票、ETF、共同基金、期权、债券等投资产品的在线交易，以及退休账户（如IRA）、银行账户和财务规划服务。它以低佣金、无最低账户余额要求和强大的研究工具著称，是普通投资者入门及长期理财的常用平台。用户需要了解它，是因为其易用性、透明定价和监管合规性（受SEC和FINRA监管）使其成为个人管理财富、学习投资实践的重要选择。",
+    "plain": "嘉信理财（Charles Schwab）是美国领先的全方位金融服务公司，提供股票、ETF、基金等投资交易及退休账户服务。以低佣金、无最低余额要求和强大研究工具著称，受 SEC 和 FINRA 监管。它是个人投资者管理财富、学习投资的重要平台，以易用性和透明定价闻名。",
     "metaphor": "就像一位既提供图书馆（海量投资工具与教育内容）、又兼任私人理财助理（个性化顾问与自动化服务）和安全保险柜（SIPC保障+严格监管）的社区金融中心。",
     "example": "一位刚毕业的年轻人通过Charles Schwab开设免佣金的Roth IRA账户，每月自动定投标普500指数ETF，并使用其免费网络研讨会和模拟交易功能学习基础投资知识。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "投资理财",
+    "金融服务",
+    "美股交易"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.schwab.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:08:28Z",
-  "updated_at": "2026-03-21T04:25:13Z"
+  "updated_at": "2026-03-23T11:39:57.756535Z",
+  "quality_score": 0.95
 }

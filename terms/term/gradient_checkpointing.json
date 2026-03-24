@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "训练优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "gradient_checkpointing（梯度检查点）是一种用于训练大型深度学习模型的内存优化技术。它通过在前向传播时只保存部分中间激活值，而在反向传播需要时重新计算其余部分，显著减少GPU显存占用。这对于训练参数量巨大、层数极深的模型（如大语言模型）至关重要——否则可能因显存不足而无法启动训练或被迫使用更小的批次大小，影响收敛速度和模型性能。普通用户（尤其是研究者和工程师）需要了解它，因为它是当前高效训练百亿级以上模型的标配技术。",
+    "plain": "gradient_checkpointing（梯度检查点）是深度学习训练中的内存优化技术。它通过在前向传播时不保存所有中间激活值，而在反向传播时按需重新计算，以计算换内存，显著降低显存占用。这使得训练大模型（如大语言模型）成为可能，避免因显存不足导致训练失败，是高效训练百亿级以上模型的标配技术。",
     "metaphor": "就像登山时只在关键观景点拍照留痕，下山时若记不清路径，就原路返回重走一小段再继续，而不是全程背下每块石头的位置。",
     "example": "在用Hugging Face Transformers训练一个7B参数的LLaMA模型时，启用gradient_checkpointing可将单卡A100上的显存占用从48GB降至约28GB，从而支持更大批量或更长序列长度的训练。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型训练",
+    "显存优化",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/docs/stable/checkpoint.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:55:49Z"
+  "updated_at": "2026-03-23T17:39:25.124354Z",
+  "quality_score": 0.95
 }

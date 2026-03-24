@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Hallucination detection 是指识别大语言模型在生成文本时编造虚假、无依据或与事实矛盾内容的技术能力。这类‘幻觉’可能表现为捏造人物、事件、数据、引用或逻辑关系，看似合理实则错误。普通用户需要了解它，因为盲目信任AI输出可能导致决策失误、传播谣言或学术失范；掌握该概念有助于保持批判性思维，主动验证关键信息，并在使用AI工具时选择具备检测能力的产品。",
+    "plain": "Hallucination detection 指识别大语言模型生成虚假、无依据内容的技术。幻觉常表现为捏造事实、数据或引用。了解此概念可帮助用户避免决策失误或传播谣言，保持批判性思维。主动验证关键信息并选择具备检测能力的 AI 产品，能有效确保信息可靠性与使用安全。",
     "metaphor": "就像一位博学但偶尔会凭空编故事的朋友，幻觉检测相当于给这位朋友配了一位冷静的编辑，在他脱口而出虚构细节前悄悄打个问号。",
     "example": "当用户向AI询问‘2023年诺贝尔物理学奖得主的出生地’，模型若回答‘布拉格’（实际为瑞典隆德），幻觉检测模块可标记该陈述缺乏可靠来源并触发事实核查或拒绝作答。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "内容生成",
+    "风险控制",
+    "模型评估"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://help.openai.com/en/articles/6824545-what-is-a-hallucination",
+    "https://www.ibm.com/topics/ai-hallucinations"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:06:05Z"
+  "updated_at": "2026-03-23T18:14:59.620406Z",
+  "quality_score": 0.95
 }

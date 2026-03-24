@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "采样器",
   "difficulty": "中级",
   "explanations": {
-    "plain": "lms_karras 是一种用于扩散模型（如Stable Diffusion）的采样器调度策略，由Tero Karras等人提出，核心思想是根据噪声水平动态调整采样步长，使去噪过程在高噪声和低噪声区域分别采用更合适的步长密度，从而提升生成质量与收敛稳定性。普通用户需要了解它，是因为选择该采样器常能在相同迭代步数下获得更清晰、细节更丰富的图像，尤其在处理复杂纹理或精细结构时表现突出，且对提示词敏感度较低，降低了调参门槛。",
+    "plain": "lms_karras 是扩散模型中的一种采样器调度策略，结合线性多步求解器与 Karras 噪声调度。它能动态调整去噪步长，在高低噪声区域优化步长密度。相比普通 LMS，它在相同步数下生成图像更清晰、细节更丰富，收敛更稳定，广泛用于 Stable Diffusion 等工具中，适合追求高质量生成的用户。",
     "metaphor": "就像一位经验丰富的登山者，在陡峭岩壁处放慢脚步仔细落脚，在平缓山脊上则加快步伐高效前进，lms_karras 根据‘噪声地形’的起伏智能调节每一步的跨度。",
     "example": "当使用Stable Diffusion生成一幅带有金属光泽与毛发细节的机械猫图像时，启用 lms_karras 采样器（而非默认的 Euler a）可在20步内产出边缘锐利、材质过渡自然的结果，而其他线性调度器可能需30步以上或出现模糊或伪影。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "扩散模型",
+    "采样策略"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2206.00364",
+    "https://github.com/crowsonkb/k-diffusion"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:00:55Z",
-  "updated_at": "2026-03-21T08:16:14Z"
+  "updated_at": "2026-03-23T16:06:58.209101Z",
+  "quality_score": 1.0
 }

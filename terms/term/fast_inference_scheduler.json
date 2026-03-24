@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "fast_inference_scheduler",
+  "norm_term": "fast_inference_scheduler",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "tool",
+  "category": "推理引擎",
+  "difficulty": "高级",
+  "explanations": {
+    "plain": "fast_inference_scheduler 是 NVIDIA TensorRT-LLM 的核心调度组件。它通过动态资源分配、任务队列优化及减少内存碎片，显著提升大模型推理速度与吞吐量。主要解决高并发场景下的延迟与资源利用率问题，适用于实时 AI 服务。虽对用户透明，但直接决定聊天机器人等应用的响应流畅度。",
+    "metaphor": "如同机场塔台智能调度航班起降，该调度器协调多个推理任务高效使用 GPU 资源，避免计算单元空闲或拥堵，让每个请求都能快速获得处理通道。",
+    "example": "在电商客服系统中，当数千用户同时咨询商品详情时，fast_inference_scheduler 自动分配 GPU 算力优先处理紧急查询，确保 95% 的请求在 200 毫秒内得到响应，避免系统卡顿。"
+  },
+  "scenario_tags": [
+    "大语言模型",
+    "云端推理",
+    "高性能计算"
+  ],
+  "sources": [
+    "https://github.com/NVIDIA/TensorRT-LLM"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:34:57.912133Z",
+  "updated_at": "2026-03-23T16:54:26.898077Z",
+  "quality_score": 0.95
+}

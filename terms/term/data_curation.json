@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据治理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Data curation 是指对数据进行系统性筛选、组织、标注、验证、归档和维护的过程，确保其质量、可信度、可发现性和长期可用性。它贯穿数据生命周期，涉及清洗错误、补充元数据、统一格式、保障合规性等操作。普通用户需要了解这一概念，因为日常接触的搜索结果、推荐内容、AI生成答案乃至医疗诊断辅助工具，都高度依赖经过专业整理的高质量数据；若缺乏有效治理，数据噪声、偏差或过时信息可能直接误导决策。",
+    "plain": "Data curation 指对数据进行系统性筛选、组织、标注和维护的过程，确保其质量、可信度及长期可用性。涉及清洗错误、统一格式及补充元数据等操作。在 AI 领域，它是训练可靠模型的基础，缺乏治理的数据噪声可能导致模型偏差，直接影响搜索、推荐及医疗辅助工具的准确性。",
     "metaphor": "就像图书馆员不仅收集书籍，还要分类编目、修复破损、剔除盗版、更新索引，并确保读者能准确找到所需内容，数据策展人对数据做同样的‘知识管家’工作。",
     "example": "某医院将分散在各科室的患者影像与病历数据进行标准化脱敏、打上临床标签、关联检查时间线，并存入符合HIPAA规范的长期存储库，供科研团队安全调用——这整个过程就是典型的数据策展。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据治理",
+    "机器学习",
+    "数据质量"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Data_curation",
+    "https://www.ibm.com/topics/data-curation"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:12:07Z"
+  "updated_at": "2026-03-23T15:28:27.794216Z",
+  "quality_score": 0.95
 }

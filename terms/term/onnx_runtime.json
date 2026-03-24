@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理引擎",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ONNX Runtime 是一个开源的高性能推理引擎，专门用于高效执行 ONNX（Open Neural Network Exchange）格式的机器学习模型。它支持跨平台部署（如 Windows、Linux、macOS、Android、iOS）和多种硬件后端（如 CPU、GPU、NPU），并提供优化技术（如图优化、算子融合、量化）以提升模型运行速度与资源效率。普通用户需要了解它，是因为它是将训练好的 AI 模型真正落地到应用（如手机 App、边缘设备或 Web 服务）的关键桥梁——没有它，模型往往无法在真实环境中快速、稳定地工作。",
+    "plain": "ONNX Runtime 是微软开源的高性能推理引擎，专为加速 ONNX 格式模型执行而设计。支持跨平台及多种硬件后端（CPU/GPU/NPU），提供图优化、算子融合等加速技术。作为模型部署的关键桥梁，它确保训练好的 AI 模型能在各类设备中高效、稳定地运行，广泛应用于边缘计算与服务端推理场景。",
     "metaphor": "ONNX Runtime 就像一位精通多国语言且经验丰富的同声传译员：它把科学家用各种框架（PyTorch、TensorFlow 等）‘写’出的模型‘原稿’（ONNX 格式），实时、精准、高效地‘翻译’成不同设备能直接‘听懂并执行’的指令。",
     "example": "一家医疗公司用 PyTorch 训练了一个肺部 CT 影像分析模型，导出为 ONNX 格式后，通过 ONNX Runtime 部署到医院本地的 Windows 工作站上，实现低延迟、离线运行的辅助诊断功能。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型部署",
+    "推理加速",
+    "跨平台"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://onnxruntime.ai/",
+    "https://github.com/microsoft/onnxruntime"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:48:09Z",
-  "updated_at": "2026-03-21T08:58:26Z"
+  "updated_at": "2026-03-23T14:52:23.023011Z",
+  "quality_score": 0.95
 }

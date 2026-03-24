@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "基础设施",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GoDaddy 是一家全球知名的域名注册商和网站托管服务提供商，用户可通过它购买、管理域名（如 example.com），并获取网站建设、邮箱托管、SSL 证书等配套服务。对普通用户而言，它是搭建个人博客、小型电商或企业官网最常接触的入门级平台之一——因为几乎每个网站都需要一个域名，而 GoDaddy 以界面直观、流程简化和促销频繁著称，降低了技术门槛。",
+    "plain": "GoDaddy 是全球领先的域名注册商和网站托管服务提供商。用户可在此购买和管理域名，并使用网站建设、邮箱托管及 SSL 证书等服务。作为入门级平台，它以界面直观、流程简化著称，降低了搭建个人博客或企业官网的技术门槛，是互联网基础设施的重要组成部分。",
     "metaphor": "GoDaddy 就像互联网世界的‘房产中介+物业管家’：帮你抢注心仪的网络门牌号（域名），还顺手帮你装修房子（建站）、装监控（安全证书）、收快递（企业邮箱）。",
     "example": "一位自由插画师想上线作品集网站，她在 GoDaddy 上花 12 美元/年注册了 hername.art 域名，并用其内置的拖拽建站工具在 2 小时内发布了带在线联系表单的响应式网站。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "域名注册",
+    "网站托管",
+    "建站工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.godaddy.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:44:27Z",
-  "updated_at": "2026-03-21T06:50:01Z"
+  "updated_at": "2026-03-23T17:01:42.956884Z",
+  "quality_score": 0.95
 }

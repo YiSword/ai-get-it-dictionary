@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "tool_use_memory_kernel",
+  "norm_term": "tool_use_memory_kernel",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "capability",
+  "category": "智能体框架",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "tool_use_memory_kernel 是 Microsoft AutoGen 框架的核心模块，协调智能体任务执行中工具调用与记忆管理的交互。它维护上下文状态，确保多步骤任务中工具调用的连贯性和数据一致性，解决信息碎片化问题，保障自动化系统任务逻辑完整性，适用于多工具协作场景。",
+    "metaphor": "如同图书馆管理员同时管理借阅记录和书籍定位系统，该模块确保智能体在调用工具时能快速检索历史操作记录，并精准匹配当前任务所需的工具资源。",
+    "example": "当客服机器人处理用户投诉时，该模块会记录已查询的订单数据库（工具调用），并在后续对话中自动关联用户历史沟通记录（记忆管理），避免重复询问信息。"
+  },
+  "scenario_tags": [
+    "多智能体协作",
+    "上下文管理",
+    "任务自动化"
+  ],
+  "sources": [
+    "https://github.com/microsoft/autogen",
+    "https://microsoft.github.io/autogen/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:36:51.625683Z",
+  "updated_at": "2026-03-23T14:14:02.238375Z",
+  "quality_score": 0.95
+}

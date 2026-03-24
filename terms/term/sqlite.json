@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据库",
   "difficulty": "中级",
   "explanations": {
-    "plain": "SQLite 是一个轻量级、嵌入式的关系型数据库引擎，它不依赖单独的服务器进程，而是直接以库的形式集成到应用程序中，数据存储在单个磁盘文件里。普通用户无需安装或管理数据库服务，就能让应用（如手机App、浏览器、桌面软件）高效地本地存储和查询结构化数据。了解 SQLite 有助于理解为什么许多应用能离线工作、快速启动，以及如何安全备份个人数据（如微信聊天记录、笔记内容），因为它常是这些功能背后隐形的数据管家。",
+    "plain": "SQLite 是一个轻量级、嵌入式的关系型数据库引擎。它无需独立服务器进程，直接以库形式集成到应用中，数据存储在单个磁盘文件里。广泛应用于手机 App、浏览器及桌面软件，支持离线存储和快速查询。它是许多应用本地数据管理的核心组件，便于备份和迁移。",
     "metaphor": "SQLite 就像一本自带索引和目录的纸质笔记本——你不需要图书馆管理员（服务器），翻开就能查、写、删，所有信息都安静地装在一个小本子里。",
     "example": "iOS 系统中的备忘录 App 使用 SQLite 文件存储每条笔记的标题、内容和修改时间；当你在无网络时编辑并保存笔记，SQLite 在后台实时更新这个本地数据库文件。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据库",
+    "本地存储",
+    "嵌入式"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.sqlite.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:10:11Z",
-  "updated_at": "2026-03-21T09:51:12Z"
+  "updated_at": "2026-03-23T12:07:58.132489Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "运维监控",
   "difficulty": "中级",
   "explanations": {
-    "plain": "execution_monitor 是一种运行时监控机制，用于实时跟踪程序或系统任务的执行状态、资源消耗、异常行为和完成进度。它通常嵌入在软件框架、自动化工具或运维平台中，帮助开发者和运维人员及时发现卡死、超时、内存泄漏或逻辑错误等问题。普通用户虽不直接操作它，但在使用依赖该机制的应用（如云服务、CI/CD流水线、智能设备固件更新）时，其稳定性、响应速度和故障恢复能力都直接受益于 execution_monitor 的存在。",
+    "plain": "execution_monitor 是一种运行时监控机制，实时跟踪程序或任务的执行状态、资源消耗及异常。它嵌入于软件框架或运维平台，帮助开发者及时发现卡死、超时或内存泄漏等问题。虽用户不直接操作，但云服务、CI/CD 流水线等应用的稳定性与故障恢复能力均依赖此机制保障。",
     "metaphor": "就像汽车仪表盘上的转速表和故障灯，execution_monitor 不干预驾驶，但时刻显示引擎是否正常运转、有无异常征兆。",
     "example": "在持续集成系统中，execution_monitor 会实时记录每个测试用例的执行耗时、返回码和日志输出；一旦某个测试超时或崩溃，立即中断流程并触发告警。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "运维监控",
+    "软件开发",
+    "系统稳定性"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://kubernetes.io/docs/concepts/cluster-administration/monitoring/",
+    "https://learn.microsoft.com/en-us/azure/azure-monitor/overview"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:16:49Z"
+  "updated_at": "2026-03-23T14:38:42.080139Z",
+  "quality_score": 0.95
 }

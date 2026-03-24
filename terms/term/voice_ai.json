@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "语音技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Voice AI（语音人工智能）是指能理解、生成和响应人类语音的智能系统，融合了自动语音识别（ASR）、自然语言处理（NLP）和语音合成（TTS）等技术。它让设备能像人一样‘听懂’说话、‘思考’意图并‘开口’回应。普通用户需要了解它，因为Voice AI正深度融入日常：从手机助手、智能音箱到客服热线和车载系统，影响沟通效率、无障碍访问及隐私安全——知道它如何工作，有助于更安全、高效地使用这些服务。",
+    "plain": "Voice AI（语音人工智能）是融合自动语音识别（ASR）、自然语言处理（NLP）和语音合成（TTS）的智能系统，能理解、生成并响应人类语音。它使设备具备听、思、说能力，广泛应用于手机助手、智能音箱、客服及车载系统。了解其原理有助于用户更安全、高效地使用涉及语音交互的服务，注重隐私保护。",
     "metaphor": "Voice AI就像一位精通多国语言、反应敏捷且不知疲倦的私人助理，你一开口，它立刻听清、想明白、再用自然的声音给你答复。",
     "example": "当你对智能音箱说‘把客厅灯调暗到30%’，Voice AI实时将语音转为文字，解析指令意图，调用家居控制接口，并用语音反馈‘已调暗’——全程无需触屏或打字。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "智能助手",
+    "客户服务",
+    "智能家居"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.nvidia.com/en-us/ai-data-science/voice-ai/",
+    "https://cloud.google.com/speech-to-text"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:50:32Z",
-  "updated_at": "2026-03-21T10:20:59Z"
+  "updated_at": "2026-03-23T18:24:07.487638Z",
+  "quality_score": 0.95
 }

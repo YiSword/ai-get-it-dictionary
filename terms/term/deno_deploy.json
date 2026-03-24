@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云平台",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Deno Deploy 是 Deno 官方提供的无服务器（serverless）云平台，专为运行基于 Deno 运行时的 JavaScript/TypeScript 代码而设计。它支持边缘部署、毫秒级冷启动和原生 TypeScript 开发，无需配置服务器或管理基础设施。普通用户需要知道它，是因为它大幅降低了构建和托管现代 Web 应用、API 或静态站点的门槛——只需写代码、推送 Git 仓库，即可全球自动部署，适合开发者快速验证想法、上线小工具或构建 Jamstack 应用。",
+    "plain": "Deno Deploy 是 Deno 官方提供的无服务器云平台，专为运行 JavaScript/TypeScript 代码设计。支持边缘部署、毫秒级冷启动，无需管理基础设施。用户只需推送 Git 仓库即可全球自动部署，大幅降低构建 Web 应用、API 或静态站点的门槛，适合快速验证想法及构建 Jamstack 应用。",
     "metaphor": "就像把一份写好的菜谱直接交给遍布全球的智能厨房，它们立刻按需开火、现做现上，你不用买灶具、租店面，也不用管哪间厨房在忙。",
     "example": "一位开发者用几行 TypeScript 写了一个实时 Markdown 预览 API，将其推送到 GitHub 后，通过 Deno Deploy 一键部署，几分钟内就获得一个带全球 CDN 加速的 HTTPS 端点供他人调用。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "Serverless",
+    "云端部署",
+    "边缘计算"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://deno.com/deploy"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:18:30Z",
-  "updated_at": "2026-03-21T05:30:34Z"
+  "updated_at": "2026-03-23T18:51:16.589256Z",
+  "quality_score": 0.95
 }

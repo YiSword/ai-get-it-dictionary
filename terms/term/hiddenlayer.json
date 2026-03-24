@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "神经网络",
   "difficulty": "中级",
   "explanations": {
-    "plain": "hidden layer（隐藏层）是人工神经网络中位于输入层和输出层之间的中间计算层，不直接与外部数据交互，但负责提取和转换输入数据的抽象特征。它通过权重、偏置和非线性激活函数对信息进行逐层加工，使模型能学习复杂模式（如图像中的边缘、纹理，或文本中的语义关系）。普通用户需要了解它，因为隐藏层的数量和结构直接影响AI模型的能力与局限——例如，过少可能导致识别不准，过多可能造成‘黑箱’决策难以解释，这关系到我们对智能助手、推荐系统或医疗辅助工具的信任与使用方式。",
+    "plain": "隐藏层是神经网络中介于输入与输出层之间的计算层，不直接与外部交互。它通过权重、偏置及激活函数提取数据抽象特征，使模型能学习复杂模式。隐藏层的深度与宽度直接影响模型性能与可解释性，是决定 AI 能力边界与信任度的核心结构要素。",
     "metaphor": "就像厨师在做菜时不会把所有调料直接倒进客人碗里，而是先在后厨混合、熬煮、调味，隐藏层就是神经网络的‘后厨’，默默完成关键的信息加工。",
     "example": "在手机人脸识别功能中，输入是摄像头捕获的原始像素图像，经过多个隐藏层逐步提取出眼睛间距、鼻梁轮廓、唇形等高阶特征，最终输出‘是否为本人’的判断。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "深度学习",
+    "模型架构",
+    "基础概念"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ibm.com/topics/neural-networks",
+    "https://en.wikipedia.org/wiki/Hidden_layer"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:09:59Z"
+  "updated_at": "2026-03-23T18:44:33.356525Z",
+  "quality_score": 0.95
 }

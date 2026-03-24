@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 智能体",
   "difficulty": "中级",
   "explanations": {
-    "plain": "transcription_agent 是一种专门执行语音到文本转换任务的智能软件代理，它能实时或批量地将音频（如会议录音、采访、语音消息）自动转写为准确、结构化的文字。它通常集成语音识别（ASR）、标点恢复、说话人分离和上下文纠错等能力。普通用户需要了解它，是因为它能显著节省手动记录时间、提升信息可检索性，并支持无障碍访问（如为听障人士提供字幕），在远程办公、教育笔记、内容创作等场景中日益成为基础生产力工具。",
+    "plain": "transcription_agent 是一种专门执行语音到文本转换任务的智能软件代理。它能实时或批量地将音频自动转写为准确、结构化的文字，集成语音识别、标点恢复及说话人分离等能力。它显著节省手动记录时间、提升信息可检索性，并支持无障碍访问，是远程办公和内容创作的基础生产力工具。",
     "metaphor": "就像一位速记专家，一边听你讲话，一边飞快而准确地把每一句话敲进文档，还能自动分清谁说了什么、加上标点和段落。",
     "example": "在一场线上产品评审会议中，transcription_agent 实时将多位参会者的发言转写成带时间戳和说话人标签的文字纪要，并自动生成关键结论摘要。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语音识别",
+    "办公效率",
+    "无障碍辅助"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://azure.microsoft.com/en-us/products/ai-services/ai-speech",
+    "https://cloud.google.com/speech-to-text"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:09:58Z"
+  "updated_at": "2026-03-23T12:44:07.574063Z",
+  "quality_score": 0.95
 }

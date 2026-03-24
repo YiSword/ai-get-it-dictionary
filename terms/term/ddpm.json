@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DDPM（Denoising Diffusion Probabilistic Models）是一种生成式人工智能模型，通过逐步添加噪声破坏数据（如图像），再训练神经网络逆向去噪来生成新样本。它在图像合成、音频生成等领域表现出高保真度和稳定性，逐渐成为GAN和VAE的重要替代方案。普通用户虽不直接操作模型，但可能已接触其应用——例如AI绘画工具中的高清图像生成、照片修复或风格迁移功能，了解DDPM有助于理解当前AI创作能力的原理与边界。",
+    "plain": "DDPM（Denoising Diffusion Probabilistic Models）是一种生成式模型，通过逐步加噪再逆向去噪生成新样本。它在图像合成、音频生成领域具有高保真度，是 GAN 和 VAE 的重要替代方案。广泛应用于 AI 绘画、照片修复等场景，是理解当前 AI 创作能力原理的关键技术。",
     "metaphor": "就像一位画家先将一幅画彻底涂成均匀灰雾，再凭记忆和技巧一层层擦去雾气、还原细节，最终创作出全新但风格一致的作品。",
     "example": "Stable Diffusion 的部分变体使用DDPM作为核心采样机制，用户输入‘一只穿宇航服的柴犬在火星上奔跑’，模型通过数十步迭代去噪，生成符合描述的逼真图像。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "生成式 AI",
+    "图像生成",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2006.11239"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:17:33Z"
+  "updated_at": "2026-03-23T11:16:51.136853Z",
+  "quality_score": 0.95
 }

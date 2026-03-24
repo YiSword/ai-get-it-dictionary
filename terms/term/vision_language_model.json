@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Vision-language model（VLM）是一种能同时理解图像和文本的人工智能模型，它通过联合学习视觉与语言的语义关联，实现跨模态推理。例如，它不仅能识别照片中的物体，还能用自然语言描述场景、回答关于图像的问题，或根据文字生成匹配的图片。普通用户需要了解它，因为这类模型正快速融入日常工具——如手机相册的智能搜索、社交平台的无障碍图像描述、教育App中的图文互动答疑等，直接影响信息获取方式和人机交互体验。",
+    "plain": "Vision-language model（VLM）是能同时理解图像和文本的人工智能模型。它通过联合学习视觉与语言的语义关联，实现跨模态推理，如识别物体、描述场景、回答图像问题或根据文字生成图片。这类模型正融入日常工具，如手机相册智能搜索、社交平台无障碍图像描述等，直接影响人机交互体验。",
     "metaphor": "就像一位精通双语且擅长看图说话的资深编辑，既能读懂文字稿，又能准确解读配图，并在两者之间自由切换、相互印证。",
     "example": "当你在购物App中上传一张鞋子的照片并输入‘找同款但颜色更深的’，VLM会理解图像细节与文字意图，精准检索出符合要求的商品。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态交互",
+    "图像识别",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/model_doc/vision-language",
+    "https://en.wikipedia.org/wiki/Multimodal_learning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T10:19:02Z"
+  "updated_at": "2026-03-23T13:15:02.615421Z",
+  "quality_score": 0.95
 }

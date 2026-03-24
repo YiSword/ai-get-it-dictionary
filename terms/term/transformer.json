@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Transformer 是一种深度学习模型架构，于2017年提出，核心特点是完全依赖自注意力机制（self-attention）来建模序列中元素间的关系，无需传统RNN或CNN结构。它大幅提升了并行训练效率和长距离依赖建模能力，成为现代大语言模型（如ChatGPT、BERT）的基石。普通用户需要知道它，因为几乎所有当前主流AI对话助手、翻译工具和内容生成服务背后都运行着基于Transformer的模型，理解其存在有助于理性看待AI的能力边界与局限。",
+    "plain": "Transformer 是 2017 年提出的深度学习模型架构，核心是自注意力机制，摒弃了传统的 RNN 和 CNN。它大幅提升了并行训练效率和长距离依赖建模能力，是现代大语言模型（如 GPT、BERT）的基石。当前主流 AI 对话、翻译及生成服务均基于此架构，理解它有助于认知 AI 能力边界。",
     "metaphor": "就像一位经验丰富的会议主持人，能同时关注全场每位发言者的关键观点、彼此间的关联和上下文重点，而不必按顺序逐个倾听。",
     "example": "当你用手机输入‘帮我写一封辞职信’，背后的AI应用Transformer模型实时解析你的意图、匹配语境、生成语法正确且得体的文本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "大语言模型",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1706.03762"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T10:10:41Z"
+  "updated_at": "2026-03-23T14:40:34.129188Z",
+  "quality_score": 0.95
 }

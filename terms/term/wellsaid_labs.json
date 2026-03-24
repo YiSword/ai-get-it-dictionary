@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "语音合成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Wellsaid Labs 是一家专注于人工智能语音合成（TTS）技术的公司，其核心产品是高质量、情感丰富、多语种的AI语音生成平台。它允许用户通过简单文本输入，快速生成自然流畅、接近真人语调和情绪表达的语音内容。普通用户需要了解它，是因为它降低了专业级语音内容创作的门槛——无论是制作播客、有声书、教育课件，还是为应用添加语音交互功能，都不再依赖录音棚或配音演员，节省时间与成本的同时提升内容表现力。",
+    "plain": "Wellsaid Labs 是专注于 AI 语音合成（TTS）的公司，提供高质量、情感丰富的语音生成平台。用户可通过文本快速生成自然流畅、接近真人的语音。它降低了专业语音创作门槛，适用于播客、有声书、教育课件及应用交互，无需录音棚或配音演员，显著节省成本并提升内容表现力。",
     "metaphor": "就像一位精通数十种口音、能随时切换喜怒哀乐语气的全能配音演员，只需你递上一段文字，它立刻为你‘念’出富有感染力的声音。",
     "example": "一位独立英语教师使用 Wellsaid Labs 将自编的语法讲解文本转成带重音、停顿和疑问语调的美式英语语音，嵌入在线课程视频中，显著提升了学生听力理解效果。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "内容创作",
+    "语音交互",
+    "多媒体制作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.wellsaidlabs.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:54:07Z",
-  "updated_at": "2026-03-21T10:24:40Z"
+  "updated_at": "2026-03-23T13:36:03.771278Z",
+  "quality_score": 0.95
 }

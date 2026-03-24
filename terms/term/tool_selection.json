@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 代理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "tool_selection 是指在多工具环境中，系统或用户根据当前任务需求、输入内容和可用能力，动态决定调用哪一个具体工具（如计算器、天气API、翻译服务等）的过程。它不是简单罗列工具，而是涉及意图识别、参数提取和决策排序的智能环节。普通用户需要了解这一概念，因为它是AI助手能否准确响应复杂请求（比如‘查上海明天是否要带伞’）的关键——选错工具会导致答非所问或功能失效。",
+    "plain": "tool_selection 指 AI 系统在多工具环境中，根据任务需求与输入内容，动态决策调用具体工具（如 API、计算器）的过程。该环节涉及意图识别与参数提取，是智能体准确响应复杂请求的关键。若选择错误，将导致答非所问或功能失效，直接影响任务完成率。",
     "metaphor": "就像一位经验丰富的厨师面对食客点单时，不会盲目开火，而是先判断这道菜需要蒸、炒还是烤，再选择对应的灶具和锅具。",
     "example": "当用户输入‘把这份英文邮件翻译成中文并保存为PDF’，系统需依次完成tool_selection：先选翻译工具，再选PDF生成工具，而非仅调用其中一个。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 代理",
+    "功能调用",
+    "意图识别"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://python.langchain.com/docs/modules/agents/tools/",
+    "https://platform.openai.com/docs/guides/function-calling"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:09:08Z"
+  "updated_at": "2026-03-23T14:42:19.400002Z",
+  "quality_score": 0.95
 }

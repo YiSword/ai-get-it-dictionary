@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Kaggle Notebooks 是 Kaggle 平台提供的免费、基于浏览器的交互式编程环境，内置 Python（支持 GPU/TPU）、预装常用数据科学库（如 pandas、scikit-learn、PyTorch），并可直接访问 Kaggle 上的公开数据集和竞赛资源。它无需本地安装配置，用户注册后即可在线编写、运行、保存和分享代码。普通用户需要了解它，是因为它是入门数据科学、参与机器学习竞赛、复现他人方案或快速验证想法的零门槛工具，尤其适合学生、初学者和资源受限的开发者。",
+    "plain": "Kaggle Notebooks 是 Kaggle 提供的免费云端交互式编程环境，内置 Python 及数据科学库，支持 GPU/TPU。无需本地配置，可在线编写、运行和分享代码，直接访问平台数据集。适合数据科学入门、机器学习竞赛及想法验证，是初学者和资源受限开发者的零门槛工具。",
     "metaphor": "就像一个自带教材、实验器材和导师批注的在线科学实验室，你打开网页就能动手做数据分析，不用自己买电脑、装软件、找数据。",
     "example": "一位刚学完 Python 的大学生在 Kaggle 上找到‘泰坦尼克号生存预测’数据集，直接启动 Notebook，用 20 行代码加载数据、训练模型并提交结果，全程无需下载任何文件或配置环境。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据科学",
+    "机器学习",
+    "云端开发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.kaggle.com/code",
+    "https://www.kaggle.com/docs/notebooks"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:32:44Z",
-  "updated_at": "2026-03-21T07:48:03Z"
+  "updated_at": "2026-03-23T15:20:59.557594Z",
+  "quality_score": 0.95
 }

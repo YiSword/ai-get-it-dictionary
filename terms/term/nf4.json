@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型量化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "nf4（Normal Float 4）是一种专为大语言模型推理优化的4位量化数据格式，它通过非均匀分布的浮点数表示（结合符号位、指数位和特制的4位尾数查表）在极低精度下保留关键数值特征，显著减少显存占用和带宽需求。普通用户需要知道它，是因为它正被集成到主流推理框架（如llama.cpp、Transformers）中，直接影响本地运行大模型的速度、硬件门槛（如能否在8GB显存设备上流畅运行7B模型）和电池续航。",
+    "plain": "nf4（Normal Float 4）是 bitsandbytes 库推出的 4 位量化数据类型，专为符合正态分布的神经网络权重设计。它在极低精度下保留关键数值特征，显著减少显存占用。常用于 QLoRA 微调及大模型推理，帮助用户在消费级显卡上运行更大模型，有效降低硬件门槛。",
     "metaphor": "就像把一本厚字典压缩成一张精心设计的速查卡片——牺牲部分细节，但保留最常用、最关键的词条和发音提示。",
     "example": "当使用llama.cpp在MacBook M2上运行Phi-3模型时，启用nf4量化可将模型加载显存从约2.1GB降至约1.3GB，并提升推理速度约35%，同时保持接近FP16的生成质量。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "LLM 推理",
+    "显存优化",
+    "微调技术"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/TimDettmers/bitsandbytes",
+    "https://arxiv.org/abs/2305.14314"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:10:28Z",
-  "updated_at": "2026-03-21T08:54:53Z"
+  "updated_at": "2026-03-23T18:44:07.559605Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理引擎",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ExLlama 是一个专为高效运行量化大语言模型（LLM）而设计的开源推理引擎，主要针对 NVIDIA GPU 优化。它支持如 GGUF、GPTQ 等主流量化格式，能在消费级显卡（如 RTX 3090/4090）上以极低显存占用和高吞吐量加载和运行数十亿参数模型。普通用户需要了解它，是因为它让本地运行高性能大模型变得切实可行——无需云服务、不依赖昂贵硬件，同时兼顾速度与精度，是个人开发者、研究人员和隐私敏感用户部署本地 AI 的关键工具。",
+    "plain": "ExLlama 是专为 NVIDIA GPU 优化的开源大模型推理引擎，支持 GPTQ 等量化格式。它能在消费级显卡上以低显存占用和高吞吐量运行量化模型，使本地部署高性能 LLM 变得可行。适用于个人开发者及隐私敏感用户，兼顾速度与精度，是本地 AI 部署的关键工具。",
     "metaphor": "ExLlama 就像一位精通多国方言的翻译官，能快速、精准地把经过高度压缩（量化）的外语书籍（模型权重）实时译成流畅口语（推理输出），且只用一台普通笔记本的算力就能胜任。",
     "example": "用户在一台配备 24GB 显存的 RTX 4090 台式机上，通过 ExLlama 加载并运行 13B 参数的 Q4_K_M 量化版 Llama-3 模型，实现每秒超 80 词的本地聊天响应，全程离线、无 API 费用、数据零上传。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "本地部署",
+    "模型推理",
+    "量化优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/turboderp/exllama"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:17:38Z"
+  "updated_at": "2026-03-23T15:43:18.143370Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型量化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "q2_k 是一种量化格式，用于压缩大语言模型的权重参数，表示每个权重用 2 位（bit）整数存储，并采用分组量化（k-means 风格聚类）策略，在每组内共享缩放因子和偏移量。它在极低比特下兼顾了精度与推理效率，适合在内存或算力受限的设备（如手机、嵌入式终端）上运行轻量级模型。普通用户需要知道它，是因为选择支持 q2_k 的模型版本，可能意味着更小的下载体积、更低的耗电和更快的响应速度，但需权衡生成质量略有下降。",
+    "plain": "q2_k 是 llama.cpp 中 GGUF 格式的一种 2 比特量化类型。它采用混合精度分组策略，在极低比特下平衡模型体积与精度。适用于内存受限设备（如手机），可显著降低下载大小和推理功耗，但生成质量相比高比特量化略有损失。用户选择时需权衡资源限制与效果需求。",
     "metaphor": "就像把一本高清画册压缩成简笔画集：每页只保留最关键的轮廓和色调提示，牺牲部分细节，却大幅节省纸张和翻阅时间。",
     "example": "某款手机端AI写作App在安装包中内置一个 1.5B 参数的LLM，使用 q2_k 量化后模型体积从 3.2GB 缩至 0.6GB，可在 4GB 内存的老款安卓机上流畅运行文本补全功能。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "端侧推理",
+    "模型压缩",
+    "低资源部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ggerganov/llama.cpp",
+    "https://github.com/ggerganov/llama.cpp/wiki/Quantization"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:21:41Z",
-  "updated_at": "2026-03-21T09:18:51Z"
+  "updated_at": "2026-03-23T18:08:06.778667Z",
+  "quality_score": 0.95
 }

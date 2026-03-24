@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AIGC 工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Roop 是一个开源的 AI 图像换脸（face swap）工具，主要用于将一张人脸图像精准地迁移到另一张目标图像或视频中的人脸上，同时保留姿态、表情和光照一致性。它基于深度学习模型（如 InsightFace 和 CodeFormer），强调轻量化部署与本地运行，无需依赖云端服务。普通用户需要了解 Roop，是因为它提供了相对易用、隐私友好的换脸方案——尤其适合内容创作者进行趣味性视频制作或老照片修复，但也需警惕其被滥用于伪造身份、制造虚假信息等伦理与法律风险。",
+    "plain": "Roop 是一款开源 AI 换脸工具，支持将人脸迁移至目标图像或视频，保持姿态与光照一致。基于 InsightFace 等模型，强调本地部署与隐私保护。适用于创意视频制作或照片修复，但需警惕伪造身份等伦理法律风险。",
     "metaphor": "就像给照片里的人物‘换一张活的面具’——不仅贴合轮廓，还能随动作自然变形，仿佛那张脸本就长在那里。",
     "example": "一位用户用 Roop 将自己童年照片中的脸替换到一段家庭旅行短视频里的人物脸上，生成了一段‘穿越式’纪念短片；另一些人则用它修复模糊的老电影片段中演员的面部细节。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "视频编辑",
+    "开源工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/s0md3v/roop"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:15:45Z",
-  "updated_at": "2026-03-21T09:34:54Z"
+  "updated_at": "2026-03-23T14:00:26.624914Z",
+  "quality_score": 1.0
 }

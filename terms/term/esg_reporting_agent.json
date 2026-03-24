@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "esg_reporting_agent",
+  "norm_term": "esg_reporting_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "AI 智能体",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "ESG 报告智能代理是利用人工智能技术自动化处理环境、社会及治理数据收集、分析与报告生成的工具。它整合多源数据，识别合规要求，生成标准化文档，显著提升报告效率与准确性。该术语帮助企业理解如何通过 AI 技术增强可持续发展透明度，优化社会责任履行评估流程，降低合规风险。",
+    "metaphor": "如同为 ESG 报告配备了一位 24 小时在线的智能会计，自动整理账目、核对法规并生成财务报表，让复杂的数据合规工作变得像填写在线问卷般简单。",
+    "example": "某制造企业使用该代理自动抓取能源消耗数据、员工多样性统计和供应链合规记录，在 3 天内生成符合欧盟可持续发展报告标准（CSRD）的完整文档，较人工处理效率提升 70%。"
+  },
+  "scenario_tags": [
+    "可持续发展",
+    "企业合规",
+    "AI 智能体"
+  ],
+  "sources": [
+    "https://www.globalreporting.org/",
+    "https://www.ifrs.org/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:19:35.664860Z",
+  "updated_at": "2026-03-23T12:59:18.506794Z",
+  "quality_score": 0.95
+}

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "语音技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "resemble_ai 是一家专注于语音合成（TTS）和语音克隆技术的公司，其核心产品允许用户用极少样本（如几秒语音）快速生成高度自然、个性化的语音。普通用户需要了解它，是因为它正被广泛应用于有声书制作、无障碍辅助（如为视障人士朗读网页）、个性化语音助手，甚至教育与内容创作领域；但同时也需警惕其潜在滥用风险，例如伪造他人声音进行欺诈或误导。",
+    "plain": "Resemble AI 是一家专注于语音合成与克隆技术的公司，支持用极少样本生成自然语音。它广泛应用于有声书、无障碍辅助及内容创作，但也需警惕声音伪造等滥用风险。用户应了解其便利性与潜在伦理问题。",
     "metaphor": "就像一位天赋异禀的配音演员，只需听你讲两句话，就能完美模仿你的语调、停顿和情绪，为你‘代声’说出任何新内容。",
     "example": "一位播客主使用 resemble_ai 上传自己30秒的录音，5分钟内生成了整篇长文的语音稿，保持原声风格且无需反复录制；另一名教师则用它为学生定制带方言口音的英语听力材料。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语音合成",
+    "内容创作",
+    "伦理安全"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://resemble.ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:52:55Z",
-  "updated_at": "2026-03-21T09:32:43Z"
+  "updated_at": "2026-03-23T18:35:05.630018Z",
+  "quality_score": 0.95
 }

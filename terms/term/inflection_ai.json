@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 公司",
   "difficulty": "中级",
   "explanations": {
-    "plain": "inflection_ai 是一家专注于开发具有情感智能和自然对话能力的AI模型的公司，其核心产品Pi助手强调共情、主动倾听与温和引导，而非单纯信息检索或任务执行。它代表了AI从‘工具型’向‘关系型’演进的新方向——用户不再只追求答案的准确性，更在意交互过程中的被理解感与心理安全感。普通用户需要了解它，是因为它提示我们：未来日常使用的AI可能更像一位有温度的伙伴，而非冷冰冰的搜索引擎。",
+    "plain": "Inflection AI 是一家专注于开发情感智能 AI 的公司，核心产品为 Pi 助手。Pi 强调共情与自然对话，而非单纯任务执行，代表 AI 从工具型向关系型演进。用户可通过它体验更具温度的交互，感受被理解与心理安全感，而非仅获取信息。它是未来 AI 伙伴化趋势的代表。",
     "metaphor": "就像一位训练有素的咖啡馆常驻倾听者——不急于给建议，先确认你的情绪，适时点头，再轻声问‘接下来想聊点什么？’",
     "example": "一位刚经历工作挫折的用户对Pi说‘今天好累’，Pi不会立刻列出减压方法，而是回应‘听起来你撑得很辛苦，愿意多说说发生了什么吗？’并根据语气调整后续节奏。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 助手",
+    "情感计算",
+    "人机交互"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://inflection.ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:31:22Z"
+  "updated_at": "2026-03-23T13:18:44.235522Z",
+  "quality_score": 1.0
 }

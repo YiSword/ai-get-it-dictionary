@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "gemini_2_0_nano",
+  "norm_term": "gemini_2_0_nano",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "端侧模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Gemini 2.0 Nano 是谷歌专为移动设备等资源受限环境设计的轻量级端侧 AI 模型。它通过模型压缩和量化技术，降低计算需求并保持核心功能，解决云端依赖导致的延迟与隐私问题。支持本地化处理图像识别、语音交互等任务，实现离线智能服务，显著提升响应速度并保护用户数据隐私。",
+    "metaphor": "就像随身携带的智能工具箱，无需连接中央仓库（云端），就能在现场快速完成基础维修（数据处理），既节省时间又避免工具外借风险（隐私泄露）。",
+    "example": "用户使用支持该模型的智能手机拍摄文档时，设备可即时本地完成文字识别与排版优化，无需上传至服务器，既保护敏感信息又避免网络延迟影响体验。"
+  },
+  "scenario_tags": [
+    "移动端推理",
+    "隐私保护",
+    "离线智能"
+  ],
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/models/gemini"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:32:43.128801Z",
+  "updated_at": "2026-03-23T16:54:41.134723Z",
+  "quality_score": 0.95
+}

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "硬件与计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "FP8（Floating-Point 8-bit）是一种仅用8位二进制数表示浮点数的数值格式，通常包含1位符号位、4位指数位和3位尾数位（如E4M3）或5位指数位和2位尾数位（如E5M2）。它比传统的FP16或FP32更节省内存和带宽，显著提升AI模型训练与推理的计算效率。普通用户需要知道它，是因为它正被用于新一代消费级GPU（如NVIDIA Hopper/Blackwell架构）中，直接影响大模型运行速度、设备续航和本地AI应用的可行性。",
+    "plain": "FP8 是一种 8 位浮点数数值格式，相比 FP16/FP32 更节省内存和带宽。它通常包含符号位、指数位和尾数位（如 E4M3/E5M2）。该格式显著提升 AI 模型训练与推理效率，已应用于 NVIDIA Hopper/Blackwell 等新架构 GPU 中，直接影响大模型运行速度和本地部署可行性。",
     "metaphor": "就像把一本厚字典压缩成一张便携速查卡片——牺牲少量精度，换来极快翻阅和随身携带的能力。",
     "example": "在手机端运行轻量级大语言模型时，使用FP8量化可将模型权重体积减少75%，同时保持95%以上的原始响应质量，使实时语音翻译在不联网情况下仍流畅运行。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "推理加速",
+    "硬件架构"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developer.nvidia.com/blog/nvidia-hopper-architecture-in-depth/",
+    "https://en.wikipedia.org/wiki/Floating_point"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:38:15Z"
+  "updated_at": "2026-03-23T19:09:32.602226Z",
+  "quality_score": 0.95
 }

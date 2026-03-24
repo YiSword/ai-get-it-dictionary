@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "算法",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Elo评级是一种用于衡量竞技参与者（如棋手、电子游戏选手）相对实力的数值系统，由匈牙利裔美国物理学家阿帕德·埃洛设计。它通过比赛结果动态调整双方分数：胜者得分，负者失分，分差大小取决于双方赛前评分差异。普通用户需要了解Elo评级，因为它广泛应用于国际象棋、围棋、MOBA类电竞（如《英雄联盟》的隐藏分机制）、甚至在线匹配系统中，直接影响你遇到的对手难度和排名展示，是理解‘公平匹配’与‘进步可视化’背后逻辑的关键。",
+    "plain": "Elo 评级是一种衡量竞技参与者相对实力的数值系统，由阿帕德·埃洛设计。通过比赛结果动态调整分数，胜者得分，负者失分，分差取决于赛前评分差异。广泛应用于国际象棋、电竞匹配及 AI 模型排名。它是理解公平匹配与实力评估背后逻辑的关键，直接影响对手难度和排名展示。",
     "metaphor": "就像银行账户余额，你的Elo分数不是固定标签，而是随每次‘胜负交易’实时增减的信用值——赢过高手像大额进账，输给新手则像意外扣费。",
     "example": "在国际象棋网站Chess.com上，一名玩家初始Elo为1200，战胜一位1600分选手后，其Elo升至1285；若随后输给一位1400分选手，则可能降至1260左右。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "竞技游戏",
+    "匹配系统",
+    "评估算法"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Elo_rating_system",
+    "https://www.chess.com/terms/elo-chess-rating"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:04:18Z"
+  "updated_at": "2026-03-23T14:58:40.463193Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "用户界面",
   "difficulty": "中级",
   "explanations": {
-    "plain": "cursor 是计算机界面中指示当前操作位置的可视化标记，常见于文本编辑器、终端或数据库查询中。在文本编辑中，它表现为闪烁的竖线，标示输入或修改的起始点；在数据库中，则指代结果集遍历的状态句柄。普通用户需要理解 cursor，因为它直接影响打字位置、代码调试准确性以及数据检索效率——误操作（如光标跳转错误）可能导致内容覆盖或查询失败。",
+    "plain": "cursor 是计算机界面中指示当前操作位置的可视化标记。在文本编辑中表现为闪烁竖线，标示输入点；在数据库中指代结果集遍历的状态句柄。理解 cursor 有助于定位输入、调试代码及优化数据检索，误操作可能导致内容覆盖或查询失败。",
     "metaphor": "就像阅读时你用手指指着正在看的那行字，cursor 就是计算机界面上的‘手指’，告诉系统‘接下来该处理这里’。",
     "example": "当你在 VS Code 中编写 Python 代码时，将光标放在函数名上并按下 F12，编辑器会跳转到该函数的定义处；数据库程序员使用游标（cursor）逐行提取查询结果，避免一次性加载全部数据导致内存溢出。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "用户界面",
+    "数据库",
+    "文本编辑"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cursor_(user_interfaces)",
+    "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T05:08:02Z"
+  "updated_at": "2026-03-23T13:56:16.830651Z",
+  "quality_score": 1.0
 }

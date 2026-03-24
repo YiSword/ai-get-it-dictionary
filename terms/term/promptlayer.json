@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "LLMOps 平台",
   "difficulty": "中级",
   "explanations": {
-    "plain": "PromptLayer 是一个专为大语言模型（LLM）应用设计的可观测性与提示工程平台，它帮助开发者记录、追踪、调试和优化提示（prompt）的调用过程。通过自动捕获输入、输出、元数据及模型参数，它提供版本控制、A/B 测试、延迟分析和成本监控等功能。普通用户（尤其是AI应用开发者或产品经理）需要知道它，是因为在构建稳定、可复现、合规的生成式AI产品时，仅靠原始API调用难以追溯问题根源、评估提示效果或管理生产环境中的模型行为。",
+    "plain": "PromptLayer 是专为大语言模型应用设计的可观测性与提示工程平台。它帮助开发者记录、追踪、调试和优化提示调用过程，提供版本控制、A/B 测试、延迟分析和成本监控等功能。适用于构建稳定、可复现的生成式 AI 产品，解决生产环境中模型行为管理与问题追溯难题。",
     "metaphor": "PromptLayer 就像给你的提示调用装上了行车记录仪和黑匣子——不仅全程录像，还能回放、比对、分析每一次‘对话’的细节。",
     "example": "一家电商公司使用 PromptLayer 来追踪客服聊天机器人中不同提示模板在处理退货请求时的响应准确率和平均延迟，从而快速定位并替换效果差的版本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "提示工程",
+    "模型运维",
+    "可观测性"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://promptlayer.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:00:00Z",
-  "updated_at": "2026-03-21T09:18:00Z"
+  "updated_at": "2026-03-23T11:45:19.273367Z",
+  "quality_score": 0.95
 }

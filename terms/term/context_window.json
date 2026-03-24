@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型规格",
   "difficulty": "中级",
   "explanations": {
-    "plain": "context_window 是指大语言模型在单次推理过程中能够接收、处理和参考的最大文本长度（通常以 token 为单位），包括输入提示（prompt）和模型生成的输出。它决定了模型能‘记住’并利用多少上下文信息来理解问题、保持对话连贯性或处理长文档。普通用户需要知道它，因为超出限制会导致内容被截断、关键信息丢失，影响回答准确性；例如上传一份长报告提问时，若超过 context_window，模型可能看不到开头或结尾的重要内容。",
+    "plain": "context_window 指大语言模型单次推理能处理的最大文本长度，通常以 token 计，涵盖输入提示与生成输出。它决定模型能利用多少上下文信息保持对话连贯或处理长文档。若超出限制，内容会被截断导致关键信息丢失，影响回答准确性。用户需注意此限制以避免信息遗漏。",
     "metaphor": "就像一个人阅读纸质书时只能同时看到一页或两页的内容——context_window 就是模型‘眼前摊开的书页范围’，超出部分就无法看见或参考。",
     "example": "当你向模型上传一篇 12,000 字的技术白皮书并提问‘第三章的核心结论是什么？’，若模型的 context_window 仅为 8,192 tokens，那么部分内容将被截断，模型可能根本无法看到第三章。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "推理限制",
+    "性能指标"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs/models",
+    "https://docs.anthropic.com/claude/docs/models-overview"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T04:53:58Z"
+  "updated_at": "2026-03-23T13:53:53.416016Z",
+  "quality_score": 0.95
 }

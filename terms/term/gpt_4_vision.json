@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GPT-4 Vision（简称GPT-4V）是OpenAI推出的多模态大模型版本，能同时理解文本和图像输入，例如分析照片中的物体、文字、场景或图表，并生成自然语言回应。它不同于纯文本模型，具备‘看图说话’能力，使用户可通过上传图片提问，如识别菜单文字、诊断皮肤状况或解释数学题截图。普通用户需要了解它，是因为它正逐步融入日常工具（如Copilot、笔记App），让信息获取更直观、无障碍，尤其对视障人士、教育者和非技术用户意义重大。",
+    "plain": "GPT-4 Vision 是 OpenAI 推出的多模态大模型，支持文本与图像混合输入。它能识别照片中的物体、文字及图表，生成自然语言回应。具备视觉理解能力，可应用于文档分析、场景识别等任务，已集成于 Copilot 等工具中，提升了信息交互的直观性与无障碍性。",
     "metaphor": "就像一位精通图文双语的全能助手——你递给他一张照片，他不仅能读出图里写的字，还能解释画面含义，就像老练的博物馆导览员边指展品边娓娓道来。",
     "example": "用户拍摄一张手写的物理公式照片并提问‘这个公式在什么条件下适用？’，GPT-4 Vision会先识别手写内容，确认是麦克斯韦-安培定律，再结合上下文解释其在时变电场中的应用边界。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态交互",
+    "图像识别",
+    "智能助手"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/index/gpt-4-turbo-and-gpt-4-vision/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:24:53Z",
-  "updated_at": "2026-03-21T06:54:24Z"
+  "updated_at": "2026-03-23T11:23:39.546219Z",
+  "quality_score": 0.95
 }

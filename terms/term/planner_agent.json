@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "智能体架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "planner_agent 是一种专门设计用于分解复杂任务、制定执行步骤并协调其他智能体或工具的AI角色。它不直接执行具体操作（如调用API或生成文本），而是像项目负责人一样分析目标、识别依赖关系、规划子任务顺序，并将任务分发给合适的执行者。普通用户需要了解它，因为它是实现自动化工作流、多步骤推理和可靠AI协作的关键组件——尤其在需要逻辑严谨性、容错性和可追溯性的场景中，比如智能办公助手或自主研究系统。",
+    "plain": "planner_agent 是一种专用于分解复杂任务、制定执行步骤并协调其他智能体或工具的 AI 角色。它负责分析目标、规划子任务顺序并分发任务，而不直接执行具体操作。作为实现自动化工作流、多步骤推理和可靠 AI 协作的关键组件，它广泛应用于智能办公助手或自主研究系统等场景。",
     "metaphor": "就像旅行前的行程规划师：它不帮你订机票或背行李，但会综合天气、预算、签证和交通，把整个旅程拆解成‘查签证→订酒店→买机票→准备行李’等清晰有序的步骤。",
     "example": "当用户说‘帮我调研2024年全球AI监管趋势并生成一份简报’，planner_agent会先识别需完成的子任务：检索政策文件、提取各国要点、对比分析异同、撰写摘要、格式化输出；然后依次调度网络搜索agent、文档解析agent、写作agent和排版agent来协同完成。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "任务规划",
+    "多智能体协作",
+    "自动化工作流"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2308.11432",
+    "https://microsoft.github.io/autogen/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:11:07Z"
+  "updated_at": "2026-03-23T14:02:14.392482Z",
+  "quality_score": 0.95
 }

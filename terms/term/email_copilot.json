@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 应用",
   "difficulty": "中级",
   "explanations": {
-    "plain": "email_copilot 是一种基于人工智能的辅助工具，嵌入在电子邮件客户端中，帮助用户撰写、润色、摘要或回复邮件。它能理解上下文、识别语气、规避语法错误，并根据收件人身份建议专业或友好的措辞。普通用户需要了解它，因为它显著降低沟通成本——尤其在处理大量工作邮件、非母语写作或紧急响应时，既能提升效率，又能减少因表达不当引发的误解。",
+    "plain": "email_copilot 是嵌入邮件客户端的 AI 辅助工具，协助用户撰写、润色、摘要及回复邮件。它能理解上下文与语气，建议恰当措辞并纠正语法。该工具显著降低沟通成本，提升处理大量邮件或非母语写作时的效率，减少误解，适用于职场沟通及紧急响应场景。",
     "metaphor": "就像一位随身携带的资深秘书兼语言教练，一边听你口述要点，一边实时帮你组织语言、检查分寸、补全礼节。",
     "example": "当你收到一封客户投诉邮件时，email_copilot 可自动分析情绪倾向，生成既诚恳又专业的道歉初稿，并提示‘建议补充具体补救措施’，你只需稍作修改即可发送。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "职场办公",
+    "智能写作",
+    "效率提升"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.microsoft.com/en-us/microsoft-365/copilot",
+    "https://workspace.google.com/features/assistive-ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:04:41Z"
+  "updated_at": "2026-03-23T15:55:14.166008Z",
+  "quality_score": 0.95
 }

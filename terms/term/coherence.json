@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "coherence（一致性）指系统、文本、数据或多个组件之间在逻辑、语义或行为上保持连贯、无矛盾且相互支持的特性。对普通用户而言，理解coherence有助于识别信息是否可信、界面操作是否符合直觉、或多人协作时文档是否容易被共同理解——例如，一份前后矛盾的说明书会降低使用效率，而聊天记录时间线混乱则影响沟通效果。",
+    "plain": "Coherence（连贯性）在 AI 领域指生成文本或系统在逻辑、语义上保持一致且无矛盾的特性。它是评估大语言模型生成质量的关键指标之一。高连贯性意味着内容前后逻辑通顺，易于理解；低连贯性则表现为事实冲突或逻辑断裂。用户可通过该概念判断 AI 回答的可靠性及文本的可读性，确保信息传递准确高效。",
     "metaphor": "就像一支交响乐团，每个乐手演奏不同乐器，但必须遵循同一乐谱和指挥节奏，才能奏出和谐乐章；缺失coherence，再好的单个音符也会变成噪音。",
     "example": "在多人协同编辑的在线文档中，若版本控制失效导致用户A看到的段落顺序与用户B看到的不一致，这种状态就属于coherence缺失。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文本生成",
+    "模型评估",
+    "对话系统"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Coherence_(linguistics)",
+    "https://huggingface.co/docs/evaluate/main/en/measurement"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:15:44Z",
-  "updated_at": "2026-03-21T04:42:32Z"
+  "updated_at": "2026-03-23T13:04:13.485539Z",
+  "quality_score": 0.95
 }

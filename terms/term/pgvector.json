@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "向量数据库",
   "difficulty": "中级",
   "explanations": {
-    "plain": "pgvector 是一个用于 PostgreSQL 数据库的扩展，允许用户高效地存储和查询向量数据。普通用户需要知道它，因为它可以支持机器学习、相似性搜索等高级功能，提升数据处理效率。",
+    "plain": "pgvector 是 PostgreSQL 的开源扩展，支持向量存储与相似性搜索。它允许在关系型数据库中直接进行嵌入向量操作，无需额外向量数据库。广泛应用于 RAG、推荐系统及语义搜索场景，显著降低架构复杂度并提升 AI 应用开发效率。",
     "metaphor": "pgvector 就像一个智能书架，能快速找到与你手中书籍内容相似的其他书籍。",
     "example": "在推荐系统中，pgvector 可以用来存储用户兴趣的向量表示，并快速找到与之最相似的其他用户或物品。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "RAG",
+    "语义搜索",
+    "向量检索"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/pgvector/pgvector",
+    "https://pgvector.dev/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-20T13:10:37Z"
+  "updated_at": "2026-03-23T12:40:55.528402Z",
+  "quality_score": 0.95
 }

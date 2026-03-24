@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Inference（推理）是指人工智能模型在训练完成后，利用已学知识对新输入数据进行预测或判断的过程。它不涉及模型参数更新，而是快速执行前向计算，生成结果，如识别图片中的物体、翻译句子或回答问题。普通用户需要了解它，因为日常使用的AI功能——如手机相册自动分类、语音助手响应指令、聊天机器人回复消息——背后都是inference在实时运行；其速度、准确性和资源消耗直接影响体验流畅度与设备续航。",
+    "plain": "Inference（推理）指 AI 模型训练完成后，利用已学参数对新输入数据进行预测或判断的过程。该过程不更新模型参数，仅执行前向计算。日常使用的相册分类、语音助手及聊天机器人回复均依赖推理。其速度与准确性直接影响用户体验及设备续航，是 AI 应用落地的关键环节。",
     "metaphor": "就像一位厨师根据多年经验，看到食材和火候就立刻知道该加什么调料、翻几次锅，无需重新翻 cookbook。",
     "example": "当你用手机拍照后，相册App瞬间标记出‘猫’‘户外’‘笑脸’等标签，这正是图像识别模型对新照片执行inference的结果。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型部署",
+    "预测分析",
+    "人工智能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/machine-learning/what-is-machine-learning-inference/",
+    "https://www.nvidia.com/en-us/data-center/inference/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:28:29Z"
+  "updated_at": "2026-03-23T18:42:41.676036Z",
+  "quality_score": 0.95
 }

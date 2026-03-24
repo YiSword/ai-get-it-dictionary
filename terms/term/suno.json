@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Suno 是一家人工智能公司，专注于生成高质量、高保真度的原创音乐。其核心产品 Suno AI 是一个文本到音乐（text-to-music）模型，用户只需输入一段文字描述（如‘欢快的电子舞曲，适合夏日派对’），即可在几秒内生成带人声、完整编曲和歌词的完整歌曲。普通用户需要了解 Suno，因为它大幅降低了音乐创作门槛——无需乐器、乐理知识或录音设备，普通人也能快速制作可用于短视频配乐、播客开场、教学素材甚至独立发行的原创音频内容。",
+    "plain": "Suno 是一家专注于 AI 音乐生成的公司，核心产品 Suno AI 为文本到音乐模型。用户输入文字描述，即可秒级生成带人声、编曲和歌词的完整歌曲。它大幅降低创作门槛，无需乐理知识或设备，普通人也能快速制作短视频配乐、播客素材或原创音频，是领先的 AIGC 音乐工具。",
     "metaphor": "Suno 就像一位全能音乐搭档：你只用说清想要的感觉，它立刻为你写词、作曲、演唱并混音完成。",
     "example": "一位教育博主输入提示词‘用轻快童谣风格解释水的三态变化’，Suno 在20秒内生成一首带旋律、押韵歌词和清晰人声的30秒科普歌曲，直接用于她的科学启蒙短视频中。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "音乐创作",
+    "内容生成",
+    "AIGC"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://suno.ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:58:02Z"
+  "updated_at": "2026-03-23T17:42:58.429073Z",
+  "quality_score": 0.95
 }

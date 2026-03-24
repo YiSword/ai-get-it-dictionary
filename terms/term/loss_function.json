@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "loss_function（损失函数）是机器学习中用来量化模型预测结果与真实标签之间误差的数学函数。它为模型训练提供优化目标：值越小，说明模型预测越准确。普通用户需要了解它，因为它是决定AI系统‘学得对不对’的核心指标——比如推荐系统是否真懂你的喜好、医疗AI是否准确识别病灶，背后都依赖损失函数的设计与表现。",
+    "plain": "损失函数是机器学习中用于量化模型预测结果与真实标签之间误差的数学函数。作为模型训练的核心优化目标，其值越小意味着预测越准确。该函数直接决定 AI 系统的学习效果，广泛应用于推荐系统、医疗诊断等场景，是评估模型性能的关键指标。",
     "metaphor": "就像厨师做菜时用的‘味觉标尺’：尝一口就知道咸淡是否合适，损失函数就是模型在训练中不断‘尝’自己预测结果的‘味道’，并据此调整做法。",
     "example": "在图像分类任务中，使用交叉熵损失函数衡量神经网络对猫/狗图片预测概率分布与真实标签（如[0,1]表示‘狗’）的差异，指导模型逐步提升判别精度。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "评估指标",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Loss_function",
+    "https://pytorch.org/docs/stable/nn.html#loss-functions"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:20:22Z"
+  "updated_at": "2026-03-23T11:31:26.202527Z",
+  "quality_score": 0.95
 }

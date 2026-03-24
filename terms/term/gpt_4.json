@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GPT-4 是由 OpenAI 开发的第四代大型语言模型，具备更强的推理能力、多模态理解（如处理图像和文本）、更长的上下文记忆（最高32768个token）以及更可靠的输出质量。它被广泛集成于ChatGPT Plus、Microsoft Copilot等产品中。普通用户需要了解它，是因为它正深度影响日常工具——从写作润色、编程辅助到教育答疑，其能力边界直接关系到你能多高效地获取信息、解决问题或创造内容。",
+    "plain": "GPT-4 是 OpenAI 推出的第四代大型语言模型，支持文本与图像多模态输入，具备更强的推理能力和更长的上下文窗口。它广泛应用于 ChatGPT Plus 及 Microsoft Copilot 等产品，显著提升写作、编程及教育场景的效率，是目前最具影响力的 AI 模型之一。",
     "metaphor": "就像一位精通数十种语言、读过千万本书、还能边听你说话边画草图的超级助教，GPT-4 不只是回答问题，而是能陪你思考、迭代、跨形式协作。",
     "example": "一名设计师上传一张手绘APP界面草图，用自然语言提问‘如何用React实现这个登录页？请包含表单验证逻辑’，GPT-4 理解图像与指令后，生成可运行的代码及优化建议。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "生成式 AI",
+    "多模态",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/research/gpt-4"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:22:33Z",
-  "updated_at": "2026-03-21T06:52:43Z"
+  "updated_at": "2026-03-23T17:14:42.221004Z",
+  "quality_score": 0.95
 }

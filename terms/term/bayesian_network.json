@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "贝叶斯网络（Bayesian Network）是一种用有向无环图表示变量间概率依赖关系的统计模型，其中节点代表随机变量，有向边表示因果或影响关系，并附带条件概率表来量化这种影响。它能高效地建模不确定性、进行推理（如根据症状推断疾病可能性）和预测（如天气变化对交通延误的影响）。普通用户需要了解它，因为它是智能助手、医疗诊断系统、推荐引擎等日常技术背后的底层逻辑之一，帮助我们理解AI如何在信息不全时做出合理判断。",
+    "plain": "贝叶斯网络是用有向无环图表示变量间概率依赖关系的统计模型。节点代表随机变量，边表示条件依赖。它能高效建模不确定性，支持概率推理与预测。广泛应用于医疗诊断、风险评估及智能决策系统，是 AI 在信息不全时做出合理判断的核心工具。",
     "metaphor": "就像一张家庭族谱图，不仅列出成员，还标明谁影响了谁（比如父母的基因影响孩子的特征），并附上每种影响发生的概率。",
     "example": "医生使用贝叶斯网络，根据患者是否发烧、咳嗽、接触过感染者等观测症状，动态计算患流感、新冠或普通感冒的概率，从而辅助诊断决策。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "概率推理",
+    "医疗诊断",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Bayesian_network",
+    "https://www.ibm.com/topics/bayesian-networks"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:58:34Z"
+  "updated_at": "2026-03-23T14:51:57.660111Z",
+  "quality_score": 0.95
 }

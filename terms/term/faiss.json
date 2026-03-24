@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习库",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Faiss 是由 Facebook AI 研究团队开发的高效相似性搜索库，专门用于在大规模向量集合中快速查找与查询向量最相近的向量（如最近邻）。它支持多种索引结构和量化压缩技术，能在毫秒级响应海量高维数据（如图像、文本嵌入）的检索请求。普通用户需要了解 Faiss，是因为它正广泛支撑着现代推荐系统、搜索引擎、AI 内容去重、多模态检索等后台能力——这些体验背后，往往依赖 Faiss 实现‘秒级找相似’的核心性能。",
+    "plain": "Faiss 是 Facebook AI 研发的高效相似性搜索库，专为大规模向量集合设计。支持多种索引结构和量化技术，毫秒级完成海量高维数据最近邻检索。广泛应用于推荐系统、搜索引擎及内容去重场景，是实现快速相似检索的核心基础设施。",
     "metaphor": "Faiss 就像一个超级优化的图书管理员，面对一座藏有十亿本书的图书馆（每本书用一串数字编码），能在眨眼间根据你手写的潦草便签（查询向量），精准找出内容最接近的几十本，而不用逐本翻阅。",
     "example": "某电商平台用 CLIP 模型将商品图转为 512 维向量，存入 Faiss 索引；用户上传一张‘红色帆布托特包’照片，系统 20 毫秒内返回视觉最相似的 12 款在售商品。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "向量检索",
+    "相似性搜索",
+    "推荐系统"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/facebookresearch/faiss"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:22:05Z"
+  "updated_at": "2026-03-23T14:44:52.892475Z",
+  "quality_score": 0.95
 }

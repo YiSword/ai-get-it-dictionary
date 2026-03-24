@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "speculative_decoding_v2",
+  "norm_term": "speculative_decoding_v2",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "technique",
+  "category": "推理加速",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Speculative Decoding V2 是一种加速大模型推理的技术。它利用小模型并行生成多个候选词元序列，再由大模型并行验证，减少串行计算延迟。相比传统自回归解码，显著提升生成速度，降低算力成本。适用于实时对话、代码生成等低延迟场景，改善用户交互体验，同时保持模型输出质量不变。",
+    "metaphor": "就像快递员根据经验提前打包多个可能需要的包裹，待确认地址后直接发出，而非逐个等待指令再行动。",
+    "example": "在实时翻译系统中，模型可预先生成多种可能的译文片段，当用户输入完整句子后，系统直接选择最优结果输出，将响应时间缩短 40%。"
+  },
+  "scenario_tags": [
+    "大模型推理",
+    "低延迟应用",
+    "算力优化"
+  ],
+  "sources": [
+    "https://arxiv.org/abs/2211.17192"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:34:41.157415Z",
+  "updated_at": "2026-03-23T17:03:39.068464Z",
+  "quality_score": 0.95
+}

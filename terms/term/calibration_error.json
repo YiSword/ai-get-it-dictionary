@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型评估",
   "difficulty": "中级",
   "explanations": {
-    "plain": "calibration_error（校准误差）是指模型预测的概率与其实际发生频率之间的偏差程度。例如，若模型对100个样本输出‘80%置信度’的预测，而其中实际正确的只有65个，则存在显著校准误差。普通用户需要关注它，因为高准确率的模型若校准差，其置信度就不可信——医生可能误信一个‘95%可信’但实际仅70%准确的疾病诊断，导致错误决策。",
+    "plain": "校准误差衡量模型预测概率与实际发生频率的一致性。若模型预测 80% 置信度但实际准确率仅 65%，则存在较大误差。高准确率模型若校准差，其置信度不可信，可能导致医疗诊断等关键决策错误。关注此指标可确保模型输出的概率值真实可靠，避免过度自信或保守。",
     "metaphor": "就像一个总把体重秤调轻5公斤的电子秤，读数看似稳定准确，但每次显示的数字都系统性地偏离真实值。",
     "example": "在自动驾驶系统的障碍物检测中，若模型对‘前方有行人’的预测标称置信度为90%，但统计发现该类预测实际命中率仅62%，则存在严重校准误差，可能危及安全决策。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "不确定性量化",
+    "风险决策"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1706.04599",
+    "https://scikit-learn.org/stable/modules/calibration.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:17:46Z"
+  "updated_at": "2026-03-23T11:22:54.728518Z",
+  "quality_score": 0.95
 }

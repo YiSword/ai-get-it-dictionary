@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据治理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "catalog 是一种结构化的元数据集合，用于描述、组织和定位数据资产（如数据库表、API、文件、指标等）的位置、格式、所有者、用途及血缘关系。它相当于数据世界的‘黄页’或‘图书馆目录’，帮助用户快速发现可信、合规且可用的数据资源。普通用户需要知道 catalog，是因为在数据驱动决策日益普及的今天，它能显著降低查找和理解数据的成本，避免重复建设、误用过时数据或违反数据安全策略。",
+    "plain": "Catalog 是一种结构化的元数据集合，用于描述、组织和定位数据资产（如数据库表、API 等）。它相当于数据世界的‘图书馆目录’，帮助用户快速发现可信、合规的数据资源。它能显著降低查找和理解数据的成本，避免重复建设或违反安全策略。",
     "metaphor": "就像图书馆的索书卡系统——不翻遍所有书架，你也能通过分类、作者、关键词精准找到那本需要的书。",
     "example": "某电商公司的数据工程师在开发用户行为分析报表前，先在公司统一数据 catalog 中搜索‘app_click_event’，立即获取该表的最新 schema、最近更新时间、负责人、下游依赖报表及敏感字段标记，从而安全高效地开始开发。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据治理",
+    "元数据管理",
+    "数据发现"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://atlas.apache.org/",
+    "https://aws.amazon.com/glue/features/data-catalog/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:40:12Z",
-  "updated_at": "2026-03-21T04:20:35Z"
+  "updated_at": "2026-03-23T14:32:08.485256Z",
+  "quality_score": 0.95
 }

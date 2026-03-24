@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "qwen2_5_coder",
+  "norm_term": "qwen2_5_coder",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "代码大模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Qwen2.5-Coder 是通义千问系列中专注于代码任务的专用大模型。它基于海量代码数据训练，支持多种编程语言的生成、理解、调试与修复。相比通用模型，它在代码补全、复杂逻辑实现及单元测试生成上表现更优，旨在辅助开发者提升编程效率，降低错误率，适用于智能 IDE 插件及自动化编码场景。",
+    "metaphor": "就像配备了一位精通多国编程语言的资深程序员助手，能听懂你的需求描述并直接写出可运行的代码片段。",
+    "example": "开发者输入‘用Python实现快速排序算法’，模型自动生成带注释的完整代码，并指出时间复杂度优化点，帮助新手快速掌握算法实现。"
+  },
+  "scenario_tags": [
+    "代码生成",
+    "智能编程",
+    "大语言模型"
+  ],
+  "sources": [
+    "https://github.com/QwenLM/Qwen2.5-Coder",
+    "https://modelscope.cn/models/qwen/Qwen2.5-Coder-7B-Instruct"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:33:08.693936Z",
+  "updated_at": "2026-03-23T12:41:11.851523Z",
+  "quality_score": 0.95
+}

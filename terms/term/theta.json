@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习基础",
   "difficulty": "中级",
   "explanations": {
-    "plain": "theta（θ）是希腊字母，在数学、物理和工程中广泛用作变量名，尤其代表角度、参数或未知量。在机器学习中，它常表示模型的参数向量（如线性回归中的权重和偏置）；在三角函数中，它标识角度大小；在统计学中，可能代表待估计的总体参数。普通用户不需要记住希腊字母表，但理解theta作为‘可调节的控制旋钮’有助于把握算法如何通过调整theta来拟合数据，从而更直观地认识AI模型的学习本质。",
+    "plain": "theta（θ）是希腊字母，在机器学习中常代表模型参数向量，如线性回归的权重和偏置。它是模型训练中的“可调节旋钮”，算法通过不断调整 theta 来拟合数据，使预测更准确。理解 theta 有助于直观把握 AI 模型的学习与优化本质。在统计学中也常指待估计的总体参数。",
     "metaphor": "Theta就像调音台上的旋钮——每个旋钮对应一个声音参数，转动它就改变最终输出效果；theta就是模型内部决定结果的关键调节参数。",
     "example": "在训练一个预测房价的线性模型时，theta包含房屋面积系数、卧室数量系数及基础价格偏置项，优化算法通过不断更新theta使预测值最接近真实售价。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "机器学习",
+    "数学基础",
+    "模型参数"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Greek_alphabet",
+    "https://www.coursera.org/learn/machine-learning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:39:08Z",
-  "updated_at": "2026-03-21T10:06:42Z"
+  "updated_at": "2026-03-23T15:50:53.509585Z",
+  "quality_score": 0.95
 }

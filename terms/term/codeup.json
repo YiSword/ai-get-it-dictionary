@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "DevOps",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Codeup 是阿里云推出的代码托管与协同研发平台，提供 Git 仓库管理、CI/CD 流水线、代码评审、项目协作等一站式 DevOps 能力。它深度集成阿里云生态（如容器服务、函数计算），支持企业级权限管控和安全审计。普通用户（尤其是开发者、技术团队或中小型企业）需要了解 Codeup，因为它能显著降低研发流程搭建门槛，提升代码质量与交付效率，同时满足合规与安全要求，避免自建 GitLab 等系统的运维负担。",
+    "plain": "Codeup 是阿里云提供的企业级代码托管平台，支持 Git 仓库管理、代码评审及 CI/CD 流水线。它深度集成阿里云生态，提供权限管控与安全审计，帮助团队降低运维成本，提升研发效率与代码质量，无需自建 GitLab 即可实现一站式 DevOps 流程。",
     "metaphor": "Codeup 就像一个智能的数字研发办公室——不仅提供安全的文件柜（代码仓库），还内置了自动审批流程（代码评审）、流水线车间（CI/CD）和团队协作白板（项目管理）。",
     "example": "某创业公司使用 Codeup 创建私有 Git 仓库，配置提交即触发自动化测试与镜像构建，并通过内置的 MR（Merge Request）流程实现双人代码审查，上线周期从三天缩短至两小时。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码管理",
+    "持续集成",
+    "云端协作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.aliyun.com/product/codeup"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:03:36Z",
-  "updated_at": "2026-03-21T04:40:42Z"
+  "updated_at": "2026-03-23T12:50:45.276995Z",
+  "quality_score": 0.95
 }

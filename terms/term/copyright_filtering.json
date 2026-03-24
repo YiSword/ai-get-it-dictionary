@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "法律合规",
   "difficulty": "中级",
   "explanations": {
-    "plain": "copyright_filtering（版权过滤）是指数字平台（如视频网站、社交媒体或云存储服务）在用户上传内容前或上传后，自动扫描并识别其中是否包含受版权保护的素材（如音乐、电影片段、图像等），从而阻止侵权内容传播的技术机制。它通常依赖音频指纹、视频哈希或图像识别等算法。普通用户需要了解它，因为即使无意中使用了受保护的片段（如背景音乐或截图），上传内容也可能被静音、下架甚至导致账号受限，影响创作自由与平台合规性。",
+    "plain": "copyright_filtering（版权过滤）是平台自动扫描用户上传内容，识别受版权保护素材（如音乐、视频）的技术机制。它依赖音频指纹等算法阻止侵权传播。用户需注意，无意使用受保护素材可能导致内容被静音、下架或账号受限，影响创作与合规。",
     "metaphor": "就像机场安检仪自动识别违禁物品一样，版权过滤系统是互联网平台的‘数字安检门’，在内容公开前快速筛查出未经授权的受保护素材。",
     "example": "一位博主在YouTube上传健身教学视频时插入了30秒热门流行歌曲作为背景音乐，系统通过音频指纹比对触发版权过滤，自动对该段落静音并提示版权主张。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "内容审核",
+    "版权保护",
+    "平台合规"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.wipo.int/copyright/en/",
+    "https://support.google.com/youtube/answer/2797370"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:59:47Z"
+  "updated_at": "2026-03-23T15:52:48.814658Z",
+  "quality_score": 0.95
 }

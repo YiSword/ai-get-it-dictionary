@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型评估",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Precision（精确率）是衡量分类模型预测结果中‘真正例’占所有‘预测为正例’样本比例的指标，计算公式为：真阳性 / (真阳性 + 假阳性)。它反映模型在做出‘是正类’判断时有多可靠——数值越高，说明模型越少把负例错判为正例。普通用户需要了解precision，因为它直接关系到实际应用中的误报风险，比如在垃圾邮件识别中，高precision意味着标记为‘垃圾邮件’的邮件几乎都是真的垃圾邮件，不会误删重要信件。",
+    "plain": "Precision（精确率）是分类模型评估指标，指预测为正例的样本中真正例的比例，公式为 TP/(TP+FP)。它反映模型预测正类的可靠性，数值越高误报越少。适用于垃圾邮件识别等场景，高精确率意味着标记为垃圾邮件的几乎都是真的，避免误删重要信件。",
     "metaphor": "就像一位严谨的图书管理员，每次只把确定是小说的书放进小说区；precision衡量的是他放进小说区的书里，有多少本确实是小说。",
     "example": "在医学检测中，若某新冠快速检测试剂的precision为95%，表示所有被判定为‘阳性’的检测结果中，95%确实感染了病毒，其余5%是假阳性——这对避免不必要的隔离和焦虑至关重要。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "分类模型",
+    "模型评估",
+    "性能指标"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html",
+    "https://developers.google.com/machine-learning/crash-course/classification/precision-and-recall"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:17:07Z",
-  "updated_at": "2026-03-21T09:14:34Z"
+  "updated_at": "2026-03-23T15:15:52.509987Z",
+  "quality_score": 0.95
 }

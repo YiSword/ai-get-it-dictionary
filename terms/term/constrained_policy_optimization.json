@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Constrained Policy Optimization（CPO）是一种强化学习算法，用于在训练智能体时显式满足安全或性能约束（如最大碰撞概率、能耗上限等），而不仅追求奖励最大化。它通过将约束建模为优化问题中的不等式条件，并采用近似策略更新确保每一步迭代都保持可行性。普通用户需要了解它，因为当AI系统被部署在真实世界（如自动驾驶、医疗机器人）中时，盲目优化性能可能引发危险行为，CPO提供了数学上可保证的安全训练路径。",
+    "plain": "Constrained Policy Optimization (CPO) 是强化学习算法，通过在优化目标中加入不等式约束，确保智能体在最大化奖励的同时满足安全或性能限制。它采用近似策略更新保证迭代可行性，为自动驾驶等高风险场景提供数学可验证的安全训练路径，避免盲目优化带来的危险。",
     "metaphor": "就像驾校教练要求学员在加速的同时必须始终把油门踩在安全转速红线以下——不是只教怎么开得快，而是教怎么又快又不爆缸。",
     "example": "在无人机配送任务中，CPO被用来训练飞行策略，确保每秒避障失败率严格低于0.1%，同时最小化配送时间；传统强化学习可能大幅缩短时间但导致频繁撞树，而CPO在满足安全阈值的前提下逼近最优效率。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "强化学习",
+    "安全 AI",
+    "自动驾驶"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1705.10528"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:50:51Z"
+  "updated_at": "2026-03-23T13:19:09.458758Z",
+  "quality_score": 0.95
 }

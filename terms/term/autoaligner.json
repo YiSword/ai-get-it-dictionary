@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "autoaligner",
+  "norm_term": "autoaligner",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "tool",
+  "category": "模型对齐工具",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "AutoAligner 是一种自动化校准 AI 模型行为的工具，通过系统化测试识别偏差与风险，确保输出符合人类价值观及安全标准。它自动调整参数优化质量，是现代聊天机器人及推荐系统可靠性的关键技术。用户理解其原理有助于判断技术可信度与能力边界。",
+    "metaphor": "就像给指南针定期校准以确保方向准确，AutoAligner 持续检测并修正 AI 模型的‘道德罗盘’，防止其输出偏离人类社会的共识准则。",
+    "example": "某医疗咨询 AI 在回答健康问题时，AutoAligner 会检测其建议是否包含未经证实的疗法，并自动过滤高风险内容，确保符合医学伦理规范。"
+  },
+  "scenario_tags": [
+    "模型安全",
+    "价值对齐",
+    "自动化评估"
+  ],
+  "sources": [
+    "https://arxiv.org/search/?query=autoaligner+ai"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:44:15.012250Z",
+  "updated_at": "2026-03-23T18:19:09.217335Z",
+  "quality_score": 1.0
+}

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据库",
   "difficulty": "中级",
   "explanations": {
-    "plain": "PostgreSQL 是一个功能强大、开源的关系型数据库管理系统（RDBMS），支持标准 SQL、事务、外键、触发器、视图和复杂查询。它以高可靠性、数据完整性和可扩展性著称，广泛用于 Web 应用、地理信息系统、金融分析等对数据一致性要求严格的场景。普通用户可能不直接操作它，但许多常用服务（如内容管理系统、协作工具或云平台后台）都依赖 PostgreSQL 存储和管理核心数据，了解其存在有助于理解数据安全、备份逻辑和系统性能瓶颈。",
+    "plain": "PostgreSQL 是一款先进的开源对象关系型数据库管理系统。支持标准 SQL、事务、外键及复杂查询，以高可靠性、数据完整性和强可扩展性著称。广泛应用于 Web 应用、地理信息系统及金融分析等场景，是众多云平台和内容管理系统的核心存储方案。",
     "metaphor": "PostgreSQL 就像一座高度自动化的智能图书馆：不仅按规则整齐上架每一本书（数据），还提供精准索引、借阅记录追踪（事务日志）、多人同时借还书而不乱（并发控制），并能根据复杂条件快速找出所有符合要求的书籍组合（高级查询）。",
     "example": "一家电商公司使用 PostgreSQL 存储商品信息、用户订单和库存状态，利用其事务特性确保‘下单扣库存’操作原子执行——即使在秒杀高峰时，也不会出现超卖或订单丢失。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据存储",
+    "后端开发",
+    "开源软件"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.postgresql.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:10:24Z",
-  "updated_at": "2026-03-21T09:14:17Z"
+  "updated_at": "2026-03-23T15:03:39.377736Z",
+  "quality_score": 0.95
 }

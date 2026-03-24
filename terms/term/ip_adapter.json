@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成控制",
   "difficulty": "中级",
   "explanations": {
-    "plain": "IP-Adapter 是一种轻量级、即插即用的图像条件控制模块，用于在 Stable Diffusion 等扩散模型中高效注入参考图像的视觉特征（如人物外貌、风格或构图），而无需修改原始模型结构或进行全模型微调。它通过适配器网络将图像编码器（如 CLIP ViT）的特征映射到扩散模型的交叉注意力层，实现精准的图像引导生成。普通用户需要了解它，是因为它大幅降低了个性化图像控制的门槛——无需训练、显存占用小、支持多图参考，让设计师、插画师和AI爱好者能快速实现‘以图生图’的高保真可控生成。",
+    "plain": "IP-Adapter 是用于 Stable Diffusion 的轻量级图像控制模块。无需微调模型，即可将参考图像的风格、构图或人物特征注入生成过程。通过适配图像编码器特征到交叉注意力层，实现高保真以图生图。其显存占用低、支持多图参考，大幅降低个性化生成门槛，适合设计师及 AI 爱好者快速实现精准视觉控制。",
     "metaphor": "就像给一台已出厂的相机临时加装一个智能滤镜转接环：不拆机身、不改镜头，却能让它实时读懂你手里的样片，并据此调整成像风格和主体特征。",
     "example": "用户上传一张自己的正脸照片和一张想要的动漫风格参考图，通过 IP-Adapter 控制 Stable Diffusion，直接生成‘本人长相+该动漫风格’的头像，全程仅需几秒加载适配器，无需训练LoRA或Dreambooth。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "控制网络",
+    "Stable Diffusion"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/tencent-arc/IP-Adapter"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:14:28Z",
-  "updated_at": "2026-03-21T07:39:34Z"
+  "updated_at": "2026-03-23T14:43:53.746402Z",
+  "quality_score": 0.95
 }

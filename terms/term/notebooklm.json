@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 应用",
   "difficulty": "中级",
   "explanations": {
-    "plain": "NotebookLM 是 Google 推出的一款基于人工智能的个人知识管理工具，它能深度理解用户上传的文档（如PDF、TXT等），并据此生成准确、有依据的摘要、问答和内容延伸。与通用聊天机器人不同，NotebookLM 的回答严格锚定在用户提供的资料中，并明确标注引用来源。普通用户需要了解它，是因为它能显著提升学习、研究和写作效率——尤其适合学生整理课堂笔记、研究人员梳理文献、或职场人士快速消化长篇报告，避免信息泛滥下的理解偏差和时间浪费。",
+    "plain": "NotebookLM 是 Google 推出的 AI 驱动知识管理工具。它基于用户上传的文档（如 PDF、TXT）生成摘要、问答及内容延伸。与通用聊天机器人不同，其回答严格锚定提供资料并标注引用来源。适合学生整理笔记、研究人员梳理文献或职场人士消化报告，显著提升学习研究与写作效率，避免信息偏差。",
     "metaphor": "它就像一位熟读你所有资料的私人学术助理，不凭空猜测，只根据你给它的‘课本’作答。",
     "example": "一名研究生上传了五篇关于气候变化的论文PDF后，直接向 NotebookLM 提问：‘这些研究对碳捕集技术的有效性结论是否一致？’，工具随即对比原文段落，指出三篇支持、两篇持保留意见，并附上每处结论对应的原文页码和引文。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "知识管理",
+    "文档分析",
+    "学习辅助"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://notebooklm.google.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:55:41Z"
+  "updated_at": "2026-03-23T12:41:29.500552Z",
+  "quality_score": 0.95
 }

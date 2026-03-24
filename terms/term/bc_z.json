@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "区块链开发",
   "difficulty": "中级",
   "explanations": {
-    "plain": "bc_z 是区块链领域中一种简写形式，通常指代特定区块链网络的主网代币（如 Bitcoin Cash 的原生代币 BCH 在部分系统中曾被简记为 bc_z，或在某些开发文档、钱包地址前缀、测试网标识中用作临时命名约定）。它并非官方标准术语，而是在开发者社区、配置文件或内部工具中用于快速区分链类型与版本的助记符。普通用户需要知道它，是因为在导入钱包、切换网络或调试DApp时可能遇到该标识，误选可能导致资产发送至错误链路，造成不可逆损失。",
+    "plain": "bc_z 非区块链官方标准术语，常见于开发文档或内部工具，作为特定网络（如 Bitcoin Cash 相关测试网）的临时标识符。用户在导入钱包、切换网络或调试 DApp 时若遇此标识，需谨慎核对，误选可能导致资产发送至错误链路造成不可逆损失。建议查阅具体项目文档确认上下文。",
     "metaphor": "就像快递包裹上的‘京仓-3号分拣线’标签，不是商品本身的名字，却是确保包裹进入正确处理通道的关键识别码。",
     "example": "某多链钱包在添加自定义网络时，要求用户输入链标识符，此时输入 'bc_z' 可能对应 Bitcoin Cash 的 Zebra 节点兼容网络；若用户本意是连接以太坊，误选 bc_z 将导致交易广播失败或资金锁定在错误链上。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "钱包安全",
+    "开发调试",
+    "网络标识"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://bitcoincash.org"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:59:22Z"
+  "updated_at": "2026-03-23T16:18:09.778779Z",
+  "quality_score": 0.9
 }

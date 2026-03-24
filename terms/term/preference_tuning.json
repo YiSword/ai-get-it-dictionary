@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型对齐",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Preference tuning 是一种大语言模型对齐技术，通过用户提供的偏好数据（例如对多个输出的排序或打分），微调模型使其更符合人类的价值观、风格或任务目标。它不依赖显式标签或答案，而是从成对或成组的对比反馈中学习‘什么更好’。普通用户需要了解它，因为这是当前让AI更听话、更安全、更贴合个人需求的关键方法之一——比如你告诉AI‘回复要简洁’或‘避免专业术语’，背后就可能依赖此类技术。",
+    "plain": "Preference tuning 是一种大语言模型对齐技术。它利用用户偏好数据（如输出排序或打分）微调模型，使其更符合人类价值观和安全标准。不同于传统监督微调，它从对比反馈中学习“什么更好”，无需显式答案。这是提升 AI 安全性、有用性及个性化体验的关键方法，常见于 RLHF 或 DPO 等算法中。",
     "metaphor": "就像教一个厨师改进菜式：不是直接告诉他每道菜该放多少盐，而是让他尝两份不同咸淡的版本，然后选出更合你口味的那一份，反复多次后，他自然学会你的口味偏好。",
     "example": "在AI客服系统中，运营人员标注‘礼貌但不过度谦卑’的回复优于‘过度使用敬语显得生硬’的回复，模型通过这类偏好对训练后，生成的应答更自然得体。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型对齐",
+    "微调技术"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2305.18290",
+    "https://huggingface.co/blog/rlhf"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:15:06Z"
+  "updated_at": "2026-03-23T14:39:27.608628Z",
+  "quality_score": 0.95
 }

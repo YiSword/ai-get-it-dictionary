@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型量化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "iq1_s 是一种量化精度格式，代表使用 1 位整数（int1）对权重或激活值进行低比特量化，并辅以标量缩放因子（scale）的表示方法。它常用于边缘设备上的模型压缩与加速，通过大幅降低存储和计算开销来提升推理效率。普通用户虽不直接接触该术语，但其背后的技术正支撑着手机端实时翻译、离线语音助手等轻量AI功能——了解它有助于理解为何某些AI应用能在无网、低功耗条件下依然快速响应。",
+    "plain": "iq1_s 是 llama.cpp 框架下的 GGUF 量化格式之一，代表 1 位重要性矩阵量化。它通过极致的权重压缩与标量缩放，大幅降低大模型显存占用与计算延迟。主要用于资源受限的边缘设备，使大语言模型能在手机或低功耗硬件上离线高效推理，是端侧 AI 部署的核心优化技术。",
     "metaphor": "就像把一本厚字典缩印成袖珍版：牺牲少量查词精度，换来随身携带和快速翻页的能力。",
     "example": "某款智能眼镜在本地运行手势识别模型时，将神经网络权重以 iq1_s 格式部署，使推理延迟降至 12ms 且功耗低于 80mW。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型压缩",
+    "边缘计算",
+    "大模型推理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ggerganov/llama.cpp"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:20:43Z",
-  "updated_at": "2026-03-21T07:41:14Z"
+  "updated_at": "2026-03-23T15:27:58.079584Z",
+  "quality_score": 0.95
 }

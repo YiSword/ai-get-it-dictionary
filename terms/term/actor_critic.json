@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "actor_critic 是一种强化学习中的混合策略架构，同时包含两个协同工作的神经网络：'actor' 负责决定采取什么动作（策略函数），'critic' 负责评估该动作的好坏（值函数）。它结合了策略梯度方法的灵活性和值函数方法的稳定性，能更高效地训练智能体。普通用户无需深入数学细节，但了解它有助于理解AI如何在复杂环境中边试错边优化决策——比如自动驾驶或游戏AI背后的‘思考机制’。",
-    "metaphor": "就像一位运动员（actor）在场上实时做动作，旁边有一位经验丰富的教练（critic）即时点评‘这步好，下步风险高’，两者配合让训练既果断又理性。",
-    "example": "在机器人控制任务中，actor_critic 被用于训练四足机器人在不平坦地形上自主行走：actor 输出关节扭矩指令，critic 根据当前姿态和前进速度反馈动作价值，从而联合优化运动策略与稳定性评估。"
+    "plain": "Actor-Critic 是强化学习中的经典算法架构，结合策略梯度与价值函数方法。Actor 网络负责输出动作策略，Critic 网络负责评估动作价值以降低方差。相比单一方法，它收敛更稳定且高效，广泛应用于机器人控制、游戏 AI 及自动驾驶决策场景，是实现智能体自主优化学习的核心机制之一。",
+    "metaphor": "就像一位新手司机一边由教练（critic）实时点评‘这脚刹车踩得有点急’，一边自己不断调整操作（actor）；两者配合，比单纯背口诀或只靠感觉开车学得更快、更安全。",
+    "example": "在AlphaGo的后续版本AlphaZero中，actor-critic结构被用于自我对弈训练：actor生成落子策略，critic预测当前局面胜率，二者联合优化，最终实现无需人类棋谱的完全自主进化。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "强化学习",
+    "决策智能",
+    "算法架构"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://spinningup.openai.com/en/latest/algorithms/actor-critic.html",
+    "https://en.wikipedia.org/wiki/Actor%E2%80%93critic_method"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:20:15Z"
+  "updated_at": "2026-03-23T14:40:50.854530Z",
+  "quality_score": 0.95
 }

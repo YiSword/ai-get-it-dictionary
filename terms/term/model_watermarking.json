@@ -1,0 +1,31 @@
+{
+  "entry_kind": "term",
+  "term": "model_watermarking",
+  "norm_term": "model_watermarking",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "technique",
+  "category": "模型安全",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "模型水印是在 AI 模型参数或输出中嵌入不可见标识的技术，用于追踪来源、验证所有权及检测未授权使用。通过植入特定模式，开发者可识别模型是否被复制或滥用。这是保护知识产权、防止恶意篡改的关键工具，有助于验证模型可信度及授权合规性。",
+    "metaphor": "就像艺术品上的隐形签名，模型水印是开发者在数字作品中留下的‘指纹’，即使模型被复制，也能通过特定检测工具识别原始创作者。",
+    "example": "某公司发布医疗诊断 AI 模型后，发现竞争对手疑似盗用其模型。通过激活内置水印检测功能，该公司在对方系统的输出数据中识别出独特标识，成功证明侵权行为。"
+  },
+  "scenario_tags": [
+    "知识产权",
+    "内容溯源",
+    "合规审计"
+  ],
+  "sources": [
+    "https://www.nist.gov/itl/ai-risk-management-framework",
+    "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+    "https://arxiv.org/search/?query=model+watermarking"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:55:16.628679Z",
+  "updated_at": "2026-03-23T17:00:13.307502Z",
+  "quality_score": 0.95
+}

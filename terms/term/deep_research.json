@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "智能搜索",
   "difficulty": "中级",
   "explanations": {
-    "plain": "deep_research 是指系统性、多层递进的信息探究过程，不仅检索表面结果，还追溯原始数据源、验证方法论、交叉比对不同视角，并持续迭代提问与验证。它区别于快速搜索，强调深度理解而非信息获取速度。普通用户需要掌握这一能力，以在信息过载时代识别可信结论、避免被片面内容误导，并在学习、决策或内容创作中建立扎实的认知基础。",
+    "plain": "deep_research 指系统性、多层递进的信息探究过程。它不仅检索表面结果，还追溯原始数据源、验证方法论、交叉比对不同视角，并持续迭代提问。区别于快速搜索，它强调深度理解而非速度。用户掌握此能力可在信息过载时代识别可信结论，避免误导，为学习决策建立扎实认知基础。",
     "metaphor": "就像考古学家不满足于地表陶片，而是层层挖掘地层、分析碳样、比对文献，最终还原古代社会的完整图景。",
     "example": "一位家长想评估‘蓝光眼镜是否真能缓解儿童视疲劳’，会查阅临床试验原始论文、分析样本量与对照设计、考察利益相关方背景，并对比眼科协会指南与厂商宣传，而非仅看电商评论或短视频摘要。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "信息检索",
+    "决策支持",
+    "AI 应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/index/introducing-deep-research/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T05:28:37Z"
+  "updated_at": "2026-03-23T13:57:12.617304Z",
+  "quality_score": 1.0
 }

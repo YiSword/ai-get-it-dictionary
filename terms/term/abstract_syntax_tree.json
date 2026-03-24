@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "编译原理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "抽象语法树（Abstract Syntax Tree，AST）是源代码在编译或解释过程中被解析后生成的一种树状数据结构，它忽略括号、分号等冗余细节，只保留程序的语法结构和语义关系，如函数调用、变量声明、运算符优先级等。普通用户（尤其是开发者、学习编程者或参与代码分析工具使用者）需要了解AST，因为它构成了代码静态分析、自动格式化、语法高亮、代码转换（如Babel转译）、漏洞检测等工具的核心基础。",
-    "metaphor": "就像建筑师把一栋建筑的设计蓝图简化为骨架模型——去掉墙面颜色和灯具品牌，只保留承重柱、梁和房间连接关系，AST就是代码的‘语义骨架’。",
-    "example": "当使用ESLint检查JavaScript代码是否符合编码规范时，它先将源码解析为AST，再遍历该树查找不符合规则的节点（如未使用的变量）；Babel也将ES6+代码转为AST，修改节点后再生成兼容旧版浏览器的代码。"
+    "plain": "抽象语法树（AST）是源代码解析后生成的树状数据结构，忽略括号等无关细节，仅保留语法结构和语义关系。作为编译器及代码分析工具（如 Babel、ESLint）的核心基础，它支持代码转换、优化和自动化重构，帮助开发者理解构建流程及编写自定义规则。",
+    "metaphor": "就像建筑师把一栋建筑的手绘草图转化为标准化的结构蓝图，AST 是把人类可读的代码‘翻译’成计算机能系统化理解和操作的骨架模型。",
+    "example": "Babel 将 ES6 的箭头函数 (x) => x * 2 转换为 ES5 时，先将其解析为 AST，再遍历该树，将箭头函数节点替换成 function 表达式节点，最后生成目标代码。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "编译原理",
+    "代码分析",
+    "前端工程"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Abstract_syntax_tree",
+    "https://zh.wikipedia.org/wiki/抽象語法樹"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:15:41Z"
+  "updated_at": "2026-03-23T17:06:23.923831Z",
+  "quality_score": 0.95
 }

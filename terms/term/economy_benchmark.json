@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "宏观经济",
   "difficulty": "中级",
   "explanations": {
-    "plain": "economy_benchmark 是指用于评估和比较经济系统或经济政策绩效的一组标准化指标或参照标准，例如GDP增长率、失业率、通胀率或生产率等。它帮助决策者、研究者和公众客观衡量经济健康状况、识别趋势、检验政策效果，并在不同地区、时期或国家间进行横向或纵向对比。普通用户需要了解它，因为这些基准直接影响就业机会、物价水平、工资增长和政府财政支出方向，是理解自身经济处境和公共政策合理性的基础工具。",
+    "plain": "economy_benchmark 指评估经济系统或政策绩效的标准化指标集，如 GDP 增长率、失业率、通胀率等。它帮助决策者客观衡量经济健康状况，识别趋势，并在不同地区或时期间进行对比。这些基准直接影响就业、物价及政府财政方向，是公众理解经济处境与政策合理性的基础工具。",
     "metaphor": "就像体检时用的血压、心率等标准值，economy_benchmark 是给整个经济‘把脉’的参考刻度——偏离正常范围未必立刻出问题，但持续异常就提示需要关注或干预。",
     "example": "世界银行每年发布的《全球经济展望》中，将新兴市场国家的财政赤字率与60%的债务/GDP警戒线（欧盟马斯特里赫特条约基准）对比，就是典型的 economy_benchmark 应用。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "宏观经济",
+    "政策评估",
+    "经济指标"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.worldbank.org/en/topic",
+    "https://www.imf.org/en/Data"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:59:58Z"
+  "updated_at": "2026-03-23T14:39:56.760766Z",
+  "quality_score": 0.95
 }

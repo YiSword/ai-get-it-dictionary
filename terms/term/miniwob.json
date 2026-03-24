@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "基准测试",
   "difficulty": "中级",
   "explanations": {
-    "plain": "miniwob 是一个用于评估和训练 Web 智能体（如强化学习或大模型驱动的自动化代理）的开源基准测试平台，它包含上百个简化版的真实网页交互任务（如点击按钮、填写表单、选择日期等）。它不依赖真实浏览器，而是通过轻量级模拟环境提供可复现、可扩展的交互接口。普通用户无需直接使用它，但了解它有助于理解当前 AI 如何被训练去‘操作网页’——这是实现真正端到端自动化（如智能客服助手、自动报销填报）的关键技术基础。",
+    "plain": "MiniWoB 是一个用于评估和训练 Web 智能体的开源基准测试平台。它包含上百个简化版网页交互任务，如点击按钮、填写表单等。该平台通过轻量级模拟环境提供可复现的交互接口，不依赖真实浏览器。它是研究 AI 如何操作网页、实现端到端自动化的关键技术基础，广泛应用于强化学习及大模型驱动的智能体训练与评估。",
     "metaphor": "miniwob 就像驾校里的封闭式训练场，不让你直接上高速，而是用标准化的路标、红绿灯和考题，反复锤炼 AI 的‘驾驶’能力。",
     "example": "研究者用 miniwob 测试一个新提出的视觉-语言动作模型，看它能否在 100 个不同网页任务中准确完成‘找到价格最低的商品并加入购物车’这一指令，并量化其成功率与泛化能力。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "强化学习",
+    "智能体",
+    "基准测试"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/stanford-oval/miniwob",
+    "https://miniwob.farama.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:41:15Z"
+  "updated_at": "2026-03-23T15:41:31.716244Z",
+  "quality_score": 1.0
 }

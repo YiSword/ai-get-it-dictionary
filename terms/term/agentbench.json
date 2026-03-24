@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评测基准",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AgentBench 是一个开源的基准测试框架，专门用于评估多步推理、工具调用和自主决策能力的 AI 智能体（agent）。它不评测单次问答质量，而是考察智能体能否在复杂任务中规划步骤、调用外部工具（如计算器、搜索引擎、API）、处理错误并迭代改进。普通用户需要了解它，是因为随着AI从‘聊天机器人’转向‘自动执行任务的数字助手’，AgentBench 提供了衡量这类智能体是否真正可靠、鲁棒和实用的关键标尺。",
-    "metaphor": "就像驾照路考不仅考你能否点火起步，更考你能否在真实路况中看路标、避让行人、应对突发状况一样，AgentBench 是智能体的‘路考’——检验它在开放环境中独立完成任务的综合驾驶能力。",
-    "example": "研究人员用 AgentBench 测试一个旅行规划智能体：该智能体需根据用户预算和偏好，自主搜索航班、比价酒店、检查签证要求，并生成带时间线的行程表——整个过程需多次调用不同API并修正中间错误。"
+    "plain": "AgentBench 是专为评估 AI 智能体设计的开源基准测试框架。它涵盖网页操作、代码生成等多类任务，通过标准化协议衡量智能体在多步推理、工具调用及自主决策方面的能力。该基准帮助开发者判断 Agent 在复杂场景中的实际表现，而非仅限单轮问答，是选择可靠工具和理解技术边界的重要参考。",
+    "metaphor": "就像汽车行业的综合路测——不仅看发动机参数，更要看它能否自动泊车、应对突发路况、规划跨城路线。",
+    "example": "研究者使用 AgentBench 测试一个能调用浏览器、计算器和代码解释器的 AI agent，在‘帮用户分析某股票过去三个月涨跌并生成可视化图表’任务中，评估其是否准确拆解步骤、正确调用工具并处理错误。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "基准测试",
+    "智能体",
+    "模型评测"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/THUDM/AgentBench",
+    "https://agentbench.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:24:21Z"
+  "updated_at": "2026-03-23T12:38:11.738483Z",
+  "quality_score": 0.95
 }

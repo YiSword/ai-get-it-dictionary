@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "基准测试",
   "difficulty": "中级",
   "explanations": {
-    "plain": "big_bench_hard（BBH）是一个专为评估大语言模型高级推理能力而设计的基准测试子集，从原始BIG-Bench中筛选出最难、最易出错的23个任务，涵盖逻辑推理、数学推导、符号操作、多步因果分析等。它被广泛用于衡量模型是否真正具备稳健的泛化与深层推理能力，而非依赖表面模式匹配。普通用户需要了解它，是因为它揭示了当前AI在‘看似聪明’表象下的真实短板——比如能写诗却解不开小学奥数题，这对判断模型是否可靠、能否用于教育或专业场景至关重要。",
+    "plain": "big_bench_hard（BBH）是 BIG-Bench 基准测试的子集，精选 23 个高难度任务，涵盖逻辑推理、数学推导等。它用于评估大语言模型的高级推理能力，检验模型是否依赖表面模式匹配。广泛用于衡量模型泛化与深层推理能力，是判断模型能否用于专业场景的关键指标。",
     "metaphor": "就像驾照考试中的‘夜间雨天高速变道+突发障碍物应对’环节，BBH不是考你能不能开直线，而是专门挑最考验真功夫的极端路况来检验AI的驾驶本能。",
     "example": "研究人员用BBH评估某新发布的开源大模型时，发现其在‘逻辑谜题’和‘算法追踪’任务上准确率不足30%，远低于人类平均水平，从而明确指出该模型尚不适用于需要严谨推理的编程辅助或法律条款分析场景。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "推理能力",
+    "基准测试"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/google/BIG-bench",
+    "https://arxiv.org/abs/2201.11903"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:06:46Z"
+  "updated_at": "2026-03-23T14:42:41.007357Z",
+  "quality_score": 0.95
 }

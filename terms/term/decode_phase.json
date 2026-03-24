@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "计算机体系结构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "decode_phase 是数字电路或处理器流水线中的一个关键阶段，负责将取回的机器指令（二进制码）解析为控制信号和操作数信息，以明确该指令要执行什么操作（如加法、跳转）、操作哪些寄存器或内存地址。普通用户虽不直接接触它，但理解这一阶段有助于明白程序为何会因指令格式错误而崩溃，或为何某些代码优化（如指令对齐）能提升性能——因为解码效率直接影响CPU每秒执行的指令数。",
+    "plain": "decode_phase 是 CPU 流水线的关键阶段，负责将取回的机器指令解析为控制信号和操作数。它明确指令操作类型（如加法、跳转）及操作对象（寄存器或内存）。解码效率直接影响 CPU 性能，指令格式错误或对齐不当可能导致崩溃或性能下降。",
     "metaphor": "就像厨师拿到一张外文菜谱后，先花几秒查字典弄懂‘bake at 180°C for 25 minutes’的意思，才能开始烤蛋糕；decode_phase 就是CPU的‘查字典’时刻。",
     "example": "当ARM处理器执行一条ldr x0, [x1, #8]指令时，decode_phase会识别出这是加载指令、目标寄存器是x0、基址寄存器是x1、偏移量为8，并生成对应的内存读取控制信号。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "CPU 流水线",
+    "指令集架构",
+    "性能优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Instruction_cycle",
+    "https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:19:21Z"
+  "updated_at": "2026-03-23T16:42:20.784426Z",
+  "quality_score": 1.0
 }

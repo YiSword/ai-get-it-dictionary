@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "提示工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "instruction_hierarchy 指的是在人工智能或程序系统中，指令按抽象层级和控制粒度形成的结构化组织方式：高层指令定义目标与意图（如‘生成一份季度销售总结’），中层指令分解为步骤（如‘提取数据、计算增长率、生成图表’），底层指令则对应具体操作（如‘调用SQL查询表sales_2024_q2’）。普通用户需要理解它，才能更精准地表达需求、诊断模型响应偏差，并在提示工程中合理分层设计提示词，避免指令冲突或遗漏关键约束。",
+    "plain": "instruction_hierarchy 指 AI 系统中指令按抽象层级形成的结构。高层定义目标，中层分解步骤，底层对应具体操作。理解此概念有助于精准表达需求、诊断模型偏差，并在提示工程中分层设计提示词，避免指令冲突。常用于复杂任务规划与智能体控制。",
     "metaphor": "就像建筑项目中，业主的需求（盖一栋环保办公楼）→ 建筑师的蓝图（分结构、机电、节能模块）→ 工匠的具体动作（拧紧M12螺栓、铺设3cm厚保温层）。",
     "example": "在使用AI编程助手时，用户先发出高层指令‘为电商后台添加用户行为分析看板’，再补充中层约束‘需集成埋点日志，支持近7天滚动统计’，最后在调试阶段追加底层指令‘将uv_pv_ratio字段的计算逻辑改为去重后UV除以总PV’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "提示工程",
+    "智能体架构",
+    "任务规划"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs/guides/prompt-engineering"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:34:27Z"
+  "updated_at": "2026-03-23T14:55:16.916316Z",
+  "quality_score": 0.95
 }

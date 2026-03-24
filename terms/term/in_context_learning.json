@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "In-context learning（上下文学习）是指大语言模型在不更新参数的前提下，仅通过输入中提供的少量示例（即‘上下文’）就学会完成新任务的能力。它无需传统机器学习中的微调或训练，用户只需在提示词（prompt）中给出几个输入-输出范例，模型就能据此推断任务模式并生成符合要求的响应。普通用户需要了解它，因为这是当前与AI高效协作的核心方式——无需编程或训练知识，仅靠精心设计的提示即可让模型快速适应翻译、摘要、分类等多样化需求。",
+    "plain": "上下文学习（In-context Learning）指大语言模型无需更新参数，仅通过提示词中的少量示例即可理解并完成新任务的能力。用户无需微调，只需提供输入 - 输出范例，模型便能推断模式并生成响应。这是与 AI 高效协作的核心方式，适用于翻译、分类等场景，显著降低了使用门槛。",
     "metaphor": "就像一位经验丰富的助理，你只需给他看两三个你过去写的邮件范本，他就能立刻模仿你的语气和格式写出一封新邮件，而不需要你教他任何规则或让他重新学习写作。",
     "example": "用户在对话框中输入：'将以下英文句子翻译成中文：Hello → 你好；Thank you → 谢谢；Goodbye → 再见；Now translate: See you later → ？'，模型随即输出'待会儿见'。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "提示工程",
+    "少样本学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2005.14165"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:27:25Z"
+  "updated_at": "2026-03-23T18:17:23.937571Z",
+  "quality_score": 0.95
 }

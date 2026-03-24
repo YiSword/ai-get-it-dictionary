@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "orca_2 是由阿里云研发的第二代开源大语言模型，专注于代码理解与生成任务，在Python、JavaScript等主流编程语言上具备强推理和上下文建模能力。它并非通用对话模型，而是面向开发者设计的轻量级代码助手，支持本地部署与快速微调。普通用户（尤其是程序员、学生或低代码实践者）需要了解它，是因为它能在不依赖云端API、保护代码隐私的前提下，提供实时的代码补全、错误诊断和文档生成服务。",
+    "plain": "Orca 2 是微软研究院发布的第二代大语言模型，旨在通过模仿专家解释过程提升推理能力。它侧重复杂任务的逻辑推理与学习策略，支持多步推理和问题分解。研究者可利用其开源权重实验，探索小模型如何通过高质量数据获得接近大模型的性能，适用于科研与推理任务。",
     "metaphor": "就像一位随身携带的资深结对编程伙伴，无需联网、不偷看你的项目，却能立刻读懂你刚写的三行函数并给出优化建议。",
     "example": "一名前端开发者在离线环境下调试一个React组件时，用orca_2分析报错堆栈并自动生成修复后的useEffect逻辑，全程未上传任何代码到服务器。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "逻辑推理",
+    "开源研究"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.microsoft.com/en-us/research/blog/orca-2-learning-to-explain-reasoning/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:51:05Z",
-  "updated_at": "2026-03-21T09:03:11Z"
+  "updated_at": "2026-03-23T15:13:50.089826Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成参数",
   "difficulty": "中级",
   "explanations": {
-    "plain": "length_penalty 是生成式语言模型（如Transformer）在文本解码过程中用于调控输出长度的一个超参数。它通过在对数概率上施加与序列长度相关的缩放因子，来鼓励或抑制长文本生成：值小于1.0时偏好更长输出，大于1.0时倾向更短输出。普通用户需要了解它，因为不恰当的设置可能导致回答过于简略（如只答‘是’）、冗长重复，或无法完整呈现复杂逻辑，直接影响对话质量与实用性。",
+    "plain": "length_penalty 是生成式模型解码阶段的超参数，用于调控输出序列长度。它通过缩放对数概率影响生成倾向：值小于 1.0 鼓励更长文本，大于 1.0 倾向更短文本。设置不当可能导致回答过于简略或冗长，影响生成质量。默认值通常为 1.0，表示无长度惩罚。",
     "metaphor": "就像写作文时老师给的字数评分规则——写太短扣分，写太长也扣分，length_penalty 就是模型内部的‘字数弹性评分尺’。",
     "example": "在用大模型生成摘要时，将 length_penalty 设为0.8可避免因过度截断而丢失关键信息；而在生成代码补全时设为1.2，则能防止模型无意义地延续无关语句。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文本生成",
+    "模型推理",
+    "超参数调优"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/main_classes/text_generation"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:07:20Z"
+  "updated_at": "2026-03-23T16:19:08.020078Z",
+  "quality_score": 0.95
 }

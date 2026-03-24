@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "greedy_decoding 是一种文本生成策略，指在每个时间步选择当前概率最高的词（或 token）作为输出，不回溯也不考虑后续影响。它简单高效，但可能因局部最优导致全局次优结果，比如生成重复、无逻辑或不连贯的句子。普通用户需要了解它，因为这是许多聊天机器人、自动补全和翻译工具默认采用的生成方式，理解其局限性能帮助判断为何AI有时会‘一本正经地胡说八道’。",
+    "plain": "贪心解码是一种文本生成策略，每一步都选择当前概率最高的词作为输出，不考虑后续影响。该方法简单高效，但易陷入局部最优，导致生成内容重复或不连贯。它是许多聊天机器人和翻译工具的默认生成方式，理解其局限性有助于判断 AI 输出质量。",
     "metaphor": "就像走迷宫时永远只选眼前看起来最近的出口，却可能因此错过真正的终点。",
     "example": "当用大语言模型续写‘今天天气真’时，greedy_decoding 可能直接选概率最高的‘好’，生成‘今天天气真好’，而忽略更有趣但初始概率略低的‘奇怪’‘闷热’等更贴切上下文的选项。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文本生成",
+    "大语言模型",
+    "算法策略"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/blog/how-to-generate"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:59:10Z"
+  "updated_at": "2026-03-23T12:03:45.721496Z",
+  "quality_score": 0.95
 }

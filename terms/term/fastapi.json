@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "Web 框架",
   "difficulty": "中级",
   "explanations": {
-    "plain": "FastAPI 是一个现代、快速（高性能）的 Python Web 框架，用于构建 API（应用程序接口），尤其擅长开发 RESTful 和异步服务。它基于 Python 类型提示自动生成交互式 API 文档（如 Swagger UI），并内置数据验证、依赖注入和 OAuth2 支持。普通用户（尤其是开发者）需要了解它，是因为它能显著提升后端开发效率、减少出错概率，并让 API 更易测试、维护和协作。",
+    "plain": "FastAPI 是一个现代高性能的 Python Web 框架，专为构建 API 设计。它基于类型提示自动生成 Swagger 文档，内置数据验证和依赖注入。适用于 RESTful 和异步服务，能显著提升后端开发效率，减少错误，便于测试与维护，是开发者构建高效 API 的首选工具。",
     "metaphor": "FastAPI 就像一位精通多国语言、自带翻译器和质检员的外交官：你只需用 Python 类型‘说清’请求和响应结构，它就自动完成校验、文档生成和协议适配。",
     "example": "一个天气应用后端使用 FastAPI 快速搭建接口，用户发送带城市名的 GET 请求，框架自动校验参数类型、返回结构化 JSON 数据，并实时生成可交互的在线文档供前端工程师直接调试。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "后端开发",
+    "API 设计",
+    "Python 编程"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://fastapi.tiangolo.com/",
+    "https://github.com/tiangolo/fastapi"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:05:42Z",
-  "updated_at": "2026-03-21T06:23:44Z"
+  "updated_at": "2026-03-23T13:40:04.351904Z",
+  "quality_score": 0.95
 }

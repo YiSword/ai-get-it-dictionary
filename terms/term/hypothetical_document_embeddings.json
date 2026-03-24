@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "检索增强生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "hypothetical_document_embeddings 是一种检索增强生成（RAG）技术中的关键策略：当用户提出一个问题时，系统不直接检索历史文档，而是先用大语言模型生成一个‘假设性答案’（即对问题的简明、自洽的回应），再将这个假设性文本编码为向量并用于相似度检索。这种方法能绕过原始查询与文档间措辞不匹配的问题，显著提升检索相关性。普通用户需要知道它，是因为它直接影响AI回答是否准确、贴切——尤其在专业问答、知识库搜索等场景中，它让AI更懂你真正想问的，而非只认字面关键词。",
+    "plain": "Hypothetical Document Embeddings (HyDE) 是检索增强生成（RAG）中的优化策略。系统先利用大模型生成问题的假设性答案，将其编码为向量进行相似度检索，而非直接使用查询向量。该方法有效弥合查询与文档间的语义差异，显著提升检索相关性，适用于知识库搜索及专业问答场景，确保 AI 回答更精准。",
     "metaphor": "就像一位经验丰富的图书管理员，不按你随口说的模糊书名找书，而是先快速写出一段你可能想找的内容摘要，再用这段摘要去精准匹配馆藏。",
     "example": "当用户提问‘如何用Python计算两个日期间的营业日天数？’，系统会先让LLM生成一段简短的技术描述（如‘使用pandas.bdate_range或numpy.busday_count’），再将该描述向量化，检索出最匹配的API文档或Stack Overflow回答。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "检索增强生成",
+    "语义检索",
+    "知识库搜索"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2212.10496",
+    "https://python.langchain.com/docs/modules/data_connection/retrievers/hypothetical_document_embeddings"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:20:55Z"
+  "updated_at": "2026-03-23T11:56:47.388436Z",
+  "quality_score": 0.95
 }

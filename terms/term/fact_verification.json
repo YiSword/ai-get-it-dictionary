@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Fact verification（事实核查）是指通过交叉比对权威信源、原始证据和逻辑分析，系统性地检验一条陈述是否真实、准确的过程。它广泛应用于新闻编辑、社交媒体内容审核、学术研究和公共政策讨论中。普通用户需要掌握这一能力，因为在信息过载和虚假信息泛滥的时代，未经核实的断言可能误导判断、影响决策，甚至煽动偏见或危害公共利益。",
+    "plain": "事实核查是通过比对权威信源与证据，系统性检验陈述真实性的过程。广泛应用于新闻、社交媒体审核及学术研究。在信息过载时代，它能防止虚假信息误导决策或危害公共利益，是确保信息可信度与内容安全的关键环节，也是 AI 内容生成中的重要评估任务。",
     "metaphor": "就像厨师在烹饪前检查食材是否新鲜、有无变质，事实核查是我们在接受信息前对其‘保质期’和‘真伪标签’的必要查验。",
     "example": "当某条微博声称‘某城市自来水含致癌物超标300倍’，事实核查机构会调取当地水务部门检测报告、第三方实验室数据及国家水质标准，最终发布报告澄清该说法缺乏依据。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "内容安全",
+    "虚假信息检测"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fact-checking",
+    "https://developers.google.com/fact-check/tools/api"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:21:30Z"
+  "updated_at": "2026-03-23T17:20:42.697314Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "加密货币交易所",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Bitfinex 是一家成立于2012年的知名加密货币交易所，总部注册于英属维尔京群岛，提供比特币、以太坊等数百种数字资产的交易服务。它以高流动性、专业级交易工具（如杠杆、保证金和衍生品）及机构级API著称，但也因历史上发生过重大安全事件（如2016年6000万美元BTC被盗）和监管争议而备受关注。普通用户需要了解它，不仅因其曾是行业早期重要平台，更因选择交易所直接关系到资金安全、交易成本与合规风险。",
+    "plain": "Bitfinex 成立于 2012 年，是全球知名的加密货币交易所，总部设在英属维尔京群岛。提供比特币、以太坊等多种数字资产交易，以高流动性和专业交易工具（如杠杆、衍生品）著称。虽曾因 2016 年安全事故受关注，但仍是行业早期重要平台。用户选择时需考量资金安全与合规风险。",
     "metaphor": "Bitfinex 就像一座建在强风带上的国际金融大厦——设施先进、交易迅捷，但地基曾裂、监管模糊，出入者需自带安全绳和天气预报。",
     "example": "一位高频交易员使用 Bitfinex 的永续合约和高达100倍杠杆做空比特币，同时通过其API接入自研算法，在毫秒级波动中执行套利策略。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "加密货币",
+    "交易平台",
+    "网络安全"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.bitfinex.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:16:52Z",
-  "updated_at": "2026-03-21T04:08:46Z"
+  "updated_at": "2026-03-23T15:54:28.860940Z",
+  "quality_score": 0.95
 }

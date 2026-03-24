@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型量化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "q8_k_l 是一种量化格式，用于在大语言模型推理中压缩权重参数，表示每个权重用8位整数（q8）存储，并采用k-quants框架中的‘l’级优化策略（如分组量化、缩放因子精细化等），在保持较高精度的同时显著降低显存占用和计算开销。普通用户需要了解它，是因为选择不同量化格式（如q4_k_m、q8_k_l）直接影响模型运行速度、硬件兼容性（尤其在消费级GPU或CPU上）以及回答质量的稳定性。",
+    "plain": "q8_k_l 是 GGUF 模型文件中的一种 8 位量化格式，源于 llama.cpp 的 k-quants 技术。它通过分组量化与缩放因子优化，在显著降低显存占用的同时保持较高精度。适合消费级硬件部署大语言模型，用户选择此格式可在有限显存下获得优于低比特量化的生成质量，平衡推理速度与性能开销。",
     "metaphor": "就像把一本高清摄影集压缩成高质量JPEG——既大幅缩小体积，又几乎看不出画质损失。",
     "example": "当在一台16GB显存的笔记本上本地运行Llama-3-70B模型时，用户可能选用q8_k_l量化版本，在不明显牺牲响应准确性的前提下，使模型顺利加载并实时推理。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型量化",
+    "推理部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ggerganov/llama.cpp"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:29:02Z",
-  "updated_at": "2026-03-21T09:24:19Z"
+  "updated_at": "2026-03-23T16:20:36.154602Z",
+  "quality_score": 1.0
 }

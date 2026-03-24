@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "gemini_2_0_flash",
+  "norm_term": "gemini_2_0_flash",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "多模态大模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Gemini 2.0 Flash 是谷歌推出的新一代多模态大模型，主打极致速度与效率。它在保持强大智能的同时大幅降低延迟与成本，专为高频实时交互设计。适用于语音对话、代码生成及移动端应用，帮助开发者在性能与资源间取得最佳平衡，是构建低延迟 AI 应用的理想选择。",
+    "metaphor": "就像短跑运动员与马拉松选手的区别，Flash 版本专为爆发式任务设计，能在毫秒级完成简单指令，而复杂深度思考则交给更强大的基础模型处理。",
+    "example": "当开发者构建实时翻译聊天机器人时，可调用 Gemini 2.0 Flash 处理日常对话请求，确保用户消息在 200 毫秒内获得响应，而将法律条款解析等复杂任务路由至完整版模型。"
+  },
+  "scenario_tags": [
+    "实时交互",
+    "内容生成",
+    "移动端部署"
+  ],
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/models/gemini"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:32:13.003059Z",
+  "updated_at": "2026-03-23T16:51:30.995387Z",
+  "quality_score": 1.0
+}

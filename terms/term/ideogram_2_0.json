@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "图像生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ideogram_2_0 是 Google DeepMind 推出的第二代图像生成模型，专注于根据文本提示（尤其是多语言、符号化或抽象概念）生成高保真、语义精准的图像。它在理解非拉丁文字、数学符号、象形元素及跨文化视觉隐喻方面有显著提升。普通用户需要了解它，是因为它正逐步集成到搜索、文档协作和创意工具中，能更可靠地将复杂想法（如‘甲骨文风格的‘光’字演化图’）转化为直观图像，降低专业设计门槛。",
+    "plain": "Ideogram 2.0 是 Ideogram AI 推出的第二代文本生成图像模型。擅长处理包含文字、符号的复杂提示词，显著提升多语言及象形元素的理解能力。它集成于创意工具中，能将抽象概念转化为高保真图像，降低设计门槛，适用于海报设计、logo 生成及跨文化视觉表达场景。",
     "metaphor": "就像一位精通数十种古文字又擅长水墨画的老师，你一说出概念，它立刻用最贴切的视觉语言为你手绘一幅既准确又有韵味的插图。",
     "example": "一位历史教师输入提示‘用商代金文、小篆、隶书三种字体并列呈现‘德’字，并背景为青铜器纹样’，ideogram_2_0 在几秒内生成一张结构严谨、字体考据准确、风格统一的教育配图。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "多模态",
+    "创意设计"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ideogram.ai",
+    "https://ideogram.ai/blog"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:40:00Z",
-  "updated_at": "2026-03-21T07:23:43Z"
+  "updated_at": "2026-03-23T15:50:33.539566Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "context_compression 是指在大语言模型推理过程中，通过算法（如注意力掩码优化、关键token选择或向量量化）有选择地缩减输入上下文的长度，同时尽可能保留对当前任务最关键的信息。它不是简单截断，而是智能‘提纯’上下文，以降低计算开销、加快响应速度并缓解长文本导致的注意力稀释问题。普通用户需要了解它，因为这直接影响聊天机器人能否稳定处理长对话、文档摘要或代码补全等复杂任务，且关系到响应质量与延迟之间的实际权衡。",
+    "plain": "context_compression 指在大模型推理中，通过算法有选择地缩减输入上下文长度，同时保留关键信息。它不是简单截断，而是智能提纯，旨在降低计算开销、加快响应并缓解长文本注意力稀释。这直接影响聊天机器人处理长对话、文档摘要的能力，关乎响应质量与延迟的权衡。",
     "metaphor": "就像一位经验丰富的编辑为一篇万字长稿制作精准的会议纪要——删去寒暄与重复，只留下决策要点和行动项，让读者30秒内掌握核心。",
     "example": "当用户上传一份50页的技术白皮书并提问‘第三章提出的架构缺陷有哪些？’时，context_compression模块会自动识别并保留第三章及相关引用段落，将原始12万token压缩至约4000token再送入模型，显著提升响应效率而不丢失关键依据。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "推理优化",
+    "长文本处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2310.06839"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:51:21Z"
+  "updated_at": "2026-03-23T12:14:09.416204Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "kv_offloading（键值卸载）是一种大模型推理优化技术，指将模型自注意力机制中庞大的键（Key）和值（Value）缓存从GPU显存临时转移到CPU内存或高速存储（如NVMe），以缓解显存瓶颈、支持更长上下文或在资源受限设备上运行大模型。普通用户需要了解它，因为这项技术直接影响AI应用能否流畅处理长文档、实时对话或多轮交互——例如在笔记本电脑或边缘设备上使用本地大模型时，它可能是决定‘能用’还是‘爆显存’的关键。",
+    "plain": "kv_offloading 是大模型推理优化技术，将注意力机制中的键值缓存从 GPU 显存卸载至 CPU 内存或高速存储。此举缓解显存瓶颈，支持更长上下文或在资源受限设备运行大模型。用户感知为长文档处理更流畅，避免显存溢出错误，提升本地部署可行性。",
     "metaphor": "就像图书馆把不常翻阅的旧书暂时移到地下仓库，只把当前读者需要的几本书留在阅览室桌面，既节省空间又不妨碍阅读。",
     "example": "当在一台仅配备16GB显存的消费级显卡上运行70B参数模型并处理32K长度的输入时，系统通过kv_offloading将历史注意力KV缓存动态换入换出CPU内存，从而避免显存溢出并维持推理连续性。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型推理",
+    "显存优化",
+    "本地部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://docs.vllm.ai/",
+    "https://huggingface.co/docs/transformers/main/en/perf_infer_gpu_one"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:58:02Z"
+  "updated_at": "2026-03-23T17:23:48.239729Z",
+  "quality_score": 0.95
 }

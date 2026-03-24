@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "文生图模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Kandinsky-3 是由俄罗斯 Skolkovo 科学技术研究所发布的第三代开源文本到图像生成模型，专为高保真、高可控性图像合成设计。它支持细粒度的布局控制（如物体位置、大小、关系）和多语言提示理解，显著提升了生成图像与文本描述的一致性。普通用户需要了解它，是因为它代表了当前开源AI绘图领域在精度、可控性和本地部署可行性上的重要进展，适合设计师、内容创作者等对生成结果有明确构图需求的人群。",
+    "plain": "Kandinsky 3 是由 SberAI 与 AIRI 联合发布的第三代开源文生图模型。它支持多语言提示理解及细粒度布局控制，显著提升了图像与文本的一致性。作为开源模型，它适合设计师及创作者在本地部署，满足对生成结果构图可控性的高要求，是开源 AI 绘图领域的重要进展。",
     "metaphor": "就像一位精通多种语言且能严格按建筑草图施工的资深画师，Kandinsky-3 不仅听懂你的描述，还能精准落实每个元素的位置、比例和风格。",
     "example": "用户输入提示词‘一只橘猫坐在左下角的木质窗台上，窗外是模糊的樱花树，阳光从右上角斜射进来’，Kandinsky-3 可生成严格遵循该空间布局和光照方向的高清图像。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 绘画",
+    "开源模型",
+    "内容创作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ai-forever/Kandinsky-3"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:45:35Z",
-  "updated_at": "2026-03-21T07:49:15Z"
+  "updated_at": "2026-03-23T17:02:57.538613Z",
+  "quality_score": 0.95
 }

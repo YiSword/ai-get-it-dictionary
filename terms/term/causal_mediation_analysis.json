@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "因果推断",
   "difficulty": "中级",
   "explanations": {
-    "plain": "因果中介分析（causal mediation analysis）是一种统计方法，用于分解某个干预（如一项政策或治疗）对结果的总效应，区分其中直接作用和通过中间变量（即‘中介’）产生的间接作用。例如，它能回答：新药改善健康的效果中，有多少是直接起效，又有多少是通过降低血压这一中间机制实现的。普通用户需要了解它，是因为它能揭示现象背后的机制，避免将相关误认为因果，从而支持更精准的决策、政策设计或临床解释。",
+    "plain": "因果中介分析是一种统计方法，用于分解干预对结果的总效应，区分直接作用与通过中介变量产生的间接作用。例如，分析新药效果中多少直接起效，多少通过降低血压实现。它能揭示现象背后的机制，避免混淆相关与因果，支持精准决策与政策设计。",
     "metaphor": "就像拆解一台闹钟——总效果是它准时响铃，而因果中介分析则帮你分辨：是发条直接驱动铃铛（直接效应），还是先带动齿轮转动、再由齿轮触发铃铛（中介效应）。",
     "example": "在教育实验中，研究者发现参加暑期辅导班（干预）提高了学生期末成绩（结果）；因果中介分析可进一步估计，其中有多少提升是通过增加每日学习时长（中介变量）实现的，而非辅导本身带来的其他直接影响。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "因果推断",
+    "统计分析",
+    "机制解释"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mediation_(statistics)",
+    "https://www.causalai.net/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:22:06Z"
+  "updated_at": "2026-03-23T18:11:10.437331Z",
+  "quality_score": 0.95
 }

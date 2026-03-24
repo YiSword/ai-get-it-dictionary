@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型评估",
   "difficulty": "中级",
   "explanations": {
-    "plain": "live_traffic_eval 是指在系统实际运行过程中，对实时产生的生产流量（如用户请求、API调用、消息事件等）进行即时、自动化的效果评估。它不依赖离线日志回放或模拟数据，而是直接在真实服务链路中注入评估逻辑（如A/B测试指标计算、模型预测质量打分、响应合规性校验），从而快速验证新策略、模型或配置变更的实际影响。普通用户需要了解它，是因为它决定了线上功能是否真正可靠、推荐是否精准、风控是否有效——任何延迟或偏差都可能直接影响体验甚至造成业务损失。",
+    "plain": "live_traffic_eval 指在系统实际运行时，对真实生产流量进行即时自动化评估。它不依赖离线回放，而是直接在服务链路中注入逻辑，如 A/B 测试指标计算或模型预测打分。此举旨在快速验证新策略或模型变更的实际影响，确保线上功能可靠、推荐精准及风控有效，避免业务损失。",
     "metaphor": "就像在高速公路上边开车边用实时仪表盘监测油耗、胎压和导航准确性，而不是等回家后翻行车记录仪复盘。",
     "example": "某电商App上线新版搜索排序模型后，通过 live_traffic_eval 实时统计每千次真实用户搜索中点击率提升2.3%、加购转化率无下降，15分钟内确认灰度发布可继续扩量。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型监控",
+    "A/B 测试",
+    "MLOps"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://cloud.google.com/vertex-ai/docs/model-monitoring/overview"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:12:20Z"
+  "updated_at": "2026-03-23T18:19:13.582434Z",
+  "quality_score": 0.95
 }

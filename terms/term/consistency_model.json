@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "分布式系统",
   "difficulty": "中级",
   "explanations": {
-    "plain": "consistency_model（一致性模型）是分布式系统中定义数据副本之间读写行为规则的抽象规范，它规定了在多个节点上操作共享数据时，用户能观察到怎样的更新可见性与时序关系。例如强一致性要求每次读取都返回最新写入的值，而最终一致性允许短暂不一致但保证系统稳定后各副本收敛。普通用户需要了解它，因为其直接影响应用的可靠性、响应速度和数据准确性——比如在银行转账或协同编辑文档时，不同一致性模型可能导致‘刚转完账却查不到余额’或‘两人同时改同一段文字却丢失修改’等问题。",
+    "plain": "一致性模型是分布式系统中定义数据副本读写规则的规范，决定用户观察到的更新可见性与时序。强一致性确保读取最新值，最终一致性允许短暂不一致但最终收敛。它直接影响应用可靠性与数据准确性，如银行转账需强一致性，而社交点赞可用最终一致性。",
     "metaphor": "就像多人共用一本实时更新的共享记事本：一致性模型决定了你翻到某页时，看到的是最新写下的内容，还是别人刚写完还没传到你手上的草稿。",
     "example": "在电商秒杀系统中，采用强一致性模型可确保库存计数实时准确，避免超卖；而社交平台的点赞数则常采用最终一致性模型，以换取更高吞吐量和可用性，允许几秒内各用户看到的点赞数略有差异。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "分布式系统",
+    "数据库",
+    "系统设计"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Consistency_model",
+    "https://learn.microsoft.com/en-us/azure/architecture/best-practices/data-consistency"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:49:30Z"
+  "updated_at": "2026-03-23T15:11:14.736613Z",
+  "quality_score": 0.95
 }

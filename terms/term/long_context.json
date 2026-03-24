@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型能力",
   "difficulty": "中级",
   "explanations": {
-    "plain": "long_context 是指大语言模型能够有效处理和理解超长输入文本（如数万甚至数十万词元）的能力。它决定了模型能否在阅读整本小说、长篇技术文档或数百页会议记录后，准确回忆细节、进行跨段落推理或生成连贯总结。普通用户需要关注它，因为这直接影响AI助手在处理真实世界复杂任务（如法律合同分析、科研文献综述、代码库理解）时的可靠性与深度——若上下文太短，模型会‘忘记’前面内容，导致错误或断章取义。",
+    "plain": "long_context 指大语言模型处理超长输入文本（数万至数十万词元）的能力。它决定模型能否在长文档中准确回忆细节、跨段落推理或生成总结。该能力直接影响 AI 在法律分析、科研综述、代码理解等复杂任务中的可靠性。上下文过短会导致模型遗忘前文，引发错误或断章取义。",
     "metaphor": "就像一位拥有超强记忆力和专注力的图书管理员，能通读整套《红楼梦》后精准指出第37回黛玉写的诗与第70回她病情变化之间的伏笔关联。",
     "example": "律师使用支持 long_context 的AI工具上传一份120页的并购协议草案，模型不仅能定位关键条款位置，还能交叉比对‘保密义务’与‘违约责任’章节中的矛盾表述并提出修订建议。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "长文档处理",
+    "代码理解",
+    "复杂推理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.anthropic.com/news/claude-2-1"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:18:29Z"
+  "updated_at": "2026-03-23T17:37:30.650715Z",
+  "quality_score": 0.95
 }

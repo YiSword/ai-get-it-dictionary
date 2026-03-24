@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "版本控制",
   "difficulty": "中级",
   "explanations": {
-    "plain": "stash 是版本控制系统（如 Git）中的一项功能，用于临时保存当前工作目录中未提交的修改，而不将它们纳入版本历史。它允许用户在不创建正式提交的情况下暂停手头的工作，以便切换分支、拉取更新或处理紧急任务，之后再恢复这些改动。普通用户需要了解 stash，因为它能避免因强制提交脏工作区而污染提交历史，或因丢弃未保存的修改而造成数据丢失，是日常协作开发中安全、灵活管理临时变更的关键工具。",
+    "plain": "stash 是 Git 等版本控制系统中的功能，用于临时暂存工作目录中未提交的修改，而不生成提交记录。它允许开发者在不提交的情况下切换分支或处理紧急任务，随后恢复现场。这避免了脏工作区污染历史或丢失未保存修改，是管理临时变更的关键工具。",
     "metaphor": "就像把正在写的草稿塞进抽屉暂存，腾出手去接一通重要电话，挂断后再拿出来继续写。",
     "example": "你在 feature/login 分支上修改了登录逻辑但尚未完成，此时需要紧急修复 main 分支上的一个线上 bug；你运行 'git stash' 保存当前修改，切换到 main 修复并提交，再回到原分支执行 'git stash pop' 恢复未完成的工作。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "版本控制",
+    "Git 工作流",
+    "代码管理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://git-scm.com/docs/git-stash"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:07:26Z",
-  "updated_at": "2026-03-21T09:54:48Z"
+  "updated_at": "2026-03-23T17:04:18.734861Z",
+  "quality_score": 0.95
 }

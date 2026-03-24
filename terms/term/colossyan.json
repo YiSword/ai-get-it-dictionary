@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 视频生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Colossyan 是一家专注于人工智能视频生成技术的公司，其平台允许用户通过文本提示、图像上传或语音输入快速创建高质量、可定制的AI生成视频。它面向内容创作者、教育工作者和营销人员等非技术用户，提供无需剪辑经验即可生成专业级讲解视频、培训素材或广告内容的能力。普通用户需要了解 Colossyan，是因为它显著降低了视频制作的门槛和成本，让个体和小团队也能高效产出视觉化表达内容，应对短视频传播、在线教学和数字营销等现实需求。",
+    "plain": "Colossyan 是一款 AI 视频生成平台，主打数字人主播功能。用户可通过文本输入快速创建带有虚拟形象的专业视频，无需拍摄或剪辑。主要服务于企业培训、市场营销及教育领域，显著降低视频制作成本与门槛，帮助非技术用户高效产出高质量的讲解视频和宣传素材，满足数字化内容创作需求。",
     "metaphor": "就像一位精通多国语言、能即兴配图配音的全能视频助理，你只需说清想法，它便在几分钟内交出成片。",
     "example": "一位中学物理教师输入‘用动画解释牛顿第一定律，时长90秒，风格简洁卡通’，Colossyan 自动生成带旁白、字幕和动态示意图的教学视频，直接用于课堂播放。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "视频创作",
+    "企业培训",
+    "数字人"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.colossyan.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:55:10Z",
-  "updated_at": "2026-03-21T04:44:07Z"
+  "updated_at": "2026-03-23T12:42:59.435719Z",
+  "quality_score": 0.95
 }

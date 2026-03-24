@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "DevOps",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Canary（金丝雀）是一种软件发布策略，指先向一小部分用户或服务器部署新版本，密切监控其稳定性、性能和错误率，确认无异常后再逐步扩大范围。它能显著降低全量发布失败带来的风险，避免大规模服务中断或数据损坏。普通用户虽不直接操作该机制，但会间接受益于更稳定、更少崩溃的应用体验——例如某次App更新后没出现闪退或卡顿，很可能背后就用了canary发布。",
+    "plain": "Canary（金丝雀）是一种软件发布策略。它先将新版本部署给少量用户或服务器，监控稳定性与错误率。确认无异常后逐步扩大范围，最终全量发布。此举能显著降低发布失败风险，避免大规模服务中断。用户虽不直接操作，但能享受更稳定的应用体验，减少闪退或卡顿现象。",
     "metaphor": "就像矿工下井前先放一只金丝雀试探有毒气体：如果鸟没事，人才跟进；如果鸟异常，就立刻暂停并排查。",
     "example": "Netflix在上线新推荐算法时，先将该算法仅对0.1%的用户启用，实时观察点击率与播放完成率是否下降；确认无负面影响后，才逐级扩大至5%、50%，最终全量上线。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "软件发布",
+    "持续部署",
+    "风险控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://martinfowler.com/bliki/CanaryRelease.html",
+    "https://cloud.google.com/deploy/docs/concepts/canary"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:20:37Z",
-  "updated_at": "2026-03-21T04:18:00Z"
+  "updated_at": "2026-03-23T14:01:24.341996Z",
+  "quality_score": 0.95
 }

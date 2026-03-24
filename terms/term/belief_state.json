@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "对话系统",
   "difficulty": "中级",
   "explanations": {
-    "plain": "belief_state 是人工智能对话系统（尤其是任务型对话系统）中用于表示系统对当前对话状态的内部理解，它汇总了用户已表达的意图、槽位值（如时间、地点、偏好等）以及系统尚未确认或存在歧义的信息。它不是用户的真实心理状态，而是系统基于对话历史推断出的、可操作的概率化状态表示。普通用户无需直接操作它，但理解其存在有助于明白为什么对话系统有时会追问细节、重复确认或突然‘忘记’前文——这往往源于 belief_state 更新不准确或信息丢失。",
+    "plain": "belief_state 是任务型对话系统中表示当前对话状态内部理解的核心概念。它汇总用户意图、槽位值及未确认信息，是基于对话历史推断出的概率化状态表示。它并非用户真实心理，而是可操作的状态追踪结果。其准确性直接影响系统是否追问、确认或遗忘前文，是对话状态追踪（DST）模块的关键输出。",
     "metaphor": "就像一位尽责的会议速记员，边听讨论边实时更新一张动态便签：上面写着‘已确认出发时间是明天下午、目的地是浦东机场、但航班号还没问清、用户可能想选靠窗座位？’。",
     "example": "当用户说‘订一张明天去北京的机票’，系统将 belief_state 更新为 {destination: '北京', date: '明天', intent: 'book_flight'}；接着追问‘请问出发城市是哪里？’，因为该槽位在 belief_state 中仍为空。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "任务型对话",
+    "状态追踪",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process",
+    "https://rasa.com/docs/rasa/core/state-tracking/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:01:44Z"
+  "updated_at": "2026-03-23T15:09:38.426810Z",
+  "quality_score": 0.95
 }

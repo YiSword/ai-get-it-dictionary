@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "continuous_batching（连续批处理）是一种推理优化技术，允许大语言模型在服务请求时动态地将新到达的请求实时插入正在执行的批处理中，而非等待固定批次填满或按固定时间窗口调度。它显著降低了尾部延迟、提高了GPU利用率，并支持更灵活的实时交互场景。普通用户需要了解它，因为这直接影响他们使用AI应用时的响应速度和流畅度——比如聊天界面是否卡顿、多用户并发时是否变慢。",
+    "plain": "连续批处理是一种大模型推理优化技术。它允许在服务过程中动态插入新请求到正在执行的批处理中，无需等待固定批次填满。这显著降低了尾部延迟，提高了 GPU 利用率，支持更灵活的实时交互。直接影响 AI 应用的响应速度和流畅度，避免聊天卡顿或并发变慢。",
     "metaphor": "就像一家智能咖啡店，服务员不等凑够5杯订单才开始做咖啡，而是边接单边把新订单无缝加入正在运行的制作流水线，让每杯咖啡都能尽快出品。",
     "example": "在在线客服AI系统中，当多个用户同时发送消息时，continuous_batching能让新消息立即被纳入当前推理批次，避免因等待其他请求而产生明显延迟。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型推理",
+    "性能优化",
+    "服务架构"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://docs.vllm.ai/en/latest/features/continuous_batching.html",
+    "https://www.usenix.org/conference/osdi22/presentation/yu"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:55:10Z"
+  "updated_at": "2026-03-23T12:43:01.884304Z",
+  "quality_score": 0.95
 }

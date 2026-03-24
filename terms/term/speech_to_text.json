@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "语音技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "speech_to_text 是一种将人类语音实时或离线转换为可编辑文本的技术，依赖于语音识别算法和语言模型。它让设备能‘听懂’说话内容并生成对应文字。普通用户需要了解它，因为这项技术已深度融入日常：比如用语音发微信、会议中自动生成字幕、辅助听障人士获取信息，或提升办公效率——无需手动打字即可记录想法。",
+    "plain": "speech_to_text（语音转文本）是一种将人类语音信号实时或离线转换为可编辑文本的人工智能技术。它基于语音识别算法与语言模型，使设备能够理解语音内容并生成文字。广泛应用于语音输入法、会议字幕生成、听障辅助及办公记录等场景，显著提升人机交互效率与信息无障碍水平。",
     "metaphor": "就像一位不知疲倦的速记员，一边听你讲话，一边飞快地把每个词敲进文档里。",
     "example": "你在开车时对车载系统说‘给妈妈打电话’，系统先将语音转成文字‘给妈妈打电话’，再触发拨号指令。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语音识别",
+    "人机交互",
+    "无障碍辅助"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://cloud.google.com/speech-to-text",
+    "https://en.wikipedia.org/wiki/Speech_recognition"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T09:50:06Z"
+  "updated_at": "2026-03-23T12:09:21.683898Z",
+  "quality_score": 0.95
 }

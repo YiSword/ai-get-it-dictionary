@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "encoder_decoder_transformer 是一种基于自注意力机制的深度学习架构，由编码器（encoder）和解码器（decoder）两部分组成，用于处理序列到序列的任务，如机器翻译、文本摘要或语音识别。它不依赖循环或卷积结构，而是通过并行计算和全局上下文建模显著提升训练效率与长程依赖捕捉能力。普通用户需要了解它，因为它是当前主流AI应用（如智能翻译、聊天机器人、内容生成）背后的核心技术，直接影响交互质量与响应准确性。",
+    "plain": "Encoder-Decoder Transformer 是基于自注意力机制的深度学习架构，由编码器和解码器组成。它摒弃循环与卷积，通过并行计算处理机器翻译等序列任务，显著提升训练效率与长程依赖捕捉能力。作为智能翻译、聊天机器人的核心技术，它直接决定了交互质量与响应准确性，是现代 NLP 领域的基石模型之一。",
     "metaphor": "就像一位双语专家先通读整篇原文（编码器），再根据理解逐句写出精准译文（解码器），过程中不断回看原文重点并自我校验。",
     "example": "Google Translate 的实时翻译功能就基于 encoder_decoder_transformer 架构，将用户输入的中文句子完整编码后，动态生成语法正确、语义连贯的英文输出。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "机器翻译",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1706.03762"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:07:42Z"
+  "updated_at": "2026-03-23T13:26:22.816545Z",
+  "quality_score": 0.95
 }

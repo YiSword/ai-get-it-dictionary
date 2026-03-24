@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "工业自动化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "unicontrol 是一种集成式工业控制平台，通常指由单一厂商提供、统一软硬件架构的自动化控制系统，用于集中监控和管理PLC、HMI、SCADA、驱动器等设备。它强调‘一个平台、一套工具、一致数据’，避免多品牌系统间的数据孤岛与协议转换开销。普通用户（如产线工程师或运维人员）需要了解它，因为它直接影响系统部署效率、故障排查速度和长期维护成本——采用 unicontrol 可显著降低学习门槛和跨系统协作复杂度。",
+    "plain": "unicontrol 是一种集成式工业控制平台，由单一厂商提供统一软硬件架构，集中管理 PLC、HMI、SCADA 等设备。其核心优势在于“一个平台、一套工具、一致数据”，旨在消除多品牌系统间的数据孤岛与协议转换开销，显著降低部署效率、运维成本及跨系统协作复杂度，适用于现代化产线监控与管理。",
     "metaphor": "就像一栋智能楼宇的中央控制面板，无需分别操作灯光开关、空调遥控器和安防App，所有设备都通过同一界面和逻辑统一调度。",
     "example": "某汽车零部件工厂升级产线时，选用某厂商的 unicontrol 平台，将原有分散的西门子PLC、国产HMI和变频器全部接入其统一工程环境，实现一次组态、全站下载、跨设备报警联动。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "工业自动化",
+    "控制系统",
+    "系统集成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.rockwellautomation.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:14:02Z",
-  "updated_at": "2026-03-21T10:13:59Z"
+  "updated_at": "2026-03-23T17:50:25.960619Z",
+  "quality_score": 1.0
 }

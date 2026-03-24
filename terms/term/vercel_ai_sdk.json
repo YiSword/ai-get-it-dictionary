@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "vercel_ai_sdk 是 Vercel 官方提供的开源 JavaScript/TypeScript SDK，用于在前端和后端轻松集成 AI 功能（如流式响应、工具调用、会话管理）。它抽象了与 AI 模型（如 OpenAI、Anthropic 或 Vercel 自托管模型）通信的底层细节，支持 React Server Components、Server Actions 和客户端流式渲染。普通用户（尤其是开发者）需要了解它，因为它显著降低了构建生产级 AI 应用的门槛——无需手动处理 SSE、错误重试、状态同步或 token 流解析，能快速实现类 ChatGPT 的实时交互体验。",
+    "plain": "Vercel 官方开源的 JavaScript/TypeScript SDK，用于在前后端轻松集成 AI 功能。它抽象了与 OpenAI 等模型通信的底层细节，支持流式响应、工具调用及会话管理。兼容 React Server Components 和 Server Actions，显著降低构建生产级 AI 应用门槛，无需手动处理 SSE 或状态同步，快速实现实时交互体验。",
     "metaphor": "就像为厨房配备了预制调料包和智能灶台，你只需专注设计菜品（AI 逻辑），不必从研磨香料、校准火候开始。",
     "example": "一个博客网站使用 vercel_ai_sdk 在评论区嵌入实时 AI 辅助写作功能：用户输入半句话，SDK 自动调用后端 AI 接口并流式返回补全建议，整个过程在 React 组件中通过 useChat Hook 实现，无需手写 fetch 或解析 event-stream。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 应用开发",
+    "全栈开发",
+    "流式处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://sdk.vercel.ai",
+    "https://github.com/vercel/ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:17:10Z"
+  "updated_at": "2026-03-23T16:54:34.264221Z",
+  "quality_score": 0.95
 }

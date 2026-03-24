@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "fluency 指的是在某种语言或技能中自然、流利、准确且得体地使用的能力，不仅限于语法正确，更强调表达顺畅、反应迅速、语感地道和适应不同语境的灵活性。对普通用户而言，理解 fluency 有助于设定合理的学习目标——例如，不必追求母语者般的完美，而应注重沟通效率与自信表达；它也帮助识别自身语言能力的真实水平，避免因过度关注词汇量或考试分数而忽视实际交流能力。",
+    "plain": "Fluency 指 AI 生成文本的自然流畅度与语法正确性。它评估输出是否连贯、地道，符合人类语言习惯，而非仅关注信息准确性。作为衡量大语言模型生成质量的核心指标，高流畅度能减少机器生硬感，提升交互体验。该指标常用于自然语言生成任务的自动或人工评估中。",
     "metaphor": "就像骑自行车时不再思考蹬踏节奏和平衡动作，身体已形成直觉反应，fluency 就是语言使用从‘刻意计算’进入‘本能输出’的状态。",
     "example": "一位英语学习者能不假思索地用英语和同事讨论项目进度、即时回应提问、自然插入习语和语气词，即使偶尔有小错也不影响理解——这就是口语 fluency 的体现。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "文本生成",
+    "质量评估"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fluency_(language_processing)",
+    "https://huggingface.co/docs/evaluate/main/en/measurement_methods"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:15:55Z",
-  "updated_at": "2026-03-21T06:34:40Z"
+  "updated_at": "2026-03-23T14:47:50.788390Z",
+  "quality_score": 0.95
 }

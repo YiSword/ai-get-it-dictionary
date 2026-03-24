@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "MLOps 平台",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ClearML 是一个开源的机器学习全生命周期管理平台，用于自动化追踪实验、管理数据集与模型、调度训练任务，并支持协作与复现。它能无缝集成到现有代码中（如 PyTorch、TensorFlow），自动记录超参数、指标、日志、输出和代码快照。普通用户（尤其是数据科学家和AI工程师）需要了解 ClearML，因为它显著降低实验混乱、结果不可复现、团队协作低效等常见痛点，让模型开发从‘手工作坊’走向可追溯、可扩展、可协作的工程化流程。",
+    "plain": "ClearML 是一款开源 MLOps 平台，旨在自动化管理机器学习全生命周期。它支持实验追踪、数据集版本控制、模型管理及训练任务调度，无缝集成主流深度学习框架。通过自动记录超参数、指标与代码快照，ClearML 解决实验复现难与协作低效痛点，推动模型开发走向工程化与标准化。",
     "metaphor": "ClearML 就像机器学习项目的‘黑匣子+指挥中心’——既完整记录每一次实验的全过程（像飞机黑匣子），又提供可视化界面统一调度、对比和复现所有任务（像航空管制塔）。",
     "example": "一位研究员在本地用 PyTorch 训练图像分类模型时，只需添加两行 ClearML 初始化代码，所有超参数、准确率曲线、训练日志、生成的模型文件及当前 Git 提交哈希都会自动上传至团队共享服务器，其他成员可一键复现或微调该实验。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "实验管理",
+    "模型运维",
+    "协作开发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://clear.ml/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:56:04Z",
-  "updated_at": "2026-03-21T04:32:08Z"
+  "updated_at": "2026-03-23T18:00:05.248646Z",
+  "quality_score": 1.0
 }

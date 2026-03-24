@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型调优",
   "difficulty": "中级",
   "explanations": {
-    "plain": "grid_search（网格搜索）是一种系统化地遍历多个超参数组合，以寻找使模型性能最优的参数配置的技术。它在机器学习中用于调优如学习率、正则化强度、树的最大深度等无法通过训练直接学习的超参数。普通用户需要了解它，因为不恰当的超参数会导致模型过拟合或欠拟合，而手动尝试效率极低；网格搜索提供了一种可复现、易理解的自动化调优起点。",
+    "plain": "网格搜索是一种超参数优化技术，通过系统化遍历预设的参数组合，寻找使模型性能最优的配置。它常用于调整学习率、正则化强度等无法直接学习的参数。相比手动调参，网格搜索提供了可复现、自动化的调优起点，有助于避免模型过拟合或欠拟合，是机器学习中基础且重要的调优方法。",
     "metaphor": "就像一位厨师按固定配方表逐一尝试盐、糖、火候的所有可能组合，只为找出最美味的那道菜。",
     "example": "在用随机森林分类鸢尾花数据集时，使用网格搜索在{'n_estimators': [50, 100], 'max_depth': [3, 5, None]}上穷举所有组合，并通过交叉验证选出准确率最高的参数。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "超参数调优",
+    "模型训练",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://scikit-learn.org/stable/modules/grid_search.html",
+    "https://en.wikipedia.org/wiki/Grid_search"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:00:10Z"
+  "updated_at": "2026-03-23T13:49:35.374762Z",
+  "quality_score": 0.95
 }

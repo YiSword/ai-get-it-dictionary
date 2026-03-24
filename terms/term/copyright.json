@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "知识产权",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Copyright（版权）是一种法律赋予原创作品创作者的专有权利，涵盖文字、音乐、图像、软件等具有独创性的表达形式。它自动产生于作品被固定在有形载体上的那一刻，无需注册。普通用户需要了解版权，因为日常行为如转发文章、下载音乐、使用网络图片或二次创作短视频，都可能涉及复制、传播或改编受保护内容，若未经许可，可能构成侵权并面临法律风险。",
+    "plain": "版权是法律赋予原创作品创作者的专有权利，涵盖文字、音乐、软件等独创性表达。作品完成即自动产生，无需注册。在 AI 时代，版权涉及训练数据使用及生成内容归属。未经许可复制、传播或改编受保护内容可能构成侵权，需留意合规风险。",
     "metaphor": "版权就像给一本书装上一把专属的电子锁——作者是唯一配钥匙的人，别人想打开阅读、复印或改写，都得先征得同意。",
     "example": "一位设计师在社交媒体看到一张风景照片，直接下载后用作自己网店首页 banner，未获作者授权，即可能侵犯该照片的版权。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "知识产权",
+    "法律合规",
+    "内容创作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.wipo.int/copyright/zh/",
+    "https://www.copyright.gov/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T04:59:32Z"
+  "updated_at": "2026-03-23T15:12:37.637863Z",
+  "quality_score": 0.95
 }

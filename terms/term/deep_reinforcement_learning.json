@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "功能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "深度强化学习（Deep Reinforcement Learning，DRL）是人工智能的一个分支，它将深度学习的感知能力（如从图像或传感器数据中自动提取特征）与强化学习的决策机制（通过试错、奖励反馈来优化长期行为策略）相结合。普通用户需要了解它，因为它是驱动自动驾驶汽车、智能游戏AI、推荐系统甚至机器人自主操作的核心技术之一，正悄然改变我们与数字世界互动的方式。",
+    "plain": "深度强化学习（DRL）融合深度学习感知与强化学习决策，通过试错与奖励反馈优化长期策略。作为自动驾驶、游戏 AI 及机器人控制的核心技术，它使系统能在复杂动态环境中自主决策。该技术显著提升了机器智能水平，广泛应用于工业控制与智能交互场景。",
     "metaphor": "就像一个新手司机一边看实时路况画面（深度学习），一边根据教练的‘好/坏’即时反馈不断调整方向盘和油门（强化学习），最终在没有详细地图的情况下学会安全高效地开车。",
     "example": "AlphaGo通过深度强化学习从零开始自学围棋，在数百万局自我对弈中优化策略，最终击败人类世界冠军；如今该技术也被用于优化数据中心冷却系统，动态调节风扇和空调以最小化能耗。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自动驾驶",
+    "智能决策",
+    "机器人控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Deep_reinforcement_learning",
+    "https://www.deepmind.com/research/deep-reinforcement-learning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:23:17Z"
+  "updated_at": "2026-03-23T09:50:08.227507Z",
+  "quality_score": 0.95
 }

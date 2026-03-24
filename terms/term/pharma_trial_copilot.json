@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "pharma_trial_copilot",
+  "norm_term": "pharma_trial_copilot",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "AI 医疗应用",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Pharma Trial Copilot 是基于 AI 的医药临床试验辅助方案。它整合患者数据、试验协议与监管要求，利用 NLP 和预测分析技术，优化试验设计、患者招募及数据管理。功能包括自动识别受试者、监测风险及生成合规报告，旨在缩短药物研发周期，加速创新药上市，提升医疗可及性。",
+    "metaphor": "如同为临床试验团队配备智能副驾驶，自动处理导航（流程优化）、预警（风险监测）和文书（合规报告），让研究人员专注核心决策。",
+    "example": "某跨国药企使用该工具分析电子健康记录，3 周内锁定 500 名符合罕见病试验标准的患者，较传统方式效率提升 60%，并实时预警某试验中心的入组偏差。"
+  },
+  "scenario_tags": [
+    "人工智能",
+    "生物医药",
+    "临床试验"
+  ],
+  "sources": [
+    "https://www.microsoft.com/en-us/industry/health"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:09:28.342804Z",
+  "updated_at": "2026-03-23T13:25:38.957668Z",
+  "quality_score": 0.95
+}

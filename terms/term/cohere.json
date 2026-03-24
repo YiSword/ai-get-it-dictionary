@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型服务",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Cohere 是一家专注于企业级大语言模型（LLM）研发的加拿大人工智能公司，提供可私有部署、高度可控的文本生成、语义搜索、问答和摘要等API服务。它强调模型在业务场景中的可靠性、可解释性与数据隐私保护，区别于面向消费者的通用大模型。普通用户可能不直接使用Cohere，但若所在企业采用其技术构建智能客服、内部知识库或自动化报告系统，其交互体验（如更准确的文档检索、更合规的AI回复）就直接受益于Cohere的能力。",
+    "plain": "Cohere 是一家加拿大人工智能公司，专注于企业级大语言模型研发。提供可私有部署的文本生成、语义搜索及问答 API 服务。强调模型在业务中的可靠性、可解释性与数据隐私，区别于通用消费级模型。企业可利用其构建智能客服或知识库系统。",
     "metaphor": "就像一位精通行业术语、严格遵守保密协议且随时听从指令的企业专属顾问，而不是在广场上对所有人即兴演讲的通才演说家。",
     "example": "某银行使用Cohere API搭建内部合规问答系统，员工上传监管文件后，可自然语言提问‘2023年反洗钱新规对跨境转账有何新要求？’，系统即时返回精准条款引用和摘要，且所有数据不出本地服务器。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "企业服务",
+    "API 服务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://cohere.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:42:18Z"
+  "updated_at": "2026-03-23T14:16:28.066354Z",
+  "quality_score": 0.95
 }

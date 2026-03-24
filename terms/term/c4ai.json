@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "组织与倡议",
   "difficulty": "中级",
   "explanations": {
-    "plain": "C4AI（Climate Change AI）是一个全球性非营利倡议，致力于推动人工智能技术在应对气候变化问题上的负责任应用。它连接研究人员、工程师、政策制定者和领域专家，通过开源工具、数据集、教育材料和协作项目，加速气候建模、可再生能源优化、碳追踪、农业适应性分析等关键方向的进展。普通用户需要了解C4AI，因为它代表了一种将前沿技术切实用于解决人类共同生存危机的努力——这意味着你使用的天气预测App、家庭光伏调度系统，甚至城市交通减排方案，背后都可能受益于该社区推动的技术成果。",
+    "plain": "C4AI（Climate Change AI）是全球性非营利倡议，推动人工智能负责任地应对气候变化。它连接研究人员与政策制定者，提供开源工具与数据集，加速气候建模、能源优化及碳追踪进展。该社区成果广泛应用于天气预测、光伏调度及城市减排方案，是技术解决生存危机的代表。",
     "metaphor": "C4AI就像一群跨学科的‘气候工程师’组成的开源维修站，不造新车，但为所有想修复地球引擎的人免费提供图纸、扳手和协同工作台。",
     "example": "一家巴西农业合作社利用C4AI社区发布的开源卫星图像分析模型，实时监测土壤湿度与作物胁迫状况，将灌溉用水量降低了22%，同时保持收成稳定。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 向善",
+    "气候变化",
+    "开源社区"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.climatechange.ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:16:46Z"
+  "updated_at": "2026-03-23T18:07:04.046624Z",
+  "quality_score": 0.95
 }

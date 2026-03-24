@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据解析",
   "difficulty": "中级",
   "explanations": {
-    "plain": "json_repair 是一种容错性 JSON 解析技术，用于自动修正格式不合法但语义可推断的 JSON 字符串（如缺失引号、尾部逗号、单引号代替双引号、括号不匹配等），使其能被正常解析。普通用户需要了解它，因为现实中的 JSON 数据常因手写错误、日志截断、API 响应异常或前端序列化缺陷而损坏，直接解析会失败；启用 json_repair 可提升系统鲁棒性，避免因微小语法瑕疵导致整个数据流中断。",
+    "plain": "json_repair 是一种容错解析技术，用于自动修正格式错误但语义可推断的 JSON 字符串（如缺失引号、尾部逗号等）。在 LLM 生成或日志截断场景中，它能修复损坏数据，避免解析崩溃，提升系统鲁棒性与数据流连续性，确保异常输入仍可被正常处理。",
     "metaphor": "就像一位细心的图书管理员，在发现借阅卡上有个错别字或标点遗漏时，并不直接拒收卡片，而是根据上下文合理修正后继续办理借阅。",
     "example": "某聊天应用后端收到前端发来的 JSON 消息 '{\"msg\": \"Hello\", \"ts\": 1712345678,}'（末尾多了一个逗号），标准 JSON 解析器会报错，而使用 json_repair 可自动修复该字符串并成功提取消息内容与时间戳。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "容错处理",
+    "LLM 应用",
+    "数据清洗"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pypi.org/project/json-repair/",
+    "https://github.com/josdejong/jsonrepair"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:45:57Z"
+  "updated_at": "2026-03-23T11:43:37.638645Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "greedy_policy（贪心策略）是强化学习中一种简单而常用的决策规则：在每个状态下，智能体总是选择当前看起来能带来最高即时奖励的动作，而不考虑该动作对未来收益的长期影响。它不进行探索，也不建模未来状态，因此计算高效但可能陷入局部最优。普通用户需要了解它，是因为它是理解更复杂策略（如ε-greedy或基于价值函数的策略）的基础，也常见于推荐系统、游戏AI等实际应用中，帮助判断算法是否过于短视。",
+    "plain": "贪心策略是强化学习中的基础决策规则。智能体在每个状态下仅选择当前即时奖励最高的动作，忽略长期收益。该策略计算高效但缺乏探索，易陷入局部最优。它是理解ε-greedy 等高级策略的基石，广泛应用于游戏 AI 与推荐系统，帮助评估算法的短视性。",
     "metaphor": "就像一个只看眼前一块最大蛋糕就立刻伸手去拿的人，完全不管拿完后会不会错过整块蛋糕店。",
     "example": "在迷宫导航机器人中，greedy_policy会让它每步都朝离终点欧氏距离最近的方向移动，即使那条路通向死胡同。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "强化学习",
+    "决策算法",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "http://incompleteideas.net/book/RLbook2020.pdf",
+    "https://www.ibm.com/cloud/learn/reinforcement-learning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:59:26Z"
+  "updated_at": "2026-03-23T18:31:46.643140Z",
+  "quality_score": 0.95
 }

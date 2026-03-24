@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "参数高效微调",
   "difficulty": "中级",
   "explanations": {
-    "plain": "adapter_fusion 是一种在预训练语言模型中动态组合多个轻量级适配器（adapters）的技术，用于同时支持多种任务或领域而无需微调整个模型。每个 adapter 专门学习某类任务（如命名实体识别、情感分析）的特征，fusion 机制则通过可学习的门控权重决定各 adapter 的贡献比例。普通用户需要了解它，因为它能显著降低多任务部署的计算开销和内存占用，使小团队或边缘设备也能高效复用大模型能力。",
-    "metaphor": "就像一位经验丰富的厨师根据每道菜的需求，从多个专用调味罐（如盐罐、辣椒罐、香草罐）中按比例取料混合，而不是为每道菜单独重做整套调料。",
-    "example": "在客服对话系统中，一个共享的BERT模型通过adapter_fusion同时处理用户意图识别、槽位填充和情绪判断三个子任务，每个任务对应独立训练的adapter，推理时自动加权融合输出。"
+    "plain": "AdapterFusion 是一种参数高效微调技术，允许在预训练模型中组合多个任务特定的适配器。通过可学习的融合层，它动态加权不同适配器的贡献，实现多任务学习而不干扰彼此。这显著降低了多任务部署的计算和内存开销，适合资源受限场景。",
+    "metaphor": "就像一位经验丰富的厨师根据每道菜的需求，从多个专用调料瓶（每瓶对应一种风味）中按比例混合出恰到好处的酱汁，而不是为每道菜重新熬制整锅底料。",
+    "example": "在客服对话系统中，一个共享的BERT模型通过adapter_fusion同时处理用户意图分类、槽位填充和情绪识别三个子任务，各任务对应的adapter被融合加权，实现单次前向传播完成联合预测。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多任务学习",
+    "参数高效微调",
+    "模型优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2005.00247",
+    "https://github.com/Adapter-Hub/Adapters"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:21:20Z"
+  "updated_at": "2026-03-23T13:50:03.273697Z",
+  "quality_score": 1.0
 }

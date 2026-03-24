@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Scaleway 是一家总部位于法国的云服务提供商，提供包括虚拟服务器、裸金属服务器、对象存储、边缘计算和 Kubernetes 托管服务在内的基础设施即服务（IaaS）与平台即服务（PaaS）产品。它以欧洲数据中心为主，强调数据主权、低碳运营（部分设施使用核能或水力供电）及透明定价。普通用户需要了解 Scaleway，尤其当其业务涉及欧盟合规（如 GDPR）、对数据驻留地有严格要求，或寻求高性价比的 ARM 架构服务器（如 C3 系列基于 Ampere Altra 处理器）时。",
+    "plain": "Scaleway 是法国云服务商，提供虚拟服务器、裸金属、对象存储及 Kubernetes 等 IaaS/PaaS 产品。数据中心位于欧洲，强调数据主权与低碳运营，符合 GDPR 合规。适合需欧盟数据驻留、高性价比 ARM 服务器及透明定价的企业。",
     "metaphor": "Scaleway 就像一家专注本地化、环保且明码标价的‘数字地产公司’——它不建全球连锁商场，而是在巴黎、华沙等城市精挑细选节能建筑，出租带锁仓库（裸金属）、灵活隔间（VM）和自助货架（对象存储），所有费用贴在门口。",
     "example": "一家柏林初创公司为满足 GDPR 要求，选择 Scaleway 巴黎数据中心部署客户身份认证服务，并利用其 ARM 裸金属服务器运行高并发 API 网关，节省了 40% 的计算成本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "基础设施",
+    "数据合规"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.scaleway.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:40:56Z",
-  "updated_at": "2026-03-21T09:38:04Z"
+  "updated_at": "2026-03-23T16:22:56.747044Z",
+  "quality_score": 0.95
 }

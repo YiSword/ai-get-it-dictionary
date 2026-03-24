@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "reactive_planner_agent",
+  "norm_term": "reactive_planner_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "capability",
+  "category": "Agent 架构",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "反应式规划代理是一种智能体架构，能根据实时感知信息即时调整行动策略。它通过持续监测环境变化，结合目标与状态动态生成或修正计划。解决了传统静态规划无法应对突发状况的局限，使 AI 系统在复杂多变场景中保持决策有效性。常用于自动驾驶等需要安全可靠自主决策的场景。",
+    "metaphor": "就像经验丰富的消防员在灭火时，既遵循标准流程又根据火势蔓延方向实时调整水枪位置，反应式规划代理能在执行任务时灵活应对意外状况。",
+    "example": "自动驾驶汽车在行驶中突然检测到前方道路施工，反应式规划代理立即重新规划路线：减速变道、计算替代路径、调整到达时间预估，全程无需人工干预。"
+  },
+  "scenario_tags": [
+    "自动驾驶",
+    "机器人控制",
+    "实时决策"
+  ],
+  "sources": [
+    "https://arxiv.org/abs/2308.11432",
+    "https://langchain-ai.github.io/langgraph/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:35:14.649111Z",
+  "updated_at": "2026-03-23T12:28:04.410037Z",
+  "quality_score": 0.95
+}

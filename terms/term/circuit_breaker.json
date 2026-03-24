@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "架构设计",
   "difficulty": "中级",
   "explanations": {
-    "plain": "circuit_breaker（熔断器）是一种软件设计模式，用于防止系统在依赖服务持续失败时陷入雪崩式崩溃。它通过监控调用失败率，在异常达到阈值时自动‘熔断’——即暂时拒绝后续请求，避免无效重试和资源耗尽；经过一段冷却期后尝试半开状态，逐步恢复服务。普通用户虽不直接操作它，但它的存在显著提升了App、网站等在线服务的稳定性和响应速度，减少频繁报错或长时间卡顿。",
+    "plain": "熔断器是一种软件设计模式，用于防止系统因依赖服务失败而雪崩。它监控调用失败率，超阈值时自动熔断，暂时拒绝请求以避免资源耗尽。经过冷却期后进入半开状态尝试恢复。虽用户不可见，但显著提升服务稳定性和响应速度，减少报错卡顿。",
     "metaphor": "就像家庭电路中的保险丝，当电流过载时自动切断电源，保护整个电路不被烧毁；熔断器在服务调用异常激增时‘跳闸’，给系统留出喘息和修复的时间。",
     "example": "某电商App调用支付网关时因网络故障连续超时，熔断器在10秒内检测到失败率超80%，立即切换为熔断状态，后续支付请求快速返回友好提示而非等待超时；5分钟后进入半开状态，试探性放行少量请求验证支付服务是否恢复。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "微服务",
+    "高可用",
+    "容错处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://martinfowler.com/bliki/CircuitBreaker.html",
+    "https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:29:53Z"
+  "updated_at": "2026-03-23T18:29:14.114707Z",
+  "quality_score": 0.95
 }

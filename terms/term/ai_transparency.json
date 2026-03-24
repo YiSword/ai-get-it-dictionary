@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 伦理与治理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AI透明度（ai_transparency）指人工智能系统在设计、决策逻辑、数据来源和潜在局限性等方面向用户和监管方提供清晰、可理解、可验证的信息。它帮助普通用户判断AI建议是否可信、是否存在偏见或错误，避免盲目依赖黑箱结果。当AI被用于医疗诊断、信贷审批或内容推荐时，缺乏透明度可能导致不公平结果或难以追责，因此用户有权知道AI如何得出结论，以及谁为它的行为负责。",
-    "metaphor": "就像汽车仪表盘上的故障灯和保养提示——不一定要懂发动机原理，但需要知道车是否正常、哪里可能出问题。",
-    "example": "某银行使用AI评估贷款申请，向申请人明确说明：‘该决定基于您的收入、信用历史和负债率，未使用邮政编码或社交媒体数据’，并提供简要的权重解释。"
+    "plain": "AI 透明度指人工智能系统向用户和监管方清晰展示设计逻辑、数据来源及局限性的能力。它帮助用户判断 AI 建议的可信度与偏见，避免盲目依赖黑箱结果。在医疗、信贷等关键场景，透明度保障公平性与知情权，是建立信任及合规的基础。",
+    "metaphor": "就像汽车仪表盘上的故障灯和保养提示——它不让你成为机械师，但告诉你引擎是否正常、油量是否充足、何时需要检查。",
+    "example": "某银行使用AI评估贷款申请，其透明度实践包括向申请人说明哪些因素（如收入稳定性、历史还款记录）影响了评分，并提供简明解释为何某次申请被拒，而非仅输出‘未通过’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "伦理合规",
+    "用户信任",
+    "风险控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://oecd.ai/en/dashboards/ai-principles",
+    "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:29:12Z"
+  "updated_at": "2026-03-23T18:08:16.871508Z",
+  "quality_score": 0.95
 }

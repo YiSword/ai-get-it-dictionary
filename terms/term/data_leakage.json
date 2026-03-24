@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "data_leakage（数据泄露）是指在机器学习建模过程中，训练阶段无意中使用了本应在预测时才可获取的信息，导致模型在训练或验证中表现虚高，但在真实场景中泛化能力差。它不是指黑客窃取数据，而是建模流程中的逻辑错误。普通用户需要知道它，因为依赖存在数据泄露的模型可能做出严重误导性决策，比如医疗误诊或金融风控失效，且问题往往难以被非技术人员察觉。",
+    "plain": "数据泄露指在机器学习建模中，训练阶段无意中使用了预测时才能获取的信息。这会导致模型在验证集表现虚高，但实际泛化能力差。它并非黑客窃取数据，而是建模流程的逻辑错误。依赖此类模型可能引发医疗误诊或金融风控失效等严重决策误导，且问题隐蔽难以察觉。",
     "metaphor": "就像考试前老师不小心把标准答案透露给了学生，学生考得再好，也不能说明他真正掌握了知识。",
     "example": "在预测患者是否患癌时，若用包含后续确诊结果的实验室报告时间戳作为特征来训练模型，就构成了数据泄露——因为实际预测时该时间戳尚未生成。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "数据预处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Leakage_(machine_learning)",
+    "https://developers.google.com/machine-learning/crash-course/validation/another-look-at-data-leakage"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T05:13:48Z"
+  "updated_at": "2026-03-23T17:35:31.968589Z",
+  "quality_score": 0.95
 }

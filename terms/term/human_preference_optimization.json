@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Human preference optimization（HPO）是一种让AI模型学习并遵循人类主观偏好的技术，通常通过收集人类对不同输出的比较、打分或排序数据，再用这些反馈来微调模型。它不依赖于预设的硬性规则或自动评估指标，而是聚焦于‘人觉得好才是真的好’。普通用户需要了解它，因为这是当前大模型更懂你、更贴合你口味（比如写作风格、幽默感、信息详略程度）的关键机制，直接影响你与AI交互的真实体验和信任感。",
+    "plain": "Human Preference Optimization 是一种让 AI 模型学习并遵循人类主观偏好的技术。通过收集人类对不同输出的比较或排序数据来微调模型，不依赖硬性规则，而是聚焦于“人觉得好才是真的好”。这是大模型更懂用户口味、提升交互体验和信任感的关键机制，直接影响写作风格、幽默感等个性化表现。",
     "metaphor": "就像一位厨师反复根据食客的口味反馈调整调味，而不是只按菜谱标准做菜。",
     "example": "在聊天机器人中，当用户多次点击‘这个回答更 helpful’，系统会记录这些偏好信号，并用于优化后续回答的生成策略。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型微调",
+    "强化学习",
+    "人机交互"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/blog/rlhf",
+    "https://arxiv.org/abs/2305.18290"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:18:15Z"
+  "updated_at": "2026-03-23T18:08:33.418058Z",
+  "quality_score": 0.95
 }

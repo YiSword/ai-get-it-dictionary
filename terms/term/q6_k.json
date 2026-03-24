@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型量化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "q6_k 是一种量化格式，用于压缩大语言模型的权重参数，将原本32位浮点数（float32）近似为平均约6位有效精度的整数表示，同时采用分组量化（k-quants）策略提升精度保持能力。它在模型推理时显著降低显存占用和带宽需求，使中等配置GPU或CPU也能高效运行较大模型。普通用户需要了解它，是因为选择支持q6_k的模型版本（如GGUF格式）可直接影响本地运行速度、内存占用和回答质量之间的平衡。",
+    "plain": "q6_k 是 GGUF 格式中的 6 比特量化类型，属 K-quants 系列。它将权重从浮点数压缩为整数，显著降低显存占用并保持较高精度。适用于本地部署大语言模型，帮助在内存限制与推理性能间取得平衡，常见于 llama.cpp 生态。",
     "metaphor": "就像把一本高清摄影集压缩成精心优化的电子相册——每张图细节略有简化，但通过智能分组调色策略，整体观感依然鲜活逼真。",
     "example": "用户在Ollama中拉取llama3:8b模型时，若选择llama3:8b-q6_k，即表示使用q6_k量化版本，在16GB内存的MacBook上可流畅运行并保持较高响应质量。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "本地部署",
+    "模型压缩",
+    "推理优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ggerganov/llama.cpp"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:15:03Z",
-  "updated_at": "2026-03-21T09:22:57Z"
+  "updated_at": "2026-03-23T12:18:50.696345Z",
+  "quality_score": 1.0
 }

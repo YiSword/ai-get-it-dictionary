@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型缺陷",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Hallucination（幻觉）在人工智能领域特指大语言模型生成看似合理、实则错误或完全捏造的信息，例如虚构人物、事件、引用或数据。它并非因训练数据缺失导致，而是模型在概率预测过程中过度依赖模式关联而脱离事实约束的结果。普通用户需要了解这一现象，以免轻信AI输出的‘自信断言’，尤其在医疗、法律、学术等高风险场景中可能引发严重误判。",
+    "plain": "Hallucination（幻觉）指大语言模型生成看似合理但实则错误或捏造的信息，如虚构事实或数据。这是模型基于概率预测而非事实核查导致的缺陷。用户需警惕此现象，避免在医疗、法律等高风险场景轻信 AI 的自信断言，以防严重误判。",
     "metaphor": "就像一位博学但从未真正看过大海的人，靠大量海景画和描述‘推理’出自己从未见过的岛屿，并绘声绘色地讲述它的经纬度和特产——听起来专业，实则子虚乌有。",
     "example": "当用户询问‘2023年诺贝尔物理学奖得主发表了哪篇关于量子纠缠的论文？’，模型可能编造一篇根本不存在的论文标题、期刊名和DOI号，且语气确凿无疑。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "生成式 AI",
+    "风险控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ibm.com/topics/ai-hallucinations"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T07:05:50Z"
+  "updated_at": "2026-03-23T11:28:27.075484Z",
+  "quality_score": 0.95
 }

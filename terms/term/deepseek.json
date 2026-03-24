@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DeepSeek 是由深度求索（DeepSeek）公司研发的一系列开源大语言模型，涵盖从轻量级到超大规模的多个版本（如 DeepSeek-V2、DeepSeek-Coder、DeepSeek-MoE），以高性能、强代码能力与中文优化著称。普通用户需要了解它，是因为它提供了免费、可本地部署、高性价比的AI工具选择，尤其适合开发者、学生和中小企业在编程辅助、内容生成、教育学习等场景中替代部分商业闭源模型。",
+    "plain": "DeepSeek 是由深度求索研发的开源大语言模型系列，以高性能、强代码能力及中文优化著称。提供免费、可本地部署的高性价比 AI 工具，适合开发者、学生和中小企业在编程辅助、内容生成等场景使用，是商业闭源模型的有效替代方案。",
     "metaphor": "就像一位精通多国语言、特别擅长写代码和解数学题的自学成才博士，既能在大学讲台上授课，也能帮你快速调试一段Python脚本。",
     "example": "一名前端开发者使用 DeepSeek-Coder 模型，在本地IDE插件中实时获取JavaScript错误修复建议和React组件自动生成，全程数据不上传云端，保障项目隐私。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "代码辅助",
+    "开源模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://deepseek.com/",
+    "https://github.com/deepseek-ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T05:28:55Z"
+  "updated_at": "2026-03-23T15:38:58.896265Z",
+  "quality_score": 0.95
 }

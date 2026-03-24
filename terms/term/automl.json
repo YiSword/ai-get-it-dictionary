@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AutoML（自动机器学习）是一种将机器学习流程中繁琐、专业性强的步骤（如数据预处理、特征工程、模型选择、超参数调优等）自动化的技术。它让非专家用户也能快速构建和部署有效的预测模型，降低AI应用门槛。普通用户需要了解它，是因为它正在改变数据分析、业务决策甚至日常工具（如智能报表、个性化推荐）的开发方式——不再必须依赖数据科学家，小团队或业务人员即可自主实现智能化分析。",
+    "plain": "AutoML（自动机器学习）通过自动化数据预处理、特征工程、模型选择及超参数调优等步骤，简化机器学习流程。它显著降低 AI 应用门槛，使非专家用户也能快速构建高效预测模型。该技术让业务人员无需依赖数据科学家即可实现智能化分析，大幅提升开发效率与决策速度。",
     "metaphor": "AutoML 就像一位经验丰富的厨师助理：你只需提供食材（数据）和想做的菜式（任务目标），它就自动完成洗切配菜、试味调整、火候控制（建模全流程），最后端出一道可口的菜（可用模型）。",
     "example": "一家电商公司的市场专员使用 AutoML 工具，上传过去一年的用户浏览与购买记录，几分钟内便生成了一个高精度的‘流失用户预警模型’，并直接嵌入到运营后台提醒干预。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "数据科学",
+    "效率提升"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://cloud.google.com/automl",
+    "https://en.wikipedia.org/wiki/Automated_machine_learning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:50:33Z"
+  "updated_at": "2026-03-23T16:52:16.688007Z",
+  "quality_score": 0.95
 }

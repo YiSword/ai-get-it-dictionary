@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Chunking 是指将大段连续的文本、代码或数据按语义或长度切分为更小、更易处理的单元（称为 chunk）的技术。它广泛应用于大语言模型的输入预处理、文档检索、嵌入向量化等场景。普通用户需要了解它，是因为它直接影响 AI 工具能否准确理解长文档——若 chunk 切得太碎会丢失上下文，太长则可能超出模型处理能力，导致信息遗漏或截断。",
+    "plain": "Chunking 是将连续文本或数据按语义、长度切分为更小单元（chunk）的技术。它广泛应用于大模型输入预处理、文档检索及向量化场景。分块策略直接影响 AI 理解长文档的准确性：过碎会丢失上下文，过长则超出模型限制导致信息遗漏。合理分块是优化检索增强生成（RAG）效果的关键步骤。",
     "metaphor": "就像把一本厚书拆成若干章节目录卡片，每张卡片承载独立主题但又保持逻辑连贯，方便快速翻找和理解。",
     "example": "在用 RAG（检索增强生成）系统查询公司内部知识库时，PDF 手册被 chunking 切分为 512 字符的语义段落，再分别向量化存入向量数据库，确保用户提问能精准匹配到相关段落而非整份文档。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "RAG",
+    "数据预处理",
+    "上下文管理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://python.langchain.com/docs/how_to/recursive_text_splitter/",
+    "https://docs.llamaindex.ai/en/stable/module_guides/loading/node_parsers/modules/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T04:29:20Z"
+  "updated_at": "2026-03-23T14:37:53.043556Z",
+  "quality_score": 0.95
 }

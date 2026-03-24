@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "图像生成模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "SDXL Turbo 是 Stability AI 推出的一种高速文本到图像生成模型，基于 SDXL 架构但经过深度优化，能在极短时间内（如单步或少量步数）生成高质量图像。它通过知识蒸馏和潜在空间引导等技术大幅压缩推理开销，适合实时交互场景。普通用户需要了解它，是因为它显著降低了 AI 绘画的等待门槛——无需长时等待、低配设备也能流畅使用，让创意表达更即时、更普及。",
+    "plain": "SDXL Turbo 是 Stability AI 推出的高速文本到图像生成模型。基于 SDXL 架构，利用知识蒸馏技术实现单步或少步推理，大幅降低计算开销。适合实时交互场景，显著降低 AI 绘画等待门槛，使低配设备也能流畅运行，让创意表达更即时普及。",
     "metaphor": "就像把一辆高性能跑车改装成电动摩托：保留了核心设计美感与输出能力，却用更精简的引擎实现了闪电般的起步和零延迟响应。",
     "example": "用户在聊天界面输入‘一只穿宇航服的柴犬站在火星夕阳下’，SDXL Turbo 在不到1秒内即返回高清图像，支持网页端实时迭代修改提示词并即时重绘。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文生图",
+    "实时生成",
+    "扩散模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://stability.ai/blog/sdxl-turbo",
+    "https://huggingface.co/stabilityai/sdxl-turbo"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:33:56Z",
-  "updated_at": "2026-03-21T09:39:24Z"
+  "updated_at": "2026-03-23T19:03:35.047835Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "功能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "web_search（网络搜索）是指用户通过搜索引擎（如Google、百度）输入关键词，从全球公开网页中快速查找相关信息的过程。它依赖爬虫抓取、索引构建和排序算法，将海量网页按相关性与权威性呈现为搜索结果。普通用户需要了解它，因为它是获取知识、解决问题、验证信息和参与数字社会最基础的入口；掌握基本搜索技巧（如使用引号、减号或site限定）能显著提升效率，避免被低质或误导性内容淹没。",
+    "plain": "web_search 指 AI 模型或用户利用搜索引擎从公开网页获取实时信息的功能。它依赖爬虫与索引技术，将海量数据按相关性呈现。在 AI 应用中，该功能作为外部工具增强模型知识时效性，突破训练数据截止限制，是构建智能体获取外部知识、验证信息准确性的关键能力。",
     "metaphor": "就像在一座没有图书管理员、却有智能导航系统的巨型图书馆里，你只需说出想要的主题，系统便自动翻遍所有书架、筛选出最相关的几本书并按重要程度排好队。",
     "example": "学生写论文时，在搜索引擎中输入 'carbon footprint of electric cars site:.edu'，即可精准定位美国高校发布的权威研究报告。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "信息检索",
+    "智能体工具",
+    "知识增强"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://learn.microsoft.com/en-us/bing/search-apis/bing-web-search/",
+    "https://developers.google.com/custom-search/v1/overview"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:23:32Z"
+  "updated_at": "2026-03-23T10:00:31.268385Z",
+  "quality_score": 0.95
 }

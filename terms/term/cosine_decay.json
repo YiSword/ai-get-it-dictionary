@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "训练策略",
   "difficulty": "中级",
   "explanations": {
-    "plain": "cosine_decay 是一种学习率调度策略，它让模型训练过程中的学习率随训练步数按余弦函数曲线从初始值平滑衰减至最小值。相比阶梯式或指数衰减，它提供更平缓、无突变的下降路径，有助于模型在训练后期更稳定地收敛到更优解。普通用户（尤其是初学者）需要了解它，因为合理选择学习率衰减方式能显著提升模型性能与训练稳定性，避免过早停滞或震荡，是调优深度学习训练流程的关键环节之一。",
+    "plain": "cosine_decay 是一种学习率调度策略，使学习率随训练步数按余弦曲线从初始值平滑衰减至最小值。相比阶梯或指数衰减，它提供无突变的下降路径，有助于模型在训练后期稳定收敛到更优解。合理选择该策略能显著提升模型性能与训练稳定性，避免过早停滞或震荡，是深度学习调优的关键环节。",
     "metaphor": "就像轻轻松开自行车刹车——起初制动力逐渐减小，越接近停止时越柔和，而不是突然刹死或一直猛捏。",
     "example": "在训练一个 ResNet-50 图像分类模型时，使用 cosine_decay 将学习率从 0.1 平滑降至 0.001，配合 warmup 阶段，可提升最终准确率约 0.8%。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "深度学习",
+    "模型训练",
+    "超参数调优"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/schedules/CosineDecay",
+    "https://pytorch.org/docs/stable/generated/torch.optim.lr_scheduler.CosineAnnealingLR.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:00:53Z"
+  "updated_at": "2026-03-23T14:10:38.559413Z",
+  "quality_score": 0.95
 }

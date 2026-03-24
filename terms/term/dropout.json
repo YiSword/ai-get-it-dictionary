@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Dropout 是一种在训练神经网络时使用的正则化技术，其核心思想是在每次前向传播过程中随机‘关闭’（即设为零）一部分神经元，使网络无法过度依赖某些特定神经元，从而提升泛化能力、减少过拟合。普通用户需要了解它，因为它是现代深度学习模型（如图像识别、语音助手等背后系统）稳定可靠的关键机制之一——没有它，AI模型可能在训练数据上表现完美，却在真实场景中频繁出错。",
+    "plain": "Dropout 是深度学习中的正则化技术。训练时随机将部分神经元输出置零，防止网络过度依赖特定特征，从而减少过拟合，提升模型泛化能力。它是构建稳定可靠 AI 系统的关键机制，确保模型在真实场景中表现良好，避免仅在训练数据上完美。",
     "metaphor": "就像一支篮球队每次训练都随机让几名队员坐冷板凳，迫使其他队员学会灵活配合，而不是只依赖明星球员。",
     "example": "在训练一个用于识别医学影像中肿瘤的CNN模型时，研究人员在隐藏层中设置0.5的dropout率，使得每轮训练中约一半神经元临时失效，显著降低了模型对训练中特定伪影的过拟合倾向。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "深度学习",
+    "正则化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dropout_(neural_networks)",
+    "http://jmlr.org/papers/v15/srivastava14a.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:55:33Z"
+  "updated_at": "2026-03-23T18:12:07.956311Z",
+  "quality_score": 0.95
 }

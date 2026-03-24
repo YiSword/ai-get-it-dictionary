@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "智能体架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "event_driven_agent 是一种以事件为触发机制的智能体，它不持续轮询或主动搜索任务，而是等待外部信号（如用户消息、传感器数据、系统告警）到来后才响应并执行相应逻辑。这种设计提升了资源效率、降低延迟，并增强系统对动态环境的适应性。普通用户需要了解它，因为越来越多的应用（如智能客服、自动化通知、IoT设备控制）背后都依赖这类即时响应机制，影响其体验的实时性与可靠性。",
+    "plain": "事件驱动智能体是以事件为触发机制的 AI 智能体。它摒弃持续轮询，仅在接收到外部信号（如用户消息、传感器数据）时响应执行逻辑。该设计显著提升资源效率与低延迟适应性，广泛应用于智能客服、自动化通知及 IoT 控制等场景，保障系统交互的实时性与可靠性。",
     "metaphor": "就像一位专注守候在门口的邮差，只有当信件被放进信箱时才立即取信、分拣并投递，而不是每隔一分钟就打开信箱检查一遍。",
     "example": "智能家居系统中的语音助手是一个 event_driven_agent：它静默待命，直到检测到‘唤醒词’这一语音事件，才启动识别、理解并执行指令，例如‘打开客厅灯’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "智能客服",
+    "物联网",
+    "自动化系统"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/architecture/patterns/event-based",
+    "https://python.langchain.com/docs/how_to/events/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:15:02Z"
+  "updated_at": "2026-03-23T18:28:31.109532Z",
+  "quality_score": 0.95
 }

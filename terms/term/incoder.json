@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "代码大模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Incoder 是一个由阿里巴巴集团研发的开源代码大模型系列，专为代码理解与生成任务设计，支持多编程语言和多种下游任务（如代码补全、缺陷检测、自然语言到代码转换等）。它基于大规模代码语料训练，具备较强的上下文感知和跨语言泛化能力。普通用户（尤其是开发者、学生或技术产品经理）需要了解 Incoder，因为它代表了国产高质量代码模型的重要进展，可用于提升编码效率、辅助学习编程，或集成到开发工具中降低重复劳动。",
+    "plain": "Incoder 是由 Meta AI 研发的开源代码生成模型，专注代码填充与合成。它基于大规模代码语料训练，支持多种编程语言，具备强上下文理解能力。开发者可用它进行代码补全、缺陷修复及自然语言转代码，提升开发效率。该模型是代码生成领域的重要进展，常集成于 IDE 插件或自动化开发流程中。",
     "metaphor": "就像一位精通十几种编程语言、随时待命的资深结对程序员，不仅能读懂你写了一半的代码，还能精准预测下一行该写什么，甚至指出潜在错误。",
     "example": "一名前端工程师在 VS Code 中使用 Incoder 插件，输入注释 '// 获取用户列表并按注册时间倒序排列' 后，模型自动生成符合 TypeScript 规范的 Axios 请求与数组排序逻辑。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "智能编程",
+    "开源模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/facebookresearch/incoder",
+    "https://arxiv.org/abs/2207.14255"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:07:50Z",
-  "updated_at": "2026-03-21T07:27:08Z"
+  "updated_at": "2026-03-23T15:01:56.544315Z",
+  "quality_score": 0.95
 }

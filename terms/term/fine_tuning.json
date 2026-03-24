@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "fine_tuning（微调）是指在已训练好的大型语言模型基础上，用特定领域或任务的小规模数据进行进一步训练，使其更适配具体应用场景的过程。它不需要从零开始训练模型，大幅节省算力和时间，同时能提升模型在专业问答、客服对话、行业报告生成等任务上的准确性和风格一致性。普通用户需要了解它，因为这解释了为何同一基础模型可以被定制为医疗助手、编程导师或法律咨询工具——微调让AI真正‘接地气’。",
+    "plain": "微调（Fine-tuning）是在预训练模型基础上，利用特定领域数据进行进一步训练的技术。它无需从零开始，大幅节省算力与时间，使模型更适配具体场景，如医疗助手或编程导师。通过微调，通用模型可转化为专业工具，显著提升任务准确性与风格一致性，是实现 AI 场景落地的关键步骤。",
     "metaphor": "就像一位通晓多国语言的翻译家，先通过多年泛读掌握通用表达（预训练），再花几周研读医学文献并跟医生实习（微调），从而精准翻译手术方案。",
     "example": "一家电商公司用通用大模型微调出专属客服机器人：输入数千条历史售后对话和商品知识库，使模型能准确解释退换货政策、识别虚假差评，并使用品牌专属话术。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "大语言模型",
+    "技术应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/training",
+    "https://ai.google/education/generative-ai/fine-tuning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:29:44Z"
+  "updated_at": "2026-03-23T18:45:26.221902Z",
+  "quality_score": 0.95
 }

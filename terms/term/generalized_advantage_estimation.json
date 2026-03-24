@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Generalized Advantage Estimation（GAE）是一种在强化学习中用于估计策略梯度中优势函数的高效技术，它通过加权组合多步时序差分误差来平衡偏差与方差。相比单步或蒙特卡洛估计，GAE提供更稳定、更平滑的梯度信号，从而提升策略优化的收敛速度和鲁棒性。普通用户（尤其是算法工程师或研究者）需要了解它，因为它是现代策略梯度算法（如PPO、A2C）的核心组件，直接影响训练稳定性与最终性能。",
+    "plain": "GAE 是强化学习中估计优势函数的高效技术，通过加权组合多步时序差分误差平衡偏差与方差。相比单步或蒙特卡洛估计，它提供更稳定平滑的梯度信号，提升策略优化收敛速度。作为 PPO、A2C 等算法的核心组件，GAE 直接影响训练稳定性与最终性能，是算法工程师需掌握的关键概念。",
     "metaphor": "就像医生不会仅凭病人某一次血压读数就诊断病情，而是综合多次测量并按时间衰减加权评估健康趋势，GAE也不依赖单一时间步的反馈，而是用指数衰减方式融合近期多步的‘惊喜程度’来判断某个动作到底有多好。",
     "example": "在训练一个四足机器人行走策略时，GAE被用于计算每个关节扭矩动作相对于平均表现的优势值，使策略能更准确地区分‘偶然成功’和‘真正优质’的动作序列。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "强化学习",
+    "策略梯度",
+    "算法优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1506.02438",
+    "https://spinningup.openai.com/en/latest/algorithms/gae.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:45:27Z"
+  "updated_at": "2026-03-23T12:10:01.312475Z",
+  "quality_score": 0.95
 }

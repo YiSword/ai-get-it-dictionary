@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型部署",
   "difficulty": "中级",
   "explanations": {
-    "plain": "hosted_model 指由云服务提供商（如 AWS、Google Cloud 或 Hugging Face）托管并运行的机器学习或大语言模型。用户无需自行部署、维护硬件或管理模型推理服务，只需通过 API 调用即可使用。普通用户需要了解这一概念，因为它直接影响使用成本、响应延迟、数据隐私控制以及功能更新的及时性——例如选择 hosted_model 可能意味着放弃本地数据处理权，但获得开箱即用的稳定服务。",
+    "plain": "hosted_model 指由云服务商（如 AWS、Hugging Face）托管运行的模型。用户无需管理硬件或推理服务，仅需通过 API 调用。该模式影响成本、延迟及数据隐私，虽放弃部分本地数据控制权，但提供开箱即用的稳定服务，适合快速集成与开发场景。",
     "metaphor": "就像租用一家专业厨房（含厨师、设备和食材）来制作定制餐点，而不是自己买灶具、学烹饪、囤原料再开火。",
     "example": "一家初创公司调用 OpenAI 的 GPT-4 API 实现客服自动回复，其背后依赖的就是 OpenAI 托管的 hosted_model；该公司不接触模型权重，也不运维 GPU 集群，仅按 token 使用量付费。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型部署",
+    "云计算",
+    "API 服务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/api-inference/index",
+    "https://aws.amazon.com/sagemaker/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:13:28Z"
+  "updated_at": "2026-03-23T11:10:27.962416Z",
+  "quality_score": 0.95
 }

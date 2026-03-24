@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型评估",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Evaluation 是指系统性地衡量、判断某项工作、产品、模型或决策的效果与质量的过程。它不单是打分或给出好坏结论，而是基于明确标准收集证据、分析表现并得出有依据的反馈。普通用户需要了解 evaluation，因为它帮助我们理性判断日常接触的技术服务（如手机App推荐是否靠谱、AI回答是否可信）或自身行为（如学习方法是否有效），避免被表面效果误导，从而做出更明智的选择。",
+    "plain": "Evaluation 指系统性地衡量模型、产品或决策效果与质量的过程。它基于明确标准收集证据、分析表现并得出反馈，而非简单打分。了解它有助于用户理性判断技术服务（如 AI 回答可信度），避免被表面现象误导，从而做出更明智的选择。",
     "metaphor": "就像厨师做完一道菜后尝味、调盐、观察色泽，再决定是否端上餐桌——evaluation 就是给成果做一次有依据的‘试吃’和‘微调’。",
     "example": "当一家公司上线新的客服聊天机器人时，团队会用真实用户对话样本测试其问题解决率、响应准确性和用户满意度，这个过程就是 model evaluation。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型开发",
+    "性能测试",
+    "结果验证"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ibm.com/topics/model-evaluation",
+    "https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:14:16Z"
+  "updated_at": "2026-03-23T17:05:47.557691Z",
+  "quality_score": 0.95
 }

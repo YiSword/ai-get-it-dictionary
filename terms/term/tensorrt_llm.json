@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理框架",
   "difficulty": "中级",
   "explanations": {
-    "plain": "TensorRT-LLM 是 NVIDIA 开发的开源推理优化框架，专为加速大语言模型（LLM）在 GPU 上的部署而设计。它通过算子融合、KV缓存优化、量化支持（如FP8/INT4）和多GPU张量并行等技术，显著提升吞吐量、降低延迟并减少显存占用。普通用户（尤其是AI工程师、MLOps人员或需要上线LLM服务的企业）需要了解它，因为它是当前在NVIDIA硬件上高效运行百亿级以上模型的关键工具，直接影响服务成本、响应速度与可扩展性。",
+    "plain": "TensorRT-LLM 是 NVIDIA 推出的开源大语言模型推理优化框架。专为 GPU 部署设计，支持算子融合、KV 缓存优化及 FP8/INT4 量化。能显著提升吞吐量、降低延迟并减少显存占用，是 NVIDIA 硬件上高效运行大模型的关键工具，直接影响服务成本与响应速度。",
     "metaphor": "就像为高性能跑车专门调校的变速箱和燃油喷射系统——TensorRT-LLM 不改变模型‘引擎’的设计，却让它的动力输出更迅猛、更省油、更平稳。",
     "example": "一家客服公司使用 Llama-3-70B 模型部署实时对话机器人，通过 TensorRT-LLM 将推理延迟从 1200ms 降至 320ms，同时将单卡并发请求数提升3倍，大幅降低GPU服务器采购与运维成本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型推理",
+    "大语言模型",
+    "模型部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/NVIDIA/TensorRT-LLM",
+    "https://nvidia.github.io/TensorRT-LLM/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:47:57Z",
-  "updated_at": "2026-03-21T10:03:46Z"
+  "updated_at": "2026-03-23T17:53:55.062660Z",
+  "quality_score": 0.95
 }

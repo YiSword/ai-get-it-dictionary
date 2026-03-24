@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "去中心化金融",
   "difficulty": "中级",
   "explanations": {
-    "plain": "1inch 是一个去中心化金融（DeFi）平台，允许用户在多个加密货币交易所之间查找并执行最优的交易路线。普通用户需要知道它，因为它可以提高交易效率，降低交易成本，从而更好地管理自己的数字资产。",
+    "plain": "1inch 是一个领先的去中心化交易所聚合器，通过整合多个 DEX 的流动性，为用户自动寻找最优交易路径。它能有效降低滑点并节省 Gas 费用，提升加密资产交易效率。作为 DeFi 基础设施的重要组成部分，1inch 帮助用户在不信任任何单一中介的情况下安全交换数字资产，是加密货币投资者常用的交易工具之一。",
     "metaphor": "1inch 就像一个智能导航系统，帮你找到从 A 到 B 最快、最省钱的路线。",
     "example": "当用户想将以太坊兑换成稳定币时，1inch 会自动分析多个交易平台，选择手续费最低且汇率最好的路径完成交易。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "DeFi",
+    "交易工具",
+    "加密货币"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://1inch.io"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:29:11Z",
-  "updated_at": "2026-03-20T14:29:11Z"
+  "updated_at": "2026-03-23T14:37:29.069023Z",
+  "quality_score": 0.95
 }

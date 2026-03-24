@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型服务",
   "difficulty": "中级",
   "explanations": {
-    "plain": "inference_gateway 是指部署在模型服务前端的统一接入层，负责接收用户请求、进行身份认证、请求路由、限流熔断、日志审计及协议转换（如将 HTTP 请求转为 gRPC 调用模型），再将结果返回给客户端。它不直接执行模型推理，而是作为安全、可控、可观测的‘守门人’，保障大模型或AI服务在生产环境中的稳定性与合规性。普通用户无需直接操作它，但其存在直接影响响应速度、访问权限、错误提示是否友好，以及服务是否持续可用。",
+    "plain": "inference_gateway 是模型服务前端的统一接入层，负责请求认证、路由、限流及协议转换。它不直接执行推理，而是作为安全可控的守门人，保障 AI 服务在生产环境的稳定性。直接影响响应速度、访问权限及服务可用性，是 MLOps 架构中的关键组件。",
     "metaphor": "就像机场的值机与安检通道——你提交登机请求（输入提示），它核验身份、分配柜台、检查行李（请求合法性）、分流航班（路由到对应模型），但真正起飞（执行推理）的是背后的飞机（模型服务）。",
     "example": "某企业客服系统调用大语言模型生成回复时，所有用户消息都先发送至 inference_gateway；该网关验证API密钥、限制每秒请求数、记录调用日志，并将合法请求转发给后端部署在GPU集群上的LLM服务。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型部署",
+    "系统架构",
+    "MLOps"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://docs.ray.io/en/latest/serve/architecture.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:29:54Z"
+  "updated_at": "2026-03-23T15:23:35.475938Z",
+  "quality_score": 0.95
 }

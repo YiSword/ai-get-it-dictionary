@@ -5,22 +5,23 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ehost 是一个开源的轻量级 HTTP 服务器工具，专为开发和调试场景设计，支持快速托管静态文件、模拟 API 响应及自定义路由。它无需复杂配置，命令行一键启动，适合前端开发者在本地测试网页、验证跨域策略或临时共享文件。普通用户（尤其是开发者）需要知道它，是因为它能替代繁琐的 Web 服务器搭建过程，在无后端环境时快速验证功能，提升开发效率并降低学习门槛。",
+    "plain": "ehost 是一款开源轻量级 HTTP 服务器工具，专为开发调试设计。支持静态文件托管、API 模拟及自定义路由，命令行一键启动无需复杂配置。适合前端开发者本地测试网页、验证跨域或临时共享文件。它能替代繁琐的服务器搭建，在无后端环境下快速验证功能，显著提升开发效率并降低学习门槛。",
     "metaphor": "ehost 就像一个随身携带的迷你邮局——你把信件（HTML/CSS/JS 文件）往门口一放，它立刻开门营业，让邻居（浏览器）随时来取，还不用申请执照或装修大厅。",
     "example": "前端工程师在编写一个 Vue 组件时，用 'ehost -p 8080' 启动当前目录，即可通过 http://localhost:8080 直接访问 index.html；还可通过配置规则，让 /api/user 返回预设的 JSON 模拟数据，无需启动真实后端。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "本地开发",
+    "静态托管",
+    "API 模拟"
   ],
   "sources": [],
-  "review_status": "llm_generated",
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:53:44Z",
-  "updated_at": "2026-03-21T06:01:46Z"
+  "updated_at": "2026-03-23T16:04:45.041329Z",
+  "quality_score": 0.8
 }

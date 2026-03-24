@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 框架",
   "difficulty": "中级",
   "explanations": {
-    "plain": "haystack_2_0 是 Haystack 框架的第二个主要版本，一个开源的端到端问答与检索增强生成（RAG）系统，用于构建可扩展、模块化的搜索和自然语言推理应用。它引入了更清晰的组件抽象（如 DocumentStore、Retriever、Reader、Generator）、原生支持异步处理、改进的 Pipeline 编排机制，以及对现代大模型（如 Llama、GPT 系列）和向量数据库（如 Qdrant、Elasticsearch）的深度集成。普通用户（尤其是开发者和AI工程师）需要了解它，因为它是当前构建企业级语义搜索、智能客服或知识库助手最主流、文档最完善且社区活跃的技术选型之一。",
+    "plain": "Haystack 2.0 是 deepset 推出的开源框架主要版本，专为构建检索增强生成（RAG）和语义搜索应用设计。它采用模块化 Pipeline 架构，原生支持异步处理，深度集成主流大模型与向量数据库。作为企业级知识库助手和智能客服的主流技术选型，它提供清晰的组件抽象与完善文档，帮助开发者高效搭建可扩展的自然语言推理系统。",
     "metaphor": "就像从传统厨房升级为模块化智能厨房——每个设备（切菜台、灶具、抽油烟机）职责明确、可自由替换，还能通过中央控制面板一键启动整套烹饪流程。",
     "example": "某金融机构使用 haystack_2_0 搭建内部合规知识助手：上传数千份监管文件后，员工输入‘客户KYC更新频率是多少？’，系统自动检索相关条款并调用微调后的Llama3模型生成精准、可溯源的回答。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "检索增强生成",
+    "语义搜索",
+    "大模型应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://haystack.deepset.ai/",
+    "https://github.com/deepset-ai/haystack"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:05:01Z",
-  "updated_at": "2026-03-21T07:07:13Z"
+  "updated_at": "2026-03-23T19:07:15.222959Z",
+  "quality_score": 0.95
 }

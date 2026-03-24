@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "image_safety_model 是一种专门用于自动识别和过滤图像中潜在有害内容（如暴力、色情、仇恨符号、自残或违法信息）的机器学习模型。它通常集成在社交平台、内容审核系统或AI生成图像工具中，实时分析上传或生成的图片并给出安全评分或拦截建议。普通用户需要了解它，因为其决策直接影响所见内容是否被屏蔽、账号是否被限流，甚至影响AI创作结果的可用性——例如你画了一幅含火焰的艺术图，模型可能误判为纵火而拒绝输出。",
+    "plain": "image_safety_model 是专用于识别过滤图像中有害内容（如暴力、色情、仇恨符号）的机器学习模型。它常集成于社交平台或 AI 生成工具，实时分析图片并输出安全评分。其决策直接影响内容可见性及账号状态，也可能导致 AI 创作误判。用户了解它有助于理解内容审核机制及创作限制。",
     "metaphor": "它就像一位不知疲倦的数字美术馆保安，不看作者名气、不读图像说明，只凭训练出的‘直觉’快速判断一幅画该挂进展厅还是锁进禁展区。",
     "example": "当用户在AI绘画工具中输入‘戴面具的医生在暗巷注射’，image_safety_model会因检测到‘暗巷’‘注射’等高风险视觉模式组合而阻止图像生成，并提示‘内容可能引发安全风险’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "内容审核",
+    "AI 生成",
+    "风险控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/safety-checker",
+    "https://stability.ai/safety"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:26:04Z"
+  "updated_at": "2026-03-23T13:29:07.762351Z",
+  "quality_score": 0.95
 }

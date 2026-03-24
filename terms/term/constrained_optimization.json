@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "优化算法",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Constrained optimization 是指在满足一组限制条件（如资源上限、物理规律或业务规则）的前提下，寻找使某个目标函数（如成本最小化或收益最大化）达到最优值的决策方案。它广泛应用于工程设计、金融投资、物流调度和机器学习训练等领域。普通用户虽不直接编写算法，但日常中遇到的‘如何用有限预算买最多必需品’或‘在时间紧张时安排最高效日程’等问题，本质上都是受约束的优化问题，理解这一概念有助于更理性地权衡取舍。",
+    "plain": "约束优化指在满足特定限制条件（如资源、规则）下，寻找使目标函数达到最优值的方案。广泛应用于工程设计、金融及机器学习训练。日常生活中预算分配或时间安排也属此类问题。理解该概念有助于理性权衡取舍，是 AI 模型训练的核心数学基础之一。",
     "metaphor": "就像在厨房里用固定分量的面粉、鸡蛋和糖烤出最大体积的蛋糕——你不能随意增加原料，但可以调整配比和烘烤方式来逼近最佳效果。",
     "example": "电动汽车制造商在电池容量（重量与体积限制）、续航里程（性能目标）和生产成本（预算约束）之间寻找最优设计方案，即典型的 constrained optimization 问题。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "资源调度",
+    "决策支持"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Constrained_optimization",
+    "https://docs.scipy.org/doc/scipy/reference/optimize.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:50:32Z"
+  "updated_at": "2026-03-23T15:27:29.664002Z",
+  "quality_score": 0.95
 }

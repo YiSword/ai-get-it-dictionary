@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评测基准",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GPQA（General Physics Question Answering）是一个专为评估高级科学推理能力而设计的高难度基准测试数据集，聚焦于物理学、化学和生物学等领域的研究生-level多步推理问题。它以极低的通过率著称，常被用于检验大语言模型是否具备真正深入的专业知识理解与逻辑推演能力，而非依赖模式匹配或表面信息检索。普通用户需要了解它，是因为它代表了当前AI在专业领域‘懂’与‘装懂’之间的关键分水岭，有助于理性判断AI工具在科研、教育等严肃场景中的实际可信度。",
+    "plain": "GPQA 是研究生级别的科学问答基准测试，涵盖物理、化学和生物学。问题设计为搜索引擎无法直接解答，旨在评估大模型的高级推理能力而非检索能力。因其高难度和低通过率，成为衡量 AI 是否具备真正专业理解力的关键指标，常用于科研辅助和教育场景的可信度验证。",
     "metaphor": "就像用一道国际奥赛级别的物理题来面试一位声称精通力学的工程师——答不出不丢人，但答对了才真正证明他拆解过齿轮、算过惯性矩。",
     "example": "研究人员用GPQA测试新发布的科学大模型，发现其在‘量子退相干对超导量子比特寿命的影响’这类需融合量子力学与材料物理的复合问题上正确率仅12%，远低于人类专家平均水平，从而确认该模型尚不具备可靠辅助前沿物理研究的能力。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评测",
+    "科学推理",
+    "基准测试"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2311.12022",
+    "https://github.com/idavidrein/gpqa"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:51:22Z"
+  "updated_at": "2026-03-23T11:11:44.904398Z",
+  "quality_score": 0.95
 }

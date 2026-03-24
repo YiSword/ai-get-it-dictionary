@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LiteLLM 是一个轻量级开源库，用于统一调用多种大语言模型（LLM）API，如 OpenAI、Anthropic、Gemini、Ollama 等。它通过标准化接口（如 OpenAI 兼容的请求/响应格式），让开发者无需为每个模型重写代码即可切换后端模型。普通用户（尤其是应用开发者）需要知道它，因为它大幅降低了多模型集成的复杂度，节省开发时间，提升灵活性和可维护性，并支持本地模型与云服务无缝混用。",
+    "plain": "LiteLLM 是开源 Python 库，用于统一调用多种大语言模型 API。它提供 OpenAI 兼容接口，支持 OpenAI、Anthropic、Gemini 及本地模型等后端。开发者无需修改代码即可切换模型，降低集成复杂度，提升开发效率与系统灵活性，并支持负载均衡与缓存等功能。",
     "metaphor": "LiteLLM 就像一个通用电源适配器——无论你的设备是美标、欧标还是日标插头，它都能让你用同一根线接入不同国家的插座。",
     "example": "一个客服聊天机器人原本只调用 GPT-4，但团队想快速对比 Llama 3 在本地部署的效果；只需修改一行配置，LiteLLM 就能将原有 OpenAI 格式请求自动转译并路由到本地 Ollama 实例，无需重写业务逻辑。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "API 集成",
+    "模型管理",
+    "开源库"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://litellm.ai/",
+    "https://github.com/BerriAI/litellm"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:00:38Z",
-  "updated_at": "2026-03-21T08:11:17Z"
+  "updated_at": "2026-03-23T14:06:07.023811Z",
+  "quality_score": 0.95
 }

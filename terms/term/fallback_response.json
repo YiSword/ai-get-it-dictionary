@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "系统架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "fallback_response 是指当主请求路径（如API调用、模型生成或服务响应）失败、超时或无法提供有效结果时，系统自动返回的备用响应。它通常设计为简洁、安全且有意义的兜底内容，例如默认文本、错误提示或简化答案。普通用户需要知道它，因为这直接影响体验的稳定性——当网络波动、服务器繁忙或输入异常时，fallback_response 能避免页面空白、卡顿或崩溃，让交互保持可控和友好。",
+    "plain": "fallback_response 指主请求失败、超时或无有效结果时，系统自动返回的备用响应。它提供默认文本或错误提示等兜底内容，避免页面空白或崩溃。该机制确保在网络波动或服务器繁忙时交互仍可控友好，直接影响用户体验的稳定性与系统的可靠性。",
     "metaphor": "就像电梯主控制系统失灵时，应急电源自动启动并缓慢将轿厢降至最近楼层，而不是让乘客悬在半空。",
     "example": "当用户向聊天机器人提问冷门历史事件，而大模型因知识截止或置信度不足无法生成可靠答案时，系统会返回预设的 fallback_response：‘我暂时无法确认该细节，建议查阅权威史料或提供更具体的时间/地点以便进一步帮助。’"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "容错处理",
+    "系统稳定性",
+    "API 设计"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://python.langchain.com/docs/guides/fallbacks/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:23:11Z"
+  "updated_at": "2026-03-23T18:29:26.537462Z",
+  "quality_score": 0.95
 }

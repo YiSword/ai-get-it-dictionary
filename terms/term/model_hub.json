@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "基础设施",
   "difficulty": "中级",
   "explanations": {
-    "plain": "model_hub 是一个集中托管、分发和管理预训练机器学习模型的在线平台或服务，类似于软件开发中的包管理仓库（如 PyPI 或 npm）。它允许研究人员和开发者上传、发现、下载和复用各类模型（如图像分类、文本生成等），显著降低重复训练成本、提升开发效率。普通用户需要了解它，因为它是快速接入前沿 AI 能力的关键入口——无需从头训练模型，就能在自己的应用中集成高性能模型。",
+    "plain": "model_hub 是集中托管、分发和管理预训练机器学习模型的在线平台，类似软件包管理仓库。它允许开发者上传、发现、下载和复用各类模型，显著降低重复训练成本并提升开发效率。作为快速接入前沿 AI 能力的关键入口，用户无需从头训练即可将高性能模型集成到应用中。",
     "metaphor": "就像应用商店之于手机App，model_hub 是AI模型的‘应用商店’：用户无需自己编写代码开发功能，只需搜索、点击安装即可获得开箱即用的智能能力。",
     "example": "一名前端开发者想为网站添加图片自动打标签功能，直接从 Hugging Face Model Hub 下载并加载一个现成的 ViT-ImageNet 模型，几行代码就完成了集成，无需训练数据或GPU资源。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型开发",
+    "资源共享",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/models",
+    "https://modelscope.cn/models"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:46:49Z"
+  "updated_at": "2026-03-23T12:21:45.359269Z",
+  "quality_score": 0.95
 }

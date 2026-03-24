@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "医学",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DAPT 是 'Dual Antiplatelet Therapy' 的缩写，指联合使用两种不同作用机制的抗血小板药物（如阿司匹林加替格瑞洛或氯吡格雷），用于预防冠状动脉支架植入术后或急性冠脉综合征患者的血栓形成。普通用户需要了解它，因为它是心脏介入治疗后关键的长期用药方案，擅自停药可能显著增加心肌梗死甚至猝死风险，而错误联用其他药物（如非甾体抗炎药）又可能引发严重出血。",
+    "plain": "DAPT 即双联抗血小板治疗，指联合使用两种抗血小板药物（如阿司匹林加 P2Y12 抑制剂）。主要用于急性冠脉综合征或冠脉支架植入术后患者，预防血栓形成。患者需严格遵医嘱用药，擅自停药会增加心梗风险，错误联用非甾体抗炎药等可能引发严重出血，是心脏介入治疗后关键的长期用药方案。",
     "metaphor": "就像给刚修好的水管接口同时拧紧两颗不同型号的螺丝——单一颗可能松动，两颗协同才能确保不漏、不爆。",
     "example": "一位65岁男性在急诊因急性前壁心肌梗死接受了冠脉支架植入术，医生为其开具阿司匹林每日100 mg联合替格瑞洛每日90 mg，持续至少12个月，以防止支架内血栓形成。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "心血管疾病",
+    "用药指导",
+    "临床治疗"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.heart.org",
+    "https://www.escardio.org/Guidelines"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:10:43Z"
+  "updated_at": "2026-03-23T14:15:35.044146Z",
+  "quality_score": 0.95
 }

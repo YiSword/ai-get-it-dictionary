@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "KL散度（Kullback-Leibler Divergence）是衡量两个概率分布之间差异的非对称指标，常用于机器学习、信息论和统计推断中。它量化了用一个分布Q近似另一个真实分布P时所引入的信息损失（单位为比特或纳特）。普通用户虽不直接计算它，但在使用推荐系统、语音识别、图像生成等AI产品时，背后常依赖KL散度来优化模型预测与真实数据的一致性，理解其存在有助于把握AI‘学习偏差’和‘不确定性’的本质。",
+    "plain": "KL 散度是衡量两个概率分布差异的非对称指标，量化了用分布 Q 近似真实分布 P 时的信息损失。作为关键损失函数，它广泛应用于推荐系统、语音识别及图像生成等模型训练中，用于优化预测与真实数据的一致性，帮助理解 AI 学习偏差与不确定性。",
     "metaphor": "就像用一张简略的地图（Q）去描述一座真实城市（P），KL散度衡量的是按这张简略地图导航时，平均会多走多少冤枉路。",
     "example": "在训练变分自编码器（VAE）时，KL散度被用来约束隐变量的分布接近标准正态分布，从而保证潜在空间的平滑性和可采样性。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "损失函数",
+    "信息论"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence",
+    "https://pytorch.org/docs/stable/generated/torch.nn.KLDivLoss.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:51:38Z"
+  "updated_at": "2026-03-23T15:14:47.308285Z",
+  "quality_score": 0.95
 }

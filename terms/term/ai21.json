@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型厂商",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AI21 Labs 是一家专注于自然语言处理（NLP）的人工智能公司，以开发高性能大语言模型（如 Jurassic 系列）而知名。其模型在文本生成、问答、摘要等任务上表现优异，已被集成到企业级写作助手、客服系统和教育工具中。普通用户需要知道 AI21，是因为它代表了除 OpenAI、Anthropic 等之外的重要技术力量，影响着日常使用的智能写作工具、搜索增强服务及多语言内容创作的底层能力。",
-    "metaphor": "AI21 就像一位精通多种语言、熟读百万本书籍的资深编辑，不仅能精准理解你的意图，还能以专业风格帮你润色、扩写或重构文字。",
-    "example": "某在线法律服务平台集成了 AI21 的 Jurassic-2 模型，客户输入模糊的合同修改需求后，系统即时生成符合当地法规、语义严谨的条款草案。"
+    "plain": "AI21 Labs 是以色列人工智能公司，专注自然语言处理与大语言模型研发。其 Jurassic 系列模型在文本生成、问答及摘要任务表现优异，提供 API 及企业级解决方案。作为除 OpenAI 外的重要 AI 力量，其技术广泛应用于写作辅助、客服自动化等场景，影响日常应用背后的模型选择与能力边界。",
+    "metaphor": "AI21 就像一位精通多国语言、擅长逻辑推演和创意写作的资深编辑，不只照本宣科，还能根据你的语气、目的和上下文，精准润色或续写内容。",
+    "example": "某在线法律服务平台集成 AI21 的 Jurassic-2 模型，实时将用户模糊描述的纠纷情况转化为规范的起诉状草稿，并自动标注关键法条依据。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "文本生成",
+    "企业服务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ai21.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:25:25Z"
+  "updated_at": "2026-03-23T18:56:05.578057Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "搜索引擎",
   "difficulty": "中级",
   "explanations": {
-    "plain": "index_refresh 是指在搜索引擎、数据库或文档系统中，强制重新构建或更新索引数据的过程。索引是为加速查询而创建的辅助数据结构，当底层内容（如文档、记录）发生变化时，索引可能滞后，导致搜索结果不准确或遗漏新内容。普通用户需要知道它，是因为在修改文件、发布新文章或同步数据后，若搜索不到最新内容，执行 index_refresh 往往是解决问题的关键操作，而非等待系统自动更新。",
+    "plain": "index_refresh 指在搜索引擎或数据库中强制更新索引，使新写入的数据立即可被搜索到的操作。索引通常延迟更新以提升写入性能，导致刚写入的数据暂时不可见。执行刷新可解决搜索滞后问题，确保查询结果包含最新变更，常用于数据同步后验证或实时搜索场景。",
     "metaphor": "就像图书馆更新了书架上的新书，但目录卡片还没重印——index_refresh 就是手动重印所有目录卡片，确保你一查就能找到最新上架的书。",
     "example": "在使用 Elasticsearch 管理商品搜索时，运营人员批量导入了500款新品，但前台搜索仍无法命中这些商品；此时调用 _refresh API 手动触发 index_refresh，可立即让新商品进入可检索状态。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "搜索引擎",
+    "数据一致性",
+    "运维操作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-refresh.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:27:40Z"
+  "updated_at": "2026-03-23T17:22:44.321697Z",
+  "quality_score": 1.0
 }

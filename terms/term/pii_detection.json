@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "PII detection（个人身份信息检测）是指自动识别文本、数据库或文件中可能泄露个人隐私的信息（如姓名、身份证号、手机号、邮箱、住址等）的技术过程。它广泛应用于数据脱敏、合规审计和安全防护中，帮助组织避免因意外暴露敏感信息而违反《个人信息保护法》《GDPR》等法规。普通用户需要了解这一概念，因为其个人信息是否被妥善处理，直接关系到身份盗用、诈骗风险及自身数字权益保障。",
+    "plain": "PII detection（个人身份信息检测）是自动识别文本或数据中敏感个人信息（如姓名、身份证号、手机号等）的技术。它广泛应用于数据脱敏、合规审计和安全防护，帮助组织遵守《个人信息保护法》《GDPR》等法规，防止隐私泄露引发的身份盗用与诈骗风险，保障用户数字权益。",
     "metaphor": "就像机场安检仪自动识别行李中的刀具或液体一样，PII检测是数据流中的‘隐私安检门’，在信息被存储或共享前快速筛出不该露面的个人标识。",
     "example": "一家医院在将电子病历导入科研平台前，使用PII检测工具自动遮蔽患者姓名、身份证号和联系电话，确保研究数据匿名化且符合医疗隐私规范。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据隐私",
+    "合规审计",
+    "人工智能安全"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://csrc.nist.gov/publications/detail/sp/800-122/final.html",
+    "https://gdpr.eu/what-is-personal-data/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:08:56Z"
+  "updated_at": "2026-03-23T14:31:10.847189Z",
+  "quality_score": 0.95
 }

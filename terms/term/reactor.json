@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "架构模式",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Reactor（反应器）是一种事件驱动编程模型的核心设计模式，用于高效处理大量并发I/O操作，而无需为每个连接创建独立线程或进程。它通过一个或多个事件循环监听多种I/O事件（如网络数据到达、文件就绪），并在事件发生时调用预先注册的回调函数进行处理。普通用户可能不直接接触reactor，但其支撑着现代高性能网络服务（如Web服务器、实时通信系统），影响应用的响应速度、吞吐量和资源占用——了解它有助于理解为何某些系统能同时服务百万级连接却保持低延迟。",
+    "plain": "Reactor 是一种事件驱动架构模式，核心用于高效处理大量并发 I/O。它通过事件循环监听 I/O 事件，触发时调用注册回调，避免为每连接创建独立线程。该模式支撑现代高性能网络服务，实现高吞吐与低延迟，是理解百万级连接系统的关键。",
     "metaphor": "就像一位经验丰富的餐厅领班：他不亲自上菜或炒菜，而是专注巡视全场，一旦发现某桌客人举手（事件就绪），立刻通知对应服务员（回调）去响应，全程一人统筹，避免每个客人配一个专属服务员（线程）造成的混乱与浪费。",
     "example": "Node.js 的事件循环就是典型的 reactor 实现；当 HTTP 服务器收到客户端请求时，reactor 监听到 socket 可读事件，随即触发对应的请求处理函数，而非阻塞等待或新建线程。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "高并发",
+    "网络编程",
+    "事件驱动"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Reactor_pattern",
+    "https://dre.vanderbilt.edu/Pattern-Oriented-Architecture/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:15:58Z",
-  "updated_at": "2026-03-21T09:28:49Z"
+  "updated_at": "2026-03-23T18:27:16.861353Z",
+  "quality_score": 0.95
 }

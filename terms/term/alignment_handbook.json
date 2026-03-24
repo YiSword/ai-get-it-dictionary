@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "alignment_handbook（对齐手册）是一份系统性文档，用于指导AI模型开发者、研究人员和部署者如何将模型的行为、目标与人类价值观、具体任务需求及社会规范保持一致。它涵盖价值建模、偏好学习、奖励设计、红队测试、可解释性分析等实践方法。普通用户需要了解它，因为模型是否可靠、公平、安全，往往取决于其背后是否遵循了严谨的对齐原则——这直接影响AI在医疗建议、内容审核、教育辅导等场景中是否真正‘理解并尊重’人的意图与福祉。",
+    "plain": "alignment_handbook（对齐手册）是指导开发者将 AI 模型行为与人类价值观及任务需求保持一致的系统性文档。涵盖价值建模、偏好学习、奖励设计及红队测试等方法。模型是否可靠安全，取决于是否遵循严谨的对齐原则，直接影响医疗、教育等场景中的意图理解与福祉保障。",
     "metaphor": "就像一本给自动驾驶汽车设定‘道德罗盘’和‘交通法规操作指南’的手册，确保它不仅能开车，更知道该为行人让行、在模糊路口优先保护生命而非严守毫秒级效率。",
     "example": "某医疗AI公司依据alignment_handbook设计临床辅助系统：通过医生反馈迭代校准模型对‘紧急程度’的判断，避免将高风险症状误判为低优先级，从而防止漏诊延误。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "AI 安全",
+    "伦理规范"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/huggingface/alignment-handbook"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:31:44Z"
+  "updated_at": "2026-03-23T18:36:16.788397Z",
+  "quality_score": 1.0
 }

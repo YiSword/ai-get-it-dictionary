@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "医疗 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "clinical_nlp（临床自然语言处理）是专门用于理解和分析医疗健康领域文本的人工智能技术，例如电子病历、医生笔记、检验报告和医学文献。它能从非结构化的临床文本中自动提取关键信息，如疾病诊断、用药记录、症状描述和时间关系。普通用户需要了解它，是因为它正悄然提升医疗服务的效率与准确性——比如帮助医生更快识别高风险患者、减少用药错误，或让患者在隐私合规前提下更便捷地获取个人健康摘要。",
+    "plain": "clinical_nlp（临床自然语言处理）是专用于医疗领域的 NLP 技术，旨在理解电子病历、医生笔记等非结构化文本。它能自动提取诊断、用药、症状等关键信息，辅助医生识别高风险患者、减少用药错误，提升医疗服务效率与准确性，同时在隐私合规下帮助患者管理健康摘要。",
     "metaphor": "就像一位精通医学术语的速记翻译官，既能读懂医生潦草手写笔记里的关键线索，又能把杂乱无章的病历对话整理成清晰的健康时间线。",
     "example": "某医院部署clinical_nlp系统后，自动从急诊科的自由文本分诊记录中识别出‘胸痛持续30分钟+出汗+心电图ST段抬高’，实时向心内科发出急性心梗预警，平均抢救响应时间缩短17分钟。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "电子病历",
+    "辅助诊断",
+    "医疗信息化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.nlm.nih.gov/research/umls/",
+    "https://www.amia.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:32:52Z"
+  "updated_at": "2026-03-23T14:13:11.600216Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "软件测试",
   "difficulty": "中级",
   "explanations": {
-    "plain": "behavioral_test（行为测试）是一种软件测试方法，关注系统在特定输入或操作下是否产生预期的外部行为，而非内部实现细节。它通常基于用户故事、业务需求或用例来设计测试用例，验证功能是否符合实际使用场景。普通用户需要了解它，因为它是保障软件‘好用’‘可靠’的关键环节——即使代码逻辑复杂，只要行为正确，用户就能顺畅完成任务；反之，行为错误会导致点击无响应、提交失败等直接影响体验的问题。",
+    "plain": "行为测试是一种软件测试方法，关注系统在特定输入下是否产生预期的外部行为，而非内部实现细节。它基于用户故事或业务需求设计用例，验证功能是否符合实际场景。这是保障软件好用可靠的关键，确保用户能顺畅完成任务，避免点击无响应等问题。",
     "metaphor": "就像试驾一辆新车：你不必懂发动机原理，但会检查踩油门是否加速、打方向盘是否转向、刹车是否及时停下。",
     "example": "在电商App中，行为测试会模拟用户从搜索商品、加入购物车、填写地址到支付成功的完整流程，并验证每一步界面反馈和数据状态是否符合预期。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "软件测试",
+    "质量保证",
+    "敏捷开发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://martinfowler.com/bliki/BehavioralTesting.html",
+    "https://www.istqb.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:00:58Z"
+  "updated_at": "2026-03-23T12:16:35.656285Z",
+  "quality_score": 0.95
 }

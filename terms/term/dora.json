@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "DevOps",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DORA（DevOps Research and Assessment）是一家专注于软件交付效能研究的机构，后被GitHub收购，现指代其发布的《DevOps现状报告》及其中定义的核心效能指标（如部署频率、变更前置时间、变更失败率、平均恢复时间）。这些指标帮助团队客观衡量DevOps实践效果，识别瓶颈并持续改进。普通用户——尤其是开发者、运维人员和IT管理者——需要了解DORA，因为它提供了行业公认的评估标准，能指导团队从‘能不能上线’转向‘上线是否又快又稳’。",
+    "plain": "DORA（DevOps Research and Assessment）是专注于软件交付效能的研究机构，现属 GitHub。其核心成果为《DevOps 现状报告》及四大关键指标：部署频率、变更前置时间、变更失败率、平均恢复时间。这些指标为行业公认标准，帮助团队量化 DevOps 实践效果，识别瓶颈，实现从“能上线”到“又快又稳”的转变。",
     "metaphor": "DORA指标就像汽车的仪表盘：转速、时速、油耗和故障灯共同告诉你这辆车不仅跑得动，而且跑得高效、安全、可靠。",
     "example": "某电商平台在采用DORA指标后发现平均恢复时间长达2小时，于是推动建立自动化告警与回滚机制，半年内将该指标缩短至8分钟，显著提升了线上故障应对能力。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "DevOps",
+    "效能评估",
+    "指标体系"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://dora.dev/",
+    "https://cloud.google.com/devops"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:48:12Z"
+  "updated_at": "2026-03-23T15:15:58.572413Z",
+  "quality_score": 0.95
 }

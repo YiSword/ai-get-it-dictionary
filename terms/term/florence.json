@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Florence 是微软研发的多模态基础模型，能统一理解图像、文本、语音等多种输入，并执行如图像描述、视觉问答、目标检测、图文检索等任务。它不依赖任务特定架构，而是通过单一模型结构泛化处理不同视觉-语言任务。普通用户需要了解 Florence，因为它正逐步融入 Windows 系统、Edge 浏览器和 Microsoft 365 等日常工具中，例如自动为图片生成可访问性描述、智能整理相册或辅助内容创作，提升了人机交互的自然性与包容性。",
+    "plain": "Florence 是微软研发的多模态基础模型，统一处理图像与文本输入，执行图像描述、目标检测等任务。采用单一架构泛化视觉 - 语言任务，已融入 Windows、Edge 及 Microsoft 365 等工具，支持自动生成图片描述、智能整理相册，提升人机交互体验。",
     "metaphor": "Florence 就像一位精通多种语言和艺术形式的全能策展人，既能读懂文字说明，又能看懂画作细节、听清语音导览，还能把它们融会贯通，为你讲出一幅画背后完整的故事。",
     "example": "在 Windows 11 中，当用户上传一张家庭聚会照片，Florence 可自动生成描述‘三位成年人和两个孩子在花园里笑着切蛋糕’，并支持语音提问‘穿红衣服的人是谁？’来实时识别并回答。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "基础模型",
+    "视觉语言模型",
+    "微软生态"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.microsoft.com/en-us/research/project/florence/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:32:40Z",
-  "updated_at": "2026-03-21T06:33:53Z"
+  "updated_at": "2026-03-23T12:39:50.979251Z",
+  "quality_score": 1.0
 }

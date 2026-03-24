@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据库",
   "difficulty": "中级",
   "explanations": {
-    "plain": "jan 是 JanusGraph 数据库的缩写形式，常被社区或开发者用作简写，指代这一开源的、可扩展的分布式图数据库系统。它专为存储和查询高度关联的数据（如社交网络、推荐系统、知识图谱）而设计，支持海量顶点和边，并兼容多种后端存储（如 Cassandra、HBase、Berkeley DB）。普通用户无需直接接触 jan，但若使用依赖 JanusGraph 的应用（如某些智能推荐或反欺诈平台），理解其底层能力有助于判断系统是否适合处理复杂关系型查询。",
+    "plain": "jan 是 JanusGraph 分布式图数据库的简写。它专为存储查询高度关联数据设计，支持海量顶点和边，兼容 Cassandra、HBase 等后端。适用于社交网络、推荐系统及知识图谱，能高效处理复杂关系型查询，是评估系统关联数据处理能力的重要底层组件。",
     "metaphor": "就像城市里的地铁线路图——jan 不是记录单个车站，而是精确刻画所有站点之间的换乘路径与实时连接强度。",
     "example": "一家电商公司在构建用户-商品-评论-品类的多层关系网络时，使用 jan 快速查找‘购买过A商品且常浏览B类目’的用户群体，用于定向营销。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图数据库",
+    "分布式系统",
+    "知识图谱"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://janusgraph.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:44:37Z"
+  "updated_at": "2026-03-23T11:57:59.046162Z",
+  "quality_score": 0.95
 }

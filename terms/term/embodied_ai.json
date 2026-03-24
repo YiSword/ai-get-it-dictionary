@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Embodied AI（具身人工智能）指能够通过物理身体（如机器人）或虚拟代理（如游戏中的智能体）感知环境、与之交互并自主行动的人工智能系统。它不仅依赖数据和算法，更强调‘在真实或模拟世界中做事情’的能力，比如抓取物体、导航避障或理解空间指令。普通用户需要了解它，因为这类技术正快速进入家庭服务机器人、自动驾驶、康复辅具和教育交互系统等日常场景，直接影响未来人机协作的方式与安全边界。",
+    "plain": "具身人工智能（Embodied AI）指拥有物理身体或虚拟代理，能感知环境、交互并自主行动的智能系统。它不仅依赖算法，更强调在真实或模拟世界中执行任务的能力，如抓取、导航。该技术正应用于家庭机器人、自动驾驶及康复辅具等场景，深刻影响未来人机协作方式与安全边界。",
     "metaphor": "就像一个刚学会走路和伸手拿东西的婴儿——它不是靠纯想象学习，而是在一次次跌倒、触摸和调整中真正理解世界。",
     "example": "一款厨房服务机器人通过摄像头识别食材位置，用机械臂准确抓取番茄并切片，全程根据台面障碍物实时调整动作路径。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "机器人技术",
+    "人机交互",
+    "前沿科技"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Embodied_ai",
+    "https://hai.stanford.edu/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:06:10Z"
+  "updated_at": "2026-03-23T12:48:46.677854Z",
+  "quality_score": 0.95
 }

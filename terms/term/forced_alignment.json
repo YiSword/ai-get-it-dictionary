@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "语音处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "forced_alignment 是一种语音处理技术，它将音频中的语音信号与对应的文字转录本精确对齐，逐词甚至逐音素地标出每个字在音频中开始和结束的时间点。这项技术是语音识别、字幕生成、发音评估和语音教学等应用的底层支撑。普通用户虽不直接操作它，但在使用实时字幕、有声书自动高亮、语言学习App的跟读打分等功能时，背后都依赖 forced alignment 提供的时间精准匹配。",
+    "plain": "forced_alignment 是一种语音处理技术，将音频信号与文本转录本精确对齐，标注每个字或音素的起止时间。它是语音识别、字幕生成及发音评估的底层支撑。用户在使用实时字幕、有声书高亮或语言学习跟读打分时，背后均依赖该技术提供的时间精准匹配，实现音文同步。",
     "metaphor": "就像给一本有声书配上能随朗读进度自动翻页并高亮当前句子的智能书签。",
     "example": "某语言学习App要求用户朗读一段英文，系统通过 forced alignment 将用户的录音与标准文本逐词对齐，从而判断‘th’发音是否准确、重音位置是否正确。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语音识别",
+    "音频处理",
+    "字幕生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/强制对齐",
+    "https://montreal-forced-aligner.readthedocs.io/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:36:56Z"
+  "updated_at": "2026-03-23T12:02:48.744777Z",
+  "quality_score": 0.95
 }

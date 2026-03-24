@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Lakera 是一家专注于大语言模型（LLM）安全的公司，提供检测和防护AI系统中提示注入、数据泄露、越狱攻击等风险的工具平台。它帮助开发者和企业在部署生成式AI应用时识别潜在漏洞，防止恶意输入导致模型输出有害、偏见或机密信息。普通用户需要知道 Lakera，是因为其技术间接保障了他们日常使用的AI聊天助手、智能客服或内容生成工具的安全性与可靠性——若缺乏此类防护，AI可能被操控而给出错误建议、泄露隐私甚至传播虚假信息。",
+    "plain": "Lakera 是一家专注大语言模型（LLM）安全的公司，提供防护提示注入、数据泄露及越狱攻击的工具平台。它帮助开发者识别漏洞，防止恶意输入导致模型输出有害或机密信息，保障 AI 应用的安全性与可靠性，间接保护用户隐私免受操控或泄露风险。",
     "metaphor": "Lakera 就像AI模型的‘防伪验钞机’和‘数字门禁系统’，在用户输入和模型输出之间实时扫描可疑指令或敏感内容，阻止坏人用伪装成正常请求的‘假币’骗过AI。",
     "example": "某银行在客服聊天机器人中集成 Lakera Guard，成功拦截了一次攻击者通过精心构造的提示注入语句试图绕过风控规则、诱导AI泄露账户验证逻辑的尝试。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "LLM 安全",
+    "应用防护",
+    "风险控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://lakera.ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:58:49Z"
+  "updated_at": "2026-03-23T16:11:17.891335Z",
+  "quality_score": 0.95
 }

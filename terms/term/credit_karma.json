@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "金融科技",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Credit Karma 是一家美国免费信用监测服务平台，为用户提供个人信用报告（来自TransUnion和Equifax两大征信机构）、信用分（VantageScore）查询、信用风险分析及个性化改进建议。它不向用户收费，而是通过向金融机构推荐信用卡、贷款等金融产品获取佣金。普通用户需要了解它，因为它是少数能长期免费查看信用状况的工具之一，有助于及时发现错误、防范身份盗用，并为申请房贷、车贷等重大财务决策做准备。",
+    "plain": "Credit Karma 是美国免费信用监测平台，提供 TransUnion 和 Equifax 信用报告及 VantageScore 评分。服务免费，通过推荐金融产品赚取佣金。作为长期免费查看信用状况的工具，它帮助用户发现报告错误、防范身份盗用，并为房贷车贷等决策做准备。",
     "metaphor": "就像你的个人财务健康体检中心——不收挂号费，定期给你量血压（信用分）、查血常规（信用报告），还告诉你哪里该少吃盐（减少硬查询）、哪里该多运动（按时还款）。",
     "example": "一位刚毕业的年轻人在Credit Karma上首次查看信用报告，发现一笔从未申请过的信用卡逾期记录，随即发起争议并成功清除，避免了信用分进一步受损。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "信用查询",
+    "个人理财",
+    "金融工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.creditkarma.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:02:37Z",
-  "updated_at": "2026-03-21T05:04:23Z"
+  "updated_at": "2026-03-23T18:46:15.396713Z",
+  "quality_score": 0.95
 }

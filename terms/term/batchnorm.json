@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "BatchNorm（批量归一化）是一种深度学习中常用的层，用于对神经网络某一层的输入在每个小批次（batch）内进行标准化处理——即减去均值、除以标准差，并引入可学习的缩放和平移参数。它能加速训练、提升模型稳定性与泛化能力，减少对初始化和学习率的敏感性。普通用户（如AI应用开发者或算法工程师）需要了解它，因为它是现代CNN、Transformer等主流架构的标配组件，直接影响模型是否收敛、训练速度及最终性能。",
+    "plain": "BatchNorm（批量归一化）是深度学习中的标准化层，通过对每批输入减去均值、除以标准差，并引入可学习参数进行缩放平移。它能加速训练收敛，提升模型稳定性与泛化能力，降低对初始化和学习率的敏感度。作为现代 CNN 和 Transformer 架构的标配组件，直接影响模型性能与训练效率，是算法工程师必须掌握的基础技术。",
     "metaphor": "就像学生每次考试前统一按班级平均分和标准差调整试卷难度，让所有人站在同一起跑线上再比拼，BatchNorm也让每批数据‘考前调准’，避免某些特征过强或过弱干扰学习。",
     "example": "在ResNet图像分类模型中，每个卷积层后常紧跟BatchNorm层，以稳定梯度传播并允许使用更高的学习率训练更深的网络。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "神经网络",
+    "优化技术"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1502.03167",
+    "https://pytorch.org/docs/stable/generated/torch.nn.BatchNorm2d.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:58:02Z"
+  "updated_at": "2026-03-23T12:24:58.646927Z",
+  "quality_score": 0.95
 }

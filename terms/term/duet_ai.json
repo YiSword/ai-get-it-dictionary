@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 应用",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Duet AI 是谷歌推出的一款集成于 Workspace（如 Gmail、Docs、Sheets）中的智能协作助手，能实时理解上下文并协助撰写邮件、润色文档、生成表格公式或总结会议记录。它不是独立应用，而是嵌入在用户日常办公工具中的AI协作者。普通用户需要了解它，是因为它正悄然改变工作效率——无需切换平台、无需学习新界面，就能获得精准、安全（数据不出域）、符合工作语境的AI支持，尤其适合非技术背景但追求高效办公的人群。",
+    "plain": "Duet AI 是谷歌推出的智能协作助手，深度集成于 Workspace 套件（Gmail、Docs 等）。它能理解上下文，协助撰写邮件、润色文档、生成公式及总结会议。作为嵌入日常工具的 AI 协作者，它无需切换平台即可提供安全、符合语境的 AI 支持，显著提升办公效率。注：现已升级为 Gemini for Workspace。",
     "metaphor": "就像一位熟悉你写作风格和团队习惯的资深同事，默默坐在你旁边，在你敲字时轻声建议更得体的措辞，或在你卡壳时立刻补上一段逻辑清晰的段落。",
     "example": "当你在 Gmail 中草拟一封向客户解释延迟交付的邮件时，Duet AI 会基于你已输入的内容，自动生成三句既专业又带同理心的替代表述供你一键插入。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "办公自动化",
+    "生成式 AI",
+    "协作工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://workspace.google.com/products/duet-ai/",
+    "https://blog.google/products/workspace/introducing-duet-ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:57:13Z"
+  "updated_at": "2026-03-23T11:27:55.966744Z",
+  "quality_score": 0.95
 }

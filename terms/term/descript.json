@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "工具链",
   "difficulty": "中级",
   "explanations": {
-    "plain": "descript 是一家提供基于人工智能的音视频后期制作工具的公司，其核心产品 Descript 软件允许用户像编辑文本文档一样编辑音频和视频——通过转录生成可搜索、可编辑的文字稿，直接修改文字即可自动剪辑对应音视频片段。普通用户需要了解它，是因为它大幅降低了播客制作、视频剪辑和内容创作的技术门槛，无需学习传统时间轴剪辑逻辑，就能高效完成剪辑、降噪、配音、字幕生成等专业任务。",
+    "plain": "Descript 是一款基于 AI 的音视频编辑工具，核心功能是通过转录将音视频转为可编辑文本，用户修改文字即可自动剪辑对应片段。它大幅降低了播客和视频创作门槛，无需传统时间轴逻辑，即可高效完成剪辑、降噪、配音及字幕生成等任务，适合内容创作者使用。",
     "metaphor": "Descript 就像给音视频装上了‘文字处理器’：你删掉一句话，声音和画面就自动消失；复制一段台词，AI 就为你合成匹配的语音。",
     "example": "一位独立播客主录制完一小时访谈后，在 Descript 中导入音频，直接删除口误和停顿对应的文本，软件即时同步剪辑音视频，并自动生成带时间戳的字幕和背景降噪版本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "音视频处理",
+    "内容创作",
+    "AI 应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.descript.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:53:07Z",
-  "updated_at": "2026-03-21T05:31:39Z"
+  "updated_at": "2026-03-23T10:05:52.019262Z",
+  "quality_score": 0.95
 }

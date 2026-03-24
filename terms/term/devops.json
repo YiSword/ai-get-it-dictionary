@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "软件工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DevOps 是一种将软件开发（Development）与 IT 运维（Operations）紧密结合的文化、实践和工具的集合，目标是缩短系统变更从提交到生产环境部署的周期，同时提高可靠性、安全性和效率。它强调自动化、持续集成、持续交付、跨团队协作和快速反馈。普通用户虽不直接参与，但能切身受益于更稳定、更新更快、故障恢复更迅速的 App、网站和服务——比如银行App突然修复了转账延迟，或视频平台在高峰时段依然流畅播放，背后往往有 DevOps 的支撑。",
+    "plain": "DevOps 是软件开发与运维的结合，旨在缩短开发周期并提高部署频率。它强调自动化、持续集成与交付，促进团队协作。通过自动化流程，确保软件快速可靠地发布，提升系统稳定性与安全性。用户能体验到更频繁的功能更新和更少的服务中断。",
     "metaphor": "DevOps 就像一支厨房里的厨师与服务员无缝配合的团队：厨师（开发）快速做出新菜，服务员（运维）实时反馈顾客口味和上菜速度，并共同优化流程，确保每道菜既创新又稳定地端上桌。",
     "example": "某电商公司在大促前通过 DevOps 实践，将新促销功能从代码提交到全量上线的时间从三天压缩至20分钟，并在用户投诉前自动检测并回滚异常版本，保障了活动期间的交易稳定性。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "持续集成",
+    "自动化",
+    "软件交付"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/devops/what-is-devops/",
+    "https://www.atlassian.com/devops"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:32:53Z"
+  "updated_at": "2026-03-23T18:47:19.859339Z",
+  "quality_score": 0.95
 }

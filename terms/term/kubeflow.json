@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "MLOps",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Kubeflow 是一个开源平台，旨在将机器学习工作流简化并标准化地运行在 Kubernetes 集群上。它提供了一套模块化组件（如训练、超参调优、模型服务、流水线编排等），帮助数据科学家和工程师在生产环境中可复现、可扩展、可协作地开发和部署 AI 模型。普通用户——尤其是从事 AI 工程化或 MLOps 的从业者——需要了解 Kubeflow，因为它解决了从实验到上线过程中环境不一致、资源难调度、流程难追踪等关键痛点，是构建企业级机器学习基础设施的重要工具。",
+    "plain": "Kubeflow 是运行于 Kubernetes 的开源机器学习平台，提供训练、超参调优、模型服务及流水线编排等模块化组件。它旨在简化 ML 工作流，帮助团队在生产环境中实现模型的可复现、可扩展与协作部署，解决环境不一致及资源调度痛点，是构建企业级 MLOps 基础设施的核心工具。",
     "metaphor": "Kubeflow 就像为机器学习打造的‘智能工厂流水线’：Kubernetes 是厂房和自动化吊装系统，而 Kubeflow 则是预装好的标准化工位、质检站、物流调度台和操作手册。",
     "example": "一家电商公司使用 Kubeflow Pipelines 构建端到端推荐模型流水线：每日自动拉取用户行为数据、训练新模型、对比 A/B 效果，并将最优模型一键部署到 KFServing 提供的在线 API 服务中。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "MLOps",
+    "模型部署",
+    "工作流编排"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.kubeflow.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:57:11Z"
+  "updated_at": "2026-03-23T13:26:36.146756Z",
+  "quality_score": 0.95
 }

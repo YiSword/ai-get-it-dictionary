@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "gen_3 是指第三代生成式人工智能模型，通常特指在2023–2024年间发布的、具备更强多模态理解与生成能力、更长上下文支持、更高推理准确率和更优指令遵循能力的大语言模型（如GPT-4、Claude 3、Gemini 1.5等）。它相比前两代（gen_1如GPT-2，gen_2如GPT-3）显著提升了真实性、逻辑连贯性与任务泛化性。普通用户需要了解它，因为其已深度融入日常工具——从智能办公助手、实时翻译、教育辅导到内容创作，直接影响信息获取质量、工作效率与数字交互体验。",
+    "plain": "gen_3 泛指 2023 至 2024 年间发布的第三代生成式 AI 模型，代表如 GPT-4、Claude 3 等。相比前两代，其在多模态理解、长上下文支持及逻辑推理能力上显著增强。目前已深度融入办公、教育及内容创作工具，直接影响用户的信息获取效率与数字交互体验，标志着大模型技术进入成熟应用阶段。",
     "metaphor": "就像从功能手机升级到智能手机：gen_3 不再只是执行简单指令的‘打字机’，而是一个能理解语境、权衡利弊、主动补全意图的‘数字协作者’。",
     "example": "一位教师用 gen_3 模型一键将一份模糊的手写教案扫描件转为结构化教学PPT，并自动生成配套的课堂提问与分层练习题，全程无需手动编辑提示词或多次调试。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "生成式 AI",
+    "技术迭代",
+    "多模态"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/research/gpt-4"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:04:54Z",
-  "updated_at": "2026-03-21T06:44:49Z"
+  "updated_at": "2026-03-23T11:49:26.745191Z",
+  "quality_score": 0.95
 }

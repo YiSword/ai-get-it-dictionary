@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评测基准",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MathVista 是一个面向数学视觉推理的多模态基准数据集，专门用于评估AI模型在理解数学图表、公式、几何图形及文字混合内容时的综合推理能力。它包含数千道真实教育场景中的题目，涵盖代数、几何、统计等类型，并要求模型结合图像与文本进行逻辑推导。普通用户（如教师、学生或教育科技开发者）需要了解它，因为它反映了当前AI处理教科书式数学问题的真实水平，有助于判断哪些工具能真正辅助学习或教学设计。",
+    "plain": "MathVista 是一个专注于数学视觉推理的多模态评测基准。它包含数千道涵盖代数、几何等类型的题目，要求模型结合图像与文本进行逻辑推导。该数据集用于评估 AI 在处理图表、公式及混合内容时的综合推理能力，反映当前 AI 解决教科书式数学问题的真实水平，辅助教育工具开发。",
     "metaphor": "就像一场专为AI设置的‘数学中考’，试卷里既有文字题干，又有手绘函数图、几何示意图和表格，还要求写出解题步骤。",
     "example": "一名教师用MathVista测试一款教育AI助手，发现它能正确解析一道含扇形统计图和百分比问题的初中数学题，并分步解释圆心角计算过程。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态",
+    "模型评测",
+    "数学推理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://mathvista.github.io/",
+    "https://huggingface.co/datasets/AI4Math/MathVista"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:28:01Z"
+  "updated_at": "2026-03-23T17:39:21.696439Z",
+  "quality_score": 1.0
 }

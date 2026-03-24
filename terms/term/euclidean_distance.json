@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "欧几里得距离（euclidean_distance）是数学中衡量两点之间直线距离的标准方法，适用于二维、三维或更高维空间。它通过勾股定理的推广计算：对两个点各维度坐标差的平方和开平方根。普通用户需要了解它，因为它是地图导航、图像识别、推荐系统、运动追踪等日常技术背后的底层逻辑——比如手机地图估算你到餐厅的‘直线距离’，或人脸识别算法判断两张脸有多相似。",
+    "plain": "欧几里得距离是衡量多维空间中两点间直线距离的标准方法，基于勾股定理推广计算坐标差平方和的平方根。它是 KNN、聚类等 AI 算法的核心度量，广泛应用于地图导航、图像识别及推荐系统，用于量化数据点之间的相似性或差异程度。",
     "metaphor": "就像用一把无形的直尺，直接从你家阳台拉到邻居家窗户，不绕楼梯也不走街道，只量最短的空中连线。",
     "example": "在天气App中，系统用欧几里得距离综合温度、湿度、气压三个维度的数值差异，找出与当前条件最相似的历史天气样本，从而提高预报准确性。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "机器学习",
+    "相似度计算",
+    "数据挖掘"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Euclidean_distance",
+    "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.euclidean_distances.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:12:37Z"
+  "updated_at": "2026-03-23T14:48:33.514563Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CodeGeex3 是由智谱AI研发的第三代开源代码大模型，专为理解与生成多种编程语言而优化。它支持超长上下文（最高32K tokens），具备更强的代码补全、注释生成、错误修复和跨语言转换能力。普通用户（尤其是开发者、学生和IT从业者）需要了解它，因为它能显著提升编码效率、降低学习门槛，并作为免费可本地部署的智能编程助手，替代部分商业工具，同时保障代码隐私与可控性。",
+    "plain": "CodeGeex3 是智谱 AI 推出的第三代开源代码大模型，支持 32K 上下文及多编程语言。具备代码补全、注释生成、错误修复和跨语言转换能力。支持本地部署以保障隐私，能显著提升开发者编码效率，是免费的智能编程助手。",
     "metaphor": "就像一位精通数十种编程语言、过目不忘且随时待命的资深结对程序员，CodeGeex3 不仅能接续你写到一半的代码，还能帮你解释、重构甚至翻译成另一种语言。",
     "example": "一名Python初学者在Jupyter Notebook中输入几行数据处理代码后，启用CodeGeex3插件，模型自动补全后续Pandas清洗逻辑并添加中文注释；或工程师将一段Java服务代码粘贴进去，一键获得功能等价的Go语言实现。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "编程辅助",
+    "开源模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/THUDM/CodeGeex3",
+    "https://codegeex.cn/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:02:39Z",
-  "updated_at": "2026-03-21T04:36:46Z"
+  "updated_at": "2026-03-23T15:07:39.631436Z",
+  "quality_score": 1.0
 }

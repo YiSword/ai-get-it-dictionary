@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "信息检索",
   "difficulty": "中级",
   "explanations": {
-    "plain": "vector_search（向量搜索）是一种基于语义相似度而非关键词匹配的信息检索技术。它将文本、图像、音频等内容转化为高维数值向量，再通过计算向量间的距离（如余弦相似度）找出最相近的结果。普通用户需要了解它，是因为日常使用的智能搜索、推荐系统和聊天机器人背后都依赖这项技术——它能让‘苹果手机’搜出‘iPhone’，或让一张模糊的猫图找到同品种高清照片，显著提升搜索的准确性和理解力。",
+    "plain": "向量搜索是一种基于语义相似度的信息检索技术。它将文本、图像等内容转化为高维向量，通过计算向量距离（如余弦相似度）找出最相近结果。相比关键词匹配，它能理解‘苹果手机’与‘iPhone'的语义关联，广泛应用于智能搜索、推荐系统及聊天机器人，显著提升检索准确性与理解力。",
     "metaphor": "就像在图书馆里不靠书名索引，而是根据每本书散发出的独特‘气味’（语义气息）来寻找气味最相近的几本。",
     "example": "当你在电商平台上传一张鞋子的照片搜索商品时，系统不是识别‘图片中有鞋’这个标签，而是将这张图转为向量，并在海量商品图向量库中快速找到视觉和风格最接近的款式。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语义搜索",
+    "推荐系统",
+    "大模型应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.pinecone.io/learn/vector-search/",
+    "https://www.elastic.co/guide/en/elasticsearch/reference/current/vector-search.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:16:19Z"
+  "updated_at": "2026-03-23T15:44:51.814414Z",
+  "quality_score": 0.95
 }

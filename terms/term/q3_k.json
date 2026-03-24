@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型量化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "q3_k 是一种量化格式，用于压缩大语言模型的权重参数，具体指将浮点数权重以 3 位整数（加上少量开销位）进行近似表示，并采用分组量化（k-means 风格的聚类）来提升精度。它在 GGUF 模型文件格式中被广泛支持，兼顾了极小体积与相对可用的推理质量。普通用户需要知道它，是因为选择 q3_k 等量化级别直接影响本地运行模型时的内存占用、加载速度和回答质量——选得太低会明显降智，太高则可能无法在消费级显卡或低端设备上运行。",
+    "plain": "q3_k 是 GGUF 格式中的一种 3 位量化类型，属于 k-quants 系列。它通过分组量化技术压缩模型权重，显著降低内存占用。适用于显存有限的本地部署场景，能在极小体积下保持相对可用的推理质量，是平衡资源消耗与性能的低比特选择之一。",
     "metaphor": "就像把一本高清摄影集压缩成精心调色的简笔画册：牺牲部分细节，但保留关键轮廓和色彩倾向，让整本书能塞进一个小书包里随时翻阅。",
     "example": "你在一台仅 8GB 显存的笔记本上用 llama.cpp 运行 Llama-3-8B 模型时，选择了 q3_k_m 量化版本，成功在不崩溃的前提下获得基本连贯的对话响应。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型量化",
+    "本地部署",
+    "推理优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ggerganov/llama.cpp",
+    "https://github.com/ggerganov/llama.cpp/blob/master/docs/quantize.md"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:22:01Z",
-  "updated_at": "2026-03-21T09:19:06Z"
+  "updated_at": "2026-03-23T17:20:12.990466Z",
+  "quality_score": 1.0
 }

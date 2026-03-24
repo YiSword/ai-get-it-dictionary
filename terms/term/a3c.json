@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "A3C（Asynchronous Advantage Actor-Critic）是一种用于深度强化学习的分布式算法，它通过多个并行运行的智能体（actor）独立与环境交互、异步更新共享的神经网络参数，从而提升训练效率和稳定性。与需要大量显存的单机同步方法不同，A3C降低了硬件门槛，适合在多核CPU上高效训练。普通用户虽不直接编写A3C，但理解它有助于认识当前AI如何让机器人、游戏AI或自动化系统在复杂环境中边试错边学习——它是支撑许多实用智能体背后的关键技术之一。",
-    "metaphor": "就像一群学生各自在不同教室独立解同一道难题，每解出一步就立刻跑回黑板更新解题思路，而不是等所有人做完再统一讨论。",
-    "example": "DeepMind曾用A3C训练AI玩Atari游戏，在无需人类标注数据的情况下，仅通过屏幕像素和得分反馈就学会高超操作策略。"
+    "plain": "A3C（Asynchronous Advantage Actor-Critic）是一种深度强化学习算法。它通过多个并行智能体在不同环境中异步采集经验并更新全局参数，显著提升训练效率与稳定性。该方法有效缓解梯度相关性，常用于游戏 AI、机器人控制等需要高效策略探索的场景。",
+    "metaphor": "就像一群学生各自在不同教室里独立解同一类数学题，每解出几道就跑向黑板更新解题公式，而不是等所有人做完再统一讨论。",
+    "example": "DeepMind曾用A3C训练AI玩Atari游戏，在不依赖人类示范的情况下，仅通过像素输入和得分反馈就让智能体学会高超操作技巧。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "游戏 AI",
+    "机器人控制",
+    "自动决策"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1602.01783"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:14:21Z"
+  "updated_at": "2026-03-23T14:29:02.607749Z",
+  "quality_score": 0.95
 }

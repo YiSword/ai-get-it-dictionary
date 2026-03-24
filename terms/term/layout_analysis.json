@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "文档智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "layout_analysis（版面分析）是指对文档图像（如扫描的PDF、照片中的印刷页）进行自动识别和划分，以确定文字、图片、表格、标题、页眉页脚等元素的位置、类型及层级关系的过程。它是OCR（光学字符识别）前的关键预处理步骤，直接影响后续文字识别的准确性和结构化信息提取的质量。普通用户虽不直接操作该技术，但在使用手机扫描文档、PDF转Word、自动归档发票或阅读无障碍工具时，其背后依赖的就是可靠的版面分析——若分析出错，可能导致文字错位、表格丢失或读屏软件误读。",
+    "plain": "layout_analysis（版面分析）是文档智能中的关键技术，旨在自动识别文档图像中的文字、图片、表格等元素的位置及层级关系。作为 OCR 的前置步骤，它决定了后续识别准确性和信息结构化质量。广泛应用于扫描文档、PDF 转换及无障碍阅读场景，若分析错误会导致内容错位或丢失。",
     "metaphor": "就像一位细心的图书编辑第一次拿到手稿时，先快速标出哪些是正文、哪些是插图、哪段是脚注，再分门别类交给不同专家处理。",
     "example": "当用户用手机APP拍摄一张含文字和图表的科研论文页面，APP通过版面分析将公式区域、参考文献块和主段落彼此分离，从而让OCR只对文字区精准识别，同时保留图表原样并正确标注其位置。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "OCR",
+    "文档处理",
+    "计算机视觉"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-layout",
+    "https://cloud.google.com/document-ai/docs/layout-analysis"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:04:11Z"
+  "updated_at": "2026-03-23T15:22:26.242231Z",
+  "quality_score": 0.95
 }

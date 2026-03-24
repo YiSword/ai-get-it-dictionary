@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "计算机网络",
   "difficulty": "中级",
   "explanations": {
-    "plain": "在计算机网络和系统管理中，'drop' 指数据包或请求被主动丢弃而不作任何响应或转发。这通常由防火墙、路由器或操作系统内核执行，用于安全防护（如拦截恶意流量）、缓解过载（如防止DDoS攻击）或策略控制（如阻止特定IP访问）。普通用户需要了解它，因为当网页打不开、视频卡顿或游戏断连时，背后可能是关键数据包被‘drop’所致——这不是网络故障，而是有意为之的保护机制，理解这点有助于更准确地排查问题而非盲目重启设备。",
+    "plain": "在计算机网络中，'drop'指数据包或请求被设备主动丢弃且不发送响应。常由防火墙、路由器或内核执行，用于安全防护、缓解过载或策略控制。当网页无法加载或游戏断连时，可能是关键数据包被 drop 所致。这并非网络故障，而是有意保护机制，理解此概念有助于准确排查问题。",
     "metaphor": "就像邮局安检员发现可疑信件后直接销毁它，既不退回也不通知寄件人，只确保它不会进入投递流程。",
     "example": "当你使用iptables配置Linux防火墙并执行'drop'规则时，来自某恶意IP的所有TCP连接请求将被静默丢弃，客户端会收到超时错误而非拒绝响应。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "网络安全",
+    "网络运维",
+    "故障排查"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.cloudflare.com/learning/ddos/glossary/packet-drop/",
+    "https://www.techtarget.com/searchnetworking/definition/packet-drop"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:55:18Z"
+  "updated_at": "2026-03-23T18:45:04.192229Z",
+  "quality_score": 0.95
 }

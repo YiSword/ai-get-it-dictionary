@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Connectionist Temporal Classification（CTC）是一种用于序列到序列建模的机器学习技术，特别适用于输入和输出长度不一致且无对齐标注的任务，比如语音识别或手写文字识别。它让神经网络直接从原始时序信号（如音频帧）预测字符序列，无需预先对齐每个音素或字符的时间位置。普通用户需要知道它，是因为它是支撑Siri、微信语音转文字等日常语音交互功能背后的关键技术之一——让设备能‘听懂’连续说话并准确转成文字。",
+    "plain": "CTC 是一种深度学习算法，专用于解决输入输出长度不一致的序列建模问题。它无需预先对齐数据，即可直接从时序信号预测序列，广泛应用于语音识别和手写识别。作为 Siri 等语音转文字功能的核心技术，它让设备能理解连续语音并准确转录。",
     "metaphor": "就像一位速记员不需要知道每个字该写在稿纸的哪一格，却能根据讲话的节奏和语义，流畅地写下整句话。",
     "example": "在语音助手将一段2秒的‘打开天气预报’语音流转换为对应文字时，CTC模型直接从数千个音频时间步中推断出5个汉字，而无需人工标注每个字出现的具体起止时刻。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语音识别",
+    "序列建模",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Connectionist_temporal_classification",
+    "https://distill.pub/2017/ctc/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:48:47Z"
+  "updated_at": "2026-03-23T16:43:32.141680Z",
+  "quality_score": 0.95
 }

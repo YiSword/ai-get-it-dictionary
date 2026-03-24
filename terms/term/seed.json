@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "seed（种子）是生成伪随机数序列的初始值，它决定了后续所有随机结果的确定性走向。在密码学、机器学习、游戏开发和模拟实验中，seed 保证了过程可复现——相同 seed 总产生相同的‘随机’输出。普通用户需要知道它，是因为在使用AI绘图工具、训练模型或参与区块链抽奖时，提供或记录 seed 能确保结果可验证、可重现，避免因‘随机’不可控而引发误解或纠纷。",
+    "plain": "seed（种子）是生成伪随机数序列的初始值，决定了后续结果的确定性走向。在机器学习、AI 绘图及区块链中，使用相同 seed 可确保结果完全复现。记录 seed 能验证生成过程，避免随机性不可控引发的纠纷，是保证实验可重复性和结果可验证性的关键参数。",
     "metaphor": "就像一本密码本的起始页码，seed 决定了你将按什么顺序翻阅整本随机数之书。",
     "example": "在 Stable Diffusion 中输入 seed=42，每次用相同提示词生成的图像细节都会完全一致，便于调试和分享创作过程。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "AI 绘图",
+    "可复现性"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Random_seed",
+    "https://pytorch.org/docs/stable/notes/randomness.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:41:34Z",
-  "updated_at": "2026-03-21T09:40:28Z"
+  "updated_at": "2026-03-23T17:24:57.207796Z",
+  "quality_score": 0.95
 }

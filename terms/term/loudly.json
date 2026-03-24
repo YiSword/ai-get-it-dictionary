@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "通用词汇",
   "difficulty": "中级",
   "explanations": {
-    "plain": "loudly 是一个副词，表示以高音量、强烈或引人注目的方式做某事，常用于描述说话、行动或表达情感时的强度和外显程度。它不仅关乎物理音量（如喊叫），也延伸至行为风格（如‘loudly celebrating’）或数字语境（如‘loudly posting opinions online’）。普通用户需要理解它，因为该词常出现在日常交流、媒体评论和网络文化中，帮助准确传达态度强度或识别他人表达中的情绪倾向与社交意图。",
+    "plain": "loudly 是副词，指以高音量或强烈方式行动。既描述物理声音（如喊叫），也延伸至行为风格（如高调庆祝）或数字语境（如网上大声发表观点）。理解该词有助于在日常交流、媒体评论和网络文化中准确传达态度强度，识别他人表达中的情绪倾向与社交意图，避免误解。",
     "metaphor": "就像在安静的图书馆里突然拍手——不是声音本身有多震耳，而是它打破了预期的分贝秩序，强行把注意力拽向自己。",
     "example": "她 loudly disagreed with the policy during the meeting, standing up and raising her voice to ensure everyone heard her objection."
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "日常交流",
+    "网络文化",
+    "情感表达"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.merriam-webster.com/dictionary/loudly",
+    "https://dictionary.cambridge.org/dictionary/english/loudly"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:44:15Z",
-  "updated_at": "2026-03-21T08:21:11Z"
+  "updated_at": "2026-03-23T18:32:21.849675Z",
+  "quality_score": 1.0
 }

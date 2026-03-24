@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "动漫游戏",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Fate/Zero 是日本作家虚渊玄创作的轻小说，作为《Fate/stay night》的前传，讲述了第四次圣杯战争的经过。它以深刻的人物刻画、哲学思辨和残酷的现实主义风格著称，探讨了理想、牺牲与正义的边界。普通用户需要了解它，不仅因为它是型月世界观的重要基石，更因其对人性与信念冲突的尖锐呈现，常被视作日本ACG领域中文学性与思想性兼具的标杆之作。",
+    "plain": "Fate/Zero 是虚渊玄创作的轻小说，为《Fate/stay night》前传，讲述第四次圣杯战争。作品以深刻人物刻画、哲学思辨和残酷现实主义风格著称，探讨理想、牺牲与正义的边界。它是型月世界观的重要基石，被视为日本 ACG 领域文学性与思想性兼具的标杆之作。",
     "metaphor": "就像一场精心布置的棋局，每位参与者都怀揣不容妥协的信念，却在落子过程中逐渐发现：最锋利的理想，往往最先割伤自己。",
     "example": "一位大学生在深夜看完卫宫切嗣引爆飞机的名场面后，开始重新思考‘为多数人牺牲少数人’是否真能导向正义；这正是Fate/Zero激发现实伦理反思的典型时刻。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "轻小说",
+    "动画",
+    "前传"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/Fate/Zero",
+    "http://www.fate-zero.jp/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:13:21Z",
-  "updated_at": "2026-03-21T06:24:17Z"
+  "updated_at": "2026-03-23T12:06:10.312409Z",
+  "quality_score": 0.95
 }

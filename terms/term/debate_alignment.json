@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型对齐",
   "difficulty": "中级",
   "explanations": {
-    "plain": "debate_alignment 是指在人工智能系统（尤其是大语言模型）中，通过训练或提示工程使其在参与观点交锋、立场表达或价值权衡类任务时，能准确识别并忠实呈现多方立场，而非隐含偏向某一方或默认采纳主流/训练数据中的隐性价值观。它关注的是模型在‘辩论’类交互中是否保持中立性、结构性和代表性。普通用户需要了解它，因为当使用AI辅助政策讨论、教育思辨、新闻解读等场景时，若模型存在未被察觉的立场偏移，可能误导判断、强化偏见，甚至削弱批判性思维训练的效果。",
+    "plain": "debate_alignment 指 AI 系统在辩论或立场表达任务中，准确识别并忠实呈现多方观点，避免隐含偏向或默认主流价值观的技术。它确保模型在政策讨论、教育思辨等场景中保持中立性与代表性，防止立场偏移误导用户判断或削弱批判性思维，是对齐研究在交互场景的具体应用。",
     "metaphor": "就像一位专业法庭速记员，不仅要完整记录控辩双方每一句话，还要确保语调、强调和逻辑结构不被自己的理解所扭曲。",
     "example": "在高中伦理课上，教师要求AI生成关于‘基因编辑婴儿’的正反方论点摘要；debate_alignment 保证AI列出的支持理由与反对理由在深度、依据类型和情感强度上均衡匹配，而非用更详实的科学术语支撑支持方，却用模糊道德感叹弱化反对方。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 安全",
+    "模型对齐",
+    "人机交互"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/research/ai-safety-via-debate/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:18:09Z"
+  "updated_at": "2026-03-23T18:39:32.570576Z",
+  "quality_score": 1.0
 }

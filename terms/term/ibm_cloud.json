@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "IBM Cloud 是 IBM 提供的综合性云服务平台，支持公有云、私有云和混合云部署，提供计算、存储、AI（如Watson）、容器、无服务器函数及企业级安全与合规服务。普通用户（尤其是企业开发者和IT决策者）需要了解它，因为它是支撑关键业务系统、合规敏感应用（如金融、医疗）以及AI驱动工作负载的重要基础设施，尤其在强调数据主权、行业认证（如HIPAA、FedRAMP）的场景中具有不可替代性。",
+    "plain": "IBM Cloud 是 IBM 提供的综合性云服务平台，支持公有、私有及混合云部署。提供计算、存储、AI、容器等企业级服务，具备强大的安全与合规能力（如 HIPAA、FedRAMP）。适用于金融、医疗等敏感行业的关键业务系统及 AI 工作负载，是强调数据主权场景的重要基础设施。",
     "metaphor": "就像一座由专业工程团队建造并持续运维的智能城市——既有开放街区（公有云）供大众使用，也有专属安保园区（私有云）保障核心资产，还能通过高速隧道（混合云互联）无缝连接二者。",
     "example": "某全球银行使用IBM Cloud上的Red Hat OpenShift托管核心交易系统，并利用其内置的FIPS 140-2加密模块和GDPR就绪架构，满足多国监管审计要求。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "企业服务",
+    "基础设施"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ibm.com/cloud"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:37:43Z",
-  "updated_at": "2026-03-21T07:21:51Z"
+  "updated_at": "2026-03-23T13:20:25.851289Z",
+  "quality_score": 0.95
 }

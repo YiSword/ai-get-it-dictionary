@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 智能体",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Devin 是一款由 Cognition AI 开发的实验性人工智能软件工程师，它能自主理解编程任务、编写和调试代码、运行测试、部署应用，并与开发者协作。不同于传统代码补全工具（如 GitHub Copilot），Devin 可以端到端地执行复杂工程任务。普通用户需要了解它，是因为它预示着软件开发范式的转变——未来非技术用户可能通过自然语言描述需求，由 AI 自主实现功能，从而降低技术门槛、加速产品落地，但也引发对就业结构、代码安全与责任归属的新思考。",
+    "plain": "Devin 是 Cognition AI 推出的 AI 软件工程师智能体。它能自主理解任务、编写调试代码、运行测试及部署应用，实现端到端工程任务执行。不同于代码补全工具，Devin 代表软件开发范式转变，允许通过自然语言需求自主实现功能，降低技术门槛，同时也引发关于就业与安全的讨论。",
     "metaphor": "Devin 就像一位全天候在线、精通多门编程语言、自带测试实验室和部署工具箱的资深程序员助理，你只需告诉它‘我想做个能记账的网页’，它就会自己画图、写代码、找漏洞、上线运行。",
     "example": "某初创团队用 Devin 在两小时内从零搭建并部署了一个支持用户注册、数据加密存储和实时余额查询的个人财务小工具，全程无需人工编写核心逻辑代码。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "软件开发",
+    "AI 智能体",
+    "代码生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.cognition.ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:32:28Z"
+  "updated_at": "2026-03-23T16:08:09.955223Z",
+  "quality_score": 0.95
 }

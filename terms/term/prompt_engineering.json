@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Prompt engineering 是指精心设计和优化向人工智能模型（尤其是大语言模型）输入的指令或问题（即 prompt），以获得更准确、可靠、符合预期的输出。它涉及措辞选择、上下文设定、角色定义、格式约束等技巧。普通用户需要了解它，因为哪怕微小的措辞调整——比如加上‘请分三点回答’或‘用初中生能懂的语言’——都可能显著提升 AI 回答的质量与实用性，避免模糊、冗长或偏离需求的结果。",
+    "plain": "Prompt Engineering 指设计优化输入给 AI 模型（尤其是大语言模型）的指令，以获取更准确可靠的输出。涉及措辞选择、上下文设定、角色定义等技巧。微小调整如指定格式或语言风格，都能显著提升回答质量，避免结果模糊。它是用户与 AI 高效交互的核心技能。",
     "metaphor": "就像给一位博学但过于 literal 的图书管理员写借书便条：写‘找几本讲量子物理的书’可能拿回一堆教材，而写‘请推荐一本用生活例子讲清薛定谔猫的入门书’才能精准拿到想要的那本。",
     "example": "用户想让 AI 帮忙修改一封辞职信，不是简单问‘帮我写辞职信’，而是输入：‘你是一位资深 HR，请帮我把以下草稿润色为专业、简洁、语气得体的中文辞职信，保留原意但删减情绪化表达，控制在200字以内。’"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "人机交互",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Prompt_engineering",
+    "https://cookbook.openai.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:15:16Z",
-  "updated_at": "2026-03-21T09:17:12Z"
+  "updated_at": "2026-03-23T12:48:27.345412Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "流处理框架",
   "difficulty": "中级",
   "explanations": {
-    "plain": "bolt_new 是 Apache Storm 流处理框架中用于声明新 Bolt 组件的底层构造方法（通常在 Java API 中出现），它负责实例化并初始化一个处理数据元组（tuple）的计算单元。Bolt 是 Storm 中执行过滤、聚合、连接或与外部系统交互的核心逻辑组件，而 bolt_new 作为其创建入口点，影响拓扑（topology）的构建正确性与性能。普通用户（尤其是 Storm 开发者）需要理解它，因为错误使用可能导致序列化失败、状态丢失或并行度配置异常，进而引发数据处理中断或结果不一致。",
+    "plain": "bolt_new 是 Apache Storm 框架中实例化 Bolt 组件的底层构造方法。Bolt 作为拓扑核心单元，负责数据元组的过滤、聚合及外部交互。正确使用该入口点关乎拓扑构建的正确性与性能，不当配置可能引发序列化失败或状态丢失，导致数据处理中断。",
     "metaphor": "就像装配流水线上的工位负责人必须按标准流程领取并启动新设备一样，bolt_new 就是为 Storm 数据流水线‘上岗’一个新处理工位的正式入职手续。",
     "example": "在构建实时日志分析拓扑时，开发者调用 bolt_new(MyAnalysisBolt.class) 来注册一个负责统计 HTTP 状态码频次的 Bolt，并将其链接到上游 Spout 与下游数据库写入 Bolt。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "流式计算",
+    "组件初始化",
+    "Apache Storm"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://storm.apache.org/releases/current/Concepts.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:12:23Z"
+  "updated_at": "2026-03-23T17:07:08.098569Z",
+  "quality_score": 0.95
 }

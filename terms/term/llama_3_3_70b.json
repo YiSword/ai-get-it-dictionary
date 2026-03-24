@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "llama_3_3_70b",
+  "norm_term": "llama_3_3_70b",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "开源大语言模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Meta 发布的开源大语言模型，参数量 700 亿。作为 Llama 3 系列进阶版本，具备强大的文本生成、逻辑推理及代码编写能力。支持自由部署与微调，适用于企业私有化部署及开发者二次创作。相比闭源模型，其在成本控制与数据隐私方面具有显著优势，是技术选型的重要参考。",
+    "metaphor": "如同拥有 700 亿神经元的超级图书馆管理员，不仅能快速检索海量书籍，还能理解读者模糊的提问意图，甚至帮作家续写小说章节。相比小型模型，它更像配备专业团队的智库而非单人顾问。",
+    "example": "某电商企业使用该模型构建智能客服系统，既能处理'退货流程'等标准咨询，也能解析'手机充电时发烫是否正常'这类需要专业知识的问题，通过本地化部署保障用户数据隐私，同时降低云服务调用成本。"
+  },
+  "scenario_tags": [
+    "自然语言处理",
+    "代码生成",
+    "企业部署"
+  ],
+  "sources": [
+    "https://ai.meta.com/blog/",
+    "https://huggingface.co/meta-llama"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:33:52.219306Z",
+  "updated_at": "2026-03-23T13:21:28.537191Z",
+  "quality_score": 1.0
+}

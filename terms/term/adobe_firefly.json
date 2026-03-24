@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Adobe Firefly 是 Adobe 开发的生成式人工智能模型系列，专为创意工作流设计，支持文本生成图像、文字、矢量图形、3D材质等，并深度集成于 Photoshop、Illustrator 等 Creative Cloud 应用中。它使用经授权和原创内容训练，确保商业可用性，避免版权风险。普通用户需要了解它，是因为它正重塑设计效率——无需专业技能即可快速生成合规素材，同时保障企业级安全与品牌一致性。",
+    "plain": "Adobe Firefly 是 Adobe 推出的生成式 AI 模型系列，专为创意工作流设计。支持文生图、矢量图及 3D 材质，集成于 Photoshop 等软件。训练数据基于授权内容，确保商业安全与版权合规。用户可快速生成合规素材，提升设计效率并保障品牌一致性，无需专业技能即可上手。",
     "metaphor": "就像一位精通版权法、熟悉所有设计软件、且永远不疲倦的创意助理，Firefly 不仅能听懂你的描述，还能立刻交出可直接商用的高质量草稿。",
     "example": "设计师在 Photoshop 中输入提示词‘极简风格蓝色科技感登录按钮，带微光阴影，PNG透明背景’，Firefly 即刻生成多个可编辑图层，一键插入画布并继续精修。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "创意设计",
+    "商业合规"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.adobe.com/products/firefly.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:40:17Z",
-  "updated_at": "2026-03-21T03:22:07Z"
+  "updated_at": "2026-03-23T16:45:14.055557Z",
+  "quality_score": 0.95
 }

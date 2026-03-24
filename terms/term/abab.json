@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "算法",
   "difficulty": "中级",
   "explanations": {
-    "plain": "abab 是一种常见的字符串模式，指由两个相同子串交替重复构成的结构，如 'abab' 本身（'ab' 重复两次）、'cdcd' 或 '1212'。它在计算机科学中常用于模式匹配、正则表达式教学、密码学分析及文本算法（如KMP算法）的示例中。普通用户虽不直接编写此类模式，但在使用搜索功能、处理重复数据或理解基础编程逻辑时，识别简单重复结构有助于提升问题拆解能力和工具使用效率。",
+    "plain": "abab 是一种典型的字符串重复模式，指由两个相同子串交替构成的结构，如'abab'或'1212'。在计算机科学中，它常作为模式匹配、正则表达式及 KMP 算法的教学示例。理解此类结构有助于掌握文本搜索、数据去重及基础编程逻辑，是算法分析与密码学弱口令检测中的常见案例。",
     "metaphor": "就像用两块不同颜色的积木（如红蓝）反复拼接成‘红蓝红蓝’的节奏，abab 就是语言或代码里最基础的‘双拍子’重复节律。",
-    "example": "在文本编辑器中搜索形如‘\\w\\w\\1\\1’的正则表达式时，可能匹配到‘abab’或‘1212’这类重复双字符模式，用于批量清理或校验格式化数据。"
+    "example": "在文本编辑器中搜索形如 'xyxy' 的4位重复词时，正则表达式 '(\\w{2})\\1' 可匹配 abab 模式；又如检测弱密码 '1212' 或 'abab' 是否符合重复模式规则。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "算法",
+    "字符串处理",
+    "编程基础"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:14:54Z"
+  "updated_at": "2026-03-23T17:54:40.022290Z",
+  "quality_score": 0.95
 }

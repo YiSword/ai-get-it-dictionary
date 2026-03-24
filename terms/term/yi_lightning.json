@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "yi_lightning",
+  "norm_term": "yi_lightning",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "轻量级大模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "零一万物（01-ai）推出的轻量级大模型变种。采用模型压缩与架构优化技术，旨在有限计算资源下实现高效推理。相比标准版本，它在显著降低计算延迟与内存占用的同时，保持了合理的任务精度。适用于移动端部署、边缘设备及对响应速度敏感的智能应用场景。",
+    "metaphor": "就像微型电动车相比传统汽车，yi_lightning 用精简结构实现快速启动和低能耗，适合城市短途通勤般的轻量级任务。",
+    "example": "在智能手机中运行实时语音翻译应用时，yi_lightning 模型可在离线状态下快速处理语音输入，避免云端传输延迟，同时减少手机发热和电量消耗。"
+  },
+  "scenario_tags": [
+    "模型优化",
+    "端侧部署",
+    "自然语言处理"
+  ],
+  "sources": [
+    "https://huggingface.co/01-ai"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:43:31.424265Z",
+  "updated_at": "2026-03-23T13:51:40.790553Z",
+  "quality_score": 0.95
+}

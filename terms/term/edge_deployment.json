@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "边缘计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "edge_deployment（边缘部署）是指将应用程序、服务或模型直接部署在靠近数据产生源或用户终端的网络边缘设备上（如智能摄像头、工业网关、车载计算机等），而非集中部署在远端云端数据中心。这种方式能显著降低延迟、减少带宽占用、提升实时响应能力，并增强数据隐私与离线可用性。普通用户需要了解它，因为越来越多的日常体验——如智能家居即时响应、自动驾驶决策、AR眼镜流畅交互——都依赖边缘部署来实现‘秒级甚至毫秒级’的可靠运行。",
+    "plain": "边缘部署指将应用或模型直接部署在靠近数据源的网络边缘设备上，而非集中式云端。此举能显著降低延迟、节省带宽并增强数据隐私。智能家居响应、自动驾驶决策等实时体验均依赖此技术实现毫秒级运行，是物联网与 AI 落地的关键架构。",
     "metaphor": "就像在社区便利店提前备好常用商品，而不是每次购物都驱车去远郊的大型仓库取货。",
     "example": "一家工厂在每台数控机床上部署轻量AI模型，实时分析振动数据以预测刀具磨损，无需将原始数据上传云端，从而在毫秒级内触发停机预警。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "物联网",
+    "实时计算",
+    "人工智能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/edge-computing/",
+    "https://azure.microsoft.com/zh-cn/solutions/edge-computing/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:01:01Z"
+  "updated_at": "2026-03-23T17:10:17.368218Z",
+  "quality_score": 0.95
 }

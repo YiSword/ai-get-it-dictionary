@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "神经网络",
   "difficulty": "中级",
   "explanations": {
-    "plain": "feedforward_network（前馈神经网络）是一种最基础的人工神经网络结构，其信息仅沿输入到输出的单一方向流动，中间不形成反馈回路。它由输入层、一个或多个隐藏层和输出层组成，每层神经元仅接收前一层的输出并传递给下一层。普通用户需要了解它，因为它是图像识别、语音转文字、推荐系统等日常AI功能背后最核心的底层模型之一，理解其基本原理有助于理性看待AI能力与局限。",
+    "plain": "前馈神经网络是最基础的人工神经网络结构，信息单向流动且无反馈回路。它由输入层、隐藏层和输出层组成，神经元仅接收前一层输出。作为深度学习基石，广泛应用于图像识别、语音处理及推荐系统，是理解人工智能工作原理的核心概念。",
     "metaphor": "就像一条单向传送带，原料（输入）依次经过几道固定工序（隐藏层处理），最终产出成品（输出），过程中没有任何环节会把半成品送回前面重新加工。",
     "example": "手机键盘的智能纠错功能常使用小型前馈网络：输入一串误拼的字母，网络逐层计算后直接输出最可能的正确单词。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "神经网络",
+    "深度学习",
+    "基础模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Feedforward_neural_network"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:26:09Z"
+  "updated_at": "2026-03-23T17:27:15.678714Z",
+  "quality_score": 0.95
 }

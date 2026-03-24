@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "跨模态检索（cross_modal_retrieval）是指在不同模态（如图像、文本、音频、视频等）的数据之间进行语义对齐与搜索的技术。例如，用一段文字描述去查找最匹配的图片，或用一张图片去检索相关的新闻报道。它让机器能理解不同形式信息之间的深层语义关联，而非仅依赖关键词或像素匹配。普通用户需要了解它，因为这项技术正驱动着智能相册搜索、图文内容推荐、无障碍信息获取（如为视障者描述图像）等日常应用，是人机自然交互的关键基础。",
+    "plain": "跨模态检索是指在不同模态数据（如图像、文本、音频）之间进行语义对齐与搜索的技术。例如用文字查找图片或用图片检索新闻。它使机器能理解不同形式信息间的深层语义关联，而非仅依赖关键词匹配。该技术驱动智能相册搜索、图文推荐及无障碍信息获取，是人机自然交互的关键基础。",
     "metaphor": "就像一位精通多种语言的翻译官，能准确理解中文诗句的意境，并从中选出最贴切的油画作品，而不只是逐字对照。",
     "example": "在电商平台中，用户上传一张鞋子的照片，系统自动返回‘黑色小牛皮乐福鞋’‘适合通勤穿搭’等文本描述的商品列表；反之，输入‘海边日落时的剪影照片’也能精准检索出符合该语义的图片资源。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态",
+    "搜索引擎",
+    "智能推荐"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cross-modal_retrieval",
+    "https://arxiv.org/search/?query=cross+modal+retrieval"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:06:12Z"
+  "updated_at": "2026-03-23T14:16:20.903941Z",
+  "quality_score": 0.95
 }

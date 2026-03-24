@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "cost_optimizer 是一种自动化工具或算法，用于在满足性能、可靠性等约束前提下，最小化云计算资源（如虚拟机、存储、网络）的使用成本。它通过分析工作负载特征、历史用量、定价模型（如预留实例、竞价实例）和调度策略，动态调整资源配置或部署方式。普通用户需要了解它，因为云服务按需付费的特性容易导致隐性浪费——未优化的架构可能使月账单翻倍，而启用 cost_optimizer 能在不牺牲业务稳定性的前提下显著降本。",
+    "plain": "cost_optimizer 是一种自动化工具或算法，旨在满足性能约束前提下最小化云计算资源成本。它通过分析工作负载、历史用量及定价模型，动态调整资源配置。由于云服务按需付费易导致浪费，启用该工具可在不牺牲稳定性的前提下显著降本，避免月账单翻倍。",
     "metaphor": "就像一位精打细算又懂技术的管家，既清楚家里每盏灯的耗电规律，也熟悉电价峰谷时段，自动开关灯、切换节能模式，只为让电费单更薄。",
     "example": "某电商公司在大促前，通过 cost_optimizer 将非核心日志分析任务从按小时计费的通用型云主机迁移至低价竞价实例，并自动设置失败重试与数据缓存，使该模块月度支出降低63%，且不影响监控告警时效性。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "成本控制",
+    "自动化运维"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/cost-optimization-hub/",
+    "https://cloud.google.com/cost-management"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:01:24Z"
+  "updated_at": "2026-03-23T12:22:58.223256Z",
+  "quality_score": 0.95
 }

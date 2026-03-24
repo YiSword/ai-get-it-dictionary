@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "mistral_codestral",
+  "norm_term": "mistral_codestral",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "代码模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Mistral Codestral 是 Mistral AI 推出的专用代码模型，专注于代码生成、理解与优化。支持多种主流编程语言，能解析自然语言需求并生成高质量代码片段。该模型旨在提升开发者编码效率，减少重复劳动与语法错误，适用于自动化编程及辅助开发场景。",
+    "metaphor": "就像一位精通多种编程语言的智能助手，Codestral能实时理解你的开发需求，像拼乐高一样快速组合出可运行的代码模块。",
+    "example": "当开发者需要实现特定功能时，例如创建数据过滤函数，只需描述需求，Codestral即可生成对应语言的代码框架，并提供优化建议。"
+  },
+  "scenario_tags": [
+    "代码生成",
+    "软件开发",
+    "辅助编程"
+  ],
+  "sources": [
+    "https://mistral.ai/news/codestral/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:42:06.428010Z",
+  "updated_at": "2026-03-23T18:00:01.631591Z",
+  "quality_score": 0.95
+}

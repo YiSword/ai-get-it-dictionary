@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "基础概念",
   "difficulty": "中级",
   "explanations": {
-    "plain": "术语（term）是在特定学科、行业或技术领域中被明确定义并赋予精确含义的词汇或短语。它不同于日常用语，往往承载专业概念、操作规则或抽象关系，是准确交流和知识传承的基础。普通用户需要理解术语，才能有效阅读说明书、参与技术讨论、避免误解（如将‘带宽’误认为物理宽度），并在数字生活、医疗咨询、法律事务等场景中做出知情判断。",
+    "plain": "术语是在特定学科或技术领域中被明确定义、赋予精确含义的词汇或短语。它区别于日常用语，承载专业概念与规则，是准确交流和知识传承的基础。理解术语有助于用户有效阅读说明书、参与技术讨论、避免误解，并在数字生活、医疗及法律等场景中做出知情判断。",
     "metaphor": "术语就像交通信号灯中的‘黄灯’——它不是简单的颜色，而是被严格定义为‘警示即将切换状态’的专业指令。",
     "example": "在使用云存储服务时，用户看到‘对象存储（object storage）’这一术语，需理解它指一种以唯一标识符管理非结构化数据（如图片、视频）的存储方式，而非传统文件夹结构。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "通用基础",
+    "知识管理",
+    "专业交流"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.iso.org/standard/54601.html",
+    "https://en.wikipedia.org/wiki/Terminology"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:04:18Z"
+  "updated_at": "2026-03-23T14:09:20.905279Z",
+  "quality_score": 1.0
 }

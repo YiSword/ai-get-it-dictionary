@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "财税软件",
   "difficulty": "中级",
   "explanations": {
-    "plain": "TaxSlayer 是一家美国税务软件公司，提供在线报税服务和桌面应用程序，帮助个人和小型企业用户准备并提交联邦及州所得税申报表。它面向中低收入人群、学生、军人及有简单到中等复杂税务情况的纳税人，以免费基础版、直观界面和直接对接IRS（美国国税局）为特点。普通用户需要知道它，是因为它是IRS认可的电子报税服务商之一，能安全、合规地完成报税，节省时间与成本，尤其适合不依赖专业会计师的自主报税者。",
+    "plain": "TaxSlayer 是美国税务软件服务商，提供在线及桌面报税工具。面向个人及小型企业，支持联邦与州所得税申报。作为 IRS 认可的电子报税商，它以免费基础版和直观界面著称，适合中低收入者及自主报税用户。能安全合规完成报税，节省时间与成本，无需依赖专业会计师即可操作。",
     "metaphor": "TaxSlayer 就像一位耐心又懂规则的税务向导，你只需如实回答问题，它就自动帮你填好整张税表，还提醒你别漏掉抵扣项。",
     "example": "一位大学生兼职做自由撰稿人，年收入3.2万美元，有学生贷款利息可抵扣——他用 TaxSlayer 免费版，15分钟内完成联邦和佐治亚州报税，并实时获取退税预估。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "报税",
+    "财务软件",
+    "美国税务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.taxslayer.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:02:25Z",
-  "updated_at": "2026-03-21T10:01:53Z"
+  "updated_at": "2026-03-23T15:49:32.818233Z",
+  "quality_score": 0.95
 }

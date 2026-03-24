@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "conversion_rate_prediction（转化率预测）是指利用历史数据和机器学习模型，预估用户在特定场景下完成目标行为（如点击广告、下单购买、注册账号等）的概率。它广泛应用于电商、广告投放和产品运营中，帮助团队提前识别高潜力用户、优化营销预算分配，并提升整体业务效率。普通用户虽不直接建模，但会间接受益于更精准的推荐、更少的无效广告打扰，以及更贴合需求的商品展示。",
+    "plain": "conversion_rate_prediction（转化率预测）指利用机器学习模型分析历史数据，预估用户完成特定目标行为（如购买、注册）的概率。该技术广泛应用于电商推荐与广告投放，旨在识别高潜力用户、优化营销预算分配，从而提升业务效率并减少无效广告打扰。",
     "metaphor": "就像天气预报预测明天下雨概率一样，转化率预测是给每个用户打一个‘下单可能性分数’，告诉你他有多大概率会在看到商品页后点击购买。",
     "example": "某电商平台对浏览过某款手机但未下单的用户进行转化率预测，发现其中15%的用户有超过70%的购买概率，于是向他们定向推送限时优惠券，最终使这批用户的实际转化率提升至42%。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "广告投放",
+    "电商运营",
+    "精准营销"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developers.google.com/google-ads",
+    "https://aws.amazon.com/machine-learning/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:58:10Z"
+  "updated_at": "2026-03-23T17:42:21.133274Z",
+  "quality_score": 0.95
 }

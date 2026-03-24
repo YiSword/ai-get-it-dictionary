@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型对齐",
   "difficulty": "中级",
   "explanations": {
-    "plain": "activation_steering 是一种在大型语言模型推理过程中动态干预神经元激活值的技术，通过向特定层或特征通道注入可学习的偏置向量，有目的地引导模型输出朝向期望方向（如更诚实、更安全或更符合某类风格）。它不修改模型权重，而是在前向传播中实时调整内部表征，因此比微调更轻量、比提示工程更底层可控。普通用户需要了解它，是因为它正成为AI对齐与个性化控制的关键手段——例如让助手拒绝有害请求，或让创作模型稳定输出某种文风，且无需重新训练整个模型。",
-    "metaphor": "就像驾驶时轻轻拨动方向盘微调车头方向，而不是重新规划整条路线或更换汽车引擎。",
-    "example": "在客服对话系统中，部署 activation_steering 向模型中间层注入‘礼貌性’方向向量，使模型即使面对挑衅提问，也持续生成尊重、克制的回应。"
+    "plain": "activation_steering 是一种在 LLM 推理时动态干预神经元激活值的技术。通过向特定层隐藏状态添加 steering vector，引导模型输出朝向期望行为（如更安全、诚实）。它不修改模型权重，仅实时微调激活流，比全参数微调更轻量、可逆且支持多目标切换，是控制 AI 行为、缓解幻觉的关键实用技术。",
+    "metaphor": "就像给一辆自动驾驶汽车临时加装一个可拆卸的方向盘辅助器——不改动引擎或算法，仅在行驶中微调转向信号，就能让车稳稳驶入指定车道。",
+    "example": "在医疗问答系统中，部署一个针对‘临床严谨性’训练的steering vector，使模型在生成诊断建议时自动抑制推测性表述，只引用指南明确支持的内容。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型对齐",
+    "推理优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2310.10300"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:19:28Z"
+  "updated_at": "2026-03-23T11:46:33.625246Z",
+  "quality_score": 0.95
 }

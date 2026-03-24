@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型部署",
   "difficulty": "中级",
   "explanations": {
-    "plain": "llamafile 是一种将 Llama 系列大语言模型（如 Llama 3）与其运行时环境（如 llama.cpp）打包成单个可执行文件的技术格式。它无需安装 Python、CUDA 或复杂依赖，直接在 macOS、Linux 或 Windows 上双击或命令行运行即可启动本地 AI 推理服务。普通用户需要知道它，因为它大幅降低了本地运行开源大模型的门槛——无需技术背景、不依赖云服务、数据完全离线，兼顾隐私性与易用性。",
+    "plain": "llamafile 是一种将大语言模型与运行时环境打包成单个可执行文件的技术格式。无需安装 Python 或 CUDA，支持多平台直接运行。它大幅降低了本地运行开源大模型的门槛，无需技术背景，数据完全离线，兼顾隐私性与易用性，适合普通用户快速体验本地 AI 推理服务。",
     "metaphor": "就像把一台装好系统和软件的笔记本电脑压缩进一个 U 盘，插上任意电脑就能立刻开机使用。",
     "example": "一位记者下载了 llama-3.2-1B.Q4_K_M.llamafile，在没有安装任何开发工具的办公笔记本上直接运行 ./llamafile --port 8080，随后通过浏览器访问 http://localhost:8080 就能与本地部署的轻量级 AI 助手对话。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "本地推理",
+    "模型部署",
+    "开源工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/Mozilla-Ocho/llamafile"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:13:10Z"
+  "updated_at": "2026-03-23T12:27:08.157137Z",
+  "quality_score": 0.95
 }

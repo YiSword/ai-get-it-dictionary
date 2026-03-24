@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型规模",
   "difficulty": "中级",
   "explanations": {
-    "plain": "billion_parameters 指大型人工智能模型中可学习的参数数量达到十亿（10^9）级别，这些参数是模型从训练数据中自动习得的权重和偏置，决定了其理解与生成语言、图像等能力的精细程度。参数量越大，模型通常越复杂、表达能力越强，但也更消耗计算资源和能源。普通用户需要了解它，因为这直接关联到AI工具的响应质量、响应速度、设备兼容性（如能否在手机上运行），以及隐私和能耗等现实影响。",
+    "plain": "指大型 AI 模型中可学习参数达到十亿（10^9）级别。参数是模型从数据习得的权重，决定其理解与生成能力。参数量越大，模型表达能力越强，但消耗更多计算资源。这直接影响 AI 工具的响应质量、速度及设备兼容性，如能否在手机运行，关乎隐私与能耗。",
     "metaphor": "就像一座城市的交通系统——参数量相当于道路交叉口和信号灯的总数：路口越多，路径越灵活，但调度也越复杂，稍有拥堵就可能全城瘫痪。",
     "example": "ChatGPT-3 的1750亿参数模型需依赖数据中心集群实时推理，而手机端轻量化模型（如Phi-3）仅含38亿参数，才能在不联网时本地运行多轮对话。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型",
+    "性能评估",
+    "硬件需求"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developers.google.com/machine-learning/glossary",
+    "https://huggingface.co/docs/transformers/model_summary"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:07:33Z"
+  "updated_at": "2026-03-23T12:02:50.336240Z",
+  "quality_score": 0.95
 }

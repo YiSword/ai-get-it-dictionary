@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ICL（In-Context Learning，上下文学习）是大语言模型的一种能力，指模型无需更新参数或专门训练，仅通过在输入提示中提供几个示例（即‘上下文’），就能理解任务要求并生成符合规范的输出。普通用户需要了解它，因为这是当前主流AI助手（如ChatGPT、Claude）响应指令的核心机制——用户只需写清楚例子和指令，模型就能类推执行，无需编程或调参，极大降低了使用门槛。",
+    "plain": "ICL（In-Context Learning，上下文学习）是大语言模型的核心能力。它无需更新参数，仅通过在提示词中提供少量示例，模型即可理解任务并生成规范输出。这是 ChatGPT 等助手响应指令的关键机制，用户只需提供例子和指令，模型便能类推执行，无需编程或调参，显著降低了 AI 使用门槛。",
     "metaphor": "就像一位经验丰富的助理，你给他看三封格式规范的邮件，再递上一封草稿和一句‘按上面风格改写’，他立刻心领神会，无需额外培训。",
     "example": "用户在对话中输入：‘将以下英文翻译成中文：Apple → 苹果；Banana → 香蕉；Orange → 橙子；Lemon → ’，模型随即输出‘柠檬’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "提示工程",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2005.14165"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:22:39Z"
+  "updated_at": "2026-03-23T18:53:40.164135Z",
+  "quality_score": 0.95
 }

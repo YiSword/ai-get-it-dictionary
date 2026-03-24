@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "gemini_2_0_thinking",
+  "norm_term": "gemini_2_0_thinking",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "capability",
+  "category": "模型能力",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "gemini_2_0_thinking 是谷歌 Gemini 2.0 模型的核心推理模式，支持多步骤逻辑分析与决策。通过动态拆解问题、关联上下文及验证中间结论，显著提升数学、代码及因果推理任务的准确性。适用于咨询、教育或数据分析等需严谨逻辑的场景，帮助用户获取更可靠结果。",
+    "metaphor": "如同经验丰富的侦探破案，不直接跳到结论，而是逐步收集线索、验证假设，最终拼凑出完整真相。",
+    "example": "当用户要求'分析某公司财报异常并预测风险'时，模型会先提取关键财务指标，对比行业数据，识别矛盾点，再结合宏观经济因素分步骤推导结论，而非直接给出模糊判断。"
+  },
+  "scenario_tags": [
+    "逻辑推理",
+    "代码生成",
+    "数据分析"
+  ],
+  "sources": [
+    "https://deepmind.google/technologies/gemini/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:32:28.625543Z",
+  "updated_at": "2026-03-23T17:19:38.194224Z",
+  "quality_score": 0.95
+}

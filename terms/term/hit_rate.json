@@ -5,22 +5,24 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "性能指标",
   "difficulty": "中级",
   "explanations": {
-    "plain": "hit_rate（命中率）是指系统在请求中成功从缓存、索引或预加载资源中直接获取所需数据的比例，通常以百分比表示。它反映了系统避免重复计算或慢速访问（如磁盘读取、网络请求）的效率。对普通用户而言，高 hit_rate 意味着应用响应更快、页面加载更流畅、电池消耗更低——例如刷短视频时几乎无等待，背后正是缓存命中率高的功劳。",
+    "plain": "hit_rate（命中率）指系统请求中成功从缓存或索引直接获取数据的比例，通常以百分比表示。它反映系统避免重复计算或慢速访问的效率。高命中率意味着应用响应更快、加载更流畅。例如刷短视频无等待，背后正是缓存命中率高的功劳。",
     "metaphor": "就像图书馆员总能从常备书架上立刻拿出你想要的书，而不是每次都去地下室翻找；hit_rate 就是‘立刻拿出’的成功比例。",
     "example": "某电商App将热门商品详情页缓存在手机本地，用户重复浏览时95%的请求直接从缓存读取，此时缓存 hit_rate 为95%。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "缓存优化",
+    "系统性能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cache_hit_ratio"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:12:27Z"
+  "updated_at": "2026-03-23T17:15:09.106585Z",
+  "quality_score": 0.95
 }

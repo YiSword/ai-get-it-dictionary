@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型对齐",
   "difficulty": "中级",
   "explanations": {
-    "plain": "KTO 是 'Key Technical Officer'（关键技术人员）的缩写，常见于开源项目、大型软件工程或合规性文档中，指被正式指定负责核心模块设计、安全审查或关键决策的技术负责人。普通用户需要了解 KTO，是因为其签字或批准常是代码合入、版本发布或合规审计的必要条件，直接影响软件可靠性与责任归属；在参与开源贡献或企业级系统协作时，识别 KTO 有助于明确技术决策路径和问题上报对象。",
+    "plain": "KTO（Kahneman-Tversky Optimization）是无需奖励模型的对齐算法。基于前景理论，直接优化语言模型偏好，类似 DPO 但更高效。常用于 RLHF 阶段，提升模型与人类价值观一致性，减少幻觉，是大模型对齐领域的重要技术方案。",
     "metaphor": "KTO 就像一栋高楼的首席结构工程师——不是每天搬砖的人，但每根承重梁是否合格，必须由他签字确认。",
     "example": "在 Linux 内核某个子系统（如网络栈）的补丁合入流程中，只有该子系统的 KTO 明确 Reviewed-by 或 Acked-by，补丁才能进入主线合并队列。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型对齐",
+    "强化学习",
+    "大语言模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2402.01306"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:56:39Z"
+  "updated_at": "2026-03-23T15:24:53.199300Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "提示工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "prompt_template 是一种预定义的文本结构，用于动态生成向大语言模型提交的提示（prompt），其中包含固定模板和可替换的占位符（如 {topic} 或 {tone}）。它让非技术用户或开发者能复用、标准化提示逻辑，避免每次手动拼接内容，提升结果一致性与可维护性。普通用户需要了解它，是因为在使用AI工具（如客服机器人、内容生成器）时，背后的响应质量往往取决于是否采用了合理设计的模板。",
+    "plain": "prompt_template 是预定义的文本结构，用于动态生成提交给大语言模型的提示。它包含固定内容与可替换占位符（如 {topic}），帮助开发者复用和标准化提示逻辑，避免手动拼接。作为构建 AI 应用的基础组件，它能显著提升输出结果的一致性与可维护性，是提示工程的核心概念之一。",
     "metaphor": "就像厨师使用的标准化菜谱——主料、火候、步骤固定，只根据客人需求替换具体食材（如‘鸡肉’换成‘豆腐’），prompt_template 也提供稳定框架，仅动态填入变量信息。",
     "example": "新闻编辑部用 prompt_template 自动生成不同风格的标题：'请以{tone}语气，为以下事件写一个不超过20字的标题：{event}'，其中 {tone} 填入‘严肃’或‘轻松’，{event} 填入具体新闻摘要。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "提示工程",
+    "应用开发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://python.langchain.com/docs/concepts/prompt_templates",
+    "https://cookbook.openai.com/examples/how_to_format_inputs_to_chatgpt_models"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:18:15Z"
+  "updated_at": "2026-03-23T14:12:07.641797Z",
+  "quality_score": 0.95
 }

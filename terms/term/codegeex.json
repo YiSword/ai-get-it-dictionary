@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CodeGeeX 是一个开源的多编程语言代码生成大模型，由清华大学研发，支持 Python、Java、C++、JavaScript 等数十种语言。它能根据自然语言描述自动生成高质量代码片段、补全函数、解释代码逻辑，甚至跨语言转换。普通用户（尤其是开发者、学生和编程初学者）需要了解它，因为它可显著提升编码效率、降低学习门槛，并在教学、原型开发和日常调试中提供即时、免费的智能辅助。",
+    "plain": "CodeGeeX 是由清华大学研发的开源多语言代码生成大模型。支持 Python、Java 等数十种编程语言，具备代码生成、补全、解释及跨语言翻译功能。作为智能编程助手，它能显著提升开发者编码效率，降低学习门槛，适用于教学、原型开发及日常调试场景，提供免费高效的智能辅助。",
     "metaphor": "CodeGeeX 就像一位随叫随到的资深全栈工程师搭档，你用中文或英文说出需求，它立刻写出规范、可运行的代码，还能帮你逐行讲解。",
     "example": "一名学生在学习数据结构时输入‘用Python实现一个带时间复杂度分析的快速排序’，CodeGeeX 不仅生成完整代码，还自动添加注释说明分区逻辑与O(n log n)均摊复杂度推导。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "智能编程",
+    "开源模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://codegeex.cn/",
+    "https://github.com/THUDM/CodeGeeX"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:36:17Z"
+  "updated_at": "2026-03-23T12:40:32.106246Z",
+  "quality_score": 0.95
 }

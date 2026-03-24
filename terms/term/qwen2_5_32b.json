@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "qwen2_5_32b",
+  "norm_term": "qwen2_5_32b",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "大语言模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Qwen2.5-32B 是通义千问系列的开源大语言模型，拥有 320 亿参数。它擅长自然语言理解、多轮对话及代码生成，支持全球主流语言。该模型在复杂场景下表现精准，适合用户提升工作效率（如报告生成、辅助编程）及开发者构建定制化 AI 应用。",
+    "metaphor": "就像一位精通多国语言的全能助手，既能写诗作画又能调试代码，还能同时处理上百人的咨询请求，且回答质量始终稳定可靠。",
+    "example": "某跨境电商企业使用该模型搭建智能客服系统，自动处理英、日、西语客户的售后咨询，将人工客服响应时间缩短 70%，同时保持 95% 以上的问题解决率。"
+  },
+  "scenario_tags": [
+    "自然语言处理",
+    "代码生成",
+    "智能对话"
+  ],
+  "sources": [
+    "https://huggingface.co/Qwen/Qwen2.5-32B",
+    "https://qwenlm.github.io/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:32:56.754306Z",
+  "updated_at": "2026-03-23T17:00:33.764635Z",
+  "quality_score": 0.95
+}

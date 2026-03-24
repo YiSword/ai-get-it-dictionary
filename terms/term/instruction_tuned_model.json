@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "instruction_tuned_model（指令微调模型）是指在预训练大语言模型基础上，进一步使用大量人工编写的‘指令-响应’对（如‘请总结这段文字’→对应摘要）进行监督微调所得到的模型。它能更准确理解并执行人类以自然语言发出的明确指令，显著提升任务泛化能力和交互可靠性。普通用户需要了解它，因为这是当前主流AI助手（如ChatGPT、Claude）具备‘听懂人话’能力的核心技术基础，直接影响其是否能按需写邮件、改文案或解题。",
+    "plain": "指令微调模型是在预训练大语言模型基础上，利用大量人工编写的“指令 - 响应”对进行监督微调所得。它能准确理解并执行人类自然语言指令，显著提升任务泛化能力与交互可靠性。作为当前主流 AI 助手（如 ChatGPT）的核心技术，它直接决定了模型能否按需完成写邮件、解题等特定任务。",
     "metaphor": "就像一位刚毕业的通才律师，经过大量真实庭审案例的专项实训后，才能熟练应对‘请起草离婚协议’或‘分析合同违约风险’等具体委托。",
     "example": "用户向指令微调模型输入‘把下面的会议纪要转成给领导的三句话汇报’，模型能精准识别任务意图，提取关键信息，并生成简洁得体的向上汇报文本，而非泛泛而谈或复述原文。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "监督微调",
+    "人机交互"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2109.01652",
+    "https://huggingface.co/docs/transformers/tasks/instruction_tuning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:34:44Z"
+  "updated_at": "2026-03-23T14:44:44.244585Z",
+  "quality_score": 0.95
 }

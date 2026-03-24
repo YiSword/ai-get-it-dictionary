@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Bloomz 是一个基于 Bloom 模型系列的多语言、指令微调的开源大语言模型，由 BigScience 社区衍生发展而来，专为跨语言任务和零样本/少样本指令遵循能力优化。它支持包括中文、英文、法语、西班牙语等数十种语言，能在不需大量标注数据的情况下理解并执行用户用自然语言给出的指令。普通用户需要了解它，是因为它代表了一类轻量、开放、可本地部署的AI助手技术，适合注重隐私、低成本应用或教育科研场景的非专业开发者。",
+    "plain": "BLOOMZ 是由 BigScience 社区推出的多语言指令微调大模型，基于 BLOOM 架构优化。它支持数十种语言，具备强大的零样本指令遵循能力，无需大量标注数据即可理解自然语言指令。作为开源模型，它适合本地部署，广泛应用于隐私敏感、低成本应用及教育科研场景，是开发者构建 AI 助手的重要选择。",
     "metaphor": "就像一位精通多国语言、随身携带翻译手册且自学能力强的国际志愿者，不需要专门培训就能听懂不同国家用户的请求并快速响应。",
     "example": "一名中学教师用中文输入指令‘请将这段英文课文改写成适合初二学生阅读的简明版本’，Bloomz 在本地运行后即时生成适龄改写文本，全程无需联网或依赖商业API。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "开源模型",
+    "多语言支持",
+    "指令微调"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/bigscience/bloomz",
+    "https://bigscience.page/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:11:18Z"
+  "updated_at": "2026-03-23T15:31:25.528086Z",
+  "quality_score": 1.0
 }

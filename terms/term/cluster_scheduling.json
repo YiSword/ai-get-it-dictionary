@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "cluster_scheduling 是指在由多台机器组成的计算集群中，自动决定将哪些任务（如容器、作业或服务实例）分配到哪台节点上运行，并管理其生命周期（启动、迁移、扩缩容、故障恢复）的过程。它由调度器（如 Kubernetes Scheduler、YARN ResourceManager）实现，核心目标是提升资源利用率、保障服务质量（如延迟、可靠性）和满足策略约束（如亲和性、硬件要求）。普通用户需要了解它，因为调度策略直接影响应用性能、成本和稳定性——例如错误配置可能导致服务长时间无法启动，或关键任务被挤占资源。",
+    "plain": "集群调度是指在计算集群中自动决定将任务分配到具体节点运行并管理其生命周期的过程。由调度器实现，核心目标是提升资源利用率、保障服务质量及满足策略约束。调度策略直接影响应用性能、成本和稳定性，错误配置可能导致服务启动失败或资源争抢。",
     "metaphor": "就像一位经验丰富的机场塔台调度员，既要根据航班类型（货运/客运）、机型（需特定跑道）、天气和停机位空闲情况实时分配登机口和滑行路线，又要动态应对突发延误或机械故障。",
     "example": "在 Kubernetes 集群中，当用户提交一个需要 GPU 的 AI 训练任务时，调度器会扫描所有节点，筛选出装有可用 GPU 且满足内存与标签约束的节点，并将该 Pod 分配到其中一台，而非随机或负载最轻的通用节点。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "资源管理",
+    "容器编排",
+    "分布式系统"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:34:42Z"
+  "updated_at": "2026-03-23T14:26:56.814672Z",
+  "quality_score": 0.95
 }

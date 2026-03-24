@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "图像生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "high_resolution_diffusion 是一种生成式人工智能技术，专注于直接合成高像素、细节丰富且结构一致的图像（如 1024×1024 或更高），而非先生成低分辨率图再上采样。它通过在高维潜空间或像素空间中精细化建模噪声去除过程，保留纹理、边缘和语义连贯性。普通用户需要了解它，因为这是当前AI绘图工具输出可用性强、可商用级图像的核心能力——直接影响生成图能否用于印刷、设计或影视制作。",
+    "plain": "高分辨率扩散模型是一种生成式 AI 技术，旨在直接合成高像素、细节丰富且结构一致的图像。它通过优化噪声去除过程，避免传统先生成低分辨率再上采样导致的模糊问题。该技术是当前 AI 绘图工具输出商用级图像的核心，直接影响生成图在印刷、设计及影视制作中的可用性。",
     "metaphor": "就像一位画家不用草稿放大，而是直接用极细的貂毛笔在整幅巨画布上同步刻画每一寸光影与肌理。",
     "example": "Adobe Firefly 3 和 Stable Diffusion XL 的‘refiner’阶段即采用 high_resolution_diffusion，在用户输入‘一只水晶蝴蝶停在古籍书页上’后，直接生成 2048×2048 像素图像，翅脉纹路清晰、纸张纤维可见，无需后期超分修复。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 绘图",
+    "图像生成",
+    "商业设计"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://stability.ai/news/stable-diffusion-xl-official",
+    "https://huggingface.co/papers"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:49:23Z",
-  "updated_at": "2026-03-21T07:11:53Z"
+  "updated_at": "2026-03-23T17:18:45.032758Z",
+  "quality_score": 0.95
 }

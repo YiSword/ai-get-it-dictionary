@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "openai_o4",
+  "norm_term": "openai_o4",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "生成式人工智能",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "openai_o4 并非 OpenAI 官方正式命名，通常指代 GPT-4o 或后续迭代模型。该类模型基于深度学习，擅长复杂自然语言处理、逻辑推理及多模态交互，优化了长上下文理解能力。适用于智能客服、内容创作及教育辅助系统。建议参考官方文档确认具体模型版本与技术参数，避免混淆。",
+    "metaphor": "它像一个精通多领域知识的超级助手，既能写小说又能解数学题，还能根据对话历史调整回答策略，如同一个拥有图书馆记忆力的全能秘书。",
+    "example": "某在线教育平台集成 openai_o4 后，学生可通过自然语言提问获取定制化习题解析，系统能自动识别模糊问题并引导用户补充关键信息，显著提升答疑效率。"
+  },
+  "scenario_tags": [
+    "自然语言处理",
+    "多模态交互",
+    "智能助手"
+  ],
+  "sources": [
+    "https://openai.com/index/hello-gpt-4o/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:31:01.713504Z",
+  "updated_at": "2026-03-23T14:41:22.992484Z",
+  "quality_score": 1.0
+}

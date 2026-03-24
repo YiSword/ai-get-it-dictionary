@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Learning to Rank（LTR）是一种机器学习方法，专门用于对一组候选项目（如搜索结果、推荐商品或新闻条目）按相关性或用户偏好自动排序。它不单独预测每个项目的绝对得分，而是建模项目之间的相对顺序关系，从而提升排序质量。普通用户需要知道它，因为它是搜索引擎、电商推荐、信息流排序等日常服务背后的核心技术——直接影响你看到的内容是否精准、有用和及时。",
+    "plain": "Learning to Rank（LTR）是机器学习的一种方法，专门用于对候选项目（如搜索结果、推荐商品）按相关性自动排序。它建模项目间的相对顺序关系而非绝对得分，旨在提升排序质量。作为搜索引擎和电商推荐的核心技术，它直接影响用户获取信息的精准度与体验。",
     "metaphor": "就像一位经验丰富的图书管理员，不是给每本书打一个孤立的评分，而是根据你的提问，快速比较几十本书的标题、摘要和借阅记录，把最可能满足你需求的几本放在最前面。",
     "example": "当你在淘宝搜索‘无线降噪耳机’，系统会从数万款商品中选出数百个候选，利用LTR模型综合价格、销量、好评率、用户历史行为等数十个特征，动态生成最优排序，确保你最先看到的几款既符合需求又值得信赖。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "搜索引擎",
+    "推荐系统",
+    "排序算法"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Learning_to_rank"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:06:00Z"
+  "updated_at": "2026-03-23T17:25:42.728717Z",
+  "quality_score": 0.95
 }

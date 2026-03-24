@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人机协作",
   "difficulty": "中级",
   "explanations": {
-    "plain": "copilot_pattern 是一种人机协作的交互范式，指用户主导任务目标与判断，AI（如Copilot）实时提供上下文感知的建议、补全或修正，但不自主决策或接管流程。它强调‘人在环路中’的控制权分配：用户始终是最终责任方，AI仅作为增强认知与执行效率的副驾驶。普通用户需要理解这一模式，才能合理设定期望、识别建议边界、避免盲目采纳错误输出，并在编程、写作、数据分析等高频场景中安全高效地利用AI工具。",
+    "plain": "copilot_pattern 是一种人机协作交互范式。用户主导任务目标，AI 实时提供上下文建议但不自主决策。强调“人在环路中”，用户负最终责任，AI 作为副驾驶增强效率。理解此模式有助于合理设定期望，避免盲目采纳错误，在编程、写作等场景中安全高效使用 AI 工具。",
     "metaphor": "就像经验丰富的副驾驶坐在驾驶座旁，随时提醒路况、建议变道时机或校准导航，但从不替你握方向盘或踩刹车。",
     "example": "程序员在VS Code中编写Python函数时，GitHub Copilot根据已有代码和注释实时推荐下一行逻辑；用户可一键接受、编辑或忽略，全程保留对语法、逻辑和安全性的最终裁决权。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "人机协作",
+    "交互设计",
+    "AI 应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://learn.microsoft.com/en-us/design/copilot"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:58:59Z"
+  "updated_at": "2026-03-23T12:26:09.013334Z",
+  "quality_score": 0.95
 }

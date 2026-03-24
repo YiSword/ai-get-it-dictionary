@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "搜索与检索",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Reranking（重排序）是指在初始检索结果的基础上，利用更精细的模型或规则对候选结果重新打分并调整顺序的过程。它不改变原始召回的文档集合，而是聚焦于提升排序质量，使真正相关、有用的结果排到前面。普通用户需要知道它，因为这是搜索引擎、推荐系统和AI问答背后的关键优化步骤——直接影响你看到的答案是否准确、及时、符合意图，而非仅仅靠关键词匹配堆砌出的粗糙列表。",
+    "plain": "Reranking（重排序）是在初始检索后，利用更精细的模型对候选结果重新打分并调整顺序的过程。它不改变召回集合，旨在提升排序质量，确保最相关的结果排在前面。这是搜索引擎、推荐系统及 AI 问答（如 RAG）的关键步骤，直接影响答案的准确性与意图匹配度，优于单纯的关键词匹配。",
     "metaphor": "就像图书馆员先按书名关键词快速拉出一摞可能相关的书（初检），再根据内容摘要、读者评分和你的借阅历史逐本细读，把最匹配的三本放到最上面（重排序）。",
     "example": "当你在招聘平台搜索‘Python工程师’，系统先召回数百份简历，再通过reranking模型综合评估项目经验匹配度、技术栈深度和岗位JD语义相似性，将最合适的10份简历置顶展示。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "搜索引擎",
+    "RAG",
+    "推荐系统"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://cohere.com/rerank",
+    "https://www.elastic.co/guide/en/elasticsearch/reference/current/rerank-processor.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:34:47Z",
-  "updated_at": "2026-03-21T09:32:28Z"
+  "updated_at": "2026-03-23T11:08:34.581287Z",
+  "quality_score": 0.95
 }

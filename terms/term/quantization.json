@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "量化（quantization）是将连续或高精度数值近似为有限离散值的过程，常用于人工智能模型压缩。它通过降低模型参数（如权重和激活值）的数值精度（例如从32位浮点数转为8位整数），显著减少模型体积和计算开销，从而提升推理速度、降低功耗。普通用户需要知道它，因为这项技术让手机、耳机、车载系统等资源受限设备也能流畅运行语音识别、图像处理等AI功能，直接影响日常体验的响应速度与续航能力。",
+    "plain": "量化是将高精度数值近似为有限离散值的过程，常用于 AI 模型压缩。通过降低参数精度（如 32 位浮点转 8 位整数），减少模型体积和计算开销，提升推理速度并降低功耗。这使得手机等资源受限设备能流畅运行 AI 功能，直接影响用户体验的响应速度与续航。",
     "metaphor": "就像把一张高清照片转换成色彩有限的像素画——细节略有损失，但整体可识别，且文件小得多、加载快得多。",
     "example": "苹果设备上的实时Face ID人脸识别，就依赖量化后的轻量神经网络，在A系列芯片上以毫秒级延迟完成本地运算，无需上传数据到云端。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型压缩",
+    "推理加速",
+    "边缘计算"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.tensorflow.org/model_optimization/guide/quantization",
+    "https://pytorch.org/docs/stable/quantization.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:25:41Z"
+  "updated_at": "2026-03-23T14:37:52.193801Z",
+  "quality_score": 0.95
 }

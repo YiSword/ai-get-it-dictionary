@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "可视化工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "TensorBoard 是 TensorFlow 提供的可视化工具套件，用于监控、调试和理解机器学习模型的训练过程。它能实时展示损失曲线、准确率变化、计算图结构、权重分布、嵌入向量投影等关键信息。普通用户（尤其是开发者和研究人员）需要它，是因为训练深度学习模型如同在黑箱中调试——没有 TensorBoard，就难以判断模型是否收敛、是否存在梯度消失、过拟合或数据输入异常等问题，从而大幅降低开发效率与模型可靠性。",
+    "plain": "TensorBoard 是 TensorFlow 提供的可视化工具套件，用于监控和理解机器学习模型训练过程。它可实时展示损失曲线、准确率、计算图结构及权重分布等信息，帮助开发者判断模型收敛、检测梯度消失或过拟合问题，从而提升深度学习开发效率与模型可靠性。",
     "metaphor": "TensorBoard 就像汽车的仪表盘，把发动机转速、油量、水温等抽象内部状态，转化为直观的指针、图表和警报，让驾驶员无需拆开发动机就能掌控全局。",
     "example": "一位工程师在训练图像分类模型时，用 TensorBoard 实时查看训练损失与验证准确率曲线，发现验证准确率在第50轮后停滞不前，随即调整学习率并添加 dropout，避免了过早终止训练。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "可视化",
+    "调试"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.tensorflow.org/tensorboard"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:03:13Z"
+  "updated_at": "2026-03-23T16:05:01.117192Z",
+  "quality_score": 0.95
 }

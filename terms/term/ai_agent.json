@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AI agent（人工智能代理）是一种能感知环境、自主决策并执行任务的智能软件系统。它不仅响应指令，还能规划步骤、调用工具（如搜索、计算、调用API）、反思结果并调整行为。普通用户需要了解它，因为越来越多的应用（如智能助手、自动化客服、个性化学习平台）背后不再是简单聊天机器人，而是具备目标导向和行动能力的AI agent，这直接影响其效率、隐私边界和人机协作方式。",
+    "plain": "AI Agent（智能代理）是能感知环境、自主决策并执行任务的智能系统。它超越简单对话，具备规划步骤、调用工具及反思调整的能力。作为目标导向的行动主体，它广泛应用于智能助手、自动化客服等场景，显著提升了人机协作效率与任务完成能力。",
     "metaphor": "就像一位既懂你习惯、又自带笔记本和电话的私人助理——不用每步都吩咐，它会主动查日程、订会议室、发提醒，甚至发现冲突后自行协调。",
     "example": "当你对手机说‘帮我规划下周三去上海出差的行程’，AI agent会自动查询航班与酒店价格、比对你的日历空闲时段、预订最优选项，并把确认信息同步到你的邮箱和日历中。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "智能助手",
+    "自动化",
+    "人机交互"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Intelligent_agent"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T03:25:40Z"
+  "updated_at": "2026-03-23T17:05:59.238915Z",
+  "quality_score": 0.95
 }

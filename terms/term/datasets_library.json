@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "datasets_library 是指一个集中管理、组织和提供多种结构化数据集的软件库或工具集合，通常内置于机器学习框架（如 TensorFlow Datasets 或 PyTorch TorchVision）中。它为开发者和研究人员提供一键加载、预处理、版本控制和文档完备的公开数据集（如 MNIST、CIFAR-10、ImageNet 子集等）。普通用户需要了解它，是因为它能显著降低数据获取与准备的门槛，避免重复下载、格式转换和验证工作，让注意力更聚焦于模型设计与实验分析。",
+    "plain": "datasets_library 是集中管理并提供多种结构化数据集的软件库，常内置于机器学习框架中。它支持一键加载、预处理及版本控制的公开数据集。使用该库可显著降低数据获取与准备门槛，避免重复工作，让研究者更聚焦于模型设计与实验分析，提升开发效率。",
     "metaphor": "就像图书馆的借阅系统——你不需要自己印刷书籍、分类上架，只需输入书名就能快速借到标准化、可信赖的读物。",
     "example": "一位刚入门的学生在用 TensorFlow 构建图像分类器时，只需调用 tfds.load('mnist', split='train')，即可自动下载、解压并返回预处理好的手写数字数据，无需手动处理原始 ZIP 文件或编写数据解析代码。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据预处理",
+    "模型训练",
+    "开源工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/datasets",
+    "https://www.tensorflow.org/datasets"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:16:12Z"
+  "updated_at": "2026-03-23T14:34:23.303706Z",
+  "quality_score": 0.95
 }

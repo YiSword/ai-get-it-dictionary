@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AWQ（Activation-aware Weight Quantization）是一种针对大语言模型的高效量化技术，它在压缩模型体积和降低推理功耗的同时，尽可能保留原始模型精度。与传统均匀量化不同，AWQ 通过分析神经元激活值的分布特性，智能识别并保护对精度影响最大的关键权重，对其保留更高精度，其余权重则大幅压缩。普通用户需要了解 AWQ，因为它正被广泛用于手机端、边缘设备上的轻量级AI应用（如本地聊天机器人），直接影响响应速度、耗电量和功能可用性。",
+    "plain": "AWQ（Activation-aware Weight Quantization）是一种大语言模型量化技术。它通过分析激活值分布，保护关键权重精度，大幅压缩其余权重。相比传统量化，AWQ 能在显著减小模型体积和降低功耗的同时，几乎无损保留模型性能。常用于手机端及边缘设备部署轻量级 AI 应用，提升推理速度与能效。",
     "metaphor": "就像一位经验丰富的图书管理员，不是把所有书都按统一尺寸缩印，而是先翻阅每本书的关键章节，只对核心内容保留高清印刷，其余部分用精简排版——既省纸又不丢重点。",
     "example": "当在iPhone上运行Llama-3-8B本地模型时，开发者采用AWQ将模型从15GB FP16压缩至约4GB INT4，推理延迟降低60%，且问答准确率仅下降不到2%，使实时离线对话成为可能。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型量化",
+    "边缘部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/mit-han-lab/llm-awq",
+    "https://arxiv.org/abs/2306.00978"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:52:34Z"
+  "updated_at": "2026-03-23T17:19:44.401756Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态大模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "mPLUG-Owl3 是阿里巴巴集团研发的第三代多模态大语言模型，具备图像、文本、音频等多源信息理解与生成能力，支持跨模态推理、复杂视觉问答和细粒度图文交互。它在开放域视觉理解、文档解析、教育辅助等场景中表现突出，普通用户若使用智能办公、AI学习助手或内容创作工具，可能正间接依赖其技术支撑——了解该模型有助于判断相关AI服务的能力边界与可靠性。",
+    "plain": "mPLUG-Owl3 是阿里巴巴研发的第三代多模态大语言模型，支持图像、文本、音频等多源信息理解与生成。具备跨模态推理、复杂视觉问答和细粒度图文交互能力，适用于开放域视觉理解、文档解析及教育辅助场景。用户在使用智能办公或 AI 学习助手时可能间接依赖该技术，了解它有助于判断 AI 服务的能力边界与可靠性。",
     "metaphor": "就像一位精通多种语言、能看懂图纸、听懂口述并即时写出专业报告的全能助理，mPLUG-Owl3 不只读文字，还能‘看图说话’‘听声解意’，把不同感官信息统一理解并协同输出。",
     "example": "用户上传一张手写数学题照片并提问‘请分步解答’，mPLUG-Owl3 能准确识别公式、理解题干语义、调用数学推理能力，生成带步骤说明和LaTeX公式的中文解答。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态理解",
+    "视觉问答",
+    "智能办公"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/X-PLUG/mPLUG-Owl",
+    "https://modelscope.cn/organization/damo"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:46:26Z",
-  "updated_at": "2026-03-21T08:49:19Z"
+  "updated_at": "2026-03-23T16:01:06.057613Z",
+  "quality_score": 1.0
 }

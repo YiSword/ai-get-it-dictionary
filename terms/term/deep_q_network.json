@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Deep Q-Network（DQN）是一种结合深度神经网络与Q学习的强化学习算法，用于让智能体在复杂环境中通过试错学习最优决策策略。它用神经网络近似Q值函数，解决传统Q学习在高维状态空间（如图像）中无法存储和更新Q表的问题。普通用户需要了解它，因为它是现代AI游戏AI、机器人控制和推荐系统背后的关键技术之一，体现了AI如何从原始输入（如像素）自主学会目标导向行为。",
+    "plain": "Deep Q-Network (DQN) 是结合深度神经网络与 Q 学习的强化学习算法。它利用神经网络近似 Q 值函数，解决了传统方法在高维状态空间（如图像）中无法维护 Q 表的难题。该技术使智能体能通过试错在复杂环境中学习最优决策，广泛应用于游戏 AI 及机器人控制领域。",
     "metaphor": "就像一位新手司机通过反复观看自己驾驶时的行车记录仪视频并不断调整操作习惯，最终在没有教练实时指导的情况下学会安全变道和泊车。",
     "example": "DQN首次成功应用于直接从Atari游戏像素画面中学习，仅凭得分反馈就掌握了《太空侵略者》《打砖块》等数十款游戏，性能超越人类玩家。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "强化学习",
+    "游戏 AI",
+    "决策算法"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.nature.com/articles/nature14236",
+    "https://deepmind.com/blog/article/playing-atari-deep-reinforcement-learning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:23:01Z"
+  "updated_at": "2026-03-23T11:48:32.703153Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 应用/产品",
   "difficulty": "中级",
   "explanations": {
-    "plain": "hour_one 是一个编程或数据处理中常见的占位符变量名，通常用于表示一天中的第一个小时（即0点至1点），尤其在时间序列分析、日志聚合或调度任务中作为起始时间标识。它并非标准库内置术语，而是开发者约定俗成的命名方式，强调时间维度的首个单位。普通用户无需直接使用它，但若接触自动化报表、智能设备定时设置或数据分析看板，理解该术语有助于读懂系统说明或调试简单的时间逻辑错误。",
+    "plain": "Hour One 是知名的 AI 视频生成平台，支持通过文本驱动创建逼真数字人视频。虽在代码中偶见作为变量名，但核心指代该商业产品。广泛应用于营销视频制作、在线培训及个性化内容生成场景。开发者调用其 API 时可能涉及相关命名，属 AI 内容创作领域术语。",
     "metaphor": "就像日历本上被高亮标记的‘1月1日’，hour_one 不代表特殊魔力，只是人为选定的时间坐标原点，用来锚定后续所有小时的计算起点。",
     "example": "在一份按小时统计网站访问量的Python脚本中，开发者用 hour_one = datetime(2024, 1, 1, 0) 初始化首个统计时段，后续每小时数据均以此为基准偏移生成时间标签。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 视频生成",
+    "数字人",
+    "SaaS 平台"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://hourone.ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:58:54Z",
-  "updated_at": "2026-03-21T07:14:48Z"
+  "updated_at": "2026-03-23T15:00:24.246421Z",
+  "quality_score": 1.0
 }

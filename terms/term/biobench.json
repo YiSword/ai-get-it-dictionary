@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "基准测试",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Biobench 是一个面向生物医学人工智能领域的开源基准测试平台，用于系统性评估大语言模型、多模态模型等AI系统在基因组学、蛋白质结构预测、临床文本理解、药物发现等任务上的能力。它提供标准化的数据集、统一的评测协议和可复现的指标，帮助研究者客观比较不同模型的性能。普通用户（如生物信息初学者、临床科研人员或AI开发者）需要了解Biobench，因为它降低了专业领域AI能力评估的门槛，避免‘自说自话’式宣传，确保技术选型或成果验证建立在可信、可比的基础上。",
+    "plain": "BioBench 是面向生物医学人工智能领域的开源基准测试平台，用于系统性评估大语言模型及多模态模型在基因组学、蛋白质预测、临床文本等任务上的能力。它提供标准化数据集、统一评测协议和可复现指标，帮助研究者客观比较模型性能，降低评估门槛，确保技术选型建立在可信、可比的基础上。",
     "metaphor": "就像汽车行业的Euro NCAP碰撞测试，Biobench 不制造模型，而是为生物医学AI模型提供一套权威、透明的‘安全与性能体检标准’。",
     "example": "某团队开发了一个能解读病理报告的新模型，他们使用Biobench中的Clinical-Notes-Benchmark子集进行测试，并与GPT-4、BioMedLM等模型在实体识别、推理准确率等维度横向对比，最终在论文中呈现标准化得分。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "生物医学",
+    "开源工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/BioBench/BioBench"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:08:01Z"
+  "updated_at": "2026-03-23T14:00:42.822994Z",
+  "quality_score": 1.0
 }

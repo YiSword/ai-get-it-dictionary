@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "模仿学习（Imitation Learning）是一种机器学习方法，让智能体通过观察专家（如人类）的行为示范来学习完成任务，而非通过试错或显式编程。它常用于机器人控制、自动驾驶和游戏AI等领域，能大幅降低强化学习所需的大量探索成本。普通用户需要了解它，因为许多日常接触的智能系统（如语音助手的动作建议、辅助驾驶功能）背后可能正依赖此类‘看人学艺’的技术，理解它有助于更理性地评估AI能力与局限。",
+    "plain": "模仿学习是一种机器学习方法，智能体通过观察专家示范而非试错来学习任务。常用于机器人控制、自动驾驶等领域，显著降低强化学习探索成本。日常智能系统如辅助驾驶依赖此技术，理解它有助于理性评估 AI 能力与局限。",
     "metaphor": "就像新手厨师通过反复观看名厨视频来掌握炒菜火候和翻锅节奏，而不是靠自己烧糊十几次锅去试错。",
     "example": "在手术机器人训练中，系统通过记录资深外科医生操作腹腔镜的数百小时动作轨迹，学习如何精准夹持、缝合与避开关键血管。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "机器人控制",
+    "自动驾驶",
+    "游戏 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Imitation_learning",
+    "https://spinningup.openai.com/en/latest/algorithms/imitation.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:26:33Z"
+  "updated_at": "2026-03-23T14:15:35.141532Z",
+  "quality_score": 0.95
 }

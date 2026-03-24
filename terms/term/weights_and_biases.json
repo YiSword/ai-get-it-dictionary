@@ -1,26 +1,29 @@
 {
-  "entry_kind": "term",
-  "term": "weights_and_biases",
-  "norm_term": "weights_and_biases",
-  "lang": "en",
-  "aliases": [],
-  "entity_type": "concept",
-  "category": "其他",
-  "difficulty": "中级",
-  "explanations": {
-    "plain": "weights_and_biases（通常缩写为 W&B）是一个开源的机器学习实验跟踪与协作平台，用于记录、可视化、共享和调试模型训练过程中的超参数、指标、模型权重、数据集版本等信息。它帮助数据科学家和工程师系统化地管理实验，避免‘实验丢失’或‘结果不可复现’的问题。普通用户（尤其是参与AI开发的实践者）需要了解它，因为手动记录训练日志易出错、难比较，而W&B能自动捕获关键信号，显著提升研发效率与团队可复现性。",
-    "metaphor": "就像给每次机器学习实验配一个智能实验室笔记本，不仅自动记下温度、时间、原料用量（超参），还拍下反应过程（梯度变化）和最终产物照片（模型快照）。",
-    "example": "一位研究员在训练图像分类模型时，用W&B记录不同学习率和批量大小下的准确率曲线，并一键对比五组实验；训练结束后，她直接从W&B界面下载表现最优的模型权重文件用于部署。"
-  },
-  "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+  "term": "Weights & Biases",
+  "definition": "Weights & Biases (W&B) 是机器学习实验跟踪和 MLOps 平台。",
+  "description": "Weights & Biases 是 AI 开发者广泛使用的实验跟踪工具，可记录实验配置、超参数、系统指标和模型 artifacts。它保存 git commit、权重文件、测试预测等所有复现模型所需的信息。W&B 提供实验跟踪、模型版本管理、结果可视化等功能，是机器学习团队协作和实验管理的标准工具之一。",
+  "aliases": [
+    "W&B",
+    "wandb"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
-  "content_source": "llm_generated_v2",
-  "hit_count": 0,
-  "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:24:06Z"
+  "entity_type": "product",
+  "category": "MLOps 与实验管理平台",
+  "difficulty": "入门",
+  "sources": [
+    "https://wandb.ai",
+    "https://docs.wandb.ai"
+  ],
+  "scenario_tags": [
+    "实验追踪",
+    "模型管理",
+    "可视化"
+  ],
+  "quality_level": "llm_generated_v2",
+  "created_at": "2026-03-22T15:44:38Z",
+  "updated_at": "2026-03-23T11:30:06.387052Z",
+  "explanations": {
+    "plain": "Weights & Biases 是领先的机器学习实验管理平台，提供实验追踪、可视化、数据集版本控制及模型注册表功能。支持 TensorFlow、PyTorch 等主流框架，帮助团队高效协作、复现实验并优化模型性能。广泛应用于深度学习研发流程，是构建 MLOps pipeline 的核心工具之一。"
+  },
+  "quality_score": 1.0,
+  "review_status": "auto_verified"
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GPT-4V（全称 GPT-4 Vision）是 OpenAI 推出的多模态大模型，能够同时理解文本和图像输入，并基于两者生成自然语言回应。它不是单纯的图像识别工具，而是能‘看图说话’——比如解释图表逻辑、描述照片内容、推理截图中的界面问题等。普通用户需要了解它，是因为它正逐步集成到日常工具（如 Copilot、Teams、Edge 浏览器）中，让信息获取、学习辅助和无障碍交互变得更直观高效。",
+    "plain": "GPT-4V（GPT-4 Vision）是 OpenAI 推出的多模态大模型，支持文本与图像混合输入。它能理解图表、照片及界面截图，进行视觉推理而非单纯识别，并生成自然语言回应。目前已集成至 Copilot 等工具，显著提升信息获取与交互效率，是实现高级看图说话能力的代表性模型。",
     "metaphor": "就像一位既精通文字又擅长看图解意的全能助教，你递给他一张照片加一个问题，他不仅能说出图里有什么，还能结合常识和上下文给出有深度的解答。",
     "example": "用户上传一张电路板故障照片并提问：‘为什么这个电容旁边有烧焦痕迹？’GPT-4V 可识别元件布局、烧痕位置及周围走线，结合电子知识推测可能是过压或散热不良导致击穿。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态交互",
+    "图像理解",
+    "内容生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs/guides/vision",
+    "https://openai.com/research/gpt-4v-system-card"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:24:35Z",
-  "updated_at": "2026-03-21T06:54:05Z"
+  "updated_at": "2026-03-23T17:08:03.602003Z",
+  "quality_score": 0.95
 }

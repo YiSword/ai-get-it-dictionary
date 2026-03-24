@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "intent_detection（意图识别）是指自然语言处理技术中，从用户输入的文本或语音中自动识别其真实目的或需求的过程。例如，当用户说‘帮我订明天下午三点的会议室’，系统需理解这不是在询问时间，而是发出一个预订请求。普通用户需要知道它，因为这是智能助手、客服机器人和语音助手能否准确响应的关键——识别错误意图会导致答非所问，降低使用体验和效率。",
+    "plain": "intent_detection（意图识别）是自然语言处理核心技术，旨在从用户文本或语音中自动识别其真实目的。例如用户说“订会议室”，系统需识别为预订请求。它是智能助手、客服机器人准确响应的关键，识别错误会导致答非所问，直接影响用户体验。广泛应用于语音助手及对话系统。",
     "metaphor": "就像一位经验丰富的餐厅服务员，听到顾客说‘今天有点热’，立刻端来一杯冰水，而不是机械地回答‘是的，天气预报显示32度’。",
     "example": "在智能音箱场景中，用户说‘播放周杰伦最火的歌’，意图识别模块需判断这是音乐播放请求而非信息查询，并触发播放动作而非朗读排行榜数据。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言理解",
+    "智能客服",
+    "语音助手"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Intent_recognition",
+    "https://cloud.google.com/natural-language"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:36:54Z"
+  "updated_at": "2026-03-23T14:52:22.530774Z",
+  "quality_score": 0.95
 }

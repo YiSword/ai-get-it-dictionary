@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 开发平台",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Copilot Studio 是微软推出的低代码 AI 应用构建平台，允许用户通过自然语言描述、可视化界面和少量配置，快速创建、定制和部署基于大模型的智能助手（如聊天机器人、工作流自动化代理等）。它深度集成 Microsoft Graph、Power Platform 和 Azure AI 服务，支持连接企业数据源并添加业务逻辑。普通用户需要了解它，是因为无需编程背景即可将专业知识转化为可落地的 AI 助手，提升日常办公、客户服务或内部支持的效率与智能化水平。",
+    "plain": "Copilot Studio 是微软推出的低代码 AI 开发平台。用户可通过自然语言或可视化界面，快速创建和定制智能助手及自动化代理。它深度集成 Power Platform 与 Azure AI，支持连接企业数据源。无需编程背景即可将专业知识转化为 AI 应用，显著提升办公、客服及内部支持的效率与智能化水平。",
     "metaphor": "就像一位精通多种工具的资深助理，你只需用日常语言告诉它‘我要帮客户查订单状态并自动发邮件’，它就能自己选对系统、写逻辑、连接口，把想法变成可用的智能服务。",
     "example": "一家零售企业的客服主管在 Copilot Studio 中用几句话描述‘当客户询问退货进度时，自动从 Dynamics 365 调取订单信息并生成中文回复’，15 分钟内就上线了一个无需开发介入的专属退货查询机器人。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "智能助手",
+    "低代码开发",
+    "企业自动化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.microsoft.com/en-us/microsoft-copilot/studio",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T04:59:17Z"
+  "updated_at": "2026-03-23T15:56:05.499069Z",
+  "quality_score": 1.0
 }

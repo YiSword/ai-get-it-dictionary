@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型服务",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Anyscale Endpoints 是 Anyscale 平台提供的托管式 API 接口，用于将基于 Ray 构建的模型服务（如 LLM、微服务或批处理作业）快速部署为可调用的 HTTP 服务。它屏蔽了底层基础设施管理（如扩缩容、负载均衡、认证），让开发者无需运维即可将本地开发的 Ray 应用暴露为生产级 REST API。普通用户需要了解它，是因为它显著降低了将 AI 模型或分布式计算逻辑集成到应用、前端或第三方系统中的门槛，尤其适合数据科学家和 ML 工程师在不依赖 DevOps 团队的情况下独立交付服务。",
+    "plain": "Anyscale Endpoints 是 Anyscale 提供的托管式 API 服务，基于 Ray 构建。它允许开发者将 LLM 或微服务快速部署为生产级 HTTP 接口，无需管理底层基础设施如扩缩容和负载均衡。适合数据科学家独立交付 AI 服务，降低集成门槛，支持高性能模型推理。",
     "metaphor": "就像给你的 Ray 应用装上一个即插即用的智能插座——你只管把代码接上去，它自动供电、稳压、过载保护，并提供标准接口供其他设备使用。",
     "example": "一位数据科学家用 Ray Tune 训练好一个推荐模型后，通过 anyscale_endpoints 将其一键发布为 HTTPS API；前端 App 即可直接发送 JSON 请求获取实时推荐结果，无需自行搭建服务器或配置 Kubernetes。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型部署",
+    "API 服务",
+    "LLM 推理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.anyscale.com/product/endpoints"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:38:02Z"
+  "updated_at": "2026-03-23T14:49:58.810316Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ALBERT（A Lite BERT）是一种轻量级的预训练语言模型，通过参数共享、嵌入层分解和跨层参数复用等技术大幅减少模型参数量，同时保持接近原始BERT的性能。它由谷歌于2019年提出，专为在资源受限设备（如手机或边缘服务器）上高效部署自然语言处理任务而设计。普通用户虽不直接接触ALBERT，但其支撑的智能助手、实时翻译、内容推荐等功能更省电、响应更快、离线能力更强，间接提升了日常数字体验的流畅性与隐私性。",
+    "plain": "ALBERT（A Lite BERT）是谷歌 2019 年提出的轻量级预训练语言模型。通过参数共享和嵌入层分解技术，它在大幅减少参数量的同时保持接近 BERT 的性能。专为资源受限设备设计，广泛应用于智能助手、实时翻译等场景，实现高效、低功耗的自然语言处理任务。",
     "metaphor": "就像一位经验丰富的建筑师用标准化模块和可复用的设计蓝图，建造出功能齐全却更轻巧节能的楼房。",
     "example": "某款国产输入法App在手机端集成ALBERT模型，实现在无网络时仍能快速完成语义纠错与智能补全，且内存占用仅相当于传统BERT的1/10。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "模型压缩",
+    "边缘计算"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/google-research/albert",
+    "https://arxiv.org/abs/1909.11942"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:29:45Z"
+  "updated_at": "2026-03-23T11:22:30.717239Z",
+  "quality_score": 1.0
 }

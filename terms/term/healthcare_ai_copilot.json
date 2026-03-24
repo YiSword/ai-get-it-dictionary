@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "healthcare_ai_copilot",
+  "norm_term": "healthcare_ai_copilot",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "医疗 AI 应用",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "医疗 AI 副驾驶是专为医疗领域设计的人工智能辅助系统，通常基于大语言模型。它嵌入临床工作流，协助医护人员处理文档、提供诊疗建议参考及管理患者互动。旨在减轻医务负担，提升诊疗效率与准确性。AI 作为助手而非替代者，协助医生提供更精准服务，同时需关注数据隐私与伦理边界。",
+    "metaphor": "就像飞机驾驶舱里的副驾驶，医生是主驾驶负责关键决策，而 AI 副驾驶负责监控仪表、记录数据和提醒航线，确保飞行（诊疗）过程更安全高效，让医生能更专注于患者本身。",
+    "example": "医生在看诊时口述病情，医疗 AI 副驾驶实时转录并结构化生成电子病历，自动提取关键指标填入系统。医生只需审核确认，无需手动打字，从而节省出更多时间与患者沟通病情细节。此外，它还能根据患者历史数据，提示潜在的药物相互作用风险，辅助医生做出更安全的处方决策。"
+  },
+  "scenario_tags": [
+    "智慧医疗",
+    "临床辅助",
+    "大模型应用"
+  ],
+  "sources": [
+    "https://www.microsoft.com/en-us/industry/health/copilot",
+    "https://www.nuance.com/dragon/dax-copilot.html"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:07:10.030066Z",
+  "updated_at": "2026-03-23T14:43:19.042276Z",
+  "quality_score": 0.95
+}

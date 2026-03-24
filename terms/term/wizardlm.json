@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "WizardLM 是一个开源的大语言模型系列，由微软研究院与多所高校合作开发，专注于提升模型的复杂推理、多步任务规划和指令遵循能力。它通过引入‘链式思维’（Chain-of-Thought）和‘自我精炼’（Self-Rewarding Refinement）等技术，在数学推理、代码生成、长文档理解等高难度任务上表现突出。普通用户需要了解它，是因为它代表了当前开源模型在逻辑深度与实用性之间的平衡点，常被集成到开发者工具、教育辅助系统或自动化工作流中，影响着AI应用的响应质量与可靠性。",
+    "plain": "WizardLM 是由微软研究院等合作开发的开源大语言模型系列。它采用 Evol-Instruct 等技术，专注于提升复杂推理、多步任务规划及指令遵循能力。该模型在数学推理、代码生成等高难度任务上表现优异，代表了开源模型在逻辑深度与实用性间的平衡，常被集成于开发者工具及自动化工作流中。",
     "metaphor": "就像一位经验丰富的导师，不仅给出答案，还会边讲解边反复推敲自己的思路，确保每一步都经得起质疑。",
     "example": "一名数据分析师用 WizardLM 解析一份含矛盾指标的销售报表：模型自动识别异常字段、追溯原始数据逻辑、生成修正建议，并用自然语言解释推理过程。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "开源模型",
+    "逻辑推理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/nlpxucan/WizardLM",
+    "https://huggingface.co/WizardLM"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:51:19Z",
-  "updated_at": "2026-03-21T10:27:46Z"
+  "updated_at": "2026-03-23T16:42:09.872828Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "分布式训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "checkpoint_sharding 是一种将大型模型训练检查点（checkpoint）拆分为多个较小文件并分布式存储的技术，常用于大语言模型训练中。它解决了单个检查点文件过大导致保存/加载缓慢、内存溢出或存储系统不兼容的问题。普通用户（尤其是使用 Hugging Face Transformers、DeepSpeed 或 PyTorch FSDP 的开发者）需要了解它，因为启用该功能可显著提升多卡/多节点训练的容错性、恢复效率和存储灵活性。",
+    "plain": "checkpoint_sharding 是将大型模型训练检查点拆分为多个小文件并分布式存储的技术。它解决单文件过大导致的保存加载慢、内存溢出问题。常用于大模型训练，配合 DeepSpeed 或 FSDP 使用，能提升多卡训练的容错性、恢复效率和存储灵活性，是分布式训练的关键优化手段。",
     "metaphor": "就像把一本厚重的百科全书拆成若干分册，分别存放在不同书架上——既方便搬运（传输），又避免单个书架承重过载，还能让多人同时查阅不同分册。",
     "example": "当使用 Hugging Face Trainer 训练 70B 参数模型时，设置 `save_sharded=True` 会将 checkpoint 拆为 `pytorch_model-00001-of-00008.bin` 等多个分片文件，而非单一的 `pytorch_model.bin`。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型训练",
+    "分布式系统",
+    "内存优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.deepspeed.ai/docs/checkpointing/",
+    "https://pytorch.org/docs/stable/fsdp.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:27:46Z"
+  "updated_at": "2026-03-23T18:15:34.560793Z",
+  "quality_score": 0.95
 }

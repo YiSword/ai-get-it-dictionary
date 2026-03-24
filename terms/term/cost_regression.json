@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据分析",
   "difficulty": "中级",
   "explanations": {
-    "plain": "cost_regression 是一种统计建模方法，用于分析和预测与成本相关的变量如何随其他因素（如时间、产量、资源投入等）变化。它帮助组织识别成本驱动因素、评估效率变化、发现异常支出，并支持预算规划与定价决策。普通用户——尤其是财务人员、项目经理或运营管理者——需要了解它，因为它是将业务活动量化为可解释、可预测的成本趋势的关键工具，避免凭经验拍板导致的资源浪费或利润损失。",
+    "plain": "cost_regression 是一种统计建模方法，用于分析预测成本变量随时间、产量等因素的变化。它帮助识别成本驱动因素、评估效率、发现异常支出，支持预算规划与定价决策。它是将业务活动量化为可解释成本趋势的关键工具，避免经验主义导致的资源浪费或利润损失，适用于财务及运营管理者。",
     "metaphor": "就像给一辆车安装行车电脑，不仅记录油耗，还分析出是路况、载重还是驾驶习惯真正影响了每公里花费。",
     "example": "某制造企业用 cost_regression 分析过去两年的生产数据，发现设备老化程度比人工工时对单位产品维修成本的影响大3倍，从而优先安排关键产线的设备更新而非加聘技工。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "财务分析",
+    "预测建模",
+    "成本控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.investopedia.com/terms/r/regression.asp",
+    "https://www.nist.gov/itl/ssd/software-quality-group/engineering-statistics-handbook"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:02:30Z"
+  "updated_at": "2026-03-23T14:06:58.531077Z",
+  "quality_score": 1.0
 }

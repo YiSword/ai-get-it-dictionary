@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "软件架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Adapters（适配器）是软件中用于桥接两个不兼容接口的组件，使原本无法直接协作的模块或系统能够协同工作。它们通过封装转换逻辑，将一方的输入/输出格式、调用方式或数据结构映射为另一方可接受的形式。普通用户虽不直接编写适配器，但在使用跨平台应用、连接不同品牌智能设备、或访问聚合服务（如统一查看微信、邮件和日历通知）时，其背后往往依赖适配器实现无缝集成——理解它有助于识别为何某些功能‘突然可用’或‘需要额外配置’。",
-    "metaphor": "就像电源插头转换器，让日本的两脚扁插头能插入德国的圆孔插座，适配器不改变电器本身，只解决‘接口不匹配’的问题。",
-    "example": "一个天气App要同时从阿里云和OpenWeather两个不同API获取数据，开发者会为每个服务商编写独立的适配器，将各自返回的JSON结构统一转换为App内部标准的WeatherData对象。"
+    "plain": "适配器（Adapters）是用于连接两个不兼容接口的软件组件，负责将一种接口调用转换为另一种形式。它们广泛存在于日常应用中，如手机转接、网页翻译或智能家居互联。理解适配器有助于明白旧设备与新系统共存及跨平台功能一致性的原理，确保不同系统间顺畅协同。",
+    "metaphor": "就像电源插头转换器，让日本的两脚扁插头能在英国的三孔插座上安全供电——不改变电器本身，也不改造墙壁插座，只在中间做精准的‘语言翻译’和‘形状匹配’。",
+    "example": "当一个使用旧版JSON API的移动App需要接入新版RESTful服务时，开发者编写一个adapter，将新API返回的嵌套字段结构自动映射为App原有代码期望的扁平对象格式，从而避免重写整个网络层。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "软件开发",
+    "系统集成",
+    "接口兼容"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Adapter_pattern",
+    "https://refactoring.guru/design-patterns/adapter"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:21:36Z"
+  "updated_at": "2026-03-23T19:06:13.846843Z",
+  "quality_score": 1.0
 }

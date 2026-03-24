@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型类型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "evaluator_model 是指在人工智能系统中专门用于评估、打分或判断其他模型（如生成模型）输出质量的独立模型。它不负责生成内容，而是像一位专业评审员，依据准确性、连贯性、安全性等维度对回答进行量化评价。普通用户需要了解它，因为它的存在直接影响AI产品的可靠性——比如聊天机器人是否被严格把关、推荐结果是否经过可信度校验，进而关系到用户获取信息的准确性和使用体验的安全性。",
+    "plain": "evaluator_model 是 AI 系统中专门评估其他模型输出质量的独立模型。它不生成内容，而是依据准确性、安全性等维度对结果量化打分。作为专业评审员，它直接影响 AI 产品可靠性，确保聊天机器人或推荐系统经过严格把关，关系到用户获取信息的准确性和使用体验的安全性。",
     "metaphor": "就像餐厅里的神秘食客评审团，不参与做菜，但每道菜端上来都会打分、写评语，决定这道菜能否上正式菜单。",
     "example": "在训练一个医疗问答AI时，evaluator_model会自动分析其对‘糖尿病症状’的回答是否符合临床指南、有无事实错误，并给出0–5分的质量评分，从而筛选出合格的响应进入上线流程。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "质量控制",
+    "大语言模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/openai/evals",
+    "https://huggingface.co/docs/evaluate/index"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:14:47Z"
+  "updated_at": "2026-03-23T18:33:23.102351Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "知识管理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "knowledge_sync（知识同步）指在多个设备、应用或团队成员之间，实时或定期地保持知识内容（如文档、笔记、标签、关系图谱等）的一致性与最新状态。它不是简单复制文件，而是智能识别变更、解决冲突、保留上下文和历史版本。普通用户需要了解它，因为日常使用的笔记软件、协作平台或AI助手若缺乏有效知识同步，会导致信息碎片化、重复劳动、误用过时资料，甚至影响决策质量。",
+    "plain": "knowledge_sync（知识同步）指在多设备、应用或团队间实时保持知识内容的一致性与最新状态。它智能识别变更、解决冲突并保留版本历史，而非简单复制。缺乏有效同步会导致信息碎片化、误用过时资料，影响协作效率与决策质量，是笔记软件与 AI 助手的核心功能。",
     "metaphor": "就像一群共用同一本活页笔记本的合作者——每次有人修改一页，所有人的副本都会自动翻到最新页，并标出谁改了什么、为什么改。",
     "example": "当你在手机上用Notion更新项目需求文档，同时同事在电脑端编辑同一页面的流程图，knowledge_sync机制会合并两处改动，保留各自编辑痕迹，并确保双方下次打开时看到的是融合后的最新一致版本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "知识管理",
+    "协作办公",
+    "数据同步"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://learn.microsoft.com/en-us/microsoft-365/knowledge-center",
+    "https://www.atlassian.com/knowledge-management"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:54:26Z"
+  "updated_at": "2026-03-23T11:23:49.317815Z",
+  "quality_score": 0.95
 }

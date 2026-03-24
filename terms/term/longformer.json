@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Longformer 是一种改进的 Transformer 架构，专为处理超长文本（如法律合同、科学论文或整本小说）而设计。它通过引入局部注意力机制和可扩展的全局注意力节点，在保持模型性能的同时将计算复杂度从 O(n²) 降低到 O(n)，显著提升了长序列建模效率。普通用户需要了解它，是因为它正支撑着越来越多能理解整页文档、自动摘要报告或分析长篇政策文件的 AI 工具，让长文本处理变得更快速、更实用。",
+    "plain": "Longformer 是一种专为处理超长文本设计的 Transformer 架构。它通过结合局部注意力与可扩展全局注意力，将计算复杂度从 O(n²) 降至 O(n)，显著提升长序列建模效率。该模型支撑着文档理解、自动摘要及长篇分析等 AI 工具，使长文本处理更高效实用。",
     "metaphor": "就像一位经验丰富的图书管理员，Longformer 不会逐字重读整本书来回答问题，而是先快速扫视章节标题（局部注意力），再重点精读关键段落和索引页（全局注意力）。",
     "example": "一家律师事务所使用 Longformer 模型自动审查长达 200 页的并购协议，精准定位责任条款、终止条件等关键段落，并高亮潜在风险，整个过程仅需数秒。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "长文本处理",
+    "文档理解"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/allenai/longformer",
+    "https://arxiv.org/abs/2004.05150"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:18:45Z"
+  "updated_at": "2026-03-23T14:53:13.900490Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "卷积神经网络（CNN）是一种专门用于处理图像、视频等网格状数据的深度学习模型。它通过模拟人脑视觉皮层的工作方式，使用可学习的滤波器（卷积核）自动提取局部特征（如边缘、纹理、形状），再逐层组合成更高阶的语义信息。普通用户需要了解它，因为CNN是手机拍照增强、人脸识别、医学影像分析、自动驾驶视觉系统等日常技术背后的核心引擎，理解其基本原理有助于更理性地看待AI能力与局限。",
+    "plain": "卷积神经网络（CNN）是专为处理网格状数据（如图像）设计的深度学习模型。它利用卷积核自动提取边缘、纹理等局部特征，并逐层组合成高阶语义。作为手机拍照、人脸识别及自动驾驶视觉系统的核心引擎，CNN 模拟了生物视觉机制，是实现计算机视觉任务的关键技术基础。",
     "metaphor": "就像一位经验丰富的画家先用小刷子勾勒轮廓、再用大刷子铺色构图，CNN也逐层用‘小探测器’扫描图像局部细节，再综合判断整体内容。",
     "example": "微信‘拍一拍识图’功能利用CNN快速识别照片中的植物种类——它先检测叶脉纹理和花瓣边缘，再匹配到具体植物类别。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "计算机视觉",
+    "图像识别",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/卷积神经网络",
+    "https://pytorch.org/docs/stable/nn.html#convolutional-layers"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:58:26Z"
+  "updated_at": "2026-03-23T15:08:44.833855Z",
+  "quality_score": 0.95
 }

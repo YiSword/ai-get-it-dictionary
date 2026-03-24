@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AIGC 工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Leonardo AI 是一个基于人工智能的图像生成平台，允许用户通过文本描述（即提示词）快速创建高质量、风格多样的原创图像。它专为设计师、游戏开发者、内容创作者等优化，支持模型微调、图像修复、分辨率增强和角色一致性控制等功能。普通用户需要了解它，是因为它降低了专业级视觉内容创作的门槛——无需绘画技能或昂贵软件，只需清晰表达想法，就能获得可用于社交媒体、原型设计甚至商业项目的图像成果。",
+    "plain": "Leonardo AI 是一个 AI 图像生成平台，用户可通过文本描述快速创建高质量、风格多样的原创图像。支持模型微调、图像修复和角色一致性控制等功能。它降低了视觉内容创作门槛，无需绘画技能，只需表达想法，即可获得用于社交媒体或商业项目的图像成果。",
     "metaphor": "就像一位24小时待命、精通千种画风的数字美术助理，你只需口述需求，它便立刻为你铺开画布并落笔成图。",
     "example": "一位独立游戏开发者输入提示词‘fantasy tavern interior, warm lighting, detailed wood texture, isometric view’，Leonardo AI 在几秒内生成多张可直接用于游戏场景搭建的高清贴图。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "内容创作",
+    "设计辅助"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://leonardo.ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:07:35Z"
+  "updated_at": "2026-03-23T14:38:56.116395Z",
+  "quality_score": 0.95
 }

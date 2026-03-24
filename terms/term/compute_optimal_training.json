@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "训练优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "compute_optimal_training 是指在模型训练过程中，通过系统性地调整计算资源配置（如批大小、学习率、精度、硬件并行策略等）与训练算法参数，以在给定硬件约束和时间预算下，最大化模型最终性能或最小化单位算力成本的训练策略。它不是单纯追求最快或最高精度，而是寻求性能、效率与资源消耗之间的最佳平衡点。普通用户需要了解它，因为盲目使用默认超参或全量资源可能导致训练耗时剧增、显存溢出、收敛变差，甚至浪费数万元算力预算。",
+    "plain": "指在给定算力预算下，通过平衡模型大小与训练数据量，或调整批大小、学习率等参数，以实现模型性能与资源消耗的最佳平衡。该策略避免盲目堆砌资源，防止显存溢出或预算浪费，确保在有限时间内获得最优收敛效果，是大规模模型训练的核心效率原则。",
     "metaphor": "就像一位经验丰富的厨师根据灶具火力、食材特性和用餐时限，动态调整火候、翻炒节奏和调味顺序，只为在最短时间内做出最入味的菜——而非一味猛火快炒或小火慢炖。",
     "example": "在用8张A100训练一个10亿参数语言模型时，通过 compute_optimal_training 分析发现：将批大小从2048降至1024、启用混合精度与梯度检查点，并采用分层学习率衰减，可在相同训练步数下提升验证集准确率0.8%，同时缩短总耗时17%。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型训练",
+    "资源调度",
+    "超参优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2203.15556",
+    "https://www.deepmind.com/blog/training-compute-optimal-large-language-models"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:46:47Z"
+  "updated_at": "2026-03-23T16:04:42.237014Z",
+  "quality_score": 1.0
 }

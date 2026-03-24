@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "网络架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "pair_networks 是一种网络架构模式，指两个网络节点（如设备、服务或数据中心）之间建立直接、专用且双向的逻辑或物理连接，用于高可靠性、低延迟或强安全性的通信。它常用于关键业务场景，如主备系统同步、跨地域灾备或零信任架构中的微隔离通信。普通用户虽不直接配置它，但在使用云备份、实时协同编辑或金融级支付服务时，其背后往往依赖 pair_networks 保障数据一致性和传输安全。",
+    "plain": "pair_networks 是一种网络架构模式，指两个节点间建立直接、专用且双向的连接，旨在实现高可靠性与低延迟通信。该模式常用于主备系统同步、跨地域灾备或零信任微隔离场景。虽用户不直接配置，但云备份、实时协同及金融支付等服务依赖其保障数据一致性与传输安全。",
     "metaphor": "就像一对特快专列，只在两个固定车站之间往返运行，不绕行、不中转、不混载，确保货物（数据）准时、完整、私密地抵达。",
     "example": "某银行的核心交易系统与同城灾备中心之间通过 pair_networks 实现毫秒级数据库实时同步，一旦主系统故障，灾备系统可立即接管，用户无感切换。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "高可用性",
+    "灾备恢复",
+    "网络安全"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/High_availability"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:50:04Z",
-  "updated_at": "2026-03-21T09:04:16Z"
+  "updated_at": "2026-03-23T17:52:52.096478Z",
+  "quality_score": 0.95
 }

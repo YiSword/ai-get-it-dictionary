@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "编译器技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MLIR（Multi-Level Intermediate Representation）是一种可扩展的编译器基础设施，用于构建和优化不同领域专用语言（DSL）与硬件后端之间的编译流程。它不像传统编译器那样只有一套固定中间表示（如LLVM IR），而是支持多层级、可定制的中间表示，允许开发者在同一框架内表达从高级算法到低级硬件指令的语义。普通用户无需直接编写MLIR，但它的存在显著提升了AI模型部署、领域专用加速器编程等场景的效率与兼容性——例如你用TensorFlow或PyTorch训练的模型能更快、更可靠地运行在不同芯片上，背后往往依赖MLIR驱动的优化流水线。",
+    "plain": "MLIR（Multi-Level Intermediate Representation）是一种可扩展的编译器基础设施，支持多层级中间表示。它连接高级算法与低级硬件指令，相比传统固定 IR 更灵活。MLIR 显著提升了 AI 模型在不同芯片上的部署效率与兼容性，是 TensorFlow、PyTorch 等框架底层优化的关键技术。",
     "metaphor": "MLIR就像一座模块化、多层互通的立交桥系统，让来自不同城市（高级语言）、开不同车型（张量计算、循环嵌套、硬件指令）的车辆，都能在统一规则下高效换道、分流、提速，最终抵达各自的目的地（目标硬件）。",
     "example": "Google的TensorFlow Lite使用MLIR将Python中定义的机器学习模型转换为可在手机端ARM CPU或NPU上高效执行的轻量级二进制代码，并在过程中自动融合算子、量化权重、适配内存布局。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型部署",
+    "编译优化",
+    "基础设施"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://mlir.llvm.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:44:28Z"
+  "updated_at": "2026-03-23T14:50:45.205215Z",
+  "quality_score": 0.95
 }

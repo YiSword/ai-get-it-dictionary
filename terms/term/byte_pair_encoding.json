@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Byte Pair Encoding（BPE）是一种无监督的子词分词算法，用于将文本切分为比字符更细、比单词更粗的单元（如'ing'、'un'、'play'），以平衡词汇表大小与对未登录词的处理能力。它通过统计相邻字节（或字符）对的共现频率，反复合并最高频的字符对，逐步构建分词规则。普通用户需要了解BPE，因为它是现代大语言模型（如GPT、BERT）文本预处理的核心技术之一，直接影响模型能否正确理解生僻词、拼写变体或复合词，进而影响聊天、翻译、搜索等日常AI体验的准确性。",
+    "plain": "Byte Pair Encoding（BPE）是一种无监督子词分词算法，通过统计字符对共现频率，反复合并最高频对来构建词汇表。它平衡了词汇大小与未登录词处理能力，是 GPT 等大模型文本预处理的核心技术。BPE 直接影响模型对生僻词、拼写变体的理解，关乎聊天、翻译等 AI 体验的准确性。",
     "metaphor": "就像用乐高积木拼单词——不是每种单词都预先造好，而是把最常用的两块小积木（如't'和'h'）先粘成'th'，再用'ing'、'un'等预制模块灵活组合新词。",
     "example": "当模型遇到未见过的单词'unhappiness'时，BPE会将其拆解为'un' + 'happi' + 'ness'，而非当作未知整体，从而准确理解其含义并参与训练与生成。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "文本预处理",
+    "分词"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1508.07909",
+    "https://en.wikipedia.org/wiki/Byte_pair_encoding"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:16:31Z"
+  "updated_at": "2026-03-23T16:39:21.844953Z",
+  "quality_score": 0.95
 }

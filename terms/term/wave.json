@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "信号处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Wave（波）是物理中描述能量或扰动在空间中周期性传播现象的基本概念，常见于光、声音、水和电磁信号等领域。它具有振幅、频率、波长和相位等关键属性。普通用户需要理解wave，因为日常接触的Wi-Fi连接、手机通话、音乐播放、甚至可见光本身都依赖波的原理；忽视这一概念可能导致对信号干扰、网络延迟、音画不同步等问题产生误解。",
+    "plain": "Wave（波）指能量或扰动在空间周期性传播的物理现象，涵盖声波、光波及电磁波。核心属性包括振幅、频率、波长和相位。它是无线通信、音频处理及光学传感的基础。理解波的原理有助于认知 Wi-Fi 信号、手机通话及多媒体传输机制，避免对信号干扰或延迟产生误解。它是连接物理世界与数字信号处理的关键桥梁。",
     "metaphor": "就像向平静湖面扔一颗石子后扩散开的一圈圈水纹，wave 是能量从源头出发、不搬运物质而只传递扰动的‘移动涟漪’。",
     "example": "当你用蓝牙耳机听歌时，手机通过电磁波将音频信号以特定频率发送到耳机，耳机再把接收到的波还原成声音——整个过程依赖精确控制的无线电波。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "信号处理",
+    "通信技术",
+    "基础科学"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Wave",
+    "https://www.britannica.com/science/wave-physics"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:54:47Z",
-  "updated_at": "2026-03-21T10:22:38Z"
+  "updated_at": "2026-03-23T15:18:19.066160Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "度量学习（metric learning）是一种机器学习方法，旨在自动学习一个距离函数，使得同类样本在嵌入空间中彼此靠近，异类样本则相距较远。它不直接预测类别标签，而是优化样本间的相对关系，从而提升后续任务（如分类、检索、聚类）的性能。普通用户需要了解它，因为它是许多智能应用背后的关键技术——比如照片自动归类、商品相似推荐、人脸识别中的身份验证等，其效果直接影响用户体验的准确性和自然性。",
+    "plain": "度量学习是一种机器学习方法，旨在学习距离函数，使同类样本在嵌入空间中靠近，异类样本相距较远。它通过优化样本间相对关系，提升分类、检索和聚类性能。广泛应用于人脸识别、商品推荐及照片归类等场景，是确保智能应用准确性的关键技术。",
     "metaphor": "就像一位经验丰富的图书管理员，不是按书名字母排序，而是根据内容主题和读者兴趣，把相似的书放在相邻书架上，让‘相关’的书天然靠得更近。",
     "example": "在电商平台中，度量学习被用于训练图像嵌入模型，使同款不同颜色的T恤衫在特征空间中距离很近，而与裤子或鞋子的距离显著更远，从而实现精准的‘以图搜同款’功能。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "人脸识别",
+    "推荐系统",
+    "图像检索"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Metric_learning",
+    "https://paperswithcode.com/task/metric-learning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:37:39Z"
+  "updated_at": "2026-03-23T12:37:57.575642Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "对话系统",
   "difficulty": "中级",
   "explanations": {
-    "plain": "multi_turn_conversation（多轮对话）指用户与AI系统之间持续交互、上下文连贯的多次问答过程，而非单次孤立提问。它要求模型能记忆并理解历史对话内容，据此生成符合语境的回应。普通用户需要了解这一概念，因为它直接影响对话体验——例如能否自然地修正前一句、追问细节、或切换话题后仍被准确理解，是衡量AI是否真正‘懂你’的关键能力。",
+    "plain": "多轮对话指用户与 AI 基于上下文的连续交互过程。模型需记忆历史内容以生成连贯回应，支持修正、追问及话题切换。这是衡量 AI 理解能力与体验流畅度的关键指标，区别于单次孤立提问。",
     "metaphor": "就像和一位熟识的咖啡师聊天：你先点一杯拿铁，接着说‘今天加燕麦奶’，再问‘昨天那款豆子还有吗？’——对方不用你重复背景就能接住每一句。",
     "example": "用户在旅行助手App中先问‘推荐东京的樱花景点’，接着说‘避开人多的地方’，再追问‘最近的地铁站怎么走？’——系统需基于前三轮信息持续推理，而非每次重新理解上下文。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "人机交互",
+    "自然语言处理",
+    "生成式 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/chat-completions",
+    "https://huggingface.co/tasks/conversational"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:06:06Z",
-  "updated_at": "2026-03-21T08:51:13Z"
+  "updated_at": "2026-03-23T13:37:07.629908Z",
+  "quality_score": 0.95
 }

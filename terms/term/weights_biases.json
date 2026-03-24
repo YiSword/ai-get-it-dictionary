@@ -1,26 +1,29 @@
 {
-  "entry_kind": "term",
-  "term": "weights_biases",
-  "norm_term": "weights_biases",
-  "lang": "en",
-  "aliases": [],
-  "entity_type": "concept",
-  "category": "其他",
-  "difficulty": "中级",
-  "explanations": {
-    "plain": "weights_biases 是机器学习模型（尤其是神经网络）中的两个核心可学习参数：weights（权重）决定输入特征对输出的影响强度，biases（偏置）提供基础调整值，使模型能拟合数据的非零起点。它们共同构成模型的记忆与判断能力，训练过程本质上就是不断优化这些数值以最小化预测误差。普通用户虽不直接操作它们，但理解其存在有助于明白AI并非‘黑箱魔法’，而是依赖大量数据驱动的数值调优，从而更理性地评估模型可靠性、偏差来源及局限性。",
-    "metaphor": "就像厨师调整一道菜的咸淡——weights 是每种调料（如盐、酱油）的用量比例，biases 则是起锅前额外加的一小撮盐，确保即使不放其他调料，菜品也有基本底味。",
-    "example": "在图像识别模型中，某个神经元的 weights 可能赋予‘边缘方向’特征高响应值，而其 bias 确保该神经元在无明显边缘时仍保持微弱激活，避免输出完全失活。"
-  },
-  "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+  "term": "Weights & Biases",
+  "definition": "Weights & Biases (W&B) 是机器学习实验跟踪和 MLOps 平台。",
+  "description": "Weights & Biases 是 AI 开发者广泛使用的实验跟踪工具，可记录实验配置、超参数、系统指标和模型 artifacts。它保存 git commit、权重文件、测试预测等所有复现模型所需的信息。W&B 提供实验跟踪、模型版本管理、结果可视化等功能，是机器学习团队协作和实验管理的标准工具之一。",
+  "aliases": [
+    "W&B",
+    "wandb"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
-  "content_source": "llm_generated_v2",
-  "hit_count": 0,
-  "created_at": "2026-03-20T12:54:00Z",
-  "updated_at": "2026-03-21T10:24:24Z"
+  "entity_type": "product",
+  "category": "MLOps 平台",
+  "difficulty": "入门",
+  "sources": [
+    "https://wandb.ai/",
+    "https://github.com/wandb/wandb"
+  ],
+  "scenario_tags": [
+    "实验跟踪",
+    "模型管理",
+    "MLOps"
+  ],
+  "quality_level": "llm_generated_v2",
+  "created_at": "2026-03-22T15:44:38Z",
+  "updated_at": "2026-03-23T12:15:43.559243Z",
+  "explanations": {
+    "plain": "Weights & Biases 是一个用于机器学习的开发者平台。它帮助研究人员和工程师跟踪实验、版本化数据集以及可视化模型训练过程。通过简单的 API 集成，团队可以协作比较模型性能，记录超参数和指标，从而加速模型开发迭代。它是目前最流行的 MLOps 工具之一，支持多种深度学习框架。"
+  },
+  "quality_score": 1.0,
+  "review_status": "auto_verified"
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型许可",
   "difficulty": "中级",
   "explanations": {
-    "plain": "closed_weight_model 指模型权重（即训练后得到的参数）不向公众公开、不可下载或商用的机器学习模型。这类模型通常由公司或机构私有持有，仅通过API或受限界面提供服务。普通用户需要知道它，是因为它直接影响使用自由度：你无法本地运行、修改、审计或离线使用该模型，且可能面临调用限制、费用变动或服务终止风险。",
+    "plain": "闭权模型指训练后的参数权重不向公众公开、不可下载或商用的机器学习模型。通常由机构私有持有，仅通过 API 提供服务。用户无法本地运行、修改或审计，面临调用限制及服务终止风险。与开源模型相对，直接影响使用自由度与合规性。",
     "metaphor": "就像租用一台高级咖啡机——你能按下按钮喝到现磨咖啡，但无法打开机器查看内部结构、更换零件，也不能把它搬回家自己改装。",
     "example": "ChatGPT 的某些版本（如 GPT-4 Turbo）即为 closed_weight_model：用户只能通过 OpenAI 官方接口或网页交互，无法获取其权重文件在本地部署或二次训练。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型许可",
+    "模型部署",
+    "商业应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/blog/open-science"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:33:42Z"
+  "updated_at": "2026-03-23T13:30:12.742956Z",
+  "quality_score": 1.0
 }

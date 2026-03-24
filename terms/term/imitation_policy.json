@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "imitation_policy（模仿策略）是强化学习和机器人学中的一种行为学习方法，指智能体通过观察并复制专家（如人类或预训练模型）的示范动作来习得策略，而非通过试错或奖励信号直接优化。它降低了对密集奖励设计和大量环境交互的依赖，使非专业用户也能让AI快速掌握复杂技能。普通用户需要了解它，是因为它正广泛应用于教育机器人、辅助驾驶教学、虚拟助手个性化训练等场景，影响AI是否能安全、高效地‘向人学习’。",
+    "plain": "模仿策略是强化学习中的一种方法，智能体通过观察并复制专家示范动作来习得策略，而非依赖试错或奖励信号。它降低了对奖励设计和环境交互的依赖，使 AI 能快速掌握复杂技能。广泛应用于教育机器人、辅助驾驶及虚拟助手训练，影响 AI 安全高效地向人学习的能力。",
     "metaphor": "就像学徒跟着师傅做木工——不靠公式推导，而是看师傅怎么握凿、怎么下锤，然后一招一式地复现。",
     "example": "在手术机器人训练中，系统通过记录资深外科医生的操作轨迹与力反馈数据，构建imitation_policy，使新手医生能在仿真环境中实时复现专家的手法节奏与力度控制。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "强化学习",
+    "机器人学",
+    "自动驾驶"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://spinningup.openai.com/en/latest/algorithms/bc.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:26:51Z"
+  "updated_at": "2026-03-23T13:43:07.247950Z",
+  "quality_score": 0.95
 }

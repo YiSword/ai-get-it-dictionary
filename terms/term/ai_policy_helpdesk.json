@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "ai_policy_helpdesk",
+  "norm_term": "ai_policy_helpdesk",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "tool",
+  "category": "AI 治理工具",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "ai_policy_helpdesk 是企业内部用于管理实施人工智能政策的辅助系统。它帮助员工理解遵循 AI 合规要求、伦理规范及操作指南。通过政策查询、风险评估和案例指导，确保企业使用 AI 技术符合内部治理标准及外部法规，降低因政策误用导致的法律或声誉风险，提升组织内 AI 治理流程认知。",
+    "metaphor": "就像企业内部的AI政策导航仪，为员工提供实时路线指引，避免在合规道路上迷失方向。",
+    "example": "某金融公司员工在开发贷款审批模型时，通过 ai_policy_helpdesk 查询到数据隐私保护政策，及时调整了特征变量选择，确保符合监管要求。"
+  },
+  "scenario_tags": [
+    "企业合规",
+    "AI 治理",
+    "风险管理"
+  ],
+  "sources": [
+    "https://www.microsoft.com/ai/ai-governance"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:22:12.781131Z",
+  "updated_at": "2026-03-23T16:04:48.851075Z",
+  "quality_score": 0.95
+}

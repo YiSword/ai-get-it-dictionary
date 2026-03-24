@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "编程基础",
   "difficulty": "中级",
   "explanations": {
-    "plain": "compound 是计算机编程中的一个基本概念，指由多个独立但相互关联的组成部分构成的复合结构或实体。它常见于数据类型（如结构体、类）、表达式（如复合条件语句）或系统设计（如复合组件）。普通用户需要了解它，因为日常使用的软件、网页和App背后大量依赖 compound 结构来组织功能与数据——理解这一点有助于更清晰地把握技术产品的逻辑层次，避免将复杂系统误认为‘黑箱’。",
+    "plain": "compound 指由多个独立但相互关联部分构成的复合结构或实体。常见于数据类型（如结构体、类）、表达式（复合条件）或语句块。它是组织功能与数据的基础，帮助开发者将复杂逻辑模块化，避免系统成为黑箱，广泛应用于软件、网页及 App 的底层架构设计中。",
     "metaphor": "就像一辆自行车：它不是单一零件，而是由车架、链条、齿轮、刹车等多个部件按特定方式组装而成，每个部分有独立功能，合在一起才实现骑行的整体能力。",
     "example": "在 Python 中，字典（dict）就是一个典型的 compound 数据类型，它由多个键值对组合而成，每个键值对可独立访问，但整体作为一个对象参与运算和传递。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "编程开发",
+    "数据结构",
+    "系统设计"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://docs.python.org/3/reference/compound_stmts.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:29:38Z",
-  "updated_at": "2026-03-21T04:46:16Z"
+  "updated_at": "2026-03-23T13:28:47.438750Z",
+  "quality_score": 1.0
 }

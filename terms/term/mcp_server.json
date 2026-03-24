@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 基础设施",
   "difficulty": "中级",
   "explanations": {
-    "plain": "mcp_server 是 Model Context Protocol（MCP）规范中定义的一种标准化后端服务，负责接收客户端（如 AI 工具或 IDE 插件）的请求，执行上下文感知操作（如读取文件、查询数据库、调用 API），并安全、结构化地返回结果。它不是通用 Web 服务器，而是专为 AI 系统提供可信赖外部能力接入点的轻量级协议服务器。普通用户无需直接操作它，但当使用支持 MCP 的智能编程助手、AI 笔记工具或自动化工作流时，其背后依赖 mcp_server 来安全获取本地代码、日历或邮件等敏感信息——因此了解它有助于判断工具的数据权限边界与隐私保障机制。",
+    "plain": "mcp_server 是 Model Context Protocol (MCP) 规范中的标准化后端服务。它接收 AI 客户端请求，执行上下文操作（如读写文件、查库），并安全返回结果。作为轻量级协议服务器，它为 AI 系统提供可信外部能力接入，帮助用户理解数据权限边界与隐私机制，无需普通用户直接操作。",
     "metaphor": "就像公寓楼里的门禁管家：不替你做决定，但严格核验访客（AI 工具）身份，并只开放经你授权的房间（如‘项目代码’或‘待办清单’）供其临时查阅。",
     "example": "当你在 VS Code 中使用一个 AI 编程插件自动生成单元测试时，该插件通过本地运行的 mcp_server 安全读取当前项目的源码文件和测试配置，而不会将代码上传至远程服务器。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 集成",
+    "协议规范",
+    "数据安全"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://modelcontextprotocol.io/",
+    "https://github.com/modelcontextprotocol/specification"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:29:10Z"
+  "updated_at": "2026-03-23T14:42:26.089566Z",
+  "quality_score": 0.95
 }

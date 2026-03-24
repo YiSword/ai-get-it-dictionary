@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "基准测试",
   "difficulty": "中级",
   "explanations": {
-    "plain": "HumanEval 是一个用于评估代码生成模型编程能力的基准测试数据集，由 OpenAI 等机构提出。它包含 164 个手工编写的 Python 编程问题，每个问题附有函数签名、自然语言描述和多个通过单元测试的正确示例。与传统基于大规模代码语料库的自动评测不同，HumanEval 强调功能正确性与人类意图对齐，能更真实地反映模型是否真正理解需求并生成可运行、无逻辑错误的代码。普通用户（尤其是开发者、技术选型者或AI工具使用者）需要了解它，因为它是当前衡量Copilot类工具‘写代码是否靠谱’的关键标尺之一。",
+    "plain": "HumanEval 是由 OpenAI 发布的代码生成模型基准测试数据集。包含 164 个手工编写的 Python 编程问题，含函数签名、描述及单元测试。它强调功能正确性与人类意图对齐，用于评估模型生成可运行代码的能力。它是衡量 Copilot 类工具代码质量的关键标尺，广泛应用于大模型代码能力评测。",
     "metaphor": "就像驾照路考——不看你会背多少交通规则，只看你能否在真实路口准确完成掉头、泊车、避让等具体任务。",
     "example": "当一家公司想评估新发布的代码补全模型是否值得集成到其IDE插件中时，会用 HumanEval 运行该模型，统计其在164道题中通过全部单元测试的比例（即 pass@1 指标），以此量化其实际编码可靠性。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "模型评估",
+    "大语言模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/openai/human-eval"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:17:27Z"
+  "updated_at": "2026-03-23T16:21:13.114476Z",
+  "quality_score": 0.95
 }

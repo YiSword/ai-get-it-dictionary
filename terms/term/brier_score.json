@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评估指标",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Brier分数是一种用于评估概率预测准确性的评分规则，专门适用于二分类或多分类任务中的预测概率输出。它计算预测概率与实际结果（0或1）之间平方误差的平均值，分数越低表示预测越准。普通用户需要了解它，是因为它能客观衡量‘我有多相信某事会发生’这类判断是否靠谱——比如天气App说‘明天下雨概率70%’，Brier分数能帮我们长期检验这个预报系统是否诚实可靠。",
+    "plain": "Brier 分数是评估概率预测准确性的核心指标，适用于二分类或多分类任务。它计算预测概率与实际结果之间的均方误差，分值越低代表预测越精准。该指标常用于检验预测系统的校准度与可靠性，如天气预报概率验证及机器学习模型性能评估。",
     "metaphor": "就像给一位天气预报员打分：不是看他猜对了多少次晴雨，而是看他每次报出的概率和真实天气之间的‘心理距离’有多远。",
     "example": "一个医疗AI模型预测100名患者是否会在一年内患糖尿病，对每位患者输出一个0到1之间的风险概率；用Brier分数可综合评估该模型所有预测概率的整体校准质量。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "概率预测",
+    "分类任务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.brier_score_loss.html",
+    "https://en.wikipedia.org/wiki/Brier_score"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:14:13Z"
+  "updated_at": "2026-03-23T11:48:41.295901Z",
+  "quality_score": 0.95
 }

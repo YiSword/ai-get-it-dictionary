@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "行业概念",
   "difficulty": "中级",
   "explanations": {
-    "plain": "vanguard 指在某一领域率先探索、实践或引领变革的个人、团队或组织，常处于技术、思想或行动的最前沿。它源自军事术语，意为‘先锋部队’，后引申为任何开创新局、承担风险并为后续者铺路的角色。普通用户需要了解这一概念，因为它帮助识别真正推动进步的力量——比如在人工智能、环保或教育改革中，vanguard 往往定义了未来数年的发展方向与标准，影响普通人获取技术、接受服务或理解世界的方式。",
+    "plain": "vanguard 意为“先锋”，指在特定领域率先探索、引领变革的个人、团队或组织，常处于技术或思想最前沿。源自军事术语“先锋部队”，现引申为开创新局、承担风险并为后续者铺路的角色。在人工智能等行业中，vanguard 定义了未来发展方向与标准，影响技术获取及服务方式，帮助公众识别推动进步的核心力量。",
     "metaphor": "就像登山队中第一个在陡峭冰壁上凿出脚点的向导，vanguard 不只为自身前进，更为后来者开辟可行路径。",
     "example": "2010年代初，特斯拉以全电动量产车和超级充电网络布局，成为智能电动汽车领域的vanguard；其技术路线与用户教育策略，直接促使传统车企加速转型。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "行业趋势",
+    "技术创新",
+    "概念定义"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.merriam-webster.com/dictionary/vanguard"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:11:40Z",
-  "updated_at": "2026-03-21T10:15:15Z"
+  "updated_at": "2026-03-23T14:52:37.271797Z",
+  "quality_score": 1.0
 }

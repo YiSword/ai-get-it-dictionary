@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 智能体",
   "difficulty": "中级",
   "explanations": {
-    "plain": "executor_agent 是一种专门负责执行具体操作的智能体（agent），它接收来自规划或决策模块的指令，并调用工具、API、脚本或系统接口完成实际任务，如发送邮件、查询数据库、运行代码等。普通用户需要了解它，是因为在自动化工作流、AI助手或低代码平台中，executor_agent 是真正‘动手做事’的环节——若它配置错误或权限不足，再完美的计划也无法落地。",
+    "plain": "executor_agent 是负责执行具体操作的智能体，接收规划模块指令，调用工具、API 或脚本完成实际任务，如发送邮件、查询数据库等。在自动化工作流或 AI 助手中，它是真正“动手做事”的环节，其配置与权限直接影响任务落地效果。",
     "metaphor": "就像一位经验丰富的厨师，接到主厨写好的菜谱（指令）后，亲自切菜、炒制、装盘（调用工具并执行），把抽象计划变成可品尝的成果。",
     "example": "在AI客服系统中，当对话代理判断用户需要重置密码时，executor_agent 会自动调用认证服务的密码重置API，生成并发送验证邮件，全程无需人工干预。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 智能体",
+    "自动化工作流",
+    "任务执行"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://python.langchain.com/docs/modules/agents/",
+    "https://microsoft.github.io/autogen/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:17:03Z"
+  "updated_at": "2026-03-23T15:16:40.846583Z",
+  "quality_score": 0.95
 }

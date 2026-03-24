@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型推理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "batching_strategy 是指在数据处理或模型推理过程中，如何将多个输入样本组织成批次（batch）并调度执行的规则与方法。它影响计算效率、内存占用、吞吐量和延迟等关键性能指标。普通用户需要了解它，因为不恰当的批处理策略可能导致显存溢出、响应变慢，或无法充分利用硬件资源，尤其在使用大语言模型API、图像识别服务或实时推荐系统时，选择合适的批处理方式直接关系到成本、速度与稳定性。",
+    "plain": "batching_strategy 指在模型推理或数据处理中，将多个输入样本组织成批次并调度执行的规则。它直接影响显存占用、吞吐量和延迟。策略不当可能导致显存溢出或响应变慢。在大模型服务或实时系统中，选择合适的批处理方式对成本、速度与稳定性至关重要。",
     "metaphor": "就像快递站按目的地、重量和时效把包裹分组装车——不是随便堆满就发，而是有策略地组合，才能既省油又准时送达。",
     "example": "在调用一个文本生成API时，系统采用动态 batching_strategy：将几秒内收到的多个短文本请求暂存，凑成一个批次并行处理，显著提升GPU利用率，同时将平均响应延迟控制在300ms以内。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型推理",
+    "性能优化",
+    "大模型服务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/text-generation-inference/conceptual/batching",
+    "https://pytorch.org/docs/stable/data.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:57:46Z"
+  "updated_at": "2026-03-23T11:38:21.183330Z",
+  "quality_score": 0.95
 }

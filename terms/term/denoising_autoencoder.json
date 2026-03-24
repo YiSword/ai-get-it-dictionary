@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "去噪自编码器（Denoising Autoencoder）是一种无监督学习的神经网络模型，它通过向输入数据添加人工噪声（如随机遮盖或高斯噪声），然后训练网络从被污染的数据中重建原始干净数据。其核心目标不是简单地复制输入，而是学习数据的内在结构和鲁棒表示。普通用户需要了解它，因为它是现代AI中数据增强、特征学习和异常检测的基础技术之一，广泛应用于图像修复、语音清理和医学影像预处理等实际场景。",
+    "plain": "去噪自编码器是一种无监督神经网络，通过向输入添加噪声并训练网络重建原始数据，从而学习数据的鲁棒表示。它避免简单复制输入，旨在捕捉内在结构。广泛应用于图像修复、语音清理及异常检测等场景，是特征学习的基础技术之一。",
     "metaphor": "就像一位经验丰富的图书修复师，面对被水渍和污迹弄模糊的古籍页，不靠原样临摹，而是凭借对文字结构和语义规律的深刻理解，精准还原出原本清晰的内容。",
     "example": "在手机拍照应用中，去噪自编码器可实时处理低光照下产生的高噪声图像，自动抑制颗粒感并保留细节，使暗光照片看起来更清晰自然。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "特征提取",
+    "图像修复",
+    "异常检测"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.deeplearningbook.org/contents/autoencoders.html",
+    "http://www.iro.umontreal.ca/~vincentp/Publications/dae_icml2008.pdf"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:30:51Z"
+  "updated_at": "2026-03-23T13:46:12.458347Z",
+  "quality_score": 0.95
 }

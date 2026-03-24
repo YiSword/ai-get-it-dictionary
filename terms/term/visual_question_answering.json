@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Visual Question Answering（VQA，视觉问答）是一种人工智能任务，要求模型根据给定图像和自然语言提出的问题，生成准确、简洁的文本答案。它融合了计算机视觉与自然语言处理能力，使机器能像人一样‘看图说话’。普通用户需要了解它，因为VQA正驱动着无障碍技术（如为视障者描述图片）、智能相册搜索、教育辅助工具等实用应用的发展，让图像信息更易被理解与交互。",
+    "plain": "VQA（视觉问答）是一种多模态人工智能任务，要求模型结合给定图像与自然语言问题，生成准确文本答案。它融合计算机视觉与 NLP 能力，实现机器“看图说话”。广泛应用于无障碍技术（如视障辅助）、智能相册搜索及教育工具，提升图像信息的理解与交互效率。",
     "metaphor": "就像一位既懂摄影又精通百科全书的导游，看到一张照片后，能立刻听懂你的问题，并用口语化语言给出贴切解答。",
     "example": "用户上传一张餐厅菜单照片并提问‘最贵的主菜是什么？’，VQA系统识别图像中的文字与价格布局，定位‘黑松露牛排 ¥298’并回答‘黑松露牛排’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态",
+    "计算机视觉",
+    "智能交互"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://visualquestionanswer.github.io/",
+    "https://huggingface.co/tasks/visual-question-answering"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:19:51Z"
+  "updated_at": "2026-03-23T15:10:27.030923Z",
+  "quality_score": 0.95
 }

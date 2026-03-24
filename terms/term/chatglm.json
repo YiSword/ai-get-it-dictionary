@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ChatGLM 是由智谱AI研发的一系列开源中文对话大语言模型，具备较强的中英文理解与生成能力，支持多轮对话、逻辑推理、编程辅助等任务。它以轻量高效、本地可部署为特点，普通用户无需依赖云端服务即可在个人电脑上运行，适合对隐私敏感、网络受限或希望自主控制AI工具的场景。了解ChatGLM有助于用户在开源AI生态中选择一款易用、可信且中文优化良好的本地化智能助手。",
+    "plain": "ChatGLM 是由智谱 AI 研发的开源中文对话大语言模型系列。具备较强的中英文理解与生成能力，支持多轮对话、逻辑推理及编程辅助。其特点是轻量高效，支持本地部署，用户无需云端即可在个人电脑运行，适合隐私敏感或网络受限场景。是开源生态中易用且中文优化良好的本地化智能助手。",
     "metaphor": "就像一位精通中文的私人图书管理员，不仅熟悉馆藏（训练数据），还能随时在你家书房（本地设备）里为你快速整理资料、解答疑问、撰写文稿。",
     "example": "一名高校教师在离线环境中使用ChatGLM桌面版，为学生自动生成课程讲义摘要和课后习题，并确保学生数据不上传至任何远程服务器。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "开源模型",
+    "本地部署",
+    "智能对话"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.zhipuai.cn/",
+    "https://github.com/THUDM/ChatGLM"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:51:44Z",
-  "updated_at": "2026-03-21T04:26:15Z"
+  "updated_at": "2026-03-23T16:53:14.185986Z",
+  "quality_score": 0.95
 }

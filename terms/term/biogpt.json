@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "BioGPT 是微软研究院开发的专用于生物医学领域的生成式预训练语言模型，基于 GPT 架构，但在大量生物医学文献（如 PubMed 论文摘要）上进行了专门训练。它能理解并生成专业术语、基因名称、疾病机制、实验方法等内容，显著优于通用大模型在生物医学问答、文献摘要生成、假设推导等任务上的表现。普通用户——尤其是科研人员、医学生、临床工作者或生物医药从业者——需要知道它，因为它是首个面向生物医学深度优化的开源生成模型，可辅助快速解读文献、撰写科研初稿、梳理知识脉络，降低专业信息处理门槛。",
+    "plain": "BioGPT 是微软研究院推出的生物医学领域生成式预训练模型。基于 GPT 架构，在 PubMed 等大量生物医学文献上训练。擅长理解基因、疾病等专业术语，在生物医学问答、文献摘要及假设推导任务上表现优异。作为领域深度优化的开源模型，它能辅助科研人员快速解读文献、撰写初稿，降低专业信息处理门槛。",
     "metaphor": "就像一位精通生物学和医学的资深图书管理员，不仅能精准听懂你用专业术语提出的复杂问题，还能从浩如烟海的学术资料中迅速整理出逻辑清晰、术语准确的回答。",
     "example": "一名研究生在阅读一篇关于CRISPR-Cas9脱靶效应的新论文时，用BioGPT输入‘请总结该研究中使用的脱靶检测方法及其局限性’，模型即刻生成一段涵盖 GUIDE-seq、Digenome-seq 原理对比及作者指出的技术瓶颈的简明摘要。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "生物医学",
+    "科研辅助",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/microsoft/BioGPT",
+    "https://www.microsoft.com/en-us/research/project/biogpt/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:08:17Z"
+  "updated_at": "2026-03-23T16:45:24.014822Z",
+  "quality_score": 0.95
 }

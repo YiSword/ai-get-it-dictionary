@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "openai_o1",
+  "norm_term": "openai_o1",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "大语言模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "OpenAI o1 是 OpenAI 推出的新一代推理模型，专注于复杂逻辑推理与多步任务处理。它采用强化学习训练，在数学、编程及科学领域表现卓越。与前代模型相比，o1 在回答前会进行内部思考，显著提升准确性。适用于科研辅助、代码开发及高难度问题分析场景，代表了大模型向深度推理演进的方向。",
+    "metaphor": "如同一位精通多学科的超级助手，既能快速解答数学难题，又能分析图表数据，还能用通俗语言解释专业概念。",
+    "example": "科研人员使用 openai_o1 分析实验数据时，模型可自动识别异常值、生成可视化建议，并用自然语言总结关键发现，大幅缩短研究周期。"
+  },
+  "scenario_tags": [
+    "复杂推理",
+    "代码生成",
+    "科学研究"
+  ],
+  "sources": [
+    "https://openai.com/o1/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:30:39.314270Z",
+  "updated_at": "2026-03-23T14:55:10.020829Z",
+  "quality_score": 0.95
+}

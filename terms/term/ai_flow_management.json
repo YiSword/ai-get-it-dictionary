@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "ai_flow_management",
+  "norm_term": "ai_flow_management",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "practice",
+  "category": "工程管理",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "AI 流程管理是对人工智能系统开发、部署及运维全生命周期的标准化管控。它协调数据流、模型训练、推理服务与监控反馈，解决组件协同效率低、资源分配不均及可靠性不足问题。良好的流程管理直接决定 AI 应用的性能稳定性与迭代速度，是智能客服、推荐系统等场景高效运行的基础保障。",
+    "metaphor": "如同交响乐团指挥协调不同乐器声部，AI 流程管理者需统筹数据工程师、算法模型和算力资源，确保各环节像乐谱般精准配合，最终呈现和谐的技术乐章。",
+    "example": "某电商平台使用 AI 流程管理工具，将用户行为数据采集、实时推荐模型训练和 A/B 测试部署串联成自动化流水线，使促销活动期间的推荐准确率提升 40%，同时降低 30% 的服务器冗余成本。"
+  },
+  "scenario_tags": [
+    "MLOps",
+    "生命周期管理",
+    "系统运维"
+  ],
+  "sources": [
+    "https://cloud.google.com/mlops"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:49:08.890671Z",
+  "updated_at": "2026-03-23T15:53:47.886638Z",
+  "quality_score": 1.0
+}

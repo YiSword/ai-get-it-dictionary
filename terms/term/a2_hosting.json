@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "a2_hosting 是一家提供网站托管服务的美国公司，专注于高性能、开发者友好的虚拟主机、云服务器和WordPress托管。它以支持多种编程语言（如PHP、Python、Node.js）、内置缓存优化、免费SSL证书和绿色能源数据中心为特色。普通用户需要了解它，是因为选择合适的托管服务商直接影响网站速度、安全性、 uptime 和后续扩展能力——尤其对初学者建站或中小型企业而言，a2_hosting 提供了易用性与技术灵活性之间的良好平衡。",
+    "plain": "A2 Hosting 是一家美国网站托管服务商，提供高性能虚拟主机、云服务器及 WordPress 托管服务。特色包括多语言支持、内置缓存、免费 SSL 及绿色数据中心。选择合适的托管商直接影响网站速度、安全与扩展性，该品牌在易用性与技术灵活性间平衡良好，适合初学者及中小企业建站使用。",
     "metaphor": "就像租一间装修好、带高速电梯和24小时物业的智能公寓，你不用操心水电布线和建筑维护，却能随时按需升级房间或加装智能家居。",
     "example": "一位自由设计师用 a2_hosting 的共享主机快速上线个人作品集网站，启用一键 WordPress 安装和免费 Let's Encrypt SSL，三天内完成部署并开始接单。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "网站建站",
+    "云服务",
+    "基础设施"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.a2hosting.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:45:41Z",
-  "updated_at": "2026-03-21T03:14:04Z"
+  "updated_at": "2026-03-23T14:02:39.570185Z",
+  "quality_score": 0.95
 }

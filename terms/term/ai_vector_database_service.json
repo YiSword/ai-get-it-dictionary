@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "ai_vector_database_service",
+  "norm_term": "ai_vector_database_service",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "platform",
+  "category": "AI 基础设施",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "AI 向量数据库服务是专为存储和检索高维向量数据设计的云平台。它将文本、图像等非结构化数据转化为向量，实现高效的语义搜索与相似度匹配。相比传统数据库，它更擅长处理复杂语义关联，支持大规模索引。该技术是智能推荐、图像识别及大模型 RAG 应用的核心底层设施，助力企业快速构建 AI 驱动的数据检索能力。",
+    "metaphor": "就像给图书馆的每本书添加了智能标签，不仅按书名分类，还能根据内容主题自动关联相似书籍，让读者通过模糊描述快速找到所需资料。",
+    "example": "电商平台使用向量数据库存储商品图片特征，当用户上传某件衣服照片时，系统能立即推荐视觉风格相似的商品，即使商品名称或描述完全不同。"
+  },
+  "scenario_tags": [
+    "语义搜索",
+    "推荐系统",
+    "大模型应用"
+  ],
+  "sources": [
+    "https://aws.amazon.com/cn/what-is/vector-database/",
+    "https://www.pinecone.io/learn/vector-database/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:49:35.794736Z",
+  "updated_at": "2026-03-23T11:28:42.512674Z",
+  "quality_score": 1.0
+}

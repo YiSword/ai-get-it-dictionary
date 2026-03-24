@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "提示工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "few_shot_prompting（少样本提示）是一种让大语言模型快速理解并执行新任务的技术，通过在提示中提供少量（通常2-5个）输入-输出示例，而非依赖大量训练数据或复杂指令。它降低了使用门槛，使普通用户无需编程或调参就能引导模型完成如翻译、分类、改写等任务，特别适合快速验证想法或处理个性化需求。",
+    "plain": "少样本提示（Few-Shot Prompting）是一种提示工程技术，通过在输入中提供少量输入 - 输出示例，引导大语言模型理解任务意图并生成预期结果。无需微调模型，仅需在提示词中包含几个示范案例，即可显著提升模型在分类、翻译等任务上的表现，适用于快速适配新场景。",
     "metaphor": "就像教朋友做一道新菜时，不讲烹饪理论，而是直接给他看三份成品照片和对应的食材步骤清单，他就能照着做出第四份。",
     "example": "用户想让AI把口语化句子转成正式邮件用语，就在提示里给出两个例子：'嘿，明早开会记得来！→ 请您准时参加明日早晨的会议。'，再附上新句子请求转换。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "提示工程",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2005.14165"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:26:57Z"
+  "updated_at": "2026-03-23T13:01:58.729665Z",
+  "quality_score": 0.95
 }

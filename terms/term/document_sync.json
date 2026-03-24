@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "document_sync（文档同步）是指在多个设备或用户之间实时或近实时地保持同一份文档内容一致的技术机制。它通过自动检测修改、上传变更、下载更新并解决冲突，确保无论你在手机、电脑还是网页端编辑，看到的都是最新版本。普通用户需要了解它，因为它是协作办公、跨设备无缝续写、防止误覆盖或丢失工作的基础——若同步失效，可能导致辛苦编辑的内容被旧版本覆盖，或团队成员看到不同信息。",
+    "plain": "document_sync（文档同步）指在多设备或用户间保持文档内容一致的技术机制。它通过自动检测修改、上传变更及冲突解决，确保多端实时查看最新版本。这是协作办公与跨设备续写的基础，能有效防止内容被旧版本覆盖或丢失，保障团队信息一致性与工作连续性。",
     "metaphor": "就像一群人在同一块共享白板上写字，每个人写的字会瞬间出现在所有人的白板上，且系统能自动协调谁先写、谁改了哪一行，避免涂改混乱。",
     "example": "当你在 iPad 上用 Notion 编辑会议纪要，随后在笔记本电脑上打开同一文档时，新增的待办事项和高亮文字已自动出现；即使同事也在同时修改，系统会合并各自改动或提示冲突供你选择保留。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云端协作",
+    "数据同步",
+    "协同办公"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://support.microsoft.com/en-us/office/sync-files-with-the-onedrive-sync-client",
+    "https://support.google.com/drive/answer/2374304"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:46:15Z"
+  "updated_at": "2026-03-23T19:07:22.708986Z",
+  "quality_score": 0.95
 }

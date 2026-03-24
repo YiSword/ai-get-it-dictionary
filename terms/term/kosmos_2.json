@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Kosmos-2 是由微软亚洲研究院提出的多模态大模型，能够统一处理文本、图像、音频、视频等多种输入，并生成跨模态的响应。它在视觉理解、图文生成、多模态推理等任务上表现突出，支持端到端的模态对齐与融合。普通用户需要了解它，是因为它代表了AI从单一模态（如纯文本）走向真实世界感知能力的关键进展——未来聊天助手、内容创作工具、无障碍交互系统等都将依赖此类模型提供更自然、更智能的服务。",
+    "plain": "Kosmos-2 是微软亚洲研究院推出的多模态大语言模型。它不仅能处理文本，还能理解图像、进行 OCR 识别及视觉推理。该模型通过端到端训练实现模态对齐，显著提升了图文问答、内容生成等任务的表现。作为多模态 AI 的代表，它为构建具备真实世界感知能力的智能助手奠定了基础。",
     "metaphor": "就像一位精通多种语言和艺术形式的全能翻译兼策展人，不仅能读懂文字、看懂图片、听懂语音，还能把它们融会贯通，讲出一个连贯的故事。",
     "example": "用户上传一张模糊的老照片和一句‘修复并还原1940年代上海街景风格’，Kosmos-2可自动增强图像细节、识别建筑与人物特征，并生成符合历史语境的高清重绘图与一段描述性文字。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态理解",
+    "视觉推理",
+    "智能助手"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/microsoft/unilm/tree/master/kosmos-2",
+    "https://arxiv.org/abs/2306.14824"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:37:02Z",
-  "updated_at": "2026-03-21T07:55:50Z"
+  "updated_at": "2026-03-23T16:28:34.017378Z",
+  "quality_score": 1.0
 }

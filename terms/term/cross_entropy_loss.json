@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "损失函数",
   "difficulty": "中级",
   "explanations": {
-    "plain": "cross_entropy_loss（交叉熵损失）是一种常用于分类任务的损失函数，用于衡量模型预测的概率分布与真实标签分布之间的差异。它数值越小，说明模型预测越接近真实情况。普通用户不需要手动计算它，但理解其作用有助于判断模型是否在有效学习——比如训练时损失持续下降，通常意味着模型正逐步提升分类准确性；若损失不降或震荡，可能提示数据、模型结构或超参数存在问题。",
+    "plain": "交叉熵损失是分类任务中核心的损失函数，用于衡量预测概率分布与真实标签的差异。数值越小代表模型预测越准确。训练过程中，损失持续下降表明模型有效学习；若停滞或震荡，则需检查数据或超参数。它是评估模型性能的关键指标。",
     "metaphor": "就像一位老师根据学生答题的自信程度（如‘90%确定选A’）和标准答案来打分：答对且自信得高分，答错却很自信则扣重分，交叉熵损失正是这样一种‘按置信度奖惩’的评分机制。",
     "example": "在图像识别中，当模型将一张猫图预测为‘猫（概率0.8）、狗（0.15）、鸟（0.05）’，而真实标签是‘猫’，交叉熵损失会基于该预测分布与独热编码[1,0,0]的差异计算出一个具体数值，指导模型后续调整参数。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "分类任务",
+    "深度学习",
+    "模型训练"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html",
+    "https://en.wikipedia.org/wiki/Cross_entropy"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:05:56Z"
+  "updated_at": "2026-03-23T12:46:15.907097Z",
+  "quality_score": 0.95
 }

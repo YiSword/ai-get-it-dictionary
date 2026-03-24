@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 治理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Arthur AI 是一家专注于AI模型可解释性、公平性与合规性的技术公司，提供平台帮助企业和监管机构理解、验证和监控AI系统的决策逻辑。它不直接面向终端用户发布消费级产品，而是服务于金融机构、医疗企业等高风险AI应用方，确保其AI系统符合法律要求（如欧盟AI法案、美国反歧视法）并降低部署风险。普通用户需要知道它，是因为它在幕后保障你使用的信贷审批、招聘筛选或保险定价等AI服务更公正、透明且可追责。",
+    "plain": "Arthur AI 是一家专注于 AI 模型监控与治理的企业服务平台。它帮助金融机构、医疗企业等高风险应用方验证 AI 系统的公平性、可解释性与合规性，确保符合欧盟 AI 法案等法律要求。普通用户虽不直接使用，但其技术保障了信贷、招聘等决策的公正透明。",
     "metaphor": "Arthur AI 就像AI系统的‘飞行数据记录仪’和‘独立审计师’的结合体——既实时记录模型如何做决定，又用专业标准检验这些决定是否合理合法。",
     "example": "一家银行使用Arthur AI分析其贷款审批模型，发现模型隐式依赖邮政编码导致对低收入社区申请人产生系统性偏见，随后据此调整特征工程并重新训练模型以满足公平性监管要求。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "企业级应用",
+    "合规监管",
+    "模型监控"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.arthur.ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:42:30Z"
+  "updated_at": "2026-03-23T18:06:18.997247Z",
+  "quality_score": 1.0
 }

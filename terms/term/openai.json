@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "公司",
   "difficulty": "中级",
   "explanations": {
-    "plain": "OpenAI 是一家人工智能公司，专注于研发和部署大型语言模型（如 GPT 系列）及其他先进 AI 技术。它开发的模型能理解与生成自然语言、编写代码、回答问题等。普通用户需要了解 OpenAI，因为其技术已深度融入日常工具——例如 ChatGPT、Microsoft Copilot 和部分搜索引擎插件——直接影响人们获取信息、学习、办公甚至创作的方式，也引发关于AI可靠性、隐私与伦理的重要讨论。",
+    "plain": "OpenAI 是一家美国人工智能公司，致力于研发安全有益的人工通用智能。其著名产品包括 GPT 系列大模型和 ChatGPT。该技术广泛应用于编程、写作及搜索引擎插件，深刻改变信息获取与办公方式，同时也引发关于伦理与隐私的讨论。",
     "metaphor": "OpenAI 就像一位受过全球顶尖训练、精通上百种语言和学科的超级助教，你随时提问，它即时梳理知识、组织逻辑、给出建议，但不会替你做决定或保证答案绝对正确。",
     "example": "一名高中生用 ChatGPT（由 OpenAI 提供模型支持）分析《红楼梦》中林黛玉的性格演变，并根据反馈迭代修改自己的读书报告提纲。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "生成式 AI",
+    "大模型",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:58:41Z"
+  "updated_at": "2026-03-23T14:01:13.193687Z",
+  "quality_score": 0.95
 }

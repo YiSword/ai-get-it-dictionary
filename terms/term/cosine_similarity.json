@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "余弦相似度（cosine_similarity）是一种衡量两个向量方向一致性的数学方法，取值范围在-1到1之间：1表示完全同向，0表示正交（无相关性），-1表示完全反向。它不关心向量的长度（即数值大小），只关注它们在多维空间中的夹角。普通用户需要了解它，因为它是推荐系统、搜索引擎、文本比对等日常应用背后的核心原理——比如为什么你搜‘苹果’，平台会同时推荐手机和水果相关内容，正是因为它把词语映射为向量并计算了方向上的接近程度。",
+    "plain": "余弦相似度用于衡量两个向量方向的相似性，取值范围 -1 到 1。1 表示完全相同，0 表示正交，-1 表示完全相反。它忽略向量长度，只关注夹角。广泛应用于推荐系统、搜索引擎和文本比对，通过计算向量夹角判断内容相关性，是 AI 理解语义相似度的核心数学工具之一。",
     "metaphor": "就像两个人站在广场中央各自指向远方，余弦相似度不计较他们手臂伸得多长，只看两人手指所指的方向有多接近。",
     "example": "在新闻聚合App中，系统将每篇文章转化为词向量，通过余弦相似度快速找出与用户刚读过的科技报道语义最接近的其他文章，从而实现个性化推荐。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "推荐系统",
+    "自然语言处理",
+    "相似度计算"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html",
+    "https://en.wikipedia.org/wiki/Cosine_similarity"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:01:07Z"
+  "updated_at": "2026-03-23T18:42:10.825608Z",
+  "quality_score": 0.95
 }

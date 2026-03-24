@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "minimax_api 是 MiniMax 公司提供的用于访问其人工智能模型（如ABAB系列大语言模型、多模态模型等）的编程接口。它允许开发者通过HTTP请求调用文本生成、对话理解、图像描述等AI能力，通常需身份认证和配额管理。普通用户虽不直接使用，但依赖该API构建的App或服务（如智能客服、写作助手、AI绘图工具）正日益普及，了解其存在有助于理解AI功能背后的支撑机制及数据隐私、响应延迟等实际体验来源。",
+    "plain": "minimax_api 是 MiniMax 公司提供的编程接口，允许开发者通过 HTTP 请求调用其 ABAB 系列大模型及多模态能力。支持文本生成、对话理解等功能，需身份认证与配额管理。开发者利用该 API 构建各类 AI 应用，是连接用户与模型能力的技术桥梁。",
     "metaphor": "就像餐厅的后厨传菜口——用户点单（发送请求），厨师（MiniMax模型）在后台处理，再通过窗口（API）把做好的菜（AI结果）递出来。",
     "example": "某教育App集成 minimax_api 实现实时作文批改：学生提交作文后，前端将文本发至该API，后端接收模型返回的语法纠错、逻辑建议与评分，3秒内呈现给用户。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型调用",
+    "应用开发",
+    "API 集成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.minimax.io/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:40:58Z"
+  "updated_at": "2026-03-23T14:47:12.561728Z",
+  "quality_score": 0.95
 }

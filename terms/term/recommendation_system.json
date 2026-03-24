@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "推荐系统是一种利用用户行为、偏好和物品特征等数据，自动为用户筛选并推送可能感兴趣内容的智能技术。它广泛应用于电商、视频平台、新闻App等场景，帮助用户在信息过载时代快速发现符合口味的商品、影片或文章。普通用户需要了解它，是因为它深刻影响日常决策——从购物选择到时间分配，甚至塑造认知边界；同时理解其运作逻辑，有助于更理性地看待个性化推送，避免陷入‘信息茧房’。",
+    "plain": "推荐系统是基于用户行为、偏好及物品特征数据，自动筛选并推送潜在感兴趣内容的智能技术。广泛应用于电商、视频及新闻场景，帮助用户在信息过载中快速发现目标内容。理解其逻辑有助于理性看待个性化推送，避免陷入信息茧房，提升决策效率。",
     "metaphor": "就像一位熟悉你口味、记得你上次点了什么、还悄悄观察你朋友爱吃什么的贴心餐厅服务员，主动为你端上最可能合意的新菜。",
     "example": "当你在淘宝浏览了几款蓝牙耳机后，首页‘猜你喜欢’栏立刻出现相似型号及搭配耳塞的推荐；或Netflix根据你观看《黑镜》的记录，向你推荐风格相近的《西部世界》。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "个性化推荐",
+    "电子商务",
+    "数据挖掘"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Recommender_system",
+    "https://developers.google.com/machine-learning/recommendation"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:30:04Z"
+  "updated_at": "2026-03-23T16:17:14.385496Z",
+  "quality_score": 0.95
 }

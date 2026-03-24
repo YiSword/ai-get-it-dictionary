@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型微调",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LoRA for Diffusion 是一种轻量级模型微调技术，专为扩散模型（如 Stable Diffusion）设计。它通过在原始模型的注意力层或变换层中插入低秩矩阵来实现参数高效训练，仅更新少量新增参数（通常<1%），大幅降低显存与计算需求。普通用户需要了解它，因为这意味着无需高端硬件即可个性化定制AI绘画风格——比如快速训练专属画风、角色或特效，且模型体积小、易分享、可叠加，极大降低了创作门槛和部署成本。",
+    "plain": "LoRA for Diffusion 是专为扩散模型设计的轻量级微调技术。它在注意力层插入低秩矩阵，仅更新少量参数，大幅降低显存与计算需求。用户无需高端硬件即可定制 AI 绘画风格、角色或特效。模型体积小、易分享、可叠加，极大降低了创作门槛，是 Stable Diffusion 生态中实现个性化生成的核心方案。",
     "metaphor": "就像给一本厚重的百科全书加了一本薄薄的‘速查便签册’，不改动原书内容，却能快速引导它按你的偏好回答问题。",
     "example": "一位插画师用仅4GB显存的笔记本电脑，基于Stable Diffusion XL训练出仅15MB大小的LoRA模型，专门生成其标志性的水彩质感人物肖像，并可一键注入到不同基础模型中使用。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 绘画",
+    "模型微调",
+    "显存优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2106.09685",
+    "https://github.com/microsoft/LoRA"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:19:50Z"
+  "updated_at": "2026-03-23T15:36:00.252288Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能应用",
   "difficulty": "中级",
   "explanations": {
-    "plain": "drug_discovery_ai 是指利用人工智能技术（如机器学习、深度学习、自然语言处理等）加速新药研发全过程的交叉领域，涵盖靶点识别、分子设计、活性预测、毒性评估及临床试验优化等环节。传统药物研发平均耗时10-15年、成本超20亿美元，而AI可大幅缩短周期、降低失败率。普通用户需要了解它，因为这不仅关乎未来更有效、更便宜的治疗方案能否更快上市，也影响个人健康选择、医保政策走向和生物医药产业的创新公平性。",
+    "plain": "drug_discovery_ai 指利用 AI 技术加速新药研发的交叉领域，涵盖靶点识别、分子设计、活性预测及临床试验优化等环节。相比传统研发，它能显著缩短周期、降低成本并提高成功率，是推动生物医药创新的关键技术，直接影响未来治疗方案的可及性与效率。",
     "metaphor": "就像一位精通百万本医学文献、能瞬间模拟千万种分子反应的超级药物化学家兼实验管家，AI在药物发现中既是博学的研究员，又是不知疲倦的试错助手。",
     "example": "Insilico Medicine公司使用生成式AI平台设计出全新靶点的特发性肺纤维化候选药物ISM001-055，并在18个月内完成从靶点发现到临床前候选化合物确认，传统流程通常需4–6年。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "医疗健康",
+    "新药研发",
+    "人工智能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.nature.com/subjects/drug-discovery",
+    "https://www.fda.gov/science-research/science-and-research-special-topics/artificial-intelligence-and-machine-learning-software-medical-device"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:55:50Z"
+  "updated_at": "2026-03-23T14:11:28.555414Z",
+  "quality_score": 0.95
 }

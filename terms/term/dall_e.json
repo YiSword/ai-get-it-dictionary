@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DALL·E 是由 OpenAI 开发的生成式人工智能模型，能根据自然语言描述（即文本提示）自动生成高质量、原创的图像。它融合了语言理解和视觉生成能力，支持多种风格、视角和细节控制。普通用户需要了解它，是因为它正在重塑创意工作流——无需绘画技能，就能快速将想法可视化，广泛应用于设计、教育、营销甚至日常娱乐，同时它也引发了关于版权、真实性与人机协作的新讨论。",
+    "plain": "DALL·E 是 OpenAI 推出的文生图生成式 AI 模型，能根据文本提示自动生成高质量图像。它融合语言理解与视觉生成能力，无需绘画技能即可将想法可视化。广泛应用于设计、营销等领域，同时也引发了关于版权与人机协作的讨论。",
     "metaphor": "就像一位不知疲倦、从不打盹的全能插画师，你只需用日常语言‘点单’，它就能立刻为你手绘出脑海中的画面。",
     "example": "一位教师输入提示‘一只穿着宇航服的卡通猫站在火星表面，背景有两颗小卫星和地球悬在天空中’，DALL·E 几秒内便生成一张符合描述的高清插图用于课堂演示。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "创意设计",
+    "内容创作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/dall-e-3"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T05:09:37Z"
+  "updated_at": "2026-03-23T16:11:38.581017Z",
+  "quality_score": 0.95
 }

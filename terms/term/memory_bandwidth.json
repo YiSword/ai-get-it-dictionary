@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "硬件性能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "memory_bandwidth（内存带宽）是指内存子系统在单位时间内能够传输的数据量，通常以GB/s为单位。它取决于内存频率、总线位宽和通道数等因素，直接影响CPU与内存之间数据交换的速率。普通用户需要关注它，因为过低的内存带宽会成为系统瓶颈——即使CPU性能强劲、显卡高端，运行大型游戏、视频剪辑或AI应用时仍可能出现卡顿、加载缓慢或帧率不稳，尤其在多任务并行或处理高分辨率素材时更为明显。",
+    "plain": "内存带宽指内存子系统单位时间内传输的数据量，通常以 GB/s 为单位。它取决于频率、位宽和通道数，决定 CPU 与内存的数据交换速率。带宽过低会成为系统瓶颈，导致游戏卡顿、视频剪辑缓慢或 AI 推理延迟，在多任务及高分辨率场景下影响尤为显著。",
     "metaphor": "就像高速公路的车道数和车速共同决定了每小时能通过多少辆车，内存带宽决定了CPU每秒能从内存‘取’或‘存’多少数据。",
     "example": "一台配备双通道DDR5-6000内存的笔记本，其理论内存带宽约为96 GB/s；若升级为四通道配置，带宽可翻倍，显著加速Photoshop批量处理4K图层或Stable Diffusion本地生成图像的过程。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "硬件性能",
+    "系统瓶颈",
+    "AI 基础设施"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Memory_bandwidth",
+    "https://www.intel.com/content/www/us/en/products/docs/memory-resources/memory-bandwidth.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:33:28Z"
+  "updated_at": "2026-03-23T11:54:02.486874Z",
+  "quality_score": 0.95
 }

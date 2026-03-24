@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发框架",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Haystack 是一个开源的端到端问答（QA）和检索增强生成（RAG）框架，用于构建基于文档的智能搜索与问答系统。它允许开发者将自有文档（如PDF、网页、数据库等）接入，自动建立索引，并通过自然语言提问获取精准答案。普通用户无需了解底层向量数据库或大模型细节，就能快速搭建可定制、可扩展的企业级搜索应用，因此对需要高效处理私有知识库的业务人员、产品经理和技术决策者尤为重要。",
+    "plain": "Haystack 是 deepset 推出的开源框架，专为构建检索增强生成（RAG）和智能问答系统设计。它支持连接多种文档源与向量数据库，简化索引到生成的全流程。开发者可快速搭建私有知识库搜索应用，无需深究底层模型细节，适用于企业级搜索场景。",
     "metaphor": "就像给你的私人图书馆装上一位精通所有藏书、能秒答‘第37页提到的实验参数是多少’的图书管理员。",
     "example": "一家医疗公司用 Haystack 将数千份临床指南PDF导入系统，医生输入‘糖尿病患者使用二甲双胍的禁忌症有哪些？’，系统立即从相关文档中提取并返回结构化答案，而非仅返回整页PDF链接。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "RAG",
+    "开发框架",
+    "智能搜索"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://haystack.deepset.ai/",
+    "https://github.com/deepset-ai/haystack"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:06:56Z"
+  "updated_at": "2026-03-23T14:33:28.527985Z",
+  "quality_score": 1.0
 }

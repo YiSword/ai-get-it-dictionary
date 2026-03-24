@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "分布式训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "context_parallelism（上下文并行）是一种大语言模型训练与推理中的分布式计算策略，它将长输入序列按上下文（如文档段落或对话轮次）切分，分配到不同设备上并行处理，同时保持跨设备的注意力计算一致性。它不同于数据并行或张量并行，专为高效处理超长上下文而设计，能显著降低显存占用和通信开销。普通用户需要了解它，因为它是支撑现代AI处理万字文档、长对话历史或代码库级理解的关键底层技术，直接影响模型响应的完整性与实时性。",
+    "plain": "上下文并行是大模型分布式策略，将长序列切分至不同设备并行处理，保持注意力一致性。不同于数据或张量并行，它专为超长上下文设计，降低显存与通信开销。它是处理万字文档、长对话的关键技术，直接影响模型响应的完整性与实时性。",
     "metaphor": "就像一群图书管理员协同校对一本巨著：每人负责不同章节，但通过实时共享批注索引，确保全书逻辑连贯、引用准确，而非各自为政。",
     "example": "在训练一个支持128K上下文的代码补全模型时，系统采用context_parallelism将单次输入的超长源码文件切分为多个上下文块，分发至8张GPU并行执行注意力计算，并通过环形通信同步关键位置的KV缓存。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型训练",
+    "分布式计算",
+    "性能优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/NVIDIA/Megatron-LM",
+    "https://arxiv.org/abs/2305.19370"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:52:08Z"
+  "updated_at": "2026-03-23T17:02:01.125869Z",
+  "quality_score": 1.0
 }

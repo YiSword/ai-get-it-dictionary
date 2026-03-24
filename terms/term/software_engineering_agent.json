@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "software_engineering_agent 是指一种具备软件工程专业知识与自动化能力的智能体，能理解需求、设计架构、编写测试、审查代码、管理依赖甚至部署应用。它不是简单执行指令的脚本，而是能推理上下文、权衡技术选型、遵循工程规范的协作伙伴。普通用户（尤其是开发者、产品经理或技术决策者）需要了解它，因为它正逐步改变软件开发的协作模式——从‘人写全部代码’转向‘人定义目标，Agent完成工程闭环’，影响效率、质量与职业能力要求。",
+    "plain": "software_engineering_agent 是具备软件工程知识与自动化能力的 AI 智能体。它能理解需求、设计架构、编写测试、审查代码及部署应用。不同于简单脚本，它能推理上下文、权衡技术选型并遵循工程规范。它正改变开发协作模式，从“人写代码”转向“人定义目标，Agent 完成闭环”，是开发者的重要协作伙伴。",
     "metaphor": "就像一位经验丰富的首席工程师坐在你工位旁，既能听懂你用自然语言描述的业务想法，又能立刻画出流程图、拆解任务、写可测试的代码，并提醒你潜在的性能瓶颈。",
     "example": "某初创团队用 software_engineering_agent 根据‘为销售团队构建一个离线可用的客户拜访记录App’这一需求，自动生成React Native前端、SQLite本地数据库设计、同步冲突解决逻辑，并输出CI/CD配置和单元测试套件。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "智能开发",
+    "人机协作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/princeton-nlp/SWE-agent",
+    "https://arxiv.org/abs/2405.15793"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:47:23Z"
+  "updated_at": "2026-03-23T17:21:40.859556Z",
+  "quality_score": 0.95
 }

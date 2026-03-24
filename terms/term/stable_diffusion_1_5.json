@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "文生图模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "stable_diffusion_1_5 是 Stability AI 于2022年发布的开源文本到图像生成模型，是 Stable Diffusion 系列中最具里程碑意义的版本之一。它在图像质量、提示词理解能力和硬件兼容性之间取得了良好平衡，支持在消费级显卡（如8GB显存GPU）上本地运行。普通用户需要了解它，因为它是大量AI绘画工具（如Automatic1111 WebUI、ComfyUI）的底层基础，也是社区模型微调、LoRA训练和插件开发的事实标准起点。",
+    "plain": "Stable Diffusion 1.5 是 Stability AI 于 2022 年发布的开源文生图模型。它是系列中最具里程碑意义的版本，在图像质量与硬件兼容性间取得平衡，支持消费级显卡本地运行。作为 AI 绘画工具（如 WebUI、ComfyUI）的底层基础，它是社区微调、LoRA 训练和插件开发的事实标准起点。",
     "metaphor": "就像摄影领域的‘全画幅相机机身’——它本身不自带镜头或滤镜，但提供了高兼容性接口，让无数第三方镜头（模型）、闪光灯（插件）和暗房软件（UI工具）得以围绕它自由组合与创新。",
     "example": "一位插画师用 Stable Diffusion 1.5 加载‘realisticVision’微调模型，在本地电脑上输入提示词‘cyberpunk street at night, neon rain, cinematic lighting’，30秒内生成一张可直接用于概念设计的高清图像。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "开源模型",
+    "AIGC"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/runwayml/stable-diffusion-v1-5",
+    "https://github.com/Stability-AI/stablediffusion"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:30:07Z",
-  "updated_at": "2026-03-21T09:52:18Z"
+  "updated_at": "2026-03-23T13:40:47.088125Z",
+  "quality_score": 0.95
 }

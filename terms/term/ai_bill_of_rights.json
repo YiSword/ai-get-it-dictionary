@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "ai_bill_of_rights",
+  "norm_term": "ai_bill_of_rights",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "regulation",
+  "category": "政策框架",
+  "difficulty": "入门",
+  "explanations": {
+    "plain": "人工智能权利法案蓝图由美国白宫科技政策办公室发布，旨在保护公民使用自动化系统时的基本权利。虽非正式法律，但为 AI 治理提供核心原则，确立五大保护：系统安全、防止歧视、数据隐私、通知解释及人工替代选项。它帮助用户识别数字服务中的不公平对待，确保技术透明可问责，是理解全球 AI 治理趋势及维护数字人权的基础。",
+    "metaphor": "就像消费者购买食品有权知道成分表一样，该法案确保用户在使用 AI 服务时，有权知道系统如何决策、数据如何使用，并在系统出错时有人类客服介入，是数字时代的消费者权益保护书。",
+    "example": "当某银行使用 AI 算法审批贷款时，若因性别或种族原因拒绝申请，用户可依据该法案原则要求银行解释决策逻辑并提供人工复核渠道。这确保了自动化决策不会隐蔽地歧视特定群体，保障了公平获贷的权利。"
+  },
+  "scenario_tags": [
+    "AI 治理",
+    "政策合规",
+    "用户权益"
+  ],
+  "sources": [
+    "https://www.whitehouse.gov/ostp/ai-bill-of-rights/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:52:40.651759Z",
+  "updated_at": "2026-03-23T13:00:17.656106Z",
+  "quality_score": 0.95
+}

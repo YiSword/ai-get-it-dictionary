@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "API 设计",
   "difficulty": "中级",
   "explanations": {
-    "plain": "batch_api 是一种允许客户端一次性提交多个操作请求的编程接口，而非逐个发送单个请求。它通过将多个任务（如创建、更新或删除多条记录）打包成一个HTTP请求来减少网络往返次数和服务器开销，从而提升性能与效率。普通用户虽不直接调用，但其使用的应用（如邮件批量发送、社交媒体内容同步、SaaS平台数据导入）往往依赖此机制来实现快速、稳定的大规模操作，避免卡顿或超时。",
+    "plain": "batch_api 是一种允许客户端一次性提交多个操作请求的编程接口。它将多个任务打包成单个 HTTP 请求，减少网络往返与服务器开销，显著提升性能。常用于邮件群发、数据同步及导入等场景，避免频繁请求导致的超时，是实现大规模操作高效处理的关键机制。",
     "metaphor": "就像去邮局寄10封信时，不是排10次队分别寄出，而是把它们装进一个大信封、贴一张邮票、一次投递。",
     "example": "某电商后台需在促销开始前将5000件商品的价格和库存状态同步更新，系统通过调用 batch_api 在单次HTTP请求中提交全部变更，而非发起5000次独立API调用。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "性能优化",
+    "API 集成",
+    "数据处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs/api-reference/batch"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:56:58Z"
+  "updated_at": "2026-03-23T13:37:19.745368Z",
+  "quality_score": 0.95
 }

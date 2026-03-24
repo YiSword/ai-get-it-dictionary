@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "StyleGAN3 是英伟达推出的第三代风格生成对抗网络，专为高质量、高保真度的图像合成而设计。相比前代，它显著减少了生成图像中的纹理闪烁、几何畸变和伪影，尤其在视频序列或高频细节（如毛发、织物纹理）上表现更稳定。普通用户需要了解它，是因为它正驱动着AI头像生成、虚拟主播、游戏资产创作等应用的画质跃升——你用的换脸App、AI艺术工具或数字人背后，很可能就运行着StyleGAN3或其衍生技术。",
+    "plain": "StyleGAN3 是英伟达推出的第三代风格生成对抗网络，专为高质量图像合成设计。相比前代，它显著减少了纹理闪烁和几何畸变，在视频序列或高频细节上表现更稳定。它驱动着 AI 头像、虚拟主播、游戏资产等应用的画质跃升，是许多换脸 App 和 AI 艺术工具背后的核心技术。",
     "metaphor": "就像一位经验丰富的老画家，StyleGAN3不仅画得快，还能让每一笔都稳稳落在该在的位置，避免手抖造成的线条抖动或边缘模糊。",
     "example": "一家虚拟偶像公司使用StyleGAN3实时生成主播面部动画，在直播中保持嘴唇运动与语音同步的同时，确保皮肤纹理和光影过渡自然无闪烁。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "计算机视觉",
+    "AIGC"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/NVlabs/stylegan3",
+    "https://nvlabs.github.io/stylegan3/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:20:10Z",
-  "updated_at": "2026-03-21T09:57:46Z"
+  "updated_at": "2026-03-23T18:06:50.521718Z",
+  "quality_score": 0.95
 }

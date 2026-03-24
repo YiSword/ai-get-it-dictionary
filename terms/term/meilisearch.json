@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "搜索引擎",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Meilisearch 是一个开源、轻量级但功能强大的搜索引擎，专为开发者设计，支持实时全文搜索、拼写容错、多语言处理和即时结果返回。它无需复杂配置即可快速集成到网站或应用中，提供简洁的 API 和现代化的默认体验。普通用户虽不直接操作它，但会受益于它驱动的搜索功能——比如在电商网站秒级找到商品、在文档平台精准定位段落，或在内容应用中获得类似 Google 般流畅的搜索响应。",
+    "plain": "Meilisearch 是一款开源、轻量级搜索引擎，专为开发者设计。支持实时全文搜索、拼写容错及多语言处理，无需复杂配置即可通过简洁 API 快速集成。用户虽不直接操作，但能受益于其驱动的秒级搜索体验，常见于电商商品查找、文档定位及内容应用检索场景。",
     "metaphor": "就像给你的网站或应用装上了一台智能图书管理员，不仅能瞬间从成千上万本书里找出最匹配的那一本，还能听懂你模糊的提问、自动纠正打错的字，并把结果按相关性排好队递到你手上。",
     "example": "一家博客平台用 Meilisearch 替代传统数据库模糊查询后，用户输入 'pyhton web framwork'（故意拼错），系统仍准确返回关于 Django 和 Flask 的文章，并在 50 毫秒内完成响应。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "全文搜索",
+    "开源软件",
+    "后端开发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.meilisearch.com",
+    "https://github.com/meilisearch/meilisearch"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:14:38Z",
-  "updated_at": "2026-03-21T08:31:39Z"
+  "updated_at": "2026-03-23T14:49:17.960702Z",
+  "quality_score": 0.95
 }

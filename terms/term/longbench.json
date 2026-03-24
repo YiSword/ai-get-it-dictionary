@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评测基准",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LongBench 是一个专为评估大语言模型长文本理解与推理能力而设计的基准测试套件，涵盖问答、摘要、代码、数学、法律、医疗等12个领域，最大输入长度达16K tokens。它通过统一难度、多样化任务和真实场景数据，弥补了传统评测在长上下文处理上的不足。普通用户（尤其是开发者、研究者和AI产品决策者）需要了解LongBench，因为它能更真实地反映模型在实际应用中处理长文档、复杂指令或跨段落推理时的表现，避免被短文本高分误导。",
+    "plain": "LongBench 是专为评估大语言模型长文本理解与推理能力设计的基准测试套件。涵盖问答、摘要、代码等 12 个领域，输入长度达 16K tokens。它通过统一难度和多样化任务，弥补传统评测在长上下文处理上的不足，真实反映模型处理长文档及复杂指令的表现，避免短文本高分误导。",
     "metaphor": "就像驾照考试不仅考倒车入库，还要考高速路变道、夜间会车和突发状况应对，LongBench 是语言模型的‘全场景驾驶考核’，而非仅限于停车场里的单项测试。",
     "example": "某法律科技公司用LongBench评测两个开源模型在合同审查任务中的表现，发现A模型在短条款上准确率高，但在跨页条款逻辑一致性判断上显著落后于B模型——这一差异仅在LongBench的长上下文法律问答子集中暴露出来。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评测",
+    "长文本处理",
+    "基准测试"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2311.08877",
+    "https://github.com/THUDM/LongBench"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:18:13Z"
+  "updated_at": "2026-03-23T17:53:22.157478Z",
+  "quality_score": 1.0
 }

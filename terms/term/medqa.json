@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据集",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MedQA 是一个面向医学领域的专业问答数据集，主要用于评估和训练人工智能模型在医学知识理解、推理与回答能力方面的表现。它涵盖美国医师执照考试（USMLE）等真实医学考试题目，包含多选题及标准答案。普通用户（尤其是医学生、备考医生或医疗AI使用者）需要了解 MedQA，因为它代表了当前医学AI系统能力的权威评测基准，直接影响临床辅助工具的可靠性与可信度。",
+    "plain": "MedQA 是医学领域的专业问答数据集，汇集美国医师执照考试（USMLE）等真实题目。它包含多选题及标准答案，旨在评估 AI 模型的医学知识理解与推理能力。作为权威评测基准，MedQA 直接反映医疗 AI 系统的可靠性，是开发者与医疗从业者衡量模型性能的关键标准。",
     "metaphor": "MedQA 就像医学AI的‘高考模拟卷’——不是用来教知识的，而是专门用来检验AI是否真正理解并能正确运用医学知识。",
     "example": "研究人员用 MedQA 测试新开发的医学大模型，发现其在心血管疾病相关题目上准确率仅62%，从而针对性地加强该领域的训练数据。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "医疗 AI",
+    "模型评测"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/UCSD-AI4H/MedQA"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:30:33Z"
+  "updated_at": "2026-03-23T15:38:38.399105Z",
+  "quality_score": 0.95
 }

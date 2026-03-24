@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 代理框架",
   "difficulty": "中级",
   "explanations": {
-    "plain": "BabyAGI 是一个轻量级、自主运行的AI代理框架，它通过循环调用大语言模型（如LLM）来动态生成任务、优先排序并执行子任务，从而实现目标驱动的自动化工作流。它不依赖复杂训练或外部数据库，而是依靠提示工程与任务队列机制完成多步推理。普通用户需要了解它，是因为它代表了当前低门槛构建‘类智能体’应用的典型范式——无需编程基础即可尝试让AI自主规划和推进真实任务，是理解AI从工具走向协作者的关键入门案例。",
+    "plain": "BabyAGI 是一个由 Yohei Nakajima 开发的实验性任务管理系统。它利用大语言模型、向量数据库和提示工程，自主创建、优先级排序并执行任务以实现目标。作为早期 AI 代理代表，它展示了如何让 AI 自主规划工作流，无需复杂训练即可实现多步推理，是理解自主智能体范式的关键入门案例。",
     "metaphor": "就像一位自带待办清单本、会自我拆解目标、主动安排先后顺序并逐项打钩的助理实习生。",
     "example": "用户输入‘为我准备一份关于量子计算科普的PPT大纲’，BabyAGI会自动拆解为‘搜索核心概念’‘比较主流解释方式’‘设计逻辑递进结构’等子任务，依次调用模型完成，并最终整合输出完整大纲。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 代理",
+    "自动化",
+    "任务管理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/yoheinakajima/babyagi"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:53:59Z"
+  "updated_at": "2026-03-23T18:47:05.036662Z",
+  "quality_score": 1.0
 }

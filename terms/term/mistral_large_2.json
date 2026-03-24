@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "mistral_large_2",
+  "norm_term": "mistral_large_2",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "大型语言模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Mistral Large 2 是 Mistral AI 发布的第二代旗舰大模型。其在推理、代码及多语言任务上表现卓越，支持更长上下文且效率更高。作为生成式 AI 核心产品，它正被集成至搜索与助手工具中，显著提升用户信息处理效率与交互体验。",
+    "metaphor": "如同将普通自行车升级为电动摩托车，Mistral Large 2 在保持易用性的同时，赋予用户更快的'思维速度'和更远的'知识续航'，能轻松跨越复杂问题的陡坡。",
+    "example": "某电商企业使用该模型分析百万条客户评论，自动识别产品缺陷并生成改进建议报告，将原本需 2 周的人工分析工作压缩至 3 小时完成。"
+  },
+  "scenario_tags": [
+    "自然语言理解",
+    "代码生成",
+    "智能助手"
+  ],
+  "sources": [
+    "https://mistral.ai/news/mistral-large-2/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:41:43.411977Z",
+  "updated_at": "2026-03-23T18:04:18.154246Z",
+  "quality_score": 0.95
+}

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "区块链",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Ledger（账本）是一种按时间顺序、不可篡改地记录交易或事件的系统化簿记工具。它不仅是传统会计中的核心载体，也是区块链等现代分布式系统的基础结构——所有参与者共同维护一份同步、可验证的记录副本。普通用户需要了解它，因为从银行对账单到加密货币转账，再到电子发票存证，ledger 决定了资产归属、操作可追溯性与系统可信度；忽视其原理可能导致对资金安全、数据真实性和责任认定的误判。",
+    "plain": "Ledger（账本）是按时间顺序记录交易或事件的系统化簿记工具。它是传统会计核心，也是区块链等分布式系统的基础，支持参与者共同维护同步、可验证的记录副本。从银行对账单到加密货币转账，ledger 决定了资产归属与操作可追溯性，是确保数据真实性、系统可信度及责任认定的关键基础设施。",
     "metaphor": "就像一本全班同学共同监督、每人持有一本实时同步且无法撕页涂改的班级收支登记册。",
     "example": "当你用比特币转账时，这笔交易会被广播到网络，并最终被写入区块链这个全球共享的分布式账本中，所有节点都保存着包含该记录的完整历史副本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "区块链",
+    "金融交易",
+    "数据存证"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.investopedia.com/terms/l/ledger.asp",
+    "https://www.ibm.com/topics/distributed-ledger"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:21:03Z",
-  "updated_at": "2026-03-21T08:06:32Z"
+  "updated_at": "2026-03-23T14:56:56.497084Z",
+  "quality_score": 0.95
 }

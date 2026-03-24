@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "联邦学习是一种分布式机器学习技术，允许多个设备或机构在不共享原始数据的前提下协同训练一个共享的AI模型。各参与方仅交换加密的模型参数更新（如梯度），而非上传敏感数据本身。普通用户需要了解它，因为这项技术正在被用于保护手机输入法、健康App或银行服务中的隐私——你的打字习惯、心率数据或交易行为无需离开本地设备，就能帮助改进整体服务，同时降低数据泄露和滥用风险。",
+    "plain": "联邦学习是一种分布式机器学习技术，允许多个参与方在不共享原始数据的前提下协同训练模型。各方仅交换加密的模型参数更新，而非上传敏感数据。该技术广泛应用于手机输入法、健康 App 及银行服务，确保用户数据留在本地设备，有效降低隐私泄露风险，同时提升整体模型性能。",
     "metaphor": "就像一群邻居各自在家研究同一道菜谱，只互相分享‘火候调了多少’‘盐加了几克’的经验总结，却从不把自家厨房里的食材、调料瓶甚至灶台照片拿给对方看。",
     "example": "谷歌键盘Gboard使用联邦学习，在数亿部安卓手机上本地训练下一个词预测模型，仅上传匿名化、差分隐私保护的模型更新，从而提升输入体验而不收集用户的实际输入内容。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "隐私保护",
+    "分布式训练",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.google/discover/federated-learning/",
+    "https://en.wikipedia.org/wiki/Federated_learning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:25:53Z"
+  "updated_at": "2026-03-23T16:35:59.407058Z",
+  "quality_score": 0.95
 }

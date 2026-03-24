@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "知识管理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Knowledge transfer 是指将知识、技能、经验或专有信息从一个个体、团队、组织或系统，有意识地传递给另一个接收方的过程。它不仅包括显性知识（如文档、流程、代码），也涵盖隐性知识（如直觉判断、问题解决技巧、行业洞察）。普通用户需要了解这一概念，因为无论是在职场中接手新项目、团队协作中避免重复踩坑，还是在教育、开源社区或跨代际交流中提升效率与传承质量，有效的知识转移都直接影响工作成效、创新速度和组织韧性。",
+    "plain": "知识转移是将知识、技能或经验从一方有意传递给另一方的过程，涵盖显性知识（文档、代码）与隐性知识（直觉、洞察）。适用于职场协作、项目交接及组织传承。有效的转移能避免重复错误，提升工作效率与创新速度，增强组织韧性。",
     "metaphor": "就像一位老厨师手把手教徒弟熬制一锅高汤——不仅给出配方（显性知识），更演示火候变化时的听声辨气、尝味调衡（隐性知识）。",
     "example": "一家科技公司资深架构师离职前，通过结对编程、录制决策复盘视频、编写‘为什么这样设计’的注释文档，系统性地将其微服务治理经验传递给接任工程师。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "知识管理",
+    "团队协作",
+    "组织效能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Knowledge_transfer",
+    "https://www.apqc.org/knowledge-base/topics/knowledge-transfer"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:54:41Z"
+  "updated_at": "2026-03-23T18:07:44.535464Z",
+  "quality_score": 0.95
 }

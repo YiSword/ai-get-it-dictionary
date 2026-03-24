@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 智能体",
   "difficulty": "中级",
   "explanations": {
-    "plain": "tool_calling_agent 是一种能自主决定何时、调用哪些外部工具（如计算器、天气API、数据库查询接口等）来完成用户请求的AI智能体。它不再局限于纯文本生成，而是具备‘动手能力’，可实时获取准确信息或执行操作。普通用户需要了解它，是因为这类智能体正逐渐成为新一代助手的核心能力——比如在订机票时自动查航班、比价格、填表单，大幅提升任务完成的准确性与效率。",
+    "plain": "tool_calling_agent 指能自主决定何时调用外部工具（如计算器、API、数据库）来完成请求的 AI 智能体。它具备“动手能力”，可实时获取信息或执行操作，突破纯文本生成限制。作为新一代助手核心能力，它能大幅提升任务准确性与效率，例如自动查航班、比价格及填表单等场景。",
     "metaphor": "就像一位经验丰富的行政助理，不仅听懂你的需求，还会主动打开日历、发邮件、查交通信息，甚至帮你预订会议室。",
     "example": "用户说‘帮我订明天下午3点从北京到上海、价格低于800元的高铁票’，tool_calling_agent会自动调用铁路12306查询接口、票价筛选工具和购票API，完成全流程操作。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 智能体",
+    "功能调用",
+    "任务自动化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs/guides/function-calling",
+    "https://python.langchain.com/docs/modules/tools/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:08:36Z"
+  "updated_at": "2026-03-23T15:45:33.959091Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "空间科学",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Gaia 是欧洲空间局（ESA）主导的天体测量卫星任务，旨在以前所未有的精度绘制银河系中约20亿颗恒星的位置、距离、运动、亮度和颜色等参数。它通过持续扫描天空，构建迄今最精确、最庞大的三维银河系动态地图。普通用户需要了解 Gaia，不仅因为它推动了人类对宇宙结构、恒星演化和暗物质分布的认知，还因为其公开数据已广泛应用于天文教育、公民科学项目、手机星图App的底层星表更新，甚至影响GPS时间校准等基础技术背后的参考框架。",
+    "plain": "Gaia 是欧洲空间局（ESA）主导的天体测量卫星任务，旨在以前所未有的精度绘制银河系约 20 亿颗恒星的三维动态地图。它提供恒星位置、距离及运动参数，深化了人类对宇宙结构和恒星演化的认知。其公开数据广泛应用于天文教育、星图应用及基础技术参考框架。",
     "metaphor": "Gaia 就像一位不知疲倦的银河系人口普查员兼导航测绘师，一边为每一颗亮星精准登记‘身份证’（坐标、速度、年龄），一边实时更新整个星系的‘动态交通地图’。",
     "example": "天文学家利用 Gaia 数据发现了一条由数百颗恒星组成的古老潮汐尾迹，从而确认了银河系曾吞噬一个名为‘盖亚-恩克拉多斯’的矮星系；智能手机星图App（如Stellarium Mobile）也依赖 Gaia 的恒星位置数据，确保用户仰望夜空时屏幕上显示的星星与真实天象严丝合缝。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "空间探测",
+    "天体测量",
+    "科学数据"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.esa.int/Science_Exploration/Space_Science/Gaia"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:41:38Z"
+  "updated_at": "2026-03-23T13:16:53.044356Z",
+  "quality_score": 1.0
 }

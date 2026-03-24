@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "mergekit 是一个开源命令行工具，用于将多个大语言模型（LLM）的权重文件按指定策略合并，生成一个新的混合模型。它支持多种融合算法（如线性插值、SLERP、TIES、DARE等），并能处理不同架构或分词器的模型对齐问题。普通用户需要了解它，是因为它降低了模型定制门槛——无需从头训练，就能快速实验出性能更优、风格更适配特定任务（如编程、中文对话）的专属模型，尤其适合研究人员、开发者和AI爱好者进行轻量级模型调优。",
+    "plain": "mergekit 是一个开源命令行工具，用于无需重新训练即可合并多个大语言模型权重。它支持线性插值、SLERP、TIES 等多种融合算法，解决架构对齐问题。用户可通过它快速定制性能更优或风格特定的专属模型，降低模型调优门槛，适合研究人员和开发者进行轻量级实验。",
     "metaphor": "就像一位精通多国菜系的主厨，把几道经典菜肴的精华部分按比例拆解、调和、重新烹制，最终端出一道融合风味的新菜。",
     "example": "一名开发者使用 mergekit 将 Llama-3-8B 和 Qwen2-7B 的权重按 60%:40% 线性融合，再注入中文领域微调权重，生成了一个在中文法律文本理解上表现更优的定制模型。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型合并",
+    "权重融合",
+    "开源工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/arcee-ai/mergekit"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:35:08Z"
+  "updated_at": "2026-03-23T13:57:19.645534Z",
+  "quality_score": 1.0
 }

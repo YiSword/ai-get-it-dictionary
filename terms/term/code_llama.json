@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Code Llama 是由 Meta 开发的一系列开源大语言模型，专为理解、生成和推理编程代码而优化，支持多种主流编程语言（如 Python、Java、C++ 等）。它基于 Llama 架构，但使用大量代码数据微调，在代码补全、调试解释、文档生成等任务上表现优异。普通用户（尤其是开发者、学生或技术爱好者）需要了解它，因为它是免费、可本地运行的高性能编程助手，能显著提升编码效率，且无需依赖闭源商业服务。",
+    "plain": "Code Llama 是 Meta 发布的开源代码专用大语言模型，基于 Llama 架构微调。支持 Python、C++ 等多种语言，擅长代码生成、补全、调试及解释。作为免费可本地部署的编程助手，它能显著提升开发者效率，无需依赖闭源服务，是主流代码 AI 工具。",
     "metaphor": "Code Llama 就像一位精通十几种编程语言、随时待命的资深结对程序员，不仅能读懂你写到一半的代码，还能精准续写、指出潜在错误，甚至用自然语言为你讲解逻辑。",
     "example": "一名 Python 初学者在编写爬虫时卡在 requests 异常处理逻辑上，将不完整的代码粘贴给本地运行的 Code Llama，模型立即返回带注释的健壮异常处理片段，并解释每种 HTTP 错误的应对策略。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "开源模型",
+    "编程助手"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+    "https://huggingface.co/codellama"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T04:38:33Z"
+  "updated_at": "2026-03-23T18:55:32.353361Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "API 接口",
   "difficulty": "中级",
   "explanations": {
-    "plain": "assistants_api 是 OpenAI 提供的一套专门用于构建和管理 AI 助手（Assistant）的编程接口。它允许开发者创建具备长期记忆、文件访问、多步骤工具调用（如代码解释器、自定义函数）能力的智能助手，并通过线程（thread）机制维护对话上下文。普通用户虽不直接调用 API，但其使用的 AI 应用（如客服机器人、学习辅导工具或自动化办公助手）很可能基于此 API 构建——这意味着更自然、连贯、功能丰富的交互体验，而非简单的单轮问答。",
+    "plain": "assistants_api 是 OpenAI 提供的编程接口，用于构建具备长期记忆、文件访问及工具调用能力的 AI 助手。它通过线程机制维护对话上下文，支持代码解释器等功能。开发者可创建客服机器人等应用，实现比单轮问答更连贯、功能丰富的交互体验，是大模型开发核心工具。",
     "metaphor": "就像为 AI 助手配备了一个随身笔记本、一个可调用的专业工具箱，以及一位能记住你上次谈话内容并主动跟进的私人助理。",
     "example": "一家在线教育平台使用 assistants_api 创建数学辅导助手：学生上传作业截图后，助手自动调用代码解释器分析解题步骤，结合历史错题记录个性化讲解，并在后续对话中持续追踪同类题型掌握情况。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "应用开发",
+    "智能助手",
+    "API 集成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs/assistants/overview"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:44:08Z"
+  "updated_at": "2026-03-23T14:20:54.254390Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "命名实体识别（Named Entity Recognition，NER）是一种自然语言处理技术，用于自动从文本中识别并分类具有特定意义的专有名词，如人名、地名、组织机构名、日期、货币等。它像一位细心的文本标注员，能快速圈出‘谁’‘哪里’‘何时’‘什么组织’等关键信息。普通用户虽不直接操作NER，但日常使用的智能助手、新闻摘要、搜索引擎和多语言翻译等功能背后都依赖它——例如搜索‘苹果发布会’时，系统需区分‘苹果’是公司还是水果，才能返回准确结果。",
+    "plain": "命名实体识别（NER）是自然语言处理的核心技术，旨在从文本中自动识别并分类具有特定意义的实体，如人名、地名、机构名、时间及货币等。它将非结构化文本转化为结构化信息，广泛应用于搜索引擎、智能助手及知识图谱构建。例如，系统通过 NER 区分“苹果”是指水果还是公司，从而提供精准服务。",
     "metaphor": "就像给文章中的重要人物、地点和事件贴上彩色便签：红色代表人名，蓝色代表地名，绿色代表时间，让杂乱的文字瞬间变得结构清晰、重点分明。",
     "example": "在医疗电子病历系统中，NER可自动识别并提取‘患者张伟，52岁，2023年10月15日就诊于北京协和医院，诊断为2型糖尿病’中的姓名、年龄、日期、医院名和疾病名，辅助医生快速结构化录入与分析。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文本分析",
+    "信息抽取",
+    "智能搜索"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Named-entity_recognition",
+    "https://nlp.stanford.edu/ner/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:52:58Z"
+  "updated_at": "2026-03-23T12:35:05.024199Z",
+  "quality_score": 0.95
 }

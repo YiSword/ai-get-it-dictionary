@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "采样算法",
   "difficulty": "中级",
   "explanations": {
-    "plain": "dpm2_a_karras 是一种用于扩散模型（如Stable Diffusion）的采样器算法，全称是'Diffusion Probabilistic Models 2 with Karras noise schedule'。它结合了DPM-Solver-2的二阶数值求解策略与Karras等人提出的非均匀噪声调度方案，能在更少的采样步数（如15–30步）下生成高质量图像，兼顾速度与细节保真度。普通用户需要了解它，是因为在图像生成工具中选择该采样器可显著缩短单张图生成时间，同时避免常见伪影，尤其适合追求效率与稳定输出的日常创作。",
+    "plain": "dpm2_a_karras 是 Stable Diffusion 中常用的采样器，结合 DPM-Solver-2 二阶求解与 Karras 噪声调度。它能在 15-30 步内生成高质量图像，兼顾速度与细节。适合追求效率的日常创作，能有效减少伪影，是 WebUI 中推荐的高效采样选项之一。",
     "metaphor": "就像一位经验丰富的厨师用特制的分段火候控制法——先猛火锁鲜、再文火入味——代替传统均匀小火慢炖，既节省时间又提升风味层次。",
     "example": "当在AUTOMATIC1111 WebUI中为一张写实风格人像生成设置30步采样时，选用dpm2_a_karras比默认Euler a快约40%，且面部纹理和阴影过渡更自然，不易出现模糊或色块断裂。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 绘画",
+    "模型采样",
+    "图像生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/crowsonkb/k-diffusion",
+    "https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:00:15Z",
-  "updated_at": "2026-03-21T05:49:35Z"
+  "updated_at": "2026-03-23T18:26:05.063711Z",
+  "quality_score": 1.0
 }

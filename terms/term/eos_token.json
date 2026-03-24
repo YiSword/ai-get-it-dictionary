@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "eos_token（End-of-Sequence Token）是自然语言处理中用于标记文本序列结束的特殊符号，通常是一个不可见或预定义的字符串（如'<|endoftext|>'或'</s>'）。它告诉模型‘这句话/这段输入到这里就结束了’，对生成任务（如文本续写、对话回复）至关重要——没有它，模型可能无限输出或误解边界。普通用户虽不直接操作它，但在使用AI写作、聊天机器人或API时，其存在影响输出完整性与安全性，例如防止模型擅自追加无关内容。",
+    "plain": "eos_token（End-of-Sequence Token）是自然语言处理中标记序列结束的特殊符号，如'<|endoftext|>'。它告知模型输入或生成至此终止，防止无限输出。在文本生成、对话系统中至关重要，确保输出完整性与边界控制，虽用户不可见，但直接影响 API 调用结果与模型行为安全性。",
     "metaphor": "就像话剧落幕时的闭幕铃声，eos_token不是台词的一部分，却明确宣告‘表演已结束，别再演下去了’。",
     "example": "当调用大语言模型生成一封邮件时，系统会在提示词末尾自动插入eos_token，确保模型在写出‘此致，敬礼！’后停止，而不是继续编造签名或添加无关段落。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文本生成",
+    "模型推理",
+    "大模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/main_classes/tokenizer",
+    "https://platform.openai.com/docs/guides/text-generation"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:10:31Z"
+  "updated_at": "2026-03-23T11:26:04.687410Z",
+  "quality_score": 0.95
 }

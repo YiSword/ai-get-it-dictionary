@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据集",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ShareGPT4V 是一个开源社区驱动的平台或数据集，旨在共享基于 GPT-4V（即支持图像与文本多模态理解的 GPT-4 视觉版）模型的对话示例，通常包含用户上传的图文交互记录、提示词（prompt）及模型响应。它并非官方发布，而是由开发者和研究人员整理上传的高质量多模态对话样本，用于模型微调、评估或教学参考。普通用户需要了解它，是因为它提供了可复现、可探索的真实多模态AI交互案例，有助于理解视觉大模型的能力边界与使用技巧，避免盲目依赖黑盒API。",
+    "plain": "ShareGPT4V 是一个社区驱动的多模态数据集项目，收集基于 GPT-4V 的高质量图文对话样本。包含图像、提示词及模型响应，非官方发布但经整理用于模型微调与评估。该资源帮助开发者探索视觉大模型能力边界，提供可复现的交互案例，促进多模态 AI 研究与开发。",
     "metaphor": "就像菜谱分享网站汇集了无数厨师实测过的图文食谱，ShareGPT4V 是AI‘厨师’们上传的图文问答‘烹饪日志’——告诉你什么图片配什么问题，GPT-4V 才会给出靠谱答案。",
     "example": "一位教师上传了一张手绘的电路图截图，并附上提问‘这个电路是否能实现LED闪烁？请指出错误并修改’，GPT-4V 的逐层分析与修正建议被收录进 ShareGPT4V，供其他教育者直接参考或用于训练教学辅助模型。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态学习",
+    "开源数据集",
+    "模型微调"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ShareGPT4V/ShareGPT4V",
+    "https://sharegpt4v.github.io/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:43:31Z",
-  "updated_at": "2026-03-21T09:44:15Z"
+  "updated_at": "2026-03-23T18:49:15.261665Z",
+  "quality_score": 1.0
 }

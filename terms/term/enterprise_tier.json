@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "enterprise_tier 指软件或云服务中面向大型组织的高级版本，通常包含增强的安全控制、高可用性架构、专属支持、合规认证（如 SOC2、GDPR）、API 管理和细粒度权限管理等功能。它区别于面向个人或中小企业的基础版或专业版，定价更高且常需定制化部署。普通用户虽不直接采购该层级，但若在企业环境中使用相关系统（如协作工具、CRM 或开发平台），其数据隐私、访问响应速度和功能权限往往直接受 enterprise_tier 所提供的底层能力影响。",
+    "plain": "enterprise_tier 指软件或云服务中面向大型组织的高级订阅版本。通常包含增强安全控制、高可用性架构、专属支持及合规认证等功能。区别于基础版或专业版，其定价更高且常需定制化部署。该层级决定了企业用户的数据隐私、访问速度及功能权限上限。",
     "metaphor": "就像一栋写字楼里的‘行政楼层’——不是所有员工都能进入，但它配备了独立电梯、24小时安保、专用会议室和高管助理，只为保障核心业务的稳定与安全。",
     "example": "一家银行采用 Slack 的 enterprise_tier，启用 SSO 集成、消息保留策略强制归档、以及网络流量全程加密，以满足金融监管机构对通信审计和数据驻留的要求。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "SaaS",
+    "云计算",
+    "定价策略"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/enterprise/",
+    "https://www.salesforce.com/products/platform/pricing/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:09:27Z"
+  "updated_at": "2026-03-23T18:30:24.407225Z",
+  "quality_score": 0.95
 }

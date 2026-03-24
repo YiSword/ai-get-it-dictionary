@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "解码策略",
   "difficulty": "中级",
   "explanations": {
-    "plain": "contrastive_search 是一种用于大语言模型解码的文本生成策略，它在每一步不仅保留最可能的候选词（如传统 beam search），还显式保留若干语义差异较大的次优候选，通过对比其得分与相似度来抑制重复、提升多样性。相比 greedy 或 beam search，它能在保持连贯性的同时避免陈词滥调和自我重复，对需要创意表达、开放问答或长文本生成的普通用户尤为重要。",
+    "plain": "contrastive_search 是一种大语言模型解码策略。它在每一步不仅考虑最可能的候选词，还显式保留语义差异较大的次优候选，通过对比得分与相似度抑制重复。相比 greedy 或 beam search，它能在保持连贯性的同时避免陈词滥调和自我重复，适合创意表达、开放问答或长文本生成场景。",
     "metaphor": "就像一位编辑在写稿时，不只挑选最顺口的一句话，还会刻意保留几句风格迥异的备选，再权衡‘是否太像前文’‘是否带来新信息’后才落笔。",
     "example": "当用大模型生成产品广告文案时，contrastive_search 可避免反复使用‘卓越’‘领先’等高频词，转而交替输出‘匠心打磨’‘直击痛点’等语义互补的表达，使文案更鲜活有力。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文本生成",
+    "大语言模型",
+    "解码算法"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/blog/contrastive-search",
+    "https://arxiv.org/abs/2210.14140"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:56:13Z"
+  "updated_at": "2026-03-23T13:44:20.250038Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "搜索引擎",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Typesense 是一个开源的、轻量级、实时搜索引擎，专为开发者设计，用于在应用中快速添加毫秒级响应的全文搜索功能。它强调易用性、低运维负担和开箱即用的相关性排序，无需复杂的配置或调优。普通用户（尤其是中小型项目开发者）需要知道它，是因为它能以极低的学习成本替代 Elasticsearch 等重型方案，在静态网站、文档站、电商前端或内部工具中实现高性能搜索，且支持一键部署、自动分词和同义词管理。",
+    "plain": "Typesense 是一款开源、轻量级的实时搜索引擎，专为开发者设计。它提供毫秒级响应的全文搜索功能，强调易用性和低运维负担，开箱即用无需复杂配置。相比 Elasticsearch，它更适合中小型项目，支持一键部署、自动分词和同义词管理，广泛应用于静态网站、文档站及电商前端搜索场景。",
     "metaphor": "Typesense 就像一位精通多国语言、随叫随到的图书管理员——不用预约、不需培训，你一问‘找关于‘响应式设计’的最新文章’，他立刻从成千上万本书里精准抽出三本最相关的，还顺手帮你排除了过时版本。",
     "example": "一家使用 Hugo 搭建的技术博客，通过 Typesense 为全站 Markdown 文章建立索引，用户在搜索框输入‘CSS Grid 布局技巧’，0.12 秒内返回带高亮片段的前五篇匹配文章，并按发布时间与关键词相关性智能排序。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "全文搜索",
+    "开源软件",
+    "开发工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://typesense.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:14:50Z",
-  "updated_at": "2026-03-21T10:13:06Z"
+  "updated_at": "2026-03-23T12:30:23.804044Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据集",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CommonsenseQA 是一个用于评估机器常识推理能力的公开问答数据集，包含约12,000道多项选择题，每道题需结合日常生活中基本的物理、社会或因果常识作答。它不依赖专业领域知识，而是考察模型是否理解‘水泼在火上会灭火’‘人饿了会吃饭’这类隐含于人类经验中的默认知识。普通用户需要了解它，是因为它揭示了当前AI在‘像人一样思考’方面的关键短板——即使语言流利，也可能缺乏支撑真实交互所需的底层常识，这直接影响智能助手、教育工具等应用的可靠性与可信度。",
+    "plain": "CommonsenseQA 是评估机器常识推理能力的公开问答数据集，含约 1.2 万道多项选择题。题目基于 ConceptNet 构建，需结合物理、社会或因果常识作答。它旨在测试模型是否具备人类经验中的默认知识，揭示了 AI 在类人思考方面的短板，是自然语言处理领域重要的基准测试资源。",
     "metaphor": "就像考驾照时不仅要会踩油门和刹车，还要懂得‘看到老人过马路要减速’——CommonsenseQA 测试的是AI的‘驾驶本能’，而非操作手册上的技术动作。",
     "example": "当用户问智能音箱‘我刚洗完澡，头发湿着吹空调容易怎样？’，CommonsenseQA 类型的模型需推理出‘可能感冒’，而非仅检索‘空调’和‘头发’的字面关联。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "模型评估",
+    "常识推理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://commonsenseqa.allenai.org/",
+    "https://github.com/jonathanherzig/CommonsenseQA"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:45:45Z"
+  "updated_at": "2026-03-23T17:44:50.961098Z",
+  "quality_score": 0.95
 }

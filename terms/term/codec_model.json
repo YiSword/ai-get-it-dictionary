@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多媒体处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "codec_model 指的是在多媒体处理中，用于编码（压缩）和解码（还原）音视频数据的特定算法模型，它决定了数据如何被高效压缩、存储或传输，以及能否被正确播放。普通用户需要知道它，因为不同 codec_model（如 H.264、AV1、Opus）直接影响视频清晰度、加载速度、设备兼容性及电池消耗——例如用新模型录制的视频可能在旧手机上无法播放，或在视频会议中因模型选择不当导致卡顿或画质模糊。",
+    "plain": "codec_model 指多媒体处理中用于编码和解码音视频数据的算法模型。它决定数据压缩效率、存储传输及播放兼容性。不同模型（如 H.264、AV1）直接影响清晰度、加载速度及设备能耗。选择不当可能导致旧设备无法播放或会议卡顿。了解它有助于确保视频流畅播放且兼容目标设备。",
     "metaphor": "就像不同语言的翻译官：同一个句子，有的翻译官用简练文言三字译完（高压缩），有的用冗长白话逐字转述（高保真），而观众能否看懂，取决于手头是否有匹配的‘双语词典’（解码支持）。",
     "example": "当你在手机上用 TikTok 拍摄 4K 视频时，App 默认启用 AV1 codec_model 进行编码以节省空间；但若将该视频发给使用 Windows 10 旧版系统的亲友，对方可能因系统未内置 AV1 解码器而只能看到黑屏或报错提示。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "音视频处理",
+    "数据压缩",
+    "设备兼容"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Codec",
+    "https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Codecs"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:34:58Z"
+  "updated_at": "2026-03-23T15:41:32.411797Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生物学",
   "difficulty": "中级",
   "explanations": {
-    "plain": "cline 是生物学和进化遗传学中的术语，指某一性状（如体色、体型或基因频率）在地理空间上呈现的渐变式连续变化模式。它反映了种群对环境梯度（如温度、海拔或湿度）的适应性响应，而非突变式的地理隔离分化。普通用户需要了解 cline，因为它揭示了自然界的多样性并非总以‘非此即彼’的界限存在，而是常表现为平滑过渡，这对理解物种适应、气候变化影响及生物保护策略具有现实意义。",
+    "plain": "Cline 是生物学术语，指某一性状（如体色、基因频率）在地理空间上呈现的渐变式连续变化模式。它反映了种群对环境梯度（如温度、海拔）的适应性响应，而非突变式的地理隔离分化。这一概念揭示了自然界多样性常表现为平滑过渡，而非绝对界限，对理解物种适应及生物保护策略具有现实意义。",
     "metaphor": "就像从山脚到山顶，气温逐渐降低，植被类型也由阔叶林缓缓过渡为针叶林，再变为高山草甸——没有一刀切的分界线，只有连续的色调渐变。",
     "example": "欧洲桦尺蛾的黑色等位基因频率从北欧低纬度地区的接近0%，沿纬度向南逐渐升高至中欧的约30%，形成典型的气候相关 clines；这种渐变模式被用来研究自然选择如何在空间尺度上塑造遗传变异。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "生物学",
+    "进化遗传学",
+    "生态适应"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.britannica.com/science/cline",
+    "https://en.wikipedia.org/wiki/Cline_(biology)"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:32:38Z"
+  "updated_at": "2026-03-23T16:30:14.752402Z",
+  "quality_score": 0.95
 }

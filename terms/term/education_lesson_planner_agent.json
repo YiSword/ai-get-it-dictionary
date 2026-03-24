@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "education_lesson_planner_agent",
+  "norm_term": "education_lesson_planner_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "教育科技",
+  "difficulty": "入门",
+  "explanations": {
+    "plain": "教育课程规划代理是专为教育领域设计的 AI 代理，利用大模型协助教师制定个性化教学计划、生成大纲及匹配资源。它解决传统备课耗时且难兼顾个体差异的痛点，赋能因材施教。此类代理不仅提供内容，还引导教学策略，如 Khanmigo 等应用，标志着教育向个性化智能服务转变。",
+    "metaphor": "它就像一位不知疲倦的私人教学助理，时刻陪伴在老师身边。当你需要一个新课题的教案时，它不仅能瞬间列出大纲，还能根据学生的水平调整难度，就像有一位经验丰富的老教师在手把手指导备课。",
+    "example": "某初中数学老师输入“勾股定理”及学生基础数据，代理自动生成包含引入案例、互动练习、分层作业的四十五分钟教案，并推荐相关视频资源，老师只需微调即可使用，大幅缩短备课时间。"
+  },
+  "scenario_tags": [
+    "个性化学习",
+    "智能备课",
+    "教育科技"
+  ],
+  "sources": [
+    "https://openai.com/education",
+    "https://www.khanacademy.org/khan-labs"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:21:09.440696Z",
+  "updated_at": "2026-03-23T17:56:03.209436Z",
+  "quality_score": 0.95
+}

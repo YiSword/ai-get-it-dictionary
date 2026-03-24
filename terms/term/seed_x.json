@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习基础",
   "difficulty": "中级",
   "explanations": {
-    "plain": "seed_x 是指在随机数生成或机器学习模型初始化过程中使用的随机种子（seed）变量，其中 'x' 通常代表具体数值（如 seed_42）或占位符，用于确保实验可复现。它通过固定伪随机数生成器的初始状态，使相同代码每次运行产生完全一致的随机序列。普通用户需要知道它，是因为缺乏统一 seed 会导致实验结果波动、模型训练不可复现、协作调试困难，尤其在科研、开发和A/B测试中直接影响结论可信度。",
+    "plain": "seed_x 指机器学习或编程中用于控制随机性的种子变量（x 为具体数值）。它固定伪随机数生成器的初始状态，确保代码多次运行产生一致结果。设置统一 seed 是保证实验可复现、模型训练稳定及协作调试的关键，广泛应用于科研、开发及 A/B 测试场景，直接影响结论可信度。",
     "metaphor": "就像给一本随机翻页的书设定一个固定的起始页码——每次‘翻开’都从同一页开始，保证所有人看到的后续页面顺序完全一致。",
     "example": "在训练神经网络时设置 seed_x=123，可确保数据打乱顺序、权重初始化和dropout掩码在每次运行中完全相同，便于准确对比不同超参数的效果。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "实验可复现",
+    "随机数生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/docs/stable/notes/randomness.html",
+    "https://numpy.org/doc/stable/reference/random/generated/numpy.random.seed.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:42:00Z",
-  "updated_at": "2026-03-21T09:41:16Z"
+  "updated_at": "2026-03-23T13:22:42.857083Z",
+  "quality_score": 0.95
 }

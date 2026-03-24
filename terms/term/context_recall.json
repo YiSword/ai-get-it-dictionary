@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评估指标",
   "difficulty": "中级",
   "explanations": {
-    "plain": "context_recall 是衡量一个大语言模型在回答问题时，能否准确从给定的参考文本（即上下文）中识别并提取出真正相关、必要信息的能力。它关注的是‘该用的信息是否被模型找出来了’，而非答案本身是否正确。普通用户需要了解它，因为当使用RAG（检索增强生成）系统时，高 context_recall 意味着模型更可靠地‘读懂了材料’，避免遗漏关键事实或依赖幻觉，从而提升问答结果的可信度和可追溯性。",
+    "plain": "context_recall 是 RAG 系统的核心评估指标，用于衡量检索到的上下文中包含多少地面真实答案所需的信息比例。它关注检索环节是否遗漏关键事实，而非生成答案的正确性。高 recall 意味着检索器能更全面地找到依据，减少幻觉，提升系统可信度。",
     "metaphor": "就像考试时老师划定了复习范围（上下文），context_recall 衡量的是你是否把考卷上所有考点都从那几页复习资料里准确圈了出来。",
     "example": "在医疗问答系统中，医生上传一篇关于糖尿病用药的最新指南PDF，用户提问‘哪些药物禁用于严重肾功能不全患者？’，context_recall 高意味着模型成功定位并提取出指南中‘禁忌症’段落里的具体药名，而非跳过或误选其他内容。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "RAG",
+    "评估指标",
+    "信息检索"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://docs.ragas.io/en/latest/concepts/metrics/context_recall.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:52:56Z"
+  "updated_at": "2026-03-23T12:33:56.338844Z",
+  "quality_score": 1.0
 }

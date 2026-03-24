@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AIGC",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Audiogen 是指利用人工智能模型（通常是基于深度学习的文本到音频生成系统）将文字描述自动转化为高质量、自然语音或环境音效的技术。它不同于传统TTS（文本转语音），能生成带情感、语境适配的语音，甚至模拟特定人声、背景音乐或拟音效果。普通用户需要了解它，因为这类工具正快速进入内容创作、无障碍访问、游戏开发和教育领域，让非专业人士也能低成本、高效率地制作专业级音频内容。",
+    "plain": "Audiogen 是基于深度学习的文本到音频生成技术，能将文字描述转化为高质量语音、环境音效或背景音乐。相比传统 TTS，它支持情感表达与语境适配，模拟特定人声及拟音效果。该技术广泛应用于内容创作、游戏开发及无障碍访问，助力非专业人士高效制作专业级音频。",
     "metaphor": "就像一位精通多种乐器和方言的全能配音演员，你只需写下几句话，它就能即刻为你演绎出符合情绪、场景和角色的声音。",
     "example": "一位独立游戏开发者输入提示词‘雨夜小巷，远处警笛渐近，主角喘息声略带颤抖’，audiogen 自动生成一段30秒沉浸式环境音效与旁白混合的音频，直接用于游戏试玩版。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "生成式 AI",
+    "音频处理",
+    "内容创作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.meta.com/blog/audiocraft-musicgen-audiogen-encodec/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:44:56Z",
-  "updated_at": "2026-03-21T03:47:20Z"
+  "updated_at": "2026-03-23T14:25:54.923410Z",
+  "quality_score": 1.0
 }

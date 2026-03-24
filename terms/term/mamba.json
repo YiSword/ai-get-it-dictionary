@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Mamba 是一种新型的序列建模架构，专为高效处理长序列而设计，它用状态空间模型（SSM）替代了传统 Transformer 中的自注意力机制。相比 Transformer，Mamba 在长文本、基因序列或高分辨率音频等任务中显著降低计算复杂度和内存占用，同时保持甚至提升建模能力。普通用户虽不直接编写 Mamba 模型，但未来可能通过搭载该技术的 AI 工具（如超长上下文聊天助手、实时语音转写应用）获得更流畅、更低延迟、更低成本的服务体验。",
+    "plain": "Mamba 是一种基于状态空间模型（SSM）的新型序列建模架构，旨在替代 Transformer 的自注意力机制。它在处理长序列数据时显著降低计算复杂度和内存占用，同时保持高性能。适用于长文本、基因序列及音频处理等场景，能为用户提供更流畅、低延迟的 AI 服务体验。",
     "metaphor": "就像快递公司用智能物流调度系统替代逐件人工分拣，Mamba 用动态状态更新机制替代 Transformer 的全局两两比对，让信息传递更聚焦、更省力。",
     "example": "一款支持百万字文档实时问答的法律助手，背后使用 Mamba 架构，在不牺牲响应速度的前提下，精准定位跨章节的条款引用关系。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "长序列建模",
+    "高效推理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/state-spaces/mamba",
+    "https://arxiv.org/abs/2312.00752"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:26:09Z"
+  "updated_at": "2026-03-23T18:20:52.251564Z",
+  "quality_score": 0.95
 }

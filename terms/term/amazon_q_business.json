@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "amazon_q_business",
+  "norm_term": "amazon_q_business",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "product",
+  "category": "企业级 AI 助手",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Amazon Q Business 是 AWS 推出的企业级生成式 AI 助手。它通过自然语言交互帮助员工获取内部数据、生成报告及执行任务，解决信息检索低效与跨系统协作复杂问题。核心价值在于结合企业知识库与 AI 能力，保障数据安全的同时提升决策速度，如自动分析销售数据或生成合规文档。",
+    "metaphor": "如同为企业配备了一位 24 小时在线的智能秘书，能瞬间从堆积如山的文件中找出关键信息，并整理成可直接使用的方案。",
+    "example": "市场部经理询问'上季度华东区产品 A 的销量趋势及主要竞品对比'，系统自动调取数据库生成可视化图表，并附上竞品动态摘要，节省数小时手动整理时间。"
+  },
+  "scenario_tags": [
+    "企业搜索",
+    "工作流自动化",
+    "知识管理"
+  ],
+  "sources": [
+    "https://aws.amazon.com/q/business/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:40:29.581393Z",
+  "updated_at": "2026-03-23T14:05:48.099679Z",
+  "quality_score": 1.0
+}

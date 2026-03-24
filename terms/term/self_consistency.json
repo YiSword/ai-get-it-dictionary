@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "self_consistency 是一种大语言模型推理优化技术，指模型对同一问题生成多个不同推理路径（如多种思维链），再通过投票或聚合选出最一致的答案。它不依赖外部验证，而是利用模型自身内部逻辑的一致性来提升答案可靠性。普通用户需要知道它，因为这能解释为何某些AI回答更稳健、少出矛盾，尤其在数学推导、逻辑判断等需严谨性的场景中，它显著降低了‘一本正经胡说八道’的风险。",
+    "plain": "self_consistency 是一种大语言模型推理优化技术。模型对同一问题生成多个不同推理路径，再通过投票选出最一致的答案。它利用模型内部逻辑一致性提升可靠性，无需外部验证。这解释了为何 AI 在数学推导、逻辑判断等严谨场景中回答更稳健，显著降低幻觉风险。",
     "metaphor": "就像一群专家各自独立解同一道题，最后只采纳多数人得出的相同答案，而非听信某个人的单次发言。",
     "example": "当被问‘如果3个苹果分给2人，每人至少得几个？’模型可能生成5条推理路径，其中4条指出‘至少1个（因3÷2向下取整）’，1条误算为‘1.5个’；self_consistency机制会选中前者作为最终输出。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "逻辑推理",
+    "数学计算",
+    "模型优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2203.11171"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:02:43Z",
-  "updated_at": "2026-03-21T09:41:51Z"
+  "updated_at": "2026-03-23T17:10:39.582114Z",
+  "quality_score": 0.95
 }

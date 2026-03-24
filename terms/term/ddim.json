@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "扩散模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DDIM（Denoising Diffusion Implicit Models）是一种高效的图像生成扩散模型采样方法，它通过非马尔可夫、确定性的去噪路径，在远少于传统DDPM（如1000步）的步数（如20–50步）内生成高质量图像。与原始扩散模型不同，DDIM允许跳跃式推理，显著加速生成过程且支持可重复的隐空间插值。普通用户需要了解它，因为它是当前主流AI绘图工具（如Stable Diffusion的某些采样器）背后的关键技术之一，直接影响生成速度、可控性和结果一致性。",
+    "plain": "DDIM（Denoising Diffusion Implicit Models）是一种高效的扩散模型采样算法。它通过确定性去噪路径，允许跳跃式推理，能在远少于传统 DDPM 的步数内生成高质量图像。该技术显著加速生成过程，支持隐空间插值，是 Stable Diffusion 等主流 AI 绘图工具的核心采样器之一，直接影响生成速度与结果一致性。",
     "metaphor": "就像用一张粗略的素描草稿快速推演出一幅精细油画，而不是逐层叠加每一笔颜料。",
     "example": "在Stable Diffusion WebUI中选择‘DDIM’作为采样器时，用户能在20步内生成一张细节丰富的图像，而同等质量下DDPM可能需要1000步，大幅缩短等待时间。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "采样算法",
+    "AIGC"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2010.02502",
+    "https://github.com/ermongroup/ddim"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:17:17Z"
+  "updated_at": "2026-03-23T13:43:06.215080Z",
+  "quality_score": 0.95
 }

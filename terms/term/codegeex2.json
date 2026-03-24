@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CodeGeeX2 是由清华大学智谱AI研发的开源大语言模型，专为代码理解与生成优化，支持多种编程语言，具备代码补全、注释生成、跨语言翻译和错误检测等功能。它在中英文双语环境下训练，对中文开发者友好，且可在本地部署，兼顾性能与隐私。普通用户（尤其是程序员、学生和开源贡献者）需要了解它，因为它提供免费、可离线使用的智能编程助手，降低AI编程工具的使用门槛，避免依赖闭源或需联网的商业服务。",
+    "plain": "CodeGeeX2 是清华大学与智谱 AI 研发的开源代码大语言模型。支持多种编程语言的补全、生成、翻译及调试功能。基于中英文双语训练，对中文开发者友好，支持本地部署以保障隐私。作为免费可离线的智能编程助手，它降低了 AI 编程门槛，减少了对闭源商业服务的依赖，适合程序员及学生使用。",
     "metaphor": "就像一位随叫随到、精通数十种编程语言的资深结对程序员，不收薪水，不休息，还能把你的模糊想法准确翻译成规范代码。",
     "example": "一名Python初学者在编写数据清洗脚本时输入'读取CSV，去掉空行，保存为新文件'，CodeGeeX2立即生成完整、可运行的pandas代码，并自动添加异常处理和注释。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "人工智能",
+    "开源软件"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://codegeex.cn/",
+    "https://github.com/THUDM/CodeGeeX2"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:02:22Z",
-  "updated_at": "2026-03-21T04:36:31Z"
+  "updated_at": "2026-03-23T18:21:53.762748Z",
+  "quality_score": 0.95
 }

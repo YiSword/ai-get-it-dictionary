@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Grok 是一种源自正则表达式的模式匹配技术，主要用于日志解析和结构化文本提取，尤其在 Logstash 等日志处理工具中广泛使用。它通过预定义的命名模式（如 %{IP:client}、%{TIMESTAMP_ISO8601:timestamp}）将非结构化日志行快速转换为带字段名的结构化数据。普通用户（尤其是运维、开发或安全人员）需要了解 grok，因为它能大幅降低日志分析门槛——无需手写复杂正则即可精准提取关键信息，从而加速故障排查、监控告警和合规审计。",
+    "plain": "Grok 是 Logstash 中用于日志解析的模式匹配技术。它基于正则表达式，通过预定义模式（如 %{IP:client}）将非结构化日志转换为结构化数据。无需手写复杂正则，即可快速提取字段，广泛应用于运维监控、故障排查及安全审计场景，大幅降低日志分析门槛。",
     "metaphor": "Grok 就像一位精通多国语言的速记员，看到杂乱的手写会议记录（原始日志）， instantly 识别出人名、时间、地点并整齐誊抄到标准表格里。",
     "example": "当 Nginx 访问日志出现 '192.168.1.5 - - [10/Jan/2024:08:30:22 +0000] \"GET /api/users HTTP/1.1\" 200 1243' 时，一条 grok 模式 '%{IP:client} - - \\[%{HTTPDATE:timestamp}\\] \"%{WORD:method} %{URIPATHPARAM:request} %{DATA:protocol}\" %{NUMBER:status} %{NUMBER:bytes}' 可立即提取出 client、timestamp、method 等结构化字段。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "日志分析",
+    "数据解析",
+    "运维监控"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T07:00:28Z"
+  "updated_at": "2026-03-23T11:13:42.603181Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理服务",
   "difficulty": "中级",
   "explanations": {
-    "plain": "inference_scheduler 是指在 AI 模型部署中负责管理、排队、调度和执行推理请求的软件组件。它协调多个并发请求，根据资源可用性（如 GPU 内存、计算负载）、优先级、延迟要求或批处理策略，决定何时、以何种顺序、用多少资源运行每个推理任务。普通用户需要了解它，因为其设计直接影响模型响应速度、服务稳定性与成本效率——例如，不当调度可能导致请求堆积、高延迟或硬件资源浪费。",
+    "plain": "inference_scheduler 是 AI 推理服务中管理请求的核心组件。它负责排队、调度及执行任务，依据计算资源、负载、优先级及批处理策略，动态分配资源并决定执行顺序。其性能直接影响响应延迟、吞吐量与成本效率，优化调度可避免请求堆积及硬件资源浪费，保障服务稳定性。",
     "metaphor": "它就像机场的塔台调度员，不直接驾驶飞机（执行推理），但决定哪架航班（请求）先起飞、是否合并乘客（批处理）、何时分配跑道（GPU）以及如何应对突发天气（负载高峰）。",
     "example": "在一款实时多用户AI客服系统中，inference_scheduler 将数十个并发用户提问按紧急程度和长度分组，动态合并为批次送入大语言模型，同时为VIP用户预留低延迟通道，避免长尾请求阻塞整个服务。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型部署",
+    "资源调度",
+    "推理优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/index.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:30:11Z"
+  "updated_at": "2026-03-23T18:32:25.158900Z",
+  "quality_score": 0.95
 }

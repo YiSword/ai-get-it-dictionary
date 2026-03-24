@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器人仿真",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Isaac Sim 是 NVIDIA 开发的基于 PhysX 和 Omniverse 的高性能机器人仿真平台，专为训练、测试和验证机器人算法（如感知、导航、操作）而设计。它支持高保真物理模拟、传感器建模（如 RGB-D、LiDAR、IMU）和多机器人协同仿真，并与 ROS/ROS2、PyTorch 等生态深度集成。普通用户（尤其是机器人开发者、研究人员和教育者）需要了解它，因为它能大幅降低真实硬件试错成本，加速算法迭代，并支持在安全可控的虚拟环境中验证复杂场景（如拥挤街道或灾难现场），是通往具身智能落地的关键工具链。",
+    "plain": "Isaac Sim 是 NVIDIA 基于 Omniverse 构建的高性能机器人仿真平台。支持高保真物理模拟与传感器建模，深度集成 ROS/ROS2 及 PyTorch 生态。主要用于训练验证机器人感知、导航算法，降低硬件试错成本，加速具身智能在虚拟环境中的迭代落地，是机器人开发的关键工具。",
     "metaphor": "就像电影工业中用数字替身和虚拟片场预先排演高风险特技一样，Isaac Sim 是机器人的‘虚拟片场’——让机器人在真正上街或进工厂前，先在比特世界里千次试错、万次优化。",
     "example": "一家自动驾驶公司使用 Isaac Sim 构建逼真的城市交叉路口仿真环境，注入雨雾天气、遮挡行人和突发车辆切入等挑战，批量训练并验证其视觉导航模型，将实车路测周期缩短了60%。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "机器人",
+    "仿真",
+    "开发工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developer.nvidia.com/isaac-sim"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:43:01Z"
+  "updated_at": "2026-03-23T13:17:50.816823Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "advantage_estimation（优势估计）是强化学习中用于评估某个动作相对于当前策略平均表现有多好（或多差）的技术。它计算的是某动作的预期回报与该状态下所有可能动作的平均预期回报之间的差值，从而帮助智能体聚焦于真正‘更优’的选择。普通用户需要了解它，因为它直接影响智能体学习效率和最终策略质量——不准确的优势估计会导致训练缓慢、不稳定甚至收敛到次优策略。",
-    "metaphor": "就像一位厨师尝了一口新菜后，不是只看这道菜有多美味，而是对比今天所有菜的平均水准，判断它到底算‘惊艳’还是‘平庸’。",
-    "example": "在训练一个玩Atari游戏的AI时，advantage_estimation会告诉模型：在当前画面下按下‘跳跃’键比随机选择动作平均多获得3.2分，从而更可靠地强化这个决策。"
+    "plain": "优势估计是强化学习中评估动作相对好坏的技术。它计算动作预期回报与状态基线的差值，帮助智能体聚焦更优选择。作为 PPO、A2C 等策略梯度算法的核心，它能显著降低策略更新方差，解决奖励稀疏问题，确保训练稳定高效。",
+    "metaphor": "就像一位厨师在试做新菜时，不只看这道菜卖了多少钱，而是对比它比店里同类型菜品的平均利润高多少，以此判断是否真值得推广。",
+    "example": "在自动驾驶仿真训练中，智能体在十字路口决定左转时，advantage_estimation会计算‘此时左转’比‘在此状态下所有可能动作（直行、右转、停车）的平均长期收益’高出多少，从而更精准地调整左转策略。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "强化学习",
+    "策略优化",
+    "模型训练"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1506.02438",
+    "https://spinningup.openai.com/en/latest/algorithms/ppo.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:22:56Z"
+  "updated_at": "2026-03-23T17:10:26.402538Z",
+  "quality_score": 0.95
 }

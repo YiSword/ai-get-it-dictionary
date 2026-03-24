@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "audio_generation（音频生成）是指利用人工智能模型从文本、图像、代码或其他输入自动创建高质量语音、音乐或环境音效等音频内容的技术。它让普通用户无需专业录音设备或音频制作技能，就能快速生成播客旁白、有声书、个性化铃声甚至配乐。随着AI语音自然度和可控性的提升，这项技术正广泛应用于教育、内容创作、无障碍访问和娱乐领域，普通人可借此提升表达效率、降低创作门槛。",
+    "plain": "audio_generation（音频生成）指利用 AI 模型从文本、图像等输入自动创建语音、音乐或音效的技术。用户无需专业设备即可生成播客旁白、有声书或配乐。该技术广泛应用于教育、内容创作及娱乐领域，显著降低音频制作门槛，提升创作效率，是实现多模态内容生产的关键能力之一。",
     "metaphor": "就像一位全能的‘声音厨师’，只需给你一份菜谱（如文字提示），它就能现场煎炒烹炸出风味各异的音频菜肴（语音、音乐、音效）。",
     "example": "一位教师用音频生成工具，将课件文字一键转为带情感语调的多语种讲解音频，供学生课后反复收听；或用户输入‘轻松的咖啡馆背景音乐，带轻柔钢琴和雨声’，即时生成一段2分钟原创氛围音轨。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AIGC",
+    "内容创作",
+    "多模态"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/tasks/audio-generation"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:47:38Z"
+  "updated_at": "2026-03-23T12:25:54.737867Z",
+  "quality_score": 1.0
 }

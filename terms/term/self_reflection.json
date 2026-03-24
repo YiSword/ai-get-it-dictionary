@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "心理学",
   "difficulty": "中级",
   "explanations": {
-    "plain": "self_reflection（自我反思）是指个体主动审视自身的思想、情绪、行为和动机的过程，旨在提升自我认知、识别偏差并促进成长。它不是简单的自责或回忆，而是有意识、非评判性地观察内在状态。普通用户需要掌握这一能力，因为它能改善情绪管理、增强决策质量、深化人际关系，并在学习与职业发展中推动持续进步。",
+    "plain": "self_reflection（自我反思）是个体主动审视自身思想、情绪、行为和动机的过程，旨在提升自我认知、识别偏差并促进成长。它并非简单自责，而是有意识、非评判地观察内在状态。掌握该能力有助于改善情绪管理、增强决策质量、深化人际关系，并在学习与职业发展中推动持续进步。",
     "metaphor": "就像给自己的思维装上一面镜子，不是为了照出完美倒影，而是看清光线如何折射、阴影从何而来。",
     "example": "一位程序员在项目上线失败后，没有立即归咎于需求变更，而是花30分钟写下：'我当时为什么跳过单元测试？我是否因赶进度而回避了风险讨论？'"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "心理学",
+    "个人成长",
+    "认知科学"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Self-reflection"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:42:24Z"
+  "updated_at": "2026-03-23T11:27:21.714107Z",
+  "quality_score": 0.95
 }

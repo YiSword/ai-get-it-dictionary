@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Checkpoint 是指在训练或运行人工智能模型（尤其是深度学习模型）过程中，系统定期保存的模型状态快照，包括模型参数、优化器状态、训练轮次等关键信息。它允许用户在训练中断（如断电、崩溃）后从中断点恢复，而非从头开始；也便于模型调优时回溯到性能最佳的版本。普通用户需要了解它，因为它是保障训练稳定性、节省算力成本和实现模型迭代管理的基础机制。",
+    "plain": "Checkpoint 是深度学习训练中定期保存的模型状态快照，涵盖参数、优化器状态等关键信息。它支持断点续训，避免意外中断导致重来，并便于回溯最佳模型版本。这是保障训练稳定性、节省算力成本及实现模型迭代管理的基础机制。",
     "metaphor": "就像电子游戏中的存档点——你不必每次都从第一关打起，随时可以读取最近的存档继续冒险。",
     "example": "某工程师训练一个图像识别模型耗时三天，第60轮时因服务器故障中断；他只需加载第50轮保存的 checkpoint，即可从该点继续训练，避免浪费前两天的计算资源。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "断点续训",
+    "模型保存"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.tensorflow.org/guide/checkpoint",
+    "https://pytorch.org/tutorials/beginner/saving_loading_models.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:27:31Z"
+  "updated_at": "2026-03-23T17:40:12.406733Z",
+  "quality_score": 0.95
 }

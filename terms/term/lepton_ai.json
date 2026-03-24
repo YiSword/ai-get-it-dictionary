@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 平台",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Lepton AI 是一个开源的、面向开发者的 AI 应用部署与协作平台，它简化了从本地模型（如 Llama、Phi 等）到可共享 Web 服务的全流程，支持一键部署、版本管理、API 发布和团队协作。普通用户（尤其是工程师、数据科学家和中小团队）需要知道它，因为它降低了构建和托管私有 AI 应用的技术门槛，无需运维复杂基础设施即可快速验证想法、保护数据隐私，并在内部或有限范围内安全分发 AI 能力。",
+    "plain": "Lepton AI 是一个面向开发者的 AI 应用部署平台，支持将本地模型（如 Llama）快速转换为 Web 服务。它提供一键部署、版本管理和 API 发布功能，无需运维复杂基础设施。适合工程师和中小团队快速验证想法、保护数据隐私并安全分发 AI 能力，显著降低构建私有 AI 应用的技术门槛。",
     "metaphor": "就像为 AI 模型提供了一个即插即用的智能插座——你把训练好的模型‘插’进去，它立刻变成一个带网页界面和 API 的在线服务，无需自己拉电线、装电表或申请电力许可。",
     "example": "一位研究员在本地用 LoRA 微调了一个医疗问答模型，通过 Lepton AI 一行命令将其部署为加密内网服务，供医院临床科室实时查询用药禁忌，全程不依赖云厂商且响应延迟低于 800ms。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型部署",
+    "开发者工具",
+    "AI 平台"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.lepton.ai/",
+    "https://github.com/leptonai/lepton"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:23:45Z",
-  "updated_at": "2026-03-21T08:07:50Z"
+  "updated_at": "2026-03-23T15:42:16.072818Z",
+  "quality_score": 1.0
 }

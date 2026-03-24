@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "qwen2_5_vl",
+  "norm_term": "qwen2_5_vl",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "视觉语言模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Qwen2.5-VL 是通义千问系列最新的视觉语言模型，具备强大的图文理解与分析能力。支持复杂图像识别、长视频理解及智能体操作，能精准处理 OCR、图表分析及视觉问答任务。相比前代，其在逻辑推理与代码生成上显著增强，适用于教育、电商及自动化办公场景，实现高效的跨模态交互与信息提取。",
+    "metaphor": "它像一个能同时‘阅读’文字和‘看懂’图片的智能助手，就像你给朋友发一张照片并提问，对方既能识别图中内容又能结合文字给出精准回答。",
+    "example": "在电商场景中，用户上传手机故障截图并输入‘屏幕出现条纹怎么办’，模型可识别图片中的损坏特征，结合文本问题提供维修建议或推荐替换部件。"
+  },
+  "scenario_tags": [
+    "图像理解",
+    "视觉问答",
+    "OCR 识别"
+  ],
+  "sources": [
+    "https://github.com/QwenLM/Qwen2.5-VL",
+    "https://modelscope.cn/organization/qwen"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:33:37.475654Z",
+  "updated_at": "2026-03-23T13:07:42.567422Z",
+  "quality_score": 0.95
+}

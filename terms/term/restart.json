@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "系统操作",
   "difficulty": "中级",
   "explanations": {
-    "plain": "restart 是指终止当前正在运行的程序、服务或系统进程，并立即重新启动它，以恢复到初始状态。与单纯关闭（stop）不同，restart 是一个原子性操作：先清理旧实例的资源（如内存、网络连接），再加载新实例。普通用户需要了解它，因为当软件卡顿、响应迟缓或功能异常时，重启常是最快捷有效的自救手段，无需重装或求助技术支持，且能避免数据丢失（相比强制关机）。",
+    "plain": "restart 指终止正在运行的程序、服务或系统进程，并立即重新启动以恢复初始状态。这是一个原子性操作，先清理旧实例资源再加载新实例。当软件卡顿或功能异常时，重启是最快捷有效的自救手段，无需重装或求助技术支持，且比强制关机更安全。",
     "metaphor": "就像给一台过热且反应迟钝的微波炉拔掉插头再重新插上——不是简单按‘暂停’，而是彻底断电重启，让内部电路归零并重新加载默认设置。",
     "example": "当你发现电脑上的微信客户端无法发送消息，但其他软件正常，可以右键任务栏图标选择‘退出’后重新打开；更典型的场景是管理员执行 'sudo systemctl restart nginx' 来刷新 Web 服务器配置并恢复网站访问。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "系统维护",
+    "故障排查",
+    "服务管理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.freedesktop.org/software/systemd/man/systemctl.html#restart",
+    "https://learn.microsoft.com/en-us/windows/win32/services/stopping-and-starting-a-service"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:03:51Z",
-  "updated_at": "2026-03-21T09:32:59Z"
+  "updated_at": "2026-03-23T14:19:54.352424Z",
+  "quality_score": 0.95
 }

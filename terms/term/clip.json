@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CLIP（Contrastive Language–Image Pretraining）是一种由OpenAI提出的多模态人工智能模型，能同时理解图像和文本，并将二者映射到同一语义空间中，从而实现图文匹配、零样本图像分类等任务。普通用户需要了解它，是因为它正驱动着许多日常应用——比如用自然语言搜索图片、为照片自动生成描述、辅助视障人士理解图像内容，甚至提升设计工具和内容创作平台的智能交互体验。",
+    "plain": "CLIP 是 OpenAI 提出的多模态预训练模型，能将图像和文本映射到同一语义空间。它支持零样本图像分类和图文匹配，广泛应用于以图搜图、自动描述生成及内容创作工具中，显著提升了机器对视觉与语言联合理解的能力。",
     "metaphor": "CLIP就像一位精通双语（图像与文字）的资深策展人，看到一幅画时能立刻说出它的风格、主题和情绪，读到一段描述时又能精准选出最匹配的图片。",
     "example": "在一款支持CLIP的图库App中，用户输入‘一只戴草帽的橘猫坐在洒满阳光的窗台上’，系统无需标签或人工标注，即可直接检索出高度匹配的真实照片。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态学习",
+    "计算机视觉",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/research/clip"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T04:33:07Z"
+  "updated_at": "2026-03-23T17:36:29.390294Z",
+  "quality_score": 1.0
 }

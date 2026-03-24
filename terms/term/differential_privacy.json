@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "隐私安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "差分隐私（Differential Privacy）是一种数学上可证明的隐私保护技术，它通过在数据查询结果中添加精心设计的随机噪声，确保单个个体的数据是否存在于数据集中几乎不影响查询输出，从而防止攻击者反推出敏感个人信息。普通用户需要了解它，因为越来越多的科技公司、政府机构和医疗平台正用它来发布统计报告或训练AI模型，而无需暴露你的原始数据——这意味着你在享受个性化服务的同时，隐私仍被严格保障。",
+    "plain": "差分隐私是一种数学可证明的隐私保护技术，通过在数据查询结果中添加随机噪声，确保单个个体数据是否存在几乎不影响输出，防止反推敏感信息。它广泛应用于统计发布与 AI 模型训练，无需暴露原始数据即可进行分析，在享受服务的同时严格保障用户隐私。",
     "metaphor": "就像在一群人合影时给每个人脸上加一层轻薄且动态变化的雾面滤镜，既保留了整体人群的特征（如平均身高、年龄分布），又让任何人无法准确辨认出某张面孔的具体细节。",
     "example": "苹果公司在iOS设备上使用差分隐私收集用户键盘输入习惯以改进QuickType预测功能：每次上报的词频数据都注入噪声，使得单台设备的输入记录无法被单独识别，但海量加噪数据聚合后仍能有效提升全局预测准确率。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据隐私",
+    "信息安全",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.microsoft.com/en-us/research/project/differential-privacy/",
+    "https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:40:12Z"
+  "updated_at": "2026-03-23T16:44:12.362321Z",
+  "quality_score": 0.95
 }

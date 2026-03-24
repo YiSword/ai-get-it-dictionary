@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "meta_ai 是 Meta 公司研发的一系列人工智能模型与技术体系的统称，涵盖大语言模型（如 Llama 系列）、多模态模型及面向社交平台（如 Facebook、Instagram、WhatsApp）的 AI 功能。它并非单一产品，而是支撑智能回复、内容生成、图像理解、隐私保护等体验的底层能力集合。普通用户需要了解它，因为其正悄然影响日常交互方式——比如收到更自然的自动回复、看到由 AI 生成的个性化推荐，或在上传照片时被自动打上语义标签，同时也要意识到数据使用与算法偏见等潜在影响。",
+    "plain": "meta_ai 是 Meta 公司人工智能技术与模型的统称，涵盖 Llama 大语言模型、多模态模型及社交平台 AI 功能。它支撑智能回复、内容生成与图像理解等体验，并非单一产品。用户需了解其如何影响日常交互及潜在的数据与算法问题。",
     "metaphor": "就像厨房里看不见却决定每道菜风味的调味中枢，meta_ai 是 Meta 应用背后默默调配信息、语言和视觉体验的智能‘味觉系统’。",
     "example": "当你在 WhatsApp 中输入‘祝生日快乐！’，meta_ai 可能实时建议更生动的表达或自动生成一张带动画效果的贺卡；在 Instagram 发布一张登山照时，它会自动识别场景、人物情绪并推荐相关话题标签。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "多模态",
+    "生成式 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.meta.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:36:01Z"
+  "updated_at": "2026-03-23T15:00:58.773716Z",
+  "quality_score": 0.95
 }

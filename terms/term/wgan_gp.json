@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "WGAN-GP（Wasserstein GAN with Gradient Penalty）是一种改进的生成对抗网络（GAN）训练方法，通过使用Wasserstein距离替代传统GAN的JS散度，并引入梯度惩罚约束判别器满足Lipschitz连续性，从而显著提升训练稳定性、缓解模式崩溃问题，并提供更可靠的损失值指导训练过程。普通用户需要了解它，是因为它代表了GAN领域的重要技术演进——让AI生成高质量图像、音频或文本变得更加可控和可复现，是许多现代AIGC工具背后的底层支撑之一。",
+    "plain": "WGAN-GP 是改进的生成对抗网络训练方法。它使用 Wasserstein 距离替代 JS 散度，并引入梯度惩罚约束判别器满足 Lipschitz 连续性。这显著提升了训练稳定性，缓解模式崩溃，提供更可靠的损失值指导。作为现代 AIGC 底层技术，它让生成高质量内容更可控。",
     "metaphor": "就像一位严守中立的裁判，不仅客观打分（用Wasserstein距离衡量生成质量），还随时监督双方是否遵守规则（梯度惩罚强制判别器不能‘耍赖’过度放大差异），确保比赛公平且持续进步。",
     "example": "在AI绘画工具中，WGAN-GP被用于训练高分辨率人脸生成模型，能稳定产出多样、逼真且细节丰富的肖像，而不会反复生成相似面孔或模糊失真图像。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "模型训练",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1704.00028"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:27:31Z",
-  "updated_at": "2026-03-21T10:25:30Z"
+  "updated_at": "2026-03-23T12:04:45.771153Z",
+  "quality_score": 0.95
 }

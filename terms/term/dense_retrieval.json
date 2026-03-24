@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "信息检索",
   "difficulty": "中级",
   "explanations": {
-    "plain": "dense_retrieval（稠密检索）是一种信息检索技术，它将查询和文档都映射到高维向量空间中，通过计算向量间的相似度（如余弦相似度）来找出最相关的文档。与传统基于关键词匹配的稀疏检索（如BM25）不同，它能理解语义，捕捉同义、 paraphrase 和隐含关联。普通用户需要了解它，因为这是当前搜索引擎、智能客服和推荐系统背后提升‘搜得准’‘答得对’能力的关键技术之一，直接影响日常获取信息的效率和质量。",
+    "plain": "稠密检索是一种信息检索技术，它将查询和文档映射到高维向量空间，通过计算向量间的相似度来找出最相关文档。与传统基于关键词匹配的稀疏检索不同，它能理解语义，捕捉同义及隐含关联。该技术是搜索引擎、智能客服和推荐系统的核心，直接提升信息获取的效率与质量。",
     "metaphor": "就像用‘气味指纹’代替‘标签名称’来识别物品——即使两个东西名字不同，只要气味相似，系统就能把它们归为一类。",
     "example": "当你在智能办公软件中输入‘怎么给客户发延期交付的邮件？’，稠密检索能匹配到内部知识库中标题为‘客户沟通模板’但正文含‘项目延期说明话术’的文档，而非仅依赖关键词‘延期’或‘邮件’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "搜索引擎",
+    "推荐系统"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2004.04906",
+    "https://www.elastic.co/guide/en/elasticsearch/reference/current/dense-vector.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:31:23Z"
+  "updated_at": "2026-03-23T13:01:12.701398Z",
+  "quality_score": 0.95
 }

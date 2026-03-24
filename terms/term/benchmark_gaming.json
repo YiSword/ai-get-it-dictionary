@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "性能测试",
   "difficulty": "中级",
   "explanations": {
-    "plain": "benchmark_gaming 是指专门针对游戏场景设计的性能基准测试，用于量化显卡、CPU、内存和整机在运行主流游戏时的帧率、加载时间、稳定性等关键指标。它不同于通用计算基准（如Geekbench），更强调实时渲染、高吞吐图形负载和低延迟响应。普通用户需要了解它，因为能客观比较硬件升级效果、验证新购电脑是否满足心仪游戏的流畅运行需求，避免被营销参数误导。",
+    "plain": "benchmark_gaming 是针对游戏场景的性能基准测试，量化硬件运行游戏时的帧率、加载时间及稳定性。它不同于通用计算基准，强调实时渲染与图形负载。用户可通过它客观比较硬件升级效果，验证电脑是否满足游戏流畅需求，避免被营销参数误导。",
     "metaphor": "就像汽车在真实高速路和山路组合路段上实测百公里加速与过弯稳定性，而非仅在车间里测发动机转速。",
     "example": "一位玩家打算升级显卡，用3DMark Time Spy和Unigine Heaven分别跑分，并对比《赛博朋克2077》在1440p全高画质下的平均帧率与1%低帧率，以此判断RTX 4070能否稳定提供60FPS以上体验。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "硬件评测",
+    "性能测试",
+    "游戏优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.3dmark.com/",
+    "https://www.tomshardware.com/reviews/benchmark"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:02:15Z"
+  "updated_at": "2026-03-23T13:40:54.349126Z",
+  "quality_score": 0.95
 }

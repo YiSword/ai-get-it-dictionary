@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "性能指标",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Throughput（吞吐量）指系统在单位时间内能够处理的任务或数据量，是衡量 AI 推理服务性能的关键指标。高吞吐量意味着系统能同时服务更多用户，直接影响使用体验和成本。普通用户在选择 AI 服务时，吞吐量决定了响应速度和并发能力。",
+    "plain": "Throughput（吞吐量）指系统在单位时间内成功处理的任务数或数据量，是衡量 AI 模型推理及服务性能的核心指标。高吞吐量代表系统并发处理能力强，能同时服务更多用户，直接影响服务成本与效率。它与延迟共同构成评估 AI 系统性能的关键维度。",
     "metaphor": "就像高速公路的车流量，吞吐量越高，单位时间内通过的车辆（请求）越多，拥堵（排队等待）越少。",
     "example": "某 AI 翻译服务的吞吐量为每秒 1000 句，意味着它可以同时为 1000 个用户提供实时翻译，而不会明显延迟。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型推理",
+    "性能优化",
+    "系统设计"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/what-is/throughput/",
+    "https://docs.nvidia.com/deeplearning/performance/index.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-21T11:59:20Z",
-  "updated_at": "2026-03-21T11:59:20Z"
+  "updated_at": "2026-03-23T17:05:35.287444Z",
+  "quality_score": 0.95
 }

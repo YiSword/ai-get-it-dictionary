@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "guardrail（护栏）在软件工程和系统设计中指一种预防性机制，用于防止用户或开发者无意中执行危险、不合规或易出错的操作。它不是阻止所有行为，而是通过默认限制、参数校验、权限拦截或交互提示等方式，在关键路径上设置安全边界。普通用户需要了解它，因为它是保障系统稳定性、数据安全和用户体验一致性的隐形防线——例如防止误删生产数据、避免配置冲突或拦截恶意输入，从而减少故障、降低运维成本，并增强对数字服务的信任感。",
+    "plain": "guardrail（护栏）是软件工程和系统设计中的预防性机制，用于防止用户或开发者执行危险、不合规操作。它通过默认限制、参数校验或权限拦截等方式，在关键路径设置安全边界。例如防止误删生产数据或拦截恶意输入，从而保障系统稳定性、数据安全及用户体验，减少故障并降低运维成本。",
     "metaphor": "就像高速公路旁的物理护栏，它不禁止车辆行驶，但会在车辆偏离车道时及时阻挡并引导回正轨，避免坠入危险区域。",
     "example": "在云平台的资源管理控制台中，当用户尝试删除一个被多个服务依赖的核心数据库实例时，guardrail 会自动拦截该操作并弹出确认警告，同时列出依赖关系，要求用户先解除关联或提供强制删除凭证。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "系统安全",
+    "软件开发",
+    "风险控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/bedrock/guardrails/",
+    "https://docs.nvidia.com/nemo/guardrails/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:04:25Z"
+  "updated_at": "2026-03-23T16:28:32.331868Z",
+  "quality_score": 0.95
 }

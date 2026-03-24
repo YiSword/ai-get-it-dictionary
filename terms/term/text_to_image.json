@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "text_to_image 是一种人工智能技术，能根据用户输入的自然语言描述（如‘一只戴墨镜的橘猫坐在太空舱里’）自动生成对应的图像。它融合了自然语言处理与计算机视觉，使普通人无需绘画技能或专业设计软件，也能快速将脑海中的想法可视化。随着AI创作工具普及，了解这一术语有助于用户更高效地使用图像生成服务、参与数字内容创作，或识别AI生成内容的边界与局限。",
+    "plain": "text_to_image 是一种生成式人工智能技术，可根据自然语言描述自动生成对应图像。它融合自然语言处理与计算机视觉，让用户无需绘画技能即可将想法可视化。该技术广泛应用于数字内容创作、设计及娱乐领域，显著降低了图像创作门槛，是当前 AI 绘画工具的核心功能。",
     "metaphor": "就像一位不知疲倦、从不打盹的插画师，你只需用日常语言下单，它立刻为你手绘出符合描述的画面。",
     "example": "设计师在构思广告海报时，用‘黄昏下的极简风咖啡馆，玻璃窗上凝着水雾，窗外梧桐叶微动’生成多版草图，再从中挑选优化。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AIGC",
+    "图像生成",
+    "多模态"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/tasks/text-to-image",
+    "https://openai.com/dall-e-3"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T10:05:27Z"
+  "updated_at": "2026-03-23T14:08:28.752920Z",
+  "quality_score": 0.95
 }

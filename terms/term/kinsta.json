@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "网站托管",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Kinsta 是一家专注于托管 WordPress 网站的高性能云托管服务提供商，基于 Google Cloud Platform 运行，提供自动扩展、内置 CDN、一键 SSL、高级缓存和实时监控等功能。它不面向通用建站用户，而是为中高流量、重视速度、安全与技术支持的 WordPress 网站（如企业官网、电商站、媒体平台）设计。普通用户需要知道 Kinsta，是因为当网站增长到共享主机无法支撑时，选择像 Kinsta 这样专优化 WordPress 的托管方案，能显著提升访问速度、减少宕机风险，并降低技术运维门槛。",
+    "plain": "Kinsta 是基于 Google Cloud Platform 的高性能 WordPress 托管服务商。提供自动扩展、内置 CDN、一键 SSL 及高级缓存等功能，专为中高流量企业官网与电商站设计。当共享主机无法满足需求时，它能显著提升速度、减少宕机并降低运维门槛，适合重视安全与技术支持的 WordPress 用户。",
     "metaphor": "Kinsta 就像一位精通 WordPress 的私人赛车调校师——不仅提供顶级跑车（Google Cloud 基础设施），还全程负责引擎优化、轮胎调校（自动缓存与数据库优化）和赛道策略（CDN 与安全防护），让你专注驾驶（内容与业务），而非修车。",
     "example": "一家月访问量超 50 万的独立博客在使用廉价共享主机时频繁崩溃，迁移到 Kinsta 后，首屏加载时间从 4.2 秒降至 0.8 秒，且无需手动配置缓存插件或应对 DDoS 攻击。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "WordPress",
+    "云托管",
+    "网站性能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://kinsta.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:48:34Z",
-  "updated_at": "2026-03-21T07:51:05Z"
+  "updated_at": "2026-03-23T11:41:36.652870Z",
+  "quality_score": 0.95
 }

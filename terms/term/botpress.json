@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "对话式 AI 平台",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Botpress 是一个开源的、基于 Node.js 的对话机器人开发平台，允许开发者构建、部署和管理智能聊天机器人。它提供可视化流程编辑器、内置 NLU（自然语言理解）引擎、多通道集成（如 Slack、WhatsApp、Web Widget）以及可扩展的模块系统。普通用户——尤其是业务人员、产品经理或非技术运营者——需要了解 Botpress，因为它降低了定制化客服机器人或内部自动化助手的门槛，无需从零编写代码即可快速搭建符合实际业务逻辑的对话系统，并能自主迭代优化。",
+    "plain": "Botpress 是一款开源的对话式 AI 开发平台，基于 Node.js 构建。它提供可视化流程编辑器、内置 NLU 引擎及多通道集成能力，支持快速构建、部署和管理智能聊天机器人。该平台显著降低开发门槛，允许非技术人员通过低代码方式搭建符合业务逻辑的对话系统，广泛应用于客服自动化及内部助手场景。",
     "metaphor": "Botpress 就像乐高机器人套装：你不需要懂电机原理或编程，只需选择预装的‘对话积木’（如问候、FAQ、表单收集），按业务流程拼接起来，就能组装出一个能听会说、自动响应的专属助手。",
     "example": "一家电商公司使用 Botpress 在官网嵌入客服机器人，自动处理退货政策咨询、订单状态查询和物流跟踪；当用户提问‘我的订单还没发货’时，机器人调用后台 API 实时获取订单数据并返回准确信息，无需人工介入。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "智能客服",
+    "低代码开发",
+    "企业自动化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://botpress.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:13:42Z"
+  "updated_at": "2026-03-23T18:30:13.569667Z",
+  "quality_score": 1.0
 }

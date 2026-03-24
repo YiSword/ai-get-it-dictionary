@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "工具链",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Vultr 是一家提供云服务器（VPS）和基础设施即服务（IaaS）的美国科技公司，允许用户按需租用虚拟服务器、对象存储、负载均衡器等资源，并支持全球多个数据中心。它以简洁的控制面板、按小时计费、快速部署和开发者友好的 API 著称。普通用户需要了解 Vultr，是因为它为个人项目、小型网站、测试环境或独立应用提供了低成本、高灵活性的托管方案，无需购买硬件或签订长期合同。",
+    "plain": "Vultr 是一家美国云服务提供商，提供云服务器（VPS）、对象存储及 GPU 实例等基础设施即服务（IaaS）。支持全球多数据中心，按小时计费，具备快速部署与开发者友好 API。常用于托管个人项目、小型网站、测试环境或部署 AI 应用，无需购买硬件或签订长期合同，提供低成本高灵活性的托管方案。",
     "metaphor": "Vultr 就像一家自助式‘云工具租赁店’——你不用买下整台挖掘机，只需按分钟租一台，挖完就还，还能随时换型号或加租另一台。",
     "example": "一位前端开发者用 Vultr 在 60 秒内创建了一台纽约机房的 Ubuntu 服务器，部署了个人博客，每月花费不到 5 美元；当流量增长时，他直接在控制台将 CPU 和内存升级，无需迁移数据或停机。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "基础设施",
+    "开发者工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.vultr.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:40:09Z",
-  "updated_at": "2026-03-21T10:21:49Z"
+  "updated_at": "2026-03-23T10:48:27.441858Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发组件",
   "difficulty": "中级",
   "explanations": {
-    "plain": "mcp_client 是一个遵循 MCP（Model Context Protocol）规范的客户端程序或库，用于与支持该协议的 AI 模型服务进行标准化交互。它负责封装请求格式、处理上下文管理、流式响应解析及元数据交换等任务。普通用户无需直接操作它，但当使用基于 MCP 构建的智能开发工具、IDE 插件或本地大模型运行时，mcp_client 是背后实现‘模型即服务’无缝集成的关键组件，影响功能可用性、上下文连贯性和响应可靠性。",
+    "plain": "MCP 客户端是遵循 Model Context Protocol 规范的程序或库，用于连接 AI 模型与外部数据源。它负责标准化请求、上下文管理及响应解析，实现模型与工具的无缝集成。作为架构关键组件，它确保交互的可靠性与上下文连贯性，常用于智能开发工具及本地大模型运行时环境。",
     "metaphor": "就像手机上的通用充电器接口（如 USB-C），mcp_client 是让不同品牌‘AI 模型电池’能统一接入并稳定供电的适配器。",
     "example": "在一款支持 MCP 的代码编辑器中，当你右键选择‘解释这段 Python 代码’时，编辑器内部调用 mcp_client 将当前文件内容、光标位置和历史对话作为上下文，发送给本地运行的 Ollama 模型服务，并结构化接收其分块返回的解释结果。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 开发",
+    "协议集成",
+    "工具调用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://modelcontextprotocol.io/",
+    "https://github.com/modelcontextprotocol"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:28:52Z"
+  "updated_at": "2026-03-23T16:57:24.553673Z",
+  "quality_score": 1.0
 }

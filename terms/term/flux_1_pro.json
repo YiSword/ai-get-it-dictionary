@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "图像生成模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "flux_1_pro 是 Flux 模型系列中的一个高性能图像生成变体，由 Black Forest Labs 开发，专为高质量、高保真度的文生图任务优化。它在细节还原、文本对齐（text fidelity）和复杂构图处理上显著优于基础版 Flux.1，支持更长的提示词理解和更稳定的风格一致性。普通用户需要了解它，是因为在使用开源图像生成工具（如 ComfyUI 或 Automatic1111 WebUI）时，选择 flux_1_pro 可能意味着更少的重试、更接近预期的输出，尤其在商业设计、插画创作或需要精确控制元素位置与语义的场景中。",
+    "plain": "Flux.1 Pro 是 Black Forest Labs 推出的高性能文生图模型。相比基础版，它在细节还原、文本遵循及复杂构图上表现更优，支持长提示词理解。适用于商业设计、插画创作等对画质与语义控制要求极高的场景，常集成于 ComfyUI 等工具中，能减少重试成本并提供更稳定的输出效果。",
     "metaphor": "就像专业摄影师选用全画幅相机搭配定焦镜头——flux_1_pro 不是‘更好用’的入门款，而是为关键成像质量‘不妥协’而设计的高精度生成引擎。",
     "example": "一位独立游戏开发者用提示词‘cyberpunk street at night, neon signs reading ‘NEXUS-7’, rain-slicked pavement reflecting holograms, cinematic angle’输入 flux_1_pro，一次性生成了符合所有文字细节、无文字畸变且光影层次丰富的宣传图，无需后期修复文字错误或构图偏移。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文生图",
+    "商业设计",
+    "高质量生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://blackforestlabs.ai",
+    "https://huggingface.co/black-forest-labs"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:35:24Z",
-  "updated_at": "2026-03-21T06:35:47Z"
+  "updated_at": "2026-03-23T18:35:10.391645Z",
+  "quality_score": 0.95
 }

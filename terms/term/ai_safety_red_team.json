@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "ai_safety_red_team",
+  "norm_term": "ai_safety_red_team",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "practice",
+  "category": "AI 安全",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "AI 安全红队测试是一种系统性评估方法，通过模拟恶意攻击者行为发现人工智能系统的潜在风险。专业团队主动尝试突破模型安全限制，如诱导生成有害内容或绕过伦理约束。核心目标是提前暴露系统在真实场景中可能被滥用的弱点，帮助开发者加固防御机制，保障 AI 产品可靠性。",
+    "metaphor": "如同银行聘请黑客模拟抢劫来检验金库安全性，红队测试是让人工智能的'安全系统'经历虚拟攻击演练，确保其能抵御真实世界的恶意行为。",
+    "example": "某公司发布新聊天机器人前，红队成员尝试用隐晦话术诱导其生成暴力教程，或上传特殊图案测试图像识别系统是否会被欺骗。发现漏洞后，团队会针对性调整模型训练数据和安全过滤规则。"
+  },
+  "scenario_tags": [
+    "模型评估",
+    "安全测试",
+    "风险控制"
+  ],
+  "sources": [
+    "https://www.nist.gov/itl/ai-risk-management-framework",
+    "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:56:06.548027Z",
+  "updated_at": "2026-03-23T15:07:19.807113Z",
+  "quality_score": 0.95
+}

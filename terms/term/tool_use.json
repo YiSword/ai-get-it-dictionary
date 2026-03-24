@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型能力",
   "difficulty": "中级",
   "explanations": {
-    "plain": "tool_use 是指大语言模型在生成响应前，主动调用外部工具（如计算器、天气API、数据库查询接口等）来获取实时或专业信息，并将结果整合进最终回答的能力。它让模型不再仅依赖训练时学到的静态知识，而是能动态执行操作、验证事实、处理结构化数据。普通用户需要了解这一概念，因为它直接影响AI回答的准确性、时效性和实用性——例如查询今日股价或翻译文档时，启用tool_use才能获得真实、可操作的结果。",
+    "plain": "tool_use 指大语言模型主动调用外部工具（如计算器、API）获取实时信息或执行操作的能力。它使模型突破静态知识限制，能动态查询数据、验证事实。启用后可获更准确、时效性强的结果，如查股价或翻译文档。",
     "metaphor": "就像一位资深顾问随身携带智能手机，遇到不确定的问题时，会立刻打开天气App查实况、用计算器验算、或拨通专家电话确认，而不是单靠记忆作答。",
     "example": "用户问‘上海浦东机场当前是否在降落航班？’，支持tool_use的AI会自动调用航空实时数据API获取最新起降状态，再以自然语言汇总回答，而非猜测或复述过时信息。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "功能调用",
+    "智能体"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://docs.anthropic.com/claude/docs/tool-use",
+    "https://platform.openai.com/docs/guides/function-calling"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T10:09:24Z"
+  "updated_at": "2026-03-23T15:11:19.304976Z",
+  "quality_score": 0.95
 }

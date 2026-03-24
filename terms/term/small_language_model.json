@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Small language model（小型语言模型）是指参数量相对较少（通常在数千万到数十亿级别）、计算资源需求较低、可在普通设备上运行的AI语言模型。与动辄千亿参数的大型模型相比，它更轻量、响应更快、部署成本更低，适合嵌入手机、边缘设备或对隐私和实时性要求高的场景。普通用户需要了解它，因为越来越多的App、智能助手和本地化AI工具正采用这类模型，在不上传数据的前提下提供即时、安全的语言服务。",
+    "plain": "小型语言模型（SLM）指参数量较少（通常数千万至数十亿）、计算需求低的 AI 模型。相比千亿参数的大模型，它更轻量、响应快、部署成本低，适合手机、边缘设备及高隐私场景。随着本地化 AI 工具普及，SLM 能在不上传数据的前提下提供即时安全的语言服务，是端侧智能的核心技术。",
     "metaphor": "就像一台高效节能的家用轿车，虽不如重型卡车运载力强，却更省油、易操控、能轻松停进自家车库。",
     "example": "某款笔记App内置的小型语言模型可在用户手机本地实时完成错别字纠正、简短摘要生成和待办事项提取，全程无需联网或上传文本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "边缘计算",
+    "隐私保护",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/",
+    "https://huggingface.co/blog/small-language-models"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:46:30Z"
+  "updated_at": "2026-03-23T16:29:28.719752Z",
+  "quality_score": 0.95
 }

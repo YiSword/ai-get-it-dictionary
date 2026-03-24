@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "LLM 基础设施",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Helicone 是一个开源的可观测性与代理层工具，专为 LLM（大语言模型）应用设计，用于记录、监控、分析和优化 API 调用（如 OpenAI、Anthropic 等）。它像一个智能‘中间件’，自动捕获请求/响应、延迟、成本、token 使用量及用户反馈等关键指标。普通开发者或产品团队需要了解它，因为 LLM 应用调试难、计费不透明、性能瓶颈隐蔽——Helicone 提供实时洞察和结构化日志，帮助快速定位问题、控制成本并迭代提示词与模型策略。",
+    "plain": "Helicone 是一款开源的 LLM 可观测性与代理层工具。它作为中间件自动捕获请求响应、延迟、成本及 Token 用量等指标。专为解决 LLM 应用调试难、计费不透明问题设计，提供实时洞察与结构化日志，帮助开发者快速定位问题、控制成本并优化模型策略，支持 OpenAI 等多种接口。",
     "metaphor": "Helicone 就像给你的 LLM 应用装上行车记录仪和仪表盘：既完整记录每一次‘对话旅程’，又实时显示油耗（token）、车速（延迟）和路线偏差（错误率）。",
     "example": "一家客服聊天机器人团队将 Helicone 部署在前端与 OpenAI API 之间，借此发现某类用户查询平均耗时突增 300ms，进一步分析发现是特定提示词触发了冗长的系统回复，随后优化 prompt 并节省了 22% 的 token 成本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型监控",
+    "成本优化",
+    "API 代理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.helicone.ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:07:44Z"
+  "updated_at": "2026-03-23T14:28:37.502179Z",
+  "quality_score": 1.0
 }

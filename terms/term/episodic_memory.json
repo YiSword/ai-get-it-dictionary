@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "认知科学",
   "difficulty": "中级",
   "explanations": {
-    "plain": "episodic_memory（情景记忆）是指人类对个人亲身经历的特定事件的记忆，包括时间、地点、情绪和感官细节，例如‘上周三在咖啡馆和朋友大笑聊到深夜’。它属于长时记忆的一种，依赖于海马体等脑区，随年龄增长或神经退行性疾病（如阿尔茨海默病）易受损害。普通用户需要了解它，因为它是自我认同、共情能力与日常决策的基础——记不住刚放下的钥匙，可能不是粗心，而是情景记忆早期衰退的信号。",
+    "plain": "情景记忆指对个人亲身经历特定事件的记忆，包含时间、地点及情绪感官细节，属于长时记忆的一种。它依赖海马体，是自我认同与决策的基础。在 AI 领域，模拟该机制有助于增强智能体的上下文理解与长期交互能力，是认知架构研究的重要概念。",
     "metaphor": "就像大脑里一本自动录制、带时间戳和多感官标签的私人日记，每一页都封存着‘我曾在何时何地、和谁、以何种心情经历了什么’。",
     "example": "一位中风患者在康复训练中被要求每天复述早餐过程（食物、餐具、窗外鸟鸣），正是通过反复激活情景记忆回路来重建对日常事件的自主回忆能力。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "心理学",
+    "长时记忆",
+    "智能体架构"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Episodic_memory",
+    "http://www.scholarpedia.org/article/Episodic_memory"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:11:02Z"
+  "updated_at": "2026-03-23T12:16:27.733621Z",
+  "quality_score": 0.95
 }

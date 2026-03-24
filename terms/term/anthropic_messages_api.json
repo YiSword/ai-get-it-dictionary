@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "anthropic_messages_api",
+  "norm_term": "anthropic_messages_api",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "api",
+  "category": "API 接口",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Anthropic Messages API 是 Anthropic 公司提供的核心编程接口，允许开发者通过标准化请求调用其大型语言模型（如 Claude）。它支持处理对话上下文与多模态输入，生成自然语言回复。该接口是构建智能客服、聊天机器人及 AI 助手的关键组件，实现了高效的人机语义交互与应用集成。",
+    "metaphor": "就像餐厅的服务员，它接收顾客的点单（用户输入），将需求传达给后厨（AI 模型），再把做好的菜品（生成回复）端给顾客，全程无需顾客接触厨房运作。",
+    "example": "某电商平台使用此接口开发智能客服系统，当用户询问“如何退货”时，API 将问题传递给 AI 模型，自动生成包含退货步骤、时限等结构化信息的回复，显著提升服务响应效率。"
+  },
+  "scenario_tags": [
+    "大模型应用",
+    "API 集成",
+    "软件开发"
+  ],
+  "sources": [
+    "https://docs.anthropic.com/claude/reference/messages_post"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:41:06.434050Z",
+  "updated_at": "2026-03-23T17:31:46.653487Z",
+  "quality_score": 0.95
+}

@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "retriever_augmented_planner",
+  "norm_term": "retriever_augmented_planner",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "architecture",
+  "category": "AI 架构",
+  "difficulty": "高级",
+  "explanations": {
+    "plain": "Retriever Augmented Planner（检索增强规划器）是一种结合信息检索与任务规划的混合架构。它通过动态检索知识库为规划模块提供实时上下文，优化任务分解与路径规划。适用于多步骤、多依赖的智能系统，如自动化工作流或机器人任务执行，帮助理解高效协作机制。",
+    "metaphor": "它就像一位同时携带地图和导航仪的探险家：地图提供全局信息（检索），导航仪实时规划路径（规划），两者结合确保探险家既能避免重复探索，又能灵活应对突发障碍。",
+    "example": "在智能客服系统中，该架构可结合用户历史对话记录（检索）与当前问题类型，动态生成包含多步骤解决方案的响应流程（规划），例如先查询订单状态，再触发退款流程，最后发送确认邮件。"
+  },
+  "scenario_tags": [
+    "LLM 智能体",
+    "任务规划",
+    "知识检索"
+  ],
+  "sources": [
+    "https://arxiv.org/abs/2308.11517"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:36:10.920110Z",
+  "updated_at": "2026-03-23T15:40:40.999782Z",
+  "quality_score": 1.0
+}

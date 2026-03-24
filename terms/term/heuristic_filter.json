@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "算法机制",
   "difficulty": "中级",
   "explanations": {
-    "plain": "heuristic_filter 是一种基于经验规则而非严格逻辑或完整数据的过滤机制，它通过快速判断、近似规则和常见模式来筛选信息，常用于垃圾邮件识别、内容审核或实时推荐系统中。普通用户需要了解它，是因为它直接影响所见内容的质量与安全性——例如可能误拦重要邮件，或漏放恶意链接，理解其‘不完美但高效’的特性有助于合理预期系统行为并及时反馈问题。",
+    "plain": "heuristic_filter 是基于经验规则而非严格逻辑的过滤机制，通过近似规则快速筛选信息。常用于垃圾邮件识别、内容审核及推荐系统。因其“不完美但高效”的特性，可能出现误拦或漏放。用户理解此机制有助于合理预期系统行为，识别风险并及时反馈，优化体验。",
     "metaphor": "就像一位经验丰富的图书管理员，不逐字阅读每本书，而是根据封面、出版社和书名快速决定是否上架。",
     "example": "Gmail 使用 heuristic_filter 判断一封邮件是否为垃圾邮件：若发件人域名新注册、正文中含多个感叹号且无收件人姓名，则自动归入推广或垃圾箱。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "算法机制",
+    "内容安全",
+    "风险控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Heuristic_(computer_science)",
+    "https://owasp.org/www-community/controls/Heuristic_Filtering"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:09:06Z"
+  "updated_at": "2026-03-23T14:53:38.709482Z",
+  "quality_score": 0.95
 }

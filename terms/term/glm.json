@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GLM（General Language Model）是由智谱AI研发的一系列开源大语言模型，涵盖从轻量级到超大规模的多个版本（如GLM-4），具备强大的中文理解与生成能力、多轮对话支持、工具调用和代码生成等特性。普通用户需要了解它，是因为它被广泛集成于办公助手、教育工具、客服系统等日常应用中，直接影响人机交互的效率与体验；同时其开源特性也降低了开发者构建AI应用的门槛。",
+    "plain": "GLM 是由智谱 AI 研发的一系列开源大语言模型，涵盖多版本规格。具备强大的中文理解与生成能力，支持多轮对话、工具调用和代码生成。广泛集成于办公助手、教育工具及客服系统，影响人机交互效率。其开源特性降低了开发者构建 AI 应用的门槛，是当前主流国产大模型之一。",
     "metaphor": "GLM就像一位精通多国语言、熟悉各行各业的全能助理，不仅能听懂你的口语化表达，还能主动查资料、写邮件、编代码，甚至帮你做决策。",
     "example": "一名大学生使用搭载GLM-4的笔记App，只需输入‘把课堂录音转成带重点标记的Markdown笔记’，模型便自动完成语音转文字、提炼核心概念并结构化排版。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "智能助手",
+    "开源模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.zhipuai.cn/",
+    "https://github.com/THUDM/GLM"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:48:23Z"
+  "updated_at": "2026-03-23T14:12:10.793852Z",
+  "quality_score": 0.95
 }

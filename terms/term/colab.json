@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Colab（全称Google Colaboratory）是谷歌提供的免费云端Jupyter Notebook服务，允许用户在浏览器中直接编写和运行Python代码，无需安装任何本地环境。它预装了TensorFlow、PyTorch等主流AI库，并提供免费的GPU和TPU算力支持。普通用户——尤其是初学者、学生或数据爱好者——需要知道它，因为它大幅降低了机器学习和数据分析的入门门槛：不用配置环境、不占本地资源、可随时从任意设备访问，且支持协作编辑与一键分享。",
+    "plain": "Google Colaboratory 简称 Colab，是谷歌提供的免费云端 Jupyter Notebook 服务。用户可在浏览器中直接编写运行 Python 代码，无需本地配置。它预装 TensorFlow、PyTorch 等主流 AI 库，并提供免费 GPU 和 TPU 算力。这大幅降低了机器学习入门门槛，支持协作编辑与一键分享，适合初学者及数据科学家快速实验与部署模型。",
     "metaphor": "就像一个随时可用的、带高性能显卡的笔记本电脑，你只需打开网页就能使用，用完即走，无需自己买、装、修。",
     "example": "一名大学生想训练一个图像分类模型，她直接在Colab中打开一个预置的TensorFlow示例Notebook，点击‘运行全部’，利用免费GPU在10分钟内完成训练并可视化结果，全程未安装任何软件。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "机器学习",
+    "云计算",
+    "数据科学"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://colab.research.google.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:32:29Z",
-  "updated_at": "2026-03-21T04:43:04Z"
+  "updated_at": "2026-03-23T15:31:52.788542Z",
+  "quality_score": 0.95
 }

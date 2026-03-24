@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "系统运维",
   "difficulty": "中级",
   "explanations": {
-    "plain": "latency_regression 指系统响应延迟意外变长的现象，通常出现在软件更新、配置变更或硬件升级后。它不是功能失效，而是性能退化——比如网页加载从200毫秒变慢到1200毫秒。普通用户需要关注它，因为高延迟会直接导致卡顿、操作滞后、视频缓冲或交易超时，显著降低使用体验，甚至引发误判（如以为服务宕机）。",
+    "plain": "latency_regression 指系统响应延迟在更新或变更后意外增加的现象。虽非功能失效，但属性能退化，如网页加载从 200ms 增至 1200ms。高延迟会导致卡顿、操作滞后或交易超时，显著降低用户体验，甚至被误判为服务宕机。需通过监控及时识别并回滚变更。",
     "metaphor": "就像一条原本畅通的高速公路突然在某个路段增设了三个临时收费站，车流没被拦停，但每辆车都要多花两分钟才能通过。",
     "example": "某电商App发布新版本后，用户点击‘立即购买’按钮的响应时间从350ms上升至1800ms，导致购物车放弃率上升22%，经排查确认为新增的实时风控校验逻辑引入了latency regression。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "性能监控",
+    "版本发布",
+    "故障排查"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://sre.google/sre-book/monitoring-distributed-systems/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:02:33Z"
+  "updated_at": "2026-03-23T13:58:50.749427Z",
+  "quality_score": 0.95
 }

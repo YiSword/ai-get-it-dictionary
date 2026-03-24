@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "用户体验",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Loveable（可被喜爱的）是一个产品设计与用户体验领域的核心术语，指产品或服务不仅功能可用、界面易用，更能激发用户的情感共鸣、信任与长期依恋。它强调超越‘可用性’（usable）和‘有用性’（useful），通过细腻的交互细节、真诚的文案、恰到好处的反馈、个性化关怀等，让用户产生‘这产品懂我’‘用起来很温暖’的感受。普通用户需要知道它，是因为在信息过载的时代，真正被喜爱的产品才能持续获得关注、留存与口碑推荐——它直接关系到你是否愿意每天主动打开、耐心等待更新，甚至为它辩护。",
+    "plain": "Loveable 是用户体验领域的核心术语，指产品不仅可用、有用，更能激发用户情感共鸣与依恋。它通过细腻交互、真诚文案等细节，让用户产生“懂我”的温暖感受。在信息过载时代，可爱的产品才能获得持续关注、留存与口碑，直接关系到用户的主动使用意愿。",
     "metaphor": "就像一位既靠谱又懂你的老朋友：办事利落不添乱，聊天时总记得你提过的小事，偶尔还给你一个小惊喜。",
     "example": "当一款记账App在用户连续坚持记录7天后，悄悄弹出一句手绘风格的‘谢谢你照顾好自己的小日子 🌟’，并附上一张可收藏的成就卡片——这种不打扰却有温度的设计，正是loveable的体现。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "用户体验",
+    "产品设计",
+    "用户留存"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://semanticstudios.com/user_experience_honeycomb/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:21:28Z"
+  "updated_at": "2026-03-23T12:24:35.633690Z",
+  "quality_score": 0.95
 }

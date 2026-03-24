@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Amazon Bedrock 是 AWS 提供的一项完全托管的生成式人工智能服务，允许开发者通过 API 快速访问和定制多种前沿大语言模型（如 Claude、Llama、Cohere 等），无需自行搭建基础设施或管理模型训练与部署。普通用户（尤其是企业开发者和AI应用构建者）需要了解它，因为它大幅降低了使用顶尖AI模型的门槛——无需深度学习专业知识，即可安全、合规、可扩展地集成文本生成、对话理解、代码编写等能力到自有应用中。",
+    "plain": "Amazon Bedrock 是 AWS 推出的完全托管生成式 AI 服务。开发者可通过 API 直接调用 Claude、Llama 等主流大模型，无需管理底层基础设施。该服务支持文本生成、对话交互等能力集成，具备企业级安全与合规性，能显著降低 AI 应用构建门槛，适合快速开发与部署。",
     "metaphor": "就像一家‘AI模型超市’，你不用自己养牛挤奶、烘焙面包，只需挑选现成的优质奶酪、面粉和果酱，按需组合，轻松做出专属三明治。",
     "example": "一家电商公司利用 Amazon Bedrock 调用 Claude 模型，实时为客服聊天机器人生成专业、品牌一致的退换货回复；同时用同一平台上的 Titan 嵌入模型，将商品描述向量化，实现语义搜索优化。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "生成式 AI",
+    "模型服务",
+    "企业应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/bedrock/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:34:24Z"
+  "updated_at": "2026-03-23T13:20:42.432425Z",
+  "quality_score": 0.95
 }

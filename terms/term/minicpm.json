@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MinicPM 是由面壁智能推出的轻量级多模态大模型系列，专为端侧（如手机、PC）高效运行而设计，在保持较强语言理解、图像识别与跨模态推理能力的同时，参数量显著小于主流大模型（通常在1B至3B级别）。它支持中英文双语、图文理解与生成，且开源可本地部署。普通用户需要了解它，是因为它让高性能AI能力不再依赖云端和强大硬件——例如在手机上离线运行AI助手、实时翻译图片中的文字或分析截图内容，兼顾隐私性、响应速度和低功耗。",
+    "plain": "MiniCPM 是由面壁智能推出的轻量级多模态大模型系列，专为手机、PC 等端侧设备高效运行设计。参数量通常在 1B 至 3B 级别，支持中英文双语及图文理解。它开源可本地部署，让用户无需云端即可享受高性能 AI，兼顾隐私性、响应速度和低功耗，适合离线助手及实时翻译等场景。",
     "metaphor": "MinicPM 就像一位随身携带的‘全能速记员’：体型精干、反应敏捷，不需要办公室（服务器）支持，却能快速读懂你拍的照片、听懂你的问题，并当场给出清晰答复。",
     "example": "一名记者用搭载 MinicPM 的安卓手机拍摄会议白板照片，无需联网，几秒内就将手写内容准确转为结构化文字并提炼出关键议题。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "端侧部署",
+    "多模态",
+    "开源模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/OpenBMB/MiniCPM",
+    "https://modelbest.cn/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:39:53Z"
+  "updated_at": "2026-03-23T15:17:49.558047Z",
+  "quality_score": 0.95
 }

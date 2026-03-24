@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发框架",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Semantic Kernel 是微软开源的一个轻量级 SDK，用于将大语言模型（LLM）与传统代码逻辑、外部数据源和插件系统无缝集成。它提供标准化的接口来编排提示词、调用函数、管理内存和处理上下文，让开发者无需从零构建 LLM 应用基础设施。普通用户（尤其是软件工程师和AI应用构建者）需要了解它，因为它显著降低了构建可靠、可测试、可扩展的智能应用的门槛，避免重复造轮子，并支持在不同模型后端（如OpenAI、Azure AI、Ollama）间灵活切换。",
+    "plain": "Semantic Kernel 是微软开源的轻量级 SDK，用于将大语言模型与传统代码、数据及插件无缝集成。它提供标准化接口编排提示词、调用函数及管理上下文，支持多模型后端切换。该工具显著降低构建可靠、可扩展智能应用的门槛，是 AI 应用开发的核心基础设施。",
     "metaphor": "Semantic Kernel 就像为大语言模型打造的‘智能插座’——它不发电（不训练模型），但让任何兼容的‘电器’（LLM、工具函数、数据库）都能安全、标准地接入并协同工作。",
     "example": "一家客服团队用 Semantic Kernel 将 Azure OpenAI 服务与内部工单系统 API 集成，自动解析用户问题、检索知识库、调用创建工单的函数，并生成自然语言回复，整个流程通过声明式技能（Skill）配置，无需手动拼接 HTTP 请求或管理 token 上下文。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "LLM 应用开发",
+    "AI 编排",
+    "开源框架"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/microsoft/semantic-kernel",
+    "https://learn.microsoft.com/semantic-kernel/overview/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:42:42Z"
+  "updated_at": "2026-03-23T11:25:41.511938Z",
+  "quality_score": 0.95
 }

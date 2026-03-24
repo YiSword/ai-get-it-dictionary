@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ProGAN（Progressive Growing of GANs）是一种生成对抗网络（GAN）的训练方法，由NVIDIA于2018年提出。它通过从低分辨率图像（如4×4）开始逐步增加网络层数和分辨率（如8×8、16×16，直至1024×1024），实现稳定、高质量的人脸或自然图像生成。相比传统GAN，ProGAN显著缓解了训练崩溃和模式坍塌问题，大幅提升生成图像的细节与真实性。普通用户需要了解它，因为它是当前AI图像生成（如DeepFake、虚拟人、艺术创作工具）背后的关键技术基础之一，影响着我们日常接触的合成内容的质量与可信度。",
+    "plain": "ProGAN 是 NVIDIA 于 2018 年提出的生成对抗网络训练方法。该技术通过从低分辨率开始逐步增加网络层数和图像分辨率，实现稳定、高质量图像生成。相比传统 GAN，它显著缓解了训练崩溃和模式坍塌问题，是 AI 图像生成、虚拟人等技术的关键基础。",
     "metaphor": "就像建筑师先搭出房屋的简略模型，再逐层添加门窗、装饰和精细结构，ProGAN也是一步一步‘长大’——从模糊轮廓起步，慢慢雕琢出逼真的五官与纹理。",
     "example": "NVIDIA使用ProGAN生成了极具真实感的虚构人脸数据集（celeba-HQ），被广泛用于人脸识别算法的鲁棒性测试；部分AI头像生成网站（如thispersondoesnotexist.com早期版本）即基于ProGAN架构构建。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "生成对抗网络",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1710.10196",
+    "https://github.com/tkarras/progressive_growing_of_gans"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:23:31Z",
-  "updated_at": "2026-03-21T09:16:10Z"
+  "updated_at": "2026-03-23T18:54:20.733475Z",
+  "quality_score": 0.95
 }

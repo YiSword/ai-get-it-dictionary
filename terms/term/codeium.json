@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 编程工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Codeium 是一个免费的 AI 编程助手，为开发者提供代码补全、行内建议、函数生成、自然语言注释转代码等能力，支持主流编辑器（如 VS Code、JetBrains 系列）和多种编程语言。它不依赖云端账户即可使用，本地处理部分请求，强调隐私与低延迟。普通用户——尤其是程序员、学生或自学编码者——需要知道它，因为它能显著提升写代码效率、减少重复劳动，并在不付费、不绑定平台的前提下提供接近商业工具（如 GitHub Copilot）的体验。",
+    "plain": "Codeium 是一款免费的 AI 编程助手，提供代码补全、函数生成及自然语言转代码等功能。支持 VS Code、JetBrains 等主流编辑器及多种编程语言。它强调隐私与低延迟，部分请求本地处理。为开发者提供接近 GitHub Copilot 的体验，显著提升编码效率，适合程序员及学生使用。",
     "metaphor": "就像一位随时待命的资深结对编程伙伴，不用开口提问，就能根据你正在写的代码上下文，默默递上最可能需要的下一行或整个函数。",
     "example": "当你在 VS Code 中输入 'def calculate_tax' 后按下空格，Codeium 会自动补全函数签名、参数、文档字符串，甚至生成包含税率计算逻辑的完整函数体。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "编程辅助",
+    "效率工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://codeium.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:38:16Z"
+  "updated_at": "2026-03-23T14:42:06.461503Z",
+  "quality_score": 1.0
 }

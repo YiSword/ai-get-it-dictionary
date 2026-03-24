@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数学与几何",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Curve（曲线）是数学和计算机图形学中描述连续变化路径的基本几何对象，可以是一维函数图像、二维平面上的参数轨迹，或三维空间中的弯曲线条。它广泛应用于设计软件、动画路径、字体轮廓、加密算法（如椭圆曲线密码学）和物理建模中。普通用户虽不直接编写曲线方程，但在使用绘图工具调整贝塞尔手柄、观看平滑滚动动画、或信任HTTPS网站的安全连接时，实际都在与曲线技术交互。",
+    "plain": "Curve（曲线）是数学和图形学中描述连续变化路径的几何对象，包括函数图像、参数轨迹或空间弯曲线条。它广泛应用于设计软件贝塞尔曲线、动画路径及椭圆曲线密码学。用户调整绘图手柄或访问 HTTPS 网站时，都在间接使用曲线技术，是连接抽象数学与实际应用的重要桥梁。",
     "metaphor": "就像用一支可调节软硬度的钢笔画出的流畅线条——起点、终点和中间的‘控制点’共同决定了它的弯曲程度和走向。",
     "example": "在Adobe Illustrator中，设计师拖拽锚点两侧的手柄来调整贝塞尔曲线，从而精确绘制图标轮廓或文字路径。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数学建模",
+    "图形渲染",
+    "密码学"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://mathworld.wolfram.com/Curve.html",
+    "https://en.wikipedia.org/wiki/Curve"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:27:02Z",
-  "updated_at": "2026-03-21T05:08:16Z"
+  "updated_at": "2026-03-23T13:06:53.916991Z",
+  "quality_score": 0.95
 }

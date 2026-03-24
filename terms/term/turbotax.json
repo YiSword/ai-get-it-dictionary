@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "财税软件",
   "difficulty": "中级",
   "explanations": {
-    "plain": "TurboTax 是美国主流的个人税务申报软件，由Intuit公司开发，帮助纳税人自动计算应缴税款、识别可抵扣项、填写联邦和州税务表格，并直接电子提交给美国国税局（IRS）。普通用户需要了解它，因为在美国多数人需每年自行报税，而TurboTax大幅降低了税务合规的复杂度和出错风险，尤其适合没有会计背景的工薪阶层、自由职业者或小型企业主。",
+    "plain": "TurboTax 是 Intuit 公司开发的美国主流个人税务申报软件。它帮助用户自动计算税款、识别抵扣项、填写联邦及州税务表格，并直接向 IRS 电子提交。该软件大幅降低了税务合规复杂度与出错风险，适合无会计背景的工薪族、自由职业者及小型企业主使用，是美国年度报税的重要工具。",
     "metaphor": "就像一位耐心、精通税法的个人财务向导，一边帮你整理收据和工资单，一边实时告诉你哪些支出能省钱、哪处填错了。",
     "example": "一位自由职业者在年底用TurboTax导入平台支付记录和医疗发票，软件自动归类业务开支、计算自雇税，并生成完整的1040表提交IRS。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "税务申报",
+    "财务软件",
+    "个人理财"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://turbotax.intuit.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:59:14Z",
-  "updated_at": "2026-03-21T10:12:49Z"
+  "updated_at": "2026-03-23T13:28:45.921865Z",
+  "quality_score": 0.95
 }

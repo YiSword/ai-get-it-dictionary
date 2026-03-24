@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 平台",
   "difficulty": "中级",
   "explanations": {
-    "plain": "IBM watsonx 是 IBM 推出的面向企业级 AI 和数据科学工作流的统一平台，集成了生成式 AI 开发工具（watsonx.ai）、数据和 AI 治理能力（watsonx.data）以及可扩展的模型生命周期管理（watsonx.governance）。它支持客户在自有环境中微调、部署和监管开源及 IBM 自研模型（如 Granite 系列），同时确保数据隐私与合规。普通用户——尤其是企业数据科学家、AI 工程师和 IT 决策者——需要了解它，因为它代表了从实验性 AI 向可审计、可扩展、生产就绪型 AI 转型的关键基础设施。",
+    "plain": "IBM watsonx 是 IBM 推出的企业级 AI 与数据科学统一平台。集成生成式 AI 开发、数据治理及模型生命周期管理三大组件。支持用户在自有环境中微调、部署开源及自研模型，确保数据隐私与合规，助力企业实现从实验到生产就绪型 AI 的关键转型。",
     "metaphor": "就像一座智能工厂：watsonx 不仅提供精密机床（模型训练工具），还配备质检线（治理模块）和物流调度系统（数据引擎），让企业能安全、高效地批量制造并交付定制化 AI 产品。",
     "example": "一家全球银行使用 watsonx.ai 微调 Granite 语言模型，结合内部信贷政策文档，构建合规审查助手；再通过 watsonx.governance 追踪该模型每次输出的依据与偏差，满足金融监管审计要求。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "企业应用",
+    "生成式 AI",
+    "模型管理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ibm.com/products/watsonx"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:22:08Z"
+  "updated_at": "2026-03-23T13:19:33.281373Z",
+  "quality_score": 0.95
 }

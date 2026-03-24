@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "运维开发",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ELK 是 Elasticsearch、Logstash 和 Kibana 三个开源工具组成的日志管理与分析技术栈。Elasticsearch 负责高效存储和全文检索，Logstash 用于采集、转换和传输日志数据，Kibana 提供可视化界面以便查询和分析。普通用户（尤其是运维、开发和安全人员）需要了解 ELK，因为它能将分散、杂乱的系统日志统一汇聚、实时搜索并图形化呈现，显著提升故障排查、性能监控和安全审计的效率。",
+    "plain": "ELK 是 Elasticsearch、Logstash 和 Kibana 组成的开源技术栈。Elasticsearch 负责存储与检索，Logstash 处理数据流转，Kibana 提供可视化分析。它广泛用于日志管理、实时监控及安全审计，帮助运维和开发人员高效排查故障并洞察系统状态，是构建可观测性平台的核心方案之一。",
     "metaphor": "ELK 就像一个智能的‘日志中央厨房’：Logstash 是负责收集食材（日志）并清洗切配（过滤解析）的厨师，Elasticsearch 是超大容量且支持秒级检索的智能冷藏柜，Kibana 则是带触摸屏的可视化操作台，让任何人都能直观查看今日‘菜品’（异常请求、响应延迟、错误分布）。",
     "example": "某电商网站在促销期间突现大量支付失败，运维人员通过 Kibana 查看 ELK 实时仪表盘，快速定位到某微服务返回 503 错误激增，并钻取 Logstash 解析后的原始日志，发现是数据库连接池耗尽，从而立即扩容修复。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "日志分析",
+    "运维监控",
+    "数据可视化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.elastic.co/what-is/elk-stack"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:04:00Z"
+  "updated_at": "2026-03-23T14:36:57.807170Z",
+  "quality_score": 0.95
 }

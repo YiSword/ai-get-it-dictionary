@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Codex 是指由 OpenAI 开发的一系列专为代码理解与生成而优化的大型语言模型，是 GPT 系列在编程领域的延伸。它能理解多种编程语言，根据自然语言描述生成代码、解释现有代码、调试或补全代码片段。普通用户（尤其是开发者、学生或技术爱好者）需要了解 Codex，因为它已集成到 GitHub Copilot 等工具中，正悄然改变编程方式——降低入门门槛、提升开发效率，并推动人机协同编程成为现实。",
+    "plain": "Codex 是 OpenAI 开发的专为代码理解与生成优化的大型语言模型，基于 GPT 系列延伸。它支持多种编程语言，可根据自然语言生成、解释、调试或补全代码。作为 GitHub Copilot 的核心技术，Codex 降低了编程门槛，提升开发效率，推动了人机协同编程的发展。",
     "metaphor": "Codex 就像一位精通数十种编程语言的资深结对程序员，你用日常语言描述需求，它立刻写出结构清晰、语法正确的代码，还能随时帮你读懂别人写的‘天书’。",
     "example": "一名前端新手在编写 React 组件时输入注释‘创建一个带加载状态的按钮，点击后调用 API 并禁用按钮’，Codex 即刻生成包含 useState、useEffect 和错误处理的完整可运行代码。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "大语言模型",
+    "开发者工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/blog/openai-codex/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T04:40:57Z"
+  "updated_at": "2026-03-23T17:48:19.682048Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "认知科学",
   "difficulty": "中级",
   "explanations": {
-    "plain": "deliberate_reasoning（审慎推理）指个体有意识地、逐步地分析信息，权衡证据、假设与后果，以得出合理结论的认知过程。它区别于直觉式或自动化反应，强调慢思考、自我监控和逻辑检验。普通用户需要了解它，因为日常决策——如评估新闻可信度、规划财务或识别偏见——若依赖冲动判断易出错；掌握审慎推理能提升批判性思维能力，增强抗误导性信息的能力，并改善长期生活选择质量。",
+    "plain": "审慎推理指个体有意识地逐步分析信息、权衡证据与后果以得出合理结论的认知过程。区别于直觉反应，它强调慢思考与逻辑检验。掌握该能力有助于评估信息可信度、识别偏见及改善决策质量，是提升批判性思维与抗误导能力的关键，能显著优化长期生活选择。",
     "metaphor": "就像建筑师在动工前反复核对蓝图、计算承重与材料，而不是凭感觉直接垒墙。",
     "example": "当一个人收到一封声称中奖的邮件时，他暂停点击链接，转而检查发件人域名、搜索该活动是否真实、对比常见诈骗特征，再决定是否回应——这正是审慎推理的体现。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "批判性思维",
+    "决策支持",
+    "逻辑推理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Reasoning",
+    "https://plato.stanford.edu/entries/reasoning-argumentation/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:30:17Z"
+  "updated_at": "2026-03-23T13:01:45.393142Z",
+  "quality_score": 0.95
 }

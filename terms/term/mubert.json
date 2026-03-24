@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Mubert 是一家专注于人工智能音乐生成的公司，其核心技术是利用深度学习模型实时合成高质量、免版税的原创背景音乐。它不依赖采样或预录音轨，而是通过算法从零生成符合情绪、节奏、时长等参数的音频流。普通用户（如内容创作者、播客主、独立开发者）需要了解 Mubert，因为它能以极低成本、高灵活性和快速迭代的方式解决版权风险高、授权流程复杂、定制化难的传统音乐使用痛点。",
+    "plain": "Mubert 是基于人工智能的音乐生成平台，利用深度学习模型实时合成高质量、免版税的原创背景音乐。它不依赖采样，而是通过算法从零生成符合情绪、节奏等参数的音频流。主要服务于内容创作者，旨在以低成本、高灵活性解决传统音乐版权风险高、授权复杂及定制化难的痛点。",
     "metaphor": "就像一位24小时待命的作曲家，你只需告诉它‘轻松的电子风、90BPM、两分钟’，它立刻为你即兴创作一首独一无二的配乐。",
     "example": "一位YouTube游戏主播在直播前输入‘紧张悬疑、带脉冲低音、无主旋律’，Mubert API实时生成一段60秒背景音，直接嵌入直播音频轨道，全程无需人工剪辑或版权申报。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AIGC",
+    "内容创作",
+    "音频生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://mubert.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:43:39Z",
-  "updated_at": "2026-03-21T08:49:34Z"
+  "updated_at": "2026-03-23T16:08:35.249848Z",
+  "quality_score": 1.0
 }

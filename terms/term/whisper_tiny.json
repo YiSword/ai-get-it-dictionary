@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "语音识别模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "whisper_tiny 是 OpenAI 开发的 Whisper 自动语音识别（ASR）模型家族中最小、最轻量的版本，参数量约3900万，专为低资源设备和快速推理设计。它能在普通笔记本电脑或边缘设备上实时转录英语语音，兼顾速度与基本准确性。普通用户需要了解它，是因为它是免费、开源、无需联网即可本地运行的语音转文字工具，适合隐私敏感场景（如会议记录、学习笔记）或硬件受限环境。",
+    "plain": "whisper_tiny 是 OpenAI 开源的 Whisper 语音识别模型中最轻量的版本，参数量约 3900 万。专为低资源设备设计，支持本地离线运行，适合隐私敏感场景或硬件受限环境。它在普通笔记本上可实现实时英语转录，兼顾速度与基本准确性，是部署边缘 AI 语音应用的理想选择。",
     "metaphor": "就像一把轻便的瑞士军刀——不如专业工具强大，但随身携带、开盖即用，能快速完成日常语音转写的多数基础任务。",
     "example": "一位教师在离线环境中用 whisper_tiny 实时将课堂口语讲解转成文字稿，随后稍作编辑便生成学生复习提纲。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语音转文字",
+    "边缘计算",
+    "隐私保护"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/openai/whisper",
+    "https://huggingface.co/openai/whisper-tiny"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:28:18Z",
-  "updated_at": "2026-03-21T10:26:47Z"
+  "updated_at": "2026-03-23T18:56:21.551835Z",
+  "quality_score": 0.95
 }

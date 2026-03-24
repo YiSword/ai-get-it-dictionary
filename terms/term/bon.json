@@ -5,22 +5,23 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "区块链技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "BON 是 'Bundle of Notes' 的缩写，特指在区块链领域（尤其是以太坊生态）中一种将多个代币转账操作打包成单笔交易的技术方案，常用于优化 Gas 费用和提升批量支付效率。它并非以太坊官方标准，而是由社区项目（如 Bonfire、BON Protocol）提出的轻量级合约模式，允许用户通过一次签名完成向多个地址发送不同金额的代币。普通用户需要了解 BON，因为它能显著降低频繁小额转账的成本与操作复杂度，尤其适用于空投分发、工资发放或社群激励等场景。",
+    "plain": "BON 是'Bundle of Notes'缩写，指区块链中将多个代币转账打包成单笔交易的技术。该方案非以太坊官方标准，由社区项目提出，允许一次签名向多地址发送代币。主要用于优化 Gas 费用和提升批量支付效率，适用于空投分发、工资发放等场景，显著降低小额转账成本与操作复杂度。",
     "metaphor": "就像寄快递时把多份小包裹合并进一个大箱子统一发货，既省邮费又少填一次单。",
     "example": "某 DAO 组织使用 BON 合约，在一次链上操作中向 200 名贡献者分别发放不同数额的治理代币，总 Gas 成本比逐笔转账降低约 65%。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "以太坊",
+    "批量转账",
+    "Gas 优化"
   ],
   "sources": [],
-  "review_status": "llm_generated",
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:12:43Z"
+  "updated_at": "2026-03-23T16:19:20.723917Z",
+  "quality_score": 0.85
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 基础设施",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Fireworks AI 是一个开源的、轻量级的大语言模型（LLM）推理框架，专为本地部署和边缘设备优化，支持多种模型格式（如 GGUF、Hugging Face Transformers）并提供简洁的API与命令行工具。它不依赖大型云服务，允许开发者在个人电脑或小型服务器上快速运行和微调AI模型。普通用户需要了解它，是因为它代表了一种更隐私友好、可控性强且无需持续联网的AI使用方式，尤其适合注重数据安全、离线需求或资源受限环境的场景。",
+    "plain": "Fireworks AI 是一家提供高性能生成式 AI 推理服务的平台。它专注于加速大语言模型和多模态模型的部署，提供低延迟 API 访问。开发者可通过其云服务快速集成主流开源模型，无需自建基础设施，适合需要高吞吐量、低成本且稳定可靠的 AI 应用开发场景。",
     "metaphor": "就像一台可随身携带的智能翻译器——不需要连网、不上传你的对话，所有理解与生成都在你自己的设备里完成。",
     "example": "一位自由译者在没有稳定网络的火车上，用Fireworks AI本地加载一个中英双语小模型，实时将客户发来的PDF技术文档片段离线翻译成中文，全程数据不出设备。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型推理",
+    "云服务",
+    "开发者工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://fireworks.ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:31:56Z"
+  "updated_at": "2026-03-23T15:06:18.182619Z",
+  "quality_score": 1.0
 }

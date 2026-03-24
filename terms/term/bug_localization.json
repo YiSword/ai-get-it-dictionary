@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "软件工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "bug_localization（缺陷定位）是指在软件开发中，通过分析程序行为、错误报告和代码结构，快速识别出导致程序异常（如崩溃、输出错误）的具体源代码位置（如某一行或某个函数）的技术过程。它不是修复 bug，而是精准‘找到’ bug 在哪。普通用户虽不直接操作，但了解该概念有助于理解为何某些软件更新能快速修复问题，也便于在反馈故障时提供更有效的日志或复现步骤，从而加速开发者解决问题。",
+    "plain": "bug_localization（缺陷定位）是软件工程中通过分析程序行为、错误报告及代码结构，精准识别导致异常的具体源代码位置（如行号、函数）的技术过程。其核心在于快速“找到”而非“修复”缺陷。该技术能显著缩短调试时间，帮助开发者高效解决崩溃或逻辑错误，是软件维护与质量保证的关键环节。",
     "metaphor": "就像医生通过症状、影像和化验结果锁定体内发炎的具体器官，而不是盲目开药。",
     "example": "当一个移动应用在用户点击‘支付’按钮时闪退，开发团队利用堆栈跟踪和测试覆盖率数据，将 bug 定位到 PaymentService.java 文件第 87 行的空指针解引用操作。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "软件开发",
+    "调试",
+    "质量保证"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fault_localization"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:15:46Z"
+  "updated_at": "2026-03-23T12:21:28.302670Z",
+  "quality_score": 0.95
 }

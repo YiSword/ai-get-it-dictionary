@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "缓存技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "memory_store 是一种将数据临时保存在应用程序内存（RAM）中的存储机制，常用于缓存频繁访问但无需持久化的信息，如用户会话、临时计算结果或配置片段。它读写极快，但进程重启或系统断电后数据即丢失。普通用户虽不直接操作它，但其存在直接影响网页响应速度、登录状态保持和应用流畅度——例如你刷新页面后仍保持登录，背后可能就依赖 memory_store 缓存了会话标识。",
+    "plain": "memory_store 是一种基于应用程序内存（RAM）的数据存储机制，用于缓存高频访问且无需持久化的信息，如会话状态或临时计算结果。其读写速度极快，但数据易失，进程重启即丢失。它虽对用户透明，却显著提升网页响应速度与应用流畅度，是保障登录状态保持及系统高性能运行的关键组件。",
     "metaphor": "就像厨师把常用调料放在手边的料理台而不是收进橱柜：取用飞快，但收工清台时就全清空了。",
     "example": "一个 Node.js Web 应用使用 Express-session 配合 memory_store 来暂存用户登录后的 session 数据，确保用户在几分钟内跳转页面时不需重复登录；但服务器重启后所有未持久化的 session 就会失效。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "缓存机制",
+    "系统架构",
+    "性能优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/In-memory_database"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:34:37Z"
+  "updated_at": "2026-03-23T14:03:11.054951Z",
+  "quality_score": 1.0
 }

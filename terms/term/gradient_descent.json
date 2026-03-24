@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "优化算法",
   "difficulty": "中级",
   "explanations": {
-    "plain": "梯度下降（gradient descent）是一种用于最小化函数的优化算法，广泛应用于机器学习和深度学习中训练模型。它通过反复计算损失函数相对于模型参数的梯度（即变化最快的方向），然后沿梯度反方向小步调整参数，逐步逼近使损失最小的最优解。普通用户无需手动实现它，但理解其基本思想有助于把握AI模型如何‘学习’——不是靠记忆答案，而是通过试错与微调不断改进预测能力。",
+    "plain": "梯度下降是一种迭代优化算法，旨在最小化损失函数。它通过计算参数梯度并沿反方向更新，逐步逼近最优解。广泛应用于机器学习和深度学习模型训练，使模型能通过微调不断提升预测精度，是理解 AI 学习机制的核心概念。",
     "metaphor": "就像蒙着眼睛站在山坡上，每次只迈出一小步朝脚下最陡的下坡方向走，直到抵达山谷最低点。",
     "example": "训练一个房价预测模型时，梯度下降会反复调整房屋面积、房龄等特征对应的权重，使模型预测价格与真实价格之间的平均误差逐渐变小。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "机器学习",
+    "优化算法",
+    "模型训练"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gradient_descent",
+    "https://developers.google.com/machine-learning/crash-course/gradient-descent"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-18T12:55:23.269Z",
-  "updated_at": "2026-03-21T06:56:21Z"
+  "updated_at": "2026-03-23T14:46:27.341654Z",
+  "quality_score": 0.95
 }

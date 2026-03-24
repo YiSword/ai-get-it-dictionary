@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "金融合规",
   "difficulty": "中级",
   "explanations": {
-    "plain": "KYC（Know Your Customer）即‘了解你的客户’，是金融机构和受监管平台在用户开户或进行高风险交易前，依法核实其真实身份和背景信息的过程。它通常包括提交身份证件、地址证明、人脸识别等步骤。普通用户需要知道KYC，因为它直接关系到账户能否开通、资金能否正常出入，也影响个人金融活动的合规性与安全性；未完成KYC可能导致交易受限、账户冻结，甚至被误认为可疑行为。",
+    "plain": "KYC（Know Your Customer）即“了解你的客户”，是金融机构依法核实用户身份和背景的过程。通常包括提交身份证件、地址证明及人脸识别等。未完成 KYC 可能导致账户受限或冻结。用户需配合以确保账户合规与安全，影响资金出入及交易权限。",
     "metaphor": "KYC就像入住高档酒店时前台核对身份证和登记信息——不是为刁难客人，而是为了确保场所安全、明确责任归属。",
     "example": "当你在某加密货币交易所首次充值人民币时，系统会强制要求你上传身份证正反面并完成活体人脸验证，通过后才能进行交易，这就是典型的KYC流程。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "金融",
+    "合规",
+    "身份验证"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.fatf-gafi.org/",
+    "https://www.investopedia.com/terms/k/kyc.asp"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:58:34Z"
+  "updated_at": "2026-03-23T18:50:10.906566Z",
+  "quality_score": 0.95
 }

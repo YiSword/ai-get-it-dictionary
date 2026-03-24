@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据库技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "图数据库是一种专门用于存储和查询实体（节点）及其关系（边）的数据库系统，它以图结构——而非传统表格——组织数据，天然支持高复杂度的关联分析。普通用户需要了解它，是因为在社交网络推荐、欺诈检测、知识图谱搜索等依赖‘关系’的应用中，图数据库比关系型数据库更快、更直观、更易建模，能直接表达‘谁认识谁’‘什么导致什么’这类现实逻辑。",
+    "plain": "图数据库是以图结构组织数据的数据库系统，专门存储实体（节点）及其关系（边）。相比传统关系型数据库，它在处理高复杂度关联分析时更高效直观。适用于社交网络推荐、欺诈检测及知识图谱搜索等场景，能直接表达“谁认识谁”等现实逻辑，是处理强关系数据的核心技术。",
     "metaphor": "就像一张动态的亲友关系网手绘图，每个人是一个圆圈（节点），每条连线（边）代表一种关系（如‘同事’‘亲属’），你可以一眼看出远亲如何通过中间人产生联系。",
     "example": "Netflix 使用图数据库分析用户观看行为与影片标签、演员、导演之间的多层关系，从而实时生成高度个性化的‘因为您看了X，所以推荐Y’内容序列。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据存储",
+    "关联分析",
+    "知识图谱"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Graph_database",
+    "https://neo4j.com/what-is-a-graph-database/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:57:48Z"
+  "updated_at": "2026-03-23T13:51:30.112108Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Polars 是一个高性能的开源数据处理库，专为快速加载、转换和分析结构化数据（如 CSV、Parquet、JSON）而设计。它采用 Rust 编写核心引擎，支持多线程并行计算和惰性执行，比传统 Python 数据工具（如 Pandas）在大数据集上快数倍。普通用户需要知道 Polars，是因为它能显著缩短数据清洗、探索和建模前的数据准备时间，尤其适合处理百万至十亿级行的数据，且语法简洁、内存效率高。",
+    "plain": "Polars 是一个高性能开源数据处理库，采用 Rust 编写核心引擎。它支持多线程并行计算和惰性执行，比 Pandas 在大数据集上快数倍。适合处理百万至十亿级行数据，显著缩短数据清洗和准备时间，语法简洁且内存效率高，是 Python 生态中高效数据分析的理想选择。",
     "metaphor": "就像一辆为高速公路优化的电动超跑——Polars 不仅启动快、加速猛，还能边跑边智能规划路线，而传统工具更像一台可靠但逐渐吃力的老式轿车。",
     "example": "一位数据分析师用 Polars 在 3 秒内读取并聚合 10GB 的用户点击日志 Parquet 文件，完成按地域和时段统计活跃用户数，而同样操作在 Pandas 中耗时超过 2 分钟。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据分析",
+    "大数据处理",
+    "Python 开发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.pola.rs/",
+    "https://github.com/pola-rs/polars"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:09:43Z",
-  "updated_at": "2026-03-21T09:13:28Z"
+  "updated_at": "2026-03-23T18:08:56.832242Z",
+  "quality_score": 0.95
 }

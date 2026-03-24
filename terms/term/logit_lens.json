@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型可解释性",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Logit lens 是一种分析大语言模型内部表征的技术，通过直接读取模型最后一层 Transformer 块输出的 logits（未归一化的原始分数）并用线性分类器解码，来探测模型在不同训练阶段‘认为’输入属于哪个类别。它不依赖微调或梯度反传，而是像一把‘透明探针’，帮助研究者理解模型学到了什么语义结构、何时学会关键能力，以及内部表征如何随训练演化。普通用户无需操作它，但了解它有助于判断AI系统是否真正理解任务，而非仅拟合表面模式。",
+    "plain": "Logit Lens 是一种大语言模型可解释性技术。通过将中间层隐藏状态直接投影至词汇表空间，解码潜在输出 token。无需微调即可观察模型内部信息处理及预测趋势，帮助研究者理解语义结构、训练演化及模型是否真正理解任务，而非仅表面拟合。",
     "metaphor": "就像用放大镜直接观察显微镜载玻片上的细胞形态，而不等染色或培养结果——logit lens 跳过模型的最终决策包装，直视其最原始的‘想法草稿’。",
     "example": "研究人员在训练一个数学推理模型时，用 logit lens 检测各训练步中模型对‘答案是否为质数’这一属性的 logits 分离程度，发现该能力在训练中期突然涌现，早于准确率显著提升。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "可解释性",
+    "模型分析"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:17:39Z"
+  "updated_at": "2026-03-23T12:57:13.888290Z",
+  "quality_score": 0.95
 }

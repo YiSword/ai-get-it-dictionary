@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型评估",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Chatbot Arena 是一个开源的、基于众包对抗性评估的大型语言模型比较平台，由 LMSYS 组织运营。它采用盲测方式让用户对两个匿名模型的回答进行偏好投票，从而生成动态、透明的模型能力排行榜。普通用户需要知道它，是因为它不依赖厂商宣传或技术指标，而是基于真实人类反馈反映模型在实际对话中的表现，帮助用户避开营销话术，直观判断哪个聊天机器人更符合自己的需求。",
+    "plain": "Chatbot Arena 是由 LMSYS 运营的开源大模型评估平台。它采用众包对抗性盲测，让用户对两个匿名模型回答进行偏好投票，生成动态透明的能力排行榜。平台不依赖厂商宣传，基于真实人类反馈反映模型在实际对话中的表现，帮助用户直观判断模型优劣。",
     "metaphor": "就像一场没有选手名牌的厨艺盲品大赛，评委只根据味道打分，最终结果反映的是谁做的菜更合大众口味，而不是谁的招牌更响亮。",
     "example": "一位用户想为客服系统选型，打开 Chatbot Arena 网站，随机对比 GPT-4 和 Claude 3 对‘如何向老年人解释扫码支付’的回答，连续投出5票后发现后者更简洁耐心，于是将该结论纳入采购评估依据。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型评估",
+    "排行榜"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://chat.lmsys.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T04:26:01Z"
+  "updated_at": "2026-03-23T12:59:48.540512Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "安全与隐私",
   "difficulty": "中级",
   "explanations": {
-    "plain": "privacy（隐私）是指个人对其个人信息、行为、通信和生活环境等所拥有的控制权和自主决定权，包括是否披露、向谁披露、以何种方式及范围披露。它不仅是法律赋予的基本权利，也是数字时代中防范身份盗用、算法歧视、骚扰和操纵的关键屏障。普通用户需要了解隐私，因为日常使用App、浏览网页、授权位置或摄像头时，往往在不经意间让渡了大量敏感数据；缺乏隐私意识可能导致财产损失、社会声誉受损甚至人身安全风险。",
+    "plain": "隐私指个人对其信息、行为及环境拥有的控制权与自主决定权，涵盖披露与否及范围。它是数字时代防范身份盗用、算法歧视的关键屏障。用户日常使用 App 或网页时，常不经意间让渡敏感数据，缺乏意识可能导致财产或安全风险。理解隐私保护机制对个人数字安全至关重要。",
     "metaphor": "隐私就像你家的门锁和窗帘——它不阻止所有人进入，但让你自主决定谁可以进来、看什么、待多久。",
     "example": "当你拒绝某款天气App获取你的精确地理位置，而只允许其使用城市级粗略定位时，就是在主动行使隐私控制权。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据保护",
+    "信息安全",
+    "用户权利"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://gdpr.eu/what-is-gdpr/",
+    "https://www.nist.gov/privacy-framework"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T09:15:54Z"
+  "updated_at": "2026-03-23T17:16:25.849734Z",
+  "quality_score": 0.95
 }

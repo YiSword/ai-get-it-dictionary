@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Kosmos（科斯莫斯）是一个开源多模态大模型系列，由微软研究院提出，旨在统一处理文本、图像、音频、视频等多种模态数据。它通过共享的视觉-语言联合表示空间，实现跨模态理解与生成，例如看图说话、图文检索、多模态推理等。普通用户需要了解Kosmos，因为它代表了AI从单一文本智能迈向真实世界感知与交互的关键进展——未来聊天助手、内容创作工具和无障碍技术将越来越多依赖此类模型来理解并响应复杂、混合形式的信息。",
+    "plain": "Kosmos 是微软研究院推出的开源多模态大模型系列。它通过共享视觉 - 语言联合表示空间，统一处理文本、图像、音频和视频数据，实现跨模态理解与生成。支持看图说话、图文检索及多模态推理，代表 AI 从单一文本智能迈向真实世界感知与交互的关键进展，适用于未来聊天助手及内容创作工具。",
     "metaphor": "就像一位精通多种语言和艺术形式的通才翻译家，不仅能读懂文字，还能看懂画作、听出语调情绪，并把它们自然地融会贯通地表达出来。",
     "example": "用户上传一张手绘菜谱照片和一段语音备注‘想换成素食材料’，Kosmos模型可同时解析图像中的食材步骤、识别语音意图，并生成一份调整后的素食版图文食谱。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态理解",
+    "内容生成",
+    "开源模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.microsoft.com/en-us/research/project/kosmos/",
+    "https://github.com/microsoft/Kosmos"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:55:16Z"
+  "updated_at": "2026-03-23T14:21:29.373226Z",
+  "quality_score": 0.95
 }

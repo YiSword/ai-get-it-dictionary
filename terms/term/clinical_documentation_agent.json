@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "clinical_documentation_agent",
+  "norm_term": "clinical_documentation_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "product",
+  "category": "医疗 AI 应用",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "临床文档代理是基于人工智能的医疗辅助工具，利用自然语言处理自动捕捉医患对话并生成结构化电子病历。它旨在减少医生手动记录时间，提升诊疗效率并降低文书错误。该技术属于智慧医疗范畴，应用时需重点关注医疗数据隐私与人工智能伦理合规性。",
+    "metaphor": "就像给医生配备的智能速记员，能在问诊时实时记录对话并整理成专业病历，让医生专注诊疗而非文书工作。",
+    "example": "医生在诊室与患者讨论症状时，系统自动识别关键医学信息生成初版病历，医生仅需核对修改即可提交，原本30分钟的病历撰写缩短至5分钟。"
+  },
+  "scenario_tags": [
+    "智慧医疗",
+    "自然语言处理",
+    "电子病历"
+  ],
+  "sources": [
+    "https://aws.amazon.com/health-scribe/",
+    "https://www.nuance.com/healthcare.html"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:07:26.516572Z",
+  "updated_at": "2026-03-23T12:54:13.862482Z",
+  "quality_score": 1.0
+}

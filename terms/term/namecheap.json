@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "工具链",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Namecheap 是一家成立于2000年的美国域名注册与网络托管服务提供商，主要为个人和小型企业提供域名注册、SSL证书、网页托管、邮箱服务等。普通用户需要了解它，是因为它是全球最主流的域名购买平台之一，以价格透明、隐私保护免费（WHOIS隐私）、无隐藏续费涨价、用户界面友好著称——相比许多同行，Namecheap让新手能更安全、低成本地迈出建站第一步。",
+    "plain": "Namecheap 是美国域名注册与网络托管服务商，成立于 2000 年。提供域名注册、SSL 证书、网页托管等服务。以价格透明、免费 WHOIS 隐私保护著称，是全球主流域名购买平台之一。适合个人及中小企业低成本建站，用户界面友好，无隐藏续费涨价，帮助新手安全迈出建站第一步。",
     "metaphor": "Namecheap 就像一家信誉好、不宰客的房产中介：帮你合法登记并长期保管‘网站地址’（域名），还免费送你带锁的门牌（隐私保护）和基础安保（SSL）。",
     "example": "一位自由设计师想用自己名字开设作品集网站，她在 Namecheap 上以 $8.98/年注册了 'jane-doe.dev' 域名，全程启用免费 WHOIS 隐私，并一键启用了免费 Let's Encrypt SSL 证书，当天就绑定了静态网站托管服务。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "基础设施",
+    "域名服务",
+    "部署工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.namecheap.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:48:09Z",
-  "updated_at": "2026-03-21T08:52:42Z"
+  "updated_at": "2026-03-23T10:40:36.713157Z",
+  "quality_score": 0.95
 }

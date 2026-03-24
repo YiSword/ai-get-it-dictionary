@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "eu_ai_act",
+  "norm_term": "eu_ai_act",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "regulation",
+  "category": "法律合规",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "欧盟人工智能法案是欧盟首部全面监管 AI 技术的法律框架。它基于风险分级（禁止、高风险、有限风险）管理 AI 系统，确保伦理、透明及隐私保护。该法案直接影响医疗、招聘、自动驾驶等领域，赋予用户对自动化决策的知情权与申诉权，旨在平衡技术创新与基本权利保护。",
+    "metaphor": "如同交通规则要求车辆安装安全带和限速装置，该法案为人工智能设定了'安全护栏'，防止技术失控伤害公众权益。",
+    "example": "某银行使用信用评分系统时，必须向客户解释算法决策依据，并允许人工复核，否则将违反法案中关于高风险系统的透明度要求。"
+  },
+  "scenario_tags": [
+    "法律合规",
+    "伦理安全",
+    "政策监管"
+  ],
+  "sources": [
+    "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:51:32.402889Z",
+  "updated_at": "2026-03-23T16:40:17.293215Z",
+  "quality_score": 0.95
+}

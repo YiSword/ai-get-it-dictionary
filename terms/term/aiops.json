@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "运维技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AIOps（Artificial Intelligence for IT Operations）是指将人工智能、机器学习和大数据分析技术应用于IT运维领域，以自动化地监控、分析、诊断和优化IT系统性能与稳定性。它能从海量日志、指标和事件中快速识别异常、预测潜在故障并推荐或执行修复动作。普通用户需要了解AIOps，因为它正悄然提升日常使用的数字服务（如APP、网站、云办公平台）的可靠性与响应速度——故障更少、恢复更快，背后正是AIOps在实时‘把脉’和‘开方’。",
-    "metaphor": "就像给IT系统配备了一位24小时在线、过目不忘、还能预判病情的智能医生。",
-    "example": "某电商网站在大促前，AIOps系统通过分析历史流量与服务器负载模式，提前预警数据库连接池即将耗尽，并自动扩容实例，避免了页面卡顿或下单失败。"
+    "plain": "AIOps（智能运维）是将人工智能、机器学习和大数据分析应用于 IT 运维领域的技术。它通过自动化监控、异常检测、根因分析和故障预测，帮助团队从海量数据中快速识别问题。这减少了人工排查时间，提升系统稳定性与响应效率，用户间接受益于更少的服务中断和更稳定的体验。",
+    "metaphor": "就像给IT系统配备了一位24小时在线、过目不忘且越用越聪明的‘数字医生’，能提前预警‘发烧’迹象，并在系统‘突发急症’时迅速定位病灶。",
+    "example": "某电商公司在大促期间通过AIOps平台实时分析数百万服务器指标，自动发现并隔离一处即将过载的数据库节点，在用户无感知的情况下完成扩容，避免了订单失败。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "IT 运维",
+    "自动化",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.gartner.com/en/information-technology/glossary/aiops-artificial-intelligence-for-it-operations"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:28:07Z"
+  "updated_at": "2026-03-23T14:48:31.180957Z",
+  "quality_score": 0.95
 }

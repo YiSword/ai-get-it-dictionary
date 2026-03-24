@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "o1_preview 是 OpenAI 推出的首个推理增强型模型系列（如 o1、o1-mini）在正式发布前的实验性预览版本，专为处理复杂推理任务（如数学证明、代码生成、科学分析）而优化，采用‘思考链’机制延长响应生成时间以提升准确性。普通用户需要知道它，是因为它代表了AI从快速作答转向深度思考的重要转变——在关键任务中可能给出更可靠、可验证的答案，但也意味着响应延迟增加，需权衡速度与质量。",
+    "plain": "o1_preview 是 OpenAI 推出的推理增强型模型实验预览版，专为数学、代码等复杂任务优化。它采用内部思考链机制，牺牲响应速度换取更高准确性，标志着 AI 从快速作答转向深度思考。用户需权衡延迟与质量，适用于需要高可靠性答案的关键场景。",
     "metaphor": "就像一位资深工程师在白板上反复演算、自我质疑、修改草稿后才交出最终设计方案，o1_preview 不是脱口而出，而是先‘默默想清楚’再开口。",
     "example": "用户向 o1_preview 提交一道组合数学难题，模型花费数秒内部推理并生成多步推导过程，最终输出带完整逻辑链的解答；而传统模型可能直接给出未经验证的简短答案。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "推理能力",
+    "代码生成",
+    "实验版本"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/index/learning-to-reason-with-llms/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:24:17Z",
-  "updated_at": "2026-03-21T08:56:32Z"
+  "updated_at": "2026-03-23T18:39:16.877359Z",
+  "quality_score": 0.95
 }

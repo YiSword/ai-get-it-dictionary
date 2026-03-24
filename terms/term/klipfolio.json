@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "商业智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Klipfolio 是一款云端商业智能（BI）和数据可视化工具，允许用户从多种数据源（如Excel、Google Sheets、Salesforce、QuickBooks等）实时提取、整合并创建可交互的仪表板。它无需编程经验即可拖拽构建图表与指标，适合市场、销售、运营等非技术岗位人员自主监控关键业务数据。普通用户需要了解它，是因为它能将分散、静态的数据转化为动态、可视化的决策视图，大幅降低获取业务洞察的门槛和时间成本。",
+    "plain": "Klipfolio 是一款云端商业智能和数据可视化工具，支持从 Excel、Salesforce 等多种数据源实时整合数据。用户无需编程，通过拖拽即可创建交互式仪表板，适合市场、销售等非技术人员监控业务指标。它将分散数据转化为动态视图，降低决策门槛，提升洞察效率。",
     "metaphor": "就像为你的业务数据装上一个可自定义的‘数字仪表盘’——如同汽车仪表盘实时显示车速、油量和故障灯，Klipfolio 让你一眼看清营收趋势、客户转化率或广告ROI等核心指标。",
     "example": "一家电商公司的营销专员每天用 Klipfolio 连接Facebook Ads、Shopify和Mailchimp数据源，自动生成包含点击率、加购数、邮件打开率的实时仪表板，并在晨会中快速定位上周哪条广告系列带来了最高ROI。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "商业智能",
+    "数据可视化",
+    "仪表板"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.klipfolio.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:57:59Z",
-  "updated_at": "2026-03-21T07:52:09Z"
+  "updated_at": "2026-03-23T17:57:44.149543Z",
+  "quality_score": 1.0
 }

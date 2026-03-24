@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DeepSpeed 是由微软开源的深度学习优化库，专注于提升大规模模型训练与推理的效率、速度和可扩展性。它通过内存优化（如零冗余优化器 ZeRO）、混合精度训练、模型并行、卸载技术等手段，显著降低显存占用并加速训练过程。普通用户（尤其是研究人员和工程师）需要了解它，因为当面对百亿级以上参数的大模型时，仅靠 PyTorch 原生功能往往无法在有限硬件上完成训练或部署，而 DeepSpeed 提供了开箱即用的高性能解决方案。",
+    "plain": "DeepSpeed 是微软开源的深度学习优化库，专注提升大模型训练与推理效率。通过零冗余优化器（ZeRO）、混合精度及模型并行等技术，显著降低显存占用并加速计算。它解决了原生框架在有限硬件上训练百亿参数模型的瓶颈，提供开箱即用的高性能方案，是大规模深度学习任务的关键工具。",
     "metaphor": "DeepSpeed 就像一位经验丰富的建筑总指挥，不仅协调数百名工人（GPU）分工协作，还主动回收废料（显存）、优化运输路线（数据流），甚至把部分工序搬到郊区仓库（CPU/NVMe）以缓解市中心拥堵。",
     "example": "一家AI初创公司使用 DeepSpeed 的 ZeRO-3 和 CPU 卸载功能，在 8 张 A100 显卡上成功微调了 700 亿参数的 LLaMA-2 模型，显存峰值降低 65%，训练速度提升 2.3 倍。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型训练",
+    "显存优化",
+    "分布式训练"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.deepspeed.ai/",
+    "https://github.com/microsoft/DeepSpeed"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:29:44Z"
+  "updated_at": "2026-03-23T16:15:39.915668Z",
+  "quality_score": 0.95
 }

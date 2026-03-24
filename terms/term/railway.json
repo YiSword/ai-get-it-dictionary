@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "函数式编程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "在软件开发中，'railway'（铁路）通常指代一种编程模式，即‘铁路导向编程’（Railway Oriented Programming），它将程序流程建模为沿着轨道行进的列车：成功路径是一条主线（'OK track'），失败路径是另一条平行线（'Error track'），两者永不交叉。这种模式强调显式处理成功与错误分支，避免嵌套条件或过早抛出异常，使错误传播更可预测、代码更易组合与测试。普通用户（尤其是开发者）需要了解它，因为它能显著提升函数式风格代码的健壮性、可读性和可维护性。",
+    "plain": "Railway Oriented Programming 是一种函数式编程模式。它将程序流程比作列车轨道，成功路径为'OK track'，失败路径为'Error track'。通过显式处理成功与错误分支，避免嵌套条件和异常抛出，使错误传播更可预测。这提升了代码的健壮性、可读性和可维护性，常用于函数式语言如 F# 或 Haskell 中。",
     "metaphor": "就像一列火车只能在两条平行铁轨中的一条上行驶——一条标着'顺利抵达'，另一条标着'故障检修'，永远不会脱轨混行。",
     "example": "在处理用户登录请求时，验证邮箱格式、检查账号是否存在、核对密码哈希值等步骤各自返回一个Result类型（Ok或Error），整个流程像列车依次驶过各站，任一站失败即切换至错误轨道并终止后续步骤。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "错误处理",
+    "函数式编程",
+    "代码设计"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://fsharpforfunandprofit.com/posts/track-oriented-programming/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:18:43Z",
-  "updated_at": "2026-03-21T09:27:42Z"
+  "updated_at": "2026-03-23T17:11:42.249091Z",
+  "quality_score": 0.95
 }

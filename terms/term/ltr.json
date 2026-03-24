@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "功能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LTR 是 'Left-to-Right' 的缩写，指文本从左向右书写的排版方向。它是中文、英文、法文等大多数语言的默认阅读和显示顺序。普通用户需要了解 LTR，因为当网页、应用程序或文档中混入阿拉伯语（RTL）、希伯来语等从右向左书写的语言时，若 LTR 设置不当，会导致文字错位、标点混乱、界面元素颠倒等问题，影响可读性与操作体验。",
+    "plain": "LTR 是'Left-to-Right'缩写，指文本从左向右的排版方向，为中文、英文等多数语言的默认阅读顺序。在软件开发中，正确设置 LTR 至关重要。若与 RTL 语言混排时配置不当，会导致文字错位、标点混乱及界面元素颠倒，严重影响可读性与用户体验，是国际化（i18n）适配的基础配置项。",
     "metaphor": "就像开车时遵守靠右行驶的交通规则一样，LTR 是数字世界里文字‘行驶方向’的基本规则，确保所有字符按预期顺序排队前进。",
     "example": "在编写 HTML 页面时，开发者通过设置属性 lang='en' 或 dir='ltr' 明确声明内容为左到右排列，使浏览器正确渲染英文段落和嵌套的数字、标点及链接。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "国际化",
+    "前端开发",
+    "用户体验"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developer.mozilla.org/zh-CN/docs/Web/CSS/direction"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:22:49Z"
+  "updated_at": "2026-03-23T10:16:02.746449Z",
+  "quality_score": 0.95
 }

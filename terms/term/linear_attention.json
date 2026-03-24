@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Linear_attention 是一种改进的注意力机制，通过数学重构将标准自注意力的计算复杂度从 O(n²) 降低到 O(n)，显著提升长序列处理效率。它用线性核函数近似 softmax 的归一化操作，避免显式构建和存储 n×n 的注意力矩阵。普通用户需要了解它，因为它是支撑现代长文本建模、实时语音识别和大模型轻量化部署的关键技术之一，直接影响应用的速度、成本与可行性。",
+    "plain": "Linear Attention 通过数学重构将标准自注意力复杂度从 O(n²) 降至 O(n)，显著提升长序列处理效率。它利用线性核函数近似 softmax，避免构建 n×n 注意力矩阵。作为大模型轻量化与长文本建模的关键技术，它直接决定了应用的速度、成本与可行性。",
     "metaphor": "就像快递公司不逐一比较所有包裹之间的优先级，而是按预设规则快速分拣每件包裹，linear_attention 也不两两比对每个词，而是逐个处理并累积线索，实现高效决策。",
     "example": "在实时字幕生成系统中，linear_attention 被用于处理连续语音流，使模型能在不显著增加延迟的前提下，稳定关注长达数千词的上下文。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "长序列处理",
+    "大模型优化",
+    "Transformer 架构"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2006.16236"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:09:41Z"
+  "updated_at": "2026-03-23T13:39:16.053316Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "grammar_constrained_decoding（语法约束解码）是一种在大语言模型生成文本时，强制输出严格符合预定义语法规则（如JSON、SQL、编程语言或自定义BNF文法）的技术。它通过在解码过程中动态过滤非法token或调整概率分布，确保生成结果不仅语义合理，而且结构正确。普通用户需要了解它，因为当调用AI完成代码补全、API响应生成或配置文件编写等任务时，语法错误会导致系统崩溃或集成失败，而该技术能显著提升输出的可靠性与即用性。",
+    "plain": "grammar_constrained_decoding（语法约束解码）强制大模型输出符合预定义语法规则（如 JSON、SQL）。它通过动态过滤非法 token 确保结构正确，适用于代码补全、API 响应等场景。该技术显著提升输出可靠性，避免语法错误导致系统崩溃。",
     "metaphor": "就像给AI配了一位实时校对的语法教练，每写一个词都检查是否符合规则手册，绝不允许拼错单词或用错标点。",
     "example": "当用户要求模型生成一个符合OpenAPI 3.0规范的JSON格式API描述时，语法约束解码可确保输出始终是合法JSON且字段结构完全合规，避免因缺失逗号或引号导致解析失败。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "结构化输出",
+    "代码生成",
+    "模型推理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/outlines-dev/outlines",
+    "https://arxiv.org/abs/2307.09702"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:56:55Z"
+  "updated_at": "2026-03-23T18:52:57.496543Z",
+  "quality_score": 0.95
 }

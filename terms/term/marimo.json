@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据科学",
   "difficulty": "中级",
   "explanations": {
-    "plain": "marimo 是一个基于 Python 的开源笔记本（notebook）框架，它将代码、可视化和文档整合在单个可执行的 .py 文件中，而非传统的 .ipynb 文件。与 Jupyter 不同，marimo 以纯 Python 脚本为载体，支持实时交互、状态感知和声明式单元依赖管理，开发者无需启动服务器即可直接运行或版本控制。普通用户需要知道它，是因为它降低了笔记本的维护门槛——代码更易审查、测试、协作和部署，尤其适合数据科学家和工程师在生产环境中嵌入可复现的分析逻辑。",
+    "plain": "marimo 是一个基于 Python 的开源响应式笔记本框架。它使用纯 .py 文件替代传统 .ipynb，支持声明式依赖管理和状态感知。相比 Jupyter，它更易版本控制、测试和部署，降低了维护门槛，适合数据科学家在生产环境中构建可复现的分析逻辑和交互式应用。",
     "metaphor": "marimo 就像一本会自动翻页、实时批注且自带索引的活页笔记本：每一页（单元）内容独立又联动，改动一处，相关页面自动刷新，而整本笔记本身就是标准的纸质书（.py 文件），无需特殊阅读器。",
     "example": "一位数据工程师用 marimo 编写一个监控脚本，其中包含数据加载、异常检测图表和告警阈值滑块；该脚本以普通 .py 文件形式提交到 Git，团队成员直接用 python script.py 启动交互式仪表板，无需配置 Jupyter 环境。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据科学",
+    "代码协作",
+    "生产部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://marimo.io"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:09:29Z",
-  "updated_at": "2026-03-21T08:26:28Z"
+  "updated_at": "2026-03-23T18:53:23.229167Z",
+  "quality_score": 1.0
 }

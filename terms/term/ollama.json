@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Ollama 是一个开源命令行工具，用于在本地轻松下载、运行和管理大型语言模型（LLM），如 Llama 3、Phi-3 或 Qwen。它屏蔽了复杂的模型加载、GPU 驱动配置和依赖编译等底层细节，让普通用户无需深度学习或系统工程背景，也能在个人电脑（macOS、Linux、Windows）上一键启动高性能 AI 模型。用户需要知道它，是因为它降低了本地 AI 使用门槛——数据不出设备、响应快、隐私可控，且完全免费，是探索 AI 能力、开发原型或离线使用的实用入口。",
+    "plain": "Ollama 是一款开源命令行工具，专为在本地运行和管理大型语言模型（LLM）设计。它简化了模型加载与 GPU 配置流程，支持 macOS、Linux 及 Windows 系统。用户无需深厚技术背景即可一键部署 Llama 等模型，适用于隐私敏感、离线使用及快速原型开发场景，是本地 AI 应用的基础设施。",
     "metaphor": "Ollama 就像一台智能咖啡机：你只需按一个按钮（输入简单命令），它就自动研磨豆子（加载模型）、控温萃取（优化推理）、倒出成品（输出响应），无需懂烘焙原理或机械结构。",
     "example": "一位开发者在没有云服务权限的公司内，用 'ollama run llama3' 命令三秒内启动本地 Llama 3 模型，实时调试提示词工程并生成技术文档草稿，全程不联网、不上传任何数据。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "本地部署",
+    "大语言模型",
+    "开源工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ollama.com",
+    "https://github.com/ollama/ollama"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:57:33Z"
+  "updated_at": "2026-03-23T16:27:22.522046Z",
+  "quality_score": 0.95
 }

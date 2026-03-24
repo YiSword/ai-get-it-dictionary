@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习算法",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LambdaMART 是一种用于排序学习（Learning to Rank）的梯度提升树算法，它将信息检索中的排序目标（如 NDCG、MAP）转化为可优化的近似梯度（即 'lambda'），再用梯度提升决策树（如 XGBoost 或 LightGBM）拟合这些梯度。它被广泛应用于搜索引擎、推荐系统等需要对候选项目（如网页、商品、新闻）按相关性排序的场景。普通用户虽不直接接触该算法，但其效果直接影响搜索结果是否精准、推荐内容是否贴切——例如在电商搜索‘无线耳机’时，能否把高性价比、高好评的产品排在前面，背后常有 LambdaMART 的支撑。",
+    "plain": "LambdaMART 是一种用于排序学习的梯度提升树算法。它将信息检索中的排序目标（如 NDCG）转化为可优化的近似梯度，再用梯度提升决策树拟合。广泛应用于搜索引擎、推荐系统等场景，直接影响搜索结果精准度和推荐内容贴切度。",
     "metaphor": "就像一位经验丰富的图书管理员，不是死记硬背每本书该放哪，而是根据每次读者反馈（‘这本太靠后了’‘那本不该排第一’）动态调整书架顺序，逐步学会如何让最相关的书总出现在最顺手的位置。",
     "example": "微软 Bing 搜索引擎曾长期使用 LambdaMART 优化网页排序，通过分析用户点击行为和停留时长构造排序损失信号，显著提升搜索结果的相关性排序质量。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "搜索引擎",
+    "推荐系统",
+    "排序学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "http://research.microsoft.com/pubs/132652/MSR-TR-2010-82.pdf",
+    "https://en.wikipedia.org/wiki/LambdaMART"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:59:35Z"
+  "updated_at": "2026-03-23T13:05:20.780611Z",
+  "quality_score": 0.95
 }

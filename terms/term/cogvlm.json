@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CogVLM 是一种开源的多模态大语言模型，能同时理解图像和文本，并在两者间进行深度交互推理。它由智谱AI团队研发，支持视觉问答、图像描述、图文检索等任务，无需额外微调即可执行跨模态理解。普通用户需要了解它，是因为它代表了AI从‘只读文字’迈向‘看懂世界’的关键一步——让手机、电脑等设备真正具备类似人类的‘眼脑协同’能力，为无障碍交互、教育辅助和创意工具提供新可能。",
+    "plain": "CogVLM 是由智谱 AI 研发的开源多模态大语言模型，能同时理解图像与文本并进行深度交互推理。它支持视觉问答、图像描述等任务，无需微调即可跨模态理解。该模型代表了 AI 从文本迈向视觉理解的关键一步，赋予设备类似人类的“眼脑协同”能力，适用于无障碍交互、教育辅助及创意工具等场景。",
     "metaphor": "就像一位精通双语且自带速写本的博学向导：你指一张照片，它不仅能说出画中内容，还能结合你的提问，像朋友聊天一样引申解释、推理甚至质疑。",
     "example": "用户上传一张电路板照片并提问‘这个元件烧坏了，怎么替换？’，CogVLM能识别电阻位置、标注型号、说明参数匹配要点，并用文字+框选图示给出维修步骤。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态学习",
+    "计算机视觉",
+    "开源模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/THUDM/CogVLM",
+    "https://cogvlm.thudm.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:42:26Z",
-  "updated_at": "2026-03-21T04:41:46Z"
+  "updated_at": "2026-03-23T15:13:19.325823Z",
+  "quality_score": 0.95
 }

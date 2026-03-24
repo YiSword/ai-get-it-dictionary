@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型压缩",
   "difficulty": "中级",
   "explanations": {
-    "plain": "low_bit_quantization（低比特量化）是一种模型压缩技术，通过将神经网络中权重和激活值从高精度（如32位浮点数）降低为极低精度（如1–4位整数）来大幅减少模型体积、内存占用和计算开销。它对边缘设备（如手机、IoT传感器）部署AI模型至关重要——普通用户可能不直接接触该术语，但正因它，手机拍照时的实时美颜、语音助手的离线响应才变得更快、更省电、更不依赖云端。",
+    "plain": "低比特量化是一种模型压缩技术，通过将神经网络权重和激活值从高精度（如 32 位浮点）降低为极低精度（如 1-4 位整数），大幅减少模型体积、内存占用和计算开销。该技术对边缘设备部署至关重要，使手机拍照美颜、语音助手离线响应更快、更省电，减少云端依赖。",
     "metaphor": "就像把高清电影压缩成适合手机播放的轻量版MP4，牺牲极少画质却换来流畅加载和更低流量消耗。",
     "example": "苹果A17芯片在端侧运行的实时视频超分辨率功能，就采用了4-bit量化模型，在保持画质可接受的前提下，将推理延迟降低60%以上。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型压缩",
+    "边缘计算",
+    "推理加速"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/docs/stable/quantization.html",
+    "https://developer.nvidia.com/blog/introduction-to-neural-network-quantization/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:21:44Z"
+  "updated_at": "2026-03-23T13:58:24.169748Z",
+  "quality_score": 0.95
 }

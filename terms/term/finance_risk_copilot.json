@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "finance_risk_copilot",
+  "norm_term": "finance_risk_copilot",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "AI 行业应用",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "finance_risk_copilot 是面向金融机构的智能风险管理辅助系统，整合实时市场数据、信用评估模型和监管规则，为风险决策提供动态分析支持。它解决数据滞后和人工效率低的问题，帮助快速识别信贷风险、市场波动及合规隐患，通过技术手段保障资金安全，提升风险管理效率与合规水平。",
+    "metaphor": "如同飞机的自动驾驶系统，它能实时监控金融市场的'气流变化'，在风险湍流出现前自动调整航向，让决策者始终掌握安全飞行高度。",
+    "example": "某银行使用该工具分析中小企业贷款申请时，系统自动关联行业风险指数、企业现金流预测及宏观经济指标，10 分钟内生成风险评级报告，辅助信贷经理做出是否放贷的决策。"
+  },
+  "scenario_tags": [
+    "风险管理",
+    "金融科技",
+    "智能决策"
+  ],
+  "sources": [
+    "https://www.microsoft.com/zh-cn/industry/financial-services"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:20:04.716537Z",
+  "updated_at": "2026-03-23T16:27:49.603921Z",
+  "quality_score": 0.95
+}

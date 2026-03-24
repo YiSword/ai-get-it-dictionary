@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评估指标",
   "difficulty": "中级",
   "explanations": {
-    "plain": "mean average precision（mAP）是评估目标检测或信息检索系统整体精度的综合指标，它先对每个类别计算平均精度（AP），再对所有类别的AP取均值。AP本身考虑了模型在不同召回率下的精度变化，能反映模型在不同置信度阈值下的稳健性。普通用户需要了解mAP，因为它比单一准确率更能真实反映AI系统（如自动驾驶识别行人、手机相册自动分类照片）在复杂现实场景中的实际表现，避免被高准确率但漏检/误检严重的模型误导。",
+    "plain": "mean average precision（mAP）是评估目标检测或信息检索系统整体精度的综合指标。它先对每个类别计算平均精度（AP），再对所有类别的 AP 取均值。AP 考虑了模型在不同召回率下的精度变化，能反映模型在不同置信度阈值下的稳健性。比普通准确率更能真实反映 AI 系统在复杂场景中的实际表现。",
     "metaphor": "就像用一张‘成绩单汇总表’来评价一个学生——不仅看每次考试的分数，还看他在不同难度题目上的稳定发挥，最后算出所有科目的平均水准。",
     "example": "在COCO数据集上评估一个自动驾驶感知模型时，研究者会分别计算它对汽车、行人、交通灯等80个类别的AP，再取平均得到mAP@0.5:0.95，作为该模型检测性能的核心指标。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "目标检测",
+    "模型评估"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mean_average_precision",
+    "https://cocodataset.org/#detection-eval"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:29:27Z"
+  "updated_at": "2026-03-23T15:44:08.404053Z",
+  "quality_score": 0.95
 }

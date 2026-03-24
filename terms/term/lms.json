@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "教育科技",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LMS 是 Learning Management System（学习管理系统）的缩写，是一种用于创建、交付、跟踪和管理在线学习活动的软件平台。它为教师提供课程设计、作业分发、成绩记录等功能，为学生提供统一入口访问课件、测验、讨论区和学习进度反馈。普通用户（如学生、教师或企业培训人员）需要了解 LMS，因为它已成为现代教育与职业培训的基础设施——就像电子邮件之于办公沟通一样，不熟悉 LMS 可能导致错过通知、无法提交作业或难以跟进学习进度。",
+    "plain": "LMS（Learning Management System，学习管理系统）是用于创建、交付、跟踪和管理在线学习活动的软件平台。它为教师提供课程设计、作业分发及成绩记录功能，为学生提供课件访问、测验及进度反馈的统一入口。作为现代教育与职业培训的基础设施，熟悉 LMS 有助于高效完成学习任务与管理培训进度。",
     "metaphor": "LMS 就像一所学校的数字校园：教室、公告栏、作业本、成绩单和图书馆都集成在一个安全登录后的网页里。",
     "example": "清华大学使用‘雨课堂’作为其定制化 LMS，教师在课前上传PPT并嵌入习题，学生手机扫码进入课堂，实时答题、查看解析，系统自动统计正确率并生成个人学习报告。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "在线教育",
+    "企业培训",
+    "软件平台"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Learning_management_system"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:00:34Z",
-  "updated_at": "2026-03-21T08:15:58Z"
+  "updated_at": "2026-03-23T11:56:28.586162Z",
+  "quality_score": 0.95
 }

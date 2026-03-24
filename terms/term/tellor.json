@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "预言机",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Tellor 是一个去中心化的链下数据预言机协议，旨在安全、抗审查地将现实世界的数据（如价格、天气、事件结果）引入区块链智能合约。它通过代币激励的矿工竞争提交和验证数据，并利用争议解决机制保障数据质量。普通用户需要知道 Tellor，因为它是 DeFi、保险、衍生品等依赖真实世界数据的区块链应用的关键基础设施——若预言机被操控或失效，相关合约可能错误执行，导致资金损失。",
+    "plain": "Tellor 是一个去中心化预言机协议，旨在将现实世界数据（如价格、天气）安全引入区块链。它通过代币激励矿工竞争提交数据，并利用争议解决机制保障质量。作为 DeFi 和保险应用的关键基础设施，它防止因数据操控导致的合约错误执行与资金损失。",
     "metaphor": "Tellor 就像一群互相监督的公证员，每人独立查证信息后提交答案，多数一致且经得起质疑的答案才被法庭（区块链）采纳。",
     "example": "在基于以太坊的去中心化借贷协议中，Tellor 实时提供 ETH/USD 价格，确保当用户抵押品价值跌破阈值时系统能自动触发清算，防止坏账蔓延。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "DeFi",
+    "基础设施",
+    "智能合约"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://tellor.io",
+    "https://docs.tellor.io"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:34:18Z",
-  "updated_at": "2026-03-21T10:02:22Z"
+  "updated_at": "2026-03-23T11:40:52.272113Z",
+  "quality_score": 0.95
 }

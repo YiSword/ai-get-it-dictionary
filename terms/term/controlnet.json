@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 绘画",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ControlNet 是一种用于扩散模型（如 Stable Diffusion）的深度学习架构扩展，它允许用户通过额外的条件输入（如边缘图、姿态关键点、深度图或涂鸦）精确控制图像生成的结构和布局。普通用户需要了解它，是因为它显著提升了 AI 绘画的可控性与可预测性——不再依赖模糊的文本提示反复试错，而是能像专业设计工具一样‘引导’AI 按指定构图、姿势或形状生成图像。",
+    "plain": "ControlNet 是一种用于扩散模型（如 Stable Diffusion）的神经网络架构，允许通过边缘图、姿态关键点等额外条件输入，精确控制图像生成的结构和布局。它显著提升了 AI 绘画的可控性，使用户能像专业工具一样引导 AI 按指定构图或姿势生成图像，减少反复试错。",
     "metaphor": "ControlNet 就像给一位即兴画家戴上一副增强现实眼镜，镜中实时叠加草图轮廓或人体骨架线，画家必须严格遵循这些视觉指南作画。",
     "example": "设计师上传一张手绘的人物轮廓线稿，启用 ControlNet 的 'canny' 模式，再输入提示词 'cyberpunk samurai, neon lighting'，AI 即生成完全贴合原线条结构的高质量赛博武士图。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "稳定扩散",
+    "条件控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/lllyasviel/ControlNet",
+    "https://arxiv.org/abs/2302.05543"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T04:56:50Z"
+  "updated_at": "2026-03-23T13:59:43.492530Z",
+  "quality_score": 0.95
 }

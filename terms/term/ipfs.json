@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "分布式存储",
   "difficulty": "中级",
   "explanations": {
-    "plain": "IPFS（InterPlanetary File System）是一种去中心化的文件存储与传输协议，它不依赖传统服务器地址（如URL），而是通过文件内容的唯一哈希值来定位和获取数据。这意味着同一份文件在不同节点上存储时，只要内容不变，其地址就完全相同，且能自动从最近或最可用的节点加载。普通用户需要了解IPFS，因为它有望提升网络抗审查性、降低内容丢失风险，并支持更隐私、更弹性的应用（如去中心化网站、NFT元数据存储），尤其在中心化服务宕机或受限时提供替代访问路径。",
+    "plain": "IPFS（星际文件系统）是一种去中心化的点对点文件存储协议。它通过文件内容的哈希值而非位置来定位数据，确保内容不变地址不变。数据分散存储在全球节点上，自动从最近节点加载。这提升了网络抗审查性，降低数据丢失风险，支持去中心化网站和 NFT 存储，为中心化服务提供替代方案。",
     "metaphor": "IPFS就像图书的ISBN号系统：你不再说‘去XX书店三楼找那本蓝色封面的书’，而是直接报ISBN号，任何有这本书的图书馆或书店都能立刻提供副本。",
     "example": "一个新闻机构将报道发布到IPFS后，即使其官网被屏蔽或关闭，读者仍可通过该报道的IPFS哈希链接（如/ipfs/QmXyZ...）在全球任意接入IPFS的节点上读取原始内容。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "Web3",
+    "分布式存储",
+    "P2P 网络"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ipfs.tech/",
+    "https://docs.ipfs.tech/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:34:57Z",
-  "updated_at": "2026-03-21T07:40:10Z"
+  "updated_at": "2026-03-23T18:14:24.190890Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 编程助手",
   "difficulty": "中级",
   "explanations": {
-    "plain": "aider 是一个开源的命令行工具，专为程序员设计，能将自然语言指令（如‘修复这个函数的空指针异常’）直接转化为实际的代码修改，并在本地 Git 仓库中安全执行。它内置对 Git 的深度集成，自动创建提交、回滚错误更改，并支持多种大语言模型（如Claude、GPT）。普通用户——尤其是开发者——需要知道它，因为它大幅降低重复性编码与调试的认知负担，让专注力回归逻辑设计而非语法细节，同时避免手动改错引发的意外破坏。",
-    "metaphor": "就像一位熟悉你项目全貌的资深结对编程伙伴，不仅能听懂你的口语需求，还会边写代码边向你确认关键改动，并自动备份每一步。",
-    "example": "当你在终端运行 'aider' 后输入 '把 login.py 中的密码明文传输改为使用 HTTPS POST 并添加输入校验'，它会分析上下文、修改源码、更新测试，并生成带描述的 Git 提交。"
+    "plain": "aider 是一款开源 AI 编程助手，以命令行形式运行。它能将自然语言指令转化为代码修改，自动在本地 Git 仓库中执行、测试并提交变更。深度集成 Claude 或 GPT 等 LLM，理解项目上下文与依赖。适用于开发者，可大幅降低重复编码与调试负担，让注意力聚焦于逻辑设计，同时保障修改可追溯、可审查。",
+    "metaphor": "就像一位熟悉你整个厨房布局、食谱和冰箱库存的智能厨师助理，你只需说‘把红烧肉的做法改成少油版，并更新到菜谱首页’，它便精准调整步骤、替换食材标注，还顺手帮你拍张照存档。",
+    "example": "开发者在修复一个 Python Web API 的空值崩溃 bug 时，对 aider 输入：‘当 request.json 为 None 时返回 400 错误，而不是抛出 AttributeError’，aider 自动定位相关路由文件，插入空值检查逻辑，并提交带清晰描述的 Git commit。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "开发效率",
+    "版本控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/AiderAI/aider",
+    "https://aider.chat/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:26:26Z"
+  "updated_at": "2026-03-23T13:23:21.644734Z",
+  "quality_score": 1.0
 }

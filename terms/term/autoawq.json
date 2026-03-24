@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AutoAWQ 是一个开源的量化工具库，用于将大语言模型（如 LLaMA、Qwen 等）自动压缩为 AWQ（Activation-aware Weight Quantization）格式，通常将权重从 16 位浮点数（FP16）压缩至 4 位整数（INT4），同时保留较高精度。它通过分析激活值分布来智能选择量化参数，在显存占用和推理速度显著提升的前提下，最大限度减少性能损失。普通用户需要了解它，是因为它让在消费级显卡（如 RTX 4090）上本地高效运行 7B–70B 级大模型成为现实，降低了 AI 应用的硬件门槛。",
+    "plain": "AutoAWQ 是基于 AWQ 技术的开源模型量化工具，可将大语言模型权重从 FP16 压缩至 INT4。它通过分析激活值分布优化量化参数，在显著降低显存占用并提升推理速度的同时，最大限度保持精度。这使得消费级显卡本地运行 7B-70B 大模型成为可能，大幅降低部署门槛。",
     "metaphor": "就像给一本厚重的精装百科全书制作一份精准的缩略图索引——既大幅减小体积，又确保关键信息不被模糊或丢失。",
     "example": "用户使用 AutoAWQ 将 Qwen2-7B 模型量化为 4-bit AWQ 格式后，在一台配备 24GB 显存的 RTX 4090 上以 35 tokens/秒的速度流畅运行本地聊天应用。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型量化",
+    "推理加速",
+    "本地部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/casper-hansen/AutoAWQ"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:49:08Z"
+  "updated_at": "2026-03-23T16:16:04.421348Z",
+  "quality_score": 0.95
 }

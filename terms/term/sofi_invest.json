@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "金融服务",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Sofi Invest 是美国金融科技公司 SoFi（Social Finance）提供的在线投资服务平台，允许用户进行免佣金的股票、ETF、期权及加密货币交易，并支持自动化投资组合（如智能投顾）和退休账户（如IRA）。它面向普通投资者，尤其适合希望一站式管理借贷、银行、投资与保险服务的年轻用户。了解 SoFi Invest 有助于评估其低门槛、整合化服务是否匹配个人财务目标，同时需注意其非全功能券商的局限性（如无共同基金或高级研究工具）。",
+    "plain": "SoFi Invest 是美国金融科技公司 SoFi 提供的在线投资服务平台。支持免佣金股票、ETF、期权及加密货币交易，并提供智能投顾与退休账户（IRA）服务。主要面向希望一站式管理借贷、银行与投资服务的普通投资者。虽缺乏共同基金等高级工具，但其低门槛与整合化服务适合年轻用户群体。",
     "metaphor": "就像一家把咖啡馆、图书馆和理财顾问办公室合并在同一栋楼里的社区中心——你既能快速买杯咖啡（交易股票），也能安静自习（查看投资组合），还能随时预约专业建议（自动再平衡），但别指望它提供大学级别的学术数据库（深度研报）。",
     "example": "一位刚毕业的软件工程师用 SoFi Invest 开设 Roth IRA 账户，设置每月自动从工资中扣款 300 美元，交由平台根据其风险偏好分配到 ETF 组合中，并在手机 App 上实时跟踪收益和调整目标年份。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "在线投资",
+    "个人理财",
+    "金融科技"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.sofi.com/invest/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:12:35Z",
-  "updated_at": "2026-03-21T09:47:06Z"
+  "updated_at": "2026-03-23T18:27:59.372211Z",
+  "quality_score": 0.95
 }

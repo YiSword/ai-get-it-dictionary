@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "可解释性",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Counterfactual explanation 是一种可解释人工智能（XAI）技术，用于回答‘如果某个输入条件稍作改变，模型的预测结果会如何变化？’这类问题。它通过生成最接近原始输入但导致不同决策的最小修改样本来揭示模型决策的关键依据。普通用户需要了解它，是因为它能以直观、非技术化的方式揭示算法决策背后的逻辑，帮助识别偏见、验证 fairness、提升信任，并支持用户采取具体行动来改变不利结果（例如，‘若收入提高500元，贷款就会获批’）。",
+    "plain": "Counterfactual explanation 是一种可解释人工智能技术，通过生成导致不同决策的最小输入修改样本，回答“如果条件改变，预测如何变化”。它能直观揭示模型决策逻辑，帮助用户识别偏见并采取行动，例如“若收入提高 500 元，贷款就会获批”。",
     "metaphor": "就像一位耐心的银行经理在拒贷后告诉你：‘只要把月收入多写800元，或把负债少填2万元，这次申请就能通过。’",
     "example": "某信用评分模型拒绝了一位用户的房贷申请；系统生成反事实解释：‘若您的信用卡当前余额减少12,000元且近6个月无逾期记录，则评分将达准入阈值，申请极可能获批。’"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "可解释性",
+    "决策支持",
+    "模型诊断"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1711.00399",
+    "https://interpret.ml/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:02:51Z"
+  "updated_at": "2026-03-23T11:57:36.688992Z",
+  "quality_score": 0.95
 }

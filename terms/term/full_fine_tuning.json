@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "full_fine_tuning 是指在预训练大模型的基础上，使用特定领域或任务的数据，对模型的全部参数进行更新和优化的过程。与仅调整部分层（如LoRA）不同，它重新计算并修改整个网络的权重，从而让模型深度适配新任务。普通用户需要了解它，是因为它通常带来最强的定制效果，但也意味着更高的计算成本、更长的训练时间以及对数据质量和算力的更高要求，直接影响项目可行性与落地选择。",
+    "plain": "全量微调是指在预训练大模型基础上，使用特定数据对模型全部参数进行更新优化的过程。相比部分参数微调（如 LoRA），它能深度适配新任务且效果通常最强，但计算成本更高、训练时间更长，对算力和数据质量要求严格，直接影响项目落地可行性。",
     "metaphor": "就像把一位通晓多国语言的资深翻译家，送进某家医院接受为期数月的专科培训，使其不仅掌握医学术语，还能完全按照该医院的流程、风格和习惯撰写病历和医嘱。",
     "example": "一家金融公司使用 Llama-3 基座模型，用数万条内部研报、财报问答和合规对话数据对其所有参数进行 full_fine_tuning，最终得到一个能精准生成符合监管口径、嵌入公司术语体系的投研助手。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型",
+    "微调技术",
+    "训练方法"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/training"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:40:28Z"
+  "updated_at": "2026-03-23T14:32:30.680694Z",
+  "quality_score": 0.95
 }

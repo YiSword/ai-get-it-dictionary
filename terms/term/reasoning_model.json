@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型类型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "reasoning_model（推理模型）是一种专门设计用于执行多步逻辑推导、因果分析或策略性思考的人工智能模型。它不只做简单模式匹配或统计预测，而是能分解问题、调用知识、评估中间结论，并生成可解释的推理链。普通用户需要了解它，因为这类模型正越来越多地应用于教育辅导、医疗建议、法律咨询等需透明决策的场景——知道它‘如何得出结论’，比只看结果更能判断可信度与适用边界。",
+    "plain": "推理模型是专门执行多步逻辑推导与因果分析的人工智能模型。不同于简单模式匹配，它能分解问题、评估中间结论并生成可解释的推理链。这类模型广泛应用于教育、医疗、法律等需透明决策的场景，帮助用户理解结论来源，从而判断可信度与适用边界。",
     "metaphor": "就像一位经验丰富的侦探，不是直接给出凶手名字，而是展示现场线索、排除矛盾假设、逐步锁定动机与路径。",
     "example": "当用户提问‘我该辞职考研吗？’，推理模型会综合分析其学历背景、目标专业竞争度、经济储备、时间成本等变量，分步骤权衡利弊并指出关键风险点，而非仅回答‘适合’或‘不适合’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "逻辑推理",
+    "可解释性",
+    "决策支持"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2201.11903",
+    "https://deepmind.google/discover/blog/transformers-that-reason/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:29:33Z"
+  "updated_at": "2026-03-23T17:48:49.154512Z",
+  "quality_score": 0.95
 }

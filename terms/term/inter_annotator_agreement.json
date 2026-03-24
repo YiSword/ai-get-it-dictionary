@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据标注",
   "difficulty": "中级",
   "explanations": {
-    "plain": "inter_annotator_agreement（标注者间一致性）是指多个人工标注者对同一组数据（如文本、图像或音频）进行标注时，彼此结果一致性的量化程度。它用于评估标注任务的可靠性与客观性，常见于自然语言处理、医学影像分析等依赖人工标注的AI训练场景。普通用户需要了解它，因为标注质量直接影响AI模型的公平性、准确性与可信度——若标注者意见分歧大，说明任务定义模糊或标准缺失，模型学到的可能是噪声而非真实规律。",
+    "plain": "标注者间一致性（IAA）指多名标注者对同一数据标注结果的一致程度，常用 Cohen's Kappa 等指标量化。它用于评估标注任务可靠性与客观性，直接影响 AI 模型训练质量。若一致性低，表明任务定义模糊或标准缺失，模型可能学到噪声。它是数据标注质量控制的关键环节。",
     "metaphor": "就像多位医生独立阅片后对同一张X光片是否异常给出诊断，他们结论越接近，说明诊断标准越清晰、结果越可靠。",
     "example": "在构建垃圾邮件识别数据集时，三位标注员分别判断100封邮件是否为垃圾邮件，研究者用Cohen's Kappa系数计算他们标注结果的一致性，若Kappa值仅为0.3，表明标注标准亟需统一和培训。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据标注",
+    "质量控制",
+    "评估指标"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Inter-rater_reliability",
+    "https://huggingface.co/docs/evaluate/main/en/measurement_inter_annotator_agreement"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:37:10Z"
+  "updated_at": "2026-03-23T14:23:29.085923Z",
+  "quality_score": 0.95
 }

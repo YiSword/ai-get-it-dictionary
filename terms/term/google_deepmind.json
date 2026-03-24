@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Google DeepMind 是谷歌旗下的一个人工智能研究实验室，由原英国公司DeepMind在2014年被收购后整合而成。它专注于开发通用人工智能（AGI）技术，尤其在强化学习、大语言模型和科学发现（如蛋白质结构预测AlphaFold）方面取得突破性成果。普通用户需要了解它，因为其技术已深度融入日常产品——比如Gmail的智能回复、YouTube的推荐算法、安卓系统的电池优化，甚至医疗影像辅助诊断工具，直接影响信息获取效率、隐私边界与人机协作方式。",
+    "plain": "Google DeepMind 是谷歌旗下的人工智能研究实验室，2014 年收购整合而成。专注于通用人工智能（AGI）技术，在强化学习、大语言模型及科学发现（如 AlphaFold）方面成果显著。其技术已融入 Gmail、YouTube 等日常产品，影响信息效率与人机协作。",
     "metaphor": "就像一位既精通棋艺又擅长解构生命密码的超级科学家，Google DeepMind 不只下赢一盘棋，更试图读懂世界运行的底层规则。",
     "example": "AlphaFold 3 能在数分钟内高精度预测蛋白质及其相互作用结构，加速新药研发；其技术已向全球科研机构免费开放，助力罕见病靶点发现。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "人工智能",
+    "研究机构",
+    "技术应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://deepmind.google/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:51:06Z"
+  "updated_at": "2026-03-23T13:41:18.784450Z",
+  "quality_score": 0.95
 }

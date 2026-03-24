@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多语言",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Schnell 是德语中表示‘快速’或‘迅速’的形容词/副词，常用于指示动作需加快节奏、提高效率或强调时效性。普通用户需要了解它，不仅因为它是德语基础高频词，广泛出现在交通标识（如 'schnell fahren'）、软件界面（如 'schnell starten'）、日常对话及学习材料中，还因为它常作为技术术语前缀或品牌命名元素（如 Schnell-Modus），影响对操作指令、产品功能或多语言界面的理解。",
+    "plain": "Schnell 是德语形容词/副词，意为“快速”或“迅速”。常用于交通标识、软件界面（如 Schnell-Modus）及日常对话。作为高频基础词，它影响用户对操作指令、产品功能或多语言界面的理解。在技术文档或本地化场景中，准确识别该词有助于提升交互效率及跨语言沟通准确性。",
     "metaphor": "就像厨房里菜谱上写的‘快火翻炒’——‘schnell’不是模糊催促，而是明确要求你调高火力、缩短时间，让结果立刻显现。",
     "example": "在德国火车站电子屏上看到 'Zug fährt in 2 Min. – schnell einsteigen!'，意思是列车两分钟后发车，请立即上车。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多语言",
+    "用户界面",
+    "本地化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.duden.de/rechtschreibung/schnell"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:06:02Z",
-  "updated_at": "2026-03-21T09:38:53Z"
+  "updated_at": "2026-03-23T18:30:56.887721Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发库",
   "difficulty": "中级",
   "explanations": {
-    "plain": "diffusers 是一个由 Hugging Face 开发的开源 Python 库，专注于简化和标准化扩散模型（如 Stable Diffusion）的加载、训练与推理流程。它提供统一的 API 来处理文本到图像、图像到图像、inpainting 等任务，并支持多种调度器、噪声预测器和权重格式。普通用户需要了解它，因为它是当前使用主流开源生成式 AI 模型最便捷、兼容性最强的工具之一——无需深入底层实现即可快速运行、微调或部署高质量生成模型。",
+    "plain": "diffusers 是 Hugging Face 推出的开源 Python 库，专为扩散模型（如 Stable Diffusion）设计。提供统一 API 支持文生图、图生图等任务的加载、训练与推理，兼容多种调度器及权重格式。作为生成式 AI 核心工具，它简化底层操作，助力用户快速部署高质量模型，具备极强的兼容性与易用性。",
     "metaphor": "就像厨房里的多功能料理机：把食材（文本提示、原始图像）、菜谱（预训练模型）、火候控制（调度算法）都集成在一个设备里，用户只需按几个按钮就能做出不同菜肴（生成图像）。",
     "example": "一位设计师用 diffusers 加载 Stable Diffusion v2.1 模型，输入提示词 'cyberpunk city at night, neon lights'，几秒内生成一张高分辨率概念图，用于游戏美术初稿。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文生图",
+    "模型推理",
+    "开源库"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/diffusers",
+    "https://github.com/huggingface/diffusers"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:40:45Z"
+  "updated_at": "2026-03-23T11:15:41.322758Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Apple Intelligence 是苹果公司推出的集成式人工智能系统，深度融入 iOS、iPadOS 和 macOS，专注于隐私优先、设备端处理与自然交互。它并非独立应用，而是为 Siri、邮件、信息、备忘录等原生应用提供更精准的理解、生成和操作能力，例如自动总结长邮件、润色写作、跨应用推理等。普通用户需要了解它，因为它将显著改变日常使用 iPhone 或 Mac 的方式——让设备更懂意图、响应更自然，且所有敏感数据默认在设备上处理，无需上传云端。",
+    "plain": "Apple Intelligence 是苹果公司推出的个人化智能系统，深度集成于 iOS、iPadOS 和 macOS 中。它专注于隐私优先与设备端处理，为 Siri 及原生应用提供生成式 AI 能力，如写作润色、图像生成及跨应用推理。用户无需上传敏感数据至云端即可享受更自然的交互体验，显著改变设备使用方式。",
     "metaphor": "就像一位熟悉你习惯、守口如瓶的私人助理，永远待在你书房里（设备本地），不用出门问别人，就能帮你整理信件、润色留言、甚至提醒你未尽事宜。",
     "example": "当你在邮件中收到一封冗长的项目更新，长按‘总结’按钮，Apple Intelligence 会在几秒内生成简洁要点；或在备忘录中输入‘把上周会议提到的三个行动项列成待办’，它会自动识别上下文并创建带复选框的任务列表。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "生成式 AI",
+    "隐私保护",
+    "智能操作系统"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.apple.com/apple-intelligence/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:39:56Z"
+  "updated_at": "2026-03-23T13:33:09.037685Z",
+  "quality_score": 0.95
 }

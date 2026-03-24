@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "代码生成模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Polycoder 是一个开源的代码生成模型，基于 CodeX 架构微调而来，专为多编程语言支持而设计，能理解并生成 Python、C、Java、JavaScript 等十余种语言的代码。它不依赖闭源 API，可本地部署，适合开发者在隐私敏感环境或离线场景中使用代码补全、函数生成或代码翻译等任务。普通用户（尤其是程序员和学生）需要了解它，是因为它提供了一种免费、可控、透明的替代方案，避免对商业大模型的依赖，同时促进可复现的编程辅助研究。",
+    "plain": "PolyCoder 是由卡内基梅隆大学推出的开源代码生成模型，基于 GPT-2 架构，支持 Python、C、Java 等十余种语言。作为 Codex 的开源替代方案，它支持本地部署，适用于隐私敏感环境下的代码补全、生成及翻译。该模型为开发者提供免费可控的编程辅助工具，有助于推动代码大模型的可复现研究。",
     "metaphor": "就像一位精通十几种语言的资深技术翻译兼编程助手，不需要联网查词典，随时在你本地电脑上为你手写代码、解释逻辑或转换语言。",
     "example": "一名嵌入式工程师在无网络的实验室环境中，用 Polycoder 将一段 Python 数据处理脚本快速翻译成 C 语言，以便部署到资源受限的微控制器上。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "开源模型",
+    "编程辅助"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2202.13169",
+    "https://github.com/VHellendoorn/Code-LMs"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:08:27Z",
-  "updated_at": "2026-03-21T09:13:44Z"
+  "updated_at": "2026-03-23T17:50:09.770171Z",
+  "quality_score": 1.0
 }

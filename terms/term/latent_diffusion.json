@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "latent_diffusion 是一种生成式人工智能模型架构，它在低维潜在空间（latent space）中执行扩散过程，而非直接在原始像素空间操作。相比传统扩散模型，它通过编码器将图像压缩为紧凑的潜在表示，再在此空间中逐步加噪与去噪，大幅降低计算开销和内存需求。普通用户需要了解它，因为它是当前主流AI图像生成工具（如Stable Diffusion）的核心技术，直接影响生成质量、速度和本地运行可行性。",
+    "plain": "潜在扩散模型是一种生成式 AI 架构，在低维潜在空间而非像素空间执行扩散过程。它通过编码器压缩图像为潜在表示，再进行加噪与去噪，大幅降低计算开销。这是 Stable Diffusion 等主流工具的核心技术，直接影响生成质量、速度和本地运行可行性，适合资源受限环境下的高效图像生成。",
     "metaphor": "就像建筑师先用简化的蓝图纸（潜在空间）设计整栋大楼，再按图施工，而不是直接在真实建材上反复拆改。",
     "example": "当你在Stable Diffusion中输入‘一只赛博朋克风格的猫’并几秒内得到高清图像时，背后正是latent diffusion模型在压缩后的特征空间里完成了数十步的智能去噪。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "生成式 AI",
+    "模型架构"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2112.10752",
+    "https://github.com/CompVis/latent-diffusion"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:46:09Z",
-  "updated_at": "2026-03-21T08:02:50Z"
+  "updated_at": "2026-03-23T12:10:24.877445Z",
+  "quality_score": 0.95
 }

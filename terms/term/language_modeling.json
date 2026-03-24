@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "语言建模（language modeling）是让计算机学会预测文本中下一个词或字符的概率分布的技术，核心目标是理解并生成符合人类语言习惯的序列。它支撑着智能输入法、语音识别、机器翻译和聊天机器人等日常应用。普通用户虽不直接接触其算法，但每次用手机输入时获得的流畅补全、语音转文字的准确率，甚至AI助手的回答质量，都高度依赖语言模型的能力。",
+    "plain": "语言建模是让计算机预测文本中下一个词或字符概率分布的技术，旨在理解并生成符合人类习惯的语言序列。它是智能输入法、语音识别、机器翻译及聊天机器人的核心支撑。用户虽不直接接触算法，但输入补全、语音转文字准确率及 AI 助手回答质量均依赖此技术。",
     "metaphor": "就像一位熟读千万本书的图书管理员，能根据你刚说的前半句话，精准猜出你最可能想说的后半句。",
     "example": "当你在微信中输入‘今天天气真’，输入法立刻推荐‘好’‘不错’‘适合散步’等候选词——这背后就是语言模型在实时计算不同续接词出现的可能性。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文本生成",
+    "自然语言处理",
+    "预测技术"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Language_model",
+    "https://huggingface.co/docs/transformers/tasks/language_modeling"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:00:59Z"
+  "updated_at": "2026-03-23T14:55:02.725665Z",
+  "quality_score": 1.0
 }

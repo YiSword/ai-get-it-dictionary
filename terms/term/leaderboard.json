@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "交互设计",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Leaderboard（排行榜）是一种按特定指标（如分数、完成时间、活跃度等）对用户或实体进行排序并公开展示的列表。它常见于游戏、在线学习平台、编程竞赛和健身应用中，用于直观呈现表现优劣和激发竞争意识。普通用户需要了解它，因为它是衡量自身进步、设定目标、获得社区认可的重要参考，同时也可能影响排名奖励、晋级资格或社交可见度。",
+    "plain": "Leaderboard（排行榜）是按特定指标（如分数、活跃度）对实体排序并公开展示的列表。常见于游戏、竞赛及应用中，用于直观呈现表现优劣、激发竞争意识。它是用户衡量进步、设定目标及获取社区认可的重要参考，直接影响排名奖励与社交可见度，属于常见的交互设计元素。",
     "metaphor": "就像学校教室后墙贴着的‘每周进步之星’榜单，谁解题最快、谁打卡最勤、谁积分最高一目了然。",
     "example": "在LeetCode编程平台上，全球用户根据解决算法题的数量和难度实时生成全球排行榜；新手可通过查看自己在新用户子榜的位置，判断当前学习进度是否跟上同龄人。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "游戏化",
+    "用户界面",
+    "社区运营"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Leaderboard"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:05:12Z"
+  "updated_at": "2026-03-23T17:41:36.116672Z",
+  "quality_score": 0.95
 }

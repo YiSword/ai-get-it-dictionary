@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "alignment_tuning（对齐调优）是一种针对大语言模型的后训练优化技术，旨在让模型的行为更符合人类价值观、具体任务目标或特定使用场景的期望，例如诚实、无害、有帮助或遵循指令。它不改变模型的基础能力，而是通过高质量偏好数据（如人类对回答优劣的排序）微调模型输出分布，使其在推理时更倾向于生成符合对齐目标的响应。普通用户需要了解它，因为这直接关系到AI是否可靠、安全、可信赖——比如避免编造信息、拒绝有害请求，或真正理解并执行用户的实际意图。",
+    "plain": "alignment_tuning（对齐调优）是大语言模型的后训练优化技术，旨在使模型行为符合人类价值观及任务目标，如诚实、无害、有帮助。它通过高质量偏好数据微调模型输出分布，提升可靠性而不改变基础能力。这对确保 AI 安全、避免编造信息及理解用户意图至关重要，是构建可信赖 AI 系统的关键步骤。",
     "metaphor": "就像给一位才华横溢但缺乏职场经验的新员工配备一位资深导师，通过反复反馈‘哪种回答更得体、更准确、更符合公司价值观’，逐步校准其沟通风格和判断习惯。",
     "example": "某客服AI在上线前经过alignment_tuning，使其在面对‘如何绕过系统限制’的提问时，不再提供技术细节，而是温和解释安全策略并引导用户联系支持团队。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型安全",
+    "微调技术"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/research/instruction-following",
+    "https://huggingface.co/blog/rlhf"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:32:15Z"
+  "updated_at": "2026-03-23T18:54:57.960159Z",
+  "quality_score": 0.95
 }

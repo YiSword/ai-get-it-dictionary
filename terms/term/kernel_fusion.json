@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "编译优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "kernel_fusion 是一种编译优化技术，指将多个连续执行的小型计算内核（kernel）合并为一个更大的内核，以减少内核启动开销、降低内存访问延迟并提升硬件资源利用率。它常见于 GPU 或 AI 加速器编程中，能显著加速深度学习训练和推理等数据密集型任务。普通用户虽不直接编写内核，但在使用高性能框架（如 PyTorch、TensorFlow）时，其底层自动启用的 kernel_fusion 会直接影响程序运行速度和能效，因此了解该概念有助于理解为何某些模型在特定硬件上性能突增。",
+    "plain": "kernel_fusion 是一种编译优化技术，将多个连续执行的小型计算内核合并为一个，以减少启动开销和内存访问延迟，提升硬件资源利用率。常见于 GPU 或 AI 加速器编程，能显著加速深度学习训练和推理。主流框架如 PyTorch、TensorFlow 底层自动启用，直接影响程序运行速度和能效。",
     "metaphor": "就像快递员把同一街区的多单小包裹打包成一个大包裹一次性派送，而不是每单都单独跑一趟，从而节省路上时间和油费。",
     "example": "在 PyTorch 中启用 TorchScript 的 JIT 编译并开启 fusion 选项后，相邻的卷积、ReLU 和批归一化操作会被融合成单个 CUDA 内核执行，避免中间张量反复进出显存。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "性能优化",
+    "编译技术",
+    "GPU 加速"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://docs.nvidia.com/cuda/",
+    "https://pytorch.org/docs/stable/torch.compiler.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:50:01Z"
+  "updated_at": "2026-03-23T12:52:03.901314Z",
+  "quality_score": 0.95
 }

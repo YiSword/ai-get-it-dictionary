@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "加密钱包",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Trust Wallet 是一款开源、非托管的移动加密钱包应用，支持数百种加密货币和代币（包括以太坊、BNB Chain、Solana 等链上资产），允许用户完全掌控私钥，自主发送、接收、存储和交易数字资产。它还内置去中心化交易所（DEX）聚合器和 dApp 浏览器，让用户能直接与区块链应用交互。普通用户需要了解它，是因为它提供比中心化交易所更安全的资产保管方式——没有第三方可冻结账户或挪用资金，是进入 Web3 的基础工具。",
+    "plain": "Trust Wallet 是一款开源非托管移动加密钱包，支持多链资产存储与管理。用户完全掌控私钥，可自主发送、接收及交易数字资产。内置 DEX 聚合器和 dApp 浏览器，便于直接与区块链应用交互。相比中心化交易所，它提供更安全的资产保管方式，无第三方冻结风险，是进入 Web3 的基础工具。",
     "metaphor": "它就像你随身携带的数字保险柜和万能门禁卡：既安全保管你的所有数字钥匙（私钥），又能凭此自由打开各种区块链世界的大门（dApp）。",
     "example": "用户下载 Trust Wallet 后，通过助记词备份创建钱包，然后用它接收朋友转来的 USDT，并通过内置 DEX 将其兑换为 ETH，全程无需注册中心化平台或提交身份信息。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "加密钱包",
+    "Web3 基础设施",
+    "资产管理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://trustwallet.com",
+    "https://github.com/trustwallet"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:21:43Z",
-  "updated_at": "2026-03-21T10:12:00Z"
+  "updated_at": "2026-03-23T12:29:13.223005Z",
+  "quality_score": 0.95
 }

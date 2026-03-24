@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "检索增强生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "context_router 是一种在大型语言模型（LLM）应用中用于动态选择最相关上下文片段或知识源的技术组件。它根据用户当前输入的语义，从多个预定义的文档块、知识库分区或工具接口中筛选出最匹配的部分，再将这些精选上下文注入模型提示中。普通用户需要了解它，是因为它直接影响回答的准确性与响应速度——好的 context_router 能让 AI 快速聚焦关键信息，避免被无关内容干扰，从而提升交互质量。",
+    "plain": "context_router 是 LLM 应用中的关键组件，用于根据用户输入语义动态选择最相关的上下文片段或知识源。它从多个文档块或工具接口中筛选匹配部分，注入模型提示。这直接影响回答准确性与响应速度，帮助 AI 聚焦关键信息，避免无关内容干扰，显著提升交互质量与系统效率。",
     "metaphor": "就像一位经验丰富的图书管理员，听到你的问题后不翻整座图书馆，而是立刻从分类明确的书架中抽出最相关的三本书交给你。",
     "example": "当用户询问‘如何在 Azure 上部署 FastAPI 应用？’时，context_router 会自动从企业知识库中选取‘Azure 部署指南’和‘Python Web 框架适配说明’两段文档，而忽略关于 AWS 或 Django 的内容。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "检索增强生成",
+    "LLM 应用架构",
+    "上下文管理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://python.langchain.com/docs/modules/chains/popular/router_chain",
+    "https://docs.llamaindex.ai/en/stable/module_guides/querying/router/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:53:11Z"
+  "updated_at": "2026-03-23T11:30:26.472560Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ERNIE（Enhanced Representation through kNowledge IntEgration）是百度研发的一系列中文预训练语言模型，专注于融合知识图谱与文本语义，提升对中文词汇、实体和上下文关系的理解能力。它在多项中文自然语言处理任务（如问答、情感分析、命名实体识别）上表现优异。普通用户需要知道它，是因为许多中文智能应用——如百度搜索、小度助手、文心一言的底层理解能力都依赖ERNIE技术，直接影响人机交互的准确性和流畅度。",
+    "plain": "ERNIE 是百度研发的知识增强预训练语言模型系列。它融合知识图谱与文本语义，显著提升中文理解能力。广泛应用于百度搜索、小度助手及文心一言底层，支撑问答、情感分析等任务，是中文智能交互的核心技术之一。",
     "metaphor": "就像一位熟读百科全书又精通方言的资深编辑，ERNIE不仅懂字面意思，还知道‘故宫’既是建筑也是文化符号，‘苹果’可能指水果或手机。",
     "example": "当你在百度App中输入‘李白和杜甫谁活得更久？’，ERNIE会精准识别两位诗人的生卒年份并完成比较推理，而非简单匹配关键词。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "搜索引擎",
+    "智能助手",
+    "文本理解"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.baidu.com/tech/language",
+    "https://github.com/PaddlePaddle/ERNIE"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:11:19Z"
+  "updated_at": "2026-03-23T12:27:46.115579Z",
+  "quality_score": 0.95
 }

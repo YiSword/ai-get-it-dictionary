@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "隐私安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Model inversion 是一种隐私攻击技术，攻击者通过分析机器学习模型的输出（如预测概率或置信度），反向推断出用于训练该模型的敏感输入数据（例如人脸图像、医疗记录等）。它揭示了即使不直接访问原始训练数据，仅通过模型接口也可能泄露隐私。普通用户需要了解它，因为许多日常服务（如人脸识别、健康风险评估）依赖黑盒AI模型，而这些模型若未经过隐私加固，可能无意中暴露其个人信息。",
+    "plain": "模型反演是一种隐私攻击技术。攻击者通过分析模型输出（如预测概率），反向推断训练数据中的敏感信息（如人脸、医疗记录）。这表明即使不直接访问原始数据，仅通过模型接口也可能泄露隐私。依赖黑盒 AI 的日常服务若未加固，可能暴露用户个人信息。",
     "metaphor": "就像通过观察一个人对不同问题的回答模式，逐步还原出他读过的私密日记内容。",
     "example": "攻击者向某医院部署的皮肤病诊断模型反复提交查询，利用其返回的细粒度类别概率，重建出训练集中患者的面部图像，从而识别特定患者身份。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "隐私安全",
+    "对抗攻击",
+    "数据泄露"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://owasp.org/www-project-machine-learning-security-top-10/",
+    "https://www.cs.cmu.edu/~fredrik/papers/fredrikson15inversion.pdf"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:21:48Z",
-  "updated_at": "2026-03-21T08:47:03Z"
+  "updated_at": "2026-03-23T16:23:03.096393Z",
+  "quality_score": 0.95
 }

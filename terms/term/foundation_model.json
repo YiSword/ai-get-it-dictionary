@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Foundation model 是指在大量通用数据上预训练的大规模人工智能模型，具备广泛的任务适应能力，如理解语言、生成文本、识别图像等。它不针对某一具体应用而设计，而是作为底层‘基础’，可通过微调或提示工程适配到各种下游任务。普通用户需要了解它，因为它是当前大多数AI应用（如智能助手、自动写作、图像生成）背后的核心技术，影响着AI的能力边界、可靠性及潜在偏见。",
+    "plain": "基础模型是在海量通用数据上预训练的大规模 AI 模型，具备广泛的任务适应能力，如语言理解、图像识别等。它作为底层基础，可通过微调或提示工程适配到各种下游任务，而非针对具体应用设计。它是当前智能助手、生成式 AI 等应用的核心技术，决定了 AI 的能力边界与可靠性。",
     "metaphor": "就像一块未经雕刻的优质大理石原石——它本身不是成品雕塑，但具备成为任何雕塑的潜力，只需后续的精细雕琢（微调）或巧妙引导（提示）。",
     "example": "一家电商公司使用 foundation model（如 Llama 或 Qwen）为基础，仅通过少量客服对话数据微调，就快速构建出能处理退换货咨询、订单查询等多样化问题的专属客服机器人。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "预训练",
+    "大模型",
+    "生成式 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://crfm.stanford.edu/",
+    "https://arxiv.org/abs/2108.07258"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:37:28Z"
+  "updated_at": "2026-03-23T13:34:13.860938Z",
+  "quality_score": 0.95
 }

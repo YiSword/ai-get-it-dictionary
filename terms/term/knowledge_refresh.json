@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "持续学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "knowledge_refresh 指系统或模型在运行过程中动态更新其内部知识库或参数，以纳入最新信息、修正过时内容或适应新任务需求的过程。它区别于一次性训练，强调持续性、低开销的知识演进。普通用户需要了解这一概念，因为当他们使用智能助手、推荐系统或企业知识库时，若系统缺乏有效的 knowledge_refresh 机制，就可能给出陈旧、错误甚至有害的答案——例如推荐已下架商品、引用失效政策或忽略突发公共事件的最新进展。",
+    "plain": "knowledge_refresh 指系统或模型在运行中动态更新内部知识库或参数，以纳入最新信息、修正过时内容。区别于一次性训练，它强调持续性与低开销。若缺乏此机制，智能助手可能给出陈旧或错误答案，如推荐下架商品或忽略突发事件进展。",
     "metaphor": "就像给一本纸质百科全书定期插入活页更新页，而不是每次出新版都重印整本书。",
     "example": "某银行客服AI在监管新规发布24小时内，通过 knowledge_refresh 自动加载新条款摘要与合规话术，无需人工重新训练整个模型，即可准确解答客户关于账户冻结条件变更的问题。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "智能助手",
+    "知识库管理",
+    "模型更新"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1909.08382"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:54:10Z"
+  "updated_at": "2026-03-23T11:44:20.867414Z",
+  "quality_score": 0.95
 }

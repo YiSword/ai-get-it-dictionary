@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理性能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "render_token 是指在文本生成或渲染过程中，模型逐个输出的最小可处理单位（通常为子词或字符级标记），它代表一次前向推理产生的单个输出结果。普通用户需要了解它，因为 render_token 的数量直接影响响应延迟、计费粒度（如按 token 计费的 API）、以及流式输出时文字逐字出现的节奏——例如聊天界面中文字‘打字机式’显现，背后就是每个 render_token 被依次解码并渲染。",
+    "plain": "render_token 指模型生成过程中逐个输出的最小单位，通常为子词或字符。它直接影响响应延迟、API 计费粒度及流式输出的打字机效果。用户感知到的文字逐字显现，即是 render_token 依次解码渲染的结果。理解它有助于评估生成速度与成本。",
     "metaphor": "就像印刷机每次只压印一个铅字，render_token 是大语言模型‘打印’回答时每一次落下的单个字符或字块。",
     "example": "当用户在支持流式响应的 AI 助手中提问‘简述量子计算’，前端会逐个接收并显示 render_token（如‘量’→‘子’→‘计’→‘算’…），形成实时打字效果；此时每个 token 都是独立生成并传递的最小渲染单元。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型推理",
+    "流式输出",
+    "计费策略"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/tokenizer_summary"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:38:42Z",
-  "updated_at": "2026-03-21T09:31:42Z"
+  "updated_at": "2026-03-23T16:39:56.698157Z",
+  "quality_score": 0.95
 }

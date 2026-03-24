@@ -1,26 +1,26 @@
 {
-  "entry_kind": "term",
-  "term": "dpm_sde_karras",
-  "norm_term": "dpm_sde_karras",
-  "lang": "en",
+  "term": "DPM++ SDE Karras",
+  "definition": "DPM++ SDE Karras 是 Stable Diffusion 扩散模型的SDE (Karras 噪声调度)采样器。",
+  "description": "DPM++ SDE Karras (SDE (Karras 噪声调度)) 是 DPM++ 系列采样器的一员，基于高阶数值方法实现高效的扩散过程采样。该采样器在图像生成质量和速度之间提供特定平衡，适用于不同的生成场景和需求。",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
-  "difficulty": "中级",
-  "explanations": {
-    "plain": "dpm_sde_karras 是一种用于扩散模型（如Stable Diffusion）的采样算法，全称是基于随机微分方程（SDE）的DPM（Diffusion Probabilistic Model）求解器，采用Karras等人提出的噪声调度策略。它通过自适应步长和重标定的噪声时间表，在较少迭代步数下生成更高质量、更稳定的结果。普通用户需要了解它，是因为在图像生成工具中选择该采样器可显著提升出图细节与一致性，尤其在低步数（如15–30步）推理时优于传统方法。",
-    "metaphor": "就像一位经验丰富的调音师，不机械地逐个调整每个音符，而是根据乐曲整体动态和乐器特性，智能分配调音力度和时机，让整首曲子更快达到理想音准与质感。",
-    "example": "当使用ComfyUI生成一张写实风格人像时，将采样器设为 dpm_sde_karras 并配置20步，相比同参数下的Euler a，能更可靠地保留皮肤纹理与光影过渡，且避免常见于低步数的模糊或结构崩坏。"
-  },
-  "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+  "category": "扩散模型采样器",
+  "difficulty": "中等",
+  "sources": [
+    "https://arxiv.org/abs/2206.00927",
+    "https://github.com/crowsonkb/k-diffusion"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
-  "content_source": "llm_generated_v2",
-  "hit_count": 0,
-  "created_at": "2026-03-20T16:55:59Z",
-  "updated_at": "2026-03-21T05:52:45Z"
+  "scenario_tags": [
+    "AI 图像生成",
+    "Stable Diffusion",
+    "采样算法"
+  ],
+  "quality_level": "llm_generated_v2",
+  "created_at": "2026-03-22T15:44:38Z",
+  "updated_at": "2026-03-23T12:05:12.458035Z",
+  "explanations": {
+    "plain": "DPM-SDE-Karras 是一种用于扩散模型的高级采样器。它结合了 DPM-Solver 的快速收敛特性、SDE 的随机性以增加细节多样性，以及 Karras 噪声调度提升生成质量。常用于 Stable Diffusion 等 AI 绘画，少步数下生成高质量图像，平衡速度与效果，是主流推荐采样器之一。"
+  },
+  "quality_score": 1.0,
+  "review_status": "auto_verified"
 }

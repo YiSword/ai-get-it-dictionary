@@ -5,22 +5,27 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "constrained_decoding（约束解码）是一种在大语言模型生成文本时，通过预设规则或结构限制输出内容的技术。它确保模型只生成符合特定格式（如JSON、SQL、枚举值）、语法（如括号匹配）、语义（如仅允许正面/负面情感词）或业务逻辑（如合法商品类别）的文本。普通用户需要了解它，因为这直接影响AI回复的可靠性与实用性——例如在客服机器人中避免胡编乱造，在编程辅助中防止生成无效代码，从而提升人机协作的安全性与效率。",
+    "plain": "约束解码是在大模型生成文本时，通过预设规则或结构限制输出内容的技术。它确保模型只生成符合特定格式（如 JSON、SQL）、语法或业务逻辑的文本。该技术直接影响 AI 回复的可靠性，例如在客服中避免幻觉，在编程中防止无效代码，从而提升人机协作的安全性与效率。",
     "metaphor": "就像给厨师一份必须严格遵守的食谱和可用食材清单，约束解码不让模型天马行空发挥，而是让它在划定的厨房里精准完成指定菜品。",
     "example": "在医疗问诊助手应用中，模型被要求仅从['高血压', '糖尿病', '哮喘', '无']四个选项中生成诊断结论，约束解码可强制其输出且仅输出其中之一，杜绝自由发挥导致的误诊风险。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "文本生成",
+    "推理控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/main_classes/logits_processor",
+    "https://github.com/outlines-dev/outlines",
+    "https://arxiv.org/abs/2307.09702"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:50:17Z"
+  "updated_at": "2026-03-23T14:27:14.586871Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "内存管理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "arena_hard 是一种内存分配策略，常见于高性能系统（如 Rust 的 alloc 库或某些游戏引擎）中，指在预分配的大块连续内存（即 'arena'）上进行快速、无回收的分配；'hard' 表示该 arena 生命周期严格绑定于显式作用域（如函数调用或对象生命周期），一旦退出即整体释放，不支持单个对象的独立析构或回收。普通用户需要了解它，是因为误用可能导致悬垂指针、内存泄漏或提前释放——尤其在需精细控制资源生命周期的系统编程或实时应用中。",
+    "plain": "arena_hard 是一种内存分配策略，常见于高性能系统。它在预分配的大块连续内存上进行快速分配。'hard'表示生命周期严格绑定于显式作用域，退出即整体释放，不支持单个对象独立析构。误用可能导致悬垂指针或内存泄漏，适用于需精细控制资源生命周期的系统编程或实时应用。",
     "metaphor": "就像租下一整层楼用于一场限时活动：所有房间（内存块）一次性划好，活动期间可随意开门入住（分配），但活动结束时整层楼立即清空，无法单独保留某个房间。",
     "example": "在 Rust 中使用 bumpalo::Bump 创建 arena_hard：let bump = Bump::new(); let x = bump.alloc(42); 之后只要 bump 被 drop，x 所占内存连同整个 arena 一并释放，且 x 不能被 move 出该 arena 的作用域。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "系统编程",
+    "内存管理",
+    "性能优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://doc.rust-lang.org/alloc/arena/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:41:17Z"
+  "updated_at": "2026-03-23T15:58:44.045010Z",
+  "quality_score": 0.95
 }

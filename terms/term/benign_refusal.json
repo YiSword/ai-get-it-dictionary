@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "benign_refusal（善意拒绝）指AI系统在无法安全、准确或合乎伦理地响应用户请求时，主动选择不提供答案，而是以礼貌、透明且有建设性的方式说明原因并可能建议替代方案。它不是因技术故障而失败，而是经过审慎判断后的负责任行为。普通用户需要理解这一点，以免误将合理拒绝当作系统缺陷或故意搪塞，从而建立对AI边界与可信度的正确认知。",
+    "plain": "benign_refusal（善意拒绝）指 AI 系统在涉及安全、伦理或无法准确响应时，主动拒绝请求并礼貌说明原因。这并非技术故障，而是负责任的安全策略。旨在帮助用户理解 AI 边界，避免误认为系统缺陷，同时可能提供替代方案以维持建设性交互。",
     "metaphor": "就像一位经验丰富的 pharmacist 拒绝向顾客出售过量止痛药，不是不愿帮忙，而是出于专业责任保护对方健康。",
     "example": "当用户要求生成伪造身份证件的模板时，AI明确回应：‘我不能协助创建虚假身份信息，这违反法律和安全政策；但如果您需要了解如何合法申请身份证，我很乐意提供官方流程指引。’"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 安全",
+    "人机交互"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/safety",
+    "https://www.anthropic.com/news/constitutional-ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:03:55Z"
+  "updated_at": "2026-03-23T13:38:08.488505Z",
+  "quality_score": 0.95
 }

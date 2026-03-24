@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "retrieval（检索）是指从大量信息中快速、准确地找到所需内容的过程。它广泛应用于搜索引擎、数据库查询、文档管理、AI问答系统等场景。普通用户每天都在使用检索功能——比如在微信里搜索聊天记录、在淘宝搜索商品、或用手机相册查找某张照片。理解检索有助于用户更高效地获取信息，例如通过选择更精准的关键词或利用高级筛选条件，避免被海量无关结果淹没。",
+    "plain": "retrieval（检索）指从大规模数据中快速定位所需信息的过程。它是搜索引擎、数据库及 AI 系统（如 RAG）的核心技术。日常搜索聊天记录、商品均属此类。高效检索依赖精准关键词与算法匹配，旨在减少无关结果，提升信息获取效率。在 AI 领域，检索增强生成是关键应用场景。",
     "metaphor": "就像在图书馆里，不是逐本翻阅所有书，而是先查索引卡片或用电子目录快速定位到目标书籍的位置。",
     "example": "当你在知乎输入‘如何训练一只猫不用沙发磨爪’并立刻看到相关回答和经验帖时，背后就是检索系统在毫秒内从数亿条内容中匹配并排序出最相关的结果。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "搜索引擎",
+    "人工智能",
+    "数据库"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Information_retrieval",
+    "https://www.ibm.com/topics/information-retrieval"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:33:18Z"
+  "updated_at": "2026-03-23T17:58:47.408614Z",
+  "quality_score": 0.95
 }

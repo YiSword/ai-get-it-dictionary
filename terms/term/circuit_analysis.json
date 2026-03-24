@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "电子工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "电路分析（circuit_analysis）是指运用物理定律（如欧姆定律、基尔霍夫定律）和数学工具，对电子电路中的电压、电流、功率等参数进行定量计算与行为预测的过程。它帮助工程师理解电路是否按设计工作，识别潜在故障，并优化性能。普通用户虽不直接计算，但若涉及智能设备维修、DIY电子项目或理解家用电器安全原理（如为什么插座过载会跳闸），基础的电路分析概念能提升问题判断力和安全意识。",
+    "plain": "电路分析运用欧姆定律、基尔霍夫定律等物理定律及数学工具，对电路电压、电流、功率等参数进行定量计算与行为预测。它协助工程师验证设计、识别故障并优化性能。普通用户理解基础概念有助于智能设备维修、DIY 项目及电器安全判断，提升问题处理能力。",
     "metaphor": "就像给水管系统绘制水压与流量地图——电路分析是为电流‘画出’它在导线和元件中如何流动、在哪受阻、何处发热的精确路线图。",
     "example": "当手机充电器无法给电池供电时，技术人员可能测量输入电压、输出电压及各关键节点电流，结合电路原理判断是整流二极管击穿还是稳压芯片失效。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "工程设计",
+    "故障排查",
+    "教育学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Circuit_analysis",
+    "https://www.electronics-tutorials.ws/dccircuits/dcp_1.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:29:37Z"
+  "updated_at": "2026-03-23T18:20:45.495460Z",
+  "quality_score": 0.95
 }

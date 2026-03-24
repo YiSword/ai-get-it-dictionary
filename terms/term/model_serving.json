@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "MLOps",
   "difficulty": "中级",
   "explanations": {
-    "plain": "model_serving 是指将训练好的机器学习或深度学习模型部署为可被应用程序调用的服务（如 HTTP API 或 gRPC 接口），使其能实时处理输入数据并返回预测结果。它涉及模型加载、推理优化、请求调度、监控与扩缩容等环节。普通用户虽不直接操作，但所有依赖 AI 功能的日常体验——比如手机相册自动分类照片、聊天软件的实时翻译、电商网站的商品推荐——背后都由 model_serving 支撑；理解它有助于识别 AI 应用响应快慢、准确与否及隐私合规性的技术根源。",
+    "plain": "model_serving 指将训练好的模型部署为可调用的服务（如 API），实时处理输入并返回预测。涵盖模型加载、推理优化、请求调度及监控扩缩容。虽用户不直接操作，但相册分类、实时翻译等功能均依赖此技术，直接影响 AI 应用的响应速度与稳定性。",
     "metaphor": "就像把一位精通多国语言的翻译专家请进写字楼，装上电话和预约系统，让任何部门打个电话就能立刻获得精准翻译，而无需每次重新培训这位专家。",
     "example": "一家银行使用训练好的反欺诈模型，通过 model_serving 将其部署为内部微服务；当用户发起一笔转账时，交易系统在毫秒级内调用该服务，实时判断风险并决定是否放行。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型部署",
+    "实时推理",
+    "MLOps"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.tensorflow.org/tfx/guide/serving",
+    "https://cloud.google.com/vertex-ai/docs/predictions/overview"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:47:54Z"
+  "updated_at": "2026-03-23T14:54:51.173334Z",
+  "quality_score": 0.95
 }

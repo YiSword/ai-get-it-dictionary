@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 基础设施",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Groq 是一家人工智能基础设施公司，专注于开发超高速、低延迟的AI推理芯片（如LPU，逻辑处理单元）及配套软件栈，旨在大幅提升大语言模型等AI应用的实时响应能力。普通用户需要知道它，是因为它正推动AI工具变得更快速、更便宜、更易集成——例如在聊天机器人、实时翻译或编程助手等场景中，Groq可让响应从秒级降至毫秒级，从而改善日常交互体验。",
+    "plain": "Groq 是 AI 基础设施公司，主打超高速低延迟推理芯片（LPU）及软件栈。它大幅提升大语言模型实时响应，使聊天机器人、实时翻译等场景响应从秒级降至毫秒级。用户感知为 AI 工具更快、更便宜，显著改善交互体验。",
     "metaphor": "Groq 就像为AI推理打造的‘F1赛车引擎’，专为极速、精准、连续输出而设计，而非通用计算的‘家用轿车’。",
     "example": "开发者使用 Groq 的 API 调用 Llama 3 模型时，能在不到200毫秒内完成一篇千字英文邮件的生成与润色，远快于同等配置的GPU服务器。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 推理",
+    "硬件加速",
+    "大模型应用"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://groq.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:01:57Z"
+  "updated_at": "2026-03-23T18:17:22.755002Z",
+  "quality_score": 0.95
 }

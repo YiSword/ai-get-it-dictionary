@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "训练优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "learning_rate_schedule 是指在模型训练过程中，学习率（控制参数更新步长的超参数）随训练轮次或迭代次数动态调整的策略。它不是固定值，而是按预设规则（如衰减、预热、周期性变化等）逐步变化，以提升模型收敛速度与最终性能。普通用户需要知道它，因为不当的学习率可能导致训练过慢、不收敛或陷入局部最优；合理调度能显著改善训练稳定性与泛化能力。",
+    "plain": "learning_rate_schedule 指模型训练中学习率随迭代次数动态调整的策略。它非固定值，而是按预设规则（如衰减、预热、周期性变化）变化，旨在提升收敛速度与性能。不当设置会导致训练过慢或不收敛，合理调度能改善稳定性与泛化能力，是深度学习调优的关键环节。",
     "metaphor": "就像登山者根据坡度和体力实时调整步伐大小——上陡坡时小步慢进避免滑倒，走平路时加快步伐提高效率。",
     "example": "在训练一个大型语言模型时，常采用 'warmup + cosine decay' 学习率调度：前1000步线性增大学习率至峰值，随后按余弦函数逐渐衰减至接近零。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "超参数调优",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/docs/stable/optim.html",
+    "https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/schedules"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:05:44Z"
+  "updated_at": "2026-03-23T12:51:05.613787Z",
+  "quality_score": 0.95
 }

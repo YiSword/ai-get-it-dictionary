@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "speculative_decoding（推测解码）是一种加速大语言模型推理的技术，它让一个轻量级‘草稿模型’先快速生成若干候选词元，再由主模型并行验证这些猜测是否正确；若匹配则跳过逐个生成，显著减少解码步数。普通用户需要知道它，因为它能大幅缩短AI回复等待时间、降低设备功耗，尤其在手机端或实时对话场景中提升体验，而无需牺牲输出质量。",
+    "plain": "推测解码是加速大语言模型推理的技术。它利用轻量级草稿模型快速生成候选词元，再由主模型并行验证猜测是否正确。若匹配则跳过逐个生成，显著减少解码步数。该技术能大幅缩短 AI 回复延迟、降低功耗，提升移动端或实时对话体验，且无损输出质量。",
     "metaphor": "就像厨师先快速试炒几道备选小样，主厨只尝一口就决定是否直接上菜，省去一道道重做的时间。",
     "example": "在手机端实时语音转文字+翻译应用中，系统用小型模型推测接下来5个可能的中文词，大模型同步校验并一次性确认整段，使响应延迟从800ms降至300ms。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "推理加速",
+    "大语言模型",
+    "性能优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2302.01318",
+    "https://huggingface.co/docs/transformers/main/en/perf_infer_speculative"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:40:18Z",
-  "updated_at": "2026-03-21T09:49:51Z"
+  "updated_at": "2026-03-23T14:21:16.948591Z",
+  "quality_score": 0.95
 }

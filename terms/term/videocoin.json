@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "区块链",
   "difficulty": "中级",
   "explanations": {
-    "plain": "VideoCoin 是一个基于区块链的去中心化视频基础设施协议，旨在优化视频内容的存储、转码、分发和流媒体服务。它通过代币经济激励全球闲置计算资源（如GPU、带宽、存储）参与视频处理任务，从而降低传统云视频服务的成本与中心化风险。普通用户需要了解它，是因为它可能带来更便宜、更抗审查、隐私性更强的视频平台体验，同时为内容创作者提供更公平的收益分成机制。",
+    "plain": "VideoCoin 是基于区块链的去中心化视频基础设施协议，优化视频存储、转码及分发。它通过代币激励全球闲置计算资源参与处理，降低云服务成本与中心化风险。为用户提供更便宜、抗审查的视频体验，并为创作者提供更公平的收益分成机制。",
     "metaphor": "就像把全球数百万台个人电脑变成一个自发协作的‘视频处理合作社’，而不是依赖少数几家大公司的服务器农场。",
     "example": "一个独立纪录片导演使用 VideoCoin 网络，以不到传统云服务三分之一的成本完成4K视频的自动转码与全球CDN分发，并直接通过智能合约向观看者收取微支付费用。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "区块链",
+    "去中心化",
+    "视频基础设施"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://videocoin.io"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:39:21Z",
-  "updated_at": "2026-03-21T10:18:16Z"
+  "updated_at": "2026-03-23T12:53:03.833047Z",
+  "quality_score": 1.0
 }

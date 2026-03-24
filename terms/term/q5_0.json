@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型量化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "q5_0 是一种量化格式，用于压缩大语言模型的权重参数，将原本32位浮点数（float32）近似为平均5位有效信息的整数表示，同时保留一个单独的标量（scale）和零点（zero point）来校准数值范围。它在精度与体积之间取得较好平衡：比q4_0更精确，比q6_0或f16更轻量。普通用户需要了解它，因为选择q5_0模型常意味着在消费级显卡或CPU上能以合理速度运行中等规模模型（如7B参数LLM），兼顾响应质量和资源占用。",
+    "plain": "q5_0 是 llama.cpp 中常用的模型量化格式，将权重压缩为平均 5 位整数表示。它通过保留标量和零点校准数值，在精度与体积间取得平衡。相比 q4_0 更精确，比 q6_0 更轻量。适合消费级显卡或 CPU 运行中等规模 LLM，兼顾响应质量与资源占用，是本地部署热门选择。",
     "metaphor": "就像把一本高清摄影集压缩成高质量的印刷画册——牺牲了极细微的色彩渐变，但保留了主体轮廓和关键细节，大幅减小体积且肉眼几乎无感。",
     "example": "当你在本地用Ollama运行llama3:8b模型时，系统默认下载的版本很可能就是q5_0量化版，它能在16GB内存的笔记本上流畅对话，而未量化的原版则需双倍显存且无法实时推理。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型压缩",
+    "本地部署",
+    "推理优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ggerganov/llama.cpp",
+    "https://github.com/ggerganov/llama.cpp/blob/master/docs/quantization.md"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:16:18Z",
-  "updated_at": "2026-03-21T09:21:35Z"
+  "updated_at": "2026-03-23T17:29:36.329592Z",
+  "quality_score": 0.95
 }

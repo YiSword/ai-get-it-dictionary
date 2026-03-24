@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型量化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "iq1_l 是一种量化精度格式，表示使用 1 位整数（int1）对权重或激活值进行低比特量化，通常配合特定缩放因子（scale）和零点（zero-point）实现近似浮点计算。它属于极端压缩的模型压缩技术，主要用于边缘设备上极致降低内存占用与计算功耗。普通用户需要知道它，是因为搭载该技术的 AI 应用（如手机端实时语音转写、超轻量图像滤镜）能在不依赖云端、不显著牺牲响应速度的前提下运行，但可能伴随轻微精度下降。",
+    "plain": "iq1_l 是 llama.cpp 框架下的极端低比特量化格式，使用约 1 位存储权重。它通过重要性矩阵量化技术极致压缩大语言模型体积，显著降低内存与功耗。适用于资源受限的边缘设备运行本地 LLM，但会牺牲部分精度。用户可见于手机端离线对话等场景。",
     "metaphor": "就像把一本高清画册压缩成只有黑白两色的简笔线稿——信息大幅精简，却仍能快速识别主体轮廓。",
     "example": "某智能手表的离线语音助手使用 iq1_l 量化后的唤醒词检测模型，在仅 200KB 内存占用下实现毫秒级‘Hey Watch’响应，全程无需联网。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型量化",
+    "边缘计算",
+    "大语言模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ggerganov/llama.cpp"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:21:24Z",
-  "updated_at": "2026-03-21T07:40:42Z"
+  "updated_at": "2026-03-23T14:28:12.534706Z",
+  "quality_score": 0.95
 }

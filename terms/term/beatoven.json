@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 音乐生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Beatoven 是一家专注于 AI 驱动音乐创作的科技公司，其核心产品是为内容创作者（如视频博主、播客主、游戏开发者）提供可商用、按需生成的背景音乐工具。用户通过选择情绪、节奏、时长和风格等参数，几秒内即可生成原创配乐，并自动适配视频剪辑节奏。普通用户需要了解它，是因为它大幅降低了高质量定制化音乐的获取门槛和版权风险，尤其适合缺乏音乐制作能力或预算有限的独立创作者。",
+    "plain": "Beatoven 是一款 AI 驱动的音乐创作工具，专为视频博主、播客主等内容创作者提供可商用的背景音乐生成服务。用户可通过设定情绪、节奏等参数，秒级生成原创配乐并适配视频节奏。该工具显著降低了音乐制作门槛与版权风险，是独立创作者获取高质量定制音乐的高效解决方案。",
     "metaphor": "就像一位随叫随到、永不疲倦的私人作曲家，你只需说出‘轻松、85 BPM、30秒、带点尤克里里’，他立刻为你写出并演奏一段专属配乐。",
     "example": "一位 YouTube 教育类博主在剪辑新视频时，用 Beatoven 输入‘专注、100 BPM、无歌词、钢琴为主’，生成了60秒无缝循环的背景音乐，并直接下载嵌入Final Cut Pro中，全程耗时不到20秒。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "视频创作",
+    "音乐制作",
+    "AIGC"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.beatoven.ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:44:28Z",
-  "updated_at": "2026-03-21T04:00:29Z"
+  "updated_at": "2026-03-23T13:02:45.666728Z",
+  "quality_score": 0.95
 }

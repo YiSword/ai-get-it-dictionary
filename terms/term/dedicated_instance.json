@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "dedicated_instance（专用实例）是指云服务中完全独占物理服务器或虚拟化资源的计算实例，不与其他用户共享CPU、内存、存储或网络硬件。它提供更强的性能稳定性、可预测性、安全隔离性和合规性保障，适用于对延迟敏感、需满足严格监管要求（如金融、医疗）或运行关键企业应用的场景。普通用户需要了解它，是因为在性能需求上升、数据敏感性增强或合规压力增大时，可能需从共享型实例升级至此，避免‘邻居噪声’干扰和资源争抢风险。",
+    "plain": "专用实例是云服务中独占物理服务器或虚拟化资源的计算实例，不与其他用户共享硬件。它提供更强的性能稳定性、安全隔离性和合规性保障。适用于对延迟敏感、需满足严格监管要求或运行关键企业应用的场景，避免资源争抢风险。",
     "metaphor": "就像租住一栋整栋别墅，而不是合租公寓——所有房间、水电、安保都只为你一人服务，不受隔壁住户行为影响。",
     "example": "某银行核心交易系统部署在AWS的Dedicated Instance上，确保其数据库服务器独占物理主机，满足金融行业对数据隔离与审计追踪的强制合规要求。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "资源隔离",
+    "安全合规",
+    "高性能计算"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/ec2/dedicated-hosts/",
+    "https://www.aliyun.com/product/ecs/dedicatedhost"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:20:29Z"
+  "updated_at": "2026-03-23T18:47:21.212708Z",
+  "quality_score": 0.95
 }

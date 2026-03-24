@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习平台",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Amazon SageMaker 是亚马逊云服务（AWS）提供的全托管机器学习平台，它简化了构建、训练和部署机器学习模型的整个流程。普通用户——尤其是数据科学家、开发人员和业务分析师——需要了解它，因为它大幅降低了使用机器学习的技术门槛：无需自行管理底层服务器、配置环境或编写大量基础设施代码，就能快速实验、迭代并上线AI功能。",
+    "plain": "Amazon SageMaker 是 AWS 全托管机器学习平台，涵盖数据准备、训练至部署的完整流程。它使开发者无需管理底层基础设施，即可快速构建和上线机器学习模型。该平台显著降低 AI 应用门槛，支持高效迭代，适合数据科学家与工程团队使用。",
     "metaphor": "SageMaker 就像一家配备专业厨师、智能烤箱和食材配送的‘AI烘焙工坊’——你只需专注设计蛋糕配方（模型逻辑），其余所有繁琐工作（采购、烤制、包装、上架）都由工坊自动完成。",
     "example": "一家电商公司使用 SageMaker 训练一个实时推荐模型：上传用户行为日志，用内置算法自动调参训练，再一键部署为API服务，让App首页的‘猜你喜欢’结果在几小时内更新并响应新用户行为。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "机器学习",
+    "模型部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/sagemaker/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:32:56Z",
-  "updated_at": "2026-03-21T09:36:59Z"
+  "updated_at": "2026-03-23T13:11:43.392492Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "优化算法",
   "difficulty": "中级",
   "explanations": {
-    "plain": "lion_optimizer 是一个虚构或未被广泛认可的机器学习优化算法名称，目前在主流深度学习框架（如 PyTorch、TensorFlow）及权威文献中并无此标准术语。它可能源于误传、命名混淆（如与 Lion、LION 或其他缩写相似的优化器混淆），或是个别研究项目/代码库中的自定义实现。普通用户需警惕此类非标准名称，避免在生产环境中误用未经验证的优化器，影响模型训练稳定性与可复现性。",
+    "plain": "Lion 优化器是 Google 提出的符号发现优化算法实现，旨在通过简单更新规则减少内存占用并提高训练速度。常用于大规模深度学习模型训练，如扩散模型和语言模型。相比 AdamW，Lion 在某些任务上表现更优且无需维护二阶矩。代码实现可见于官方仓库或主流框架插件中。",
     "metaphor": "就像把‘独角兽加速器’当作真实汽车配件来更换引擎——听起来很酷，但现实中并不存在，强行使用可能导致系统故障。",
     "example": "某开发者在 GitHub 上看到名为 lion_optimizer 的第三方包，未经核实便用于医疗影像分割模型训练，结果因梯度更新逻辑异常导致收敛失败，最终发现该包实为实验性玩具实现，无理论保障。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "优化器",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2302.06675",
+    "https://github.com/google-research/google-research/tree/master/lion"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:10:45Z"
+  "updated_at": "2026-03-23T11:46:36.849065Z",
+  "quality_score": 1.0
 }

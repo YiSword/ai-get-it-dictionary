@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "assessment_feedback_agent",
+  "norm_term": "assessment_feedback_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "智能教育",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Assessment Feedback Agent 是智能教育领域的 AI 代理，旨在自动化评估学习者表现并提供个性化反馈。它利用自然语言处理技术分析作业与测试数据，识别知识薄弱点，生成改进建议。该代理能提升学习效率，辅助教师减负，是实现个性化自适应学习的关键组件，广泛应用于在线教育平台与智能辅导系统中。",
+    "metaphor": "它就像一位 24 小时在线的私人导师，能瞬间批改你的作业，用红笔圈出错误，并在旁边写下‘这里可以试试另一种解法’的贴心提示。",
+    "example": "在编程课程中，学生提交代码后，系统自动检测逻辑错误与规范问题，反馈‘第 15 行循环条件可能导致死循环，建议添加终止条件’，并推荐相关学习资源。"
+  },
+  "scenario_tags": [
+    "个性化学习",
+    "自动评估",
+    "智能辅导"
+  ],
+  "sources": [
+    "https://oecd.ai/en/wonk/ai-in-education"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:21:23.245071Z",
+  "updated_at": "2026-03-23T16:35:10.472828Z",
+  "quality_score": 0.95
+}

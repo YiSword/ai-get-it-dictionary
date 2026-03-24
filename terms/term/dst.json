@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "系统设置",
   "difficulty": "中级",
   "explanations": {
-    "plain": "dst 是 'Daylight Saving Time'（夏令时）的缩写，指在夏季将时钟拨快一小时以更充分利用日光、节约能源的时间制度。全球许多国家和地区（如美国、欧盟大部分国家）每年定期启动和结束 dst。普通用户需要知道它，因为 dst 切换会导致手机、电脑等设备自动调整时间，可能影响会议安排、航班时刻、跨时区协作或定时任务执行，若设备未正确同步或手动设置错误，易引发时间混淆甚至误事。",
+    "plain": "dst 是 Daylight Saving Time（夏令时）缩写，指夏季将时钟拨快一小时以节约能源的制度。美欧等地区每年定期切换。用户需注意 dst 切换会导致设备自动调整时间，影响会议、航班及定时任务。若设备未正确同步，易引发时间混淆。",
     "metaphor": "就像给家里的闹钟每年两次‘手动拧紧发条’——春天提前一小时唤醒世界，秋天再松回原位，让白天的光被我们多用一小时。",
     "example": "2023年11月5日凌晨2点，美国东部时间从EDT（夏令时）切换回EST（标准时间），时钟向后拨一小时至1点，导致当日凌晨1:30发生的事件在系统日志中可能重复出现一次。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "系统配置",
+    "时间同步",
+    "跨时区协作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst",
+    "https://en.wikipedia.org/wiki/Daylight_saving_time"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:56:25Z"
+  "updated_at": "2026-03-23T18:09:41.654400Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 产品",
   "difficulty": "中级",
   "explanations": {
-    "plain": "le_chat 是法语中‘聊天’或‘对话’的阳性名词，字面意为‘那只猫’（le = 定冠词‘这/那’，chat = 猫），但在数字语境下常被程序员或法语区开发者用作幽默代称，指代轻量级聊天功能、原型聊天界面或测试用的‘占位猫’（如用猫图代替未加载头像）。普通用户无需掌握该词，但若在法语技术文档、开源项目注释或双语UI中见到，需注意它并非真指动物，而是带有调侃意味的占位符或功能简写。",
+    "plain": "Le Chat 是 Mistral AI 推出的官方人工智能对话平台，法语字面意为“那只猫”。该平台提供基于 Mistral 系列模型的交互界面，支持代码生成、文档分析及多轮对话。作为 Mistral 生态的核心入口，该术语常见于 AI 产品文档及技术社区，特指 Mistral 的专属聊天服务，而非通用聊天功能。",
     "metaphor": "就像办公室白板上随手画的一只猫头像，用来临时标记‘这里将来放用户头像’——le_chat 不是真的猫，而是技术团队心照不宣的‘聊天功能待办便签’。",
     "example": "某法语版聊天App的开发日志写道：‘/api/messages 的 mock 响应暂用 le_chat 替代真实会话列表，待后端联调完成即替换。’"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 助手",
+    "大模型应用",
+    "Mistral"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://mistral.ai",
+    "https://chat.mistral.ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:06:17Z"
+  "updated_at": "2026-03-23T17:09:05.489887Z",
+  "quality_score": 1.0
 }

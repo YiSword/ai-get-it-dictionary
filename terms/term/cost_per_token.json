@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "计费与成本",
   "difficulty": "中级",
   "explanations": {
-    "plain": "cost_per_token 是指大语言模型处理每个输入或输出 token 所产生的费用，通常以美元（如 $0.000002/输入 token）为单位。它直接影响使用 API 的总成本，尤其在批量处理、长文本生成或高频调用场景下尤为关键。普通用户需要了解该指标，以便预估预算、优化提示词长度、权衡模型性能与开销，并避免意外高额账单。",
+    "plain": "cost_per_token 指大模型处理每个输入或输出 token 的费用，多以美元计价。它直接决定 API 调用总成本，在批量处理或长文本生成场景下尤为关键。用户需据此预估预算、优化提示词长度，权衡性能与开销，避免意外高额账单。",
     "metaphor": "就像手机话费按秒计费一样，cost_per_token 是 AI 服务的‘字数计量器’——你读的每字、AI 写的每字，都按粒度精确收费。",
     "example": "当你用某模型 API 总结一篇 1500 字的英文报告（约 2000 tokens），其中输入 1800 tokens、输出 200 tokens，总费用即为（1800 × 输入单价）+（200 × 输出单价）。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "API 调用",
+    "成本估算",
+    "预算管理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/api/pricing/",
+    "https://www.anthropic.com/pricing"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T05:01:39Z"
+  "updated_at": "2026-03-23T15:21:02.370128Z",
+  "quality_score": 0.95
 }

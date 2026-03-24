@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "工具链",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LoRA merge（LoRA合并）是指将低秩适应（LoRA）微调得到的增量权重，永久性地叠加并整合进原始大语言模型的主权重中，生成一个独立、无需额外LoRA加载逻辑的新模型文件。这一操作使模型脱离对LoRA运行时支持的依赖，便于部署、共享或在不兼容LoRA的推理框架中直接使用。普通用户需要了解它，因为它是从实验性微调走向实际落地的关键步骤——决定模型是否轻量可分发，还是必须捆绑额外组件运行。",
+    "plain": "LoRA merge 指将 LoRA 微调产生的增量权重永久叠加至原始模型主权重，生成独立模型文件。该操作消除对 LoRA 运行时环境的依赖，便于在不支持动态加载的推理框架中部署及共享。这是模型从实验微调走向实际落地的关键步骤，决定了分发形式是否轻量独立。",
     "metaphor": "就像给一本原版图书手写大量批注后，把所有批注内容工整誊抄到原文页边并装订成全新定稿，从此不再需要对照原书和笔记两份材料。",
     "example": "开发者用LoRA微调Llama-3-8B模型适配客服对话风格，训练完成后执行lora_merge，得到一个体积略增但完全自包含的'客服版Llama-3-8B.bin'，可直接部署到仅支持标准GGUF格式的边缘设备上。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型部署",
+    "权重融合",
+    "微调技术"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/peft",
+    "https://github.com/huggingface/peft"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:20:08Z"
+  "updated_at": "2026-03-23T10:28:30.326388Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "文生图模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "stable_diffusion_2_0 是 Stability AI 于 2022 年发布的文本到图像生成模型的第二个主要版本，相比 1.x 版本，它采用全新的文本编码器（OpenCLIP）和更高分辨率的训练（768×768），能生成更精细、构图更合理的图像，但对提示词理解更严格、默认不支持中文且生成风格偏写实。普通用户需要知道它，因为其开源特性、较低的硬件门槛（可在消费级显卡运行）使其成为个人创作者、设计师快速实现视觉构思的重要工具，但也需注意其版权模糊性与内容安全限制。",
+    "plain": "Stable Diffusion 2.0 是 Stability AI 于 2022 年发布的文生图模型。采用 OpenCLIP 编码器及 768×768 高分辨率训练，图像更精细。作为开源模型，支持消费级显卡运行，降低创作门槛。但对提示词理解更严格，默认不支持中文且风格偏写实，需注意版权与安全限制。",
     "metaphor": "就像一位刚完成深造的画家——掌握了更扎实的解剖学和透视知识，画得更准了，但不再随意听从‘随便画点好看的东西’这种模糊指令，而要求你给出明确的构图、光影和风格关键词。",
     "example": "一位独立游戏开发者用 stable_diffusion_2_0 输入提示词‘pixel art, top-down view, cozy fantasy tavern, warm lighting, 8-bit style’，在几分钟内生成多张高质量场景草图，用于快速迭代UI界面原型。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像生成",
+    "开源模型",
+    "AIGC"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/Stability-AI/stablediffusion",
+    "https://stability.ai/blog/stable-diffusion-2-0-release"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:32:50Z",
-  "updated_at": "2026-03-21T09:52:36Z"
+  "updated_at": "2026-03-23T18:50:31.530248Z",
+  "quality_score": 0.95
 }

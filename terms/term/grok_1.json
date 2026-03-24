@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "日志处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "grok_1 是 Logstash 中用于解析非结构化日志文本的内置模式别名，专为匹配常见日志格式（如 Apache、Nginx 访问日志）设计。它封装了一组预定义的正则表达式和字段映射规则，使用户无需手动编写复杂正则即可提取 IP、时间、HTTP 方法、状态码等关键字段。普通用户需要了解它，是因为在搭建日志分析管道时，使用 grok_1 能显著降低日志解析门槛，提升配置效率与准确性，避免因正则错误导致数据丢失或误解析。",
+    "plain": "grok_1 通常指代 Logstash 的 grok 过滤器，用于解析非结构化日志。它封装了预定义正则模式（如 Apache、Nginx 格式），无需手动编写复杂表达式即可提取 IP、时间、状态码等字段。使用该机制能显著降低日志解析门槛，提升配置效率与准确性，是搭建日志分析管道的关键组件。",
     "metaphor": "就像给杂乱的手写笔记配上标准速记符号模板——你不用从头学速记，只需套用模板，就能自动把潦草字迹转成清晰条目。",
     "example": "当处理 Nginx 访问日志 '192.168.1.100 - - [10/Jan/2024:08:30:45 +0000] \"GET /api/users HTTP/1.1\" 200 1243' 时，Logstash 配置中使用 grok { match => { \"message\" => \"%{GROK_1}\" } } 即可一键提取 clientip、timestamp、verb、request、response 等字段。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "日志分析",
+    "数据解析",
+    "ELK 栈"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:00:52Z"
+  "updated_at": "2026-03-23T17:51:02.804989Z",
+  "quality_score": 0.9
 }

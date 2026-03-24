@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "multimodal_realtime_agent",
+  "norm_term": "multimodal_realtime_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "智能体技术",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "多模态实时代理是一种能同步处理文本、语音、图像等多种输入并即时响应的智能系统。它整合跨模态数据流实现理解与决策，解决传统系统信息割裂与延迟问题。该技术是智能客服、实时翻译及人机交互场景的核心，显著提升交互效率与体验。",
+    "metaphor": "如同具备眼耳口脑的真人助手，能边听语音边看图片，瞬间理解需求并给出综合回应",
+    "example": "视频客服场景中，用户同时发送语音提问和产品照片，代理实时分析语音内容并识别图像特征，3 秒内生成包含文字解答和标注图的回复"
+  },
+  "scenario_tags": [
+    "人机交互",
+    "智能客服",
+    "实时翻译"
+  ],
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/multimodal-live"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:35:56.329043Z",
+  "updated_at": "2026-03-23T15:02:37.731308Z",
+  "quality_score": 0.95
+}

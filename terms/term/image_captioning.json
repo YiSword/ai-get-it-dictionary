@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "image_captioning（图像描述生成）是一种人工智能技术，它能自动为一张图片生成准确、自然的语言描述，比如‘一只橘猫蜷缩在窗台上晒太阳’。这项技术融合了计算机视觉和自然语言处理，让机器‘看懂’图像并‘说出’所见内容。普通用户需要了解它，因为它是手机相册智能搜索、无障碍图像阅读（如为视障人士朗读图片）、社交媒体自动标注等功能背后的核心能力，正悄然融入日常数字生活。",
+    "plain": "image_captioning（图像描述生成）是融合计算机视觉与自然语言处理的技术，能自动为图片生成准确自然的语言描述。它使机器能“看懂”并“说出”图像内容，核心应用于手机相册智能搜索、视障人士无障碍阅读及社交媒体自动标注，是多模态交互的关键能力。",
     "metaphor": "就像一位细心的摄影师朋友，不仅拍下照片，还会立刻用几句话为你生动讲述画面里正在发生什么。",
     "example": "当你在手机相册中搜索‘海滩上的狗’，系统通过image_captioning技术识别出某张照片实际包含‘一只金毛犬在沙滩上追逐浪花’，从而精准返回该图。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "无障碍辅助",
+    "智能搜索",
+    "多模态交互"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/tasks/image-captioning",
+    "https://paperswithcode.com/task/image-captioning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:24:28Z"
+  "updated_at": "2026-03-23T13:31:14.845024Z",
+  "quality_score": 0.95
 }

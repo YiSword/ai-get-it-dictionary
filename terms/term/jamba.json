@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Jamba 是由 AI21 Labs 开发的一款混合架构大语言模型，结合了 Transformer 的稠密层与 Mixture-of-Experts（MoE）稀疏激活机制，在保持高性能的同时显著降低推理成本。它支持长上下文（最长 256K tokens），并针对多步推理、代码生成和复杂指令遵循进行了优化。普通用户需要了解 Jamba，因为它代表了新一代高效、可扩展的 AI 模型方向——意味着未来应用可能更快速、更便宜、更少依赖顶级硬件，从而让智能助手、内容创作工具等更普惠、更实时。",
+    "plain": "Jamba 是 AI21 Labs 推出的混合架构大语言模型，结合 Transformer 与 MoE 机制，显著降低推理成本。支持 256K 长上下文，优化了代码生成与复杂指令遵循。作为新一代高效模型，它推动 AI 应用更快速、普惠且实时，减少了对顶级硬件的依赖。",
     "metaphor": "就像一家智能快递分拣中心：大部分包裹（token）由少数高效专线（活跃专家）快速处理，而非让所有员工（全部参数）同时开工，既提速又省电。",
     "example": "某开发者使用 Jamba 构建实时法律合同分析工具，输入长达 20 万字的跨国协议文本，模型在 3 秒内完成条款风险识别与跨条款逻辑一致性校验，且部署成本仅为同等性能稠密模型的 40%。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型架构",
+    "生成式 AI"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ai21.com/blog/jamba"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:44:21Z"
+  "updated_at": "2026-03-23T11:28:56.098033Z",
+  "quality_score": 1.0
 }

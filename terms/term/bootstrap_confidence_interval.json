@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "统计学",
   "difficulty": "中级",
   "explanations": {
-    "plain": "bootstrap_confidence_interval（自助法置信区间）是一种通过重复重采样原始数据来估计统计量不确定性的方法。它不依赖于数据服从特定分布（如正态分布）的假设，特别适用于小样本或分布未知的情况。普通用户需要了解它，是因为它让非专业人员也能在缺乏传统统计前提时，合理判断估算结果的可靠性，比如评估调查均值、模型性能指标的可信范围。",
+    "plain": "自助法置信区间是一种通过重复重采样原始数据来估计统计量不确定性的非参数方法。它不依赖数据分布假设，适用于小样本或分布未知场景。用户可用它评估调查均值或模型性能指标的可信范围，从而在缺乏传统统计前提时判断结果可靠性。",
     "metaphor": "就像反复从一碗混合豆子中随机抓一把又放回，多次观察每次抓取的红豆比例，从而推断整碗中红豆真实占比的可能范围。",
     "example": "研究人员用20名患者的血压数据估计平均降压效果，因样本小且分布偏斜，采用自助法生成1000次重采样，计算出平均值的95%置信区间为[8.2, 12.7] mmHg。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "统计推断",
+    "模型评估",
+    "数据分析"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Bootstrapping_(statistics)",
+    "https://www.itl.nist.gov/div898/handbook/apr/section1/apr16.htm"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:13:13Z"
+  "updated_at": "2026-03-23T11:18:57.764631Z",
+  "quality_score": 0.95
 }

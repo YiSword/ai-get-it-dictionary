@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "电商开发",
   "difficulty": "中级",
   "explanations": {
-    "plain": "liquid_web 是 Shopify 平台使用的 Liquid 模板语言在 Web 环境中的具体应用形态，指基于 Liquid 语法构建、运行于 Shopify 前端的动态网页模板系统。它允许商家和开发者通过简洁的标签（如 {{ product.title }}）和逻辑（如 {% if product.available %}）安全地渲染商品、博客、页面等数据，而无需直接操作 HTML 或 JavaScript。普通用户（尤其是电商运营者）需要了解它，因为它是定制 Shopify 店铺外观、功能和内容展示的核心工具，直接影响客户体验与转化效果。",
+    "plain": "liquid_web 指 Shopify 平台中基于 Liquid 语法构建的前端模板系统。开发者通过特定标签和逻辑安全渲染商品、页面等数据，无需直接操作底层代码。它是定制店铺外观与功能的核心工具，直接影响客户体验与转化效果，适用于电商运营者及开发者进行主题定制与内容管理。",
     "metaphor": "Liquid_web 就像一套智能乐高说明书——它不自己造积木（不生成原始数据），但能精准告诉每块积木（HTML 元素）何时出现、显示什么内容、按什么规则排列。",
     "example": "当一家 Shopify 商店想在首页轮播图下方自动显示最新上架的三款低价商品时，开发者会在 liquid_web 模板中插入一段 Liquid 代码，调用产品集合、按价格排序并限制数量，最终生成响应式 HTML 输出。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "电商开发",
+    "模板引擎",
+    "前端技术"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://shopify.dev/docs/themes/liquid",
+    "https://github.com/Shopify/liquid"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:49:27Z",
-  "updated_at": "2026-03-21T08:11:01Z"
+  "updated_at": "2026-03-23T13:47:17.968355Z",
+  "quality_score": 1.0
 }

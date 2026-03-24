@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "法律科技",
   "difficulty": "中级",
   "explanations": {
-    "plain": "contract_review_ai 是指利用人工智能技术自动分析、解读和评估法律合同的系统或工具。它能识别关键条款（如付款条件、违约责任、保密义务）、标记潜在风险、比对标准模板，并生成通俗摘要。普通用户需要了解它，因为传统合同审阅依赖律师，成本高、耗时长；而该技术可降低中小企业和个人在租房、雇佣、合作等场景中的法律门槛，提升效率与风险防范能力。",
+    "plain": "contract_review_ai 是利用人工智能自动分析、评估法律合同的工具。它能识别关键条款、标记风险、比对模板并生成摘要。相比传统律师审阅，该技术能显著降低法律门槛与成本，提升处理效率与风险防范能力，广泛适用于中小企业及个人的租房、雇佣等场景。",
     "metaphor": "就像一位精通法律的速读专家，能在几秒内扫完几十页合同，圈出陷阱、标出重点，并用大白话告诉你‘这里可能吃亏，那里要留意’。",
     "example": "一家初创公司收到投资方发来的增资协议，上传至 contract_review_ai 后，系统30秒内指出‘反稀释条款过于严苛’‘董事会席位分配未明确’，并附修改建议和风险等级提示。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "法律科技",
+    "合同管理",
+    "人工智能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.lawgeex.com/",
+    "https://www.kirasystems.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:55:25Z"
+  "updated_at": "2026-03-23T17:26:48.579462Z",
+  "quality_score": 0.95
 }

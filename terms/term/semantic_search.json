@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "信息检索",
   "difficulty": "中级",
   "explanations": {
-    "plain": "语义搜索（semantic_search）是一种信息检索技术，它不再依赖关键词的字面匹配，而是理解用户查询和文档内容的真实含义，从而返回更相关的结果。例如，搜索‘苹果公司最新产品’能准确返回iPhone或Mac的信息，而非关于水果的网页。普通用户需要了解它，因为日常使用的搜索引擎、智能助手和企业知识库正越来越多地采用该技术，显著提升了查找信息的准确性和效率，尤其在表达模糊、存在同义词或多义词时优势明显。",
+    "plain": "语义搜索是一种信息检索技术，不依赖关键词字面匹配，而是理解查询与文档的真实含义。它利用向量表示捕捉语义相似性，解决同义词和多义词问题。例如搜索“苹果公司”不会返回水果结果。广泛应用于搜索引擎、智能助手及企业知识库，显著提升模糊查询下的准确率与效率。",
     "metaphor": "就像一位懂你说话习惯的老朋友——你问‘怎么修漏水的水龙头？’，他不会只找含‘修’和‘水龙头’的文章，而是立刻想到工具、视频教程甚至品牌型号的适配建议。",
     "example": "某企业员工在内部知识库中输入‘项目延期后如何安抚客户？’，语义搜索自动匹配到过往类似情境的沟通话术、合规指南和成功案例，而非仅检索包含这些关键词的孤立文档。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "搜索引擎",
+    "企业知识库",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Semantic_search",
+    "https://cloud.google.com/semantic-search"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T09:42:58Z"
+  "updated_at": "2026-03-23T17:59:43.091078Z",
+  "quality_score": 0.95
 }

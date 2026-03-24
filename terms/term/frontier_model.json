@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型类型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "frontier_model 指当前人工智能领域中能力最强、最前沿的大型语言模型，通常由顶尖研究机构或科技公司发布，具备卓越的推理、多模态理解、长上下文处理等能力，但往往尚未完全开放或稳定商用。普通用户需要了解它，是因为它代表了AI能力的最新边界，影响着未来应用的形态（如智能助手、编程辅助、内容创作），也提示用户需关注其潜在风险（如幻觉、偏见、算力门槛）。",
+    "plain": "frontier_model 指当前 AI 领域能力最强、最前沿的大型模型，通常由顶尖机构发布。具备卓越推理、多模态及长上下文处理能力，代表 AI 技术最新边界。虽可能未完全开放，但深刻影响智能助手、编程等应用形态，同时也伴随幻觉与算力门槛等风险需关注。",
     "metaphor": "就像航空领域的‘X系列试验机’——不是为日常飞行设计，而是用来突破速度、高度与控制极限的尖端原型。",
     "example": "Google DeepMind 发布的 Gemini Ultra 或 OpenAI 的 GPT-4 Turbo 就属于 frontier_model，研究人员用它在复杂科学推理任务中探索AI的极限能力，而非直接部署为客服聊天机器人。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型能力",
+    "行业趋势",
+    "AI 安全"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.anthropic.com/news/frontier-models",
+    "https://www.gov.uk/government/publications/ai-safety-institute-frontier-models"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:39:54Z"
+  "updated_at": "2026-03-23T11:32:42.042567Z",
+  "quality_score": 0.95
 }

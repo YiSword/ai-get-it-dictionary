@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "分布式训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Model parallelism 是一种将大型神经网络模型拆分到多个计算设备（如GPU或TPU）上分别存储和运算的技术，用于解决单个设备显存不足、无法容纳整个模型的问题。它不同于数据并行（复制模型处理不同数据批次），而是按层、按参数或按张量维度切分模型本身。普通用户需要了解它，因为当训练或部署超大规模语言模型（如百亿参数以上）时，这是突破硬件限制、实现可行推理与训练的关键策略之一。",
+    "plain": "模型并行是将大型神经网络拆分到多个计算设备（如 GPU）上分别存储和运算的技术，旨在解决单设备显存不足问题。它按层或参数切分模型，不同于复制模型的数据并行。在训练或部署超大规模语言模型时，这是突破硬件限制、实现可行推理与训练的关键策略。",
     "metaphor": "就像把一本厚重的百科全书拆成若干分册，由多位图书管理员各自保管并协同完成查阅与更新任务。",
     "example": "在训练拥有1750亿参数的GPT-3时，研究人员将Transformer的各层分配到数十块GPU上，每块GPU只加载并计算其中一部分层的前向与反向传播。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型训练",
+    "分布式系统",
+    "性能优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/docs/stable/distributed.html",
+    "https://developer.nvidia.com/blog/scaling-large-language-model-training-with-model-parallelism/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:41:23Z",
-  "updated_at": "2026-03-21T08:47:21Z"
+  "updated_at": "2026-03-23T11:42:29.948276Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Nexcess 是一家专注于高性能托管 WordPress 和 WooCommerce 网站的技术公司，提供自动扩展、内置缓存、CDN 集成、一键环境克隆和 24/7 专家支持等服务。它面向中大型电商或内容密集型网站，尤其适合那些因流量增长或插件复杂性而遭遇速度下降、宕机或安全风险的用户。普通用户需要知道 Nexcess，是因为它将底层服务器管理、安全加固与性能优化全部封装为开箱即用的服务，让非技术人员也能稳定运行高要求网站，避免因技术短板导致业务中断。",
+    "plain": "Nexcess 是一家专注于高性能托管服务的提供商，主打 WordPress 和 WooCommerce 专属主机。提供自动扩展、内置缓存、CDN 集成及 24/7 专家支持。适合中大型电商或内容网站，将服务器管理与安全优化封装为开箱即用服务，帮助用户避免技术短板导致的业务中断，确保网站稳定高效运行。",
     "metaphor": "Nexcess 就像一位全天候驻守的资深网站管家——不仅帮你装修好房子（建站），还自动调节水电（资源伸缩）、安装防盗系统（安全防护）、并随时清扫灰尘提升空气流通（缓存与CDN）。",
     "example": "一家年销售额超500万美元的 WooCommerce 商城，在黑色星期五期间流量激增三倍，Nexcess 自动分配额外服务器资源并启用边缘缓存，使结账页面加载时间保持在0.4秒内，未发生任何宕机或支付失败。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "网站托管",
+    "云计算",
+    "电商服务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.nexcess.net/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:49:14Z",
-  "updated_at": "2026-03-21T08:54:03Z"
+  "updated_at": "2026-03-23T15:26:41.074587Z",
+  "quality_score": 0.95
 }

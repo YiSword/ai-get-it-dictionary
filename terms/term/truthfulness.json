@@ -5,22 +5,27 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Truthfulness 指的是系统（尤其是人工智能模型）在生成内容时坚持事实准确性、不编造、不误导的特性。它要求模型只陈述有依据、可验证的信息，避免‘幻觉’（即虚构细节或捏造事实）。普通用户需要关注这一点，因为依赖不真实的信息可能导致决策失误、信任受损或现实危害——例如误信错误医疗建议或虚假新闻。",
+    "plain": "Truthfulness 指人工智能模型在生成内容时保持事实准确、不编造或误导的特性。它要求模型输出有依据且可验证的信息，尽量避免幻觉现象。该指标至关重要，因为依赖虚假信息可能导致用户决策失误、信任受损甚至现实危害，例如误信错误医疗建议或虚假新闻。",
     "metaphor": "就像一位严谨的图书管理员，只从可靠书架上取书回答问题，绝不会凭空编造一页纸的内容来凑数。",
     "example": "当用户询问‘珠穆朗玛峰海拔多少米’时，truthful 的模型会准确回答‘约8848.86米’并注明数据来源（如2020年中尼联合测量），而不会虚构一个数字或声称‘它每年长高10米’这类未经证实的说法。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "生成式 AI",
+    "AI 安全",
+    "模型评估"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.google/responsibilities/",
+    "https://arxiv.org/abs/2109.07958",
+    "https://www.partnershiponai.org/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:12:17Z"
+  "updated_at": "2026-03-23T17:38:36.692853Z",
+  "quality_score": 0.95
 }

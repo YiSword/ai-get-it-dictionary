@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "content_filter_orchestration",
+  "norm_term": "content_filter_orchestration",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "framework",
+  "category": "内容安全",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "内容过滤编排是协调多个内容过滤工具或策略协同工作的安全架构模式。它解决复杂系统中统一实施内容安全策略的问题，确保关键词屏蔽、图像识别等机制高效配合。该概念直接影响在线服务的内容安全性，防止恶意信息传播并保护隐私数据，常用于大模型应用的安全网关层。",
+    "metaphor": "如同交通指挥中心协调红绿灯、摄像头和交警，内容过滤编排统一管理各类过滤工具，确保数字内容‘道路’畅通且安全。",
+    "example": "某社交平台使用内容过滤编排框架，同步调用文本敏感词检测、图片违规识别和用户上传行为分析模块，实时拦截违法信息并生成统一审计报告。"
+  },
+  "scenario_tags": [
+    "AI 安全",
+    "内容审核",
+    "系统架构"
+  ],
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/ai-services/content-safety/",
+    "https://www.guardrailsai.com/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:56:35.661234Z",
+  "updated_at": "2026-03-23T19:05:51.872667Z",
+  "quality_score": 0.95
+}

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理策略",
   "difficulty": "中级",
   "explanations": {
-    "plain": "plan_and_solve 是一种将复杂问题拆解为可执行步骤再逐一求解的推理范式，常见于大语言模型的高级推理任务中。它先生成清晰的解决计划（如识别子任务、调用工具、设定顺序），再按计划执行计算或检索。普通用户需要了解它，因为启用该模式能显著提升模型在数学、编程、逻辑推理等需多步思考任务中的准确率和可解释性，避免‘直觉式跳跃’导致的错误。",
+    "plain": "plan_and_solve 是一种大模型推理策略，将复杂问题拆解为可执行步骤逐一求解。它先生成解决计划（如子任务、工具调用），再按计划执行。启用该模式能显著提升模型在数学、编程、逻辑推理等多步任务中的准确率和可解释性，避免直觉式跳跃错误。",
     "metaphor": "就像一位经验丰富的厨师 who first reads the recipe, lists all ingredients and tools, then follows each step in order—而不是边看边猜、随手抓取。",
     "example": "当用户提问‘2023年全球智能手机出货量前三位厂商的总出货量是多少？’时，模型先计划：1）查IDC/Counterpoint 2023年报告；2）提取前三名厂商及对应数值；3）相加；再依此调用搜索工具并计算结果。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "逻辑推理",
+    "任务规划",
+    "提示工程"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2305.04091"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:04:59Z",
-  "updated_at": "2026-03-21T09:10:19Z"
+  "updated_at": "2026-03-23T15:12:00.314307Z",
+  "quality_score": 1.0
 }

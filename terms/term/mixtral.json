@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Mixtral 是由 Mistral AI 开发的一种开源稀疏混合专家（MoE）架构大语言模型，其核心特点是同一层中仅激活部分专家子网络（例如8个专家中每次只调用2个），从而在保持高性能的同时显著降低推理计算开销。普通用户需要知道它，是因为它代表了当前高效AI模型的重要演进方向——既能在消费级硬件上较流畅运行，又具备接近更大稠密模型的语言理解与生成能力，影响着未来本地化、低成本AI应用的普及。",
+    "plain": "Mixtral 是 Mistral AI 开发的开源稀疏混合专家（MoE）大语言模型。其采用稀疏激活机制（如 8 专家选 2），在保持高性能的同时显著降低推理开销。该模型代表了高效 AI 演进方向，适合消费级硬件运行，具备接近更大稠密模型的能力，推动本地化、低成本 AI 应用普及。",
     "metaphor": "就像一家餐厅拥有八位特级厨师，但每道菜只由其中两位最擅长该菜系的厨师协作完成，既保证了出品质量，又避免了所有厨师同时开工造成的资源浪费。",
     "example": "开发者可在配备单张消费级显卡（如RTX 4090）的笔记本电脑上本地部署 Mixtral-8x7B，实时运行代码解释、多轮对话或文档摘要等任务，而无需依赖云端API或昂贵算力。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "开源模型",
+    "生成式 AI",
+    "推理优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://mistral.ai/news/mixtral-of-experts/",
+    "https://github.com/mistralai/mistral-src"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:43:03Z"
+  "updated_at": "2026-03-23T18:25:54.829119Z",
+  "quality_score": 0.95
 }

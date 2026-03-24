@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Graph of Thoughts（思维图）是一种新型的推理架构，它将大语言模型的推理过程建模为节点（代表中间思考步骤或假设）和边（代表逻辑、因果或推导关系）构成的有向图，而非传统链式（Chain-of-Thought）的线性序列。它支持并行探索多个推理路径、回溯错误分支、动态剪枝与融合结论，从而提升复杂问题求解的鲁棒性与可解释性。普通用户需要了解它，是因为它正推动AI从‘给出答案’转向‘展示思考全过程’，使AI决策更透明、可信，也便于人类干预与校准。",
+    "plain": "Graph of Thoughts（思维图）是一种大模型推理架构，将思考过程建模为节点和边构成的有向图，而非线性链。它支持并行探索多条路径、回溯错误分支及动态融合结论，显著提升复杂问题求解的鲁棒性与可解释性。这使 AI 决策更透明，便于人类干预，推动 AI 从单纯给出答案转向展示完整思考过程。",
     "metaphor": "就像一位侦探在白板上贴满线索卡片，并用彩色线条连接动机、证据和时间线，随时增删节点或重画关系，而不是只按固定顺序念出一份结案陈词。",
     "example": "当诊断罕见医疗症状时，AI基于Graph of Thoughts同时展开‘感染性病因’‘自身免疫假说’‘遗传变异路径’三个子图，交叉验证实验室数据后抑制低置信度分支，最终融合剩余路径得出综合判断。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "复杂推理",
+    "可解释性",
+    "大模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2308.09687"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:58:23Z"
+  "updated_at": "2026-03-23T13:31:04.511847Z",
+  "quality_score": 0.95
 }

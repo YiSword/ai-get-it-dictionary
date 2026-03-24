@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "embedding_model（嵌入模型）是一种将文本、图像等非结构化数据转换为固定长度数值向量（即‘嵌入’）的机器学习模型。这些向量能捕捉原始数据的语义特征，使相似内容在向量空间中彼此靠近。普通用户需要了解它，因为它是当前搜索推荐、智能客服、内容生成等AI功能背后的关键技术——决定了AI能否真正‘理解’你的问题或偏好，而不仅是匹配关键词。",
+    "plain": "嵌入模型是一种机器学习模型，能将文本、图像等非结构化数据转换为固定长度的数值向量。这些向量捕捉数据的语义特征，使相似内容在向量空间中距离更近。它是搜索推荐、智能客服及大模型应用的关键技术，决定了 AI 理解用户意图的能力，而非仅靠关键词匹配。",
     "metaphor": "就像给每本书生成一个独特的‘指纹坐标’，让主题相近的书在图书馆地图上自动聚拢，即使它们的标题完全不同。",
     "example": "当你在笔记App中输入‘如何缓解焦虑’，嵌入模型会把这句话转成向量，并快速匹配到你过去记录的‘深呼吸练习’‘正念冥想时间’等语义相关但字面不同的笔记条目。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语义搜索",
+    "推荐系统",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/tasks/embeddings",
+    "https://www.tensorflow.org/tutorials/text/word_embeddings"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:05:41Z"
+  "updated_at": "2026-03-23T16:29:46.003039Z",
+  "quality_score": 0.95
 }

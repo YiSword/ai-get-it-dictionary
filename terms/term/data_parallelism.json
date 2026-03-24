@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "分布式训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Data parallelism 是一种分布式计算策略，指将大规模数据集切分成多个子集，同时在多个计算单元（如GPU或机器）上并行执行相同的模型或算法，最后聚合结果。它被广泛应用于深度学习训练中，能显著缩短模型训练时间。普通用户需要了解它，是因为许多AI应用（如语音识别、图像生成）背后都依赖这种技术来加速处理海量数据；理解它有助于评估模型训练效率、硬件需求及云服务成本。",
+    "plain": "数据并行是一种分布式训练策略，将数据集切分为多个子集，在不同计算单元（如 GPU）上并行执行相同模型，最后聚合梯度更新参数。它能显著加速深度学习训练过程，广泛应用于大模型训练场景。理解该概念有助于评估训练效率与硬件资源需求。",
     "metaphor": "就像一家出版社把一本大书拆成十章，分给十位编辑同时校对，最后再合并成完整定稿。",
     "example": "在训练一个图像分类模型时，系统将10万张图片平均分配到4块GPU上，每块GPU独立计算梯度，再通过参数服务器同步更新共享的模型权重。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "分布式计算",
+    "性能优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/docs/stable/distributed.html",
+    "https://www.tensorflow.org/guide/distributed_training"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:14:19Z"
+  "updated_at": "2026-03-23T16:32:45.107539Z",
+  "quality_score": 0.95
 }

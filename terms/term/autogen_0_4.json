@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "autogen_0_4",
+  "norm_term": "autogen_0_4",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "framework",
+  "category": "多智能体框架",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "AutoGen 0.4 是微软开源的多智能体协作框架，支持构建自主交互的 AI 代理网络。该版本强化了代理间动态角色切换与上下文管理能力，通过标准化通信协议降低多模型协同开发门槛。适用于客户服务、数据分析等自动化场景，助力开发者高效构建复杂 AI 应用。",
+    "metaphor": "就像组建一支专业团队，每个 AI 代理如同具备特定技能的员工，AutoGen 框架则是他们的协作平台，确保信息准确传递、任务合理分配，最终高效完成单个个体难以处理的复杂项目。",
+    "example": "某电商公司使用 AutoGen 构建客服系统：价格查询代理、物流跟踪代理和投诉处理代理自动协作。当用户询问'订单延迟且商品损坏'时，系统自动调用物流代理核实运输状态，同时启动投诉代理生成补偿方案，全程无需人工干预。"
+  },
+  "scenario_tags": [
+    "多智能体协作",
+    "开源框架",
+    "自动化开发"
+  ],
+  "sources": [
+    "https://github.com/microsoft/autogen",
+    "https://microsoft.github.io/autogen/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:44:27.803838Z",
+  "updated_at": "2026-03-23T17:29:50.606666Z",
+  "quality_score": 0.95
+}

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "矩阵分解是一种将大型稀疏数据矩阵（如用户-物品评分表）拆解为两个或多个低维稠密矩阵的数学技术，常用于推荐系统中挖掘用户偏好和物品特征的潜在结构。它能从海量不完整交互数据中自动学习隐藏模式，从而预测用户对未接触物品的评分或兴趣。普通用户虽不直接操作该算法，但日常使用的视频平台、电商网站或音乐App的个性化推荐背后，往往依赖矩阵分解来提升推荐准确度和体验。",
+    "plain": "矩阵分解是将大型稀疏矩阵拆解为低维稠密矩阵的数学技术，核心应用于推荐系统。它能挖掘用户偏好和物品特征的潜在结构，从交互数据中学习隐藏模式，预测用户对未接触物品的评分。视频平台、电商网站的个性化推荐背后常依赖此算法提升准确度与体验。",
     "metaphor": "就像把一道复杂的菜肴还原成几样核心调料和基础食材，矩阵分解把看似杂乱的用户行为数据拆解成简洁、可解释的‘用户口味向量’和‘物品特质向量’。",
     "example": "Netflix曾用矩阵分解（如SVD）分析数百万用户对电影的评分，预测用户可能喜欢但尚未观看的影片，显著提升了推荐相关性。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "推荐系统",
+    "机器学习",
+    "数据挖掘"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Matrix_factorization_(recommender_systems)",
+    "https://scikit-learn.org/stable/modules/decomposition.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:28:16Z"
+  "updated_at": "2026-03-23T17:22:41.513029Z",
+  "quality_score": 0.95
 }

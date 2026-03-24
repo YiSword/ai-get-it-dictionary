@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "安全合规",
   "difficulty": "中级",
   "explanations": {
-    "plain": "audit_trail（审计跟踪）是指系统自动记录的、按时间顺序排列的一系列事件日志，详细说明谁在何时执行了何种操作（如登录、修改文件、删除数据等）。它用于追溯行为源头、验证合规性、排查故障或调查安全事件。普通用户需要了解它，因为当账户异常登录、数据莫名更改或发生纠纷时，审计跟踪是还原事实的关键证据，也提醒用户自身操作可能被留痕，需谨慎授权和操作。",
+    "plain": "审计跟踪是系统自动记录的按时间排序的事件日志，详细记载谁在何时执行了何种操作。它用于追溯行为源头、验证合规性及调查安全事件。当发生数据异常或纠纷时，审计跟踪是还原事实的关键证据，同时提醒用户操作留痕，需谨慎授权。",
     "metaphor": "就像银行柜台的监控录像加业务流水单——既拍下谁在什么时间做了什么动作，又逐笔登记每笔交易的细节。",
     "example": "某公司财务系统中，员工调整一笔付款金额后，系统自动生成审计跟踪条目：'2024-04-15T09:23:17，用户ID: zhangsan，操作: 修改应付账款单#INV-8821，原金额￥52,000，新金额￥52,500，操作前/后哈希值已存档。'"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "网络安全",
+    "数据合规",
+    "系统运维"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://csrc.nist.gov/glossary/term/audit_trail",
+    "https://learn.microsoft.com/en-us/azure/security/fundamentals/audit-trail"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:48:32Z"
+  "updated_at": "2026-03-23T14:24:12.871329Z",
+  "quality_score": 0.95
 }

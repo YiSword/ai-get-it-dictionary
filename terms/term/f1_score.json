@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评估指标",
   "difficulty": "中级",
   "explanations": {
-    "plain": "F1分数是衡量分类模型性能的综合指标，它通过调和平均的方式平衡精确率（预测为正类中实际为正的比例）和召回率（实际正类中被正确识别的比例）。当数据类别不平衡（如欺诈检测中欺诈样本极少）时，单纯看准确率会误导判断，而F1分数能更真实反映模型对关键少数类的识别能力。普通用户——尤其是业务方、产品经理或非技术决策者——需要理解它，因为它是评估AI系统是否真正‘有用’而非‘看起来好’的关键标尺。",
+    "plain": "F1 分数是分类模型的核心评估指标，即精确率与召回率的调和平均数。相较于准确率，它在数据类别不平衡时（如欺诈检测）更能真实反映模型对少数类的识别能力。该指标帮助业务方判断 AI 系统是否真正有效，避免被表面准确率误导，是衡量模型实用性的关键标尺。",
     "metaphor": "就像评价一名保安的履职效果：不能只看他拦住了多少可疑人员（精确率），也不能只看他发现了多少真实小偷（召回率），F1分数相当于综合考核他既不放过坏人、又不冤枉好人的真实能力。",
     "example": "在医疗诊断AI中，模型需从数千张肺部CT图像中识别早期肺癌结节；因恶性结节占比极低，使用F1分数评估比准确率更能体现模型对真正病灶的敏感性与可靠性。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "分类模型",
+    "模型评估",
+    "不平衡数据"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html",
+    "https://en.wikipedia.org/wiki/F-score"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:20:29Z"
+  "updated_at": "2026-03-23T13:17:17.551550Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "搜索与匹配",
   "difficulty": "中级",
   "explanations": {
-    "plain": "exact_match 是一种匹配策略，要求查询内容与目标数据在字符、大小写、空格、标点等所有细节上完全一致，不允许任何模糊、近似或自动修正。普通用户需要知道它，是因为在搜索文件名、编程调试、数据库查询或配置管理时，若误用模糊匹配可能导致漏查关键项（如 'User' 和 'user' 被视为不同），从而引发权限错误、配置失效或数据遗漏。",
+    "plain": "exact_match 是一种严格匹配策略，要求查询内容与目标数据在字符、大小写、空格及标点等所有细节上完全一致，不允许模糊或近似。常用于搜索、数据库查询及 NLP 评估。误用模糊匹配可能导致漏查关键项或评估偏差。理解它有助于确保数据检索与结果验证的精确性，避免因细微差异导致的系统错误或指标失真。",
     "metaphor": "就像用一把特制钥匙开锁——只有齿形完全吻合的钥匙才能转动，哪怕少一个凹槽或错一位，都打不开。",
     "example": "在 Linux 命令行中执行 grep -x 'error' logfile.txt 时，只会匹配整行恰好等于 'error' 的行，而不会匹配包含 'error:' 或 'An error occurred' 的行。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据检索",
+    "自然语言处理",
+    "软件开发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/spaces/evaluate-metric/exact_match"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:16:04Z"
+  "updated_at": "2026-03-23T17:15:43.283336Z",
+  "quality_score": 0.95
 }

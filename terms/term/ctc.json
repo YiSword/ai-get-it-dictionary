@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CTC（Connectionist Temporal Classification）是一种用于序列建模的机器学习损失函数，专为输入与输出长度不一致且对齐未知的任务设计，如语音识别或手写文字识别。它允许模型直接从带噪、变长的输入（如音频帧）中学习生成正确标签序列（如文字），无需预先标注每一帧对应的字符。普通用户虽不直接接触CTC，但其支撑着日常使用的语音助手、实时字幕等应用的准确性与鲁棒性，是让AI‘听懂’模糊、连读、语速变化语音的关键技术之一。",
+    "plain": "CTC（Connectionist Temporal Classification）是一种深度学习损失函数，专用于输入输出长度不一致且对齐未知的序列建模。它无需预先标注每帧对应字符，直接从变长输入中学习标签序列。广泛应用于语音识别、手写识别等场景，是语音助手和实时字幕的关键技术，能有效处理模糊、连读及语速变化的语音输入。",
     "metaphor": "就像一位速记员在听一场语速快慢不一、偶尔含糊的演讲时，不必逐字对应每句话的起止时间，却能准确整理出完整的发言稿。",
     "example": "在语音输入法中，用户说‘今天天气真好’，CTC帮助模型将连续的声波帧序列映射为正确汉字序列，即使发音连读或停顿不规律，也能避免插入空格或重复字。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语音识别",
+    "序列建模",
+    "损失函数"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.cs.toronto.edu/~graves/icml_2006.pdf"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:07:03Z"
+  "updated_at": "2026-03-23T13:45:43.649792Z",
+  "quality_score": 0.95
 }

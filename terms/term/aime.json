@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "教育",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AIME（American Invitational Mathematics Examination）是美国数学竞赛体系中的关键进阶考试，面向在AMC10/12中成绩优异的学生。它由MAA主办，共15道填空题，答案为0–999之间的整数，考试时长3小时。题目难度显著高于AMC，强调深度推理与创造性解题能力。普通学生需要了解AIME，不仅因为它通往USAMO和国际数学奥林匹克（IMO）的必经之路，更因其成绩被顶尖理工院校（如MIT、Caltech）视为数学天赋的重要佐证。",
+    "plain": "AIME（美国数学邀请赛）是 MAA 主办的数学竞赛，面向 AMC10/12 优异者。考试 3 小时，15 道填空题，答案 0-999。难度高于 AMC，强调深度推理。成绩是通往 USAMO 及 IMO 的必经之路，也被 MIT 等顶尖院校视为数学天赋佐证，是留学申请的重要加分项。",
     "metaphor": "AIME就像一场数学领域的‘专业资格面试’——它不考广度，而检验你能否在高压下用扎实基础和灵活思维解决从未见过的难题。",
-    "example": "一名高二学生在AMC12中获得前2.5%的成绩，受邀参加AIME；她在考试中成功解出第12题——一道涉及复数根与多项式对称性的组合问题，最终得分8分，由此获得MIT早期申请中数学能力的有力支撑。"
+    "example": "一名高二学生在AMC12中获得前2.5%的成绩，受邀参加AIME；她在考试中成功解出第12题——一道涉及复数根与多项式对称性的组合问题，最终得分8分，由此获得MIT早期申请中数学能力的有力证明。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数学竞赛",
+    "留学申请",
+    "背景提升"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.maa.org/math-competitions/aime"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:27:30Z"
+  "updated_at": "2026-03-23T16:46:19.754944Z",
+  "quality_score": 0.95
 }

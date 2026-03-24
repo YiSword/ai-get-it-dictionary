@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 智能体",
   "difficulty": "中级",
   "explanations": {
-    "plain": "data_analysis_agent 是一种具备自动化数据处理与分析能力的智能软件代理，它能理解用户自然语言指令，自主完成数据清洗、统计计算、可视化生成和洞察提炼等任务。普通用户需要了解它，是因为它降低了数据分析门槛——无需编程或统计学背景，也能快速从表格、数据库或API中获取可操作的业务洞见，提升日常决策效率。",
+    "plain": "data_analysis_agent 是一种具备自动化数据处理与分析能力的 AI 智能体。它能理解自然语言指令，自主完成数据清洗、统计计算、可视化及洞察提炼。该术语降低了数据分析门槛，使用户无需编程背景即可从数据库或 API 获取业务洞见，显著提升决策效率，是商业智能与自动化结合的典型应用。",
     "metaphor": "就像一位随叫随到的私人数据助理，既懂你的问题，又熟悉Excel、SQL和图表工具，还能自己翻查资料、验算数字、画出重点图，并用大白话告诉你‘接下来该做什么’。",
     "example": "市场专员在钉钉里输入‘对比上季度各渠道获客成本和转化率，标出异常值’，data_analysis_agent 自动接入CRM和广告平台数据，生成带标注的趋势图和简明结论摘要。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "人工智能",
+    "数据分析",
+    "智能自动化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://python.langchain.com/docs/modules/agents/",
+    "https://www.ibm.com/topics/ai-agents"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:11:00Z"
+  "updated_at": "2026-03-23T13:11:21.194954Z",
+  "quality_score": 0.95
 }

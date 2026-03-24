@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据管理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "metadata_filtering 是指根据数据的元数据（即描述数据本身的信息，如创建时间、作者、文件类型、标签、地理位置等）来筛选或检索目标数据的过程。它不依赖于数据内容本身的文本或语义分析，而是利用结构化、可索引的属性快速缩小结果范围。普通用户需要了解它，因为这是现代搜索、云存储、数字资产管理及内容平台（如照片库、文档系统）高效定位信息的核心机制——例如在手机相册中按‘拍摄日期’或‘地点’筛选照片，背后就是元数据过滤在起作用。",
+    "plain": "metadata_filtering 指根据数据的元数据（如创建时间、作者、文件类型等属性）而非内容本身来筛选数据的过程。它利用结构化属性快速缩小检索范围，是现代搜索、云存储及数字资产管理系统的核心机制。例如在相册中按日期或地点筛选照片，即应用了元数据过滤技术，能显著提升信息定位效率。",
     "metaphor": "就像图书馆用书脊上的分类号、出版年份和作者姓名卡片来快速定位书籍，而不是逐本翻开阅读正文。",
     "example": "在Notion数据库中，用户设置筛选器‘状态=进行中’且‘截止日期<2024-12-31’，系统即通过任务条目的元数据字段完成即时过滤，无需解析每条任务的详细描述文本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据检索",
+    "信息管理",
+    "搜索技术"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Metadata",
+    "https://www.elastic.co/guide/en/elasticsearch/reference/current/metadata-fields.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:35:40Z",
-  "updated_at": "2026-03-21T08:36:17Z"
+  "updated_at": "2026-03-23T12:26:54.684811Z",
+  "quality_score": 0.95
 }

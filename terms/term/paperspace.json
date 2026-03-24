@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Paperspace 是一家提供云端 GPU 计算资源的平台，主要面向机器学习、深度学习和高性能计算开发者。它允许用户按需租用配备 NVIDIA GPU 的虚拟机，无需自购昂贵硬件或维护本地服务器。普通用户（尤其是 AI 初学者、研究人员和小型团队）需要知道它，因为它大幅降低了运行训练模型、渲染 3D 内容或测试算法的门槛——只需网页操作即可几秒启动一个预装 TensorFlow 或 PyTorch 的开发环境。",
+    "plain": "Paperspace 是提供云端 GPU 计算资源的平台，面向机器学习及深度学习开发者。用户可按需租用配备 NVIDIA GPU 的虚拟机，无需自购硬件。它降低了训练模型、渲染 3D 内容或测试算法的门槛，支持网页操作快速启动预装 TensorFlow 或 PyTorch 的开发环境，适合 AI 初学者及研究人员使用。",
     "metaphor": "就像租用一间已配好专业摄影灯、三脚架和修图软件的摄影棚，你不用买设备、不用布线，打开门就能开始创作。",
     "example": "一位大学生想复现一篇论文中的图像分割模型，直接在 Paperspace 上启动一台带 A100 GPU 的 Gradient 实例，加载 Jupyter Notebook 并运行训练代码，两小时后得到结果，全程无需本地显卡或配置环境。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云端训练",
+    "开发环境",
+    "GPU 计算"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.paperspace.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:32:17Z",
-  "updated_at": "2026-03-21T09:05:42Z"
+  "updated_at": "2026-03-23T12:09:35.070214Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "算法",
   "difficulty": "中级",
   "explanations": {
-    "plain": "beam search 是一种在序列生成任务中常用的近似搜索算法，用于在解空间过大而无法穷举时，高效地找到较优的输出序列。它通过维护固定数量（beam width）的候选路径，在每一步只扩展最有希望的若干分支，从而平衡搜索质量与计算开销。普通用户虽不直接操作该算法，但在使用智能输入法、机器翻译、语音识别或AI写作工具时，其背后生成连贯、合理文本的过程往往依赖 beam search，理解它有助于认识AI输出为何有时‘合理但非唯一’。",
+    "plain": "Beam Search 是序列生成任务中的近似搜索算法。它每步保留固定数量（beam width）的最优候选路径，避免穷举，平衡计算开销与生成质量。广泛用于机器翻译、文本生成及语音识别，解释了 AI 输出为何连贯但非唯一最优解。",
     "metaphor": "就像登山者在浓雾中只能同时照亮并跟踪几条最有可能通向山顶的小径，而不是盲目探索所有岔路。",
     "example": "当用英文句子 'How are you?' 翻译成中文时，beam search 可能并行评估‘你好吗？’‘你怎么样？’‘你过得如何？’等几个高分候选，最终选择最流畅自然的一个作为输出。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "机器翻译",
+    "文本生成",
+    "序列模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Beam_search",
+    "https://huggingface.co/docs/transformers/main_classes/text_generation"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:59:56Z"
+  "updated_at": "2026-03-23T14:51:41.443246Z",
+  "quality_score": 0.95
 }

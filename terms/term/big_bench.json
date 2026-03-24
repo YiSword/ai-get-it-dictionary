@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "基准测试",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Big Bench 是一个大规模、多样化的基准测试套件，用于评估语言模型在超过200项复杂任务上的泛化能力，涵盖推理、常识、数学、编程、多语言理解等多个维度。它由Google Research等机构发起，强调任务难度高、人工设计严谨、避免数据泄露，旨在超越传统基准（如GLUE）的局限性。普通用户需要了解它，是因为它代表了当前AI能力评测的前沿标准，能帮助判断模型是否真正‘理解’而非机械记忆，对选择可靠AI工具或理解技术边界具有现实参考价值。",
+    "plain": "BIG-bench 是由 Google Research 等机构发起的大规模基准测试套件，包含超过 200 项复杂任务。它涵盖推理、常识、数学、编程等多维度，旨在评估语言模型的泛化能力与真实理解力。相比传统基准，它难度更高且设计严谨，能有效避免数据泄露，是当前衡量 AI 模型能力的前沿标准，为用户选择可靠工具提供参考。",
     "metaphor": "就像一场覆盖全科目的国际奥林匹克竞赛，不仅考解题速度，更考验跨学科联想、临场推理和真实世界问题拆解能力。",
     "example": "研究人员用Big Bench中的'Logical Deduction'任务测试新发布的开源大模型，发现其在三步逻辑链推理上准确率仅42%，远低于人类专家的98%，从而定位出该模型在长程因果推理上的明显短板。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型评估",
+    "基准测试",
+    "大语言模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/google/BIG-bench"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:06:29Z"
+  "updated_at": "2026-03-23T12:46:02.147302Z",
+  "quality_score": 0.95
 }

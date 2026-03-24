@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "文生图模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Stable Diffusion XL（SDXL）是Stable Diffusion系列的最新主流版本，于2023年发布，具备更强的文本理解能力、更高分辨率图像生成质量（原生支持1024×1024）和更丰富的细节表现力。它采用双文本编码器结构（CLIP ViT-L/14 + OpenCLIP ViT-bigG/14），显著提升提示词准确性与语义对齐度。普通用户需要了解SDXL，因为它已成为当前开源文生图领域的事实标准，广泛用于AI绘画工具（如ComfyUI、Automatic1111 WebUI）、设计辅助和内容创作，直接影响生成效果的可控性与专业度。",
+    "plain": "SDXL 是 Stability AI 于 2023 年发布的文生图模型。采用双文本编码器，原生支持 1024×1024 分辨率，显著提升文本理解与细节表现力。作为开源领域事实标准，广泛用于 ComfyUI 等工具，是当前 AI 绘画的核心模型，直接影响生成效果的可控性与专业度。",
     "metaphor": "就像从一台高清数码相机升级到专业全画幅微单——SDXL不仅像素更高，连对焦精度、色彩还原和弱光表现都全面跃升。",
     "example": "一位平面设计师用SDXL输入提示词‘极简主义咖啡馆室内，自然光，浅橡木桌，陶瓷杯，柔焦摄影’，直接生成一张可商用级的1024×1024宣传图，无需后期修图即可交付客户。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文生图",
+    "AI 绘画",
+    "开源模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://stability.ai/blog/stable-diffusion-xl-1-0",
+    "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:53:26Z"
+  "updated_at": "2026-03-23T15:09:02.760827Z",
+  "quality_score": 0.95
 }

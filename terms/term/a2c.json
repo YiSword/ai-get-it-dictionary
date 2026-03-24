@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "强化学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "A2C（Advantage Actor-Critic）是一种深度强化学习算法，结合了策略梯度（Actor）和价值评估（Critic）两个组件，通过优势函数来降低策略更新的方差，提升训练稳定性与效率。它属于on-policy方法，常用于连续或离散动作空间的智能体训练。普通用户无需直接使用A2C，但若接触智能机器人控制、游戏AI开发或自动化决策系统，了解A2C有助于理解当前AI如何在复杂环境中自主学习与优化行为。",
+    "plain": "A2C（Advantage Actor-Critic）是一种同步优势演员 - 评论家深度强化学习算法。它结合策略梯度与价值评估，利用优势函数降低方差，提升训练稳定性。作为 on-policy 方法，适用于连续或离散动作空间，常用于游戏 AI、机器人控制等场景，帮助智能体在复杂环境中自主学习优化行为。",
     "metaphor": "就像一位新手司机一边听教练实时点评（Critic：‘你刚才刹车太晚’），一边根据整体驾驶表现（优势：比平均好多少）调整自己的操作习惯（Actor），而不是盲目照搬单次成功或失败的经验。",
-    "example": "在训练一个自动玩《CartPole》平衡小车的游戏AI时，A2C被用来让智能体通过反复试验，学会在杆子即将倒下时及时向左或右移动小车，且比基础策略梯度方法收敛更快、更稳定。"
+    "example": "在训练一个自动玩《CartPole》平衡小车的游戏AI时，A2C被用来让智能体通过反复试验，学会在杆子即将倾倒前精准施加左右力，最终实现长时间稳定平衡。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "强化学习",
+    "游戏 AI",
+    "机器人控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://stable-baselines3.readthedocs.io/en/master/modules/a2c.html",
+    "https://arxiv.org/abs/1602.01783"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:13:47Z"
+  "updated_at": "2026-03-23T11:13:39.751698Z",
+  "quality_score": 0.95
 }

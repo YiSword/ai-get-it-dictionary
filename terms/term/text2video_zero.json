@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "视频生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "text2video_zero 是一种无需特定视频训练数据或微调即可将文本提示直接生成视频的生成式AI技术。它通过冻结预训练的文本到图像模型（如Stable Diffusion）和视频扩散模型的权重，仅利用文本引导的隐空间优化与零样本时空注意力机制，在推理阶段实现文本到视频的转换。普通用户需要了解它，因为它代表了视频生成门槛的显著降低——无需收集数据、无需训练模型，仅靠提示词就能生成定制化短视频，为内容创作、教育演示和原型设计提供了即时、轻量的工具。",
+    "plain": "text2video_zero 是一种零样本文本生成视频技术。它无需微调或特定视频数据，直接冻结预训练文本到图像模型权重，利用时空注意力机制在推理阶段实现视频生成。该技术大幅降低创作门槛，用户仅需提示词即可制作短视频，适用于内容创作、教育演示及原型设计场景。",
     "metaphor": "就像一位熟读万卷书的画家，从未专门学过画动态场景，却能仅凭你的几句话描述，现场即兴绘制出一段连贯的动画草图。",
     "example": "设计师输入提示词‘一只橘猫慢动作跃过彩虹水坑，雨滴飞溅，背景是黄昏街道’，text2video_zero 在30秒内生成5秒高清短视频，全程无需训练或上传样本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "内容创作",
+    "教育演示",
+    "原型设计"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/Picsart-AI-Research/Text2Video-Zero"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:10:57Z",
-  "updated_at": "2026-03-21T10:04:35Z"
+  "updated_at": "2026-03-23T15:19:08.654811Z",
+  "quality_score": 1.0
 }

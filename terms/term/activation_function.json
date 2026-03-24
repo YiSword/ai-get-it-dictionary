@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "激活函数是神经网络中每个神经元用来决定是否‘触发’或‘传递信号’的数学函数。它接收神经元的加权输入和偏置之和，然后输出一个非线性变换后的值。没有激活函数，无论网络有多少层，整个模型都只能表达线性关系，无法学习复杂模式（如图像识别、自然语言理解）。普通用户虽不直接编写它，但理解其作用有助于明白AI为何能处理模糊、非线性的现实问题，而非仅做简单计算。",
+    "plain": "激活函数是神经网络中引入非线性的数学函数，决定神经元是否被激活。它接收加权输入和偏置，输出变换后的值。若无激活函数，多层网络仅能表达线性关系，无法学习图像识别等复杂模式。常见类型包括 ReLU、Sigmoid 等，是深度学习模型处理非线性问题的关键组件。",
     "metaphor": "就像电灯开关——只有当电压超过某个阈值时才亮起，激活函数决定了神经元在什么条件下‘醒过来’并参与决策。",
     "example": "在人脸识别系统中，ReLU激活函数被广泛用于隐藏层，允许网络对局部特征（如眼角弧度或鼻梁阴影）做出稀疏而有效的响应。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "神经网络",
+    "深度学习",
+    "基础概念"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/docs/stable/nn.html#activation-functions",
+    "https://en.wikipedia.org/wiki/Activation_function"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:18:24Z"
+  "updated_at": "2026-03-23T16:34:38.770390Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "去中心化计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Golem 是一个开源的去中心化计算网络，允许用户将闲置的计算资源（如 CPU、GPU）出租给需要大量算力的任务（如 AI 训练、渲染、科学计算），从而绕过传统云服务商。它通过区块链技术实现任务分发、结果验证和支付结算，保障透明与抗审查。普通用户需要了解 golem，因为它代表了一种新型的‘共享经济’式算力获取方式——既能以更低成本获得高性能计算服务，也能将自家闲置设备变现，同时推动更开放、去中心化的互联网基础设施。",
+    "plain": "Golem 是基于区块链的去中心化计算网络，允许用户出租闲置算力（如 CPU、GPU）用于 AI 训练、渲染等任务。它通过智能合约实现任务分发、验证与支付，绕过传统云服务商。这种共享经济模式既能降低算力成本，也能让闲置设备变现，推动更开放的互联网基础设施。",
     "metaphor": "就像把全球无数台个人电脑临时拼成一台超级计算机，而你既是这台机器的租客，也可以是它的房东。",
     "example": "一位独立动画师使用 Golem 网络，在几小时内以十分之一的成本完成一部 5 分钟 4K 动画的渲染；与此同时，邻居的闲置游戏电脑正默默参与其中并赚取加密代币。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "算力共享",
+    "区块链",
+    "分布式计算"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://golem.network"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:35:50Z",
-  "updated_at": "2026-03-21T06:50:32Z"
+  "updated_at": "2026-03-23T15:28:35.900620Z",
+  "quality_score": 1.0
 }

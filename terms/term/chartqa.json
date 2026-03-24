@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "视觉问答",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ChartQA 是一种专门用于回答图表相关问题的视觉语言理解技术，它能同时解析图表（如柱状图、折线图、饼图）中的视觉元素和文本信息，并结合自然语言提问给出准确答案。普通用户需要了解它，是因为在数据驱动的日常场景中——比如阅读财报、分析调研报告或处理工作仪表盘——它能快速将复杂图表转化为易懂的结论，降低数据解读门槛，避免因误读图表导致的决策偏差。",
+    "plain": "ChartQA 是专注于图表问答的多模态基准任务，能解析柱状图、折线图等视觉元素与文本信息，结合自然语言提问给出答案。它适用于财报阅读、调研报告分析及工作仪表盘处理等场景，帮助用户快速将复杂图表转化为易懂结论，降低数据解读门槛，避免决策偏差。",
     "metaphor": "ChartQA 就像一位精通图形与文字的双语翻译官，一边看懂图表的‘图像语言’，一边听懂你的‘人话问题’，然后用清晰的句子告诉你图表真正想表达什么。",
     "example": "当你上传一张显示2023年各季度销售额的折线图，并提问‘哪一季度增长最快？’，ChartQA 会自动识别坐标轴、数据点和趋势变化，回答‘第二季度环比增长42%，为全年最高’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据分析",
+    "商业智能",
+    "智能问答"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2203.10244",
+    "https://github.com/google-research-datasets/ChartQA"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:25:29Z"
+  "updated_at": "2026-03-23T11:07:58.000421Z",
+  "quality_score": 0.95
 }

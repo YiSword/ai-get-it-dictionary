@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "gpt_4o_mini 是 OpenAI 推出的一款轻量级、高性价比的多模态大模型，专为快速响应、低延迟和低成本部署设计。它在文本理解与生成、图像识别、语音转录等任务上表现优异，但参数量和资源消耗远低于 GPT-4o 主模型。普通用户需要知道它，因为它可能成为日常应用（如手机端助手、实时翻译插件或嵌入式AI工具）背后的‘隐形引擎’——在不牺牲基本智能体验的前提下，让AI更省电、更便宜、更易普及。",
+    "plain": "GPT-4o-mini 是 OpenAI 发布的轻量级多模态大模型。相比 GPT-4o，它在保持智能水平的同时大幅降低了成本和延迟，适用于高频、实时场景。支持文本、图像及语音处理，是移动端应用、实时翻译及嵌入式 AI 工具的理想选择，旨在推动 AI 技术更广泛普及。",
     "metaphor": "就像智能手机里的‘节能模式’：不追求极致性能，却能在大多数时候流畅运行，续航更久、发热更低、价格更亲民。",
     "example": "你在微信中使用一款免费OCR小程序，拍照上传菜单后秒级返回中文翻译——背后很可能调用的是 gpt_4o_mini，而非更重的全尺寸模型。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态交互",
+    "成本优化",
+    "实时响应"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:23:27Z",
-  "updated_at": "2026-03-21T06:53:32Z"
+  "updated_at": "2026-03-23T18:50:26.289029Z",
+  "quality_score": 0.95
 }

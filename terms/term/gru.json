@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GRU（Gated Recurrent Unit）是一种用于处理序列数据的循环神经网络（RNN）变体，通过引入更新门和重置门来缓解传统RNN的梯度消失问题，从而更有效地捕捉长距离依赖关系。它比LSTM结构更简洁、参数更少，训练速度更快，在自然语言处理、语音识别和时间序列预测等任务中被广泛应用。普通用户虽不直接编写GRU，但使用智能输入法、语音助手或个性化推荐服务时，其背后很可能依赖GRU等模型实现对上下文的理解与响应。",
+    "plain": "GRU（Gated Recurrent Unit）是循环神经网络（RNN）的变体，专为处理序列数据设计。通过引入更新门和重置门，有效缓解梯度消失问题并捕捉长距离依赖。相比 LSTM，GRU 结构更简洁、参数更少且训练更快。广泛应用于自然语言处理、语音识别及时间序列预测等任务，是深度学习领域重要的基础模型。",
     "metaphor": "GRU就像一位善于抓重点的会议记录员：它不会逐字记下所有发言，而是根据当前话题（重置门）决定是否忽略旧信息，再按重要性（更新门）决定保留多少历史内容和加入多少新内容。",
     "example": "在手机输入法中，当你连续输入‘今天天气真’时，GRU模型会结合前面的词语序列，动态预测下一个最可能的词是‘好’或‘热’，而非孤立地只看最后一个字。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "时间序列",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1406.1078"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:03:34Z"
+  "updated_at": "2026-03-23T18:17:40.807044Z",
+  "quality_score": 0.95
 }

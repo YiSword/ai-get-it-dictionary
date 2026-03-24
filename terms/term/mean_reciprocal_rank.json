@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评估指标",
   "difficulty": "中级",
   "explanations": {
-    "plain": "mean_reciprocal_rank（MRR）是一种评估排序系统质量的指标，用于衡量正确答案在多个返回结果中平均排第几位的倒数。它对首个正确结果的位置特别敏感——如果正确答案总出现在第一位，MRR 就是 1；若常排在靠后位置，MRR 会显著下降。普通用户需要了解它，是因为它直接反映搜索、推荐或问答系统是否‘快准稳’：不是看有没有答案，而是看最靠谱的答案是否第一时间出现。",
+    "plain": "MRR 是评估排序系统质量的指标，计算查询中首个正确结果排名的倒数平均值。若正确答案常在首位，MRR 接近 1；若靠后则显著降低。它对首位结果位置敏感，广泛用于搜索、推荐及问答系统，衡量系统能否第一时间提供最相关答案，而非仅仅是否有答案。",
     "metaphor": "就像在图书馆找一本书，MRR 衡量的是你平均需要翻到第几排书架才第一次看到想要的那本——越早看到，得分越高。",
     "example": "在智能客服系统中，当用户问‘如何重置密码？’，若60%的查询将‘官方重置链接’排在首位、30%排在第二位、10%排在第四位，则MRR = (1/1 + 1/2 + 1/4)/3 ≈ 0.58。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "信息检索",
+    "模型评估",
+    "推荐系统"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mean_reciprocal_rank"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:29:45Z"
+  "updated_at": "2026-03-23T14:48:37.156859Z",
+  "quality_score": 0.95
 }

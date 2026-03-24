@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "InternVL 是由上海人工智能实验室推出的开源多模态大模型系列，支持图像与文本的联合理解与生成。它在视觉编码器（如ViT）、语言模型（如Qwen或LLaMA变体）和高效跨模态对齐模块上进行了深度协同优化，具备强图文推理、细粒度描述、文档理解等能力。普通用户需要了解它，是因为它代表了国产高性能多模态AI的实用化进展——意味着未来更多中文友好、本地部署、轻量可控的AI应用（如智能办公助手、教育答疑、无障碍图像描述）可能基于此类模型构建。",
+    "plain": "InternVL 是由上海人工智能实验室开源的多模态大模型系列。它深度协同优化视觉编码器与语言模型，具备强大的图文推理、细粒度描述及文档理解能力。作为国产高性能模型代表，它支持本地部署与中文友好应用，适用于智能办公、教育答疑及无障碍图像描述等场景，推动了多模态 AI 的实用化进展。",
     "metaphor": "就像一位精通双语且常年翻阅图册的资深编辑，InternVL 能同时读懂图片的‘画面语言’和文字的‘逻辑语言’，并自然地把两者编织成连贯表达。",
     "example": "用户上传一张手写数学题照片，InternVL 不仅识别出公式和图形，还能用中文分步解析解题思路，并生成对应的LaTeX代码供进一步编辑。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态理解",
+    "开源模型",
+    "视觉语言模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://internvl.github.io/",
+    "https://github.com/OpenGVLab/InternVL"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:37:44Z"
+  "updated_at": "2026-03-23T11:17:28.794864Z",
+  "quality_score": 1.0
 }

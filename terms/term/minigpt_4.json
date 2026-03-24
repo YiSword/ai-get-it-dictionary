@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "MiniGPT-4 是一个轻量级的多模态大模型，基于视觉编码器（如ViT）和冻结的LLM（如Vicuna）构建，通过可训练的投影层连接，能理解图像并生成自然语言描述。它在保持较强图文理解能力的同时大幅降低计算资源需求，适合在消费级GPU上部署。普通用户需要了解它，是因为它代表了AI从‘只能看图说话’走向‘轻量、可落地’的关键一步——让图像问答、无障碍辅助、教育工具等应用不再依赖云端或昂贵硬件。",
+    "plain": "MiniGPT-4 是一款轻量级多模态大模型，通过可训练投影层连接视觉编码器与冻结大语言模型（如 Vicuna）。它在保持较强图文理解能力的同时大幅降低计算资源需求，支持消费级 GPU 部署。该模型推动了图像问答、无障碍辅助等应用在本地端的落地，是多模态 AI 轻量化的代表作品。",
     "metaphor": "就像一位精通摄影与文学的速记记者：不用翻阅整部百科全书，只凭一张照片和几秒思考，就能写出准确生动的现场报道。",
     "example": "视障用户用手机拍摄菜单，MiniGPT-4本地运行后实时语音描述菜品名称、价格及含坚果提示；教师上传手写数学题照片，模型即时解析步骤并生成讲解文本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图像理解",
+    "多模态交互",
+    "本地部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/Vision-CAIR/MiniGPT-4",
+    "https://minigpt-4.github.io/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:40:25Z"
+  "updated_at": "2026-03-23T17:04:05.258046Z",
+  "quality_score": 1.0
 }

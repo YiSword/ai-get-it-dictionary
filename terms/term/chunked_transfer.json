@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "HTTP 协议",
   "difficulty": "中级",
   "explanations": {
-    "plain": "chunked_transfer（分块传输编码）是一种HTTP/1.1协议中定义的数据传输机制，允许服务器在不预先知道整个响应体大小的情况下，将响应分成多个大小不一的‘块’（chunk）逐个发送给客户端。每个块带有自己的长度标识，并以空块结束。它对普通用户的意义在于：支撑了网页实时加载（如直播弹幕、长轮询）、避免大文件响应卡顿，以及提升流式内容（如AI生成文本）的响应感知速度——用户无需等待全部数据生成即可开始接收和展示。",
+    "plain": "chunked_transfer（分块传输编码）是 HTTP/1.1 协议机制，允许服务器在不预先知道响应体大小的情况下，将数据分成多个带长度标识的块逐个发送。它以空块结束传输，支持网页实时加载、大文件流式传输及 AI 生成文本等场景，用户无需等待全部数据生成即可开始接收，显著提升响应感知速度。",
     "metaphor": "就像餐厅后厨边做菜边上菜：不必等整桌菜全部完成，每做好一道就立刻端出来，顾客可以边吃边等后续。",
     "example": "当用户向聊天机器人提问时，后端使用chunked_transfer将AI生成的回复逐字或逐句作为独立chunk流式推送，使文字在屏幕上逐行实时显现，而非延迟数秒后一次性显示全部答案。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "HTTP 协议",
+    "流式传输",
+    "性能优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://datatracker.ietf.org/doc/html/rfc7230#section-4.1",
+    "https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Transfer-Encoding"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:29:04Z"
+  "updated_at": "2026-03-23T17:46:35.164634Z",
+  "quality_score": 0.95
 }

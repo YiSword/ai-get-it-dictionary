@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "data_efficiency（数据效率）指模型在有限训练数据下达成良好性能的能力，即用更少、更精炼的数据实现同等或接近的准确率与泛化能力。它关系到训练成本、数据采集难度和隐私合规性——尤其对中小企业、医疗或金融等数据稀缺或敏感领域至关重要。普通用户需要了解它，因为低数据效率意味着AI产品可能依赖海量用户行为数据来‘凑效果’，而高数据效率则暗示模型更可靠、更尊重隐私、部署门槛更低。",
+    "plain": "数据效率指模型利用有限数据达成良好性能的能力，即以更少数据实现同等准确率与泛化力。它直接影响训练成本、数据采集难度及隐私合规性，对医疗金融等数据稀缺领域至关重要。高数据效率意味着模型更可靠、尊重隐私且部署门槛更低。",
     "metaphor": "就像一位经验丰富的厨师能用少量优质食材做出一桌好菜，高数据效率的模型也能从少量高质量数据中提炼出深刻规律。",
     "example": "一家医院仅拥有200例罕见病影像数据，通过元学习和数据增强技术提升数据效率，成功训练出诊断准确率达92%的AI辅助系统，避免了因数据不足而放弃建模。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "数据隐私",
+    "成本控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developers.google.com/machine-learning/glossary",
+    "https://huggingface.co/docs"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:12:22Z"
+  "updated_at": "2026-03-23T15:01:24.268995Z",
+  "quality_score": 0.95
 }

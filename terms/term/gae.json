@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GAE 是 Google App Engine 的缩写，是谷歌提供的一个全托管的平台即服务（PaaS）环境，允许开发者部署和运行 Web 应用而无需管理底层服务器、操作系统或网络配置。它自动处理扩缩容、负载均衡、健康检查和基础安全更新，使开发者能专注业务逻辑而非运维细节。普通用户虽不直接操作 GAE，但其所支撑的许多网站、API 和企业工具依赖其稳定性和弹性，了解 GAE 有助于理解现代云应用为何能快速上线、按需响应流量变化且极少宕机。",
+    "plain": "GAE 即 Google App Engine，是谷歌提供的全托管平台即服务（PaaS）。开发者可在此部署 Web 应用，无需管理底层服务器、操作系统或网络配置。它自动处理扩缩容、负载均衡及安全更新，使团队专注业务逻辑。作为现代云应用基础设施，GAE 支撑着众多网站与 API 的稳定运行，确保快速上线与高弹性响应。",
     "metaphor": "就像租用一套精装修、带24小时物业和智能水电系统的公寓——你只需拎包入住、布置家具（写代码），其余设施维护与扩容全由物业（GAE）自动完成。",
     "example": "一家初创公司用 Python 编写了一个待办事项 Web 应用，通过 GAE 部署后，当用户量从每天百人激增至十万时，系统自动增加实例并分发请求，无需工程师手动升级服务器或调整配置。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "Web 开发",
+    "PaaS"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://cloud.google.com/appengine"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:41:20Z"
+  "updated_at": "2026-03-23T14:24:42.725489Z",
+  "quality_score": 0.95
 }

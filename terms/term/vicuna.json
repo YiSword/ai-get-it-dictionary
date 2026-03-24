@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Vicuna 是一个开源的、基于 Llama 系列大语言模型微调而来的对话模型，由加州大学伯克利分校等机构的研究者于2023年发布。它通过在约7万条高质量用户-助手对话数据上进行监督微调，显著提升了在开放域问答、指令遵循和多轮对话中的表现。普通用户需要了解 Vicuna，因为它代表了轻量级、可本地部署的高性能AI助手的一种典型方案——无需依赖商业API，即可在消费级显卡上运行接近GPT-3.5水平的对话能力。",
+    "plain": "Vicuna 是由加州大学伯克利分校等机构于 2023 年发布的开源对话大语言模型。它基于 Llama 系列模型微调而成，使用了约 7 万条高质量对话数据。该模型在指令遵循和多轮对话表现优异，可在消费级显卡上本地部署，性能接近 GPT-3.5，是轻量级 AI 助手的典型代表方案。",
     "metaphor": "Vicuna 就像一位刚从顶尖师范学院毕业、又经过大量真实课堂实习训练的新锐教师，虽不隶属名校编制，却因扎实的实践功底而能出色完成日常教学任务。",
     "example": "一位开发者在自己的笔记本电脑（配备RTX 3090显卡）上本地运行 Vicuna-13B 模型，用于实时辅助编写Python脚本、解释报错信息，并根据中文自然语言描述自动生成单元测试代码。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "开源模型",
+    "对话系统",
+    "指令微调"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://lmsys.org/blog/2023-03-30-vicuna/",
+    "https://github.com/lm-sys/FastChat"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:47:37Z",
-  "updated_at": "2026-03-21T10:17:59Z"
+  "updated_at": "2026-03-23T13:18:12.632227Z",
+  "quality_score": 0.95
 }

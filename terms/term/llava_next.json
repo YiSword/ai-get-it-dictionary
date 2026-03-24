@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LLaVA-NeXT 是 LLaVA 系列的最新升级版本，是一个开源的多模态大模型，能同时理解图像和文本，并基于两者进行推理与生成。它在视觉编码器、语言模型对齐机制和训练数据上做了显著优化，大幅提升了图文理解、细粒度描述、复杂推理和指令遵循能力。普通用户需要了解它，是因为它代表了当前消费级设备上可部署的最强开源多模态AI之一，意味着未来手机App、本地AI助手或教育工具可能直接集成类似能力，无需依赖云端服务。",
+    "plain": "LLaVA-NeXT 是 LLaVA 系列的最新升级版本，属于开源多模态大模型。它能同时理解图像和文本并进行推理生成。通过优化视觉编码器、对齐机制和训练数据，大幅提升了图文理解、复杂推理及指令遵循能力。作为当前消费级设备可部署的最强开源多模态 AI 之一，它推动了本地 AI 助手及教育工具的发展。",
     "metaphor": "就像一位刚完成双语博士训练、又考取了高级摄影评论师资格的全能编辑——不仅能读懂你写的每句话，还能精准解读你拍的照片，并把两者融会贯通地给出深度反馈。",
     "example": "用户上传一张电路板照片并提问：‘这个元件烧毁了吗？如果是，可能是什么原因？’ LLaVA-NeXT 能识别焊点变色、电容鼓包等异常，结合上下文判断故障，并用自然语言解释热应力或过压等技术原因。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态推理",
+    "图像理解",
+    "开源模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://llava-vl.github.io/",
+    "https://github.com/LLaVA-VL/LLaVA-NeXT"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:43:19Z",
-  "updated_at": "2026-03-21T08:14:35Z"
+  "updated_at": "2026-03-23T17:18:44.954416Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "财务管理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Kashoo 是一款面向小型企业及自由职业者的云端会计软件，提供发票开具、费用追踪、银行对账和基础财务报表等功能。它以简洁界面、无需会计背景即可上手为特点，帮助用户高效管理日常财务，避免手工记账错误或遗漏。普通用户需要了解 Kashoo，是因为它能替代繁琐的电子表格，自动同步银行交易、生成税务就绪报告，并满足基本合规要求，尤其适合没有专职会计的初创团队或个体经营者。",
+    "plain": "Kashoo 是一款面向小型企业及自由职业者的云端会计软件。它提供发票开具、费用追踪、银行对账和财务报表等功能，界面简洁，无需会计背景即可上手。它能替代电子表格，自动同步银行交易，生成税务报告，适合无专职会计的初创团队或个体经营者高效管理日常财务。",
     "metaphor": "Kashoo 就像一位随叫随到的私人财务助理，既不占用办公桌，也不需要你懂复式记账，只用点击几下，就能帮你理清每一笔收入和支出。",
     "example": "一名自由插画师使用 Kashoo 连接其PayPal和银行账户，自动导入客户付款与平台佣金，每月一键生成利润表，轻松准备季度报税材料。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "小微企业",
+    "云端会计",
+    "财务自动化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.kashoo.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:57:46Z",
-  "updated_at": "2026-03-21T07:49:30Z"
+  "updated_at": "2026-03-23T18:51:57.318291Z",
+  "quality_score": 0.95
 }

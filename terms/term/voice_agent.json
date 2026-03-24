@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "智能交互",
   "difficulty": "中级",
   "explanations": {
-    "plain": "voice_agent（语音代理）是一种能通过语音识别、自然语言理解、对话管理和语音合成等技术，与用户进行实时语音交互的智能软件系统。它不仅能听懂用户的语音指令，还能思考上下文、调用服务、生成回应并用自然语音反馈。普通用户需要了解它，因为越来越多的智能音箱、车载系统、客服热线和手机助手（如Siri、小爱同学）都依赖此类技术，理解其能力与局限有助于更高效、安全地使用语音服务，避免因误触发或隐私顾虑而影响体验。",
+    "plain": "语音代理是一种利用语音识别、自然语言理解及合成技术，与用户进行实时语音交互的智能系统。它能理解指令、管理对话上下文并调用服务反馈。广泛应用于智能音箱、车载系统及手机助手（如 Siri）。理解其机制有助于更安全高效地使用语音服务。",
     "metaphor": "就像一位熟悉你习惯、随时待命的私人助理——不用敲键盘，只需开口说话，它就能帮你查天气、设闹钟、拨电话，甚至订咖啡。",
     "example": "当你在开车时说‘嘿 Siri，给妈妈打电话’，iPhone 背后的 voice_agent 立即识别语音、解析意图、调取联系人并发起呼叫，全程无需手动操作。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语音助手",
+    "人机交互",
+    "智能家居"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Virtual_assistant",
+    "https://aws.amazon.com/lex/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:20:44Z"
+  "updated_at": "2026-03-23T16:53:25.414615Z",
+  "quality_score": 0.95
 }

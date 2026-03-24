@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "MLOps",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Arize 是一家专注于机器学习可观测性（ML Observability）的科技公司，提供平台工具帮助数据科学家和工程师监控、调试和改进生产环境中的AI模型。它能检测模型性能下降、数据漂移、特征异常和预测偏差等问题。普通用户（尤其是AI从业者）需要了解Arize，因为随着模型在金融、医疗、推荐等关键场景中广泛应用，仅靠准确率等静态指标已无法保障其持续可靠运行；Arize填补了从模型上线到长期运维之间的关键监控空白。",
+    "plain": "Arize 是一家专注于机器学习可观测性的科技公司，提供平台帮助数据科学家监控、调试和改进生产环境中的 AI 模型。它能检测模型性能下降、数据漂移和预测偏差等问题。在关键场景中，Arize 填补了模型上线到长期运维之间的监控空白，保障模型持续可靠运行，是 AI 从业者重要的运维工具。",
     "metaphor": "就像汽车的仪表盘不仅显示时速，还实时监测发动机温度、胎压和故障灯，Arize 就是 AI 模型的‘智能仪表盘’，让开发者一眼看清模型在真实世界中是否健康运行。",
     "example": "某电商公司上线了一个商品推荐模型后，发现点击率两周内持续下滑；通过 Arize，团队快速定位到新接入的用户地理位置特征发生严重分布偏移，并识别出部分城市数据缺失导致预测偏差，从而及时回滚数据管道并重新校准模型。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "MLOps",
+    "模型监控",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arize.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:41:55Z"
+  "updated_at": "2026-03-23T14:25:27.510044Z",
+  "quality_score": 0.95
 }

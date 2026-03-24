@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "grounded_generation（基于依据的生成）是一种人工智能文本生成技术，要求模型在生成回答或内容时，必须明确引用、依赖并忠实于给定的可靠信息源（如文档片段、数据库、知识图谱或用户提供的上下文），而非仅凭内部参数记忆自由发挥。它强调事实一致性、可追溯性和可控性，能显著降低幻觉风险。普通用户需要了解这一概念，因为它直接关系到AI回答是否可信、可验证——尤其在医疗咨询、法律解读、教育辅导等高风险场景中，知道答案是否‘有据可查’比单纯追求流畅更重要。",
+    "plain": "grounded_generation 指 AI 生成内容时需严格引用可靠信息源，而非仅凭参数记忆。该技术强调事实一致性与可追溯性，能显著降低幻觉风险。在医疗、法律等高风险场景中，它确保答案可信可验证，是保障 AI 可靠性的关键技术。",
     "metaphor": "就像记者写报道必须标注信源并核实引语，而不是靠想象编撰情节。",
     "example": "当用户上传一份公司财报PDF并提问‘2023年净利润是多少？’，grounded_generation模型会精准定位原文中的数值和单位，原样提取并标注页码，而非凭训练数据中的模糊印象作答。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "内容生成",
+    "事实核查",
+    "风险控制"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://cloud.google.com/vertex-ai/docs/generative-ai/grounded-generation/overview"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:02:31Z"
+  "updated_at": "2026-03-23T14:40:42.913730Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "‘Audio’（注意正确拼写为 audio，非 ‘udio’）指声音信号的电子表示与处理技术，涵盖录制、播放、传输和编辑声音的全过程。它支撑着从手机通话、音乐流媒体到视频会议、语音助手等日常应用。普通用户需要了解这一基础概念，以便理解设备功能（如麦克风/扬声器作用）、排查常见问题（如无声、杂音），并合理选择音频相关产品（如耳机、录音软件）。",
+    "plain": "Udio 是一款领先的生成式 AI 音乐平台，允许用户通过文本提示创作高质量歌曲。它支持多种风格、歌词生成及片段编辑，大幅降低音乐制作门槛。适用于视频配乐、创意灵感激发及个人音乐创作场景，是当前文生音频领域的代表性工具之一。",
     "metaphor": "Audio 就像声音的‘数字影印术’——把空气中的振动转化为可存储、复制和远距离传送的电子语言。",
     "example": "当你用视频会议软件开会时，你的语音被麦克风转换为 audio 信号，经网络传输后，对方设备再将该 audio 信号还原为可听的声音。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "音乐生成",
+    "AIGC",
+    "文生音频"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.udio.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:13:25Z"
+  "updated_at": "2026-03-23T13:07:07.970378Z",
+  "quality_score": 1.0
 }

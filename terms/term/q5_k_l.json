@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型量化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "q5_k_l 是一种量化格式，用于压缩大语言模型的权重参数，具体指每权重使用5位（bit）精度、采用k-quants方案中的'l'变体（即优化后的高精度5位量化，兼顾精度与效率）。它常见于llama.cpp等推理框架中，使模型能在消费级GPU或CPU上更高效运行。普通用户需要了解它，是因为选择不同量化等级（如q4_k_m、q5_k_l、q6_k）会直接影响模型回答质量、响应速度和内存占用——q5_k_l在精度和体积间取得较好平衡，适合追求可靠输出又受限于硬件资源的本地部署场景。",
+    "plain": "q5_k_l 是 llama.cpp 框架中 GGUF 格式的一种 5 位量化方案。它采用 K-Quants 技术，在保持较高模型精度的同时显著降低显存占用。相比 q4 系列精度更高，相比 q6 系列体积更小，适合消费级硬件本地部署大语言模型，平衡推理速度与生成质量。",
     "metaphor": "就像把高清照片转换成精心优化的WebP格式：既显著减小文件大小，又几乎看不出画质损失。",
     "example": "当你在一台16GB内存的MacBook上用llama.cpp运行Llama-3-8B模型时，选用q5_k_l量化版本可在保持接近原始模型推理质量的同时，将显存/内存占用控制在约5.2GB左右，顺利实现本地流畅对话。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "本地部署",
+    "模型压缩",
+    "推理优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ggerganov/llama.cpp",
+    "https://github.com/ggerganov/llama.cpp/blob/master/README.md"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:27:13Z",
-  "updated_at": "2026-03-21T09:22:08Z"
+  "updated_at": "2026-03-23T17:17:15.903041Z",
+  "quality_score": 0.95
 }

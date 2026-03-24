@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DeBERTa（Decoding-enhanced BERT with disentangled attention）是一种先进的预训练语言模型，由微软于2020年提出，是对BERT的深度改进。它通过解耦注意力机制（分别建模词元内容和位置信息）以及增强解码器端的语义理解能力，显著提升了文本理解、推理和生成任务的准确性。普通用户虽不直接接触代码，但可能已在智能客服、文档摘要、多语言翻译等日常应用中受益于DeBERTa驱动的更精准、更少歧义的语言处理能力。",
+    "plain": "DeBERTa 是微软 2020 年提出的预训练语言模型，全称为 Decoding-enhanced BERT。它通过解耦注意力机制，分别建模词元内容和位置信息，显著提升了文本理解与推理能力。相比 BERT，它在多项 NLP 基准任务中表现更优，广泛应用于智能客服、文档摘要等场景。",
     "metaphor": "就像一位双耳分听、双眼分察的资深编辑——左耳专注字面意思，右耳捕捉上下文暗示；左眼盯住词语本身，右眼留意它在句中的角色——DeBERTa把语言的‘内容’和‘位置’分开处理，再协同判断，从而读懂言外之意。",
     "example": "某企业用DeBERTa微调后构建合同审查系统，能准确识别‘甲方不可单方面终止协议’中的‘不可’与‘单方面’的逻辑约束关系，避免传统模型误判为一般性条款。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "预训练模型",
+    "文本理解",
+    "语义分析"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/microsoft/DeBERTa",
+    "https://arxiv.org/abs/2006.03654"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:18:27Z"
+  "updated_at": "2026-03-23T17:25:35.454245Z",
+  "quality_score": 0.95
 }

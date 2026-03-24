@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "接口/协议",
   "difficulty": "中级",
   "explanations": {
-    "plain": "openai_compatible_api 是指第三方大模型服务提供的 API 接口，其请求格式、参数命名（如 model、messages、temperature）、响应结构（如 choices[0].message.content）以及认证方式（Bearer token）都严格遵循 OpenAI 官方 API 的规范。普通用户需要知道它，是因为这意味着无需修改代码逻辑或重写集成逻辑，就能将原本调用 OpenAI 的应用快速切换到其他国产或开源模型服务（如 Ollama、vLLM、DashScope 或硅基流动），从而规避厂商锁定、降低成本或满足数据合规要求。",
+    "plain": "指遵循 OpenAI 官方 API 规范的第三方大模型服务接口。其请求参数、响应结构及认证方式与 OpenAI 完全一致，使开发者无需修改代码即可将应用切换至其他模型服务（如 Ollama、vLLM、DashScope）。这有助于规避厂商锁定、降低成本并满足数据合规要求，实现模型服务的无缝迁移与互操作。",
     "metaphor": "就像 USB-C 接口标准统一了手机、电脑和充电器的连接方式，openai_compatible_api 是大模型世界的‘通用插槽’——只要符合这个标准，任何兼容的服务都能即插即用。",
     "example": "开发者用 LangChain 调用 GPT-4 时使用 openai-python SDK；当改用本地部署的 Qwen2 模型时，只需把 API 基地址从 https://api.openai.com/v1 改为 http://localhost:8000/v1，并保持其余代码不变，即可无缝运行。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "API 集成",
+    "模型部署",
+    "私有化部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs/api-reference",
+    "https://github.com/ollama/ollama/blob/main/docs/openai.md"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:59:28Z"
+  "updated_at": "2026-03-23T10:27:36.022152Z",
+  "quality_score": 0.95
 }

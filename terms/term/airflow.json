@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Airflow 是一个开源的工作流编排平台，用于编程式定义、调度和监控复杂的数据处理任务（如数据提取、转换、加载等）。它通过 Python 代码构建有向无环图（DAG）来描述任务依赖关系，使数据工程师能清晰地管理任务执行顺序、重试策略、告警和依赖。普通用户——尤其是数据分析师、工程师或运维人员——需要了解 Airflow，因为它已成为现代数据基础设施中自动化批量作业的事实标准，直接影响数据交付的可靠性、可追溯性和协作效率。",
+    "plain": "Airflow 是开源的工作流编排平台，用于编程式定义、调度和监控数据处理任务。它通过 Python 代码构建有向无环图（DAG）描述任务依赖，管理执行顺序、重试和告警。作为现代数据基础设施中自动化批量作业的事实标准，它显著提升数据交付的可靠性与协作效率。",
     "metaphor": "Airflow 就像一位严谨的餐厅后厨总指挥：它不亲自炒菜（不执行具体计算），但精确安排谁在何时备料、炒菜、装盘，并在某道工序失败时立即通知主厨或自动重做。",
     "example": "一家电商公司用 Airflow 每日凌晨自动运行一个 DAG：先从数据库导出昨日订单，再调用 Spark 清洗并聚合销售数据，最后将结果写入 BI 看板数据库，整个流程失败时自动邮件告警并重试两次。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据管道",
+    "任务调度",
+    "开源工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://airflow.apache.org/",
+    "https://github.com/apache/airflow"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:57:01Z",
-  "updated_at": "2026-03-21T03:28:23Z"
+  "updated_at": "2026-03-23T13:44:50.297800Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Supabase 是一个开源的 Backend-as-a-Service（BaaS）平台，它为开发者提供实时数据库、用户认证、存储、函数和 API 自动生成等后端功能，所有服务都基于 PostgreSQL 构建。普通用户（尤其是独立开发者、初创团队或学习编程的人）需要知道它，因为它能大幅降低构建 Web 或移动应用后端的门槛——无需从零搭建服务器、写鉴权逻辑或设计 REST 接口，几分钟内即可获得生产就绪的后端能力。",
+    "plain": "Supabase 是开源 BaaS 平台，基于 PostgreSQL 构建。提供实时数据库、认证、存储和 API 自动生成。开发者无需从零搭建服务器，即可快速获得生产就绪后端能力，大幅降低 Web 或移动应用开发门槛，适合独立开发者使用。",
     "metaphor": "Supabase 就像一套智能乐高积木：你不用从冶炼钢铁开始造房子，而是直接拼接已预制好门窗、水电和网络接口的标准模块，快速搭出功能完整的应用后端。",
     "example": "一位设计师想开发个人作品集网站，并希望访客能通过邮箱注册登录、上传图片到作品页、并实时看到其他人的点赞数——她可以用 Supabase 在 10 分钟内配置好用户系统、图片存储桶和带实时订阅的数据库表，全程无需写后端代码。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "后端开发",
+    "开源软件",
+    "Web 开发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://supabase.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:15:15Z",
-  "updated_at": "2026-03-21T09:58:18Z"
+  "updated_at": "2026-03-23T15:29:59.052458Z",
+  "quality_score": 0.95
 }

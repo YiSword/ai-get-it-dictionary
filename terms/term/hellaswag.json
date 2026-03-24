@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "基准评测",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Hellaswag 是一个用于评估语言模型常识推理能力的基准数据集，全称是 'Highly Efficient Language Learning and Assessment of Situational Understanding with Adversarial Generation'。它包含约70,000个多项选择题，每个问题要求模型从四个选项中选出最符合日常物理、社会或时间逻辑的后续动作。普通用户需要了解它，是因为它揭示了AI在‘像人一样理解世界’方面的实际短板——比如知道‘人滑倒后更可能伸手撑地而非打开笔记本’，这种隐含常识恰恰是当前大模型常出错的关键环节。",
+    "plain": "HellaSwag 是评估语言模型常识推理能力的基准数据集。它包含约 7 万道多项选择题，要求模型从四个选项中选出最符合情境的后续动作。该数据集通过对抗性生成增加难度，能有效揭示模型在日常物理和社会逻辑理解上的短板，是衡量大模型常识推理能力的重要标准之一。",
     "metaphor": "就像考驾照时的‘情景判断题’：不是考你背交规条文，而是问‘雨天看到前方积水，前车突然急刹，你该先做什么？’——考验的是本能般的现实推断力。",
     "example": "当模型被输入句子‘她把冰块放进玻璃杯，然后倒入苏打水’，Hellswag 会要求它从‘气泡开始上升’‘杯子外壁凝结水珠’‘冰块迅速融化’等选项中选出最合理、最常见、最符合物理常识的下一步现象。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型评估",
+    "常识推理",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/rowanz/hellaswag",
+    "https://aclanthology.org/P19-1113/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:08:01Z"
+  "updated_at": "2026-03-23T11:29:17.651563Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "基础概念",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Prompt 是用户向人工智能模型输入的指令、问题或文本提示，用于引导模型生成特定内容。它相当于与AI对话时的‘提问方式’或‘任务描述’——措辞越清晰、背景越充分，AI的回答通常越准确有用。普通用户需要理解 prompt，因为它是掌控AI输出质量的关键入口：不恰当的 prompt 可能导致答非所问、信息错误或内容空洞，而精心设计的 prompt 能显著提升效率与可靠性。",
+    "plain": "Prompt 是用户向人工智能模型输入的指令或文本提示，用于引导模型生成特定内容。作为与 AI 交互的核心入口，其措辞清晰度与背景充分性直接决定回答质量。不恰当的 prompt 可能导致答非所问，而精心设计的 prompt 能显著提升效率与可靠性，是掌控 AI 输出质量的关键。",
     "metaphor": "就像给一位才华横溢但缺乏上下文的助手写一封工作邮件——邮件的主题和正文决定了他帮你整理资料、写报告还是订会议室。",
     "example": "在图像生成工具中输入 '一只戴圆框眼镜的柴犬坐在咖啡馆窗边，水彩风格，柔和阳光'，这条文字就是 prompt，它直接决定了AI生成图像的具体内容和风格。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "人机交互",
+    "提示工程"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs/guides/prompt-engineering",
+    "https://learn.microsoft.com/zh-cn/azure/ai-services/openai/concepts/prompt-engineering"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T09:16:55Z"
+  "updated_at": "2026-03-23T16:46:22.243016Z",
+  "quality_score": 0.95
 }

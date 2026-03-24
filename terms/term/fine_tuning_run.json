@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "fine_tuning_run 是指在已有预训练大模型基础上，使用特定领域或任务的小规模标注数据进行增量训练的一次完整执行过程。它会调整模型的部分或全部参数，使其在目标场景（如客服问答、医疗报告生成）中表现更精准。普通用户需要了解它，因为这是将通用AI转化为贴合自身业务需求的定制化工具的关键步骤，直接影响效果、成本和部署周期。",
+    "plain": "fine_tuning_run 指基于预训练模型，使用特定任务数据进行增量训练的一次完整执行过程。该过程调整模型参数，使其在目标场景表现更精准。这是将通用 AI 转化为定制化工具的关键步骤，直接影响效果、成本和部署周期，常用于客服问答或报告生成等场景。",
     "metaphor": "就像一位通晓多国语言的翻译家，先通过多年广泛阅读掌握语言基础（预训练），再花几周时间专攻法律术语和合同格式（fine_tuning_run），从而胜任专业法庭口译任务。",
     "example": "一家电商公司用自有客服对话数据对Llama-3模型执行一次fine_tuning_run，使模型能准确识别‘七天无理由退货已超期’等业务规则，并生成合规回复。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "大模型应用",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs/guides/fine-tuning",
+    "https://huggingface.co/docs/transformers/training"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:30:16Z"
+  "updated_at": "2026-03-23T17:08:50.758514Z",
+  "quality_score": 0.95
 }

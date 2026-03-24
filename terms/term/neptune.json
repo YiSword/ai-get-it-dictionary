@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据库",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Neptune 是 Amazon Web Services（AWS）提供的完全托管的图数据库服务，专为高效存储和查询高度关联的数据（如社交网络、推荐系统、欺诈检测关系网）而设计。它原生支持属性图模型和 RDF 图模型，并兼容 Gremlin、SPARQL 等标准查询语言。普通用户——尤其是开发者、数据工程师或业务分析师——需要了解 Neptune，因为它能显著简化复杂关系分析的基础设施运维，避免自建图数据库的扩展性与一致性难题，同时保障高可用与安全合规。",
+    "plain": "Amazon Neptune 是 AWS 推出的完全托管图数据库服务，旨在高效存储与查询高度关联数据。支持属性图及 RDF 模型，兼容 Gremlin 与 SPARQL 语言。适用于社交网络、推荐系统及欺诈检测场景，可简化运维并解决扩展性难题，保障高可用与安全合规。",
     "metaphor": "就像一张实时更新、自动折叠又展开的交通路线图，Neptune 不仅记录所有道路（关系），还能瞬间告诉你从任意起点经多少次换乘（跳数）抵达目的地。",
     "example": "一家电商平台使用 Neptune 构建用户-商品-评论-好友的关联图谱，实时执行‘购买了此商品的 3 度好友中，哪些人还点赞过同类测评’这类深度关系查询，用于动态生成个性化推荐。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "图数据库",
+    "云服务",
+    "数据分析"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/neptune/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:55:51Z",
-  "updated_at": "2026-03-21T08:53:30Z"
+  "updated_at": "2026-03-23T14:36:34.020767Z",
+  "quality_score": 0.95
 }

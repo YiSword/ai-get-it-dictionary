@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "instruction_tuning（指令微调）是一种让大语言模型更好理解和执行人类自然语言指令的训练方法。它通过在大量人工编写的‘指令-输出’对数据集上对预训练模型进行有监督微调，提升模型遵循指令、泛化到未见任务的能力。普通用户需要了解它，因为这是当前ChatGPT、Claude等对话系统能准确响应提问、完成写作或编程等多样化任务的关键技术基础——它决定了AI是否真正‘听懂你的话’，而不仅是机械补全文本。",
+    "plain": "指令微调是一种让大语言模型更好理解和执行人类自然语言指令的训练方法。通过在大量“指令 - 输出”对数据集上进行有监督微调，提升模型遵循指令及泛化能力。这是 ChatGPT 等对话系统能准确响应提问、完成多样化任务的关键技术，决定了 AI 是否真正听懂用户意图，而非机械补全文本。",
     "metaphor": "就像给一位精通多国语言但缺乏职场经验的翻译官，专门接受客户沟通培训：不是教他新词汇，而是训练他准确理解‘请用简洁的邮件重写这段话，发给高管’这类复杂指令背后的意图。",
     "example": "开发者使用包含‘将以下Python代码转换为等效的JavaScript，并添加错误处理注释’这类明确指令的数据集，对Llama3模型进行instruction_tuning，使其在后续交互中能稳定完成此类跨语言转换任务。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型微调",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2203.02155",
+    "https://huggingface.co/docs/transformers/training"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:35:01Z"
+  "updated_at": "2026-03-23T13:48:39.172218Z",
+  "quality_score": 0.95
 }

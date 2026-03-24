@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "OFA（One-Frame Attention）是一种面向多模态大模型的高效注意力机制优化技术，主要用于加速视觉-语言模型在图像理解与文本生成任务中的推理过程。它通过将图像编码压缩为单帧特征表示，并复用该表示参与多次文本解码步骤，显著降低计算开销。普通用户虽不直接接触底层实现，但会间接受益于其带来的更快响应速度、更低设备功耗和更流畅的AI图像描述、跨模态搜索等体验。",
+    "plain": "OFA 是由微软提出的多模态预训练模型框架，旨在统一多种多模态任务。它通过噪声化序列生成范式，将图像定位、视觉问答、图像描述等任务统一为序列生成问题。该模型在单一架构下实现了跨模态理解与生成，显著提升了模型泛化能力与效率，广泛应用于视觉 - 语言交互场景。",
     "metaphor": "就像一位经验丰富的导游，只快速扫一眼景点全景图，就能反复、准确地回答游客关于不同细节的多个问题，而无需每次提问都重新拍照。",
     "example": "在手机端AI相册应用中，用户上传一张聚会照片并连续提问‘谁坐在中间？’‘她穿的是什么颜色衣服？’‘背景里有几瓶饮料？’，OFA机制让模型仅需一次图像编码即可高效响应全部问题。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态",
+    "预训练模型",
+    "视觉语言"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/microsoft/OFA",
+    "https://ofa-sys.github.io/OFA/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:33:03Z",
-  "updated_at": "2026-03-21T08:57:01Z"
+  "updated_at": "2026-03-23T17:45:58.228642Z",
+  "quality_score": 1.0
 }

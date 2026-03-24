@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "DevOps",
   "difficulty": "中级",
   "explanations": {
-    "plain": "artifact_registry 是一种用于存储、管理和分发软件构建产物（如容器镜像、Java JAR 包、npm 包、Python wheel 等）的托管服务或系统。它为开发团队提供版本控制、访问权限管理、元数据标记和安全扫描等能力，确保构建产物可追溯、可复现且可安全部署。普通用户（尤其是开发者、运维和 DevOps 工程师）需要了解它，因为它是现代持续集成/持续交付（CI/CD）流程中连接构建与部署的关键枢纽，直接影响软件交付的可靠性、合规性和效率。",
+    "plain": "Artifact Registry 是用于存储、管理和分发软件构建产物（如容器镜像、依赖包）的托管服务。它提供版本控制、权限管理及安全扫描，确保产物可追溯且安全。作为 CI/CD 流程的关键枢纽，它连接构建与部署，直接影响软件交付的可靠性与效率，是 DevOps 实践中的核心组件。",
     "metaphor": "就像图书馆的图书编目系统——它不生产书，但为每本出版物分配唯一编号、记录作者与版本、控制借阅权限，并确保读者总能拿到准确、未被篡改的那本。",
     "example": "在 Google Cloud 中，开发者将 Docker 构建好的微服务镜像推送到 Artifact Registry，CI 流水线随后从该仓库拉取指定版本镜像并部署到 Kubernetes 集群，全程自动验证签名与漏洞扫描结果。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "CI/CD",
+    "DevOps",
+    "软件供应链"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://cloud.google.com/artifact-registry/docs",
+    "https://learn.microsoft.com/en-us/azure/devops/artifacts/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:43:02Z"
+  "updated_at": "2026-03-23T12:23:52.137219Z",
+  "quality_score": 0.95
 }

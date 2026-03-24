@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "MLOps",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Metaflow 是一个开源的 Python 框架，用于构建、运行和管理数据科学与机器学习工作流。它将代码、数据、依赖和计算环境封装成可复现、可追踪、可伸缩的流程，支持本地开发与云上（如 AWS）无缝部署。普通用户——尤其是数据科学家和工程师——需要了解它，因为它显著降低了从实验到生产部署的复杂度，避免了手动管理脚本、环境和调度的混乱，让注意力回归模型与业务逻辑本身。",
+    "plain": "Metaflow 是 Netflix 开源的 Python 库，专为数据科学和机器学习工作流设计。它封装代码、数据与环境，支持本地到云端的无缝部署，确保流程可复现、可追踪且可伸缩。该框架简化了从实验到生产的部署复杂度，让开发者专注于模型逻辑而非基础设施管理，广泛应用于 AI 工程化场景。",
     "metaphor": "就像为厨房里的烹饪流程设计了一套标准化食谱+智能厨具联动系统：每一步操作自动记录原料、火候和工具，还能一键复制到另一家米其林餐厅执行。",
     "example": "一家电商公司用 Metaflow 编排每日用户行为分析流水线：从 S3 读取原始日志、用 PySpark 清洗、训练实时推荐模型、评估指标并自动部署新版本到线上服务。整个流程在 Git 中版本化，失败时可精确回滚到任意步骤。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "MLOps",
+    "工作流管理",
+    "数据科学"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://metaflow.org",
+    "https://github.com/Netflix/metaflow"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:56:28Z",
-  "updated_at": "2026-03-21T08:36:35Z"
+  "updated_at": "2026-03-23T11:20:01.295094Z",
+  "quality_score": 0.95
 }

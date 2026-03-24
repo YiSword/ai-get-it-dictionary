@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AIGC",
   "difficulty": "中级",
   "explanations": {
-    "plain": "covers_ai 是一个专用于自动识别、分析并生成音乐封面图像的人工智能工具或服务。它能根据音频内容（如风格、情绪、节奏）或元数据（如歌名、艺术家、流派）生成视觉上契合的封面图，常用于独立音乐人、播客制作者或内容平台批量生产高质量封面。普通用户需要了解它，是因为它降低了专业视觉设计的门槛，让非设计师也能快速获得风格统一、平台适配（如Spotify、Apple Music尺寸要求）的封面，避免版权风险和审美失配问题。",
+    "plain": "covers_ai 是一款基于人工智能的音乐封面生成工具。它能分析音频风格或元数据，自动创作视觉契合的封面图。适用于独立音乐人及播客制作者，可降低设计门槛，快速生成符合流媒体平台尺寸要求的作品，同时避免版权风险，实现高效批量生产。",
     "metaphor": "就像一位懂音乐的平面设计师，你哼一段旋律或说一句‘想要复古电子感’，它立刻为你手绘出匹配的封面。",
     "example": "一位TikTok音乐人上传一首Lo-fi Hip Hop原创曲后，用covers_ai输入‘深夜咖啡馆、胶片颗粒、暖黄灯光’，3秒内生成符合平台规范的1080×1080封面图并直接嵌入发布流程。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "音乐科技",
+    "图像生成",
+    "内容创作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://covers.ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:50:05Z",
-  "updated_at": "2026-03-21T05:03:38Z"
+  "updated_at": "2026-03-23T16:25:15.907887Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "safety_policy（安全策略）是一组明确规定的规则、限制和行为准则，用于指导系统（如AI模型、自动驾驶软件或工业控制系统）在运行中如何识别、规避或响应潜在风险，确保其输出或行动不危害人类、环境或社会。普通用户需要了解它，因为这直接关系到他们使用技术时的隐私保护、内容可信度、人身安全以及是否被算法误伤——例如避免接收有害建议、虚假信息或被不当监控。",
+    "plain": "safety_policy（安全策略）是指导系统运行的一组规则与准则，用于识别和规避潜在风险，确保输出不危害人类或社会。它涉及隐私保护、内容可信度及人身安全，防止用户接收有害建议或被不当监控。这是保障 AI 系统可靠性和合规性的核心机制，直接影响用户体验与信任。",
     "metaphor": "就像汽车的ABS防抱死系统，它不是阻止你踩刹车，而是在紧急制动时自动调节制动力，防止失控打滑。",
     "example": "当用户向AI助手询问‘如何制作危险物品’时，安全策略会触发内容过滤机制，拒绝回答并提示该请求违反安全准则。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "人工智能",
+    "风险控制",
+    "合规管理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/safety/",
+    "https://ai.google/safety/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:36:13Z"
+  "updated_at": "2026-03-23T13:19:33.190163Z",
+  "quality_score": 0.95
 }

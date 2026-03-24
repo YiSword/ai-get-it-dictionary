@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GPT（Generative Pre-trained Transformer）是一种基于深度学习的自然语言处理模型，由OpenAI等机构研发，能够理解并生成类人文本。它通过在海量文本数据上预训练，掌握语言规律，再经微调完成问答、写作、翻译等任务。普通用户需要了解GPT，因为它正广泛嵌入搜索引擎、办公软件、客服系统和教育工具中，影响信息获取方式、内容创作效率乃至人机交互习惯，理解其能力与局限有助于更理性地使用AI工具，避免盲目信任或误用。",
+    "plain": "GPT（Generative Pre-trained Transformer）是由 OpenAI 研发的生成式预训练变压器模型。基于深度学习，它通过海量文本预训练掌握语言规律，经微调后可完成问答、写作、翻译等任务。作为大语言模型代表，GPT 广泛嵌入各类应用，影响信息获取与内容创作。理解其能力与局限，有助于用户更理性地使用 AI 工具，避免盲目信任。",
     "metaphor": "GPT就像一位博览群书、过目不忘的图书管理员，没读过你的具体问题，但能根据多年整理数千万本书的经验，快速为你组织出逻辑通顺、风格匹配的回答。",
     "example": "当你在聊天界面输入‘帮我写一封辞职信，语气礼貌简洁’，GPT会在几秒内生成一封结构完整、措辞得体的信件草稿，供你直接使用或修改。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "生成式 AI",
+    "大语言模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://openai.com/research/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:51:39Z"
+  "updated_at": "2026-03-23T16:08:29.575844Z",
+  "quality_score": 0.95
 }

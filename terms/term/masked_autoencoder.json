@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自监督学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "masked_autoencoder（掩码自编码器）是一种无监督学习模型，通过随机遮盖输入数据（如图像块或文本词元）的一部分，让模型仅基于未被遮盖的部分重建原始完整数据。它不依赖人工标注，能从海量未标记数据中学习深层语义表征，已被广泛用于视觉和语言基础模型的预训练。普通用户需要了解它，因为它是支撑当前许多AI能力（如图像生成、理解、跨模态检索）背后的关键技术之一，直接影响AI系统的泛化性与效率。",
+    "plain": "掩码自编码器（MAE）是一种自监督学习模型。它通过随机遮盖输入数据（如图像块或文本）的一部分，迫使模型基于剩余部分重建原始数据。这种方法无需人工标注，能从海量未标记数据中学习强大的特征表示，广泛用于视觉和语言基础模型的预训练，显著提升 AI 系统的泛化能力与效率。",
     "metaphor": "就像让学生蒙住一幅画的30%后，仅凭剩余部分准确补全整幅画——不是靠记忆原图，而是靠真正理解构图、风格和上下文关系。",
     "example": "在ViT（Vision Transformer）中，MAE将图像分割为16×16像素块，随机遮盖75%的块，再用轻量解码器重建被遮盖区域，从而高效预训练出强大的视觉特征提取器。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自监督学习",
+    "模型预训练",
+    "基础模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2111.06377",
+    "https://github.com/facebookresearch/mae"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:26:59Z"
+  "updated_at": "2026-03-23T13:54:53.893423Z",
+  "quality_score": 0.95
 }

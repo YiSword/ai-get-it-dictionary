@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 基础设施",
   "difficulty": "中级",
   "explanations": {
-    "plain": "cerebras_inference 是指在 Cerebras 系统（基于其专用 Wafer-Scale Engine 芯片的 AI 加速平台）上执行模型推理的过程。它利用 Cerebras 独特的超大规模单芯片架构，实现低延迟、高吞吐的生成式 AI 或传统模型的实时预测。普通用户需要了解它，是因为当企业或研究机构部署大语言模型（如 Llama、Mixtral）时，采用 Cerebras 推理可显著降低响应延迟和硬件运维复杂度，尤其适用于对实时性与扩展性要求严苛的生产环境。",
+    "plain": "指在 Cerebras 晶圆级引擎平台上执行 AI 模型推理的过程。利用超大规模单芯片架构，实现低延迟、高吞吐的实时预测。适用于大语言模型部署，显著降低响应延迟与运维复杂度，满足高实时性生产环境需求。",
     "metaphor": "就像为超级计算机量身定制的高速公路——没有红绿灯和匝道瓶颈，AI 模型的计算指令可以全速直达目的地。",
     "example": "一家金融公司使用 cerebras_inference 在毫秒级内完成千兆参数风控模型的实时交易欺诈检测，无需拆分模型或跨多卡调度。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型推理",
+    "硬件加速",
+    "大模型部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.cerebras.net/",
+    "https://www.cerebras.net/solutions"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:23:26Z"
+  "updated_at": "2026-03-23T16:35:41.030741Z",
+  "quality_score": 0.95
 }

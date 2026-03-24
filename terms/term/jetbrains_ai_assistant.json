@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 编程助手",
   "difficulty": "中级",
   "explanations": {
-    "plain": "JetBrains AI Assistant 是 JetBrains 官方集成到其 IDE（如 IntelliJ IDEA、PyCharm 等）中的智能编程助手，基于大语言模型提供代码补全、生成、解释、重构、调试建议和文档查询等能力。它深度理解项目上下文（如代码结构、依赖、注释），无需切换工具即可在编辑器内获得精准帮助。普通用户——尤其是开发者——需要了解它，因为它能显著提升编码效率、降低学习成本、减少低级错误，并让复杂逻辑更易理解和维护。",
+    "plain": "JetBrains AI Assistant 是 JetBrains 官方推出的智能编程助手，集成于 IntelliJ IDEA 等 IDE 中。基于大语言模型，提供代码补全、生成、解释、重构及调试建议。它能理解项目上下文，在编辑器内提供精准帮助，显著提升开发者编码效率与代码质量，降低维护成本。",
     "metaphor": "就像一位熟悉你所有项目细节、随时坐在你工位旁的资深结对程序员，既懂你正在写的代码，也记得上周修改过的配置文件。",
     "example": "当你在写一个 Python 函数但不确定如何用 pandas 高效筛选并聚合数据时，选中空函数体并输入 '/explain'，AI Assistant 会立即生成带注释的可运行代码，并说明每一步的作用。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "IDE 集成",
+    "软件开发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.jetbrains.com/ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:45:24Z"
+  "updated_at": "2026-03-23T17:14:31.670157Z",
+  "quality_score": 1.0
 }

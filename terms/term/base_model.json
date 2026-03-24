@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型基础",
   "difficulty": "中级",
   "explanations": {
-    "plain": "base_model 是指经过大规模数据预训练、具备通用语言理解与生成能力的初始大语言模型，如 Llama、Qwen 或 BERT。它本身未针对特定任务优化，但为后续微调（如对话、翻译、代码生成）提供坚实基础。普通用户需要知道它，因为绝大多数AI应用并非直接使用原始 base_model，而是基于它定制而来；理解这一概念有助于区分‘通用AI’与‘专用AI’，避免对模型能力产生不切实际的期待。",
+    "plain": "base_model 指经大规模数据预训练、具备通用理解与生成能力的初始模型，如 Llama、BERT。它未针对特定任务优化，是后续微调（如对话、代码生成）的基础。理解此概念有助于区分通用与专用 AI，避免对模型能力产生不切实际的期待。绝大多数 AI 应用均基于它定制。",
     "metaphor": "就像一辆未经改装的高性能汽车底盘——它动力强劲、结构完整，但还没装方向盘、座椅或导航系统，不能直接上路载客，却是一切定制化车型的起点。",
     "example": "某公司用 Qwen2-base 作为 base_model，再用客服对话数据微调，最终部署出能准确解答产品问题的专属客服机器人。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "模型训练",
+    "微调"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/blog/zh/foundation-models",
+    "https://crfm.stanford.edu/2021/08/18/foundation.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:56:25Z"
+  "updated_at": "2026-03-23T14:54:11.264049Z",
+  "quality_score": 0.95
 }

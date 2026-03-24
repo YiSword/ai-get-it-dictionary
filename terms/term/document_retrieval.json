@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "信息检索",
   "difficulty": "中级",
   "explanations": {
-    "plain": "document_retrieval（文档检索）是指从大规模文档集合中快速、准确地找出与用户查询最相关的一组文档的技术。它广泛应用于搜索引擎、企业知识库、法律文书系统和学术数据库等场景。普通用户需要了解这一概念，是因为它直接影响搜索结果的质量——比如输入关键词后能否立刻看到真正有用的内容，而非海量无关信息；理解其原理有助于更有效地构造查询词，提升信息获取效率。",
+    "plain": "文档检索是从大规模文档集合中快速找出与用户查询最相关文档的技术。它是搜索引擎、企业知识库及 RAG 系统的核心组件。该技术直接影响信息获取效率，帮助用户从海量数据中精准定位所需内容。理解其原理有助于优化查询策略，提升搜索结果相关性。",
     "metaphor": "就像图书馆的智能索引员，你只说一句‘找讲量子计算的中文科普书’，他就能绕过上万册藏书，三秒内把最匹配的五本递到你手上。",
     "example": "当你在公司内部Wiki中搜索‘2023年报销流程更新’，文档检索系统会自动过滤掉旧版本、无关政策或英文文档，精准返回最新修订的PDF指南和配套FAQ页面。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "搜索引擎",
+    "知识库",
+    "RAG"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Document_retrieval",
+    "https://python.langchain.com/docs/modules/data_connection/retrievers/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T05:45:59Z"
+  "updated_at": "2026-03-23T14:00:29.176220Z",
+  "quality_score": 0.95
 }

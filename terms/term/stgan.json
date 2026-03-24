@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "STGAN（Spatial-Temporal Generative Adversarial Network）是一种专门用于生成具有空间和时间一致性的视频内容的深度学习模型。它在图像生成基础上扩展，能建模帧间运动与结构变化，常用于人脸表情迁移、人体姿态合成或天气模拟等需要连贯动态效果的任务。普通用户虽不直接接触代码，但会通过AI换脸App、短视频特效工具或虚拟主播生成服务间接使用其技术，理解该术语有助于辨别生成内容的真实性与技术边界。",
+    "plain": "STGAN（Spatial-Temporal GAN）是一种用于生成时空一致视频内容的深度学习模型。它在图像生成基础上扩展，能建模帧间运动与结构变化，常用于人脸表情迁移、人体姿态合成等任务。用户通过 AI 换脸 App 或虚拟主播服务间接使用该技术，理解它有助于辨别生成内容的真实性。",
     "metaphor": "就像一位精通透视与动作规律的动画师，STGAN不仅画出每一帧的人物，还精确规划肢体如何自然移动、光影如何随时间流转。",
     "example": "在一款实时虚拟会议软件中，STGAN将用户静态头像驱动为带自然微表情和唇动的动态3D头像，保持说话时面部细节与时间节奏的一致性。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "视频生成",
+    "计算机视觉",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1903.05622"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:23:07Z",
-  "updated_at": "2026-03-21T09:55:35Z"
+  "updated_at": "2026-03-23T12:58:13.220570Z",
+  "quality_score": 1.0
 }

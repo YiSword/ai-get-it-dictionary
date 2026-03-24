@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "软件工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Localization（本地化）是指将软件、网站或内容适配到特定地区或语言用户的过程，不仅翻译文字，还包括调整日期格式、货币符号、数字写法、颜色偏好、文化禁忌等。普通用户需要了解它，因为本地化直接影响使用体验——比如看到熟悉的节日图标、用本地习惯的地址填写方式，或避免因文化误读产生的尴尬。它让技术产品真正‘懂你’，而不仅是‘说你的语言’。",
+    "plain": "本地化（Localization）指将软件、网站或内容适配至特定目标市场的过程。除语言翻译外，还涉及日期、货币、数字格式及文化元素的调整。旨在确保产品符合当地用户习惯与法律法规，提升用户体验，避免文化误解，使技术产品真正融入当地环境。",
     "metaphor": "就像把一本英文小说改编成中文电影：不仅要配音（翻译），还要换演员、改场景、调整笑点和礼仪细节，让它在本地观众心中自然可信。",
     "example": "苹果公司将iOS系统推向日本市场时，不仅将界面译为日语，还加入了符合日本习惯的输入法、支持年号显示（如‘令和5年’）、默认启用地震预警服务，并将‘分享’按钮图标替换为更符合当地社交习惯的设计。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "软件开发",
+    "用户体验",
+    "国际化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.w3.org/International/",
+    "https://learn.microsoft.com/en-us/windows/apps/design/globalizing/globalizing-portal"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:17:08Z"
+  "updated_at": "2026-03-23T11:21:13.911681Z",
+  "quality_score": 0.95
 }

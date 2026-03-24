@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "FLAN-T5 是谷歌推出的一种经过指令微调（instruction-tuned）的 T5 系列语言模型，专为理解并执行自然语言指令而优化。它在大量任务上展现出强大的零样本和小样本泛化能力，比如问答、摘要、翻译和逻辑推理。普通用户需要知道它，是因为这类模型正驱动着许多智能助手、文档处理工具和自动化写作服务——无需训练或编程，仅用日常语言下达指令，就能获得高质量响应。",
+    "plain": "FLAN-T5 是谷歌推出的指令微调版 T5 模型，专为理解执行自然语言指令优化。它在问答、摘要、翻译等任务上展现强大的零样本和小样本泛化能力。作为智能助手和自动化写作服务的核心驱动，用户无需编程，仅用日常语言下达指令即可获得高质量响应，显著降低了 AI 使用门槛。",
     "metaphor": "就像一位精通多国语言、熟悉各类公文格式且刚完成高强度岗前培训的万能行政助理，你只需用自然话说出需求，它就能准确理解意图并交付规范结果。",
     "example": "用户向集成 FLAN-T5 的笔记应用输入指令：‘把这段会议记录缩写成三点核心结论，每点不超过15字’，模型立即生成简洁、准确的要点摘要。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "指令遵循",
+    "文本生成",
+    "零样本学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/google/flan-t5-base",
+    "https://github.com/google-research/t5x"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:32:28Z"
+  "updated_at": "2026-03-23T18:21:59.396525Z",
+  "quality_score": 0.95
 }

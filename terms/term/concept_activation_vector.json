@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "可解释性",
   "difficulty": "中级",
   "explanations": {
-    "plain": "concept_activation_vector（概念激活向量）是可解释人工智能中的一种技术性表示，用于量化神经网络在处理某个输入时对特定人类可理解概念（如‘条纹’、‘毛发’或‘微笑’）的响应强度。它通常通过分析中间层神经元对一组标注了该概念的样本的平均激活模式而得到。普通用户需要了解它，因为它让黑箱模型的决策过程变得部分透明——例如，当AI将一张图片识别为‘斑马’，我们能知道这一判断在多大程度上依赖于‘条纹’这一视觉概念，从而评估模型是否真正理解了语义，而非依赖数据偏差。",
+    "plain": "概念激活向量（CAV）是可解释人工智能技术，用于量化神经网络对特定人类概念（如条纹、微笑）的响应强度。通过分析中间层神经元对标注样本的平均激活模式得到。它使黑箱模型决策透明化，例如评估 AI 识别斑马时依赖“条纹”概念的程度，帮助判断模型是否理解语义而非依赖数据偏差。",
     "metaphor": "就像给医生提供一份大脑fMRI扫描图，标出‘看到人脸时哪些脑区最活跃’，概念激活向量揭示了AI‘思考’某个概念时，其内部哪些神经元组合被最强烈地唤醒。",
     "example": "在医疗影像诊断模型中，研究者提取‘肿瘤边缘不规则’这一概念的激活向量，随后用它来检验模型是否确实依据该病理特征做出恶性判断，而非偶然关联背景噪声。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "可解释性",
+    "模型评估",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1711.11279",
+    "https://www.tensorflow.org/tutorials/interpretability/tcav"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:47:31Z"
+  "updated_at": "2026-03-23T18:34:23.990450Z",
+  "quality_score": 0.95
 }

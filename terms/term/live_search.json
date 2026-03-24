@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "搜索技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "live_search（实时搜索）是一种用户在输入过程中，系统即时响应并动态展示匹配结果的技术，无需按下回车或点击搜索按钮。它通过前端监听键盘输入、调用后端API或本地索引快速返回相关建议或内容，显著提升搜索效率和交互流畅性。普通用户需要了解它，因为这是现代应用（如电商、文档编辑器、操作系统启动菜单）中提升查找速度、减少操作步骤的关键体验，同时也影响隐私与性能——例如输入时可能已向服务器发送部分关键词。",
+    "plain": "live_search（实时搜索）指用户输入时系统即时响应并动态展示匹配结果的技术，无需按下回车键。通过前端监听输入事件并调用后端 API 或本地索引，快速返回建议。广泛应用于电商、文档编辑等场景，显著提升查找效率与交互流畅性，但需注意频繁请求可能带来的性能与隐私影响。",
     "metaphor": "就像在图书馆里边走边问图书管理员‘有没有讲Python的书？’，还没说完‘Py…’，管理员已经把几本热门Python入门书递到了你手上。",
     "example": "在微信聊天框顶部的搜索栏中输入‘会议’，每敲一个字，下方立刻列出包含该字的历史聊天、群名和联系人，无需等待或确认提交。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "前端开发",
+    "用户体验",
+    "搜索功能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.algolia.com/doc/guides/building-search-ui/what-is-instant-search/js/",
+    "https://www.nngroup.com/articles/instant-search/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:12:05Z"
+  "updated_at": "2026-03-23T15:05:55.940258Z",
+  "quality_score": 0.95
 }

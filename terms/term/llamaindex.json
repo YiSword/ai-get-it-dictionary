@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 开发框架",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LlamaIndex（原名GPT Index）是一个开源Python框架，用于构建基于大语言模型（LLM）的应用程序，核心功能是连接私有或特定领域数据与LLM——它能自动将文档、数据库、API等结构化或非结构化数据索引为LLM可高效检索和理解的格式。普通用户需要了解它，是因为它降低了定制AI助手的门槛：无需从头训练模型，就能让ChatGPT类工具精准回答你自己的PDF、笔记或公司内部资料中的问题。",
+    "plain": "LlamaIndex 是开源 Python 框架，专为构建大语言模型（LLM）应用设计。核心功能是连接私有数据与 LLM，将文档、数据库等索引为可检索格式。它降低了定制 AI 助手门槛，无需训练模型即可让 AI 精准回答基于私有数据的问题，是实现检索增强生成（RAG）的关键工具。",
     "metaphor": "就像给你的个人图书室配了一位精通所有藏书、随时能精准摘录段落并用通俗语言总结的智能图书管理员。",
     "example": "一位律师用LlamaIndex将自己的历年判决书PDF批量导入，再通过自然语言提问‘2023年关于劳动合同违约金的二审改判案例有哪些？’，系统即时返回相关原文片段及摘要。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "RAG",
+    "大模型应用",
+    "开发框架"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.llamaindex.ai/",
+    "https://github.com/run-llama/llama_index"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:13:42Z"
+  "updated_at": "2026-03-23T15:30:53.536197Z",
+  "quality_score": 0.95
 }

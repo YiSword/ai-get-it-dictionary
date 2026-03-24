@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "ai_governance_workbench",
+  "norm_term": "ai_governance_workbench",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "tool",
+  "category": "治理平台",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "AI 治理工作台是集成化软件工具，旨在帮助组织管理 AI 系统生命周期风险。核心功能包括策略定义、模型监控、合规审计和伦理评估，解决数据偏见及法规遵从难题。作为技术与合规的桥梁，它确保 AI 应用符合行业标准，促进负责任 AI 的安全落地，增强用户对自动化决策的信任。",
+    "metaphor": "就像飞机的驾驶舱仪表盘，不仅显示飞行速度，还实时监控引擎健康、燃油消耗和航线合规性，确保整个飞行过程安全无误，防止偏离航道。",
+    "example": "某大型银行在部署自动贷款审批模型时，使用该工具统一管理风险。工作台自动检测模型是否存在性别或地域歧视，记录每次决策日志以满足金融监管审计要求。当模型性能下降或检测到异常数据时，系统会立即发出警报并暂停服务，确保金融服务始终公平、合规且安全。"
+  },
+  "scenario_tags": [
+    "风险管理",
+    "合规审计",
+    "模型监控"
+  ],
+  "sources": [
+    "https://www.nist.gov/itl/ai-risk-management-framework",
+    "https://www.ibm.com/products/open-page-ai-governance"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:55:04.667510Z",
+  "updated_at": "2026-03-23T12:50:28.407825Z",
+  "quality_score": 0.95
+}

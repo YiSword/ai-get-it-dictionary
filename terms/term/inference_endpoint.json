@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型服务",
   "difficulty": "中级",
   "explanations": {
-    "plain": "inference_endpoint 是指部署好的机器学习模型对外提供预测服务的网络地址（通常是一个 HTTPS URL），用户通过向该端点发送输入数据（如文本、图像），即可实时获得模型的推理结果（如分类标签、生成文本）。普通用户需要了解它，是因为它是连接应用与AI能力的‘桥梁’——无需懂模型训练细节，只需调用这个端点，就能在自己的程序、网站或工具中集成智能功能，比如自动翻译、图片识别或情感分析。",
+    "plain": "inference_endpoint 是部署好的机器学习模型对外提供预测服务的网络地址，通常为 HTTPS URL。用户向该端点发送输入数据，即可实时获得推理结果。它是连接应用与 AI 能力的桥梁，无需了解训练细节，只需调用端点即可在程序中集成智能功能，如自动翻译或图片识别。",
     "metaphor": "就像一家24小时营业的智能咖啡机：你只需按下‘美式’按钮（发送请求），它立刻研磨、萃取、出杯（执行推理），而不用知道内部马达、压力阀和豆仓怎么协同工作。",
     "example": "某电商App想为商品图自动打标签，开发者将训练好的图像分类模型部署为 inference_endpoint；当用户上传一张运动鞋照片时，App后台向该端点发起POST请求，几秒内收到返回的标签列表：['sneakers', 'white', 'running']。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型部署",
+    "API 调用",
+    "推理服务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/inference-endpoints",
+    "https://aws.amazon.com/sagemaker/features/endpoints/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:29:17Z"
+  "updated_at": "2026-03-23T18:01:29.449972Z",
+  "quality_score": 0.95
 }

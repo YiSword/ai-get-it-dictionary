@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "replicate 是指精确复制某个数据、系统、行为或实验过程，以确保结果可验证、可靠且一致。在软件开发、数据库管理、科学研究和人工智能训练中，replicate 是保障准确性和可重复性的关键操作。普通用户需要了解它，因为当他们遇到‘无法复现的问题’、同步失败或AI回答不一致时，背后往往涉及 replicate 是否成功——比如手机备份未完整复制照片，或聊天记录在多设备间不同步，本质上都是 replicate 失败的表现。",
+    "plain": "Replicate 指精确复制数据、系统或实验过程，以确保结果可验证、可靠且一致。在 AI 训练与数据库管理中，它是保障准确性与可重复性的关键操作。当用户遇到无法复现的问题或同步失败时，往往涉及 replicate 是否成功，如多设备数据不同步即为复制失败表现。",
     "metaphor": "就像用复印机把一份重要文件逐字逐图地印出多份，每一份都必须和原件完全一样，才能确保任何人拿到哪一份都能看到相同内容。",
     "example": "在使用云笔记应用时，当你在笔记本电脑上编辑一篇笔记后，手机端几乎实时显示相同修改，这依赖后台持续、准确地 replicate 数据变更；若某次网络中断导致部分修改丢失，就出现了 replicate 失败。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据同步",
+    "模型训练",
+    "实验复现"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://cloud.google.com/architecture/replication",
+    "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-options-aws/replication.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:52:51Z",
-  "updated_at": "2026-03-21T09:31:57Z"
+  "updated_at": "2026-03-23T11:19:03.661272Z",
+  "quality_score": 0.95
 }

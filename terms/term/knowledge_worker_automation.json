@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "智能自动化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Knowledge worker automation 指利用软件工具（如AI助手、低代码平台、RPA、智能文档处理等）自动执行知识型工作者日常依赖认知能力完成的任务，例如撰写报告、分析数据、整理会议纪要、生成邮件或做初步研究。它不替代人的判断与创造力，而是减少重复性脑力劳动，提升思考质量和决策效率。普通用户需要了解它，因为越来越多办公场景正被这类自动化渗透——掌握其原理和边界，有助于更高效协作、避免被技术牵着走，并在职业发展中主动驾驭工具而非被工具取代。",
+    "plain": "knowledge_worker_automation 指利用 AI、RPA 等工具自动执行知识型工作者的认知任务，如撰写报告、分析数据。它不替代人的判断，旨在减少重复脑力劳动，提升决策效率。用户需了解其原理，以便高效协作并主动驾驭工具，避免被技术取代。",
     "metaphor": "就像一位经验丰富的研究助理，能快速整理文献、提炼要点、起草初稿，但最终是否采用、如何修改、往哪个方向深入，仍由你这位主研究员拍板决定。",
     "example": "一位市场分析师用AI工具自动抓取竞品官网更新、汇总社交媒体舆情关键词、生成周度简报草稿，再花30分钟审阅修正并加入战略洞察，而非手动耗时4小时收集整理。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "办公效率",
+    "企业服务",
+    "AI 助手"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.gartner.com/en/information-technology/glossary/knowledge-worker-automation",
+    "https://www.ibm.com/automation/intelligent-automation"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:54:58Z"
+  "updated_at": "2026-03-23T14:23:50.283415Z",
+  "quality_score": 0.95
 }

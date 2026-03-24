@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能应用",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Document AI 是一种利用人工智能技术（如计算机视觉、自然语言处理和机器学习）自动理解、提取和结构化非结构化文档内容的技术。它能识别发票、合同、身份证、表格等各类纸质或扫描件中的文字、布局、语义关系，并转化为可搜索、可分析的结构化数据。普通用户需要了解它，因为越来越多的日常服务（如银行开户、保险理赔、税务申报）正依赖 Document AI 快速准确地处理文档，大幅减少手动录入错误和等待时间。",
+    "plain": "Document AI 是利用计算机视觉和自然语言处理等技术，自动理解并结构化非结构化文档内容的技术。它能识别发票、合同等文件中的文字与布局，转化为可分析数据。广泛应用于银行、税务等场景，减少手动录入错误，提升处理效率。",
     "metaphor": "Document AI 就像一位精通上百种文书格式、过目不忘且秒级解析的超级行政助理，不仅能看清字，还能读懂哪是金额、哪是日期、哪是签名。",
     "example": "一家电商公司用 Document AI 自动识别供应商发来的 PDF 发票，提取发票号、总金额、税额和开票日期，直接同步至财务系统，无需人工逐张录入。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "办公自动化",
+    "数据结构化",
+    "企业服务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://cloud.google.com/document-ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T05:45:27Z"
+  "updated_at": "2026-03-23T14:31:49.220931Z",
+  "quality_score": 0.95
 }

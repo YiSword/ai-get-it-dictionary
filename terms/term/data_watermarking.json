@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "data_watermarking",
+  "norm_term": "data_watermarking",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "technique",
+  "category": "数据安全",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "数据水印是一种将不可见标识嵌入数字内容的技术，用于追踪来源、验证真实性及防止未授权滥用。通过在文本、图像或音频中嵌入特定模式，实现内容溯源与版权保护。该技术广泛应用于 AI 生成内容标识、数字版权管理及敏感数据泄露追踪，是保障数据完整性与可信度的关键手段。",
+    "metaphor": "就像在钞票上添加隐形防伪标记，数据水印是在数字内容中隐藏‘数字指纹’，只有特定工具才能检测到，用于区分正版与盗版。",
+    "example": "某新闻机构在发布的电子文档中嵌入水印，当内容被泄露时，可通过提取水印信息定位泄露源头，例如识别出是内部员工还是外部黑客所为。"
+  },
+  "scenario_tags": [
+    "版权保护",
+    "数据溯源",
+    "内容安全"
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Digital_watermarking",
+    "https://csrc.nist.gov/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:55:33.238729Z",
+  "updated_at": "2026-03-23T16:41:25.183068Z",
+  "quality_score": 1.0
+}

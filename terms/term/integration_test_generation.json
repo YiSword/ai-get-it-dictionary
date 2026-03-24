@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "软件测试",
   "difficulty": "中级",
   "explanations": {
-    "plain": "integration_test_generation（集成测试生成）是指自动创建用于验证多个软件模块或组件协同工作是否正确的测试用例的过程。它关注接口、数据流和交互逻辑，而非单个函数或类的内部行为。普通用户（尤其是开发者、测试工程师和DevOps人员）需要了解它，因为手动编写高质量集成测试耗时易错，而自动化生成能提升测试覆盖率、加快交付节奏，并及早暴露模块间兼容性问题，从而增强系统整体稳定性。",
+    "plain": "集成测试生成指自动创建验证多模块协同工作的测试用例过程。它关注接口、数据流和交互逻辑，而非单元内部行为。自动化生成能提升测试覆盖率、加快交付节奏，及早暴露模块间兼容性问题，增强系统稳定性。主要服务于开发者、测试工程师及 DevOps 人员，解决手动编写耗时易错痛点。",
     "metaphor": "就像为一支新组建的乐队自动生成合奏练习曲目——不是单独考核每位乐手的指法，而是确保小提琴、钢琴和鼓在真实演奏中节奏同步、音调和谐。",
     "example": "在一个微服务架构的电商系统中，集成测试生成工具可自动创建测试用例，验证订单服务、库存服务和支付服务在‘下单扣库存并发起支付’这一业务流程中能否正确传递数据、处理异常并保持事务一致性。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自动化测试",
+    "代码生成",
+    "持续集成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ibm.com/topics/integration-testing",
+    "https://github.com/features/copilot"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:36:07Z"
+  "updated_at": "2026-03-23T15:22:41.065454Z",
+  "quality_score": 0.95
 }

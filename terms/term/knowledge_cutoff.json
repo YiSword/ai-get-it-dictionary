@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型能力",
   "difficulty": "中级",
   "explanations": {
-    "plain": "knowledge_cutoff 是指模型训练数据所涵盖的最晚时间点，即模型‘知道’的最新事实或事件的截止日期。它不是模型发布日期，而是其训练语料库中最后一条数据的时间戳。普通用户需要了解这一概念，因为超出该时间之后发生的事件、新发布的产品、政策变更、科学发现或人物动态等，模型无法准确回答，可能产生幻觉或提供过时信息。",
+    "plain": "knowledge_cutoff 指模型训练数据涵盖的最晚时间点，即模型知晓事实的截止日期。它不同于模型发布日期，而是训练语料库的最后时间戳。超出此时间的事件、新产品或政策变更，模型无法准确回答，可能产生幻觉或提供过时信息。了解此概念有助于用户合理预期模型能力，避免误导。",
     "metaphor": "就像一本纸质百科全书的版权页标注‘截至2023年6月’——无论你何时翻开它，书里都不会有之后发生的任何事。",
     "example": "当用户询问‘2024年诺贝尔物理学奖得主是谁？’而模型的 knowledge_cutoff 是2023年10月时，它无法给出正确答案，甚至可能编造一个不存在的结果。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "能力边界",
+    "用户指南"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://help.openai.com/en/articles/6826249-frequently-asked-questions-about-chatgpt",
+    "https://www.anthropic.com/news/claude-3"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:52:54Z"
+  "updated_at": "2026-03-23T15:43:30.701625Z",
+  "quality_score": 0.95
 }

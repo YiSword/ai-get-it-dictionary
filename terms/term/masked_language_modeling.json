@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Masked language modeling（掩码语言建模）是一种自然语言处理中的预训练技术，模型被要求预测句子中被随机遮盖（如用[MASK]标记）的词语，基于上下文推断缺失内容。它让模型学习词语间的语义与语法关系，是BERT等主流语言模型的核心训练方式。普通用户虽不直接操作该技术，但日常使用的智能输入法、翻译工具、搜索推荐等功能背后都依赖此类模型的理解能力，因此了解它有助于理解AI为何能‘读懂’人类语言。",
+    "plain": "掩码语言建模（MLM）是自然语言处理中的预训练技术。模型通过预测句子中被随机遮盖的词语，基于上下文推断缺失内容，从而学习词语间的语义与语法关系。它是 BERT 等主流模型的核心训练方式，支撑了智能输入法、翻译工具等应用背后的语言理解能力。",
     "metaphor": "就像给学生做填空题——遮住文章里的关键词，让他们根据前后句推测原词，从而锻炼真正的语言理解力，而非死记硬背。",
     "example": "当你在搜索引擎中输入‘苹果公司最新发布的iPhone搭载了___芯片’，系统可能利用掩码语言建模预测出‘A17’并自动补全或优化搜索结果。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "预训练",
+    "文本理解",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1810.04805"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:27:14Z"
+  "updated_at": "2026-03-23T12:08:44.159243Z",
+  "quality_score": 0.95
 }

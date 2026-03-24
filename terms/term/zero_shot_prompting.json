@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "提示工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "zero_shot_prompting（零样本提示）是指在不提供任何示例或示范的情况下，直接向大语言模型提出任务指令，让模型仅凭自身预训练知识完成推理或生成。它依赖模型对任务意图的理解能力，而非模仿给定样例。普通用户需要了解它，因为这是最简洁、最常用的与AI交互方式——比如在聊天框里直接说‘把这段话翻译成法语’，无需先给翻译范例，就能快速获得结果。",
+    "plain": "零样本提示（zero_shot_prompting）指在不提供示例的情况下，直接向大语言模型下达指令，使其凭借预训练知识完成任务。它依赖模型对意图的理解而非样例模仿。这是最简洁常用的 AI 交互方式，例如直接要求“翻译这段话”，无需提供范例即可获得结果，适用于快速任务处理。",
     "metaphor": "就像你第一次去咖啡馆点单，只说‘我要一杯不加糖的冰美式’，服务员没看过你的历史订单，却能准确制作——靠的是对通用规则和语言指令的常识性理解。",
     "example": "用户向模型输入：‘判断以下句子的情感倾向：今天阳光真好，心情很愉快。’ 模型未被提供任何标注样本，直接输出‘正面’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "自然语言处理",
+    "人机交互"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://platform.openai.com/docs/guides/prompting",
+    "https://arxiv.org/abs/2005.14165"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:32:51Z"
+  "updated_at": "2026-03-23T15:06:45.545903Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "文档工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "ifeval 是 AsciiDoc 文档处理系统中的一种条件指令，用于在文档编译时根据指定的布尔表达式是否为真来决定是否包含某段内容。它不同于静态的 ifdef 或 ifndef，支持更灵活的逻辑判断（如比较版本号、字符串匹配、环境变量值等）。普通用户需要知道它，是因为在编写跨平台、多版本或可配置的技术文档（如软件手册、API 文档）时，能用它自动筛选适配不同目标读者或构建环境的内容，避免手动维护多个文档分支，提升准确性和维护效率。",
+    "plain": "ifeval 是 AsciiDoc 中的条件预处理指令，用于编译时根据布尔表达式决定是否包含内容。相比 ifdef，它支持版本比较、字符串匹配等复杂逻辑。适用于编写跨平台或多版本技术文档，自动筛选内容，减少手动维护分支，提升文档准确性与效率。",
     "metaphor": "就像一本智能食谱，会根据你冰箱里是否有牛奶、烤箱是否预热成功，实时决定是否显示‘加入牛奶’步骤或跳过‘预热’提醒。",
     "example": "在构建企业版和社区版共用的用户指南时，用 ifeval::[{build-profile} == 'enterprise'] 包裹高级功能说明，确保仅当构建参数为 'enterprise' 时才生成对应章节。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "技术文档",
+    "自动化构建",
+    "标记语言"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://asciidoctor.org/docs/user-manual/#ifeval-directive"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:24:14Z"
+  "updated_at": "2026-03-23T14:29:23.224996Z",
+  "quality_score": 1.0
 }

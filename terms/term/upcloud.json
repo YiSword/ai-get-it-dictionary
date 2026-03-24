@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "UpCloud 是一家总部位于芬兰的云基础设施服务提供商，主要提供高性能、按需付费的虚拟私有服务器（VPS）、块存储、对象存储和托管数据库等 IaaS（基础设施即服务）产品。其特点是强调低延迟、高 I/O 性能和透明定价，尤其适合对网络响应速度和磁盘读写性能有较高要求的应用场景，如实时 Web 应用、游戏服务器或数据密集型开发测试环境。普通用户需要了解它，是因为在选择云主机时，UpCloud 提供了区别于 AWS 或 DigitalOcean 的性能导向替代方案，尤其适合重视实际运行效率而非生态广度的中小开发者和技术团队。",
+    "plain": "UpCloud 是一家芬兰云基础设施服务提供商，主打高性能 VPS、块存储及托管数据库等 IaaS 产品。其特点是低延迟、高 I/O 性能和透明定价，适合对网络响应和磁盘读写要求高的场景，如实时 Web 应用或游戏服务器。为中小开发者提供了区别于 AWS 的性能导向替代方案。",
     "metaphor": "就像一家专注定制跑车引擎的汽车厂商——不卖整车也不做售后维修，但只要你需要极致加速和稳定过弯性能，它的引擎就是少数几个能立刻上赛道的可靠选择。",
     "example": "一位独立开发者为全球用户提供低延迟的实时协作白板应用，选用 UpCloud 位于法兰克福和纽约的高性能 SSD 云服务器部署后端服务，显著降低了 WebSocket 连接延迟和文件同步卡顿现象。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "IaaS",
+    "VPS"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://upcloud.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:41:10Z",
-  "updated_at": "2026-03-21T10:14:44Z"
+  "updated_at": "2026-03-23T13:59:18.480231Z",
+  "quality_score": 0.95
 }

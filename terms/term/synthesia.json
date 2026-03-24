@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 视频生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Synthesia 是一家提供人工智能视频生成服务的公司，其核心产品允许用户通过输入文本，自动生成由AI驱动的数字人（虚拟主播）进行口播的视频，无需摄像机、录音棚或真人出镜。它支持多语言、多种虚拟形象和语音风格，广泛用于企业培训、营销内容、教育讲解等场景。普通用户需要了解它，是因为它大幅降低了专业视频制作的门槛和成本，让个体创作者、小团队甚至非技术人员也能快速产出高质量、个性化的讲解类视频。",
+    "plain": "Synthesia 是一家人工智能视频生成服务公司。其核心产品允许用户输入文本，自动生成由 AI 驱动的数字人口播视频，无需摄像机或真人出镜。支持多语言及多种虚拟形象，广泛用于企业培训、营销内容等场景。它大幅降低了视频制作门槛和成本，使非技术人员也能快速产出高质量个性化视频。",
     "metaphor": "Synthesia 就像一位不知疲倦、精通多国语言、随时待命的虚拟新闻主播——你只需递上稿子，它立刻穿上得体西装、露出自然微笑，用标准发音把内容讲给你听。",
     "example": "一家在线教育公司使用 Synthesia 将课程讲义自动转化为带AI讲师的短视频，30分钟内生成10种语言版本，用于全球学员的入门导学。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "企业培训",
+    "营销内容",
+    "视频创作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.synthesia.io/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:54:21Z",
-  "updated_at": "2026-03-21T09:59:24Z"
+  "updated_at": "2026-03-23T12:19:10.264380Z",
+  "quality_score": 0.95
 }

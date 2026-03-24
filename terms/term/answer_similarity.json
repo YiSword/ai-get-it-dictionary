@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "评估指标",
   "difficulty": "中级",
   "explanations": {
-    "plain": "answer_similarity 是指模型生成的答案与参考答案（或预期答案）在语义、内容和结构上的相似程度，通常通过向量嵌入比对、文本重叠度或语义匹配算法量化。它不依赖字面一致，而是衡量‘是否表达了相同意思’。普通用户需要了解它，因为这直接影响AI回答的可靠性——高 similarity 意味着答案更准确、可信；低 similarity 可能暗示答非所问、事实错误或过度发挥。",
+    "plain": "answer_similarity 是 RAG 系统核心评估指标，衡量生成答案与标准答案的语义相似程度。它不依赖字面匹配，而是通过向量嵌入计算语义一致性。高分代表回答准确可信，低分则可能意味着事实错误或答非所问，常用于优化检索生成流程。",
     "metaphor": "就像两位厨师各自做一道‘番茄炒蛋’，菜名不同、火候有别，但只要色泽、酸甜感和主料搭配高度一致，食客就认为它们‘味道相似’。",
     "example": "在教育类AI助手中，系统用 answer_similarity 评估学生作答与标准解析的语义匹配度，自动判断‘虽然表述不同，但逻辑和结论正确’，从而实现更公平的开放题评分。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "RAG",
+    "评估指标",
+    "语义相似度"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://docs.ragas.io/en/latest/concepts/metrics/answer_similarity.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:37:15Z"
+  "updated_at": "2026-03-23T18:18:03.748328Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型量化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "q4_k_l 是一种量化模型权重的格式，常用于 LLaMA 等开源大语言模型的 GGUF 文件中，表示每个权重参数被压缩为 4 位整数（q4），并采用特定的分组量化策略（k_l 指 'k-quants' 中的 low-rank 优化变体，兼顾精度与内存效率）。普通用户需要了解它，是因为选择该格式可在消费级显卡或 CPU 上以较低内存占用运行较大模型，直接影响本地部署时的速度、显存需求和回答质量之间的权衡。",
+    "plain": "q4_k_l 是 GGUF 格式中的模型量化类型，基于 llama.cpp 框架。它将权重压缩为 4 位整数，属于 k-quants 系列变体之一。该格式旨在优化显存占用与推理质量的平衡，使消费级硬件能运行更大参数量的本地大模型，是用户在进行本地部署时选择量化等级的重要参考指标，直接影响内存需求与生成精度。",
     "metaphor": "就像把一本厚字典缩印成袖珍版——牺牲少量排版细节（精度），但保留全部查词功能（核心能力），还能轻松塞进口袋（适配低配设备）。",
     "example": "当你用 llama.cpp 在一台仅 8GB RAM 的笔记本上加载 7B 参数的 LLaMA 模型时，选用 q4_k_l 格式的 GGUF 文件，可将内存占用压至约 4.5GB，同时保持比更粗粒度量化（如 q2_k）更稳定的推理质量。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型量化",
+    "本地部署",
+    "推理优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/ggerganov/llama.cpp"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T17:26:12Z",
-  "updated_at": "2026-03-21T09:20:45Z"
+  "updated_at": "2026-03-23T13:43:12.051711Z",
+  "quality_score": 0.95
 }

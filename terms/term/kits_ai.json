@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "kits_ai 是指面向开发者的轻量级人工智能工具包，通常以 SDK、CLI 或低代码插件形式提供，封装了预训练模型、常见 AI 功能（如文本生成、图像识别、语音转写）及简化接口。它不追求底层框架的控制力，而是聚焦于‘开箱即用’——让非 AI 专家的工程师或产品团队能快速集成 AI 能力到应用中。普通用户虽不直接接触 kits_ai，但其背后支撑着许多日常 App 中的智能功能（如自动摘要、客服机器人、拍照翻译），了解它有助于理解哪些 AI 功能是可快速落地的，而非必须依赖大型定制模型。",
+    "plain": "kits_ai 是面向开发者的轻量级 AI 工具包，常以 SDK 或 CLI 形式提供。它封装预训练模型与常见功能（如文本生成、图像识别），提供简化接口。聚焦“开箱即用”，帮助非 AI 专家快速集成智能能力到应用中。虽用户不直接接触，但它支撑着自动摘要、客服机器人等日常功能，体现快速落地的 AI 解决方案。",
     "metaphor": "就像厨房里的预制调味包——不用从种香料、研磨、配比开始，拆开就能做出一道有模有样的菜。",
     "example": "一家电商公司使用 kits_ai 的文本生成模块，在商品上架时自动撰写符合平台风格的标题和卖点描述，全程无需组建 AI 团队或训练模型。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "应用开发",
+    "模型集成",
+    "效率工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/search?q=kits_ai"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:50:18Z",
-  "updated_at": "2026-03-21T07:51:22Z"
+  "updated_at": "2026-03-23T17:32:08.419250Z",
+  "quality_score": 0.9
 }

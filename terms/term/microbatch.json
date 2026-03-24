@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "流式计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "microbatch 是一种数据处理模式，指将连续流入的数据按极短时间窗口（如毫秒到秒级）或极小体积（如数百至数千条记录）聚合成小批次进行处理，介于纯流式处理和传统批处理之间。它在保证低延迟的同时，兼顾吞吐量、容错性和状态管理的可行性。普通用户需要了解它，因为越来越多的实时分析系统（如用户行为分析、风控引擎、IoT监控）依赖 microbatch 实现‘近实时’响应，而非真正毫秒级的流处理——这直接影响系统性能、成本与开发复杂度。",
+    "plain": "microbatch 是一种数据处理模式，将连续数据按短时间窗口或小体积聚合成小批次处理。它介于流式与批处理之间，兼顾低延迟与高吞吐量。广泛应用于实时分析、风控及 IoT 监控，是实现‘近实时’响应的关键技术，直接影响系统性能与成本。",
     "metaphor": "就像快递员不等收件人凑满一车才出发，而是每5分钟清点一次刚收到的包裹，打包发出；既避免了单个包裹等太久（纯流式开销大），也不用等到一天结束才统一派送（传统批处理延迟高）。",
     "example": "Apache Spark Structured Streaming 默认采用 microbatch 模式：每2秒将新到达的Kafka消息聚合成一个微批次，执行SQL查询并更新结果表，用于实时统计网站每分钟的点击量。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "实时计算",
+    "大数据",
+    "系统架构"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://spark.apache.org/docs/latest/streaming-programming-guide.html",
+    "https://docs.databricks.com/en/streaming.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:37:58Z"
+  "updated_at": "2026-03-23T11:18:21.553343Z",
+  "quality_score": 0.95
 }

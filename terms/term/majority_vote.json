@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "集成学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "majority_vote（多数投票）是一种集成学习策略，用于合并多个模型（如分类器）的预测结果：每个模型对同一输入独立投票，最终选择得票最多的类别作为整体输出。它能提升预测稳定性与鲁棒性，尤其当单个模型容易出错或存在偏差时。普通用户需要了解它，因为许多实际应用（如垃圾邮件识别、医疗辅助诊断）背后都依赖此类机制来降低误判风险，确保决策更可靠、更贴近群体共识。",
+    "plain": "多数投票是一种集成学习策略，通过合并多个模型的预测结果来提升准确性。每个模型对输入独立投票，最终选择得票最多的类别作为输出。这种方法能增强预测的稳定性与鲁棒性，降低单个模型的误差风险，广泛应用于垃圾邮件识别、医疗诊断等场景，确保决策更可靠。",
     "metaphor": "就像一个陪审团通过公开投票决定被告是否有罪，每个成员独立判断，最终以超过半数的意见为准。",
     "example": "在自动驾驶系统中，多个独立训练的图像识别模型同时判断前方物体是否为行人；majority_vote 综合它们的输出，只有当多数模型确认是行人时，车辆才紧急制动。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "集成学习",
+    "模型融合",
+    "分类算法"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://scikit-learn.org/stable/modules/ensemble.html",
+    "https://en.wikipedia.org/wiki/Ensemble_learning"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:25:02Z"
+  "updated_at": "2026-03-23T18:05:44.819214Z",
+  "quality_score": 0.95
 }

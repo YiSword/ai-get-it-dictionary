@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Grounding DINO 是一种开源的视觉语言模型，能够根据自然语言描述（如‘红色自行车’或‘戴帽子的老人’）在图像中精确定位并框出对应物体，无需预先定义类别。它融合了文本理解与目标检测能力，支持开集识别——即能检测训练时未见过的新概念。普通用户需要了解它，因为它正推动AI从‘认图’迈向‘读懂图+听懂话’，让图像搜索、无障碍辅助、智能标注等应用更直观、更灵活。",
+    "plain": "Grounding DINO 是一款开源的多模态目标检测模型，能根据自然语言描述在图像中精确定位物体，无需预先定义类别。它融合文本理解与视觉检测能力，支持开集识别，可检测训练未见的新概念。适用于图像搜索、智能标注等场景，推动 AI 实现图文深度融合理解。",
     "metaphor": "就像一位精通双语的资深向导，你用日常语言描述‘窗台上晒太阳的橘猫’，它立刻在照片里找出那只猫并画个圈，哪怕它从未专门学过‘橘猫’这个类别。",
     "example": "设计师上传一张室内场景图，输入提示‘把沙发换成深蓝色布艺款’，Grounding DINO 先精准定位原沙发区域，为后续替换提供空间锚点；或视障用户询问‘我的钥匙在哪儿？’，手机摄像头实时分析画面并语音反馈‘钥匙在右下角的木质茶几上’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "目标检测",
+    "多模态",
+    "开源模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/IDEA-Research/GroundingDINO"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:03:04Z"
+  "updated_at": "2026-03-23T15:37:01.018627Z",
+  "quality_score": 1.0
 }

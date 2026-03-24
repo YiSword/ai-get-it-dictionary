@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DistilBERT 是一种轻量级的预训练语言模型，由 Hugging Face 团队于 2019 年提出，通过知识蒸馏技术从原始 BERT 模型中压缩而来，保留约 95% 的性能，但参数量减少 40%，推理速度快 60%，内存占用更低。它专为在资源受限环境（如移动设备、边缘计算或实时应用）中高效运行自然语言处理任务而设计。普通用户无需直接操作它，但其背后支撑着许多日常使用的智能功能——比如聊天机器人快速响应、文档自动摘要、或网页内容情感分析——这些体验的流畅性正得益于 DistilBERT 这类高效模型。",
+    "plain": "DistilBERT 是 Hugging Face 于 2019 年推出的轻量级预训练语言模型。它通过知识蒸馏技术从 BERT 压缩而来，参数量减少 40%，推理速度提升 60%，同时保留约 95% 的性能。专为移动设备、边缘计算等资源受限环境设计，广泛应用于聊天机器人、文档摘要及情感分析等自然语言处理任务，兼顾效率与效果。",
     "metaphor": "就像一位经验丰富的厨师把一本厚达千页的顶级烹饪全书，浓缩成一本精炼实用的速查手册，既保留了核心技法，又省去了冗余细节，让人能更快上手、更省空间。",
     "example": "某新闻聚合 App 使用 DistilBERT 在用户手机本地实时提取每篇报道的关键词并生成一句话摘要，无需上传文本到服务器，兼顾速度、隐私与低功耗。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "知识蒸馏",
+    "模型压缩",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/model_doc/distilbert",
+    "https://arxiv.org/abs/1910.01108"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:43:17Z"
+  "updated_at": "2026-03-23T14:08:37.946781Z",
+  "quality_score": 0.95
 }

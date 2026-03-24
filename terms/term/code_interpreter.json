@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 功能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "code_interpreter 是一种能直接执行用户编写的代码（如 Python）并返回结果的程序组件，常见于 AI 助手或数据分析工具中。它不只理解代码含义，还能实际运行代码、处理数据、绘图或调用内置函数。普通用户需要知道它，是因为它让非程序员也能通过自然语言描述任务（例如‘画出这组数据的折线图’），由系统自动生成并运行代码完成操作，大幅降低技术门槛，提升分析效率和交互灵活性。",
+    "plain": "code_interpreter 是 AI 系统中直接执行用户代码（如 Python）并返回结果的组件。它不仅能理解代码，还能实际运行、处理数据、绘图。用户只需用自然语言描述任务，系统即可自动生成并运行代码，大幅降低技术门槛，提升分析效率，让非程序员也能完成复杂操作。",
     "metaphor": "就像一位随叫随到的编程助手，你口头吩咐任务，它立刻写好代码、按下回车、把结果端到你面前。",
     "example": "用户上传一份 CSV 销售数据后说‘统计各季度销售额并画柱状图’，code_interpreter 自动解析文件、编写 Pandas 和 Matplotlib 代码、执行并返回图表。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据分析",
+    "代码执行",
+    "AI 助手"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://python.langchain.com/docs/modules/agents/tools/code_interpreter",
+    "https://platform.openai.com/docs/guides/code-interpreter"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:38:02Z"
+  "updated_at": "2026-03-23T17:16:29.665813Z",
+  "quality_score": 0.95
 }

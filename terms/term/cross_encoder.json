@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "cross_encoder 是一种自然语言处理模型架构，它将两个文本（如查询和文档）拼接后共同输入一个 Transformer 模型，让模型在深层交互中直接学习它们的语义相关性。与先独立编码再计算相似度的双编码器不同，cross_encoder 能捕捉更细粒度的匹配信号（如指代、否定、词序依赖），因此在排序、问答匹配、语义相似度等任务上精度更高。普通用户需要知道它，是因为许多搜索、推荐和客服系统背后依赖这类技术来提升结果的相关性和准确性。",
+    "plain": "cross_encoder 是一种自然语言处理模型架构。它将查询与文档拼接后共同输入 Transformer，通过深层交互直接计算语义相关性。相比双编码器，它能捕捉更细粒度的匹配信号，精度更高但计算成本较大。常用于搜索排序、问答匹配等任务，显著提升结果相关性。",
     "metaphor": "就像两位专家面对面深入讨论一个问题，而不是各自写完报告再对比摘要。",
     "example": "在搜索引擎中对候选网页进行重排序时，cross_encoder 会把用户的查询‘如何更换自行车刹车片’和每个网页标题+首段内容一起输入，逐个打分，从而选出最匹配的结果。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "信息检索",
+    "模型架构"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.sbert.net/examples/applications/cross-encoder/README.html",
+    "https://huggingface.co/blog/cross-encoder"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:05:41Z"
+  "updated_at": "2026-03-23T12:57:00.425797Z",
+  "quality_score": 0.95
 }

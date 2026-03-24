@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "异常检测（anomaly detection）是一种数据分析技术，用于识别数据中显著偏离正常模式的罕见事件或观测值。它广泛应用于金融风控、网络安全、工业设备监控和医疗诊断等领域，帮助及时发现欺诈交易、黑客入侵、机器故障或早期疾病迹象。普通用户虽不直接操作该技术，但其背后支撑着手机支付安全提醒、信用卡盗刷预警、智能手表心率异常提示等功能，是现代数字生活中隐形的‘守门人’。",
+    "plain": "异常检测是一种机器学习技术，旨在识别数据中显著偏离正常模式的罕见事件或观测值。该技术广泛应用于金融风控、网络安全及工业设备监控等领域，帮助及时发现欺诈、入侵或故障。它是现代数字生活中的隐形守门人，支撑着支付安全与健康预警等功能，保障系统稳定与用户安全。",
     "metaphor": "就像一位经验丰富的图书管理员，在成千上万本整齐排列的书中，一眼就能发现那本封面朝下、位置歪斜的异样书籍。",
     "example": "某银行实时分析客户刷卡行为，当系统检测到同一张卡在10分钟内于相距2000公里的两个城市连续消费时，立即触发异常警报并暂停交易。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "金融风控",
+    "网络安全",
+    "工业监控"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ibm.com/topics/anomaly-detection",
+    "https://en.wikipedia.org/wiki/Anomaly_detection"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:36:30Z"
+  "updated_at": "2026-03-23T16:55:31.035498Z",
+  "quality_score": 0.95
 }

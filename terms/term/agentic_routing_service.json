@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "agentic_routing_service",
+  "norm_term": "agentic_routing_service",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "tool",
+  "category": "代理基础设施",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Agentic Routing Service 是用于多代理系统的智能调度组件。它分析请求特征与代理能力，动态分配任务至最优执行路径，解决资源竞争与效率瓶颈。虽用户不直接操作，但其路由优化能显著提升响应速度与稳定性，广泛应用于智能客服及自动化工作流场景，确保请求被快速精准处理。",
+    "metaphor": "如同城市交通指挥中心，根据实时路况为每辆车规划最佳路线，避免拥堵并缩短通行时间。",
+    "example": "某电商平台使用该技术处理用户咨询：当用户提问物流问题时，路由服务自动将请求分配给物流专用代理；若涉及退款，则转接至财务代理，同时平衡各代理负载防止过载。"
+  },
+  "scenario_tags": [
+    "多代理协作",
+    "任务调度",
+    "智能体架构"
+  ],
+  "sources": [
+    "https://python.langchain.com/docs/how_to/multi_agent",
+    "https://microsoft.github.io/autogen/docs/topics/groupchat/groupchat"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:37:18.196999Z",
+  "updated_at": "2026-03-23T13:02:06.907484Z",
+  "quality_score": 0.95
+}

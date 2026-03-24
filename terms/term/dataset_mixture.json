@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "dataset_mixture 是指将多个来源、格式或分布不同的数据集按特定比例或策略混合组成一个统一训练数据源的技术。它常用于多任务学习、领域自适应或提升模型泛化能力，尤其在大语言模型预训练和微调阶段被广泛采用。普通用户需要了解它，因为数据混合方式会显著影响模型的行为倾向——例如偏向某类语言、领域或风格，进而影响实际使用效果，如回答的专业性、公平性或鲁棒性。",
+    "plain": "dataset_mixture 指将多个来源或分布不同的数据集按特定比例混合成统一训练源的技术。常用于多任务学习、领域自适应及提升模型泛化能力，在大模型预训练和微调中广泛采用。数据混合方式显著影响模型行为倾向，如语言偏好、领域专业性及公平性，进而决定实际使用效果。有助于理解模型能力边界与潜在偏差。",
     "metaphor": "就像调酒师按精确配比混合不同基酒和辅料来调制一款新鸡尾酒，dataset_mixture 是用算法‘配方’把多个数据集‘原料’调配成适合模型‘口味’的训练‘饮品’。",
     "example": "在训练一个医疗问答模型时，研究者可能将 60% 的通用百科文本、25% 的医学教科书语料和 15% 的真实医患对话日志混合为 dataset_mixture，以兼顾知识广度、专业深度与语言自然性。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型",
+    "模型训练",
+    "数据准备"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/datasets",
+    "https://arxiv.org/search/?query=dataset+mixture"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:15:56Z"
+  "updated_at": "2026-03-23T16:41:48.062765Z",
+  "quality_score": 0.95
 }

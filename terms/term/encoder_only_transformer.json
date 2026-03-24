@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型架构",
   "difficulty": "中级",
   "explanations": {
-    "plain": "encoder_only_transformer 是一种仅包含编码器（Encoder）模块的 Transformer 架构，不包含解码器（Decoder）。它通过自注意力和前馈网络对输入序列进行深层上下文建模，输出与输入等长的语义表示。这类模型广泛用于文本分类、命名实体识别、句子相似度等理解型任务。普通用户需要了解它，是因为当前主流的智能助手、搜索推荐和内容审核系统大多依赖此类模型进行语义理解——它虽不生成文字，却是AI‘读懂’人类语言的核心引擎。",
+    "plain": "encoder_only_transformer 是仅含编码器模块的 Transformer 架构，无解码器。它利用自注意力机制对输入序列进行深层上下文建模，输出与输入等长的语义表示。广泛用于文本分类、命名实体识别等理解型任务。作为语义理解核心，支撑搜索推荐等系统的底层理解，虽不生成文字，但能精准读懂人类语言。",
     "metaphor": "就像一位专注阅读和分析的图书编辑，只精读原文、标注重点、提炼主旨，但从不执笔续写或翻译。",
     "example": "BERT 是典型的 encoder_only_transformer，被用于 Gmail 的智能回复候选生成前，先理解你刚收到的邮件语义。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "模型架构",
+    "文本理解"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1810.04805",
+    "https://huggingface.co/docs/transformers/model_summary"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:08:10Z"
+  "updated_at": "2026-03-23T17:05:36.636745Z",
+  "quality_score": 0.95
 }

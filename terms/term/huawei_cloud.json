@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "huawei_cloud 是华为公司提供的全球性云计算服务平台，涵盖计算、存储、网络、数据库、AI、大数据、容器、安全等全栈云服务。它支持企业构建数字化系统、部署应用、弹性扩容和智能化升级。普通用户需要了解它，是因为越来越多的国内App、政务平台、电商后台乃至智能设备的数据处理和运行都依赖华为云基础设施；同时，个人开发者也可通过其低门槛服务快速上线项目。",
+    "plain": "华为云是华为提供的全球性云计算服务平台，涵盖计算、存储、网络、AI 等全栈云服务。它支持企业数字化系统构建、应用部署与弹性扩容，也为个人开发者提供低门槛项目上线服务。众多国内应用及智能设备的数据处理均依赖其基础设施，是行业领先的云服务提供商。",
     "metaphor": "就像一座为数字世界供电的智能城市——华为云提供电力（算力）、水管（网络带宽）、仓库（云存储）和交通调度系统（AI与自动化运维）。",
     "example": "某初创公司使用华为云的ECS（弹性云服务器）和ModelArts平台，在一周内完成AI客服系统的开发、训练与上线，无需自建机房或采购GPU硬件。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "企业服务",
+    "基础设施"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.huaweicloud.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:36:34Z",
-  "updated_at": "2026-03-21T07:15:37Z"
+  "updated_at": "2026-03-23T12:14:55.342899Z",
+  "quality_score": 0.95
 }

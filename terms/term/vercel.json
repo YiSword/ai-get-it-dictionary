@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云平台",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Vercel 是一个专注于现代 Web 应用（尤其是基于 React、Next.js、SvelteKit 等框架构建的应用）的云平台，提供一键部署、自动 HTTPS、全球 CDN 加速、无服务器函数支持和即时预览等功能。它大幅简化了前端和全栈应用的上线流程，让开发者无需配置服务器或运维基础设施即可快速发布、测试和迭代产品。普通用户（尤其是独立开发者、初创团队或学习者）需要知道它，因为它降低了技术门槛，使‘写完代码 → 分享链接’只需几秒，极大提升了开发效率与协作体验。",
+    "plain": "Vercel 是专注于现代 Web 应用的云平台，支持 React、Next.js 等框架。提供一键部署、自动 HTTPS、全球 CDN 及无服务器函数。它简化了前端和全栈应用上线流程，开发者无需配置服务器即可快速发布。适合独立开发者及团队，极大提升开发效率与协作体验，实现‘写完代码即分享’。",
     "metaphor": "Vercel 就像一位精通多国语言、自带翻译器和全球快递网络的出版经纪人：你把书稿（代码）交给他，他立刻排版（构建）、翻译（优化）、印制（部署），并同步寄送到世界各地读者手中（CDN 分发）。",
     "example": "一位开发者用 Next.js 写了一个个人博客，将代码推送到 GitHub 后，只需在 Vercel 控制台导入仓库，几秒钟内就获得一个带自定义域名和 HTTPS 的可访问网址，且每次推送新代码都会自动重新部署。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "前端开发",
+    "云部署",
+    "Serverless"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://vercel.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:18:05Z",
-  "updated_at": "2026-03-21T10:16:53Z"
+  "updated_at": "2026-03-23T12:43:49.310108Z",
+  "quality_score": 0.95
 }

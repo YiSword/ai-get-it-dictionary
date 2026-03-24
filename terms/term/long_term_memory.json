@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "核心概念",
   "difficulty": "中级",
   "explanations": {
-    "plain": "long_term_memory（长期记忆）是人工智能系统中用于持久化存储和检索关键信息的机制，区别于短期上下文窗口。它允许模型记住用户偏好、历史交互、重要事实或任务目标，并在后续对话中主动调用，从而提供更连贯、个性化和上下文感知的服务。普通用户需要了解它，因为这直接影响AI是否‘记得’自己的需求（如会议时间、饮食禁忌），避免重复说明，提升使用效率与体验。",
+    "plain": "长期记忆是 AI 系统中持久化存储和检索关键信息的机制，区别于短期上下文窗口。它使模型能记住用户偏好、历史交互及重要事实，并在后续对话中主动调用。这确保了服务的连贯性与个性化，避免用户重复说明需求，显著提升交互效率与体验。",
     "metaphor": "就像人的大脑把重要经历存入长期记忆库，AI的long_term_memory是它的个人笔记本，只记录真正有用的信息，并在需要时自动翻出来参考。",
     "example": "用户多次告诉AI自己对花生过敏，系统将该信息存入long_term_memory；之后当用户询问零食推荐时，AI会自动过滤含花生的产品并主动说明原因。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "智能体",
+    "系统架构"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://python.langchain.com/docs/modules/memory/",
+    "https://arxiv.org/abs/2305.16907"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T08:19:03Z"
+  "updated_at": "2026-03-23T18:09:54.008176Z",
+  "quality_score": 0.95
 }

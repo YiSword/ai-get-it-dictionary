@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "account_based_marketing_agent",
+  "norm_term": "account_based_marketing_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "AI 营销应用",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "基于账户的营销代理（ABM Agent）是利用 AI 优化企业营销策略的工具。它通过分析目标账户数据，自动识别高价值客户并生成个性化内容，精准触达决策者。相比传统广撒网模式，它将资源集中于高潜力群体，显著提升营销效率与转化率，是现代企业实现精准营销的关键 AI 应用。",
+    "metaphor": "如同配备智能雷达的销售精英，既能扫描整个市场海域，又能锁定特定船只进行定制化沟通，避免盲目发射营销信号弹。",
+    "example": "某 SaaS 企业使用 ABM Agent 分析 Fortune 500 客户数据，自动生成针对 CTO 的技术白皮书和针对采购总监的成本效益报告，使销售转化率提升 40%。"
+  },
+  "scenario_tags": [
+    "B2B 营销",
+    "营销自动化",
+    "人工智能"
+  ],
+  "sources": [
+    "https://www.hubspot.com/account-based-marketing",
+    "https://www.salesforce.com/products/marketing-cloud/ai/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:06:10.569500Z",
+  "updated_at": "2026-03-23T17:13:50.835554Z",
+  "quality_score": 1.0
+}

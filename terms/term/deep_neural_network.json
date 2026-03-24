@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "深度神经网络（Deep Neural Network, DNN）是一种由多个隐藏层组成的机器学习模型，能自动从大量数据中逐层提取抽象特征，例如从像素中识别边缘、形状，最终判断图像内容。它支撑着现代人工智能的许多核心能力，如语音助手听懂指令、手机相册自动分类人物、推荐系统精准推送内容。普通用户无需理解其数学细节，但了解DNN有助于理性看待AI的能力边界——它依赖数据质量与规模，可能出错或产生偏见，而非真正‘理解’世界。",
+    "plain": "深度神经网络（DNN）是含多个隐藏层的机器学习模型，能逐层提取数据抽象特征，如识别图像边缘或语音指令。作为现代 AI 核心，它支撑人脸识别、推荐系统等功能。但 DNN 依赖大量数据，可能存在偏见，并非真正理解世界。了解其原理有助于理性看待 AI 能力边界。",
     "metaphor": "就像一位经验丰富的画家，先用粗线条勾勒轮廓，再层层叠加色彩与细节，最终完成一幅写实画作；DNN也通过多层‘思考’，从原始输入中逐步提炼出越来越复杂的模式。",
     "example": "微信的‘拍一拍识物’功能使用深度神经网络实时分析手机摄像头捕捉的植物照片，数秒内识别出具体品种并返回养护信息。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "深度学习",
+    "模型架构",
+    "人工智能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/深度神经网络",
+    "https://developers.google.com/machine-learning/glossary"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:22:26Z"
+  "updated_at": "2026-03-23T14:07:03.785975Z",
+  "quality_score": 0.95
 }

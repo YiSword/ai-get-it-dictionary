@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能伦理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Fairness（公平性）在技术领域，尤其是人工智能和算法系统中，指模型的决策或输出不应因个体的敏感属性（如种族、性别、年龄、地域等）而产生系统性偏见或歧视。它关注的是不同群体是否被平等对待，结果是否公正可解释。普通用户需要了解公平性，因为算法已深度嵌入招聘、信贷、司法、医疗等关键生活场景——若系统不公平，可能导致某些人群被错误拒绝贷款、遭遇更高假阳性率的安检筛查，或在求职中被隐性过滤，进而加剧社会不公。",
+    "plain": "公平性指 AI 系统决策不应因种族、性别等敏感属性产生系统性偏见，确保不同群体被平等对待。在招聘、信贷、司法等关键场景中，算法不公平可能导致特定人群遭受歧视或错误拒绝，加剧社会不公。关注公平性有助于维护个体权益与社会正义。",
     "metaphor": "就像一把标尺，公平性要求它对所有人使用相同的刻度和校准方式，而不是悄悄为某些人加长、为另一些人缩短。",
     "example": "某银行使用AI审批房贷申请，但模型历史训练数据中女性申请人获批率显著偏低；经公平性评估发现，模型间接依赖与性别高度相关的邮政编码特征，导致对特定社区女性的系统性低估——团队随后引入公平性约束重新训练模型，使各性别群体的批准率差异缩小至统计不可识别水平。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "人工智能",
+    "伦理安全",
+    "算法治理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.microsoft.com/en-us/research/project/fairness-checklist/",
+    "https://www.nist.gov/itl/ai-risk-management-framework"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:21:47Z"
+  "updated_at": "2026-03-23T16:32:55.262630Z",
+  "quality_score": 0.95
 }

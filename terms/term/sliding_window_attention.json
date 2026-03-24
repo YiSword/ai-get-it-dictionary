@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "注意力机制",
   "difficulty": "中级",
   "explanations": {
-    "plain": "sliding_window_attention 是一种优化 Transformer 模型注意力计算的技术，它限制每个 token 只关注其前后固定长度窗口内的其他 token，而非整个序列。这显著降低了计算复杂度和内存占用，尤其在处理长文本（如法律文档、长代码文件或医学记录）时至关重要。普通用户需要知道它，因为这项技术正被广泛用于提升手机端 AI 应用的响应速度、降低功耗，并让长上下文对话、实时语音转写等体验更流畅可靠。",
+    "plain": "sliding_window_attention 是一种优化 Transformer 注意力计算的技术。它限制每个 token 只关注前后固定窗口内的 token，而非整个序列。这显著降低了计算复杂度和内存占用，特别适合处理长文本。该技术广泛用于提升移动端 AI 响应速度、降低功耗，并优化长上下文对话及实时语音转写体验。",
     "metaphor": "就像阅读一本书时，你不会每次抬头都扫视整页文字，而是只聚焦当前句及其前后一两行——滑动窗口注意力让模型也以这种‘视线聚焦’方式高效处理信息。",
     "example": "在 Llama-3-8B-Instruct 模型中启用 4096 长度的 sliding_window_attention，使其能在消费级显卡上实时处理长达万字的技术文档摘要任务，而传统全量注意力会因显存溢出而失败。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "长文本处理",
+    "模型优化",
+    "Transformer"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/2004.05150",
+    "https://huggingface.co/blog/mistral-7b"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:25:09Z",
-  "updated_at": "2026-03-21T09:46:15Z"
+  "updated_at": "2026-03-23T12:57:00.539953Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Gemini 是 Google 开发的一系列大型语言模型（LLM），具备多模态理解能力，能处理文本、图像、音频、视频和代码等多种输入形式。它分为 Ultra、Pro 和 Nano 三个版本，分别面向不同性能与部署需求。普通用户需要了解 Gemini，因为它已深度集成到 Google 搜索、Gmail、Docs、Android 系统等日常工具中，直接影响信息获取、内容创作和人机交互的效率与体验——例如用自然语言快速整理邮件、生成文档草稿或解析截图中的文字。",
+    "plain": "Gemini 是 Google 推出的多模态大语言模型，支持文本、图像、音频及代码处理。提供 Ultra、Pro、Nano 三种版本以满足不同性能需求。已集成于 Google 搜索、Gmail 及 Android 系统，辅助用户高效完成邮件整理、文档生成及信息解析，优化日常人机交互体验。",
     "metaphor": "就像一位精通多种语言、能同时阅读图文、听懂语音、看懂视频，并随时为你写报告、做总结的全能智能助理。",
     "example": "用户在手机上截取一张餐厅菜单图片，用 Gemini 功能一键识别菜名、翻译成英文，并生成‘推荐3道适合素食者的菜品’的简明建议。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态处理",
+    "智能助手",
+    "内容生成"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://blog.google/technology/ai/google-gemini-ai/",
+    "https://ai.google.dev/gemini-api"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:44:00Z"
+  "updated_at": "2026-03-23T17:29:03.974870Z",
+  "quality_score": 0.95
 }

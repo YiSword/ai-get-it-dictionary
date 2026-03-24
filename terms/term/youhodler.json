@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "加密货币金融",
   "difficulty": "中级",
   "explanations": {
-    "plain": "YouHodler 是一家提供加密货币金融服务的平台，支持加密资产抵押借贷、法币兑换、收益生成（如质押和杠杆储蓄）以及多链资产交易。它允许用户无需出售加密货币即可获得流动性，例如用比特币作抵押借出稳定币。普通用户需要了解 YouHodler，因为它代表了一类典型的中心化加密金融（CeFi）服务提供商——操作便捷但需信任平台托管资产，其安全性、监管合规性及破产风险直接影响用户资金安全。",
+    "plain": "YouHodler 是一家中心化加密货币金融服务平台，提供抵押借贷、法币兑换及收益生成服务。用户可通过抵押加密资产获取流动性而无需出售。作为典型 CeFi 平台，其便捷性高但需信任托管，用户应关注其安全性与合规风险。",
     "metaphor": "就像一家数字时代的当铺：你把加密货币‘典当’给平台，立刻拿到现金或稳定币应急，到期还能赎回，但要付利息并承担对方跑路或倒闭的风险。",
     "example": "一位持有0.5枚BTC的用户在YouHodler上抵押该资产，借出5,000 USDC用于短期投资，同时设置自动还款提醒，避免因价格下跌触发强制平仓。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "加密货币",
+    "金融借贷",
+    "CeFi"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.youhodler.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:20:50Z",
-  "updated_at": "2026-03-21T10:31:30Z"
+  "updated_at": "2026-03-23T16:42:35.753403Z",
+  "quality_score": 0.95
 }

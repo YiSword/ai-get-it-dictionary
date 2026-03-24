@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "deepseek_r1",
+  "norm_term": "deepseek_r1",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "推理型大模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "deepseek_r1 是深度求索推出的推理型大语言模型。基于强化学习训练，显著增强逻辑推理、数学解题及代码生成能力。在保持高性能同时优化计算效率，支持长上下文处理。作为开源模型，广泛应用于科研、开发及复杂任务场景，是生成式人工智能领域的重要成果。",
+    "metaphor": "就像给计算机装上了经过专业训练的'语言大脑'，它能像资深编辑般理解文章脉络，又如同学术导师般解析复杂问题，但处理速度远超人类。",
+    "example": "某电商平台接入 deepseek_r1 后，其智能客服能准确理解'我想找适合夏天穿的透气运动鞋，预算 500 元左右'这类复合需求，自动筛选商品并生成个性化推荐话术，使咨询转化率提升 40%。"
+  },
+  "scenario_tags": [
+    "逻辑推理",
+    "代码生成",
+    "自然语言处理"
+  ],
+  "sources": [
+    "https://www.deepseek.com/",
+    "https://github.com/deepseek-ai"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:31:33.723901Z",
+  "updated_at": "2026-03-23T12:01:46.076207Z",
+  "quality_score": 0.95
+}

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "托管服务",
   "difficulty": "中级",
   "explanations": {
-    "plain": "wp_engine 是一家专注于 WordPress 网站托管与管理服务的美国技术公司，提供高性能、高安全性、自动更新和一键式缓存优化的托管平台。它并非 WordPress 官方组件，而是第三方商业托管服务商，专为中高端企业、媒体和电商类 WordPress 站点设计。普通用户需要了解它，是因为选择 wp_engine 而非通用虚拟主机，意味着获得更少的技术运维负担、更强的抗攻击能力、更快的全球访问速度，以及官方 WordPress 核心团队认可的兼容性保障。",
+    "plain": "WP Engine 是一家专注于 WordPress 的托管服务提供商，提供高性能、高安全性及自动更新服务。作为第三方商业服务，它适合中高端企业站点，能显著减少运维负担，提升访问速度与安全性，并获得官方认可的兼容性保障。",
     "metaphor": "就像为一辆高性能跑车配备专属赛车级维修站和专业车队支持，而不是停在普通路边修车铺——wp_engine 不只是‘停车’的地方，而是让 WordPress 网站始终以最佳状态飞驰的全栈护航系统。",
     "example": "一家月流量超百万的新闻博客将原有自建 WordPress 站点迁移到 wp_engine，随后页面加载速度提升 60%，成功抵御了多次大规模 DDoS 攻击，且无需工程师手动处理核心更新或插件兼容问题。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "网站托管",
+    "WordPress",
+    "企业服务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://wpengine.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:48:49Z",
-  "updated_at": "2026-03-21T10:28:48Z"
+  "updated_at": "2026-03-23T17:23:59.662976Z",
+  "quality_score": 1.0
 }

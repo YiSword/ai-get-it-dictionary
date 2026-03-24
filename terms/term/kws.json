@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "语音技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "KWS 是 Keyword Spotting（关键词唤醒/检测）的缩写，指语音系统实时监听音频流，在不持续录音或上传云端的前提下，自动识别预设的特定词语（如‘小爱同学’‘Alexa’）的技术。它是智能音箱、手机语音助手等设备实现低功耗、隐私友好型语音唤醒的核心能力。普通用户需要了解它，因为KWS直接决定了设备何时开始响应、是否误触发、能否在离线状态下保护对话隐私。",
+    "plain": "KWS 即 Keyword Spotting（关键词检测），指语音系统实时监听音频流，自动识别预设特定词语（如“小爱同学”）的技术。它是智能音箱、手机语音助手实现低功耗、隐私友好型语音唤醒的核心能力。KWS 决定了设备何时响应、是否误触发及能否离线保护隐私，是语音交互的第一道门槛。",
     "metaphor": "就像门卫只在听到正确暗号时才开门放行，KWS是语音系统的‘听觉门禁’，对其他声音充耳不闻，只对指定关键词瞬间‘警觉’。",
     "example": "当你对着智能音箱说‘嘿 Siri’时，设备本地运行的KWS模型立刻识别出该短语，随即启动语音识别模块并开始录音；整个过程无需联网，且不会将背景杂音上传至服务器。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语音助手",
+    "智能硬件",
+    "隐私保护"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Keyword_spotting",
+    "https://cloud.google.com/speech-to-text/docs/keyword-spotting"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:58:21Z"
+  "updated_at": "2026-03-23T15:58:46.158320Z",
+  "quality_score": 0.95
 }

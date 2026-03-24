@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "calculator_tool 是一种软件功能或接口，允许程序在运行时执行数学计算（如加减乘除、幂运算、三角函数等），而无需用户手动输入公式或调用底层编程语言的数学库。它常被集成在AI助手、自动化工作流或低代码平台中，使非技术人员也能通过自然语言指令触发精确计算。普通用户需要了解它，是因为它能快速将模糊的查询（如‘帮我算下327乘以48’）转化为可靠结果，避免手动计算错误或切换应用的麻烦，提升日常办公、学习和决策效率。",
+    "plain": "calculator_tool 是集成在 AI 助手或自动化平台中的软件功能，允许通过自然语言指令触发精确数学计算（如加减乘除、三角函数等）。它无需用户手动输入公式或切换应用，直接将模糊查询转化为可靠结果，避免手动计算错误，显著提升办公、学习和决策效率，是 AI Agent 执行具体任务的基础工具之一。",
     "metaphor": "就像厨房里一个随时待命的智能电子秤+计算器二合一设备，你只需说出食材重量和比例，它立刻给出配比结果，不用自己翻公式或按计算器。",
     "example": "用户向AI助手提问：‘如果月租金5800元，押一付三，还要加2000元中介费，总共要准备多少钱？’，calculator_tool 自动解析并计算出 5800 × 4 + 2000 = 25200 元。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 助手",
+    "自动化工作流",
+    "效率提升"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://python.langchain.com/docs/modules/agents/tools/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:17:17Z"
+  "updated_at": "2026-03-23T17:20:33.662555Z",
+  "quality_score": 0.95
 }

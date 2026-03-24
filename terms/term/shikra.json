@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "多模态模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Shikra 是一个开源的多模态大模型框架，专注于将视觉（图像）与语言（文本）能力无缝融合，支持图像理解、视觉问答、图文生成等任务。它基于 LLaVA 等先进架构演进而来，强调轻量化部署与高效微调能力。普通用户需要了解 Shikra，是因为它代表了当前 AI 工具向‘看懂并理解现实世界’迈出的关键一步——比如用手机拍一张电路板照片，就能自动识别故障点并用中文解释原因，无需专业图像处理知识。",
+    "plain": "Shikra 是一款开源多模态大模型，专注视觉与语言融合及细粒度视觉定位。基于 LLaVA 架构，支持图像理解、视觉问答等任务。它能精准识别图像中物体位置并解释，如拍摄电路板照片即可自动定位故障点并用中文说明，降低了专业视觉任务的使用门槛，是 AI 理解现实世界的关键工具。",
     "metaphor": "Shikra 就像一位精通双语（图像和文字）且带速记本的万能助理：你递张照片，它立刻读懂画面内容，并用你熟悉的语言条理清晰地作答。",
     "example": "用户上传一张超市货架照片，Shikra 能准确识别出‘无糖可乐缺货’，并建议‘附近便利店有库存，步行2分钟可达’。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多模态理解",
+    "视觉定位",
+    "开源模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/shikras/shikra",
+    "https://arxiv.org/abs/2306.15195"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:46:55Z",
-  "updated_at": "2026-03-21T09:44:32Z"
+  "updated_at": "2026-03-23T18:28:35.302788Z",
+  "quality_score": 1.0
 }

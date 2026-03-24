@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发平台",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AI Studio 是指由云服务商或科技公司提供的集成化人工智能开发与应用平台，它集成了模型训练、部署、调试、监控及可视化等工具，降低AI技术使用门槛。普通用户（如业务人员、产品经理或初级开发者）无需深入掌握底层算法或工程细节，即可快速构建、测试和上线AI功能，比如智能客服、图像识别或数据分析助手。了解AI Studio有助于非技术背景者参与AI项目协作，评估可行性，并更高效地将AI能力融入实际业务场景。",
-    "metaphor": "AI Studio 就像一个智能化的‘厨房工作室’——你不必从种小麦、磨面粉开始，只需选择食材（数据）、调用预制菜谱（预训练模型）和智能厨电（可视化工具），就能做出一道可上桌的AI‘菜品’。",
-    "example": "某电商公司的运营人员在百度AI Studio中，上传历史促销数据，拖拽式配置时间序列预测模型，30分钟内生成下季度销量预测看板，并嵌入内部BI系统供决策参考。"
+    "plain": "AI Studio 是由云服务商提供的集成化人工智能开发平台，集模型训练、部署、监控等工具于一体。它降低 AI 使用门槛，用户无需搭建环境或掌握底层细节，即可快速构建智能客服、图像识别等应用，加速业务智能化落地。",
+    "metaphor": "AI Studio 就像一个‘AI厨房’——备好了灶台（计算资源）、厨具（开发工具）、食谱（预置模型）和试吃区（在线调试），让不会做菜的人也能做出一道可上桌的智能菜品。",
+    "example": "某电商运营人员在百度AI Studio中，仅用拖拽组件和上传商品描述数据，30分钟内就搭建了一个自动优化商品标题的文本生成模型，并直接部署到后台系统中使用。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型开发",
+    "云服务",
+    "低代码开发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://ai.baidu.com/",
+    "https://azure.microsoft.com/zh-cn/products/ai-studio"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:28:56Z"
+  "updated_at": "2026-03-23T14:47:04.602024Z",
+  "quality_score": 0.95
 }

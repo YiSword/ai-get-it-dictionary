@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "数据工程",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Dagster 是一个开源的、面向数据工程的编排框架，用于构建、测试、监控和部署可靠的数据管道。它将数据工作流建模为有向无环图（DAG），但更强调数据资产（如表、模型、指标）的声明式定义与依赖关系，而非单纯的任务调度。普通用户——尤其是数据工程师、分析师和ML工程师——需要了解 Dagster，因为它能显著提升数据管道的可维护性、可观测性和协作效率，避免‘黑盒式’ETL带来的调试困难和生产事故。",
+    "plain": "Dagster 是一个开源的数据编排框架，专为构建可靠的数据管道设计。它将工作流建模为有向无环图，强调数据资产的声明式定义而非单纯任务调度。适用于数据工程师和 ML 工程师，能提升管道的可维护性与可观测性，避免黑盒 ETL 问题，支持测试、监控和部署全流程。",
     "metaphor": "就像一位严谨的餐厅后厨主管，不仅安排厨师按顺序做菜（任务调度），还实时追踪每道菜用了哪些食材、是否新鲜、谁负责哪一步，并在某道菜出问题时立刻定位到具体原料或工序。",
     "example": "一家电商公司用 Dagster 定义从用户点击日志采集、实时清洗、特征计算到机器学习模型训练的完整流程，当下游推荐模型准确率下降时，系统可自动追溯并高亮显示是上游某个清洗逻辑变更导致特征分布偏移。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "数据管道",
+    "编排工具",
+    "开源软件"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://dagster.io/",
+    "https://github.com/dagster-io/dagster"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:57:13Z",
-  "updated_at": "2026-03-21T05:09:21Z"
+  "updated_at": "2026-03-23T11:59:56.353131Z",
+  "quality_score": 0.95
 }

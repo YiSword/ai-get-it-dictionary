@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "DBRX 是由 Databricks 开发的开源混合专家（MoE）架构大语言模型，具备高推理效率与强多任务能力。它采用动态稀疏激活机制，在每次推理中仅调用部分专家子网络，从而在保持高性能的同时降低计算开销。普通用户需要了解 DBRX，因为它代表了当前开源大模型在性价比、可部署性和实际应用落地（如企业私有化部署、低成本API服务）方面的重要突破，直接影响开发者选择模型时的性能、成本与维护复杂度权衡。",
+    "plain": "DBRX 是 Databricks 发布的开源混合专家（MoE）大语言模型。它采用动态稀疏激活机制，仅调用部分专家子网络，在保持高性能的同时降低计算开销。该模型在性价比和可部署性上表现突出，适合企业私有化部署及低成本 API 服务，是开发者权衡性能与成本的重要选择。",
     "metaphor": "就像一家智能餐厅，顾客点单时只唤醒对应菜系的厨师（如川菜组或甜点组），而非让所有厨师同时开工，既保证出菜质量，又节省人力和厨房能耗。",
     "example": "一家金融科技公司使用 DBRX 在自有服务器上部署合规问答系统，处理客户关于投资条款的实时咨询，相比同等性能的稠密模型，其GPU显存占用减少约40%，推理延迟稳定低于800ms。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "企业级应用",
+    "开源模型",
+    "高效推理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.databricks.com/blog/dbrx-new-state-of-the-art-open-llm"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:16:47Z"
+  "updated_at": "2026-03-23T16:47:59.961277Z",
+  "quality_score": 0.95
 }

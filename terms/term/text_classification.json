@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "自然语言处理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "text_classification 是一种自然语言处理技术，指让计算机自动将一段文本归入预定义的类别中，例如判断一条评论是‘正面’还是‘负面’，或识别一封邮件是否为‘垃圾邮件’。它支撑着大量日常应用，如社交媒体内容审核、智能客服自动分单、新闻推荐等。普通用户虽不直接操作该技术，但其体验（如收到精准推送、避开骚扰信息）高度依赖它的准确性和可靠性。",
+    "plain": "文本分类是自然语言处理核心技术，指计算机自动将文本归入预定义类别。典型应用包括情感分析（如评论正负判断）、垃圾邮件识别及内容审核。它支撑智能客服分单与新闻推荐，用户虽不直接操作，但精准推送与信息安全体验高度依赖其准确性。",
     "metaphor": "就像图书管理员根据内容快速把新书归入‘小说’‘历史’或‘科普’书架，文本分类是计算机为每段文字‘贴标签’的过程。",
     "example": "电商平台用文本分类分析用户评论，自动标记‘好评’‘中评’‘差评’，从而实时监控商品口碑并触发售后响应。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "机器学习",
+    "情感分析"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Text_classification",
+    "https://huggingface.co/tasks/text-classification"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:04:52Z"
+  "updated_at": "2026-03-23T14:28:54.326483Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "语言",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Pali 是一种古代印度-雅利安语言，约公元前3世纪起成为南传佛教（上座部佛教）经典的专属书面语，佛陀的教法最初由弟子口传，后以Pali语定型为《巴利三藏》。它不是日常口语，而是一种高度规范化的宗教经典语言，类似拉丁语之于中世纪欧洲教会。普通用户需要了解Pali，是因为几乎所有斯里兰卡、缅甸、泰国、老挝、柬埔寨等地的佛教修行、诵经、学术研究及寺院教育都以Pali文本为基础——理解Pali是直溯原始佛典、避免翻译失真或文化转译偏差的关键入口。",
+    "plain": "巴利语（Pali）是一种古代印度 - 雅利安语言，约公元前 3 世纪起成为南传佛教经典的专属书面语。佛陀教法最初口传，后以巴利语定型为《巴利三藏》。它非日常口语，而是高度规范化的宗教经典语言，类似拉丁语之于中世纪教会。理解巴利语是直溯原始佛典、避免翻译失真的关键入口，广泛用于斯里兰卡、缅甸等地佛教修行及学术研究。",
     "metaphor": "Pali 就像佛教世界的‘拉丁文’：不用于买菜聊天，却是千年法义得以准确保存、跨地域传承的密码本。",
     "example": "一位泰国比丘每日清晨诵念的《皈依文》和《戒本》，原文全部用Pali写成；学者若要考证某段经文在不同南传国家版本中的异同，必须直接比对Pali原典而非各国译本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "佛教",
+    "语言学",
+    "宗教"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pali",
+    "https://www.palitext.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:37:30Z",
-  "updated_at": "2026-03-21T09:04:34Z"
+  "updated_at": "2026-03-23T16:00:16.071629Z",
+  "quality_score": 0.95
 }

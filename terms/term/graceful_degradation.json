@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "前端开发",
   "difficulty": "中级",
   "explanations": {
-    "plain": "graceful_degradation（优雅降级）是一种前端开发策略，指当用户使用的浏览器或设备不支持某些新特性时，网页仍能以简化但功能完整的方式正常运行，而非直接崩溃或显示空白。它通过优先保障核心内容与基本交互可用，再为高级环境添加增强体验，确保不同技术条件下的用户都能获得可接受的服务。普通用户需要知道它，是因为这直接关系到他们能否在旧手机、低版本浏览器或弱网环境下顺畅访问网站，而不被强制升级或拒之门外。",
+    "plain": "优雅降级是一种前端开发策略，指当用户浏览器或设备不支持某些新特性时，网页仍能以简化但功能完整的方式正常运行。它优先保障核心内容与基本交互可用，再为高级环境添加增强体验，确保不同技术条件下的用户都能获得可接受的服务，避免旧设备用户被拒之门外。",
     "metaphor": "就像一座带电梯的多层建筑，当电梯故障时，楼梯依然完好，人们仍能上下楼——只是稍费力，但不中断通行。",
     "example": "一个使用现代 CSS Grid 布局的网页，在不支持 Grid 的旧版 IE 中自动回退到 float 或 inline-block 布局，文字和按钮仍可阅读、点击，仅视觉排列略有调整。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "兼容性",
+    "前端开发",
+    "用户体验"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Graceful_degradation",
+    "https://developer.mozilla.org/en-US/docs/Glossary/Progressive_enhancement"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:55:14Z"
+  "updated_at": "2026-03-23T15:42:48.669650Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "cold_start（冷启动）是指系统、模型或服务在缺乏历史数据、用户行为记录或先验知识的情况下首次运行或初始化的过程。此时无法依赖过往经验进行个性化推荐、精准预测或高效响应，导致性能下降、响应延迟或结果不准确。普通用户需要知道它，因为冷启动常导致新App推荐内容千篇一律、智能设备初次使用反应迟钝、或新账号收到无关广告——这些体验背后往往是冷启动问题，理解它有助于合理预期并配合提供初始偏好信息。",
+    "plain": "冷启动指系统或模型在缺乏历史数据时首次运行的过程。因无法依赖过往经验，导致个性化推荐失效、预测不准或响应延迟。用户常见新 App 推荐单一、新账号广告无关等现象，均属此类问题。理解冷启动有助于合理预期，并通过提供初始偏好信息协助系统优化，改善使用体验。",
     "metaphor": "就像一位刚调任到陌生城市的医生，第一次接诊时既不了解当地常见病，也不认识任何患者，只能靠通用指南和试探性问诊来开始工作。",
     "example": "一款新下载的音乐App首次打开时，因无听歌历史，只能向所有新用户统一推荐热门榜单，而非个性化歌单；此时即处于冷启动状态。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "推荐系统",
+    "机器学习",
+    "数据初始化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cold_start_(recommender_systems)",
+    "https://cloud.google.com/recommendations/docs/concepts"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:43:22Z"
+  "updated_at": "2026-03-23T17:48:55.993360Z",
+  "quality_score": 0.95
 }

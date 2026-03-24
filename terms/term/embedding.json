@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Embedding 是一种将文本、图像或音频等非数值数据转换为固定长度实数向量的技术，使计算机能通过数学运算理解语义相似性。例如，语义相近的词（如“猫”和“狗”）在向量空间中距离较近。普通用户需要了解它，因为它是现代AI应用（如智能搜索、推荐系统、聊天机器人）背后的核心机制——决定了AI能否真正‘读懂’你的意图，而不仅是匹配关键词。",
+    "plain": "Embedding 是将文本、图像等非数值数据转换为固定长度实数向量的技术。它使计算机能通过数学运算理解语义相似性，例如语义相近的词在向量空间中距离较近。作为现代 AI 应用（如智能搜索、推荐系统）的核心机制，它决定了 AI 能否真正理解意图而非仅匹配关键词。",
     "metaphor": "就像给每个词或概念在多维地图上分配一个精确的经纬度，让意思相近的事物自然聚拢在地图上的相邻位置。",
     "example": "当你在音乐App中点击‘喜欢’一首爵士乐，系统用embedding将这首歌映射到向量空间，并快速找到风格相似的其他曲目进行推荐。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "推荐系统",
+    "语义搜索"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developers.google.com/machine-learning/crash-course/embeddings",
+    "https://www.tensorflow.org/tutorials/text/word_embeddings"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T06:04:56Z"
+  "updated_at": "2026-03-23T15:08:26.362054Z",
+  "quality_score": 0.95
 }

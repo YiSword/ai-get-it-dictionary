@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "内存管理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "disk_offload 是一种内存管理技术，指当系统内存（RAM）不足时，将部分暂时不用的数据或程序页从内存转移到硬盘上的交换空间（如 swap 分区或页面文件），以释放内存供活跃任务使用。它让设备能在物理内存有限的情况下继续运行更多程序，避免直接崩溃或强制关闭应用。普通用户需要了解它，因为不当的 disk_offload 可能导致明显卡顿、硬盘灯狂闪或电池加速消耗——尤其在老旧笔记本或低内存设备上，这是性能下降的常见根源。",
+    "plain": "disk_offload 是一种内存管理技术，当物理内存不足时，将暂时不用的数据转移到硬盘交换空间，释放内存供活跃任务使用。这允许设备在内存有限时运行更多程序，但频繁操作会导致卡顿、硬盘高负载及电池消耗增加，常见于低内存设备或老旧硬件。",
     "metaphor": "就像把书房里暂时不看的书搬到地下室暂存，腾出桌面空间继续工作；虽然书还在家里（数据未丢失），但取用时得下楼一趟（速度变慢）。",
     "example": "一台只有 4GB 内存的 Windows 笔记本同时打开浏览器、微信和视频编辑软件时，系统自动将后台微信的部分内存页写入 C:\\pagefile.sys，从而保障视频软件流畅渲染。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "内存不足",
+    "性能优化",
+    "系统维护"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://learn.microsoft.com/en-us/windows/win32/memory/file-mapping",
+    "https://www.kernel.org/doc/html/latest/vm/swapping.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:43:01Z"
+  "updated_at": "2026-03-23T11:51:23.733054Z",
+  "quality_score": 0.95
 }

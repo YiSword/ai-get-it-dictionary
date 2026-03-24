@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "gradient_clipping 是深度学习中一种防止梯度爆炸的技术，它通过设定阈值来限制优化过程中反向传播计算出的梯度范数（如 L2 范数）的最大值，超出部分按比例缩放。当模型训练不稳定、损失突然发散或参数更新剧烈时，该技术能显著提升训练鲁棒性与收敛性。普通用户（如算法工程师或初学者）需要了解它，因为它是训练 RNN、Transformer 等深层或长序列模型时的常用实践，忽略它可能导致训练失败而难以排查。",
+    "plain": "gradient_clipping 是深度学习中防止梯度爆炸的技术。它通过设定阈值限制反向传播梯度的范数最大值，超出部分按比例缩放。该技术能显著提升训练鲁棒性与收敛性，是训练 RNN、Transformer 等深层或长序列模型时的常用实践，忽略它可能导致训练失败。",
     "metaphor": "就像给汽车油门加装限速器——即使司机猛踩油门，车速也不会超过安全上限，从而避免失控翻车。",
     "example": "在训练一个处理 1000 步长文本的 LSTM 模型时，若未启用 gradient_clipping，反向传播可能产生远超 100 的梯度范数，导致权重突变和 loss 爆炸；设置 clip_norm=1.0 后，所有梯度被统一裁剪，训练得以稳定进行。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "优化算法",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/docs/stable/generated/torch.nn.utils.clip_grad_norm_.html",
+    "https://www.tensorflow.org/api_docs/python/tf/clip_by_global_norm"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:56:07Z"
+  "updated_at": "2026-03-23T18:08:33.825348Z",
+  "quality_score": 0.95
 }

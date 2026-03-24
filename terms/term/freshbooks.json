@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "财务管理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "FreshBooks 是一款面向自由职业者和小型企业的云端会计与财务软件，主要用于发票开具、费用追踪、时间记录、项目管理和客户付款管理。它无需安装复杂系统或具备专业会计知识，界面直观、操作简单，帮助用户自动化重复性财务任务，减少记账错误，并加速回款。普通用户——尤其是刚创业的设计师、程序员、咨询师等——需要知道 FreshBooks，因为它能以较低学习成本解决开票难、催款慢、账目混乱等高频痛点，让精力更聚焦于核心业务而非财务琐事。",
+    "plain": "FreshBooks 是专为自由职业者及小型企业设计的云端会计软件。核心功能涵盖发票开具、费用追踪、时间记录及付款管理。其界面直观易用，无需专业会计知识即可自动化财务任务，有效减少错误并加速回款。帮助用户解决开票难、账目混乱痛点，使其更聚焦核心业务。",
     "metaphor": "FreshBooks 就像一位随叫随到的数字财务助理，既帮你写好专业发票、自动发提醒，又默默整理每一笔收支，还把报表变成一目了然的图表。",
     "example": "一名平面设计师完成客户Logo项目后，在 FreshBooks 中选择模板填写金额与税项，一键发送电子发票；客户点击链接在线支付，款项到账后系统自动标记为已结清，并同步更新收入报表。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "财务管理",
+    "SaaS",
+    "中小企业"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.freshbooks.com"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:54:35Z",
-  "updated_at": "2026-03-21T06:39:22Z"
+  "updated_at": "2026-03-23T13:12:08.632481Z",
+  "quality_score": 0.95
 }

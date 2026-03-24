@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开发工具",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LangSmith 是一个专为开发和运维大语言模型（LLM）应用而设计的可观测性与调试平台。它能自动追踪提示词、模型调用、输出、延迟、错误及自定义评估指标，帮助开发者快速定位性能瓶颈、优化提示工程、保障输出质量并满足合规审计需求。普通用户（尤其是AI应用工程师、产品经理或技术决策者）需要知道它，因为手工记录和调试LLM链路极其低效，而LangSmith提供了开箱即用的可视化分析能力，显著降低迭代成本与上线风险。",
+    "plain": "LangSmith 是专为大语言模型应用设计的可观测性与调试平台。它自动追踪提示词、模型调用及输出，提供可视化分析帮助开发者定位瓶颈、优化提示工程并保障输出质量。相比手工调试，它能显著降低迭代成本与上线风险，是 AI 应用工程师必备的工具。",
     "metaphor": "就像汽车的行车记录仪+发动机诊断仪合体，不仅全程录像每一次‘对话驾驶’，还能实时读取‘AI引擎’的转速、油耗和异常抖动。",
     "example": "某电商客服机器人响应缓慢且偶尔回答偏离商品政策，团队接入LangSmith后，通过追踪特定用户会话链路，发现某中间步骤的提示词被意外截断，5分钟内复现并修复问题。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "LLM 开发",
+    "可观测性",
+    "模型调试"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.langsmith.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:57:25Z",
-  "updated_at": "2026-03-21T08:00:44Z"
+  "updated_at": "2026-03-23T12:32:50.085218Z",
+  "quality_score": 0.95
 }

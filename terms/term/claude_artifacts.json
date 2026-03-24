@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "claude_artifacts",
+  "norm_term": "claude_artifacts",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "feature",
+  "category": "AI 功能",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Claude Artifacts 是 Anthropic 为其模型 Claude 设计的核心功能，指对话中生成的结构化可复用内容，如代码、文档或数据报告。该功能将对话转化为生产力工具，通过标准化格式使生成内容无缝嵌入工作流。用户可借此高效创作，例如开发者直接获取可运行代码，分析师获得结构化数据，解决了传统 AI 输出难以直接应用的问题。",
+    "metaphor": "就像智能助手不仅口头回答问题，还能自动生成并递给你一份排版工整的报告或可立即使用的工具，让对话成果直接转化为工作成果。",
+    "example": "当开发者向 Claude 描述需要创建用户登录界面时，系统不仅给出建议，还会生成包含 HTML/CSS 代码的完整文件包，开发者可直接复制使用或进一步修改，大幅缩短原型开发时间。"
+  },
+  "scenario_tags": [
+    "内容生成",
+    "代码开发",
+    "办公效率"
+  ],
+  "sources": [
+    "https://www.anthropic.com/news/claude-3-5-sonnet"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:41:19.197215Z",
+  "updated_at": "2026-03-23T13:40:34.353859Z",
+  "quality_score": 0.95
+}

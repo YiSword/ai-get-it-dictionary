@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "分布式训练",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Horovod 是一个开源的分布式深度学习训练框架，专为高效、可扩展地在多台机器或多GPU上并行训练神经网络而设计。它通过环形全归约（Ring-AllReduce）算法优化通信效率，显著降低多节点训练时的同步开销。普通用户（尤其是AI工程师和研究人员）需要了解 Horovod，因为它能大幅缩短大规模模型训练时间，且兼容 TensorFlow、PyTorch 和 MXNet 等主流框架，无需大幅修改原有单机代码即可实现分布式加速。",
+    "plain": "Horovod 是开源分布式深度学习训练框架，支持多机器或多 GPU 并行训练。采用环形全归约算法优化通信效率，降低同步开销。兼容 TensorFlow、PyTorch 等主流框架，无需大幅修改代码即可实现分布式加速，显著缩短大规模模型训练时间。",
     "metaphor": "就像一支训练有素的接力赛队伍，每位队员（GPU）边跑边传递并整合信息（梯度），而不是所有人先跑到终点再统一汇总，从而避免了等待和拥堵。",
     "example": "某团队使用 PyTorch 训练一个 10 亿参数的语言模型，在单台 8 卡服务器上需 3 天；引入 Horovod 后，扩展到 4 台服务器共 32 卡，训练时间缩短至约 12 小时，且仅需添加几行初始化和分布式封装代码。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "分布式训练",
+    "深度学习",
+    "模型优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://horovod.ai/",
+    "https://github.com/horovod/horovod"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T07:13:14Z"
+  "updated_at": "2026-03-23T15:52:24.652447Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,27 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "超参数",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Learning Rate（学习率）是机器学习训练中的关键超参数，控制模型每次更新参数的步长大小。学习率过大可能导致训练不稳定，过小则训练缓慢。它直接影响模型的收敛速度和最终性能，是调参时的首要关注点。",
+    "plain": "学习率是机器学习训练中的关键超参数，控制模型每次迭代更新权重的步长大小。数值过大可能导致损失函数震荡无法收敛，过小则导致训练速度缓慢易陷入局部最优。它直接决定模型的收敛速度与最终性能，是梯度下降类优化算法中最重要的调参对象之一。",
     "metaphor": "学习率就像下山的步伐，步子太大可能错过最低点，步子太小则走很久还到不了山底。",
     "example": "训练语言模型时，设置学习率为 0.001，模型稳步改进；若设为 0.1，可能波动剧烈无法收敛。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "优化算法",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/docs/stable/optim.html",
+    "https://www.tensorflow.org/guide/keras/optimizers",
+    "https://en.wikipedia.org/wiki/Learning_rate"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-21T11:59:20Z",
-  "updated_at": "2026-03-21T11:59:20Z"
+  "updated_at": "2026-03-23T15:10:19.525041Z",
+  "quality_score": 0.95
 }

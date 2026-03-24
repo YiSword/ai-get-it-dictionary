@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理框架",
   "difficulty": "中级",
   "explanations": {
-    "plain": "text_generation_inference 是指将训练好的大语言模型部署到生产环境中，实时接收用户输入文本并高效生成响应的过程。它关注的是模型推理阶段的性能优化，包括低延迟、高吞吐、显存管理与批量处理等。普通用户虽不直接操作它，但其效果直接影响聊天机器人、代码补全、翻译工具等AI服务的响应速度、稳定性和可用性——比如你提问后是秒回还是卡顿数秒，背后就由 text_generation_inference 系统决定。",
+    "plain": "text_generation_inference (TGI) 是 Hugging Face 推出的开源推理框架，专为部署和服务大语言模型设计。它通过连续批处理、量化和张量并行等技术优化推理性能，显著降低延迟并提高吞吐量。适用于聊天机器人、代码生成等场景，是生产部署的关键基础设施。",
     "metaphor": "就像一家已研发好菜谱的餐厅，text_generation_inference 相当于后厨的标准化出餐流程：确保每份订单（用户请求）都能快速、一致、不翻车地端上桌。",
     "example": "Hugging Face 的 TGI（Text Generation Inference）开源服务器被广泛用于部署 Llama-3 或 Mixtral 模型，让开发者能通过简单 API 调用，在几毫秒内获得高质量文本回复，支撑客服自动应答或实时写作辅助等场景。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型部署",
+    "大语言模型",
+    "推理优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/huggingface/text-generation-inference",
+    "https://huggingface.co/docs/text-generation-inference"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T10:05:12Z"
+  "updated_at": "2026-03-23T11:09:58.517866Z",
+  "quality_score": 0.95
 }

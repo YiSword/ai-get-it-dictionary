@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "开放协议",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Chainlink 是一个去中心化的预言机网络，用于将区块链（如以太坊）与外部真实世界的数据和系统安全连接。由于智能合约无法直接访问链下信息（如天气、股价或支付API），Chainlink 充当可信中介，聚合并验证来自多个独立数据源的信息，再将其可靠地输入链上。普通用户需要知道它，因为它是 DeFi、保险、NFT 等许多 Web3 应用正常运行的关键基础设施——没有 Chainlink，这些应用可能因数据被操控或中断而失效甚至造成资金损失。",
+    "plain": "Chainlink 是去中心化预言机网络，安全连接区块链与外部数据。智能合约无法直接访问链下信息，Chainlink 作为可信中介聚合并验证多源数据后输入链上。它是 DeFi、保险等 Web3 应用的关键基础设施，防止因数据操控造成资金损失。",
     "metaphor": "就像一位由多位公证员交叉核验身份的资深翻译官，Chainlink 不单听信一家之言，而是多方比对、去伪存真，再把真实世界的消息准确转译给只说‘区块链语言’的智能合约。",
     "example": "在去中心化借贷平台中，Chainlink 实时提供 ETH/USD 市场价格，确保当用户抵押的 ETH 价值跌破阈值时，系统能自动、公正地触发清算，避免人为干预或单一数据源故障导致的误清算。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "区块链",
+    "DeFi",
+    "预言机"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://chain.link/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T14:30:55Z",
-  "updated_at": "2026-03-21T04:23:43Z"
+  "updated_at": "2026-03-23T10:53:17.041143Z",
+  "quality_score": 1.0
 }

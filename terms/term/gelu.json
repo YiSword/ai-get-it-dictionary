@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GELU（Gaussian Error Linear Unit）是一种常用于深度学习模型（尤其是Transformer架构）的激活函数，它通过将输入与一个高斯分布的累积分布函数相乘来实现平滑、非线性的输出。相比传统的ReLU，GELU能保留部分负值信息并提供更平滑的梯度，有助于提升模型训练稳定性和最终性能。普通用户虽不直接编写GELU代码，但若使用或微调如BERT、GPT等主流大语言模型，理解其底层机制有助于合理选择模型、调试训练异常或评估技术方案合理性。",
+    "plain": "GELU（高斯误差线性单元）是深度学习中的激活函数，常用于 Transformer 架构。它通过输入与高斯分布累积分布函数相乘，实现平滑非线性输出。相比 ReLU，GELU 保留部分负值信息，梯度更平滑，有助于提升模型训练稳定性和性能。BERT、GPT 等大模型广泛采用此函数。",
     "metaphor": "就像一位温和的图书管理员，不会粗暴拒绝借阅冷门书籍（负值输入），而是根据书籍的受欢迎程度（高斯概率）按比例决定推荐强度。",
     "example": "在训练BERT模型时，每一层Transformer的前馈网络中默认采用GELU作为激活函数，替代ReLU以获得更好的语言理解效果。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "神经网络",
+    "激活函数",
+    "模型训练"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1606.08415",
+    "https://pytorch.org/docs/stable/generated/torch.nn.GELU.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:43:42Z"
+  "updated_at": "2026-03-23T17:17:26.216668Z",
+  "quality_score": 0.95
 }

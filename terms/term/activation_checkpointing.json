@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "训练优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "activation_checkpointing（激活检查点）是一种用于深度学习训练的内存优化技术，通过在前向传播中只保存部分中间激活值，而在反向传播需要时重新计算其余部分，显著降低GPU显存占用。它牺牲少量计算时间换取大幅内存节省，使用户能在有限硬件上训练更大模型或使用更大批量。普通用户（尤其是研究人员和工程师）需要了解它，因为它是应对显存不足、实现大模型微调或分布式训练的关键实用手段。",
+    "plain": "activation_checkpointing（激活检查点）是深度学习训练中的内存优化技术。它在前向传播时只保存部分激活值，反向传播时重新计算其余部分，从而显著降低显存占用。这是一种以计算换内存的策略，使有限硬件能训练更大模型或批量。它是大模型微调及分布式训练的关键手段。",
     "metaphor": "就像登山者只在关键营地留下少量补给，其余物资边走边重新准备，而不是全程背负所有装备。",
     "example": "在使用PyTorch训练13B参数的LLaMA模型时，启用activation_checkpointing可将单卡显存占用从48GB降至22GB，从而在A100上完成全参数微调。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "显存优化",
+    "大模型"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/docs/stable/checkpoint.html",
+    "https://www.deepspeed.ai/docs/config-json/#activation-checkpointing"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:18:08Z"
+  "updated_at": "2026-03-23T16:24:59.535319Z",
+  "quality_score": 0.95
 }

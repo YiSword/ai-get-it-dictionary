@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "pii_redaction_agent",
+  "norm_term": "pii_redaction_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "feature",
+  "category": "数据安全",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "pii_redaction_agent 是一种自动化安全工具，利用自然语言处理技术识别并隐藏文档中的个人身份信息（PII），如姓名、身份证号等。它通过扫描内容定位敏感信息并进行脱敏，防止数据泄露。这是企业合规管理及云端数据隐私保护的关键组件，确保数据在存储与共享过程中的安全性。",
+    "metaphor": "就像一位智能档案管理员，自动用涂黑笔遮盖文件中的身份证号和电话号码，确保无关人员无法窥探隐私。",
+    "example": "某公司使用 Microsoft Purview 处理客户合同时，pii_redaction_agent 自动检测并隐藏合同中的客户邮箱、手机号，仅保留业务必要信息供内部流转。"
+  },
+  "scenario_tags": [
+    "数据隐私",
+    "自然语言处理",
+    "合规管理"
+  ],
+  "sources": [
+    "https://microsoft.github.io/presidio/",
+    "https://aws.amazon.com/comprehend/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:02:52.423743Z",
+  "updated_at": "2026-03-23T16:58:34.680780Z",
+  "quality_score": 0.95
+}

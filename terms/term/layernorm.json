@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "LayerNorm（层归一化）是一种深度学习中常用的归一化技术，作用于神经网络某一层的输出上，对每个样本的所有特征维度做标准化（减去均值、除以标准差），使输入分布更稳定。它能加速模型训练、缓解梯度消失或爆炸问题，并提升Transformer等架构的收敛性与泛化能力。普通用户虽不直接调用，但在使用大语言模型、语音识别或图像生成工具时，其背后性能和稳定性往往依赖LayerNorm的正确应用。",
+    "plain": "LayerNorm（层归一化）是深度学习中的归一化技术，对神经网络每层的输出进行标准化处理。它通过减去均值、除以标准差稳定输入分布，加速训练并缓解梯度问题。作为 Transformer 等架构的核心组件，它显著提升了大语言模型的收敛性与泛化能力，是保障模型性能稳定的关键技术。",
     "metaphor": "就像给每位学生按自己班级的平均分和标准差重新调整考试成绩，让不同难度试卷下的表现可比且公平。",
     "example": "在Transformer模型的每个子层（如自注意力后、前馈网络后）都会插入LayerNorm，确保信号在深层传播时保持数值稳定。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大语言模型",
+    "Transformer",
+    "模型训练"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1607.06450"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T08:03:54Z"
+  "updated_at": "2026-03-23T17:29:42.922269Z",
+  "quality_score": 0.95
 }

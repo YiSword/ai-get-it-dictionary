@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 伦理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Diversity（多样性）指系统、群体或数据集中存在多种不同特征、背景、观点或类型的程度。它不仅涵盖种族、性别、年龄等人口学维度，也包括思维模式、经验、技能和文化视角的差异。普通用户需要理解多样性，因为它直接影响团队协作质量、产品设计包容性、算法公平性以及社会决策的合理性；忽视多样性可能导致偏见加剧、创新受限或服务覆盖不全。",
+    "plain": "多样性指系统、群体或数据集中存在多种不同特征、背景或类型的程度。涵盖种族、性别等人口学维度，也包括思维、经验和文化视角的差异。在 AI 领域，多样性直接影响算法公平性与产品设计包容性。忽视多样性可能导致偏见加剧、创新受限或服务覆盖不全，是构建负责任 AI 系统的关键要素。",
     "metaphor": "就像一盘五彩缤纷的沙拉，每种蔬菜颜色、口感和营养都不同，但组合在一起才更健康、更有滋味。",
     "example": "一家科技公司招聘时主动吸引来自不同教育背景、国家和地区、残障状况的工程师，以确保其AI语音助手能准确识别多种口音和语速。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 伦理",
+    "算法公平",
+    "数据治理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.microsoft.com/en-us/ai/responsible-ai",
+    "https://ai.google/responsibilities/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:44:52Z"
+  "updated_at": "2026-03-23T11:14:59.307469Z",
+  "quality_score": 0.95
 }

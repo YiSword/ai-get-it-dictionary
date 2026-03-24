@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "智能体技术",
   "difficulty": "中级",
   "explanations": {
-    "plain": "agent2agent（A2A）指两个或多个AI智能体（agent）之间直接协作、通信与任务交接的技术模式，无需人类持续介入。它支撑复杂自动化流程，如一个客服agent识别用户意图后，自动将订单查询任务转给库存agent处理。普通用户需要了解它，是因为未来越来越多服务（如跨平台订票、智能办公助手联动）将依赖这种‘后台智能体协同’来实现更流畅、精准和实时的体验，而非仅依赖单个AI响应。",
-    "metaphor": "就像医院里不同专科医生通过标准化病历系统无缝交接病人——一位医生初诊后，直接把关键信息推送给放射科和药房的同事，全程患者无需重复描述病情。",
-    "example": "在智能电商系统中，推荐agent根据用户浏览行为生成个性化商品列表，随后自动将该列表与库存agent、物流agent协同验证实时库存与发货时效，并由支付agent完成结算，整个过程在秒级内闭环完成。"
+    "plain": "agent2agent（A2A）指多个 AI 智能体之间直接协作、通信与任务交接的技术模式，无需人类持续介入。它支撑自动化工作流，如检索 agent 将结果传给决策 agent 生成报告。未来智能客服、个人助理等服务将依赖 A2A 实现无缝协同，显著影响系统响应速度、任务准确性及隐私控制方式。",
+    "metaphor": "就像两位经验丰富的同事在会议室里快速交换笔记、分工起草方案，全程无需主管发号施令。",
+    "example": "电商客服系统中，意图识别agent解析用户问题后，自动将订单号和查询类型传递给库存agent；后者实时查库并返回结果，再交由话术生成agent合成自然语言回复。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "多智能体协作",
+    "自动化工作流",
+    "AI 架构"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://microsoft.github.io/autogen/",
+    "https://python.langchain.com/docs/modules/agents/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T03:24:04Z"
+  "updated_at": "2026-03-23T16:05:52.013338Z",
+  "quality_score": 1.0
 }

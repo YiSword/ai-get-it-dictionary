@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 视频生成",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Kling 是由昆仑万维推出的一款AI视频生成模型，能够根据文本提示或图像输入生成高质量、高保真度的短视频（最长可达2分钟）。它支持多镜头运镜、复杂运动建模和自然光影渲染，显著提升了AI生成视频的连贯性与电影感。普通用户需要了解Kling，因为它降低了专业级视频创作门槛——无需摄像设备、剪辑技能或高昂制作成本，即可快速将创意转化为视觉内容，适用于社交媒体运营、教育演示、广告原型等日常场景。",
+    "plain": "Kling 是快手推出的 AI 视频生成模型，支持文生视频和图生视频。它能生成高达 2 分钟的高保真短视频，具备多镜头运镜和复杂运动建模能力。Kling 降低了视频创作门槛，适用于社交媒体、广告原型等场景，显著提升了生成视频的连贯性与电影感。",
     "metaphor": "Kling 就像一位随叫随到的全能影视团队：你只需口述想法，它便自动完成编剧、分镜、拍摄、打光和剪辑。",
     "example": "一位教师输入提示词‘用动画展示水分子在0°C结冰的过程’，Kling 在30秒内生成一段带缩放镜头、粒子特效和标注文字的15秒教学视频。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "视频生成",
+    "AIGC",
+    "多模态"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://klingai.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:00:37Z",
-  "updated_at": "2026-03-21T07:51:53Z"
+  "updated_at": "2026-03-23T16:31:59.133385Z",
+  "quality_score": 1.0
 }

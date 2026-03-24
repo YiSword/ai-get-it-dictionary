@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "openai_realtime_api",
+  "norm_term": "openai_realtime_api",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "api",
+  "category": "API/接口",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "OpenAI Realtime API 是一种支持流式数据传输的接口，允许开发者与 AI 模型建立低延迟双向通信通道。它突破传统请求 - 响应模式的延迟限制，通过持续数据流实现即时输入输出。支持语音对话、实时翻译等沉浸场景，是构建下一代人机交互系统的核心技术。",
+    "metaphor": "就像从写信交流升级为实时电话通话，传统 API 像发送邮件需要等待回复，而实时 API 则像保持通话状态随时传递信息。",
+    "example": "智能客服系统使用该 API 实时接收用户语音提问，在用户说话过程中同步生成回答片段，实现类似真人对话的流畅交互体验。"
+  },
+  "scenario_tags": [
+    "语音交互",
+    "实时通信",
+    "智能应用"
+  ],
+  "sources": [
+    "https://platform.openai.com/docs/guides/realtime"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:30:09.961498Z",
+  "updated_at": "2026-03-23T11:33:26.732697Z",
+  "quality_score": 0.95
+}

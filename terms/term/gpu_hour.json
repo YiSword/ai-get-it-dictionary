@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "gpu_hour 是云计算中衡量 GPU 资源使用量的计费单位，表示一块特定型号的 GPU（如 NVIDIA A100）连续运行一小时所消耗的算力额度。它将硬件性能、使用时长和配置规格（如显存大小、计算精度）综合折算为标准化计量单位，用于云服务商向用户精准计费。普通用户需要了解它，因为训练大模型、渲染视频或运行 AI 应用时，成本可能随 GPU 类型和运行时间指数级增长，误选高配 GPU 或未及时释放资源会导致远超预期的账单。",
+    "plain": "gpu_hour 是云计算中衡量 GPU 资源使用量的计费单位，指一块特定型号 GPU 连续运行一小时。云服务商据此向用户计费，综合了硬件性能与时长。在训练大模型或运行 AI 应用时，成本随 GPU 类型和时间增长，合理选型并及时释放资源可有效控制成本，避免账单超预期。",
     "metaphor": "就像租车按‘车型×小时’计费——开一辆保时捷一小时的费用远高于开一辆经济型轿车一小时，gpu_hour 也是按 GPU 的‘性能等级’乘以使用时间来算钱。",
     "example": "某开发者在云平台选用 1 块 A10G GPU 训练图像生成模型 3 小时，消耗 3 gpu_hour；若改用更强大的 A100，则同等时间可能折算为 6 gpu_hour，费用翻倍。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型训练",
+    "云计算",
+    "成本管理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/ec2/pricing/",
+    "https://cloud.google.com/vertex-ai/pricing"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:54:57Z"
+  "updated_at": "2026-03-23T16:52:21.179040Z",
+  "quality_score": 0.95
 }

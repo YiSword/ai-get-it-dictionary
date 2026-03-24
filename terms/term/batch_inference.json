@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型推理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "batch_inference 是指将多个输入样本一次性送入已训练好的机器学习模型，集中执行预测任务的过程。与逐个处理的实时推理（online inference）不同，它通过批量处理提升计算资源利用率、降低单位预测成本，并适合对延迟不敏感但吞吐量要求高的场景。普通用户需要了解它，是因为许多后台服务（如邮件垃圾过滤、商品推荐更新、图像批量审核）都依赖此方式高效完成大规模预测，影响其体验的响应速度与系统稳定性。",
+    "plain": "batch_inference 指将多个输入样本一次性送入模型进行集中预测的过程。相比实时推理，它能显著提升资源利用率与吞吐量，降低单位成本。适用于对延迟不敏感但需大规模处理的场景，如邮件过滤、推荐更新或图像批量审核。这是后台高效完成大规模预测的关键技术，直接影响系统稳定性。",
     "metaphor": "就像邮局不挨家挨户单独送信，而是把同一区域的几百封信装进一个邮袋，统一派送——batch_inference 是把一堆待预测的数据‘打包’交给模型，一次算完。",
     "example": "电商平台每天凌晨用 batch_inference 批量处理上百万件新上架商品的图片，自动识别类别和违规内容，为次日上线做准备。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型部署",
+    "离线处理",
+    "性能优化"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developers.google.com/machine-learning/glossary"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:57:30Z"
+  "updated_at": "2026-03-23T17:43:03.963294Z",
+  "quality_score": 0.95
 }

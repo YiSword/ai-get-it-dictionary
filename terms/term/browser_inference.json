@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "端侧推理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "browser_inference（浏览器端推理）是指在用户的网页浏览器中直接运行机器学习模型并完成预测或生成任务，无需将数据发送到远程服务器。它利用WebAssembly、WebGL或WebNN等Web标准技术，在本地CPU/GPU上执行模型计算。普通用户需要了解这一概念，因为它关系到隐私保护（数据不出设备）、响应速度（无网络延迟）和离线可用性（如无网时仍能使用AI功能），尤其在涉及敏感信息（如语音、图像）的场景中意义重大。",
+    "plain": "browser_inference（浏览器端推理）指在浏览器内直接运行机器学习模型，无需上传数据至服务器。利用 WebAssembly、WebGL 等技术本地计算，保障隐私保护（数据不出设备）、降低延迟并支持离线可用，尤其适用于处理敏感信息场景。",
     "metaphor": "就像在自家厨房里现场烘焙蛋糕，而不是把食材寄给远方的面包坊再等成品寄回。",
     "example": "用户在浏览器中打开一个实时手写数字识别工具，画出数字后，模型立刻在本地完成识别并返回结果，全程无需上传图像到云端。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "隐私保护",
+    "离线可用",
+    "低延迟"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.tensorflow.org/js",
+    "https://www.w3.org/TR/webnn/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T04:15:01Z"
+  "updated_at": "2026-03-23T12:01:59.483444Z",
+  "quality_score": 0.95
 }

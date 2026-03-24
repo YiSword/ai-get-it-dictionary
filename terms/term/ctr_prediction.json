@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "机器学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CTR_prediction（点击率预测）是指利用机器学习模型预估用户在特定场景下（如看到一条广告、推荐内容或搜索结果）点击某个项目的概率，通常以0到1之间的数值表示。它是信息流推荐、在线广告投放和搜索引擎排序等核心业务的关键技术指标。普通用户虽不直接接触该术语，但其体验——比如刷到更相关的内容、广告更贴合兴趣、页面加载更快——都依赖于准确的CTR预测；预测不准则可能导致信息过载、广告骚扰或错失优质内容。",
+    "plain": "CTR 预测是利用机器学习模型预估用户点击特定项目（如广告、推荐内容）的概率，结果通常为 0 到 1 之间的数值。它是信息流推荐、在线广告投放和搜索引擎排序的核心技术指标。准确预测能提升用户体验，减少无关信息骚扰，是数字化营销和智能推荐系统的关键环节。",
     "metaphor": "就像一位经验丰富的图书管理员，仅凭封面、标题和你的阅读历史，就能提前猜出你最可能借哪本书。",
     "example": "某短视频App根据用户过往观看时长、点赞行为和设备信息，实时预测你对新推荐视频的点击概率，并优先展示预测CTR最高的前3条内容。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "广告投放",
+    "推荐系统",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/machine-learning/how-to-auto-train-click-through-rate",
+    "https://en.wikipedia.org/wiki/Click-through_rate"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T05:07:17Z"
+  "updated_at": "2026-03-23T14:35:27.730328Z",
+  "quality_score": 0.95
 }

@@ -1,26 +1,26 @@
 {
-  "entry_kind": "term",
-  "term": "dpm_3m_sde",
-  "norm_term": "dpm_3m_sde",
-  "lang": "en",
+  "term": "DPM++ 3M SDE",
+  "definition": "DPM++ 3M SDE 是 Stable Diffusion 扩散模型的3M SDE采样器。",
+  "description": "DPM++ 3M SDE (3M SDE) 是 DPM++ 系列采样器的一员，基于高阶数值方法实现高效的扩散过程采样。该采样器在图像生成质量和速度之间提供特定平衡，适用于不同的生成场景和需求。",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
-  "difficulty": "中级",
-  "explanations": {
-    "plain": "dpm_3m_sde 是一个特定领域内的数据处理模块标识符，通常指代由某厂商或团队开发的、面向三维测量（3M）场景的软件定义边缘（SDE）计算单元。它集成了传感器接入、点云预处理、实时几何校准与轻量级AI推理能力，部署在靠近测量设备的边缘侧，以降低延迟并保障工业现场的数据主权。普通用户（如产线质检员或现场工程师）需要了解它，因为其运行状态直接影响三维扫描结果的精度、吞吐率和系统是否能离线自主工作。",
-    "metaphor": "就像给一台高精度三坐标测量机配了一个随身翻译兼速记员——既实时听懂传感器的原始语言，又当场整理成清晰报告，还不用每次都回总部请示。",
-    "example": "在汽车焊装车间，dpm_3m_sde 模块部署在激光雷达旁，实时接收原始点云流，完成去噪、配准与关键特征尺寸偏差计算，并在200毫秒内将合格/超差判定结果推送至工控屏，无需上传云端。"
-  },
-  "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+  "category": "扩散模型采样器",
+  "difficulty": "中等",
+  "sources": [
+    "https://arxiv.org/abs/2211.01095",
+    "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
-  "content_source": "llm_generated_v2",
-  "hit_count": 0,
-  "created_at": "2026-03-20T16:56:18Z",
-  "updated_at": "2026-03-21T05:51:52Z"
+  "scenario_tags": [
+    "图像生成",
+    "稳定扩散",
+    "采样算法"
+  ],
+  "quality_level": "llm_generated_v2",
+  "created_at": "2026-03-22T15:44:38Z",
+  "updated_at": "2026-03-23T17:16:29.553394Z",
+  "explanations": {
+    "plain": "DPM-3M-SDE 是扩散模型中的一种高阶采样算法，基于 DPM-Solver++ 框架。它利用三阶多步方法结合随机微分方程（SDE）执行去噪过程。相较于确定性 ODE 求解，该算法引入随机性以增强生成图像的多样性与细节表现。常用于 Stable Diffusion 等模型，能在较少采样步数下实现高质量图像生成，适用于对画质要求较高的创作场景。"
+  },
+  "quality_score": 0.95,
+  "review_status": "auto_verified"
 }

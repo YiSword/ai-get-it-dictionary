@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "用户体验",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Persona（用户画像）是产品设计和市场营销中构建的虚构但基于真实数据的典型用户模型，包含人口统计、行为习惯、目标、痛点等关键特征。它帮助团队摆脱主观假设，聚焦真实用户需求，提升产品可用性、内容相关性和沟通有效性。普通用户虽不直接创建persona，但会间接受益于更贴合其需求的设计与服务——比如更直观的APP界面、更精准的推荐内容或更易理解的帮助文档。",
+    "plain": "Persona（用户画像）是产品设计和营销中基于真实数据构建的虚构典型用户模型，包含人口统计、行为习惯、目标及痛点等特征。它帮助团队摆脱主观假设，聚焦真实需求，提升产品可用性与沟通有效性。用户虽不直接创建，但间接受益于更贴合需求的设计与服务，如直观界面或精准推荐。",
     "metaphor": "就像建筑师在动工前先制作一个缩微样板房，persona是数字产品团队用来‘试住’的虚拟用户，让抽象的需求变得可触摸、可共情。",
     "example": "一家在线教育平台通过调研发现核心用户是25–34岁、在职备考教师资格证的女性，于是创建名为‘李婷’的persona：她每天通勤1.5小时，偏好碎片化学习，最怕课程太理论、练习题不匹配真题——团队据此优化了5分钟微课+真题解析弹窗功能。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "产品设计",
+    "用户体验",
+    "市场营销"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.nngroup.com/articles/persona/",
+    "https://www.interaction-design.org/literature/topics/personas"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:06:30Z",
-  "updated_at": "2026-03-21T09:07:01Z"
+  "updated_at": "2026-03-23T12:05:23.819422Z",
+  "quality_score": 0.95
 }

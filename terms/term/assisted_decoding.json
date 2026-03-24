@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "推理优化",
   "difficulty": "中级",
   "explanations": {
-    "plain": "assisted_decoding 是一种大语言模型推理优化技术，指在生成文本时，由一个轻量级‘辅助模型’（如小型LLM或专用模块）预先推测后续若干个候选词元（tokens），再交由主模型快速验证或修正，从而减少主模型的自回归步数、提升生成速度。普通用户需要知道它，是因为这项技术正被悄然应用于聊天助手、代码补全等实时交互场景中——它让回复更快、更流畅，且不明显牺牲质量，尤其在低端设备或高并发服务中意义显著。",
+    "plain": "assisted_decoding 是一种大模型推理加速技术。它利用轻量级辅助模型预先推测候选词元，再由主模型并行验证修正。此举减少了自回归步数，显著提升生成速度且几乎不损质量，常用于聊天助手、代码补全等低延迟场景。",
     "metaphor": "就像一位经验丰富的厨师让学徒先按菜谱预切好几样配料，自己只需快速翻炒确认火候，而非从头切每一片菜叶。",
     "example": "在手机端AI写作App中，用户输入‘春天来了，’后，辅助模型提前生成‘花儿开了/微风拂面/燕子归来’三个候选短语，主模型仅需一次前向计算即可选出最优续写，使响应延迟降低40%。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "推理加速",
+    "低延迟",
+    "实时交互"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://huggingface.co/docs/transformers/main/en/generation_strategies#assisted-decoding"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:44:24Z"
+  "updated_at": "2026-03-23T15:58:09.566717Z",
+  "quality_score": 1.0
 }

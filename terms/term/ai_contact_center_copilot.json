@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "ai_contact_center_copilot",
+  "norm_term": "ai_contact_center_copilot",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "智能客服",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "AI 联络中心副驾驶是专为呼叫中心设计的 AI 辅助系统。它实时分析对话，为坐席提供话术建议、知识库检索及情绪识别。旨在解决响应慢、检索低效问题，降低人力成本并提升满意度。通过人机协作优化服务体验，是现代智能客服的核心组件。",
+    "metaphor": "就像汽车中的智能导航系统，它不会代替司机驾驶，但会实时提示最佳路线、预警路况，让驾驶员更专注安全行驶",
+    "example": "当客户致电咨询退货政策时，系统自动识别关键词，在客服屏幕弹出对应条款链接，并建议安抚话术：'理解您的不便，我们提供 30 天无忧退货，现在为您生成电子退货单'"
+  },
+  "scenario_tags": [
+    "客户服务",
+    "人机协作",
+    "实时辅助"
+  ],
+  "sources": [
+    "https://www.microsoft.com/en-us/microsoft-365/copilot/customer-service",
+    "https://aws.amazon.com/connect/amazon-q-in-connect/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:03:21.735137Z",
+  "updated_at": "2026-03-23T15:41:12.945338Z",
+  "quality_score": 1.0
+}

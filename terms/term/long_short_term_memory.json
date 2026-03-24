@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Long Short-Term Memory（长短期记忆网络，LSTM）是一种改进的循环神经网络，通过特殊的'门控'机制解决了传统 RNN 难以记住长距离依赖的问题。它在语音识别、机器翻译等任务中表现优异，是 Transformer 出现前的主流序列模型。",
+    "plain": "长短期记忆网络（LSTM）是一种特殊的循环神经网络（RNN）架构。通过引入输入门、遗忘门和输出门机制，有效解决了传统 RNN 在训练过程中出现的梯度消失问题，能够捕捉序列数据中的长距离依赖关系。广泛应用于语音识别、机器翻译及时间序列预测等任务，是 Transformer 出现前处理序列数据的主流模型。",
     "metaphor": "LSTM 就像一个有选择性记忆的助手，知道哪些信息需要长期保存，哪些可以忽略，从而更好地处理长文本。",
     "example": "在分析长篇小说情感时，LSTM 能记住开头的人物关系，即使中间隔了很多段落，仍能正确理解结尾的情节发展。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "时间序列分析",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.bioinf.jku.at/publications/older/2604.pdf"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-21T11:59:20Z",
-  "updated_at": "2026-03-21T11:59:20Z"
+  "updated_at": "2026-03-23T17:08:04.974239Z",
+  "quality_score": 0.95
 }

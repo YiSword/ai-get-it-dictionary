@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "alignbench",
+  "norm_term": "alignbench",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "dataset",
+  "category": "评估基准",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "AlignBench 是专为评估大语言模型对齐能力设计的基准测试。它通过多样化任务场景，检验模型输出是否符合人类价值观、社会规范及特定领域要求。该基准帮助开发者量化模型在伦理安全、指令遵循及文化适应性等方面的表现，为优化模型行为提供数据支持，是衡量 AI 系统可靠性与安全性的重要工具。",
+    "metaphor": "就像汽车碰撞测试评级系统，AlignBench 通过标准化考题给 AI 模型打分，揭示其在复杂情境中的'行为安全等级'。",
+    "example": "某医疗聊天机器人开发团队使用 AlignBench 测试模型，发现其在处理患者隐私问题时存在泄露风险，据此调整训练数据后通过复测，确保符合医疗伦理标准。"
+  },
+  "scenario_tags": [
+    "模型评估",
+    "对齐安全",
+    "基准测试"
+  ],
+  "sources": [
+    "https://github.com/THUDM/AlignBench"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:44:00.899061Z",
+  "updated_at": "2026-03-23T14:41:31.234845Z",
+  "quality_score": 0.95
+}

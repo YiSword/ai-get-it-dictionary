@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "MLOps",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Feature store 是一个专门用于存储、管理、共享和复用机器学习特征（feature）的系统。特征是模型训练和推理所依赖的结构化输入数据，比如用户过去7天的点击次数、商品的平均评分等。普通用户（尤其是数据科学家和工程师）需要知道它，是因为它能避免重复计算特征、确保训练与推理时特征的一致性（消除‘训练-服务偏差’），并提升团队协作效率——不同项目可安全复用已验证的特征，而不必各自从原始数据重新开发。",
+    "plain": "Feature Store 是集中存储、管理和复用机器学习特征的基础设施。它确保训练与推理阶段特征计算逻辑一致，消除训练 - 服务偏差。通过避免重复开发并支持团队间特征共享，它显著提升模型迭代效率，是现代 MLOps 架构中连接数据与模型的核心组件。",
     "metaphor": "就像厨房里的预制调料柜：厨师（数据科学家）不用每次做菜都现磨香料（重算特征），而是直接取用标准化封装、标签清晰、保质期明确的调料包（特征）。",
     "example": "某电商公司使用 feature store 统一管理‘用户30天内加购次数’和‘商品类目热度分’等特征；推荐模型训练时读取这些特征，上线后实时推理也调用同一份逻辑生成的特征，确保线上线下行为一致。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "MLOps",
+    "机器学习",
+    "数据工程"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://aws.amazon.com/sagemaker/feature-store/",
+    "https://feast.dev/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:25:20Z"
+  "updated_at": "2026-03-23T18:03:19.640303Z",
+  "quality_score": 0.95
 }

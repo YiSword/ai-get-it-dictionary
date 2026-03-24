@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "计算机科学",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Determinism（确定性）指在给定相同初始条件和输入的情况下，系统或程序每次执行都会产生完全相同的结果和行为。它不依赖于时间、外部干扰或随机因素。对普通用户而言，理解确定性有助于判断软件是否可靠、可重现——比如调试问题时能反复复现错误，或确保多人协作中计算结果一致；缺乏确定性可能导致意外崩溃、数据不一致或安全漏洞。",
+    "plain": "确定性指在相同初始条件和输入下，系统或程序每次执行均产生完全相同的结果，不依赖时间或随机因素。这对软件可靠性至关重要，确保调试时可复现错误，协作中计算结果一致。缺乏确定性可能导致数据不一致或安全漏洞。",
     "metaphor": "就像用同一本食谱、同样的原料和火候做菜，每次都能做出味道一模一样的菜肴。",
     "example": "区块链中的智能合约必须是确定性的，否则不同节点执行同一笔交易会产生不同账本状态，破坏整个系统的共识。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "软件开发",
+    "系统稳定性",
+    "算法基础"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Deterministic_algorithm"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T05:31:54Z"
+  "updated_at": "2026-03-23T17:04:03.624936Z",
+  "quality_score": 0.95
 }

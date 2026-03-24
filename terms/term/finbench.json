@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "基准测试",
   "difficulty": "中级",
   "explanations": {
-    "plain": "FinBench 是一个面向金融领域人工智能模型的基准测试框架，用于系统性评估大语言模型在财报分析、风险识别、监管合规、投资建议等专业金融任务上的准确性、鲁棒性和可解释性。它不是通用性能评测，而是聚焦金融语境下的术语理解、数值推理、跨文档逻辑推断等高阶能力。普通用户（如金融从业者、合规人员或AI采购决策者）需要了解 FinBench，因为它能帮助判断某个金融AI工具是否真正具备落地应用所需的行业级专业能力，而非仅在通用对话中表现良好。",
+    "plain": "FinBench 是面向金融领域 AI 模型的基准测试框架，系统评估大语言模型在财报分析、风险识别、合规等任务上的准确性与鲁棒性。它聚焦金融术语理解、数值推理及跨文档逻辑推断能力，帮助从业者判断 AI 工具是否具备行业级专业能力，而非仅通用对话表现。",
     "metaphor": "FinBench 就像金融AI的‘驾驶执照考试’——不考车速或外观，而是专门测试它能否读懂交规（监管文件）、计算油耗与里程（财务比率）、应对突发路况（市场异常事件）。",
     "example": "某银行在部署智能投研助手前，用 FinBench 测试其对2023年A股上市公司年报中‘商誉减值’披露的识别准确率与归因合理性，结果发现模型在复杂附注交叉验证任务上错误率达42%，从而暂缓上线并启动针对性微调。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "金融 AI",
+    "模型评估",
+    "基准测试"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/FinBench/FinBench"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:29:11Z"
+  "updated_at": "2026-03-23T11:59:28.886704Z",
+  "quality_score": 0.95
 }

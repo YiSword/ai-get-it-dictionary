@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "phi_3_vision",
+  "norm_term": "phi_3_vision",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "model",
+  "category": "视觉语言模型",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "phi_3_vision 是微软推出的轻量级多模态模型，属于 Phi-3 系列的视觉增强版本。它结合文本与图像理解能力，支持图文混合输入处理。模型经架构优化，在低算力下实现图像识别、场景描述及视觉问答等功能。适用于医疗影像、教育辅助及智能客服等场景，助力突破单一模态限制，提供更自然的交互体验。",
+    "metaphor": "就像给普通眼镜加装智能镜片，既能看清文字又能识别物体，还能即时解释眼前所见的内容",
+    "example": "医生上传 X 光片时，模型可自动标注异常区域并生成诊断建议；教师拍摄黑板板书后，系统能提取公式并生成习题解析"
+  },
+  "scenario_tags": [
+    "多模态处理",
+    "图像识别",
+    "智能交互"
+  ],
+  "sources": [
+    "https://huggingface.co/microsoft/Phi-3-vision-128k-instruct"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:42:34.257878Z",
+  "updated_at": "2026-03-23T16:57:00.151598Z",
+  "quality_score": 0.95
+}

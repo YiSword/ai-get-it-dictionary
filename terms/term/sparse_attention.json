@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "注意力机制",
   "difficulty": "中级",
   "explanations": {
-    "plain": "sparse_attention 是一种优化注意力机制的计算方法，它只让每个输入元素与少数关键元素（而非全部）进行交互，从而大幅降低计算复杂度和内存占用。在标准 Transformer 中，注意力计算的时间和空间复杂度随序列长度平方增长，而 sparse_attention 通过引入稀疏连接模式（如局部窗口、固定模式或学习型稀疏）缓解这一瓶颈。普通用户需要了解它，是因为它直接关系到大模型能否在有限硬件上高效运行——比如手机端实时语音识别、长文档摘要等应用都依赖此类技术实现可行性。",
+    "plain": "sparse_attention 是一种优化注意力机制的方法，仅让输入元素与少数关键元素交互，而非全部。这大幅降低了计算复杂度和内存占用，解决了标准 Transformer 复杂度随序列长度平方增长的问题。通过引入稀疏连接模式，它使大模型能在有限硬件上高效运行，适用于长文本处理等场景。",
     "metaphor": "就像开会时每个人不必听全场发言，而是只关注几位核心发言人，既节省精力又不遗漏重点。",
     "example": "Longformer 模型使用滑动窗口+全局token的稀疏注意力模式处理长达4096词的法律文档，显著提升长文本理解效率而不牺牲关键信息捕获能力。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "大模型",
+    "模型优化",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1904.10509",
+    "https://arxiv.org/abs/2004.05150"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T12:25:21Z",
-  "updated_at": "2026-03-21T09:49:34Z"
+  "updated_at": "2026-03-23T16:17:51.247815Z",
+  "quality_score": 0.95
 }

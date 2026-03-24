@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人工智能",
   "difficulty": "中级",
   "explanations": {
-    "plain": "大型语言模型（Large Language Model, LLM）是一种基于深度学习的AI系统，通过在海量文本数据上训练，学会理解、生成和推理人类语言。它能回答问题、写文章、翻译、编程等，是当前智能助手、聊天机器人和内容创作工具的核心技术。普通用户需要了解它，因为LLM正深度融入搜索引擎、办公软件、教育平台等日常工具中，理解其能力与局限（如可能编造信息、缺乏真实经验）有助于更安全、高效地使用AI服务。",
+    "plain": "大型语言模型（LLM）是基于深度学习的 AI 系统，经海量文本训练后能理解、生成及推理人类语言。它广泛应用于问答、写作、翻译及编程，是智能助手的核心技术。用户需注意其可能存在编造信息或缺乏真实经验等局限，以便更安全高效地使用相关服务。",
     "metaphor": "就像一位读过整个图书馆书籍、但从未亲身生活过的超级速记员——知识渊博却无法替你感受风吹雨打。",
     "example": "当你在手机备忘录中输入‘帮我写一封辞职信，语气礼貌简洁’，背后调用的LLM会即时生成符合要求的文本；又或程序员在VS Code中使用GitHub Copilot，由LLM实时建议代码补全。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "生成式 AI",
+    "机器学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Large_language_model"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T08:01:29Z"
+  "updated_at": "2026-03-23T16:16:31.994025Z",
+  "quality_score": 0.95
 }

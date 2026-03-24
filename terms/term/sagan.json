@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "网络安全",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Sagan 是一个开源的实时日志分析和入侵检测工具，主要用于解析、过滤、关联和告警系统日志（如 syslog、Apache 日志、防火墙日志等）。它通过规则引擎对海量日志流进行模式匹配与行为建模，帮助安全团队快速识别异常活动或潜在攻击。普通用户无需直接使用它，但若其使用的服务器、网络设备或云服务依赖 Sagan 进行安全监控，则该工具间接保障了系统的可用性与数据安全性。",
+    "plain": "Sagan 是一款开源实时日志分析与入侵检测系统。它利用规则引擎对 syslog、防火墙等日志进行模式匹配与行为关联，协助安全团队识别异常活动或潜在攻击。该工具常用于服务器安全监控，间接保障系统可用性与数据安全。",
     "metaphor": "就像一位不知疲倦的图书馆管理员，同时扫描成千上万本书的每一页，一旦发现某几页连续出现‘火’‘油’‘爆炸’等关键词组合，立刻拉响警报。",
     "example": "某企业将防火墙日志接入 Sagan，当检测到同一 IP 在 60 秒内发起 50 次 SSH 登录失败并紧随一次成功登录时，自动触发邮件告警并封禁该 IP。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "日志分析",
+    "入侵检测",
+    "安全运维"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/quadrantsec/sagan"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:24:24Z",
-  "updated_at": "2026-03-21T09:36:28Z"
+  "updated_at": "2026-03-23T11:07:03.816212Z",
+  "quality_score": 1.0
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 应用",
   "difficulty": "中级",
   "explanations": {
-    "plain": "SparkDesk 是科大讯飞推出的一款面向个人和企业用户的智能办公助手，集成了语音识别、自然语言处理、多模态交互等AI能力，支持会议记录、文档生成、PPT制作、翻译、写作润色等功能。它深度整合讯飞星火大模型，强调中文场景下的理解与生成质量。普通用户需要了解它，是因为它能显著提升日常办公效率，降低专业内容创作门槛，尤其适合非技术人员快速完成报告撰写、会议纪要整理、学习资料总结等高频任务。",
+    "plain": "SparkDesk 是科大讯飞基于星火大模型打造的智能办公助手。集成语音识别、自然语言处理等多模态 AI 能力，支持会议记录、文档生成、PPT 制作、翻译及写作润色。产品深度优化中文场景，旨在提升办公效率，降低创作门槛，适合用户快速完成报告撰写与资料总结等高频任务。",
     "metaphor": "就像一位精通多种办公技能、随时待命的超级助理，不仅能听懂你的口语指令，还能帮你把零散想法自动变成结构清晰的文档或演示文稿。",
     "example": "用户在听完一场两小时的技术分享后，用SparkDesk上传录音，5秒内生成带时间戳的要点纪要，并一键扩写为可用于内部培训的图文讲义。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "办公效率",
+    "内容生成",
+    "多模态交互"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://xinghuo.xfyun.cn/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T09:49:02Z"
+  "updated_at": "2026-03-23T11:28:38.799468Z",
+  "quality_score": 0.95
 }

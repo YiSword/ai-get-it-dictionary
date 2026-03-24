@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "agentic_rpa",
+  "norm_term": "agentic_rpa",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "solution",
+  "category": "智能自动化",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "Agentic RPA 是融合人工智能代理与机器人流程自动化的技术架构。它赋予流程自主决策、动态规划及跨系统协作能力，突破传统规则限制，处理非结构化数据与复杂场景。作为企业智能化转型核心，它显著降低人工干预，提升运营效率与灵活性，代表自动化技术向认知智能演进的关键方向。",
+    "metaphor": "如同从固定程序的扫地机器人升级为能自主规划路径、识别障碍并协调多设备工作的智能管家",
+    "example": "某企业财务部门部署 Agentic RPA 处理发票：系统自动识别不同格式的 PDF/图片发票，通过 NLP 提取关键信息，与 ERP 系统数据交叉验证，对异常票据自主发起复核流程，全程无需人工介入。"
+  },
+  "scenario_tags": [
+    "流程自动化",
+    "人工智能",
+    "企业数字化"
+  ],
+  "sources": [
+    "https://www.uipath.com/solutions/autonomous-automation",
+    "https://powerautomate.microsoft.com/zh-cn/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:03:06.076559Z",
+  "updated_at": "2026-03-23T11:42:21.069547Z",
+  "quality_score": 0.95
+}

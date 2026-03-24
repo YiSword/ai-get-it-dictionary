@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "人机交互",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Action（动作）是软件或系统中用户触发的、具有明确目的和可预期结果的最小交互单元，例如点击按钮、提交表单或拖拽文件。它代表用户意图的具象化表达，是人机交互的基本语义单位。普通用户需要理解 action，才能预判操作后果、避免误操作，并在界面提示不明确时做出合理判断；同时，掌握常见 action 的含义（如‘删除’不可逆、‘保存’需确认）有助于提升数字素养和使用效率。",
-    "metaphor": "就像按下一个物理开关——看似简单的一次按下，背后对应着电路接通、灯亮起这一整套确定的响应过程。",
-    "example": "在微信中长按一条消息后选择‘撤回’，这个‘撤回’就是一个 action，它立即触发系统删除该消息并通知对方，且无法恢复。"
+    "plain": "Action（动作）是软件或 AI 系统中具有明确意图的最小交互单元，如点击按钮、调用工具。它连接用户意图与系统响应，是人机交互的核心。理解 Action 有助于掌握操作机制，确保反馈及时，并支持误操作撤销。在 AI Agent 中，Action 指模型执行的具体任务步骤。",
+    "metaphor": "就像按下一个电灯开关——看似简单的一次物理操作，却直接触发了电路闭合、电流通过、灯泡亮起这一整套因果链。",
+    "example": "在微信中长按一条聊天消息并选择‘撤回’，这个‘撤回’就是一个 action，它立即向服务器发送指令，将已发出的消息从对方聊天界面中移除。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "人机交互",
+    "软件开发",
+    "人工智能"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://material.io/design/interaction/understanding-action.html",
+    "https://en.wikipedia.org/wiki/Action_(UML)"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T03:17:18Z"
+  "updated_at": "2026-03-23T14:51:01.611336Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "模型对齐",
   "difficulty": "中级",
   "explanations": {
-    "plain": "eliciting_latent_knowledge 指的是通过特定方法（如提问、提示、交互式推理）从模型或人脑中提取那些未被显式表达、但实际存在并影响行为的隐含知识。这类知识可能藏在训练数据模式、内部神经激活或经验直觉中，无法直接读取，需借助巧妙引导才能浮现。普通用户需要了解它，因为当前AI系统常‘知而不言’——比如能正确诊断疾病却无法解释依据，理解这一概念有助于判断AI输出的可信度，并在教育、医疗、法律等高风险场景中要求可解释性。",
+    "plain": "Eliciting Latent Knowledge (ELK) 是 AI 安全领域的核心问题，旨在通过特定技术从模型中提取其内部拥有但未显式输出的隐含知识。这有助于解决模型“知而不言”或欺骗性问题，确保 AI 系统在医疗、法律等高风险场景下的行为可信且可解释。当前研究多由对齐研究中心（ARC）推动，是评估模型真实意图的关键方法。",
     "metaphor": "就像心理医生用自由联想引导患者说出潜意识里的真实情绪，而非直接问‘你为什么焦虑’。",
     "example": "在调试一个医疗AI时，研究人员用反事实提示（如‘如果白细胞计数升高10%，诊断会如何变化？’）揭示模型实际依赖的关键生物标志物，而这些特征并未出现在其原始训练标签中。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 安全",
+    "模型对齐",
+    "可解释性"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://alignment.org/research/eliciting-latent-knowledge/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:03:43Z"
+  "updated_at": "2026-03-23T11:09:37.835897Z",
+  "quality_score": 1.0
 }

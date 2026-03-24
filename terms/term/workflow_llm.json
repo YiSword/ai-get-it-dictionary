@@ -1,0 +1,29 @@
+{
+  "entry_kind": "term",
+  "term": "workflow_llm",
+  "norm_term": "workflow_llm",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "concept",
+  "category": "技术概念",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "workflow_llm 指大型语言模型应用中的工作流编排技术。它通过标准化模型调用、数据处理及任务调度流程，解决多步骤任务中的协作效率与资源优化问题。该概念支撑客服自动化、内容生成等复杂场景，确保 AI 服务系统的可靠性与质量，是构建生产级 LLM 应用的核心工程模式。",
+    "metaphor": "如同工厂流水线将复杂生产拆解为标准化环节，workflow_llm 将语言模型任务分解为可协作的步骤，确保每个环节精准衔接，最终输出高质量结果。",
+    "example": "在电商客服系统中，workflow_llm 可协调多个模型：先由意图识别模型解析用户问题，再调用知识库检索模型获取信息，最后由回复生成模型输出答案，全程自动流转并记录日志。"
+  },
+  "scenario_tags": [
+    "AI 工程化",
+    "任务编排",
+    "大模型应用"
+  ],
+  "sources": [
+    "https://python.langchain.com/docs/concepts/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T08:35:42.721704Z",
+  "updated_at": "2026-03-23T18:54:16.472945Z",
+  "quality_score": 0.95
+}

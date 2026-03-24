@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Imagen 是 Google 开发的一种文本到图像生成模型，它能根据自然语言描述（如‘一只戴着墨镜的柴犬在太空站里喝咖啡’）高质量地合成逼真、细节丰富的图像。它不依赖于图像-文本配对训练数据，而是通过大型语言模型理解提示词，并结合扩散模型生成图像。普通用户需要了解 Imagen，因为它代表了AI图像创作的前沿能力——强调语义准确性与美学质量，影响着设计、内容创作和人机交互方式；同时，其技术路径也揭示了AI生成内容在版权、真实性与可控性方面的关键挑战。",
+    "plain": "Imagen 是 Google 研发的文本到图像生成模型。它结合大型语言模型与扩散模型，能根据自然语言描述生成高保真、细节丰富的图像。其优势在于强大的语义理解能力，能准确还原复杂提示词内容。作为多模态 AI 代表，它推动了设计与内容生产发展，同时也引发了关于生成内容版权与安全性的讨论。",
     "metaphor": "就像一位精通多国语言又拥有三十年画龄的天才插画师，你用日常话语描述想法，它立刻在画布上精准呈现你脑海中的画面，连光影质感和情绪氛围都分毫不差。",
     "example": "一名营销人员输入提示词‘北欧风格客厅，浅橡木地板，灰白布艺沙发，窗外有雪松和微光，柔和晨光，摄影级写实’，Imagen 在几秒内生成可用于广告投放的高分辨率场景图。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "文生图",
+    "多模态",
+    "内容创作"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://research.google/blog/imagen-scaling-text-to-image-diffusion-models/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:01:26Z",
-  "updated_at": "2026-03-21T07:25:01Z"
+  "updated_at": "2026-03-23T13:10:19.639364Z",
+  "quality_score": 1.0
 }

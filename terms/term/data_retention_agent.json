@@ -1,0 +1,30 @@
+{
+  "entry_kind": "term",
+  "term": "data_retention_agent",
+  "norm_term": "data_retention_agent",
+  "lang": "en",
+  "aliases": [],
+  "entity_type": "feature",
+  "category": "数据治理",
+  "difficulty": "中级",
+  "explanations": {
+    "plain": "数据保留代理是自动化管理数据存储周期与删除流程的工具。它依据预设策略监控数据生命周期，在满足合规要求（如 GDPR）或业务需求时，自动归档或清除过期数据。此举旨在解决手动管理效率低下及合规风险，确保数据安全并优化存储成本，是数据治理体系中的关键组件。",
+    "metaphor": "如同图书馆的智能书架，自动标记并处理超期借阅的书籍，既节省空间又避免违规罚款。",
+    "example": "金融公司使用该代理自动删除超过7年的交易记录，既满足监管要求，又减少存储成本。"
+  },
+  "scenario_tags": [
+    "数据合规",
+    "生命周期管理",
+    "自动化运维"
+  ],
+  "sources": [
+    "https://learn.microsoft.com/en-us/purview/retention-policies",
+    "https://gdpr.eu/principles/"
+  ],
+  "review_status": "auto_verified",
+  "content_source": "llm_generated_v2",
+  "hit_count": 0,
+  "created_at": "2026-03-23T09:02:38.546388Z",
+  "updated_at": "2026-03-23T12:00:50.717908Z",
+  "quality_score": 0.95
+}

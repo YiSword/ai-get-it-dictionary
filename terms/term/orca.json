@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Orca 是微软开发的一个开源大型语言模型系列，专为代码理解与生成任务优化，支持多编程语言，具备强推理能力和上下文感知能力。它并非通用聊天模型，而是面向开发者设计的‘编程协作者’，可嵌入IDE、代码审查工具或CI/CD流程中，实时提供函数补全、错误诊断、注释生成等帮助。普通用户（尤其是程序员）需要了解 Orca，因为它能显著提升编码效率、降低低级错误率，并在不依赖云端服务的前提下，通过本地或轻量部署实现隐私敏感的代码辅助。",
+    "plain": "Orca 是微软研究院推出的开源大语言模型系列，主打通过复杂解释轨迹进行渐进式学习，显著提升推理能力。它并非专用编程插件，而是通用推理模型，支持多种任务。开发者可利用其增强逻辑分析与问题解决能力，适合研究及本地部署场景。相比通用聊天模型，Orca 更注重思维链模仿与效率平衡。",
     "metaphor": "Orca 就像一位随叫随到的资深结对编程伙伴，坐在你身边默默阅读每一行代码，随时指出潜在漏洞、建议更优写法，却从不打断你的思路。",
     "example": "一名Python开发者在VS Code中启用基于Orca的插件，输入'plt.'后，模型即时推荐出符合当前数据结构的Matplotlib绘图方法，并自动生成带参数说明的完整示例代码。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "模型推理",
+    "开源模型",
+    "科研工具"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.microsoft.com/en-us/research/project/orca/",
+    "https://arxiv.org/abs/2306.02707"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:50:51Z",
-  "updated_at": "2026-03-21T09:02:57Z"
+  "updated_at": "2026-03-23T15:01:01.517121Z",
+  "quality_score": 1.0
 }

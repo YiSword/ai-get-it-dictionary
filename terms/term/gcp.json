@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "云计算",
   "difficulty": "中级",
   "explanations": {
-    "plain": "GCP（Google Cloud Platform）是谷歌提供的云计算服务平台，提供计算、存储、数据库、AI/ML、网络等一整套云基础设施与托管服务。它让个人开发者、初创公司和大型企业无需自建和维护物理服务器，就能按需使用弹性、可扩展的计算资源。普通用户需要了解GCP，不仅因为它支撑着许多日常应用（如YouTube后台处理、Gmail邮件过滤），还因为掌握其基础能力有助于职业发展、项目部署效率提升，以及在多云环境中做出更明智的技术选型。",
+    "plain": "GCP（Google Cloud Platform）是谷歌推出的云计算服务平台，提供计算、存储、数据库、AI 及网络等基础设施服务。用户无需自建服务器，即可按需使用弹性可扩展的计算资源。它支撑着 YouTube、Gmail 等日常应用，也是企业部署项目、进行多云选型的重要技术选项，有助于提升开发效率与职业发展。",
     "metaphor": "GCP就像一座智能城市中的公用设施网络——电力、供水、交通调度系统都由专业团队统一建设与运维，你只需按用量开通插座、水龙头或叫车服务，无需自己挖地铺线或修路。",
     "example": "一家电商创业公司使用GCP的Cloud Run快速部署促销活动的微服务，流量高峰时自动扩容，活动结束后资源自动释放，避免了传统服务器采购和闲置浪费。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "云计算",
+    "基础设施",
+    "开发者服务"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://cloud.google.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:37:05Z",
-  "updated_at": "2026-03-21T06:43:27Z"
+  "updated_at": "2026-03-23T16:32:04.955643Z",
+  "quality_score": 0.95
 }

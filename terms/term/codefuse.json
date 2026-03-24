@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CodeFuse 是由阿里云研发的开源大语言模型系列，专注于代码理解、生成与补全等任务，支持多种编程语言和开发场景。它并非一个工具或平台，而是一组可本地部署、可微调的AI模型，旨在提升开发者编写、审查、调试和文档化代码的效率。普通用户（尤其是程序员、技术团队或教育者）需要了解它，是因为它能降低重复编码门槛、辅助学习编程范式，并在隐私敏感环境中提供比闭源云端代码助手更可控的替代方案。",
+    "plain": "CodeFuse 是阿里云研发的开源代码大模型系列，专注于代码理解、生成与补全任务。支持多种编程语言，可本地部署与微调，旨在提升开发者编写、审查及调试效率。相比闭源云端助手，它为隐私敏感环境提供更可控的替代方案，适合程序员及技术团队使用。",
     "metaphor": "CodeFuse 就像一位随叫随到、熟悉数十种编程语言的资深结对程序员，不写需求文档，但能立刻读懂你的代码意图并精准补全、重构或解释。",
     "example": "一名Python工程师在编写数据清洗脚本时，输入几行pandas操作注释和函数签名，CodeFuse即可生成完整、符合PEP8规范的可运行代码；团队也可将其集成到VS Code插件中，实现离线环境下的智能代码补全。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "代码生成",
+    "开源模型",
+    "开发效率"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/codefuse-ai/codefuse"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:36:01Z"
+  "updated_at": "2026-03-23T11:29:33.517069Z",
+  "quality_score": 0.95
 }

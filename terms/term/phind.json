@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "AI 搜索引擎",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Phind 是一个面向开发者和高级技术用户的AI搜索引擎，专注于提供准确、可验证、基于最新技术文档和权威来源的答案，尤其擅长解答编程、系统设计、算法优化等专业问题。它不同于通用聊天机器人，不生成虚构内容，而是检索并综合高质量技术资源（如官方文档、Stack Overflow、GitHub Issues）后给出带引用的简洁回答。普通用户——尤其是程序员、运维工程师或学习计算机科学的学生——需要知道它，因为当遇到具体技术难题（如'如何在 Rust 中安全地跨线程传递 Arc<Mutex<T>>'）时，Phind 常比通用模型更快、更准、更可靠。",
+    "plain": "Phind 是专为开发者打造的 AI 搜索引擎，专注于提供准确、可验证的技术答案。它基于最新官方文档和权威来源检索信息，拒绝虚构内容。相比通用模型，Phind 在解决编程、系统设计等专业问题时更快更准，并提供引用来源，是程序员和技术学习者的可靠助手。",
     "metaphor": "Phind 就像一位随叫随到的资深技术图书管理员，不仅熟读所有最新版编程手册和社区精华帖，还能立刻为你精准定位并摘录最相关的段落，而不是凭记忆编故事。",
     "example": "一位前端开发者在调试 React 18 的并发渲染问题时，在 Phind 中输入‘useTransition 导致 suspense fallback 无限触发的原因’，立刻获得包含 React 官方博客链接、GitHub issue 讨论摘要和最小复现代码的结构化解答。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "AI 搜索引擎",
+    "开发者工具",
+    "技术问答"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.phind.com/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:58:17Z",
-  "updated_at": "2026-03-21T09:08:25Z"
+  "updated_at": "2026-03-23T15:46:23.643032Z",
+  "quality_score": 0.95
 }

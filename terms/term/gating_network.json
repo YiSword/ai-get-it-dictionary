@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "gating_network（门控网络）是一种用于动态控制信息流动的神经网络子结构，通常决定哪些输入特征或隐藏状态应被保留、抑制或加权融合。它不直接执行最终任务，而是像‘智能开关’一样为其他模块（如RNN单元、专家混合模型或注意力机制）提供可学习的权重分配。普通用户需要了解它，因为它是现代AI系统（如语音识别、机器翻译和推荐系统）实现上下文感知、长期记忆和多任务适应能力的关键设计之一，直接影响模型的灵活性与准确性。",
+    "plain": "门控网络是一种用于动态控制信息流动的神经网络子结构，决定哪些输入特征或隐藏状态应被保留、抑制或加权融合。它像智能开关为其他模块提供可学习的权重分配，是实现上下文感知、长期记忆和多任务适应能力的关键设计，直接影响模型的灵活性与准确性。",
     "metaphor": "就像音乐会现场的调音师，根据每首曲子的情绪和乐器组合实时调节各声道音量，门控网络根据当前输入动态调整不同信息通道的‘音量’。",
     "example": "在LSTM（长短期记忆网络）中，遗忘门和输入门就是典型的门控网络组件，它们决定上一时刻的细胞状态哪些部分该丢弃、哪些新信息该写入。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "深度学习",
+    "模型架构",
+    "自然语言处理"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html",
+    "https://ai.googleblog.com/2017/08/mixture-of-experts.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:20:59Z",
-  "updated_at": "2026-03-21T06:42:51Z"
+  "updated_at": "2026-03-23T15:34:31.957745Z",
+  "quality_score": 0.95
 }

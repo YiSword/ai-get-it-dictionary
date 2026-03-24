@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "运维管理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "CBM 是 'Condition-Based Maintenance'（基于状态的维护）的缩写，是一种通过实时监测设备运行参数（如振动、温度、噪声、电流等）来评估其健康状况，并在实际劣化发生前安排维修的策略。它区别于定期维护（不管设备好坏都按时间修）和事后维修（坏了才修），能显著减少非计划停机、延长设备寿命、降低运维成本。普通用户虽不直接操作，但在使用依赖关键设备的服务（如地铁准点运行、医院影像设备可用性、云服务稳定性）时，背后正是 CBM 在保障系统可靠性和响应效率。",
+    "plain": "CBM（Condition-Based Maintenance）即基于状态的维护。它通过实时监测设备参数（如振动、温度）评估健康状况，在实际劣化前安排维修。相比定期或事后维修，CBM 能减少非计划停机、延长寿命并降低成本。广泛应用于工业设备及云服务稳定性保障，是提升系统可靠性的关键策略。",
     "metaphor": "就像给汽车装上智能仪表盘——不是等到发动机异响或亮红灯才去修，而是通过持续读取机油压力、水温、转速波动等数据，在异常苗头初现时就提醒保养。",
     "example": "某风电场为每台风力发电机部署振动传感器与边缘分析模块，当轴承频谱中出现早期微弱的剥落特征频率时，系统自动触发检修工单，避免了因轴承突发失效导致的数天停机和高额更换成本。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "预测性维护",
+    "运维管理",
+    "工业物联网"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.iso.org/standard/52466.html",
+    "https://en.wikipedia.org/wiki/Condition-based_maintenance"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T04:22:39Z"
+  "updated_at": "2026-03-23T12:45:15.228860Z",
+  "quality_score": 0.95
 }

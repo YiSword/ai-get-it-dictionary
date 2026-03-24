@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "语音识别模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "whisper_small 是 OpenAI 开发的 Whisper 自动语音识别（ASR）模型系列中体积最小、推理速度最快的基础版本，参数量约2.4亿，可在消费级 GPU 或高性能 CPU 上实时运行。它在准确率与资源消耗间做了良好平衡，适合对延迟敏感或硬件受限的应用场景，如笔记本端实时字幕生成、轻量级语音笔记工具等。普通用户需要了解它，是因为它代表了当前开源语音识别中‘够用又省资源’的实用选择，无需昂贵设备即可体验较高质量的语音转文字功能。",
+    "plain": "whisper_small 是 OpenAI Whisper 语音识别系列中的轻量级版本，参数量约 2.4 亿。该模型在准确率与计算资源间取得平衡，支持消费级 GPU 或 CPU 实时推理。适用于笔记本实时字幕、轻量语音笔记等对延迟敏感或硬件受限的场景，是开源 ASR 领域高效实用的选择。",
     "metaphor": "就像一辆高效节能的城市通勤小车——不如豪华轿车舒适全能，但油耗低、停车方便、日常通勤绰绰有余。",
     "example": "一位远程办公的用户在 Zoom 会议中启用基于 whisper_small 的本地实时字幕插件，全程离线运行，不上传音频，且 CPU 占用率稳定低于40%。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "语音识别",
+    "实时转录",
+    "轻量级部署"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://github.com/openai/whisper",
+    "https://openai.com/research/whisper"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T16:28:00Z",
-  "updated_at": "2026-03-21T10:26:33Z"
+  "updated_at": "2026-03-23T17:55:25.170373Z",
+  "quality_score": 0.95
 }

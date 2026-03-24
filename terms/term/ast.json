@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "编译原理",
   "difficulty": "中级",
   "explanations": {
-    "plain": "AST（Abstract Syntax Tree，抽象语法树）是源代码在编译或解释过程中被解析后生成的一种树状数据结构，它忽略无关细节（如空格、括号风格），只保留程序的语法结构和语义关系。程序员、前端开发者和工具链构建者需要理解AST，因为它是代码转换（如Babel转译）、静态分析（如ESLint检查）、代码压缩（如Terser）和IDE智能提示等工具的核心中间表示。",
+    "plain": "AST（抽象语法树）是源代码解析后生成的树状数据结构，忽略空格等无关细节，仅保留语法结构和语义关系。它是编译器、解释器及代码工具的核心中间表示，广泛应用于代码转换（如 Babel）、静态分析（如 ESLint）、代码压缩及 IDE 智能提示等场景，是理解程序结构的关键。",
     "metaphor": "就像建筑师把一栋建筑的设计图纸转化为结构清晰的骨架模型，AST把人类可读的代码转化为机器可理解的‘语法骨架’。",
     "example": "Babel将ES6的箭头函数 (x) => x * 2 转译为ES5时，先将其解析为AST，再遍历该树，将节点重写为function(x) { return x * 2; }，最后生成新代码。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "编译技术",
+    "代码分析",
+    "前端工程"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Abstract_syntax_tree",
+    "https://babeljs.io/docs/en/babel-parser"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:44:38Z"
+  "updated_at": "2026-03-23T16:28:17.922144Z",
+  "quality_score": 0.95
 }

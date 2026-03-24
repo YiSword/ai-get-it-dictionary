@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "大语言模型",
   "difficulty": "中级",
   "explanations": {
-    "plain": "qwen是阿里巴巴集团研发的超大规模语言模型系列，能够理解与生成自然语言、代码、表格等多种形式的内容。它支持多语言、长文本处理和复杂推理任务，广泛应用于智能客服、内容创作、编程辅助等场景。普通用户需要了解qwen，是因为它正逐步融入日常使用的App、办公工具和搜索引擎中，影响信息获取、内容生成和人机交互的方式。",
+    "plain": "通义千问（Qwen）是阿里巴巴集团研发的超大规模语言模型系列。它具备强大的自然语言理解与生成能力，支持多语言、长文本处理及代码编写。广泛应用于智能客服、内容创作及编程辅助等场景，正逐步融入各类办公工具与搜索引擎，改变人机交互方式。",
     "metaphor": "就像一位精通数十种语言、熟读千万本书且随时待命的全能助理，qwen能在你提问的瞬间调用海量知识，给出清晰、连贯、有逻辑的回答。",
     "example": "当你在钉钉中输入‘帮我写一封向客户解释项目延期的邮件’，背后可能正是qwen在实时生成专业得体的文案。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "内容创作",
+    "编程辅助"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://tongyi.aliyun.com/",
+    "https://github.com/QwenLM"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T09:23:37Z",
-  "updated_at": "2026-03-21T09:26:25Z"
+  "updated_at": "2026-03-23T16:37:26.889744Z",
+  "quality_score": 0.95
 }

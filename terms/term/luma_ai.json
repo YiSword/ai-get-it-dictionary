@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "生成式 AI",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Luma AI 是一家专注于三维内容生成技术的公司，其核心产品是基于神经辐射场（NeRF）和生成式AI的移动端3D扫描与建模工具，允许用户用普通智能手机摄像头快速捕获物体或场景并生成高保真、可交互的3D模型。普通用户需要了解它，是因为它大幅降低了3D内容创作门槛——无需专业设备或建模技能，即可为电商展示、AR社交、游戏资产甚至数字孪生应用快速生成真实感三维资产。",
+    "plain": "Luma AI 是专注于三维内容生成的科技公司，核心产品基于神经辐射场（NeRF）和生成式 AI 技术。用户仅需智能手机即可快速捕获物体或场景，生成高保真、可交互的 3D 模型。该工具大幅降低了 3D 创作门槛，无需专业设备或建模技能，广泛应用于电商展示、AR 社交、游戏资产制作及数字孪生等领域。",
     "metaphor": "就像用手机拍照自动生成一幅立体油画，不仅记录画面，还瞬间捕捉了光影、深度和材质的全部空间信息。",
     "example": "一位手工艺人用Luma AI App围绕自己的陶艺作品缓慢拍摄一圈，15秒后即生成一个可在Instagram AR滤镜中旋转查看、或导出至Sketchfab分享的逼真3D模型。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "3D 内容生成",
+    "神经辐射场",
+    "AIGC"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://lumalabs.ai/"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T15:03:06Z",
-  "updated_at": "2026-03-21T08:23:11Z"
+  "updated_at": "2026-03-23T12:47:39.612506Z",
+  "quality_score": 1.0
 }

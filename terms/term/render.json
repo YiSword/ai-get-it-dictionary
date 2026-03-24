@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "前端开发",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Render 是指将数据（如代码、模板或模型）转换为用户可感知形式（如网页、图像或音频）的计算过程。在网页开发中，它特指浏览器将 HTML、CSS 和 JavaScript 解析并绘制为可视界面的动作；在图形学中，则指生成最终图像的算法过程。普通用户虽不直接操作 render，但其体验——页面是否快速显示、动画是否流畅、3D 场景是否逼真——都直接受渲染质量与效率影响，因此理解该术语有助于识别性能问题或沟通技术需求。",
+    "plain": "Render 是将数据转换为用户可感知形式的计算过程。网页开发中，指浏览器解析代码并绘制可视界面的动作；图形学中，指生成最终图像的算法。页面显示速度、动画流畅度及 3D 场景逼真度均受渲染效率影响。理解该术语有助于识别性能问题或沟通技术需求。",
     "metaphor": "就像厨师把食谱和食材加工成一道端上桌的完整菜肴，render 是把抽象指令和数据‘烹饪’成眼睛能看到、耳朵能听到的最终成品。",
     "example": "当你在浏览器中打开一个 React 应用，组件状态更新后，框架会重新 render 相关 UI，使页面内容实时变化而不必刷新整个网页。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "前端开发",
+    "性能优化",
+    "图形渲染"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://developer.mozilla.org/zh-CN/docs/Glossary/Render"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:18:55Z",
-  "updated_at": "2026-03-21T09:31:26Z"
+  "updated_at": "2026-03-23T13:48:13.711885Z",
+  "quality_score": 0.95
 }

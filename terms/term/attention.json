@@ -5,22 +5,25 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "深度学习",
   "difficulty": "中级",
   "explanations": {
-    "plain": "Attention 是一种人工智能模型中的核心机制，用于让模型在处理输入（如一段文字或图像）时，动态地决定哪些部分更关键、应分配更多计算资源。它取代了传统模型中固定权重或顺序处理的局限，使模型能像人一样‘聚焦’于重要信息。普通用户需要知道它，因为它是现代聊天机器人、实时翻译、语音助手等智能服务背后的关键技术，直接影响响应的准确性与自然度。",
+    "plain": "Attention 是深度学习核心机制，使模型在处理文本或图像时，动态聚焦于关键信息而非平等对待所有输入。它突破传统固定权重限制，显著提升长序列理解能力。作为大语言模型、机器翻译及语音识别的基石，Attention 直接决定智能服务的响应准确性与流畅度，是实现高效信息处理的关键技术。",
     "metaphor": "就像开会时主持人把灯光打在发言者脸上，同时调暗其他区域，attention 让模型在海量信息中自动‘打 spotlight’到最相关的词或像素。",
     "example": "当你用手机翻译一句长英文时，attention 机制帮助模型精准对齐中文译文中的每个词与原文中对应的关键短语，而非机械逐字转换。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "自然语言处理",
+    "大语言模型",
+    "深度学习"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://arxiv.org/abs/1706.03762"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-19T10:02:59Z",
-  "updated_at": "2026-03-21T03:45:25Z"
+  "updated_at": "2026-03-23T12:06:13.365251Z",
+  "quality_score": 0.95
 }

@@ -5,22 +5,26 @@
   "lang": "en",
   "aliases": [],
   "entity_type": "concept",
-  "category": "其他",
+  "category": "电机控制",
   "difficulty": "中级",
   "explanations": {
-    "plain": "voltage_park 是电机控制领域中帕克变换（Park transform）后得到的两个正交电压分量（d轴和q轴电压）的统称，用于将三相静止坐标系（abc）下的时变交流电压转换为两相旋转坐标系（dq）下的直流量。这一变换简化了永磁同步电机或感应电机的矢量控制设计，使电流、磁链和转矩可被独立调节。普通用户无需直接操作该参数，但若使用高性能伺服驱动器、电动汽车电控系统或工业变频器，理解 voltage_park 有助于诊断控制异常（如转矩波动或响应迟滞），并为调试高级控制算法提供基础认知。",
+    "plain": "voltage_park 指电机矢量控制中经帕克变换后的 d 轴和 q 轴电压分量。它将三相交流电压转换为旋转坐标系下的直流量，简化电机控制算法，实现转矩与磁链的解耦调节。常用于伺服驱动器、电动汽车电控及变频器调试，是诊断转矩波动或响应迟滞的关键参数。",
     "metaphor": "就像把一张不停旋转的三维地形图投影到一个随山体坡向同步转动的二维平面坐标上，原本起伏不定的曲线变成了稳定的高低值。",
     "example": "在新能源汽车电驱动控制器中，MCU实时计算 voltage_park（vd, vq）以精确调节逆变器输出，确保电机在加速时优先提升q轴电压来增大转矩，同时抑制d轴电压以减少去磁风险。"
   },
   "scenario_tags": [
-    "AI 基础",
-    "应用",
-    "理解"
+    "矢量控制",
+    "电机驱动",
+    "嵌入式开发"
   ],
-  "sources": [],
-  "review_status": "llm_generated",
+  "sources": [
+    "https://www.ti.com/tool/MOTORCONTROL-SDK",
+    "https://www.mathworks.com/help/mcb/ug/park-transform.html"
+  ],
+  "review_status": "auto_verified",
   "content_source": "llm_generated_v2",
   "hit_count": 0,
   "created_at": "2026-03-20T13:31:39Z",
-  "updated_at": "2026-03-21T10:21:32Z"
+  "updated_at": "2026-03-23T15:10:51.366387Z",
+  "quality_score": 0.95
 }
